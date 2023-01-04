@@ -1,1 +1,1 @@
-# modelling-workshops
+# Modelling Workshops
