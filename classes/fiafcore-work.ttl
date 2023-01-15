@@ -45,11 +45,23 @@
     rdfs:domain fiaf:Work ;
     rdfs:range fiaf:Activity .
 
+<https://fiafcore.org/ontology/hasContentDescription> a owl:ObjectProperty ;
+    rdfs:label "Has Content Description"@en ;
+    dc:source "FIAF Cataloguing Manual 1.3.6"^^xsd:string ;
+    rdfs:domain fiaf:Work ;
+    rdfs:range fiaf:ContentDescription .
+
 <https://fiafcore.org/ontology/hasCountry> a owl:ObjectProperty ;
     rdfs:label "Has Country"@en ;
     dc:source "FIAF Cataloguing Manual 1.3.3"^^xsd:string ;
     rdfs:domain fiaf:Work ;
     rdfs:range fiaf:Country .
+
+<https://fiafcore.org/ontology/hasEvent> a owl:ObjectProperty ;
+    rdfs:label "Has Event"@en ;
+    dc:source "FIAF Cataloguing Manual 1.4.2"^^xsd:string ;
+    rdfs:domain fiaf:Work ;
+    rdfs:range fiaf:Event .
 
 <https://fiafcore.org/ontology/hasGenre> a owl:ObjectProperty ;
     rdfs:label "Has Genre"@en ;
@@ -86,3 +98,11 @@
     dc:source "FIAF Cataloguing Manual 1.3.2"^^xsd:string ;
     rdfs:domain fiaf:Work ;
     rdfs:range fiaf:Title .
+
+# Datatype Properties
+
+<https://fiafcore.org/ontology/hasNote> a owl:DatatypeProperty ;
+    rdfs:label "Has Note"@en ;
+    dc:source "FIAF Cataloguing Manual 1.3.7"^^xsd:string ;
+    rdfs:domain fiaf:Work ;
+    rdfs:range xsd:string . # check that this is accurate
