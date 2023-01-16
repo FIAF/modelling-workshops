@@ -2,7 +2,7 @@
 
 **1.2.1 Work/Variant Description Type**
 
-These are expressed as subclasses of the `work` class, and are used to apply a *type* of `work`: `https://www.filmovyprehled.cz/cs/film/396690/sedmikrasky` > `rdf:type` > `fiaf:Monographic`
+These are expressed as subclasses of the `work` class, and are used to apply a *type* of `work`, e.g. `https://www.filmovyprehled.cz/cs/film/396690/sedmikrasky` > `rdf:type` > `fiaf:Monographic`.
 
 ```ttl
 <https://fiafcore.org/ontology/Analytic> a owl:Class ;
@@ -33,13 +33,13 @@ Does not apply to `work`.
 **1.3.1 Identifier**
 **1.3.1.1 Identifier Type**
 
-Modelling in RDF/OWL does factor in some different considerations from how you would work if you were modelling for a traditional CMS, for instance for implementing identifier in a CMS you would normally want a section with two fields: 'Identifier type':'Wikidata' and 'identifier code/id':'Q1421747', or more simply 'wikidata id':'Q1421747'.
+Working with RDF/OWL involves slightly different modelling considerations than working with a traditional CMS. A traditional implementation of identifier would involve two fields: 'Identifier type':'Wikidata' and 'Identifier code':'Q1421747', or more simply 'Wikidata ID':'Q1421747'.
 
-In RDF, your "type" is an inherent part of declaring the existence of an identifier, so you would be more likely to do something like http://collections.cinematheque.qc.ca/recherche/oeuvres/fiche/2082 > hasIdentifier > blank node to represent the Wikidata identifier for this work (type: WikidataIdentifier) > hasIdentifierText > Q1421747.
+In RDF, *type* is an inherent part of declaring the existence of an entity, so you would do something like `http://collections.cinematheque.qc.ca/recherche/oeuvres/fiche/2082` > `hasIdentifier` > `blank node to represent the Wikidata identifier for this work (of type "Wikidata Identifier")` > `hasIdentifierText` > `Q1421747`. A blank node is a placeholder to show that there is a concrete entity which we are talking about (in this case "the wikidata identifier which corresponds with this work"), but we would not give this entity itself its own id.
 
-A shorter option would be to drop the blank node, so http://collections.cinematheque.qc.ca/recherche/oeuvres/fiche/2082 > hasWikidataIdentifier > Q1421747, but I personally much prefer the extended model as it allows you to non-destructively allow further data statements against the "entity which is Cinémathèque-québécoise-wikidata-id-for-picnic-at-hanging-rock" (eg "true as of time") in the future if you wish to extend the ontology.
+A shorter option would be to drop the blank node, so `http://collections.cinematheque.qc.ca/recherche/oeuvres/fiche/2082` > `hasWikidataIdentifier` > `Q1421747`, but I prefer the extended version as it allows non-destructive ontology editing in the future, easpecially if you wished to extend the model (e.g. "true as of time").
 
-Below the connection between `work` and `identifier` entity are expressed.
+Below is the connection between `work` and `identifier` classes.
 
 ```ttl
 <https://fiafcore.org/ontology/hasIdentifier> a owl:ObjectProperty ;
@@ -52,7 +52,7 @@ Below the connection between `work` and `identifier` entity are expressed.
 **1.3.2 Title**
 **1.3.2.1 Title Type**
 
-Similar to Identifier, *type* would be expressed first on a blank node (with the possibility of further specific properties) followed by title-as-text `https://www.filmovyprehled.cz/cs/film/396690/sedmikrasky` > `hasTitle` > `blank node (type: Title Proper)` > `hasTitleText` > `Sedmikrásky`. Here we are just expressing the connection between `work` and `title`. 
+Similar to `identifier`, *title type* would be expressed first on a blank node (with the possibility of further specific properties) followed by title-as-text, e.g. `https://www.filmovyprehled.cz/cs/film/396690/sedmikrasky` > `hasTitle` > `blank node for this title of this work (of type "Title Proper")` > `hasTitleText` > `Sedmikrásky`. Here we are just expressing the connection between the `work` and `title` component of the statement. 
 
 
 ```ttl
@@ -66,9 +66,9 @@ Similar to Identifier, *type* would be expressed first on a blank node (with the
 **1.4.1 Agent**
 **1.4.1.1 Agent Activity**
 
-A deviation from the manual, which seems to allow direct `work`/`agent` relationships, is that here we require an intermediate `activity` entity, even if the nature of the activity is unknown.
+In a deviation from the manual, which seems to allow direct `work`/`agent` relationships, here we require an intermediate `activity` entity, even if the nature of that `activity` is unknown.
 
-This `activity` blank node could also link information explicit to that contribution (e.g. salary, screen time, how credited).
+This `activity` blank node could also link information explicit to that contribution to that `work` (e.g. salary, screentime, how credited).
 
 ```
 <https://fiafcore.org/ontology/hasActivity> a owl:ObjectProperty ;
@@ -81,7 +81,7 @@ This `activity` blank node could also link information explicit to that contribu
 
 **1.3.3 Country of Reference**
 
-One day `country` could be inferred based on location data attributed to `events` or `agents` (which would also allow for a plurality of interpretations to coexist), but I recognise that it is historically a  filmographic staple and extremely useful for disambiguation.
+Maybe one day `country` could be inferred based on location data attributed to `events` or `agents` (which would also allow for a plurality of interpretations of how to attribute film nationality to coexist), but it is historically a filmographic staple and extremely useful for disambiguation.
 ```
 
 <https://fiafcore.org/ontology/hasCountry> a owl:ObjectProperty ;
@@ -95,7 +95,7 @@ One day `country` could be inferred based on location data attributed to `events
 **1.3.5.1 Language Term**
 **1.3.5.2 Usage Type**
 
-Following the same modelling strategy in this case does feel slighly unintitutive - `language` declared first by the *type of language*, and then the language itself `https://www.filmovyprehled.cz/cs/film/396690/sedmikrasky` > `hasLanguageUsage` > `blank node (type: Spoken)` > `hasLanguage` > `Czech`.
+Following the same modelling strategy in this case does feel slighly unintitutive - `work` connected to *type of language*, and then the language itself, e.g. `https://www.filmovyprehled.cz/cs/film/396690/sedmikrasky` > `hasLanguageUsage` > `blank node (of type "Spoken", subclass of "Language Usage")` > `hasLanguage` > `Czech`.
 
 ```
 <https://fiafcore.org/ontology/hasLanguageUsage> a owl:ObjectProperty ;
@@ -132,7 +132,7 @@ Same for `genre`, e.g. `https://www.filmovyprehled.cz/cs/film/396690/sedmikrasky
     rdfs:range fiaf:Genre .
 ```
 
-`Subject` is more complex, following the pattern of Form/Genre (treated as equivalent in the cataloguing manual) we would expect `work` > `hasSubject` > `some subject`. But is the subject an entity or text? Entity would be preferable to manage polysemy, but what resource contains entities for all possible subjects (e.g. Catalogue examples: "Street-railroads", "Horse-drawn vehicles", "Automobiles"). Maybe here we could freely link out to external concepts, e.g. `https://www.filmovyprehled.cz/cs/film/396690/sedmikrasky` > `hasSubject` > SOME RELEVANT WIKIDATA CONCEPT
+`Subject` is more complex, following the pattern of Form/Genre (treated as equivalent in the cataloguing manual) we would expect `work` > `hasSubject` > `some subject`. But is the subject an entity or text? Entity would be preferable to manage polysemy, but what resource contains entities for all possible subjects (e.g. Catalogue examples: "Street-railroads", "Horse-drawn vehicles", "Automobiles"). Maybe here we could freely link out to external concepts, e.g. `https://www.filmovyprehled.cz/cs/film/396690/sedmikrasky` > `hasSubject` > `https://www.wikidata.org/wiki/Q870`.
 
 ```
 <https://fiafcore.org/ontology/hasSubject> a owl:ObjectProperty ;
@@ -153,25 +153,33 @@ Same for `genre`, e.g. `https://www.filmovyprehled.cz/cs/film/396690/sedmikrasky
     rdfs:range fiaf:ContentDescription .
 ```
 
-
-
-
 **1.3.7 Notes**
 
-```
-<https://fiafcore.org/ontology/hasNote> a owl:DatatypeProperty ;
-    rdfs:label "Has Note"@en ;
-    dc:source "FIAF Cataloguing Manual 1.3.7"^^xsd:string ;
-    rdfs:domain fiaf:Work ;
-    rdfs:range xsd:string . # check that this is accurate
-```
+While `notes` would be useful in the context of a CMS, I am not sure about their place in a harmonised knowledge base. If possible, effort should be made to extract explicit `work`/`agent` and `work`/`event` statements which can be expressed via those relevant structures. 
 
 **1.3.8 History**
 **1.3.8.1 Custodial History**
 **1.3.8.2 Censorship History**
 **1.3.8.3 Other Work/Variant History**
+
+As with `notes`, the manual seems to indicate that historical information should be expressed as blocks of text, which I would argue is unsuited to formal data modelling. 
+
 **1.4 Relationships**
+
+This should be covered by the relationships expressed above and below.
+
 **1.4.2 Events**
+
+The modelling for `events` can occupy their own space, here we are just declaring that a `work` has a `event`.
+
+```ttl
+<https://fiafcore.org/ontology/hasEvent> a owl:ObjectProperty ;
+    rdfs:label "Has Event"@en ;
+    dc:source "FIAF Cataloguing Manual 1.4.2"^^xsd:string ;
+    rdfs:domain fiaf:Work ;
+    rdfs:range fiaf:Event .
+```
+
 **1.4.4 Other Relationships**
 
 
