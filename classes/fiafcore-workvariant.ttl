@@ -93,14 +93,14 @@
     rdfs:domain fiaf:WorkVariant ;
     rdfs:range fiaf:Title .
 
-<https://fiafcore.org/ontology/hasVariant> a owl:ObjectProperty ;
-    rdfs:label "Has Variant"@en ;
-    dc:source "FIAF Cataloguing Manual 1.4.5"^^xsd:string ;
-    rdfs:domain fiaf:WorkVariant ;
-    rdfs:range fiaf:WorkVariant .
-
 <https://fiafcore.org/ontology/hasVariantType> a owl:ObjectProperty ;
     rdfs:label "Has Variant Type"@en ;
     dc:source "FIAF Cataloguing Manual 1.2.2"^^xsd:string ;
     rdfs:domain fiaf:WorkVariant ;
     rdfs:range fiaf:VariantType .
+
+<https://fiafcore.org/ontology/hasWorkVariant> a owl:ObjectProperty ;
+    rdfs:label "Has Variant"@en ;
+    dc:source "FIAF Cataloguing Manual 1.4.5"^^xsd:string ;
+    rdfs:domain fiaf:WorkVariant ;
+    rdfs:range fiaf:WorkVariant .

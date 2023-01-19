@@ -146,5 +146,5 @@ The modelling for `events` will be quite involved, here we are just declaring th
 
 **Other Properties**
 
-`hasManifestation` and `hasVariant` link the `work/variant` to child entities. 
+`hasManifestation` and `hasWorkVariant` link the `work/variant` to child entities. 
 
