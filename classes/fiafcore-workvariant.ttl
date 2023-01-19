@@ -100,7 +100,7 @@
     rdfs:range fiaf:VariantType .
 
 <https://fiafcore.org/ontology/hasWorkVariant> a owl:ObjectProperty ;
-    rdfs:label "Has Variant"@en ;
+    rdfs:label "Has Work/Variant"@en ;
     dc:source "FIAF Cataloguing Manual 1.4.5"^^xsd:string ;
     rdfs:domain fiaf:WorkVariant ;
     rdfs:range fiaf:WorkVariant .
