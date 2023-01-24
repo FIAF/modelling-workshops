@@ -101,6 +101,6 @@
 
 <https://fiafcore.org/ontology/hasTitle> a owl:ObjectProperty ;
     rdfs:label "Has Title"@en ;
-    dc:source "FIAF Cataloguing Manual 2.3.2"^^xsd:string ;
+    dc:source "FIAF Cataloguing Manual 2.3.2.1"^^xsd:string ;
     rdfs:domain fiaf:Manifestation ;
     rdfs:range fiaf:Title .
