@@ -81,6 +81,13 @@ jobs:
       with:
         script: |
           
+          # import libraries
+          
+          import pathlib
+          import rdflib
+          
+          # write readme
+          
           with open(pathlib.Path.cwd() / 'README.md', 'w') as readme:
             readme.write('testing')
             
