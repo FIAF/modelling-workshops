@@ -86,10 +86,23 @@ jobs:
           import pathlib
           import rdflib
           
+          md = ''
+          
+          # workshop intro
+          
+          md += '# Modelling Workshops\n'
+          md += 'Owing to recent conversation around formal modelling of the FIAF Cataloguing \
+            Manual and EN15907, we intend on holding a series of workshops to explicitly \
+            discuss these concepts. The goal of these workshops will be to provide both a \
+            formal implementation of the Cataloguing Manual (as RDF/OWL), as well as a shared \
+            model which could be used for the interoperability of film data between organisations.\n'
+          md += 'These will take place weekly, starting Thursday 12th of January at 5pm CET and \
+            will be short meetings of no longer than an hour each. '
+          
           # write readme
           
           with open(pathlib.Path.cwd() / 'README.md', 'w') as readme:
-            readme.write('testing')
+            readme.write(md)
             
           
 #           # import libraries
