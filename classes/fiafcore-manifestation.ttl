@@ -1,0 +1,106 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix fiaf: <https://fiafcore.org/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Ontology
+
+<https://fiafcore.org/ontology/> a owl:Ontology ;
+    dc:title "FIAFcore" .
+
+# Class
+
+<https://fiafcore.org/ontology/Manifestation> a owl:Class ;
+    rdfs:label "Manifestation"@en ;
+    dc:source "FIAF Cataloguing Manual 2.0"^^xsd:string .
+
+# Subclasses
+
+<https://fiafcore.org/ontology/PreRelease> a owl:Class ;
+    rdfs:label "Pre-Release"@en ;
+    dc:source "FIAF Cataloguing Manual D.5.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:Manifestation .
+
+<https://fiafcore.org/ontology/TheatricalDistribution> a owl:Class ;
+    rdfs:label "Theatrical Distribution"@en ;
+    dc:source "FIAF Cataloguing Manual D.5.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:Manifestation .
+
+<https://fiafcore.org/ontology/NonTheatricalDistribution> a owl:Class ;
+    rdfs:label "Non-Theatrical Distribution"@en ;
+    dc:source "FIAF Cataloguing Manual D.5.3"^^xsd:string ;
+    rdfs:subClassOf fiaf:Manifestation .
+
+<https://fiafcore.org/ontology/NotForRelease> a owl:Class ;
+    rdfs:label "Not For Release"@en ;
+    dc:source "FIAF Cataloguing Manual D.5.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:Manifestation .
+
+<https://fiafcore.org/ontology/Unreleased> a owl:Class ;
+    rdfs:label "Unreleased"@en ;
+    dc:source "FIAF Cataloguing Manual D.5.5"^^xsd:string ;
+    rdfs:subClassOf fiaf:Manifestation .
+
+<https://fiafcore.org/ontology/HomeViewingPublication> a owl:Class ;
+    rdfs:label "Home Viewing Publication"@en ;
+    dc:source "FIAF Cataloguing Manual D.5.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:Manifestation .
+
+<https://fiafcore.org/ontology/Broadcast> a owl:Class ;
+    rdfs:label "Broadcast"@en ;
+    dc:source "FIAF Cataloguing Manual D.5.7"^^xsd:string ;
+    rdfs:subClassOf fiaf:Manifestation .
+
+<https://fiafcore.org/ontology/Internet> a owl:Class ;
+    rdfs:label "Internet"@en ;
+    dc:source "FIAF Cataloguing Manual D.5.8"^^xsd:string ;
+    rdfs:subClassOf fiaf:Manifestation .
+
+<https://fiafcore.org/ontology/PreservationRestoration> a owl:Class ;
+    rdfs:label "Preservation/Restoration"@en ;
+    dc:source "FIAF Cataloguing Manual D.5.9"^^xsd:string ;
+    rdfs:subClassOf fiaf:Manifestation .
+
+<https://fiafcore.org/ontology/UnknownManifestation> a owl:Class ;
+    rdfs:label "Unknown Manifestation"@en ;
+    dc:source "FIAF Cataloguing Manual D.5.10 "^^xsd:string ;
+    rdfs:subClassOf fiaf:Manifestation .
+
+# Object Properties
+
+<https://fiafcore.org/ontology/hasActivity> a owl:ObjectProperty ;
+    rdfs:label "Has Activity"@en ;
+    dc:source "FIAF Cataloguing Manual 2.4.1.1"^^xsd:string ;
+    rdfs:domain fiaf:Manifestation ;
+    rdfs:range fiaf:Activity .
+
+<https://fiafcore.org/ontology/hasEvent> a owl:ObjectProperty ;
+    rdfs:label "Has Event"@en ;
+    dc:source "FIAF Cataloguing Manual 2.4.2"^^xsd:string ;
+    rdfs:domain fiaf:Manifestation ;
+    rdfs:range fiaf:Event .
+
+<https://fiafcore.org/ontology/hasIdentifier> a owl:ObjectProperty ;
+    rdfs:label "Has Identifier"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.1"^^xsd:string ;
+    rdfs:domain fiaf:Manifestation ;
+    rdfs:range fiaf:Identifier .
+
+<https://fiafcore.org/ontology/hasItem> a owl:ObjectProperty ;
+    rdfs:label "Has Item"@en ;
+    dc:source "FIAF Cataloguing Manual 2.4.4"^^xsd:string ;
+    rdfs:domain fiaf:Manifestation ;
+    rdfs:range fiaf:Item .
+
+<https://fiafcore.org/ontology/hasLanguageUsage> a owl:ObjectProperty ;
+    rdfs:label "Has Language Usage"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.3.2"^^xsd:string ;
+    rdfs:domain fiaf:Manifestation ;
+    rdfs:range fiaf:LanguageUsage .
+
+<https://fiafcore.org/ontology/hasTitle> a owl:ObjectProperty ;
+    rdfs:label "Has Title"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.2.1"^^xsd:string ;
+    rdfs:domain fiaf:Manifestation ;
+    rdfs:range fiaf:Title .

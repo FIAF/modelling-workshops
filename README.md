@@ -8,3 +8,4 @@ These will take place weekly, starting Thursday 12th of January at 5pm CET and w
 
 [fiaf:Work/Variant](classes/fiafcore-workvariant.ttl) [[WebVOWL](http://vowl.visualdataweb.org/webvowl-old/webvowl-old.html#iri=https://raw.githubusercontent.com/FIAF/modelling-workshops/main/classes/fiafcore-workvariant.ttl)]
 
+[fiaf:Manifestation](classes/fiafcore-manifestation.ttl) [[WebVOWL](http://vowl.visualdataweb.org/webvowl-old/webvowl-old.html#iri=https://raw.githubusercontent.com/FIAF/modelling-workshops/3-manifestation/classes/fiafcore-manifestation.ttl)]
