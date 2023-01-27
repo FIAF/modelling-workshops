@@ -5,7 +5,7 @@ These will take place weekly, starting Thursday 12th of January at 5pm CET and  
 
 Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdataweb.org/webvowl-old/webvowl-old.html#iri=https://raw.githubusercontent.com/FIAF/modelling-workshops/main/ontology.ttl)]
 
-> ## **Classes**   
+> **Classes**   
 ####  Analytic   
 **iri** https://fiafcore.org/ontology/Analytic   
 **label** Analytic   
@@ -100,7 +100,7 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Work/Variant   
 **source** FIAF Cataloguing Manual 1.0   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
-> ## **Object Properties**   
+> **Object Properties**   
 ####  Has Activity   
 **iri** https://fiafcore.org/ontology/hasActivity   
 **label** Has Activity   
