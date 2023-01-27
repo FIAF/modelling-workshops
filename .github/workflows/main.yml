@@ -115,7 +115,7 @@ jobs:
             
             text = ''
             text += '#### '+attribute(source, rdflib.RDFS.label, '')
-            text += '**iri** '+str(source)+'   \n'
+            text += '> **iri** '+str(source)+'   \n'
             text += attribute(source, rdflib.RDFS.label, '**label**')
             text += attribute(source, rdflib.URIRef('http://purl.org/dc/elements/1.1/source'), '**source**')
             text += attribute(source, rdflib.RDF.type, '**type**')
@@ -145,7 +145,7 @@ jobs:
           for a,b in [
             ('Classes', rdflib.OWL.Class),
             ('Object Properties', rdflib.OWL.ObjectProperty)]:
-            md += '> '+f'**{a}**'+'   \n'
+            md += f'## {a}'+'   \n'
             for x in sorted([s for s,p,o in graph.triples((None, None, b))]):
               md += element(x)
           
