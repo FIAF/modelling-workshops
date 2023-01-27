@@ -77,7 +77,7 @@ jobs:
 
     - name: generate docs
       uses: jannekem/run-python-script-action@v1
-      if: github.event_name == 'push' && env.CHANGE_DETECT != 'True' # reversed for the second
+      if: github.event_name == 'push' && env.CHANGE_DETECT == 'True'
       with:
         script: |
           
@@ -155,8 +155,7 @@ jobs:
             readme.write(md)
             
     - name: push graph
-#       if: github.event_name == 'push' && env.CHANGE_DETECT == 'True'
-      if: github.event_name == 'push'
+      if: github.event_name == 'push' && env.CHANGE_DETECT == 'True'
       run: |
         git config user.name 'github-actions[bot]'
         git config user.email 'github-actions[bot]@users.noreply.github.com'
