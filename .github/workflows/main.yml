@@ -75,11 +75,15 @@ jobs:
           set_env('CHANGE_DETECT', str(a.serialize(format='ttl') != b.serialize(format='ttl')))
           b.serialize(destination=str(pathlib.Path.cwd() / 'ontology.ttl'), format="turtle")
 
-#     - name: generate docs
-#       uses: jannekem/run-python-script-action@v1
-#       if: github.event_name == 'push' && env.CHANGE_DETECT != 'True' # reversed for the second
-#       with:
-#         script: |
+    - name: generate docs
+      uses: jannekem/run-python-script-action@v1
+      if: github.event_name == 'push' && env.CHANGE_DETECT != 'True' # reversed for the second
+      with:
+        script: |
+          
+          with open(pathlib.Path.cwd() / 'README.md', 'w') as readme:
+            readme.write('testing')
+            
           
 #           # import libraries
           
