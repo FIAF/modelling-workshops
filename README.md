@@ -3,4 +3,4 @@ Owing to recent conversation around formal modelling of the FIAF Cataloguing   M
 
 These will take place weekly, starting Thursday 12th of January at 5pm CET and   will be short meetings of no longer than an hour each. 
 
-[ontology.ttl](ontology.ttl)
+[ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdataweb.org/webvowl-old/webvowl-old.html#iri=https://raw.githubusercontent.com/FIAF/modelling-workshops/main/ontology.ttl)]
