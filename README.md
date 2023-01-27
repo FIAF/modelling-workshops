@@ -12,185 +12,185 @@ These will take place weekly, starting Thursday 12th of January at 5pm CET and  
 **iri** https://fiafcore.org/ontology/Analytic   
 **label** Analytic   
 **source** FIAF Cataloguing Manual D.1   
-**type** http://www.w3.org/2002/07/owl#Class   
-**subclass of** https://fiafcore.org/ontology/WorkVariant   
+**type** [owl:Class](url)   
+**subclass of** [fiaf:WorkVariant](url)   
 ####  Broadcast   
 **iri** https://fiafcore.org/ontology/Broadcast   
 **label** Broadcast   
 **source** FIAF Cataloguing Manual D.5.7   
-**type** http://www.w3.org/2002/07/owl#Class   
-**subclass of** https://fiafcore.org/ontology/Manifestation   
+**type** [owl:Class](url)   
+**subclass of** [fiaf:Manifestation](url)   
 ####  Collection   
 **iri** https://fiafcore.org/ontology/Collection   
 **label** Collection   
 **source** FIAF Cataloguing Manual D.1   
-**type** http://www.w3.org/2002/07/owl#Class   
-**subclass of** https://fiafcore.org/ontology/WorkVariant   
+**type** [owl:Class](url)   
+**subclass of** [fiaf:WorkVariant](url)   
 ####  Home Viewing Publication   
 **iri** https://fiafcore.org/ontology/HomeViewingPublication   
 **label** Home Viewing Publication   
 **source** FIAF Cataloguing Manual D.5.6   
-**type** http://www.w3.org/2002/07/owl#Class   
-**subclass of** https://fiafcore.org/ontology/Manifestation   
+**type** [owl:Class](url)   
+**subclass of** [fiaf:Manifestation](url)   
 ####  Internet   
 **iri** https://fiafcore.org/ontology/Internet   
 **label** Internet   
 **source** FIAF Cataloguing Manual D.5.8   
-**type** http://www.w3.org/2002/07/owl#Class   
-**subclass of** https://fiafcore.org/ontology/Manifestation   
+**type** [owl:Class](url)   
+**subclass of** [fiaf:Manifestation](url)   
 ####  Monographic   
 **iri** https://fiafcore.org/ontology/Monographic   
 **label** Monographic   
 **source** FIAF Cataloguing Manual D.1   
-**type** http://www.w3.org/2002/07/owl#Class   
-**subclass of** https://fiafcore.org/ontology/WorkVariant   
+**type** [owl:Class](url)   
+**subclass of** [fiaf:WorkVariant](url)   
 ####  Non-Theatrical Distribution   
 **iri** https://fiafcore.org/ontology/NonTheatricalDistribution   
 **label** Non-Theatrical Distribution   
 **source** FIAF Cataloguing Manual D.5.3   
-**type** http://www.w3.org/2002/07/owl#Class   
-**subclass of** https://fiafcore.org/ontology/Manifestation   
+**type** [owl:Class](url)   
+**subclass of** [fiaf:Manifestation](url)   
 ####  Not For Release   
 **iri** https://fiafcore.org/ontology/NotForRelease   
 **label** Not For Release   
 **source** FIAF Cataloguing Manual D.5.4   
-**type** http://www.w3.org/2002/07/owl#Class   
-**subclass of** https://fiafcore.org/ontology/Manifestation   
+**type** [owl:Class](url)   
+**subclass of** [fiaf:Manifestation](url)   
 ####  Pre-Release   
 **iri** https://fiafcore.org/ontology/PreRelease   
 **label** Pre-Release   
 **source** FIAF Cataloguing Manual D.5.1   
-**type** http://www.w3.org/2002/07/owl#Class   
-**subclass of** https://fiafcore.org/ontology/Manifestation   
+**type** [owl:Class](url)   
+**subclass of** [fiaf:Manifestation](url)   
 ####  Preservation/Restoration   
 **iri** https://fiafcore.org/ontology/PreservationRestoration   
 **label** Preservation/Restoration   
 **source** FIAF Cataloguing Manual D.5.9   
-**type** http://www.w3.org/2002/07/owl#Class   
-**subclass of** https://fiafcore.org/ontology/Manifestation   
+**type** [owl:Class](url)   
+**subclass of** [fiaf:Manifestation](url)   
 ####  Serial   
 **iri** https://fiafcore.org/ontology/Serial   
 **label** Serial   
 **source** FIAF Cataloguing Manual D.1   
-**type** http://www.w3.org/2002/07/owl#Class   
-**subclass of** https://fiafcore.org/ontology/WorkVariant   
+**type** [owl:Class](url)   
+**subclass of** [fiaf:WorkVariant](url)   
 ####  Theatrical Distribution   
 **iri** https://fiafcore.org/ontology/TheatricalDistribution   
 **label** Theatrical Distribution   
 **source** FIAF Cataloguing Manual D.5.2   
-**type** http://www.w3.org/2002/07/owl#Class   
-**subclass of** https://fiafcore.org/ontology/Manifestation   
+**type** [owl:Class](url)   
+**subclass of** [fiaf:Manifestation](url)   
 ####  Unknown Manifestation   
 **iri** https://fiafcore.org/ontology/UnknownManifestation   
 **label** Unknown Manifestation   
 **source** FIAF Cataloguing Manual D.5.10    
-**type** http://www.w3.org/2002/07/owl#Class   
-**subclass of** https://fiafcore.org/ontology/Manifestation   
+**type** [owl:Class](url)   
+**subclass of** [fiaf:Manifestation](url)   
 ####  Unreleased   
 **iri** https://fiafcore.org/ontology/Unreleased   
 **label** Unreleased   
 **source** FIAF Cataloguing Manual D.5.5   
-**type** http://www.w3.org/2002/07/owl#Class   
-**subclass of** https://fiafcore.org/ontology/Manifestation   
+**type** [owl:Class](url)   
+**subclass of** [fiaf:Manifestation](url)   
 ####  Work/Variant   
 **iri** https://fiafcore.org/ontology/WorkVariant   
 **label** Work/Variant   
 **source** FIAF Cataloguing Manual 1.0   
-**type** http://www.w3.org/2002/07/owl#Class   
+**type** [owl:Class](url)   
 ####  Manifestation   
 **iri** https://fiafcore.org/ontology/Manifestation   
 **label** Manifestation   
 **source** FIAF Cataloguing Manual 2.0   
-**type** http://www.w3.org/2002/07/owl#Class   
+**type** [owl:Class](url)   
 ## **Object Properties**   
 ####  Has Activity   
 **iri** https://fiafcore.org/ontology/hasActivity   
 **label** Has Activity   
 **source** FIAF Cataloguing Manual 1.4.1.1, FIAF Cataloguing Manual 2.4.1.1   
-**type** http://www.w3.org/2002/07/owl#ObjectProperty   
-**domain** https://fiafcore.org/ontology/Manifestation, https://fiafcore.org/ontology/WorkVariant   
-**range** https://fiafcore.org/ontology/Activity   
+**type** [owl:ObjectProperty](url)   
+**domain** [fiaf:Manifestation](url), [fiaf:WorkVariant](url)   
+**range** [fiaf:Activity](url)   
 ####  Has Country   
 **iri** https://fiafcore.org/ontology/hasCountry   
 **label** Has Country   
 **source** FIAF Cataloguing Manual 1.3.3   
-**type** http://www.w3.org/2002/07/owl#ObjectProperty   
-**domain** https://fiafcore.org/ontology/WorkVariant   
-**range** https://fiafcore.org/ontology/Country   
+**type** [owl:ObjectProperty](url)   
+**domain** [fiaf:WorkVariant](url)   
+**range** [fiaf:Country](url)   
 ####  Has Event   
 **iri** https://fiafcore.org/ontology/hasEvent   
 **label** Has Event   
 **source** FIAF Cataloguing Manual 1.4.2, FIAF Cataloguing Manual 2.4.2   
-**type** http://www.w3.org/2002/07/owl#ObjectProperty   
-**domain** https://fiafcore.org/ontology/Manifestation, https://fiafcore.org/ontology/WorkVariant   
-**range** https://fiafcore.org/ontology/Event   
+**type** [owl:ObjectProperty](url)   
+**domain** [fiaf:Manifestation](url), [fiaf:WorkVariant](url)   
+**range** [fiaf:Event](url)   
 ####  Has Form   
 **iri** https://fiafcore.org/ontology/hasForm   
 **label** Has Form   
 **source** FIAF Cataloguing Manual 1.4.3   
-**type** http://www.w3.org/2002/07/owl#ObjectProperty   
-**domain** https://fiafcore.org/ontology/WorkVariant   
-**range** https://fiafcore.org/ontology/Form   
+**type** [owl:ObjectProperty](url)   
+**domain** [fiaf:WorkVariant](url)   
+**range** [fiaf:Form](url)   
 ####  Has Genre   
 **iri** https://fiafcore.org/ontology/hasGenre   
 **label** Has Genre   
 **source** FIAF Cataloguing Manual 1.4.3   
-**type** http://www.w3.org/2002/07/owl#ObjectProperty   
-**domain** https://fiafcore.org/ontology/WorkVariant   
-**range** https://fiafcore.org/ontology/Genre   
+**type** [owl:ObjectProperty](url)   
+**domain** [fiaf:WorkVariant](url)   
+**range** [fiaf:Genre](url)   
 ####  Has Identifier   
 **iri** https://fiafcore.org/ontology/hasIdentifier   
 **label** Has Identifier   
 **source** FIAF Cataloguing Manual 1.3.1, FIAF Cataloguing Manual 2.3.1   
-**type** http://www.w3.org/2002/07/owl#ObjectProperty   
-**domain** https://fiafcore.org/ontology/Manifestation, https://fiafcore.org/ontology/WorkVariant   
-**range** https://fiafcore.org/ontology/Identifier   
+**type** [owl:ObjectProperty](url)   
+**domain** [fiaf:Manifestation](url), [fiaf:WorkVariant](url)   
+**range** [fiaf:Identifier](url)   
 ####  Has Item   
 **iri** https://fiafcore.org/ontology/hasItem   
 **label** Has Item   
 **source** FIAF Cataloguing Manual 2.4.4   
-**type** http://www.w3.org/2002/07/owl#ObjectProperty   
-**domain** https://fiafcore.org/ontology/Manifestation   
-**range** https://fiafcore.org/ontology/Item   
+**type** [owl:ObjectProperty](url)   
+**domain** [fiaf:Manifestation](url)   
+**range** [fiaf:Item](url)   
 ####  Has Language Usage   
 **iri** https://fiafcore.org/ontology/hasLanguageUsage   
 **label** Has Language Usage   
 **source** FIAF Cataloguing Manual 2.3.3.2   
-**type** http://www.w3.org/2002/07/owl#ObjectProperty   
-**domain** https://fiafcore.org/ontology/Manifestation   
-**range** https://fiafcore.org/ontology/LanguageUsage   
+**type** [owl:ObjectProperty](url)   
+**domain** [fiaf:Manifestation](url)   
+**range** [fiaf:LanguageUsage](url)   
 ####  Has Manifestation   
 **iri** https://fiafcore.org/ontology/hasManifestation   
 **label** Has Manifestation   
 **source** FIAF Cataloguing Manual 1.4.6   
-**type** http://www.w3.org/2002/07/owl#ObjectProperty   
-**domain** https://fiafcore.org/ontology/WorkVariant   
-**range** https://fiafcore.org/ontology/Manifestation   
+**type** [owl:ObjectProperty](url)   
+**domain** [fiaf:WorkVariant](url)   
+**range** [fiaf:Manifestation](url)   
 ####  Has Subject   
 **iri** https://fiafcore.org/ontology/hasSubject   
 **label** Has Subject   
 **source** FIAF Cataloguing Manual 1.4.3   
-**type** http://www.w3.org/2002/07/owl#ObjectProperty   
-**domain** https://fiafcore.org/ontology/WorkVariant   
-**range** https://fiafcore.org/ontology/Subject   
+**type** [owl:ObjectProperty](url)   
+**domain** [fiaf:WorkVariant](url)   
+**range** [fiaf:Subject](url)   
 ####  Has Title   
 **iri** https://fiafcore.org/ontology/hasTitle   
 **label** Has Title   
 **source** FIAF Cataloguing Manual 1.3.2, FIAF Cataloguing Manual 2.3.2.1   
-**type** http://www.w3.org/2002/07/owl#ObjectProperty   
-**domain** https://fiafcore.org/ontology/Manifestation, https://fiafcore.org/ontology/WorkVariant   
-**range** https://fiafcore.org/ontology/Title   
+**type** [owl:ObjectProperty](url)   
+**domain** [fiaf:Manifestation](url), [fiaf:WorkVariant](url)   
+**range** [fiaf:Title](url)   
 ####  Has Variant Type   
 **iri** https://fiafcore.org/ontology/hasVariantType   
 **label** Has Variant Type   
 **source** FIAF Cataloguing Manual 1.2.2   
-**type** http://www.w3.org/2002/07/owl#ObjectProperty   
-**domain** https://fiafcore.org/ontology/WorkVariant   
-**range** https://fiafcore.org/ontology/VariantType   
+**type** [owl:ObjectProperty](url)   
+**domain** [fiaf:WorkVariant](url)   
+**range** [fiaf:VariantType](url)   
 ####  Has Work/Variant   
 **iri** https://fiafcore.org/ontology/hasWorkVariant   
 **label** Has Work/Variant   
 **source** FIAF Cataloguing Manual 1.4.5   
-**type** http://www.w3.org/2002/07/owl#ObjectProperty   
-**domain** https://fiafcore.org/ontology/WorkVariant   
-**range** https://fiafcore.org/ontology/WorkVariant   
+**type** [owl:ObjectProperty](url)   
+**domain** [fiaf:WorkVariant](url)   
+**range** [fiaf:WorkVariant](url)   
