@@ -36,6 +36,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.5.8   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation)   
+####  Manifestation   
+**iri** https://fiafcore.org/ontology/Manifestation   
+**label** Manifestation   
+**source** FIAF Cataloguing Manual 2.0   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 ####  Monographic   
 **iri** https://fiafcore.org/ontology/Monographic   
 **label** Monographic   
@@ -94,11 +99,6 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **iri** https://fiafcore.org/ontology/WorkVariant   
 **label** Work/Variant   
 **source** FIAF Cataloguing Manual 1.0   
-**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
-####  Manifestation   
-**iri** https://fiafcore.org/ontology/Manifestation   
-**label** Manifestation   
-**source** FIAF Cataloguing Manual 2.0   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 ## **Object Properties**   
 ####  Has Activity   
