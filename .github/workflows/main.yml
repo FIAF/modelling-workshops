@@ -35,45 +35,45 @@ jobs:
           for x in classes:
             graph.parse(x)
         
-#   compile:
-#     runs-on: ubuntu-latest
-#     env: 
-#       CI_COMMIT_MESSAGE: ontology autocompiled
-#     steps:
-#     - name: checkout repo
-#       uses: actions/checkout@v3
-#     - name: install rdflib
-#       run: pip3 install rdflib
-#     - name: compile graph and detect change
-#       uses: jannekem/run-python-script-action@v1
-#       with:
-#         script: |
+  compile:
+    runs-on: ubuntu-latest
+    env: 
+      CI_COMMIT_MESSAGE: ontology compiled
+    steps:
+    - name: checkout repo
+      uses: actions/checkout@v3
+    - name: install rdflib
+      run: pip3 install rdflib
+    - name: compile graph and detect change
+      uses: jannekem/run-python-script-action@v1
+      with:
+        script: |
           
-#           # import libraries
+          # import libraries
           
-#           import pathlib
-#           import rdflib
+          import pathlib
+          import rdflib
           
-#           # load original merged file to determine changes
+          # load original merged file to determine changes
           
-#           a = rdflib.Graph()
-#           a.parse(pathlib.Path.cwd() / 'merge.ttl')
+          a = rdflib.Graph()
+          a.parse(pathlib.Path.cwd() / 'ontology.ttl')
 
-#           # compile class files
+          # compile class files
           
-#           class_dir = pathlib.Path.cwd() / 'classes'
-#           classes = [x for x in class_dir.iterdir() if x.suffix == '.ttl']
+          class_dir = pathlib.Path.cwd() / 'classes'
+          classes = [x for x in class_dir.iterdir() if x.suffix == '.ttl']
           
-#           # load into graph
+          # load into graph
         
-#           b = rdflib.Graph()  
-#           for x in classes:
-#             b.parse(x)
+          b = rdflib.Graph()  
+          for x in classes:
+            b.parse(x)
             
-#           # detect changes between initial and compiled graphs
+          # detect changes between initial and compiled graphs
             
-#           set_env('CHANGE_DETECT', str(a.serialize(format='ttl') != b.serialize(format='ttl')))
-#           b.serialize(destination=str(pathlib.Path.cwd() / 'merge.ttl'), format="turtle")
+          set_env('CHANGE_DETECT', str(a.serialize(format='ttl') != b.serialize(format='ttl')))
+          b.serialize(destination=str(pathlib.Path.cwd() / 'ontology.ttl'), format="turtle")
 
 #     - name: generate docs
 #       uses: jannekem/run-python-script-action@v1
