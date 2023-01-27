@@ -1,0 +1,103 @@
+name: validate-compile
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+jobs:
+  validate:
+    runs-on: ubuntu-latest 
+    steps:
+    - name: checkout repo
+      uses: actions/checkout@v3
+    - name: install rdflib
+      run: pip3 install rdflib
+    - name: compile graph and validate
+      uses: jannekem/run-python-script-action@v1
+      with:
+        script: |
+          
+          # import libraries
+          
+          import pathlib
+          import rdflib
+          
+          # compile class files
+          
+          class_dir = pathlib.Path.cwd() / 'classes'
+          classes = [x for x in class_dir.iterdir() if x.suffix == '.ttl']
+          
+          # load into graph, will throw syntax errors
+          
+          graph = rdflib.Graph()        
+          for x in classes:
+            graph.parse(x)
+        
+#   compile:
+#     runs-on: ubuntu-latest
+#     env: 
+#       CI_COMMIT_MESSAGE: ontology autocompiled
+#     steps:
+#     - name: checkout repo
+#       uses: actions/checkout@v3
+#     - name: install rdflib
+#       run: pip3 install rdflib
+#     - name: compile graph and detect change
+#       uses: jannekem/run-python-script-action@v1
+#       with:
+#         script: |
+          
+#           # import libraries
+          
+#           import pathlib
+#           import rdflib
+          
+#           # load original merged file to determine changes
+          
+#           a = rdflib.Graph()
+#           a.parse(pathlib.Path.cwd() / 'merge.ttl')
+
+#           # compile class files
+          
+#           class_dir = pathlib.Path.cwd() / 'classes'
+#           classes = [x for x in class_dir.iterdir() if x.suffix == '.ttl']
+          
+#           # load into graph
+        
+#           b = rdflib.Graph()  
+#           for x in classes:
+#             b.parse(x)
+            
+#           # detect changes between initial and compiled graphs
+            
+#           set_env('CHANGE_DETECT', str(a.serialize(format='ttl') != b.serialize(format='ttl')))
+#           b.serialize(destination=str(pathlib.Path.cwd() / 'merge.ttl'), format="turtle")
+
+#     - name: generate docs
+#       uses: jannekem/run-python-script-action@v1
+#       if: github.event_name == 'push' && env.CHANGE_DETECT != 'True' # reversed for the second
+#       with:
+#         script: |
+          
+#           # import libraries
+          
+#           import pathlib
+#           import rdflib
+          
+#           graph = rdflib.Graph()
+#           graph.parse(pathlib.Path.cwd() / 'merge.ttl')
+          
+#           print(graph.serialize(format='ttl'))
+          
+
+          
+#     - name: push graph
+#       if: github.event_name == 'push' && env.CHANGE_DETECT == 'True'
+#       run: |
+#         git config user.name 'github-actions[bot]'
+#         git config user.email 'github-actions[bot]@users.noreply.github.com'
+#         git add *
+#         git commit -a -m "${{ env.CI_COMMIT_MESSAGE }}"
+#         git push
