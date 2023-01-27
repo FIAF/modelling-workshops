@@ -88,12 +88,23 @@ jobs:
           
           # formatter functions
           
+          def short_link(url):
+            
+            ''' Shorten iri links to prefixed form. '''
+            
+            if url[:4] == 'http':
+              short = url.replace('https://fiafcore.org/ontology/', 'fiaf:')
+              short = short.replace('http://www.w3.org/2002/07/owl#Class', 'owl:Class')
+              short = short.replace('http://www.w3.org/2002/07/owl#ObjectProperty', 'owl:ObjectProperty')
+              return f'[{short}](url)'
+            return url
+          
           def attribute(subj, predicate, label):
           
             ''' Pull all objects which match subject-predicate pattern. '''
             
             text = ''
-            objs = [o for s,p,o in graph.triples((subj, predicate, None))]
+            objs = [short_link(o) for s,p,o in graph.triples((subj, predicate, None))]
             if len(objs):
               text = f'{label} '+', '.join(objs)+'   \n'
             return text
