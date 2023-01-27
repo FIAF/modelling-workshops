@@ -86,6 +86,27 @@ jobs:
           import pathlib
           import rdflib
           
+          # formatter functions
+          
+          def attribute(subj, predicate, label):
+            text = ''
+            ran = [o for s,p,o in graph.triples((subj, predicate, None))]
+            if len(ran):
+              text = f'**{label}** '+', '.join(ran)+'   \n'
+            return text
+            
+          def element(source):
+            text = ''
+            text += '### '+pathlib.Path(source).stem+'   \n'
+            text += '**iri** '+str(source)+'   \n'
+            text += attribute(source, rdflib.RDFS.label, 'label')
+            text += attribute(source, rdflib.URIRef('http://purl.org/dc/elements/1.1/source'), 'source')
+            text += attribute(source, rdflib.RDF.type, 'type')
+            text += attribute(source, rdflib.RDFS.subClassOf, 'subclass of')
+            text += attribute(source, rdflib.RDFS.domain, 'domain')
+            text += attribute(source, rdflib.RDFS.range, 'range')
+            return text
+          
           # load ontology    
        
           graph = rdflib.Graph()
@@ -107,9 +128,16 @@ jobs:
             model which could be used for the interoperability of film data between organisations.\n\n'
           md += 'These will take place weekly, starting Thursday 12th of January at 5pm CET and \
             will be short meetings of no longer than an hour each. \n\n'
-          md += '### Draft Ontology'
+          md += '### Draft Ontology\n\n'
           md += '[ontology.ttl](ontology.ttl) \
             [[WebVOWL](http://vowl.visualdataweb.org/webvowl-old/webvowl-old.html#iri=https://raw.githubusercontent.com/FIAF/modelling-workshops/main/ontology.ttl)]'
+          
+          for a,b in [
+            ('Classes', rdflib.OWL.Class),
+            ('Object Properties', rdflib.OWL.ObjectProperty)]:
+            md += '## '+f'**{a}**'+'   \n'
+            for x in [s for s,p,o in graph.triples((None, None, b))]:
+              md += element(x)
           
           # write readme
           
@@ -117,8 +145,8 @@ jobs:
             readme.write(md)
             
     - name: push graph
-      if: github.event_name == 'push' && env.CHANGE_DETECT == 'True'
-#       if: github.event_name == 'push'
+#       if: github.event_name == 'push' && env.CHANGE_DETECT == 'True'
+      if: github.event_name == 'push'
       run: |
         git config user.name 'github-actions[bot]'
         git config user.email 'github-actions[bot]@users.noreply.github.com'
