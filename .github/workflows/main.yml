@@ -89,17 +89,23 @@ jobs:
           # formatter functions
           
           def attribute(subj, predicate, label):
+          
+            ''' Pull all objects which match subject-predicate pattern. '''
+            
             text = ''
-            ran = [o for s,p,o in graph.triples((subj, predicate, None))]
-            if len(ran):
-              text = f'**{label}** '+', '.join(ran)+'   \n'
+            objs = [o for s,p,o in graph.triples((subj, predicate, None))]
+            if len(objs):
+              text = f'**{label}** '+', '.join(objs)+'   \n'
             return text
             
           def element(source):
+          
+            ''' Assemble attributes for entity. '''
+            
             text = ''
-            text += '### '+pathlib.Path(source).stem+'   \n'
-            text += '**iri** '+str(source)+'   \n'
+            # text += '#### '+pathlib.Path(source).stem+'   \n'
             text += attribute(source, rdflib.RDFS.label, 'label')
+            text += '**iri** '+str(source)+'   \n'
             text += attribute(source, rdflib.URIRef('http://purl.org/dc/elements/1.1/source'), 'source')
             text += attribute(source, rdflib.RDF.type, 'type')
             text += attribute(source, rdflib.RDFS.subClassOf, 'subclass of')
@@ -111,12 +117,6 @@ jobs:
        
           graph = rdflib.Graph()
           graph.parse(pathlib.Path.cwd() / 'ontology.ttl')
-          
-          print(graph.serialize(format='ttl'))
-          
-          
-          
-          
 
           # workshop intro
           
@@ -131,7 +131,7 @@ jobs:
           md += '### Draft Ontology\n\n'
           md += '[ontology.ttl](ontology.ttl) \
             [[WebVOWL](http://vowl.visualdataweb.org/webvowl-old/webvowl-old.html#iri=https://raw.githubusercontent.com/FIAF/modelling-workshops/main/ontology.ttl)]'
-          
+          md += '\n\n'
           for a,b in [
             ('Classes', rdflib.OWL.Class),
             ('Object Properties', rdflib.OWL.ObjectProperty)]:
