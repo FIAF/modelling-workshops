@@ -72,7 +72,7 @@ jobs:
             
           # detect changes between initial and compiled graphs
             
-          set_env('CHANGE_DETECT', str(a.serialize(format='ttl') != b.serialize(format='ttl')))
+          set_env('CHANGE_DETECT', str(a.serialize(format='ttl') == b.serialize(format='ttl')))
           b.serialize(destination=str(pathlib.Path.cwd() / 'ontology.ttl'), format="turtle")
 
     - name: generate docs
