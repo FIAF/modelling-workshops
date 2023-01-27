@@ -96,7 +96,7 @@ jobs:
               short = url.replace('https://fiafcore.org/ontology/', 'fiaf:')
               short = short.replace('http://www.w3.org/2002/07/owl#Class', 'owl:Class')
               short = short.replace('http://www.w3.org/2002/07/owl#ObjectProperty', 'owl:ObjectProperty')
-              return f'[{short}](url)'
+              return f'[{short}]({url})'
             return url
           
           def attribute(subj, predicate, label):
