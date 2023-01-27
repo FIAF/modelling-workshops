@@ -139,8 +139,7 @@ jobs:
             model which could be used for the interoperability of film data between organisations.\n\n'
           md += 'These will take place weekly, starting Thursday 12th of January at 5pm CET and \
             will be short meetings of no longer than an hour each. \n\n'
-          md += '### Draft Ontology\n\n'
-          md += '[ontology.ttl](ontology.ttl) \
+          md += 'Draft ontology: [ontology.ttl](ontology.ttl) \
             [[WebVOWL](http://vowl.visualdataweb.org/webvowl-old/webvowl-old.html#iri=https://raw.githubusercontent.com/FIAF/modelling-workshops/main/ontology.ttl)]'
           md += '\n\n'
           for a,b in [
