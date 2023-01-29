@@ -75,6 +75,12 @@
     rdfs:domain fiaf:Manifestation ;
     rdfs:range fiaf:Activity .
 
+<https://fiafcore.org/ontology/hasCarrier> a owl:ObjectProperty ;
+    rdfs:label "Has Carrier"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.4"^^xsd:string ;
+    rdfs:domain fiaf:Manifestation ;
+    rdfs:range fiaf:Carrier .
+
 <https://fiafcore.org/ontology/hasColourCharacteristic> a owl:ObjectProperty ;
     rdfs:label "Has Colour Characteristic"@en ;
     dc:source "FIAF Cataloguing Manual 2.3.5"^^xsd:string ;
