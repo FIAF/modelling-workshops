@@ -108,6 +108,13 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
 **domain** [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation), [fiaf:WorkVariant](https://fiafcore.org/ontology/WorkVariant)   
 **range** [fiaf:Activity](https://fiafcore.org/ontology/Activity)   
+####  Has Carrier   
+> **iri** https://fiafcore.org/ontology/hasCarrier   
+**label** Has Carrier   
+**source** FIAF Cataloguing Manual 2.3.4   
+**type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
+**domain** [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation)   
+**range** [fiaf:Carrier](https://fiafcore.org/ontology/Carrier)   
 ####  Has Colour Characteristic   
 > **iri** https://fiafcore.org/ontology/hasColourCharacteristic   
 **label** Has Colour Characteristic   
