@@ -75,12 +75,6 @@
     rdfs:domain fiaf:Manifestation ;
     rdfs:range fiaf:Activity .
 
-<https://fiafcore.org/ontology/hasCarrier> a owl:ObjectProperty ;
-    rdfs:label "Has Carrier"@en ;
-    dc:source "FIAF Cataloguing Manual 2.3.4"^^xsd:string ;
-    rdfs:domain fiaf:Manifestation ;
-    rdfs:range fiaf:Carrier .
-
 <https://fiafcore.org/ontology/hasColourCharacteristic> a owl:ObjectProperty ;
     rdfs:label "Has Colour Characteristic"@en ;
     dc:source "FIAF Cataloguing Manual 2.3.5"^^xsd:string ;
@@ -99,11 +93,23 @@
     rdfs:domain fiaf:Manifestation ;
     rdfs:range fiaf:Extent .
 
+<https://fiafcore.org/ontology/hasFormat> a owl:ObjectProperty ;
+    rdfs:label "Has Format"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.4"^^xsd:string ;
+    rdfs:domain fiaf:Manifestation ;
+    rdfs:range fiaf:Format .
+
 <https://fiafcore.org/ontology/hasIdentifier> a owl:ObjectProperty ;
     rdfs:label "Has Identifier"@en ;
     dc:source "FIAF Cataloguing Manual 2.3.1"^^xsd:string ;
     rdfs:domain fiaf:Manifestation ;
     rdfs:range fiaf:Identifier .
+
+<https://fiafcore.org/ontology/hasImageCharacteristic> a owl:ObjectProperty ;
+    rdfs:label "Has Image Characteristic"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.5"^^xsd:string ;
+    rdfs:domain fiaf:Manifestation ;
+    rdfs:range fiaf:ImageCharacteristic .
 
 <https://fiafcore.org/ontology/hasItem> a owl:ObjectProperty ;
     rdfs:label "Has Item"@en ;
@@ -116,12 +122,6 @@
     dc:source "FIAF Cataloguing Manual 2.3.3.2"^^xsd:string ;
     rdfs:domain fiaf:Manifestation ;
     rdfs:range fiaf:LanguageUsage .
-
-<https://fiafcore.org/ontology/hasProjectionCharacteristic> a owl:ObjectProperty ;
-    rdfs:label "Has Projection Characteristic"@en ;
-    dc:source "FIAF Cataloguing Manual 2.3.5"^^xsd:string ;
-    rdfs:domain fiaf:Manifestation ;
-    rdfs:range fiaf:ProjectionCharacteristic .
 
 <https://fiafcore.org/ontology/hasSoundCharacteristic> a owl:ObjectProperty ;
     rdfs:label "Has Sound Characteristic"@en ;
