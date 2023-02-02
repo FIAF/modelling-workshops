@@ -108,13 +108,6 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
 **domain** [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation), [fiaf:WorkVariant](https://fiafcore.org/ontology/WorkVariant)   
 **range** [fiaf:Activity](https://fiafcore.org/ontology/Activity)   
-####  Has Carrier   
-> **iri** https://fiafcore.org/ontology/hasCarrier   
-**label** Has Carrier   
-**source** FIAF Cataloguing Manual 2.3.4   
-**type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
-**domain** [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation)   
-**range** [fiaf:Carrier](https://fiafcore.org/ontology/Carrier)   
 ####  Has Colour Characteristic   
 > **iri** https://fiafcore.org/ontology/hasColourCharacteristic   
 **label** Has Colour Characteristic   
@@ -150,6 +143,13 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
 **domain** [fiaf:WorkVariant](https://fiafcore.org/ontology/WorkVariant)   
 **range** [fiaf:Form](https://fiafcore.org/ontology/Form)   
+####  Has Format   
+> **iri** https://fiafcore.org/ontology/hasFormat   
+**label** Has Format   
+**source** FIAF Cataloguing Manual 2.3.4   
+**type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
+**domain** [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation)   
+**range** [fiaf:Format](https://fiafcore.org/ontology/Format)   
 ####  Has Genre   
 > **iri** https://fiafcore.org/ontology/hasGenre   
 **label** Has Genre   
@@ -164,6 +164,13 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
 **domain** [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation), [fiaf:WorkVariant](https://fiafcore.org/ontology/WorkVariant)   
 **range** [fiaf:Identifier](https://fiafcore.org/ontology/Identifier)   
+####  Has Image Characteristic   
+> **iri** https://fiafcore.org/ontology/hasImageCharacteristic   
+**label** Has Image Characteristic   
+**source** FIAF Cataloguing Manual 2.3.5   
+**type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
+**domain** [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation)   
+**range** [fiaf:ImageCharacteristic](https://fiafcore.org/ontology/ImageCharacteristic)   
 ####  Has Item   
 > **iri** https://fiafcore.org/ontology/hasItem   
 **label** Has Item   
@@ -185,13 +192,6 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
 **domain** [fiaf:WorkVariant](https://fiafcore.org/ontology/WorkVariant)   
 **range** [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation)   
-####  Has Projection Characteristic   
-> **iri** https://fiafcore.org/ontology/hasProjectionCharacteristic   
-**label** Has Projection Characteristic   
-**source** FIAF Cataloguing Manual 2.3.5   
-**type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
-**domain** [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation)   
-**range** [fiaf:ProjectionCharacteristic](https://fiafcore.org/ontology/ProjectionCharacteristic)   
 ####  Has Sound Characteristic   
 > **iri** https://fiafcore.org/ontology/hasSoundCharacteristic   
 **label** Has Sound Characteristic   

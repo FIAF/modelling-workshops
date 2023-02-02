@@ -85,12 +85,6 @@ fiaf:hasActivity a owl:ObjectProperty ;
         fiaf:WorkVariant ;
     rdfs:range fiaf:Activity .
 
-fiaf:hasCarrier a owl:ObjectProperty ;
-    rdfs:label "Has Carrier"@en ;
-    dc:source "FIAF Cataloguing Manual 2.3.4"^^xsd:string ;
-    rdfs:domain fiaf:Manifestation ;
-    rdfs:range fiaf:Carrier .
-
 fiaf:hasColourCharacteristic a owl:ObjectProperty ;
     rdfs:label "Has Colour Characteristic"@en ;
     dc:source "FIAF Cataloguing Manual 2.3.5"^^xsd:string ;
@@ -123,6 +117,12 @@ fiaf:hasForm a owl:ObjectProperty ;
     rdfs:domain fiaf:WorkVariant ;
     rdfs:range fiaf:Form .
 
+fiaf:hasFormat a owl:ObjectProperty ;
+    rdfs:label "Has Format"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.4"^^xsd:string ;
+    rdfs:domain fiaf:Manifestation ;
+    rdfs:range fiaf:Format .
+
 fiaf:hasGenre a owl:ObjectProperty ;
     rdfs:label "Has Genre"@en ;
     dc:source "FIAF Cataloguing Manual 1.4.3"^^xsd:string ;
@@ -136,6 +136,12 @@ fiaf:hasIdentifier a owl:ObjectProperty ;
     rdfs:domain fiaf:Manifestation,
         fiaf:WorkVariant ;
     rdfs:range fiaf:Identifier .
+
+fiaf:hasImageCharacteristic a owl:ObjectProperty ;
+    rdfs:label "Has Image Characteristic"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.5"^^xsd:string ;
+    rdfs:domain fiaf:Manifestation ;
+    rdfs:range fiaf:ImageCharacteristic .
 
 fiaf:hasItem a owl:ObjectProperty ;
     rdfs:label "Has Item"@en ;
@@ -154,12 +160,6 @@ fiaf:hasManifestation a owl:ObjectProperty ;
     dc:source "FIAF Cataloguing Manual 1.4.6"^^xsd:string ;
     rdfs:domain fiaf:WorkVariant ;
     rdfs:range fiaf:Manifestation .
-
-fiaf:hasProjectionCharacteristic a owl:ObjectProperty ;
-    rdfs:label "Has Projection Characteristic"@en ;
-    dc:source "FIAF Cataloguing Manual 2.3.5"^^xsd:string ;
-    rdfs:domain fiaf:Manifestation ;
-    rdfs:range fiaf:ProjectionCharacteristic .
 
 fiaf:hasSoundCharacteristic a owl:ObjectProperty ;
     rdfs:label "Has Sound Characteristic"@en ;
