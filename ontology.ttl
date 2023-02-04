@@ -193,6 +193,10 @@ fiaf:hasWorkVariant a owl:ObjectProperty ;
     rdfs:domain fiaf:WorkVariant ;
     rdfs:range fiaf:WorkVariant .
 
+fiaf:Item a owl:Class ;
+    rdfs:label "Item"@en ;
+    dc:source "FIAF Cataloguing Manual 3.0"^^xsd:string .
+
 fiaf:WorkVariant a owl:Class ;
     rdfs:label "Work/Variant"@en ;
     dc:source "FIAF Cataloguing Manual 1.0"^^xsd:string .

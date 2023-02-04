@@ -36,6 +36,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.5.8   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation)   
+####  Item   
+> **iri** https://fiafcore.org/ontology/Item   
+**label** Item   
+**source** FIAF Cataloguing Manual 3.0   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 ####  Manifestation   
 > **iri** https://fiafcore.org/ontology/Manifestation   
 **label** Manifestation   
