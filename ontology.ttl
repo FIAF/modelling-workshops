@@ -80,15 +80,36 @@ fiaf:Unreleased a owl:Class ;
 fiaf:hasActivity a owl:ObjectProperty ;
     rdfs:label "Has Activity"@en ;
     dc:source "FIAF Cataloguing Manual 1.4.1.1"^^xsd:string,
-        "FIAF Cataloguing Manual 2.4.1.1"^^xsd:string ;
-    rdfs:domain fiaf:Manifestation,
+        "FIAF Cataloguing Manual 2.4.1.1"^^xsd:string,
+        "FIAF Cataloguing Manual 3.3.1"^^xsd:string ;
+    rdfs:domain fiaf:Item,
+        fiaf:Manifestation,
         fiaf:WorkVariant ;
     rdfs:range fiaf:Activity .
 
+fiaf:hasBase a owl:ObjectProperty ;
+    rdfs:label "Has Base"@en ;
+    dc:source "FIAF Cataloguing Manual 3.1.5.13"^^xsd:string ;
+    rdfs:domain fiaf:Item ;
+    rdfs:range fiaf:Base .
+
+fiaf:hasBroadcastStandard a owl:ObjectProperty ;
+    rdfs:label "Has Broadcast Standard"@en ;
+    dc:source "FIAF Cataloguing Manual 3.1.5.10"^^xsd:string ;
+    rdfs:domain fiaf:Item ;
+    rdfs:range fiaf:BroadcastStandard .
+
+fiaf:hasCarrier a owl:ObjectProperty ;
+    rdfs:label "Has Carrier"@en ;
+    rdfs:domain fiaf:Item ;
+    rdfs:range fiaf:Carrier .
+
 fiaf:hasColourCharacteristic a owl:ObjectProperty ;
     rdfs:label "Has Colour Characteristic"@en ;
-    dc:source "FIAF Cataloguing Manual 2.3.5"^^xsd:string ;
-    rdfs:domain fiaf:Manifestation ;
+    dc:source "FIAF Cataloguing Manual 2.3.5"^^xsd:string,
+        "FIAF Cataloguing Manual 3.1.5.6"^^xsd:string ;
+    rdfs:domain fiaf:Item,
+        fiaf:Manifestation ;
     rdfs:range fiaf:ColourCharacteristic .
 
 fiaf:hasCountry a owl:ObjectProperty ;
@@ -97,18 +118,28 @@ fiaf:hasCountry a owl:ObjectProperty ;
     rdfs:domain fiaf:WorkVariant ;
     rdfs:range fiaf:Country .
 
+fiaf:hasElementType a owl:ObjectProperty ;
+    rdfs:label "Has Element Type"@en ;
+    dc:source "FIAF Cataloguing Manual 3.1.4"^^xsd:string ;
+    rdfs:domain fiaf:Item ;
+    rdfs:range fiaf:ElementType .
+
 fiaf:hasEvent a owl:ObjectProperty ;
     rdfs:label "Has Event"@en ;
     dc:source "FIAF Cataloguing Manual 1.4.2"^^xsd:string,
-        "FIAF Cataloguing Manual 2.4.2"^^xsd:string ;
-    rdfs:domain fiaf:Manifestation,
+        "FIAF Cataloguing Manual 2.4.2"^^xsd:string,
+        "FIAF Cataloguing Manual 3.3.2"^^xsd:string ;
+    rdfs:domain fiaf:Item,
+        fiaf:Manifestation,
         fiaf:WorkVariant ;
     rdfs:range fiaf:Event .
 
 fiaf:hasExtent a owl:ObjectProperty ;
     rdfs:label "Has Extent"@en ;
-    dc:source "FIAF Cataloguing Manual 2.3.5"^^xsd:string ;
-    rdfs:domain fiaf:Manifestation ;
+    dc:source "FIAF Cataloguing Manual 2.3.5"^^xsd:string,
+        "FIAF Cataloguing Manual 3.1.5.8"^^xsd:string ;
+    rdfs:domain fiaf:Item,
+        fiaf:Manifestation ;
     rdfs:range fiaf:Extent .
 
 fiaf:hasForm a owl:ObjectProperty ;
@@ -119,9 +150,17 @@ fiaf:hasForm a owl:ObjectProperty ;
 
 fiaf:hasFormat a owl:ObjectProperty ;
     rdfs:label "Has Format"@en ;
-    dc:source "FIAF Cataloguing Manual 2.3.4"^^xsd:string ;
-    rdfs:domain fiaf:Manifestation ;
+    dc:source "FIAF Cataloguing Manual 2.3.4"^^xsd:string,
+        "FIAF Cataloguing Manual 3.1.5"^^xsd:string ;
+    rdfs:domain fiaf:Item,
+        fiaf:Manifestation ;
     rdfs:range fiaf:Format .
+
+fiaf:hasFrameRate a owl:ObjectProperty ;
+    rdfs:label "Has Frame Rate"@en ;
+    dc:source "FIAF Cataloguing Manual 3.1.5.12"^^xsd:string ;
+    rdfs:domain fiaf:Item ;
+    rdfs:range fiaf:FrameRate .
 
 fiaf:hasGenre a owl:ObjectProperty ;
     rdfs:label "Has Genre"@en ;
@@ -129,18 +168,28 @@ fiaf:hasGenre a owl:ObjectProperty ;
     rdfs:domain fiaf:WorkVariant ;
     rdfs:range fiaf:Genre .
 
+fiaf:hasHoldingInstitution a owl:ObjectProperty ;
+    rdfs:label "Has Holding Institution"@en ;
+    dc:source "FIAF Cataloguing Manual 3.1.3"^^xsd:string ;
+    rdfs:domain fiaf:Item ;
+    rdfs:range fiaf:Institution .
+
 fiaf:hasIdentifier a owl:ObjectProperty ;
     rdfs:label "Has Identifier"@en ;
     dc:source "FIAF Cataloguing Manual 1.3.1"^^xsd:string,
-        "FIAF Cataloguing Manual 2.3.1"^^xsd:string ;
-    rdfs:domain fiaf:Manifestation,
+        "FIAF Cataloguing Manual 2.3.1"^^xsd:string,
+        "FIAF Cataloguing Manual 3.1.1"^^xsd:string ;
+    rdfs:domain fiaf:Item,
+        fiaf:Manifestation,
         fiaf:WorkVariant ;
     rdfs:range fiaf:Identifier .
 
 fiaf:hasImageCharacteristic a owl:ObjectProperty ;
     rdfs:label "Has Image Characteristic"@en ;
-    dc:source "FIAF Cataloguing Manual 2.3.5"^^xsd:string ;
-    rdfs:domain fiaf:Manifestation ;
+    dc:source "FIAF Cataloguing Manual 2.3.5"^^xsd:string,
+        "FIAF Cataloguing Manual 3.1.5.9"^^xsd:string ;
+    rdfs:domain fiaf:Item,
+        fiaf:Manifestation ;
     rdfs:range fiaf:ImageCharacteristic .
 
 fiaf:hasItem a owl:ObjectProperty ;
@@ -155,17 +204,61 @@ fiaf:hasLanguageUsage a owl:ObjectProperty ;
     rdfs:domain fiaf:Manifestation ;
     rdfs:range fiaf:LanguageUsage .
 
+fiaf:hasLineStandard a owl:ObjectProperty ;
+    rdfs:label "Has Line Standard"@en ;
+    dc:source "FIAF Cataloguing Manual 3.1.5.19"^^xsd:string ;
+    rdfs:domain fiaf:Item ;
+    rdfs:range fiaf:LineStandard .
+
 fiaf:hasManifestation a owl:ObjectProperty ;
     rdfs:label "Has Manifestation"@en ;
     dc:source "FIAF Cataloguing Manual 1.4.6"^^xsd:string ;
     rdfs:domain fiaf:WorkVariant ;
     rdfs:range fiaf:Manifestation .
 
+fiaf:hasResolution a owl:ObjectProperty ;
+    rdfs:label "Has Resolution"@en ;
+    dc:source "FIAF Cataloguing Manual 3.1.5.18"^^xsd:string ;
+    rdfs:domain fiaf:Item ;
+    rdfs:range fiaf:Resolution .
+
 fiaf:hasSoundCharacteristic a owl:ObjectProperty ;
     rdfs:label "Has Sound Characteristic"@en ;
-    dc:source "FIAF Cataloguing Manual 2.3.5"^^xsd:string ;
-    rdfs:domain fiaf:Manifestation ;
+    dc:source "FIAF Cataloguing Manual 2.3.5"^^xsd:string,
+        "FIAF Cataloguing Manual 3.1.5.3"^^xsd:string ;
+    rdfs:domain fiaf:Item,
+        fiaf:Manifestation ;
     rdfs:range fiaf:SoundCharacteristic .
+
+fiaf:hasSourceDevice a owl:ObjectProperty ;
+    rdfs:label "Has Source Device"@en ;
+    dc:source "FIAF Cataloguing Manual 3.1.5.21"^^xsd:string ;
+    rdfs:domain fiaf:Item ;
+    rdfs:range fiaf:SourceDevice .
+
+fiaf:hasSourceSoftware a owl:ObjectProperty ;
+    rdfs:label "Has Source Software"@en ;
+    dc:source "FIAF Cataloguing Manual 3.1.5.22"^^xsd:string ;
+    rdfs:domain fiaf:Item ;
+    rdfs:range fiaf:SourceSoftware .
+
+fiaf:hasStatus a owl:ObjectProperty ;
+    rdfs:label "Has Status"@en ;
+    dc:source "FIAF Cataloguing Manual 3.1.5.2"^^xsd:string ;
+    rdfs:domain fiaf:Item ;
+    rdfs:range fiaf:Status .
+
+fiaf:hasStock a owl:ObjectProperty ;
+    rdfs:label "Has Stock"@en ;
+    dc:source "FIAF Cataloguing Manual 3.1.5.15"^^xsd:string ;
+    rdfs:domain fiaf:Item ;
+    rdfs:range fiaf:Stock .
+
+fiaf:hasStream a owl:ObjectProperty ;
+    rdfs:label "Has Stream"@en ;
+    dc:source "FIAF Cataloguing Manual 3.1.5.16"^^xsd:string ;
+    rdfs:domain fiaf:Item ;
+    rdfs:range fiaf:Stream .
 
 fiaf:hasSubject a owl:ObjectProperty ;
     rdfs:label "Has Subject"@en ;
@@ -176,10 +269,18 @@ fiaf:hasSubject a owl:ObjectProperty ;
 fiaf:hasTitle a owl:ObjectProperty ;
     rdfs:label "Has Title"@en ;
     dc:source "FIAF Cataloguing Manual 1.3.2"^^xsd:string,
-        "FIAF Cataloguing Manual 2.3.2.1"^^xsd:string ;
-    rdfs:domain fiaf:Manifestation,
+        "FIAF Cataloguing Manual 2.3.2.1"^^xsd:string,
+        "FIAF Cataloguing Manual 3.1.2"^^xsd:string ;
+    rdfs:domain fiaf:Item,
+        fiaf:Manifestation,
         fiaf:WorkVariant ;
     rdfs:range fiaf:Title .
+
+fiaf:hasTransferSpeed a owl:ObjectProperty ;
+    rdfs:label "Has Transfer Speed"@en ;
+    dc:source "FIAF Cataloguing Manual 3.1.5.23"^^xsd:string ;
+    rdfs:domain fiaf:Item ;
+    rdfs:range fiaf:FrameRate .
 
 fiaf:hasVariantType a owl:ObjectProperty ;
     rdfs:label "Has Variant Type"@en ;
@@ -193,10 +294,6 @@ fiaf:hasWorkVariant a owl:ObjectProperty ;
     rdfs:domain fiaf:WorkVariant ;
     rdfs:range fiaf:WorkVariant .
 
-fiaf:Item a owl:Class ;
-    rdfs:label "Item"@en ;
-    dc:source "FIAF Cataloguing Manual 3.0"^^xsd:string .
-
 fiaf:WorkVariant a owl:Class ;
     rdfs:label "Work/Variant"@en ;
     dc:source "FIAF Cataloguing Manual 1.0"^^xsd:string .
@@ -204,4 +301,8 @@ fiaf:WorkVariant a owl:Class ;
 fiaf:Manifestation a owl:Class ;
     rdfs:label "Manifestation"@en ;
     dc:source "FIAF Cataloguing Manual 2.0"^^xsd:string .
+
+fiaf:Item a owl:Class ;
+    rdfs:label "Item"@en ;
+    dc:source "FIAF Cataloguing Manual 3.0"^^xsd:string .
 
