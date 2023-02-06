@@ -1,0 +1,21 @@
+@prefix : <http://example.org/rules/> .
+@prefix fiaf: <https://fiafcore.org/ontology/> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+
+:TriplesMap a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "cd6685c5.xml";
+    rml:referenceFormulation ql:XPath;
+    rml:iterator "/Filmwerk"
+  ].
+
+:TriplesMap rr:subjectMap [
+  rr:template "https://www.bundesarchiv.de/work/{@uuid}"
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [ rr:constant fiaf:WorkVariant ];
+].

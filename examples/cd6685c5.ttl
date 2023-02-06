@@ -1,0 +1,7 @@
+@prefix : <http://example.org/rules/> .
+@prefix fiaf: <https://fiafcore.org/ontology/> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+
+<https://www.bundesarchiv.de/work/cd6685c5-d104-4cef-8173-2aeafdfcc78c> a fiaf:WorkVariant .

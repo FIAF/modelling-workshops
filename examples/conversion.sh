@@ -1,0 +1,1 @@
+java -jar rmlmapper-6.1.3-r367-all.jar -m cd6685c5.rml -o cd6685c5.ttl -s turtle 
