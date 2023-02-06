@@ -4,4 +4,20 @@
 @prefix rml: <http://semweb.mmlab.be/ns/rml#> .
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 
-<https://www.bundesarchiv.de/work/cd6685c5-d104-4cef-8173-2aeafdfcc78c> a fiaf:WorkVariant .
+<https://www.bundesarchiv.de/manifestation/8f8958b5-6955-4ac5-9836-bb76efe25a41> a
+    fiaf:Manifestation;
+  fiaf:hasItem <https://www.bundesarchiv.de/item/00a8efe9-59d1-42e7-82d1-4e1eb15743be>,
+    <https://www.bundesarchiv.de/item/0b090060-622e-4edb-801f-fc7744520b94>, <https://www.bundesarchiv.de/item/18ce0958-b0ce-4759-a054-400a68809311>,
+    <https://www.bundesarchiv.de/item/37b79ee0-7266-4cf5-80dc-f8a1eff8be22>, <https://www.bundesarchiv.de/item/397da0d8-7b18-42c5-9b45-f5e541c12175>,
+    <https://www.bundesarchiv.de/item/39cb95c8-1af0-4030-bba0-6058ae249ea8>, <https://www.bundesarchiv.de/item/524a5f4d-5c98-4ed7-96ec-1e65df7276df>,
+    <https://www.bundesarchiv.de/item/547937e0-9c2a-4e2d-8c99-c81abe84c5c9>, <https://www.bundesarchiv.de/item/56f74877-c131-4baa-8f22-4ee9802ddf42>,
+    <https://www.bundesarchiv.de/item/58def3c9-e425-499f-9c06-3b03a147d6a2>, <https://www.bundesarchiv.de/item/64312432-e647-481c-afc8-8eb6e7e232a7>,
+    <https://www.bundesarchiv.de/item/65324ab7-13bb-49d4-9598-f50d5c31e6ae>, <https://www.bundesarchiv.de/item/6e511c4d-16cd-4f55-a57e-809e970c23fa>,
+    <https://www.bundesarchiv.de/item/86eb8234-3773-4731-b43e-6dc9da596ff5>, <https://www.bundesarchiv.de/item/ac0953dd-cc99-4330-9550-a5010dc67b67>,
+    <https://www.bundesarchiv.de/item/ba34f545-8c67-4d08-a6f3-d93373a794a0>, <https://www.bundesarchiv.de/item/be8a6097-2eaa-4d04-92d1-01f9cceed68b>,
+    <https://www.bundesarchiv.de/item/c28038c2-4c4f-4269-a5a5-5e33026f8eca>, <https://www.bundesarchiv.de/item/c900713f-ec68-46e4-98fb-5ff320481888>,
+    <https://www.bundesarchiv.de/item/cb32b4f8-699c-4c39-97b6-b333cf0195b0>, <https://www.bundesarchiv.de/item/dcd6ca45-6e95-4fc9-9579-17ef954bb151>,
+    <https://www.bundesarchiv.de/item/de147817-ae35-42e0-b0a3-3816d47333dc>, <https://www.bundesarchiv.de/item/e25fb75e-2e1f-4b55-a9a8-2133be1aee87> .
+
+<https://www.bundesarchiv.de/work/cd6685c5-d104-4cef-8173-2aeafdfcc78c> a fiaf:WorkVariant;
+  fiaf:hasManifestation <https://www.bundesarchiv.de/manifestation/8f8958b5-6955-4ac5-9836-bb76efe25a41> .
