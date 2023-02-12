@@ -4,6 +4,8 @@
 @prefix rml: <http://semweb.mmlab.be/ns/rml#> .
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 
+### Map WorkVariants
+
 :MapWorkVariant a rr:TriplesMap;
   rml:logicalSource [
     rml:source "cd6685c5.xml";
@@ -37,6 +39,8 @@
  ];
 ].
 
+### Map Manifestations
+
 :MapManifestation a rr:TriplesMap;
   rml:logicalSource [
     rml:source "cd6685c5.xml";
@@ -56,5 +60,29 @@
 :MapManifestation rr:predicateObjectMap [
   rr:predicate fiaf:hasItem;
   rr:objectMap [ rr:template "https://www.bundesarchiv.de/item/{Exemplar/@uuid}"
+ ];
+].
+
+### Map Items
+
+:MapItem a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "cd6685c5.xml";
+    rml:referenceFormulation ql:XPath;
+    rml:iterator "/Filmwerk/Manifestation/Exemplar"
+  ].
+
+:MapItem rr:subjectMap [
+  rr:template "https://www.bundesarchiv.de/item/{@uuid}"
+].
+
+:MapItem rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [ rr:constant fiaf:Item ];
+].
+
+:MapItem rr:predicateObjectMap [
+  rr:predicate fiaf:hasCarrier;
+  rr:objectMap [ rr:template "https://www.bundesarchiv.de/carrier/{Aufbewahrungseinheit/@uuid}"
  ];
 ].
