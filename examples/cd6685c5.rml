@@ -39,6 +39,18 @@
  ];
 ].
 
+:MapWorkVariant rr:predicateObjectMap [
+  rr:predicate fiaf:hasCountry;
+  rr:objectMap [ rr:template "https://www.bundesarchiv.de/country/{Ursprungsland}"
+ ];
+].
+
+:MapWorkVariant rr:predicateObjectMap [
+  rr:predicate fiaf:hasForm;
+  rr:objectMap [ rr:template "https://www.bundesarchiv.de/form/{Gattung}"
+ ];
+].
+
 ### Map Manifestations
 
 :MapManifestation a rr:TriplesMap;
@@ -78,7 +90,7 @@
 
 :MapItem rr:predicateObjectMap [
   rr:predicate rdf:type;
-  rr:objectMap [ rr:constant fiaf:Item ];
+  rr:objectMap [ rr:template "https://www.bundesarchiv.de/itemtype/{Aufbewahrungseinheit/Materialart}" ];
 ].
 
 :MapItem rr:predicateObjectMap [
