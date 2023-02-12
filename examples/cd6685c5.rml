@@ -21,8 +21,19 @@
 ].
 
 :MapWorkVariant rr:predicateObjectMap [
+  rr:predicate rdfs:label;
+  rr:objectMap [  rml:reference "IDTitel" ];
+].
+
+:MapWorkVariant rr:predicateObjectMap [
   rr:predicate fiaf:hasManifestation;
   rr:objectMap [ rr:template "https://www.bundesarchiv.de/manifestation/{Manifestation/@uuid}"
+ ];
+].
+
+:MapWorkVariant rr:predicateObjectMap [
+  rr:predicate fiaf:hasCountry;
+  rr:objectMap [ rr:template "https://www.bundesarchiv.de/country/{Ursprungsland}"
  ];
 ].
 
@@ -30,11 +41,11 @@
   rml:logicalSource [
     rml:source "cd6685c5.xml";
     rml:referenceFormulation ql:XPath;
-    rml:iterator "/Filmwerk"
+    rml:iterator "/Filmwerk/Manifestation"
   ].
 
 :MapManifestation rr:subjectMap [
-  rr:template "https://www.bundesarchiv.de/manifestation/{Manifestation/@uuid}"
+  rr:template "https://www.bundesarchiv.de/manifestation/{@uuid}"
 ].
 
 :MapManifestation rr:predicateObjectMap [
@@ -44,6 +55,6 @@
 
 :MapManifestation rr:predicateObjectMap [
   rr:predicate fiaf:hasItem;
-  rr:objectMap [ rr:template "https://www.bundesarchiv.de/item/{Manifestation/Exemplar/@uuid}"
+  rr:objectMap [ rr:template "https://www.bundesarchiv.de/item/{Exemplar/@uuid}"
  ];
 ].

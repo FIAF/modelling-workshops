@@ -20,4 +20,8 @@
     <https://www.bundesarchiv.de/item/de147817-ae35-42e0-b0a3-3816d47333dc>, <https://www.bundesarchiv.de/item/e25fb75e-2e1f-4b55-a9a8-2133be1aee87> .
 
 <https://www.bundesarchiv.de/work/cd6685c5-d104-4cef-8173-2aeafdfcc78c> a fiaf:WorkVariant;
+  <http://www.w3.org/2000/01/rdf-schema#label> """
+		ALICE IN DEN STÄDTEN (1973-1974) (Originaltitel)
+	""";
+  fiaf:hasCountry <https://www.bundesarchiv.de/country/%0A%09%09Bundesrepublik%20Deutschland%0A%09>;
   fiaf:hasManifestation <https://www.bundesarchiv.de/manifestation/8f8958b5-6955-4ac5-9836-bb76efe25a41> .
