@@ -144,7 +144,8 @@ jobs:
           md += '\n\n'
           for a,b in [
             ('Classes', rdflib.OWL.Class),
-            ('Object Properties', rdflib.OWL.ObjectProperty)]:
+            ('Object Properties', rdflib.OWL.ObjectProperty),
+            ('Datatype Properties', rdflib.OWL.DatatypeProperty)]:
             md += f'## {a}'+'   \n'
             for x in sorted([s for s,p,o in graph.triples((None, None, b))]):
               md += element(x)
