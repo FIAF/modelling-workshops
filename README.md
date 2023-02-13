@@ -349,3 +349,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
 **domain** [fiaf:WorkVariant](https://fiafcore.org/ontology/WorkVariant)   
 **range** [fiaf:WorkVariant](https://fiafcore.org/ontology/WorkVariant)   
+## Datatype Properties   
+####  Has Identifier Value   
+> **iri** https://fiafcore.org/ontology/hasIdentifierValue   
+**label** Has Identifier Value   
+**source** FIAF Cataloguing Manual 1.3.1, 2.3.1, 3.1.1   
+**type** [http://www.w3.org/2002/07/owl#DatatypeProperty](http://www.w3.org/2002/07/owl#DatatypeProperty)   
+**domain** [fiaf:Identifier](https://fiafcore.org/ontology/Identifier)   
+**range** [http://www.w3.org/2001/XMLSchema#string](http://www.w3.org/2001/XMLSchema#string)   
