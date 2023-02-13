@@ -24,12 +24,22 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:WorkVariant](https://fiafcore.org/ontology/WorkVariant)   
+####  EIDR Identifier   
+> **iri** https://fiafcore.org/ontology/EIDRIdentifier   
+**label** EIDR Identifier   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Identifier](https://fiafcore.org/ontology/Identifier)   
 ####  Home Viewing Publication   
 > **iri** https://fiafcore.org/ontology/HomeViewingPublication   
 **label** Home Viewing Publication   
 **source** FIAF Cataloguing Manual D.5.6   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation)   
+####  Identifier   
+> **iri** https://fiafcore.org/ontology/Identifier   
+**label** Identifier   
+**source** FIAF Cataloguing Manual 1.3.1, 2.3.1, 3.1.1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 ####  Internet   
 > **iri** https://fiafcore.org/ontology/Internet   
 **label** Internet   
@@ -100,6 +110,16 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.5.5   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation)   
+####  VIAF Identifier   
+> **iri** https://fiafcore.org/ontology/VIAFIdentifier   
+**label** VIAF Identifier   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Identifier](https://fiafcore.org/ontology/Identifier)   
+####  Wikidata Identifier   
+> **iri** https://fiafcore.org/ontology/WikidataIdentifier   
+**label** Wikidata Identifier   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Identifier](https://fiafcore.org/ontology/Identifier)   
 ####  Work/Variant   
 > **iri** https://fiafcore.org/ontology/WorkVariant   
 **label** Work/Variant   
