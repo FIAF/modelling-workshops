@@ -6,6 +6,12 @@ These will take place weekly, starting Thursday 12th of January at 5pm CET and  
 Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdataweb.org/webvowl-old/webvowl-old.html#iri=https://raw.githubusercontent.com/FIAF/modelling-workshops/main/ontology.ttl)]
 
 ## Classes   
+####  Alternative Title   
+> **iri** https://fiafcore.org/ontology/AlternativeTitle   
+**label** Alternative Title   
+**source** FIAF Cataloguing Manual A.2.4   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Title](https://fiafcore.org/ontology/Title)   
 ####  Analytic   
 > **iri** https://fiafcore.org/ontology/Analytic   
 **label** Analytic   
@@ -41,6 +47,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Identifier   
 **source** FIAF Cataloguing Manual 1.3.1, 2.3.1, 3.1.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+####  Identifiying Title   
+> **iri** https://fiafcore.org/ontology/IdentifiyingTitle   
+**label** Identifiying Title   
+**source** FIAF Cataloguing Manual A.2.1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Title](https://fiafcore.org/ontology/Title)   
 ####  Internet   
 > **iri** https://fiafcore.org/ontology/Internet   
 **label** Internet   
@@ -81,6 +93,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.5.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation)   
+####  Preferred Title   
+> **iri** https://fiafcore.org/ontology/PreferredTitle   
+**label** Preferred Title   
+**source** FIAF Cataloguing Manual A.2.0   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Title](https://fiafcore.org/ontology/Title)   
 ####  Preservation/Restoration   
 > **iri** https://fiafcore.org/ontology/PreservationRestoration   
 **label** Preservation/Restoration   
@@ -93,12 +111,29 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:WorkVariant](https://fiafcore.org/ontology/WorkVariant)   
+####  Supplied/Devised Title   
+> **iri** https://fiafcore.org/ontology/SuppliedDevisedTitle   
+**label** Supplied/Devised Title   
+**source** FIAF Cataloguing Manual A.2.5   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Title](https://fiafcore.org/ontology/Title)   
 ####  Theatrical Distribution   
 > **iri** https://fiafcore.org/ontology/TheatricalDistribution   
 **label** Theatrical Distribution   
 **source** FIAF Cataloguing Manual D.5.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation)   
+####  Title   
+> **iri** https://fiafcore.org/ontology/Title   
+**label** Title   
+**source** FIAF Cataloguing Manual 1.3.2, 2.3.2, 3.1.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+####  Title Proper   
+> **iri** https://fiafcore.org/ontology/TitleProper   
+**label** Title Proper   
+**source** FIAF Cataloguing Manual A.2.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Title](https://fiafcore.org/ontology/Title)   
 ####  Unknown Manifestation   
 > **iri** https://fiafcore.org/ontology/UnknownManifestation   
 **label** Unknown Manifestation   
@@ -359,4 +394,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual 1.3.1, 2.3.1, 3.1.1   
 **type** [http://www.w3.org/2002/07/owl#DatatypeProperty](http://www.w3.org/2002/07/owl#DatatypeProperty)   
 **domain** [fiaf:Identifier](https://fiafcore.org/ontology/Identifier)   
+**range** [http://www.w3.org/2001/XMLSchema#string](http://www.w3.org/2001/XMLSchema#string)   
+####  Has Title Value   
+> **iri** https://fiafcore.org/ontology/hasTitleValue   
+**label** Has Title Value   
+**source** FIAF Cataloguing Manual 1.3.2, 2.3.2, 3.1.2   
+**type** [http://www.w3.org/2002/07/owl#DatatypeProperty](http://www.w3.org/2002/07/owl#DatatypeProperty)   
+**domain** [fiaf:Title](https://fiafcore.org/ontology/Title)   
 **range** [http://www.w3.org/2001/XMLSchema#string](http://www.w3.org/2001/XMLSchema#string)   
