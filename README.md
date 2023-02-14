@@ -27,6 +27,7 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 ####  EIDR Identifier   
 > **iri** https://fiafcore.org/ontology/EIDRIdentifier   
 **label** EIDR Identifier   
+**source** FIAF Cataloguing Manual 1.3.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Identifier](https://fiafcore.org/ontology/Identifier)   
 ####  Home Viewing Publication   
@@ -113,11 +114,13 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 ####  VIAF Identifier   
 > **iri** https://fiafcore.org/ontology/VIAFIdentifier   
 **label** VIAF Identifier   
+**source** FIAF Cataloguing Manual 1.3.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Identifier](https://fiafcore.org/ontology/Identifier)   
 ####  Wikidata Identifier   
 > **iri** https://fiafcore.org/ontology/WikidataIdentifier   
 **label** Wikidata Identifier   
+**source** FIAF Cataloguing Manual 1.3.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Identifier](https://fiafcore.org/ontology/Identifier)   
 ####  Work/Variant   
