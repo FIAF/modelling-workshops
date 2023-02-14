@@ -1,0 +1,51 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix fiaf: <https://fiafcore.org/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Ontology
+
+<https://fiafcore.org/ontology/> a owl:Ontology ;
+    dc:title "FIAFcore" .
+
+# Class
+
+<https://fiafcore.org/ontology/Title> a owl:Class ;
+    rdfs:label "Title"@en ;
+    dc:source "FIAF Cataloguing Manual 1.3.2, 2.3.2, 3.1.2"^^xsd:string .
+
+# Subclasses
+
+<https://fiafcore.org/ontology/AlternativeTitle> a owl:Class ;
+    rdfs:label "Alternative Title"@en ;
+    dc:source "FIAF Cataloguing Manual A.2.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:Title .
+
+<https://fiafcore.org/ontology/IdentifiyingTitle> a owl:Class ;
+    rdfs:label "Identifiying Title"@en ;
+    dc:source "FIAF Cataloguing Manual A.2.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:Title .
+
+<https://fiafcore.org/ontology/PreferredTitle> a owl:Class ;
+    rdfs:label "Preferred Title"@en ;
+    dc:source "FIAF Cataloguing Manual A.2.0"^^xsd:string ;
+    rdfs:subClassOf fiaf:Title .
+
+<https://fiafcore.org/ontology/SuppliedDevisedTitle> a owl:Class ;
+    rdfs:label "Supplied/Devised Title"@en ;
+    dc:source "FIAF Cataloguing Manual A.2.5"^^xsd:string ;
+    rdfs:subClassOf fiaf:Title .
+
+<https://fiafcore.org/ontology/TitleProper> a owl:Class ;
+    rdfs:label "Title Proper"@en ;
+    dc:source "FIAF Cataloguing Manual A.2.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:Title .
+
+# Datatype Property 
+
+<https://fiafcore.org/ontology/hasTitleValue> a owl:DatatypeProperty ;
+  rdfs:label "Has Title Value"@en ;
+  dc:source "FIAF Cataloguing Manual 1.3.2, 2.3.2, 3.1.2"^^xsd:string ;
+  rdfs:domain fiaf:Title ;
+  rdfs:range xsd:string .
