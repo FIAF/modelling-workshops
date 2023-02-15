@@ -12,6 +12,11 @@ fiaf:AlternativeTitle a owl:Class ;
     dc:source "FIAF Cataloguing Manual A.2.4"^^xsd:string ;
     rdfs:subClassOf fiaf:Title .
 
+fiaf:AmateurFilm a owl:NamedIndividual,
+        fiaf:Form ;
+    rdfs:label "Amateur Film"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string .
+
 fiaf:Analytic a owl:Class ;
     rdfs:label "Analytic"@en ;
     dc:source "FIAF Cataloguing Manual D.1"^^xsd:string ;
@@ -27,10 +32,37 @@ fiaf:Collection a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.1"^^xsd:string ;
     rdfs:subClassOf fiaf:WorkVariant .
 
+fiaf:Compilation a owl:NamedIndividual,
+        fiaf:Form ;
+    rdfs:label "Compilation"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms D.1.6"^^xsd:string .
+
 fiaf:EIDRIdentifier a owl:Class ;
     rdfs:label "EIDR Identifier"@en ;
     dc:source "FIAF Cataloguing Manual 1.3.1"^^xsd:string ;
     rdfs:subClassOf fiaf:Identifier .
+
+fiaf:Excerpt a owl:NamedIndividual,
+        fiaf:Form ;
+    rdfs:label "Clip"@en,
+        "Excerpt"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms D.1.13"^^xsd:string .
+
+fiaf:Feature a owl:NamedIndividual,
+        fiaf:Form ;
+    rdfs:label "Feature"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms D.1.2"^^xsd:string .
+
+fiaf:Featurette a owl:NamedIndividual,
+        fiaf:Form ;
+    rdfs:label "Featurette"@en,
+        "Making Of"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms D.1.8"^^xsd:string .
+
+fiaf:HomeMovie a owl:NamedIndividual,
+        fiaf:Form ;
+    rdfs:label "Home Movie"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms D.1.10"^^xsd:string .
 
 fiaf:HomeViewingPublication a owl:Class ;
     rdfs:label "Home Viewing Publication"@en ;
@@ -62,6 +94,12 @@ fiaf:NotForRelease a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.5.4"^^xsd:string ;
     rdfs:subClassOf fiaf:Manifestation .
 
+fiaf:Outtake a owl:NamedIndividual,
+        fiaf:Form ;
+    rdfs:label "Out"@en,
+        "Outtake"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms D.1.11"^^xsd:string .
+
 fiaf:PreRelease a owl:Class ;
     rdfs:label "Pre-Release"@en ;
     dc:source "FIAF Cataloguing Manual D.5.1"^^xsd:string ;
@@ -77,10 +115,35 @@ fiaf:PreservationRestoration a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.5.9"^^xsd:string ;
     rdfs:subClassOf fiaf:Manifestation .
 
-fiaf:Serial a owl:Class ;
+fiaf:ScreenTest a owl:NamedIndividual,
+        fiaf:Form ;
+    rdfs:label "Screen Test"@en,
+        "Wardrobe Test"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms D.1.15"^^xsd:string .
+
+fiaf:Serial a owl:Class,
+        owl:NamedIndividual,
+        fiaf:Form ;
     rdfs:label "Serial"@en ;
-    dc:source "FIAF Cataloguing Manual D.1"^^xsd:string ;
+    dc:source "FIAF Cataloguing Manual D.1"^^xsd:string,
+        "FIAF Glossary of Filmographic Terms D.1.5"^^xsd:string ;
     rdfs:subClassOf fiaf:WorkVariant .
+
+fiaf:Series a owl:NamedIndividual,
+        fiaf:Form ;
+    rdfs:label "Series"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms D.1.4"^^xsd:string .
+
+fiaf:Short a owl:NamedIndividual,
+        fiaf:Form ;
+    rdfs:label "Short"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms D.1.3"^^xsd:string .
+
+fiaf:StockFootage a owl:NamedIndividual,
+        fiaf:Form ;
+    rdfs:label "Stock Footage"@en,
+        "Stock Shot"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms D.1.12"^^xsd:string .
 
 fiaf:SuppliedDevisedTitle a owl:Class ;
     rdfs:label "Supplied/Devised Title"@en ;
@@ -96,6 +159,18 @@ fiaf:TitleProper a owl:Class ;
     rdfs:label "Title Proper"@en ;
     dc:source "FIAF Cataloguing Manual A.2.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Title .
+
+fiaf:Trailer a owl:NamedIndividual,
+        fiaf:Form ;
+    rdfs:label "Preview"@en,
+        "Teaser"@en,
+        "Trailer"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms D.1.7"^^xsd:string .
+
+fiaf:UneditedFootage a owl:NamedIndividual,
+        fiaf:Form ;
+    rdfs:label "Unedited Footage"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms D.1.14"^^xsd:string .
 
 fiaf:UnknownManifestation a owl:Class ;
     rdfs:label "Unknown Manifestation"@en ;
@@ -353,6 +428,10 @@ fiaf:Identifier a owl:Class ;
 fiaf:Title a owl:Class ;
     rdfs:label "Title"@en ;
     dc:source "FIAF Cataloguing Manual 1.3.2, 2.3.2, 3.1.2"^^xsd:string .
+
+fiaf:Form a owl:Class ;
+    rdfs:label "Form"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms D.1.1"^^xsd:string .
 
 fiaf:WorkVariant a owl:Class ;
     rdfs:label "Work/Variant"@en ;

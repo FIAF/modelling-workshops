@@ -36,6 +36,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual 1.3.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Identifier](https://fiafcore.org/ontology/Identifier)   
+####  Form   
+> **iri** https://fiafcore.org/ontology/Form   
+**label** Form   
+**source** FIAF Glossary of Filmographic Terms D.1.1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 ####  Home Viewing Publication   
 > **iri** https://fiafcore.org/ontology/HomeViewingPublication   
 **label** Home Viewing Publication   
@@ -108,8 +113,8 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 ####  Serial   
 > **iri** https://fiafcore.org/ontology/Serial   
 **label** Serial   
-**source** FIAF Cataloguing Manual D.1   
-**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**source** FIAF Cataloguing Manual D.1, FIAF Glossary of Filmographic Terms D.1.5   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class), [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
 **subclass of** [fiaf:WorkVariant](https://fiafcore.org/ontology/WorkVariant)   
 ####  Supplied/Devised Title   
 > **iri** https://fiafcore.org/ontology/SuppliedDevisedTitle   
