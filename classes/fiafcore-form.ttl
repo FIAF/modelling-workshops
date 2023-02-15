@@ -1,0 +1,81 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix fiaf: <https://fiafcore.org/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Ontology
+
+<https://fiafcore.org/ontology/> a owl:Ontology ;
+    dc:title "FIAFcore" .
+
+# Class
+
+<https://fiafcore.org/ontology/Form> a owl:Class ;
+    rdfs:label "Form"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms D.1.1"^^xsd:string .
+
+# Subclasses
+
+<https://fiafcore.org/ontology/AmateurFilm> a owl:NamedIndividual, fiaf:Form ;
+    rdfs:label "Amateur Film"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string .
+    
+<https://fiafcore.org/ontology/Compilation> a owl:NamedIndividual, fiaf:Form ;
+    rdfs:label "Compilation"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms D.1.6"^^xsd:string .
+
+<https://fiafcore.org/ontology/Excerpt> a owl:NamedIndividual, fiaf:Form ;
+    rdfs:label "Excerpt"@en,
+        "Clip"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms D.1.13"^^xsd:string .
+
+<https://fiafcore.org/ontology/Feature> a owl:NamedIndividual, fiaf:Form ;
+    rdfs:label "Feature"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms D.1.2"^^xsd:string .
+
+<https://fiafcore.org/ontology/Featurette> a owl:NamedIndividual, fiaf:Form ;
+    rdfs:label "Featurette"@en,
+        "Making Of"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms D.1.8"^^xsd:string .
+
+<https://fiafcore.org/ontology/HomeMovie> a owl:NamedIndividual, fiaf:Form ;
+    rdfs:label "Home Movie"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms D.1.10"^^xsd:string .
+
+<https://fiafcore.org/ontology/Outtake> a owl:NamedIndividual, fiaf:Form ;
+    rdfs:label "Outtake"@en,
+        "Out"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms D.1.11"^^xsd:string .
+
+<https://fiafcore.org/ontology/ScreenTest> a owl:NamedIndividual, fiaf:Form ;
+    rdfs:label "Screen Test"@en,
+        "Wardrobe Test"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms D.1.15"^^xsd:string .
+
+<https://fiafcore.org/ontology/Series> a owl:NamedIndividual, fiaf:Form ;
+    rdfs:label "Series"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms D.1.4"^^xsd:string .
+
+<https://fiafcore.org/ontology/Serial> a owl:NamedIndividual, fiaf:Form ;
+    rdfs:label "Serial"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms D.1.5"^^xsd:string .
+    
+<https://fiafcore.org/ontology/Short> a owl:NamedIndividual, fiaf:Form ;
+    rdfs:label "Short"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms D.1.3"^^xsd:string .
+    
+<https://fiafcore.org/ontology/StockFootage> a owl:NamedIndividual, fiaf:Form ;
+    rdfs:label "Stock Footage"@en,
+        "Stock Shot"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms D.1.12"^^xsd:string .
+    
+<https://fiafcore.org/ontology/Trailer> a owl:NamedIndividual, fiaf:Form ;
+    rdfs:label "Trailer"@en,
+        "Preview"@en,
+        "Teaser"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms D.1.7"^^xsd:string .
+    
+<https://fiafcore.org/ontology/UneditedFootage> a owl:NamedIndividual, fiaf:Form ;
+    rdfs:label "Unedited Footage"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms D.1.14"^^xsd:string .
