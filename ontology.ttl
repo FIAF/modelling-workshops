@@ -267,6 +267,11 @@ fiaf:CopyrightOwnerPresent a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms C.2.2"^^xsd:string ;
     rdfs:subClassOf fiaf:CopyrightandDistributionActivity .
 
+fiaf:CorporateBody a owl:Class ;
+    rdfs:label "Corporate Body"@en ;
+    dc:source "FIAF Cataloguing Manual 1.4.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:Agent .
+
 fiaf:CostumeDesigner a owl:Class ;
     rdfs:label "Costume Design"@en,
         "Costume Designer"@en,
@@ -426,6 +431,11 @@ fiaf:Extra a owl:Class ;
     rdfs:label "Extra"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.7.4"^^xsd:string ;
     rdfs:subClassOf fiaf:CastActivity .
+
+fiaf:Family a owl:Class ;
+    rdfs:label "Family"@en ;
+    dc:source "FIAF Cataloguing Manual 1.4.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:Agent .
 
 fiaf:Feature a owl:NamedIndividual,
         fiaf:Form ;
@@ -713,6 +723,16 @@ fiaf:Outtake a owl:NamedIndividual,
     rdfs:label "Out"@en,
         "Outtake"@en ;
     dc:source "FIAF Glossary of Filmographic Terms D.1.11"^^xsd:string .
+
+fiaf:Person a owl:Class ;
+    rdfs:label "Person"@en ;
+    dc:source "FIAF Cataloguing Manual 1.4.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:Agent .
+
+fiaf:PersonGroup a owl:Class ;
+    rdfs:label "Person Group"@en ;
+    dc:source "FIAF Cataloguing Manual 1.4.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:Agent .
 
 fiaf:PostProductionSupervisor a owl:Class ;
     rdfs:label "Post-Production Supervisor"@en ;
@@ -1399,6 +1419,10 @@ fiaf:EditingActivity a owl:Class ;
     rdfs:label "Editing Activity"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.10"^^xsd:string ;
     rdfs:subClassOf fiaf:Activity .
+
+fiaf:Agent a owl:Class ;
+    rdfs:label "Agent"@en ;
+    dc:source "FIAF Cataloguing Manual 1.4.1"^^xsd:string .
 
 fiaf:LaboratoryActivity a owl:Class ;
     rdfs:label "Laboratory Activity"@en ;

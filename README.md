@@ -29,6 +29,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.5.4   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CinematographyActivity](https://fiafcore.org/ontology/CinematographyActivity)   
+####  Agent   
+> **iri** https://fiafcore.org/ontology/Agent   
+**label** Agent   
+**source** FIAF Cataloguing Manual 1.4.1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 ####  Alternative Title   
 > **iri** https://fiafcore.org/ontology/AlternativeTitle   
 **label** Alternative Title   
@@ -293,6 +298,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms C.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Activity](https://fiafcore.org/ontology/Activity)   
+####  Corporate Body   
+> **iri** https://fiafcore.org/ontology/CorporateBody   
+**label** Corporate Body   
+**source** FIAF Cataloguing Manual 1.4.1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Agent](https://fiafcore.org/ontology/Agent)   
 ####  Costume Design, Costume Designer, Costumes   
 > **iri** https://fiafcore.org/ontology/CostumeDesigner   
 **label** Costume Design, Costume Designer, Costumes   
@@ -461,6 +472,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.7.4   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CastActivity](https://fiafcore.org/ontology/CastActivity)   
+####  Family   
+> **iri** https://fiafcore.org/ontology/Family   
+**label** Family   
+**source** FIAF Cataloguing Manual 1.4.1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Agent](https://fiafcore.org/ontology/Agent)   
 ####  Fight Arranger, Fight Master, Fights Arranged   
 > **iri** https://fiafcore.org/ontology/FightArranger   
 **label** Fight Arranger, Fight Master, Fights Arranged   
@@ -733,6 +750,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.4.3   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:WritingActivity](https://fiafcore.org/ontology/WritingActivity)   
+####  Person   
+> **iri** https://fiafcore.org/ontology/Person   
+**label** Person   
+**source** FIAF Cataloguing Manual 1.4.1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Agent](https://fiafcore.org/ontology/Agent)   
+####  Person Group   
+> **iri** https://fiafcore.org/ontology/PersonGroup   
+**label** Person Group   
+**source** FIAF Cataloguing Manual 1.4.1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Agent](https://fiafcore.org/ontology/Agent)   
 ####  Post-Production Supervisor   
 > **iri** https://fiafcore.org/ontology/PostProductionSupervisor   
 **label** Post-Production Supervisor   
