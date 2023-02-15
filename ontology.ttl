@@ -7,6 +7,25 @@
 fiaf: a owl:Ontology ;
     dc:title "FIAFcore" .
 
+fiaf:Adaptation a owl:Class ;
+    rdfs:label "Adaptation"@en,
+        "Adapted"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.4.11"^^xsd:string ;
+    rdfs:subClassOf fiaf:WritingActivity .
+
+fiaf:Advisor a owl:Class ;
+    rdfs:label "Advisor"@en,
+        "Consultant"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.2.19"^^xsd:string ;
+    rdfs:subClassOf fiaf:ProducingActivity .
+
+fiaf:AerialCameraman a owl:Class ;
+    rdfs:label "Aerial Cameraman"@en,
+        "Aerial Photography"@en,
+        "Aerial Sequences"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.5.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:CinematographyActivity .
+
 fiaf:AlternativeTitle a owl:Class ;
     rdfs:label "Alternative Title"@en ;
     dc:source "FIAF Cataloguing Manual A.2.4"^^xsd:string ;
@@ -22,31 +41,391 @@ fiaf:Analytic a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.1"^^xsd:string ;
     rdfs:subClassOf fiaf:WorkVariant .
 
+fiaf:AnimalTrainer a owl:Class ;
+    rdfs:label "Animal Trainer"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.7.12"^^xsd:string ;
+    rdfs:subClassOf fiaf:CastActivity .
+
+fiaf:Animation a owl:Class ;
+    rdfs:label "Animation"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.13.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:AnimationActivity .
+
+fiaf:AnimationDirector a owl:Class ;
+    rdfs:label "Animation Director"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.13.9"^^xsd:string ;
+    rdfs:subClassOf fiaf:AnimationActivity .
+
+fiaf:Animator a owl:Class ;
+    rdfs:label "Animated"@en,
+        "Animation"@en,
+        "Animator"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.13.11"^^xsd:string ;
+    rdfs:subClassOf fiaf:AnimationActivity .
+
+fiaf:Animatronics a owl:Class ;
+    rdfs:label "Animatronics"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.8.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:SpecialEffectsActivity .
+
+fiaf:Armorer a owl:Class ;
+    rdfs:label "Armorer"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.8.7"^^xsd:string ;
+    rdfs:subClassOf fiaf:SpecialEffectsActivity .
+
+fiaf:ArtDirector a owl:Class ;
+    rdfs:label "Art Direction"@en,
+        "Art Director"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.6.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:ProductionDesignActivity .
+
+fiaf:AssistantArtDirector a owl:Class ;
+    rdfs:label "Assistant Art Director"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.6.3."^^xsd:string ;
+    rdfs:subClassOf fiaf:ProductionDesignActivity .
+
+fiaf:AssistantCameraman a owl:Class ;
+    rdfs:label "Assistant Camera Operator"@en,
+        "Assistant Cameraman"@en,
+        "Camera Assistant"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.5.7"^^xsd:string ;
+    rdfs:subClassOf fiaf:CinematographyActivity .
+
+fiaf:AssistantDirector a owl:Class ;
+    rdfs:label "Assistant Director"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.3.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:DirectingActivity .
+
+fiaf:AssistantFilmEditor a owl:Class ;
+    rdfs:label "Assistant Editor"@en,
+        "Assistant Film Editor"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.10.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:EditingActivity .
+
+fiaf:AssistantProducer a owl:Class ;
+    rdfs:label "Assistant Producer"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.2.8"^^xsd:string ;
+    rdfs:subClassOf fiaf:ProducingActivity .
+
+fiaf:AssociateProducer a owl:Class ;
+    rdfs:label "Associate Producer"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.2.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:ProducingActivity .
+
+fiaf:BasedonCharactersCreated a owl:Class ;
+    rdfs:label "Based on Characters Created"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.4.5"^^xsd:string ;
+    rdfs:subClassOf fiaf:WritingActivity .
+
+fiaf:BasedonanIdea a owl:Class ;
+    rdfs:label "Based on an Idea"@en,
+        "From an Idea"@en,
+        "Idea"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.4.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:WritingActivity .
+
+fiaf:BestBoy a owl:Class ;
+    rdfs:label "Assistant Chief Lighting Technician"@en,
+        "Best Boy"@en,
+        "Best Boy Electric"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.5.12"^^xsd:string ;
+    rdfs:subClassOf fiaf:CinematographyActivity .
+
+fiaf:BoomOperator a owl:Class ;
+    rdfs:label "Boom Operator"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.9.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundActivity .
+
 fiaf:Broadcast a owl:Class ;
     rdfs:label "Broadcast"@en ;
     dc:source "FIAF Cataloguing Manual D.5.7"^^xsd:string ;
     rdfs:subClassOf fiaf:Manifestation .
+
+fiaf:CameraOperator a owl:Class ;
+    rdfs:label "Camera"@en,
+        "Camera Operator"@en,
+        "Cameraman"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.5.3"^^xsd:string ;
+    rdfs:subClassOf fiaf:CinematographyActivity .
+
+fiaf:Cast a owl:Class ;
+    rdfs:label "Cast"@en,
+        "Cast of Characters"@en,
+        "Players"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.7.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:CastActivity .
+
+fiaf:CastingDirector a owl:Class ;
+    rdfs:label "Casting"@en,
+        "Casting Director"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.3.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:DirectingActivity .
+
+fiaf:Censorship a owl:Class ;
+    rdfs:label "Approved"@en,
+        "Censor"@en,
+        "Censored"@en,
+        "Censorship"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms C.1.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:CensorshipActivity .
+
+fiaf:CharacterDesign a owl:Class ;
+    rdfs:label "Character Design"@en,
+        "Character Designer"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.13.14"^^xsd:string ;
+    rdfs:subClassOf fiaf:AnimationActivity .
+
+fiaf:ChiefLightingTechnician a owl:Class ;
+    rdfs:label "Chief Lighting Technician"@en,
+        "Gaffer"@en,
+        "Lighting"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.5.11"^^xsd:string ;
+    rdfs:subClassOf fiaf:CinematographyActivity .
+
+fiaf:Choreographer a owl:Class ;
+    rdfs:label "Choreographed"@en,
+        "Choreographer"@en,
+        "Choreography"@en,
+        "Dance Director"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.11.15"^^xsd:string ;
+    rdfs:subClassOf fiaf:MusicActivity .
+
+fiaf:ClapperLoader a owl:Class ;
+    rdfs:label "Camera Loader"@en,
+        "Clapper"@en,
+        "Clapper Loader"@en,
+        "Film Loader"@en,
+        "Loader"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.5.9"^^xsd:string ;
+    rdfs:subClassOf fiaf:CinematographyActivity .
+
+fiaf:Cleanup a owl:Class ;
+    rdfs:label "Cleanup"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.13.15"^^xsd:string ;
+    rdfs:subClassOf fiaf:AnimationActivity .
 
 fiaf:Collection a owl:Class ;
     rdfs:label "Collection"@en ;
     dc:source "FIAF Cataloguing Manual D.1"^^xsd:string ;
     rdfs:subClassOf fiaf:WorkVariant .
 
+fiaf:ColorConsultant a owl:Class ;
+    rdfs:label "Color Consultant"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.5.19"^^xsd:string ;
+    rdfs:subClassOf fiaf:CinematographyActivity .
+
+fiaf:ColorTimer a owl:Class ;
+    rdfs:label "Color Grader"@en,
+        "Color Timer"@en,
+        "Digital Colorist"@en,
+        "Grader"@en,
+        "Timer"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.12.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:LaboratoryActivity .
+
 fiaf:Compilation a owl:NamedIndividual,
         fiaf:Form ;
     rdfs:label "Compilation"@en ;
     dc:source "FIAF Glossary of Filmographic Terms D.1.6"^^xsd:string .
+
+fiaf:Compositing a owl:Class ;
+    rdfs:label "Compositing"@en,
+        "Digital Compositing"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.8.10"^^xsd:string ;
+    rdfs:subClassOf fiaf:SpecialEffectsActivity .
+
+fiaf:ComputerGeneratedImagery a owl:Class ;
+    rdfs:label "CGI"@en,
+        "Computer Generated Imagery"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.8.12"^^xsd:string ;
+    rdfs:subClassOf fiaf:SpecialEffectsActivity .
+
+fiaf:ConstructionCoordinator a owl:Class ;
+    rdfs:label "Construction Coordinator"@en,
+        "Construction Manager"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.6.8"^^xsd:string ;
+    rdfs:subClassOf fiaf:ProductionDesignActivity .
+
+fiaf:Cooperationbyoutsidebodyinmakingoffilm a owl:Class ;
+    rdfs:label "Cooperation (by outside body in making of film)"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.2.22"^^xsd:string ;
+    rdfs:subClassOf fiaf:ProducingActivity .
+
+fiaf:Coproducer a owl:Class ;
+    rdfs:label "Co-producer"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.2.5"^^xsd:string ;
+    rdfs:subClassOf fiaf:ProducingActivity .
+
+fiaf:CopyrightOwnerOriginal a owl:Class ;
+    rdfs:label "Copyright Owner (Original)"@en,
+        "Copyrighted"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms C.2.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:CopyrightandDistributionActivity .
+
+fiaf:CopyrightOwnerPresent a owl:Class ;
+    rdfs:label "Copyright Owner (Present)"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms C.2.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:CopyrightandDistributionActivity .
+
+fiaf:CostumeDesigner a owl:Class ;
+    rdfs:label "Costume Design"@en,
+        "Costume Designer"@en,
+        "Costumes"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.6.12"^^xsd:string ;
+    rdfs:subClassOf fiaf:ProductionDesignActivity .
+
+fiaf:CostumeMaker a owl:Class ;
+    rdfs:label "Costume Maker"@en,
+        "Costumes Made"@en,
+        "Cutter"@en,
+        "Seamstress"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.6.17"^^xsd:string ;
+    rdfs:subClassOf fiaf:ProductionDesignActivity .
+
+fiaf:CostumeSupervisor a owl:Class ;
+    rdfs:label "Costume Supervisor"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.6.13"^^xsd:string ;
+    rdfs:subClassOf fiaf:ProductionDesignActivity .
+
+fiaf:CostumeSupplier a owl:Class ;
+    rdfs:label "Costume Supplier"@en,
+        "Costumes Supplied"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.6.18"^^xsd:string ;
+    rdfs:subClassOf fiaf:ProductionDesignActivity .
+
+fiaf:Costumer a owl:Class ;
+    rdfs:label "Costumer"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.6.14"^^xsd:string ;
+    rdfs:subClassOf fiaf:ProductionDesignActivity .
+
+fiaf:CraneOperator a owl:Class ;
+    rdfs:label "Crane Operator"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.5.16"^^xsd:string ;
+    rdfs:subClassOf fiaf:CinematographyActivity .
+
+fiaf:Dancer a owl:Class ;
+    rdfs:label "Danced"@en,
+        "Dancer"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.7.5"^^xsd:string ;
+    rdfs:subClassOf fiaf:CastActivity .
+
+fiaf:DialogueCoach a owl:Class ;
+    rdfs:label "Dialect Coach"@en,
+        "Dialogue Coach"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.7.8"^^xsd:string ;
+    rdfs:subClassOf fiaf:CastActivity .
+
+fiaf:DialogueEditor a owl:Class ;
+    rdfs:label "Dialogue Editor"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.9.8"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundActivity .
+
+fiaf:Director a owl:Class ;
+    rdfs:label "Directed"@en,
+        "Direction"@en,
+        "Director"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.3.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:DirectingActivity .
+
+fiaf:DirectorofPhotography a owl:Class ;
+    rdfs:label "Cinematographer"@en,
+        "Director of Photography"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.5.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:CinematographyActivity .
+
+fiaf:DirectorofPublicity a owl:Class ;
+    rdfs:label "Director of Publicity"@en,
+        "Publicist"@en,
+        "Publicity Director"@en,
+        "Unit Publicist"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.2.16"^^xsd:string ;
+    rdfs:subClassOf fiaf:ProducingActivity .
+
+fiaf:Distributor a owl:Class ;
+    rdfs:label "Distributed"@en,
+        "Distribution"@en,
+        "Distributor"@en,
+        "Released"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms C.2.3"^^xsd:string ;
+    rdfs:subClassOf fiaf:CopyrightandDistributionActivity .
+
+fiaf:DistributorNational a owl:Class ;
+    rdfs:label "Distributor (National)"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms C.2.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:CopyrightandDistributionActivity .
+
+fiaf:DistributorOriginal a owl:Class ;
+    rdfs:label "Distributor (Original)"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms C.2.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:CopyrightandDistributionActivity .
+
+fiaf:DistributorRegional a owl:Class ;
+    rdfs:label "Distributor (Regional)"@en,
+        "State Rights Distributor"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms C.2.7"^^xsd:string ;
+    rdfs:subClassOf fiaf:CopyrightandDistributionActivity .
+
+fiaf:DistributorWorld a owl:Class ;
+    rdfs:label "Distributor (World)"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms C.2.5"^^xsd:string ;
+    rdfs:subClassOf fiaf:CopyrightandDistributionActivity .
+
+fiaf:DollyGrip a owl:Class ;
+    rdfs:label "Dolly Grip"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.5.15"^^xsd:string ;
+    rdfs:subClassOf fiaf:CinematographyActivity .
+
+fiaf:Double a owl:Class ;
+    rdfs:label "Body Double"@en,
+        "Double"@en,
+        "Stunt Double"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.7.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:CastActivity .
+
+fiaf:DubbingDirector a owl:Class ;
+    rdfs:label "Dubbing Director"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.9.13"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundActivity .
+
+fiaf:DubbingEditor a owl:Class ;
+    rdfs:label "ADR Editor"@en,
+        "Dubbing Editor"@en,
+        "Loop Editor"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.9.14"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundActivity .
+
+fiaf:DubbingSpeakers a owl:Class ;
+    rdfs:label "Dubbing Speakers"@en,
+        "Speakers"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.9.15"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundActivity .
 
 fiaf:EIDRIdentifier a owl:Class ;
     rdfs:label "EIDR Identifier"@en ;
     dc:source "FIAF Cataloguing Manual 1.3.1"^^xsd:string ;
     rdfs:subClassOf fiaf:Identifier .
 
+fiaf:Electrician a owl:Class ;
+    rdfs:label "Electrician"@en,
+        "Lamp Operator"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.5.13"^^xsd:string ;
+    rdfs:subClassOf fiaf:CinematographyActivity .
+
 fiaf:Excerpt a owl:NamedIndividual,
         fiaf:Form ;
     rdfs:label "Clip"@en,
         "Excerpt"@en ;
     dc:source "FIAF Glossary of Filmographic Terms D.1.13"^^xsd:string .
+
+fiaf:ExecutiveProducer a owl:Class ;
+    rdfs:label "Executive Producer"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.2.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:ProducingActivity .
+
+fiaf:Extra a owl:Class ;
+    rdfs:label "Extra"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.7.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:CastActivity .
 
 fiaf:Feature a owl:NamedIndividual,
         fiaf:Form ;
@@ -58,6 +437,58 @@ fiaf:Featurette a owl:NamedIndividual,
     rdfs:label "Featurette"@en,
         "Making Of"@en ;
     dc:source "FIAF Glossary of Filmographic Terms D.1.8"^^xsd:string .
+
+fiaf:FightArranger a owl:Class ;
+    rdfs:label "Fight Arranger"@en,
+        "Fight Master"@en,
+        "Fights Arranged"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.3.7"^^xsd:string ;
+    rdfs:subClassOf fiaf:DirectingActivity .
+
+fiaf:FilmEditor a owl:Class ;
+    rdfs:label "Edited"@en,
+        "Editing"@en,
+        "Editor"@en,
+        "Film Editor"@en,
+        "Picture Editor"@en,
+        "Supervising Editor"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.10.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:EditingActivity .
+
+fiaf:FocusPuller a owl:Class ;
+    rdfs:label "Focus Puller"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.5.8"^^xsd:string ;
+    rdfs:subClassOf fiaf:CinematographyActivity .
+
+fiaf:Foley a owl:Class ;
+    rdfs:label "Foley"@en,
+        "Foley Artist"@en,
+        "Sound Effects Specialist"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.9.9"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundActivity .
+
+fiaf:GeneratorOperator a owl:Class ;
+    rdfs:label "Generator Operator"@en,
+        "Genny Operator"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.5.17"^^xsd:string ;
+    rdfs:subClassOf fiaf:CinematographyActivity .
+
+fiaf:Gowns a owl:Class ;
+    rdfs:label "Gowns"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.6.16"^^xsd:string ;
+    rdfs:subClassOf fiaf:ProductionDesignActivity .
+
+fiaf:Greensman a owl:Class ;
+    rdfs:label "Greensman"@en,
+        "Greensperson"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.6.11"^^xsd:string ;
+    rdfs:subClassOf fiaf:ProductionDesignActivity .
+
+fiaf:Hairdresser a owl:Class ;
+    rdfs:label "Hair Stylist"@en,
+        "Hairdresser"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.6.20"^^xsd:string ;
+    rdfs:subClassOf fiaf:ProductionDesignActivity .
 
 fiaf:HomeMovie a owl:NamedIndividual,
         fiaf:Form ;
@@ -79,10 +510,179 @@ fiaf:Internet a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.5.8"^^xsd:string ;
     rdfs:subClassOf fiaf:Manifestation .
 
+fiaf:Interviewer a owl:Class ;
+    rdfs:label "Interviewed"@en,
+        "Interviewer"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.7.9"^^xsd:string ;
+    rdfs:subClassOf fiaf:CastActivity .
+
+fiaf:KeyGrip a owl:Class ;
+    rdfs:label "Grip"@en,
+        "Key Grip"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.5.14"^^xsd:string ;
+    rdfs:subClassOf fiaf:CinematographyActivity .
+
+fiaf:Laboratory a owl:Class ;
+    rdfs:label "Laboratory"@en,
+        "Laboratory Services"@en,
+        "Processing Laboratory"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.12.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:LaboratoryActivity .
+
+fiaf:LaboratoryTechnicians a owl:Class ;
+    rdfs:label "Laboratory Technicians"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.12.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:LaboratoryActivity .
+
+fiaf:LeadMan a owl:Class ;
+    rdfs:label "Lead Man"@en,
+        "Lead Person"@en,
+        "Swing Gang"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.6.9"^^xsd:string ;
+    rdfs:subClassOf fiaf:ProductionDesignActivity .
+
+fiaf:Lenses a owl:Class ;
+    rdfs:label "Lenses"@en,
+        "Opticals"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.5.20"^^xsd:string ;
+    rdfs:subClassOf fiaf:CinematographyActivity .
+
+fiaf:Lighter a owl:Class ;
+    rdfs:label "Lighter"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.13.19"^^xsd:string ;
+    rdfs:subClassOf fiaf:AnimationActivity .
+
+fiaf:LineProducer a owl:Class ;
+    rdfs:label "Line Producer"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.2.7"^^xsd:string ;
+    rdfs:subClassOf fiaf:ProducingActivity .
+
+fiaf:LocationManager a owl:Class ;
+    rdfs:label "Location Coordinator"@en,
+        "Location Manager"@en,
+        "Location Scout"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.2.12"^^xsd:string ;
+    rdfs:subClassOf fiaf:ProducingActivity .
+
+fiaf:MakeUpArtist a owl:Class ;
+    rdfs:label "Make-Up"@en,
+        "Make-Up Artist"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.6.19"^^xsd:string ;
+    rdfs:subClassOf fiaf:ProductionDesignActivity .
+
+fiaf:Matte a owl:Class ;
+    rdfs:label "Matte"@en,
+        "Matte Painting"@en,
+        "Traveling Matte"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.8.8"^^xsd:string ;
+    rdfs:subClassOf fiaf:SpecialEffectsActivity .
+
+fiaf:MechanicalEffects a owl:Class ;
+    rdfs:label "Mechanical Effects"@en,
+        "Physical Effects"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.8.3"^^xsd:string ;
+    rdfs:subClassOf fiaf:SpecialEffectsActivity .
+
+fiaf:ModelMaker a owl:Class ;
+    rdfs:label "Model Maker"@en,
+        "Modeler"@en,
+        "Modeling"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.13.17"^^xsd:string ;
+    rdfs:subClassOf fiaf:AnimationActivity .
+
 fiaf:Monographic a owl:Class ;
     rdfs:label "Monographic"@en ;
     dc:source "FIAF Cataloguing Manual D.1"^^xsd:string ;
     rdfs:subClassOf fiaf:WorkVariant .
+
+fiaf:MotionCapture a owl:Class ;
+    rdfs:label "Motion Capture"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.8.13"^^xsd:string ;
+    rdfs:subClassOf fiaf:SpecialEffectsActivity .
+
+fiaf:MusicArranger a owl:Class ;
+    rdfs:label "Arranged"@en,
+        "Arrangements"@en,
+        "Arranger"@en,
+        "Music Adaptation"@en,
+        "Music Adapter"@en,
+        "Music Arranged"@en,
+        "Music Arranger"@en,
+        "Music Orchestrated"@en,
+        "Musical Arrangement"@en,
+        "Orchestrated"@en,
+        "Orchestration"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.11.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:MusicActivity .
+
+fiaf:MusicComposer a owl:Class ;
+    rdfs:label "Composed"@en,
+        "Composer"@en,
+        "Music"@en,
+        "Music Composed"@en,
+        "Music Composer"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.11.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:MusicActivity .
+
+fiaf:MusicConducted a owl:Class ;
+    rdfs:label "Conducted"@en,
+        "Conductor"@en,
+        "Music Conducted"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.11.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:MusicActivity .
+
+fiaf:MusicContractor a owl:Class ;
+    rdfs:label "Music Contractor"@en,
+        "Orchestra Contractor"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.11.9"^^xsd:string ;
+    rdfs:subClassOf fiaf:MusicActivity .
+
+fiaf:MusicEditor a owl:Class ;
+    rdfs:label "Music Editor"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.11.14"^^xsd:string ;
+    rdfs:subClassOf fiaf:MusicActivity .
+
+fiaf:MusicPerformers a owl:Class ;
+    rdfs:label "Music Performed"@en,
+        "Music Performers"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.11.7"^^xsd:string ;
+    rdfs:subClassOf fiaf:MusicActivity .
+
+fiaf:MusicSupervisor a owl:Class ;
+    rdfs:label "Music Directed"@en,
+        "Music Direction"@en,
+        "Music Director"@en,
+        "Music Supervised"@en,
+        "Music Supervisor"@en,
+        "Musical Supervision"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.11.3"^^xsd:string ;
+    rdfs:subClassOf fiaf:MusicActivity .
+
+fiaf:NarrationWritten a owl:Class ;
+    rdfs:label "Commentary"@en,
+        "Commentary Written"@en,
+        "Narration"@en,
+        "Narration Written"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.4.15"^^xsd:string ;
+    rdfs:subClassOf fiaf:WritingActivity .
+
+fiaf:Narrator a owl:Class ;
+    rdfs:label "Commentary"@en,
+        "Commentary Spoken"@en,
+        "Commentator"@en,
+        "Narrated"@en,
+        "Narration"@en,
+        "Narrator"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.7.10"^^xsd:string ;
+    rdfs:subClassOf fiaf:CastActivity .
+
+fiaf:NegativeCutter a owl:Class ;
+    rdfs:label "Negative Conforming"@en,
+        "Negative Cutter"@en,
+        "Negative Cutting"@en,
+        "Negative Matching"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.12.3"^^xsd:string ;
+    rdfs:subClassOf fiaf:LaboratoryActivity .
 
 fiaf:NonTheatricalDistribution a owl:Class ;
     rdfs:label "Non-Theatrical Distribution"@en ;
@@ -94,11 +694,30 @@ fiaf:NotForRelease a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.5.4"^^xsd:string ;
     rdfs:subClassOf fiaf:Manifestation .
 
+fiaf:OriginalSource a owl:Class ;
+    rdfs:label "Based on"@en,
+        "Original Source"@en,
+        "Source Material"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.4.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:WritingActivity .
+
+fiaf:OriginalStory a owl:Class ;
+    rdfs:label "Original Story"@en,
+        "Screen Story"@en,
+        "Story"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.4.3"^^xsd:string ;
+    rdfs:subClassOf fiaf:WritingActivity .
+
 fiaf:Outtake a owl:NamedIndividual,
         fiaf:Form ;
     rdfs:label "Out"@en,
         "Outtake"@en ;
     dc:source "FIAF Glossary of Filmographic Terms D.1.11"^^xsd:string .
+
+fiaf:PostProductionSupervisor a owl:Class ;
+    rdfs:label "Post-Production Supervisor"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.2.15"^^xsd:string ;
+    rdfs:subClassOf fiaf:ProducingActivity .
 
 fiaf:PreRelease a owl:Class ;
     rdfs:label "Pre-Release"@en ;
@@ -110,16 +729,149 @@ fiaf:PreferredTitle a owl:Class ;
     dc:source "FIAF Cataloguing Manual A.2.0"^^xsd:string ;
     rdfs:subClassOf fiaf:Title .
 
+fiaf:Presenter a owl:Class ;
+    rdfs:label "Presented"@en,
+        "Presenter"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.2.21"^^xsd:string ;
+    rdfs:subClassOf fiaf:ProducingActivity .
+
 fiaf:PreservationRestoration a owl:Class ;
     rdfs:label "Preservation/Restoration"@en ;
     dc:source "FIAF Cataloguing Manual D.5.9"^^xsd:string ;
     rdfs:subClassOf fiaf:Manifestation .
+
+fiaf:Previsualization a owl:Class ;
+    rdfs:label "Illustrator"@en,
+        "Previsualization"@en,
+        "Production Illustrator"@en,
+        "Storyboard Artist"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.6.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:ProductionDesignActivity .
+
+fiaf:Producer a owl:Class ;
+    rdfs:label "Produced"@en,
+        "Producer"@en,
+        "Production"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.2.3"^^xsd:string ;
+    rdfs:subClassOf fiaf:ProducingActivity .
+
+fiaf:ProductionAccountant a owl:Class ;
+    rdfs:label "Production Accountant"@en,
+        "Production Auditor"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.2.11"^^xsd:string ;
+    rdfs:subClassOf fiaf:ProducingActivity .
+
+fiaf:ProductionAssistant a owl:Class ;
+    rdfs:label "Assistant to"@en,
+        "Gopher"@en,
+        "Production Assistant"@en,
+        "Runner"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.2.14"^^xsd:string ;
+    rdfs:subClassOf fiaf:ProducingActivity .
+
+fiaf:ProductionCompany a owl:Class ;
+    rdfs:label "Production Company"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.2.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:ProducingActivity .
+
+fiaf:ProductionCoordinator a owl:Class ;
+    rdfs:label "Production Coordinator"@en,
+        "Production Office Coordinator"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.2.10"^^xsd:string ;
+    rdfs:subClassOf fiaf:ProducingActivity .
+
+fiaf:ProductionDesigner a owl:Class ;
+    rdfs:label "Production Design"@en,
+        "Production Designer"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.6.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:ProductionDesignActivity .
+
+fiaf:ProductionManager a owl:Class ;
+    rdfs:label "Production Manager"@en,
+        "Production Supervisor"@en,
+        "Unit Production Manager"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.2.9"^^xsd:string ;
+    rdfs:subClassOf fiaf:ProducingActivity .
+
+fiaf:PropertyMaster a owl:Class ;
+    rdfs:label "Prop Man"@en,
+        "Property Man"@en,
+        "Property Master"@en,
+        "Props"@en,
+        "Props Master"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.6.7"^^xsd:string ;
+    rdfs:subClassOf fiaf:ProductionDesignActivity .
+
+fiaf:Prosthetics a owl:Class ;
+    rdfs:label "Prosthetics"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.8.5"^^xsd:string ;
+    rdfs:subClassOf fiaf:SpecialEffectsActivity .
+
+fiaf:PuppetHandler a owl:Class ;
+    rdfs:label "Puppet Handler"@en,
+        "Puppeteer"@en,
+        "Puppets Manipulated"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.14.7"^^xsd:string ;
+    rdfs:subClassOf fiaf:PuppetActivity .
+
+fiaf:Pyrotechnics a owl:Class ;
+    rdfs:label "Pyrotechnics"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.8.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:SpecialEffectsActivity .
+
+fiaf:RerecordingMixer a owl:Class ;
+    rdfs:label "Dubbing Mixer"@en,
+        "Mixer"@en,
+        "Re-recording Mixer"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.9.11"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundActivity .
+
+fiaf:Research a owl:Class ;
+    rdfs:label "Research"@en,
+        "Researcher"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.4.16"^^xsd:string ;
+    rdfs:subClassOf fiaf:WritingActivity .
+
+fiaf:Rotoscoping a owl:Class ;
+    rdfs:label "Rotoscoping"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.8.9"^^xsd:string ;
+    rdfs:subClassOf fiaf:SpecialEffectsActivity .
+
+fiaf:ScenicArtist a owl:Class ;
+    rdfs:label "Scenic Artist"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.6.10"^^xsd:string ;
+    rdfs:subClassOf fiaf:ProductionDesignActivity .
 
 fiaf:ScreenTest a owl:NamedIndividual,
         fiaf:Form ;
     rdfs:label "Screen Test"@en,
         "Wardrobe Test"@en ;
     dc:source "FIAF Glossary of Filmographic Terms D.1.15"^^xsd:string .
+
+fiaf:Screenplay a owl:Class ;
+    rdfs:label "Screenplay"@en,
+        "Writer"@en,
+        "Written"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.4.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:WritingActivity .
+
+fiaf:ScriptSupervisor a owl:Class ;
+    rdfs:label "Continuity"@en,
+        "Script Supervisor"@en,
+        "Script-girl"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.3.5"^^xsd:string ;
+    rdfs:subClassOf fiaf:DirectingActivity .
+
+fiaf:SecondUnitDirector a owl:Class ;
+    rdfs:label "Second Unit Director"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.3.3"^^xsd:string ;
+    rdfs:subClassOf fiaf:DirectingActivity .
+
+fiaf:SecondUnitDirectorofPhotography a owl:Class ;
+    rdfs:label "Second Unit Director of Photography"@en,
+        "Second Unit Photography"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.5.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:CinematographyActivity .
 
 fiaf:Serial a owl:Class,
         owl:NamedIndividual,
@@ -134,16 +886,167 @@ fiaf:Series a owl:NamedIndividual,
     rdfs:label "Series"@en ;
     dc:source "FIAF Glossary of Filmographic Terms D.1.4"^^xsd:string .
 
+fiaf:SeriesCreated a owl:Class ;
+    rdfs:label "Series Created"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.4.7"^^xsd:string ;
+    rdfs:subClassOf fiaf:WritingActivity .
+
+fiaf:SeriesProducer a owl:Class ;
+    rdfs:label "Series Produced"@en,
+        "Series Producer"@en,
+        "Series Production"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.2.17"^^xsd:string ;
+    rdfs:subClassOf fiaf:ProducingActivity .
+
+fiaf:SetDecorator a owl:Class ;
+    rdfs:label "Decor"@en,
+        "Decoration"@en,
+        "Set Decoration"@en,
+        "Set Decorator"@en,
+        "Set Dresser"@en,
+        "Set Dressing"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.6.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:ProductionDesignActivity .
+
+fiaf:SetDesigner a owl:Class ;
+    rdfs:label "Set Design"@en,
+        "Set Designer"@en,
+        "Set(s) Designed"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.6.5"^^xsd:string ;
+    rdfs:subClassOf fiaf:ProductionDesignActivity .
+
 fiaf:Short a owl:NamedIndividual,
         fiaf:Form ;
     rdfs:label "Short"@en ;
     dc:source "FIAF Glossary of Filmographic Terms D.1.3"^^xsd:string .
+
+fiaf:Singer a owl:Class ;
+    rdfs:label "Singer"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.7.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:CastActivity .
+
+fiaf:SingingVoice a owl:Class ;
+    rdfs:label "Playback Singer"@en,
+        "Score Vocals Performed"@en,
+        "Singing Voice"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.11.8"^^xsd:string ;
+    rdfs:subClassOf fiaf:MusicActivity .
+
+fiaf:SongComposer a owl:Class ;
+    rdfs:label "Song Composer"@en,
+        "Songs"@en,
+        "Songs Composed"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.11.12"^^xsd:string ;
+    rdfs:subClassOf fiaf:MusicActivity .
+
+fiaf:SoundDesigner a owl:Class ;
+    rdfs:label "Sound Design"@en,
+        "Sound Designer"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.9.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundActivity .
+
+fiaf:SoundEditor a owl:Class ;
+    rdfs:label "Sound Edited"@en,
+        "Sound Editing"@en,
+        "Sound Editor"@en,
+        "Sound Effects Editor"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.9.7"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundActivity .
+
+fiaf:SoundEngineer a owl:Class ;
+    rdfs:label "Re-recording Engineer"@en,
+        "Sound Engineer"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.9.5"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundActivity .
+
+fiaf:SoundRecordist a owl:Class ;
+    rdfs:label "Production Mixer"@en,
+        "Production Sound Mixer"@en,
+        "Sound Mixer"@en,
+        "Sound Recorded"@en,
+        "Sound Recorder"@en,
+        "Sound Recordist"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.9.3"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundActivity .
+
+fiaf:SoundSupervisor a owl:Class ;
+    rdfs:label "Sound Supervisor"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.9.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundActivity .
+
+fiaf:SpecialEffects a owl:Class ;
+    rdfs:label "Effects"@en,
+        "FX"@en,
+        "SFX"@en,
+        "Special Effects"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.8.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:SpecialEffectsActivity .
+
+fiaf:Sponsor a owl:Class ;
+    rdfs:label "Sponsor"@en,
+        "Sponsored"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.2.20"^^xsd:string ;
+    rdfs:subClassOf fiaf:ProducingActivity .
+
+fiaf:Staged a owl:Class ;
+    rdfs:label "Staged"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.4.8"^^xsd:string ;
+    rdfs:subClassOf fiaf:WritingActivity .
+
+fiaf:StandIn a owl:Class ;
+    rdfs:label "Stand-In"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.7.3"^^xsd:string ;
+    rdfs:subClassOf fiaf:CastActivity .
+
+fiaf:SteadicamOperator a owl:Class ;
+    rdfs:label "Steadicam Operator"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.5.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:CinematographyActivity .
+
+fiaf:StillPhotographer a owl:Class ;
+    rdfs:label "Still Photographer"@en,
+        "Stills Photography"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.5.18"^^xsd:string ;
+    rdfs:subClassOf fiaf:CinematographyActivity .
 
 fiaf:StockFootage a owl:NamedIndividual,
         fiaf:Form ;
     rdfs:label "Stock Footage"@en,
         "Stock Shot"@en ;
     dc:source "FIAF Glossary of Filmographic Terms D.1.12"^^xsd:string .
+
+fiaf:Studio a owl:Class ;
+    rdfs:label "Location of Studios"@en,
+        "Studio"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.2.23"^^xsd:string ;
+    rdfs:subClassOf fiaf:ProducingActivity .
+
+fiaf:StuntArranger a owl:Class ;
+    rdfs:label "Stunt Arranger"@en,
+        "Stunt Coordinator"@en,
+        "Stunts Arranged"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.3.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:DirectingActivity .
+
+fiaf:StuntMan a owl:Class ;
+    rdfs:label "Stunt Man"@en,
+        "Stunt Performer"@en,
+        "Stunt Woman"@en,
+        "Stunts"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.7.11"^^xsd:string ;
+    rdfs:subClassOf fiaf:CastActivity .
+
+fiaf:SupervisingAnimator a owl:Class ;
+    rdfs:label "Key Animator"@en,
+        "Lead Animator"@en,
+        "Supervising Animator"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.13.10"^^xsd:string ;
+    rdfs:subClassOf fiaf:AnimationActivity .
+
+fiaf:SupervisingSoundEditor a owl:Class ;
+    rdfs:label "Supervising Sound Editor"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.9.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundActivity .
 
 fiaf:SuppliedDevisedTitle a owl:Class ;
     rdfs:label "Supplied/Devised Title"@en ;
@@ -154,6 +1057,14 @@ fiaf:TheatricalDistribution a owl:Class ;
     rdfs:label "Theatrical Distribution"@en ;
     dc:source "FIAF Cataloguing Manual D.5.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Manifestation .
+
+fiaf:TitleDesign a owl:Class ;
+    rdfs:label "Title Design"@en,
+        "Title Designer"@en,
+        "Titles"@en,
+        "Titles Designed"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.6.21"^^xsd:string ;
+    rdfs:subClassOf fiaf:ProductionDesignActivity .
 
 fiaf:TitleProper a owl:Class ;
     rdfs:label "Title Proper"@en ;
@@ -166,6 +1077,19 @@ fiaf:Trailer a owl:NamedIndividual,
         "Teaser"@en,
         "Trailer"@en ;
     dc:source "FIAF Glossary of Filmographic Terms D.1.7"^^xsd:string .
+
+fiaf:TransportationManager a owl:Class ;
+    rdfs:label "Transportation Coordinator"@en,
+        "Transportation Manager"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.2.13"^^xsd:string ;
+    rdfs:subClassOf fiaf:ProducingActivity .
+
+fiaf:UnderwaterCameraman a owl:Class ;
+    rdfs:label "Underwater Cameraman"@en,
+        "Underwater Photography"@en,
+        "Underwater Sequences"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.5.5"^^xsd:string ;
+    rdfs:subClassOf fiaf:CinematographyActivity .
 
 fiaf:UneditedFootage a owl:NamedIndividual,
         fiaf:Form ;
@@ -187,10 +1111,50 @@ fiaf:VIAFIdentifier a owl:Class ;
     dc:source "FIAF Cataloguing Manual 1.3.1"^^xsd:string ;
     rdfs:subClassOf fiaf:Identifier .
 
+fiaf:VideoAssistOperator a owl:Class ;
+    rdfs:label "Video Assist"@en,
+        "Video Assist Operator"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.5.10"^^xsd:string ;
+    rdfs:subClassOf fiaf:CinematographyActivity .
+
+fiaf:VisualEffects a owl:Class ;
+    rdfs:label "Optical Effects"@en,
+        "Photographic Effects"@en,
+        "Special Photographic Effects"@en,
+        "VFX"@en,
+        "Visual Effects"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.8.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:SpecialEffectsActivity .
+
+fiaf:Voices a owl:Class ;
+    rdfs:label "Voices"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.7.7"^^xsd:string ;
+    rdfs:subClassOf fiaf:CastActivity .
+
+fiaf:WardrobeSupervisor a owl:Class ;
+    rdfs:label "Wardrobe Master"@en,
+        "Wardrobe Mistress"@en,
+        "Wardrobe Supervision"@en,
+        "Wardrobe Supervisor"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.6.15"^^xsd:string ;
+    rdfs:subClassOf fiaf:ProductionDesignActivity .
+
 fiaf:WikidataIdentifier a owl:Class ;
     rdfs:label "Wikidata Identifier"@en ;
     dc:source "FIAF Cataloguing Manual 1.3.1"^^xsd:string ;
     rdfs:subClassOf fiaf:Identifier .
+
+fiaf:Wrangler a owl:Class ;
+    rdfs:label "Wrangler"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.7.13"^^xsd:string ;
+    rdfs:subClassOf fiaf:CastActivity .
+
+fiaf:WriterofLyrics a owl:Class ;
+    rdfs:label "Lyricist"@en,
+        "Lyrics"@en,
+        "Writer of Lyrics"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.11.13"^^xsd:string ;
+    rdfs:subClassOf fiaf:MusicActivity .
 
 fiaf:hasActivity a owl:ObjectProperty ;
     rdfs:label "Has Activity"@en ;
@@ -421,21 +1385,100 @@ fiaf:hasWorkVariant a owl:ObjectProperty ;
     rdfs:domain fiaf:WorkVariant ;
     rdfs:range fiaf:WorkVariant .
 
+fiaf:CensorshipActivity a owl:Class ;
+    rdfs:label "Censorship Activity"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms C.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:Activity .
+
+fiaf:PuppetActivity a owl:Class ;
+    rdfs:label "Puppet Activity"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.14"^^xsd:string ;
+    rdfs:subClassOf fiaf:Activity .
+
+fiaf:EditingActivity a owl:Class ;
+    rdfs:label "Editing Activity"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.10"^^xsd:string ;
+    rdfs:subClassOf fiaf:Activity .
+
+fiaf:LaboratoryActivity a owl:Class ;
+    rdfs:label "Laboratory Activity"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.12"^^xsd:string ;
+    rdfs:subClassOf fiaf:Activity .
+
 fiaf:Identifier a owl:Class ;
     rdfs:label "Identifier"@en ;
     dc:source "FIAF Cataloguing Manual 1.3.1, 2.3.1, 3.1.1"^^xsd:string .
+
+fiaf:CopyrightandDistributionActivity a owl:Class ;
+    rdfs:label "Copyright and Distribution Activity"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms C.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:Activity .
+
+fiaf:DirectingActivity a owl:Class ;
+    rdfs:label "Directing Activity"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.3"^^xsd:string ;
+    rdfs:subClassOf fiaf:Activity .
 
 fiaf:Title a owl:Class ;
     rdfs:label "Title"@en ;
     dc:source "FIAF Cataloguing Manual 1.3.2, 2.3.2, 3.1.2"^^xsd:string .
 
+fiaf:AnimationActivity a owl:Class ;
+    rdfs:label "Animation Activity"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.13"^^xsd:string ;
+    rdfs:subClassOf fiaf:Activity .
+
+fiaf:WritingActivity a owl:Class ;
+    rdfs:label "Writing Activity"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:Activity .
+
+fiaf:MusicActivity a owl:Class ;
+    rdfs:label "Music Activity"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.11"^^xsd:string ;
+    rdfs:subClassOf fiaf:Activity .
+
+fiaf:SpecialEffectsActivity a owl:Class ;
+    rdfs:label "Special Effects Activity"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.8"^^xsd:string ;
+    rdfs:subClassOf fiaf:Activity .
+
+fiaf:CastActivity a owl:Class ;
+    rdfs:label "Cast Activity"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.7"^^xsd:string ;
+    rdfs:subClassOf fiaf:Activity .
+
+fiaf:SoundActivity a owl:Class ;
+    rdfs:label "Sound Activity"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.9"^^xsd:string ;
+    rdfs:subClassOf fiaf:Activity .
+
 fiaf:Form a owl:Class ;
     rdfs:label "Form"@en ;
     dc:source "FIAF Glossary of Filmographic Terms D.1.1"^^xsd:string .
 
+fiaf:Activity a owl:Class ;
+    rdfs:label "Activity"@en ;
+    dc:source "FIAF Cataloguing Manual 1.4.1.1"^^xsd:string .
+
 fiaf:WorkVariant a owl:Class ;
     rdfs:label "Work/Variant"@en ;
     dc:source "FIAF Cataloguing Manual 1.0"^^xsd:string .
+
+fiaf:CinematographyActivity a owl:Class ;
+    rdfs:label "Cinematography Activity"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.5"^^xsd:string ;
+    rdfs:subClassOf fiaf:Activity .
+
+fiaf:ProducingActivity a owl:Class ;
+    rdfs:label "Producing Activity"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:Activity .
+
+fiaf:ProductionDesignActivity a owl:Class ;
+    rdfs:label "Production Design Activity"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms B.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:Activity .
 
 fiaf:Manifestation a owl:Class ;
     rdfs:label "Manifestation"@en ;
