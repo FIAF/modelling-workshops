@@ -548,6 +548,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual A.2.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Title](https://fiafcore.org/ontology/Title)   
+####  Internal Identifier   
+> **iri** https://fiafcore.org/ontology/InternalIdentifier   
+**label** Internal Identifier   
+**source** FIAF Cataloguing Manual 1.3.1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Identifier](https://fiafcore.org/ontology/Identifier)   
 ####  Internet   
 > **iri** https://fiafcore.org/ontology/Internet   
 **label** Internet   
