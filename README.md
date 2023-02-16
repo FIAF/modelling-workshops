@@ -1825,6 +1825,13 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
 **domain** [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation)   
 **range** [fiaf:Item](https://fiafcore.org/ontology/Item)   
+####  Has Language   
+> **iri** https://fiafcore.org/ontology/hasLanguage   
+**label** Has Language   
+**source** FIAF Cataloguing Manual 2.3.3   
+**type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
+**domain** [fiaf:LanguageUsage](https://fiafcore.org/ontology/LanguageUsage)   
+**range** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Has Language Usage   
 > **iri** https://fiafcore.org/ontology/hasLanguageUsage   
 **label** Has Language Usage   
