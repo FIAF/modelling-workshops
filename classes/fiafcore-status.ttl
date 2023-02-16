@@ -1,0 +1,45 @@
+
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix fiaf: <https://fiafcore.org/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Ontology
+
+<https://fiafcore.org/ontology/> a owl:Ontology ;
+    dc:title "FIAFcore" .
+
+# Class
+
+<https://fiafcore.org/ontology/Status> a owl:Class ;
+    rdfs:label "Status"@en ;
+    dc:source "FIAF Cataloguing Manual 3.1.5.2"^^xsd:string .
+
+# Individuals
+
+<https://fiafcore.org/ontology/Accessioned> a owl:NamedIndividual, fiaf:Status> ;
+    rdfs:label "Accessioned"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.3"^^<string> .
+
+<https://fiafcore.org/ontology/Master> a owl:NamedIndividual, fiaf:Status> ;
+    rdfs:label "Master"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.3"^^<string> .
+
+<https://fiafcore.org/ontology/OnLoan> a owl:NamedIndividual,fiaf:Status> ;
+    rdfs:label "On Loan"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.3"^^<string> .
+
+<https://fiafcore.org/ontology/Removed> a owl:NamedIndividual,fiaf:Status> ;
+    rdfs:label "Removed"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.3"^^<string> .
+
+<https://fiafcore.org/ontology/StatusPending> a owl:NamedIndividual,fiaf:Status> ;
+    rdfs:label "Status pending"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.3"^^<string> .
+
+<https://fiafcore.org/ontology/Viewing> a owl:NamedIndividual,fiaf:Status> ;
+    rdfs:label "Viewing"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.3"^^<string> .
+
+
