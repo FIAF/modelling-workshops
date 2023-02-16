@@ -1,0 +1,38 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix fiaf: <https://fiafcore.org/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Ontology
+
+<https://fiafcore.org/ontology/> a owl:Ontology ;
+    dc:title "FIAFcore" .
+
+# Class
+
+<https://fiafcore.org/ontology/LineStandard> a owl:Class ;
+    rdfs:label "Line Standard"@en ;
+    dc:source "FIAF Cataloguing Manual 3.1.5.19"^^xsd:string .
+
+# Individuals
+
+<https://fiafcore.org/ontology/1080> a owl:NamedIndividual, fiaf:LineStandard ;
+    rdfs:label "1080"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.21"^^<string> .
+
+<https://fiafcore.org/ontology/405> a owl:NamedIndividual, fiaf:LineStandard ;
+    rdfs:label "405"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.21"^^<string> .
+
+<https://fiafcore.org/ontology/525> a owl:NamedIndividual, fiaf:LineStandard ;
+    rdfs:label "525"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.21"^^<string> .
+
+<https://fiafcore.org/ontology/625> a owl:NamedIndividual, fiaf:LineStandard ;
+    rdfs:label "625"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.21"^^<string> .
+
+<https://fiafcore.org/ontology/720> a owl:NamedIndividual, fiaf:LineStandard ;
+    rdfs:label "720"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.21"^^<string> .
