@@ -22,6 +22,26 @@
     dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
     rdfs:subClassOf fiaf:LanguageUsage .
 
+<https://fiafcore.org/ontology/NoDialogue> a owl:Class ;
+    rdfs:label "No Dialogue"@en ;
+    dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:DialogueLanguages .
+
+<https://fiafcore.org/ontology/SignedLanguage> a owl:Class ;
+    rdfs:label "Signed Language"@en ;
+    dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:DialogueLanguages .
+
+<https://fiafcore.org/ontology/SpokenLanguage> a owl:Class ;
+    rdfs:label "Spoken Language"@en ;
+    dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:DialogueLanguages .
+
+<https://fiafcore.org/ontology/SungLanguage> a owl:Class ;
+    rdfs:label "Sung Language"@en ;
+    dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:DialogueLanguages .
+
 <https://fiafcore.org/ontology/LanguagesOfAccompanyingMaterial> a owl:Class ;
     rdfs:label "Language(s) of accompanying material"@en ;
     dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
@@ -36,3 +56,18 @@
     rdfs:label "Written Languages)"@en ;
     dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
     rdfs:subClassOf fiaf:LanguageUsage .
+
+<https://fiafcore.org/ontology/Captions> a owl:Class ;
+    rdfs:label "Captions"@en ;
+    dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:WrittenLanguages .
+
+<https://fiafcore.org/ontology/Intertitles> a owl:Class ;
+    rdfs:label "Intertitles"@en ;
+    dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:WrittenLanguages .
+
+<https://fiafcore.org/ontology/Subtitles> a owl:Class ;
+    rdfs:label "Subtitles"@en ;
+    dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:WrittenLanguages .
