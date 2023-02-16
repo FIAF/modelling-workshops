@@ -1,0 +1,68 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix fiaf: <https://fiafcore.org/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Ontology
+
+<https://fiafcore.org/ontology/> a owl:Ontology ;
+    dc:title "FIAFcore" .
+
+# Class
+
+<https://fiafcore.org/ontology/VariantType> a owl:Class ;
+    rdfs:label "Variant Type"@en ;
+    dc:source "FIAF Cataloguing Manual 1.2.2"^^xsd:string .
+
+# Individuals
+
+<https://fiafcore.org/ontology/AbridgedCondensed> a owl:NamedIndividual,
+        fiaf:VariantType ;
+    rdfs:label "Abridged/Condensed"@en ;
+    dc:source "FIAF Cataloguing Manual D.2"^^<string> .
+
+<https://fiafcore.org/ontology/Augmented> a owl:NamedIndividual,
+        fiaf:VariantType ;
+    rdfs:label "Augmented"@en ;
+    dc:source "FIAF Cataloguing Manual D.2"^^<string> .
+
+<https://fiafcore.org/ontology/BlackAndWhiteCopyOfWorkOriginallyIssuedInColour> a owl:NamedIndividual,
+        fiaf:VariantType ;
+    rdfs:label "Black and white copy of work originally issued in colour"@en ;
+    dc:source "FIAF Cataloguing Manual D.2"^^<string> .
+
+<https://fiafcore.org/ontology/Censored> a owl:NamedIndividual,
+        fiaf:VariantType ;
+    rdfs:label "Censored"@en ;
+    dc:source "FIAF Cataloguing Manual D.2"^^<string> .
+
+<https://fiafcore.org/ontology/Colourized> a owl:NamedIndividual,
+        fiaf:VariantType ;
+    rdfs:label "Colourized"@en ;
+    dc:source "FIAF Cataloguing Manual D.2"^^<string> .
+
+<https://fiafcore.org/ontology/DifferentSoundTrack> a owl:NamedIndividual,
+        fiaf:VariantType ;
+    rdfs:label "Different sound track"@en ;
+    dc:source "FIAF Cataloguing Manual D.2"^^<string> .
+
+<https://fiafcore.org/ontology/Dubbed> a owl:NamedIndividual,
+        fiaf:VariantType ;
+    rdfs:label "Dubbed"@en ;
+    dc:source "FIAF Cataloguing Manual D.2"^^<string> .
+
+<https://fiafcore.org/ontology/PreservationRestoration> a owl:NamedIndividual,
+        fiaf:VariantType ;
+    rdfs:label "Preservation/Restoration"@en ;
+    dc:source "FIAF Cataloguing Manual D.2"^^<string> .
+
+<https://fiafcore.org/ontology/Sonorized> a owl:NamedIndividual,
+        fiaf:VariantType ;
+    rdfs:label "Sonorized"@en ;
+    dc:source "FIAF Cataloguing Manual D.2"^^<string> .
+
+<https://fiafcore.org/ontology/Subtitled> a owl:NamedIndividual,
+        fiaf:VariantType ;
+    rdfs:label "Subtitled"@en ;
+    dc:source "FIAF Cataloguing Manual D.2"^^<string> .
