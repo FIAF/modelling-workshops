@@ -1,0 +1,133 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix fiaf: <https://fiafcore.org/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Ontology
+
+<https://fiafcore.org/ontology/> a owl:Ontology ;
+    dc:title "FIAFcore" .
+
+# Class
+
+<https://fiafcore.org/ontology/Stock> a owl:Class ;
+    rdfs:label "Stock"@en ;
+    dc:source "FIAF Cataloguing Manual 3.1.5.15"^^xsd:string .
+
+# Individuals
+
+<https://fiafcore.org/ontology/3M> a owl:NamedIndividual,
+        <https://fiafcore.org/ontology/Stock> ;
+    rdfs:label "3M"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^<string> .
+
+<https://fiafcore.org/ontology/Agfa> a owl:NamedIndividual,
+        <https://fiafcore.org/ontology/Stock> ;
+    rdfs:label "Agfa"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^<string> .
+
+<https://fiafcore.org/ontology/AgfaGavaert> a owl:NamedIndividual,
+        <https://fiafcore.org/ontology/Stock> ;
+    rdfs:label "Agfa Gavaert"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^<string> .
+
+<https://fiafcore.org/ontology/Akai> a owl:NamedIndividual,
+        <https://fiafcore.org/ontology/Stock> ;
+    rdfs:label "Akai"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^<string> .
+
+<https://fiafcore.org/ontology/Ampex> a owl:NamedIndividual,
+        <https://fiafcore.org/ontology/Stock> ;
+    rdfs:label "Ampex"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^<string> .
+
+<https://fiafcore.org/ontology/Ansco> a owl:NamedIndividual,
+        <https://fiafcore.org/ontology/Stock> ;
+    rdfs:label "Ansco"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^<string> .
+
+<https://fiafcore.org/ontology/Basf> a owl:NamedIndividual,
+        <https://fiafcore.org/ontology/Stock> ;
+    rdfs:label "BASF"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^<string> .
+
+<https://fiafcore.org/ontology/Brifco> a owl:NamedIndividual,
+        <https://fiafcore.org/ontology/Stock> ;
+    rdfs:label "Brifco"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^<string> .
+
+<https://fiafcore.org/ontology/EastmanKodak> a owl:NamedIndividual,
+        <https://fiafcore.org/ontology/Stock> ;
+    rdfs:label "Eastman Kodak"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^<string> .
+
+<https://fiafcore.org/ontology/Fuji> a owl:NamedIndividual,
+        <https://fiafcore.org/ontology/Stock> ;
+    rdfs:label "Fuji"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^<string> .
+
+<https://fiafcore.org/ontology/Hitachi> a owl:NamedIndividual,
+        <https://fiafcore.org/ontology/Stock> ;
+    rdfs:label "Hitachi"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^<string> .
+
+<https://fiafcore.org/ontology/Hp> a owl:NamedIndividual,
+        <https://fiafcore.org/ontology/Stock> ;
+    rdfs:label "HP"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^<string> .
+
+<https://fiafcore.org/ontology/Maxell> a owl:NamedIndividual,
+        <https://fiafcore.org/ontology/Stock> ;
+    rdfs:label "Maxell"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^<string> .
+
+<https://fiafcore.org/ontology/Memorex> a owl:NamedIndividual,
+        <https://fiafcore.org/ontology/Stock> ;
+    rdfs:label "Memorex"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^<string> .
+
+<https://fiafcore.org/ontology/Oracle> a owl:NamedIndividual,
+        <https://fiafcore.org/ontology/Stock> ;
+    rdfs:label "Oracle"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^<string> .
+
+<https://fiafcore.org/ontology/Philips> a owl:NamedIndividual,
+        <https://fiafcore.org/ontology/Stock> ;
+    rdfs:label "Philips"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^<string> .
+
+<https://fiafcore.org/ontology/Scotch> a owl:NamedIndividual,
+        <https://fiafcore.org/ontology/Stock> ;
+    rdfs:label "Scotch"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^<string> .
+
+<https://fiafcore.org/ontology/Seagate> a owl:NamedIndividual,
+        <https://fiafcore.org/ontology/Stock> ;
+    rdfs:label "Seagate"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^<string> .
+
+<https://fiafcore.org/ontology/Shamrock> a owl:NamedIndividual,
+        <https://fiafcore.org/ontology/Stock> ;
+    rdfs:label "Shamrock"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^<string> .
+
+<https://fiafcore.org/ontology/Sony> a owl:NamedIndividual,
+        <https://fiafcore.org/ontology/Stock> ;
+    rdfs:label "Sony"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^<string> .
+
+<https://fiafcore.org/ontology/Toshiba> a owl:NamedIndividual,
+        <https://fiafcore.org/ontology/Stock> ;
+    rdfs:label "Toshiba"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^<string> .
+
+<https://fiafcore.org/ontology/Verbatim> a owl:NamedIndividual,
+        <https://fiafcore.org/ontology/Stock> ;
+    rdfs:label "Verbatim"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^<string> .
+
+<https://fiafcore.org/ontology/WesternDigital> a owl:NamedIndividual,
+        <https://fiafcore.org/ontology/Stock> ;
+    rdfs:label "Western Digital"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^<string> .
