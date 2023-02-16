@@ -8,7 +8,7 @@
 
 <https://fiafcore.org/ontology/> a owl:Ontology ;
     dc:title "FIAFcore" .
-IAF Glossary of Filmographic Terms D.1.1"
+
 # Class
 
 <https://fiafcore.org/ontology/Base> a owl:Class ;
