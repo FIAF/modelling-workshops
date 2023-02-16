@@ -13,7 +13,8 @@
 
 <https://fiafcore.org/ontology/WorkVariant> a owl:Class ;
     rdfs:label "Work/Variant"@en ;
-    dc:source "FIAF Cataloguing Manual 1.0"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual 1.0"^^xsd:string ;
+    dc:description "A moving image Work comprises both the intellectual or artistic content and the process of realisation in a cinematographic medium, e.g., what it is called, when it was made, who made it, who was in it, what it is about, etc."@en .
 
 # Subclasses
 
