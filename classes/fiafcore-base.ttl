@@ -1,0 +1,88 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix fiaf: <https://fiafcore.org/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Ontology
+
+<https://fiafcore.org/ontology/> a owl:Ontology ;
+    dc:title "FIAFcore" .
+IAF Glossary of Filmographic Terms D.1.1"
+# Class
+
+<https://fiafcore.org/ontology/Base> a owl:Class ;
+    rdfs:label "Base"@en ;
+    dc:source "FIAF Cataloguing Manual 3.1.5.13"^^xsd:string .
+
+# Individuals
+
+<https://fiafcore.org/ontology/Acetate> a owl:NamedIndividual,
+        fiaf:Base ;
+    rdfs:label "Acetate"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.7"^^<string> .
+
+<https://fiafcore.org/ontology/Acrylic> a owl:NamedIndividual,
+        fiaf:Base ;
+    rdfs:label "Acrylic"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.7"^^<string> .
+
+<https://fiafcore.org/ontology/Cta> a owl:NamedIndividual,
+        fiaf:Base ;
+    rdfs:label "CTA"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.7"^^<string> .
+
+<https://fiafcore.org/ontology/Diacetate> a owl:NamedIndividual,
+        fiaf:Base ;
+    rdfs:label "Diacetate"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.7"^^<string> .
+
+<https://fiafcore.org/ontology/MainlyNitrate> a owl:NamedIndividual,
+        fiaf:Base ;
+    rdfs:label "Mainly nitrate"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.7"^^<string> .
+
+<https://fiafcore.org/ontology/MainlySafety> a owl:NamedIndividual,
+        fiaf:Base ;
+    rdfs:label "Mainly safety"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.7"^^<string> .
+
+<https://fiafcore.org/ontology/Mixed> a owl:NamedIndividual,
+        fiaf:Base ;
+    rdfs:label "Mixed"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.7"^^<string> .
+
+<https://fiafcore.org/ontology/Mylar> a owl:NamedIndividual,
+        fiaf:Base ;
+    rdfs:label "Mylar"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.7"^^<string> .
+
+<https://fiafcore.org/ontology/Nitrate> a owl:NamedIndividual,
+        fiaf:Base ;
+    rdfs:label "Nitrate"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.7"^^<string> .
+
+<https://fiafcore.org/ontology/Polyester> a owl:NamedIndividual,
+        fiaf:Base ;
+    rdfs:label "Polyester"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.7"^^<string> .
+
+<https://fiafcore.org/ontology/Pvc> a owl:NamedIndividual,
+        fiaf:Base ;
+    rdfs:label "PVC"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.7"^^<string> .
+
+<https://fiafcore.org/ontology/Safety> a owl:NamedIndividual,
+        fiaf:Base ;
+    rdfs:label "Safety"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.7"^^<string> .
+
+<https://fiafcore.org/ontology/Video> a owl:NamedIndividual,
+        fiaf:Base ;
+    rdfs:label "Video"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.7"^^<string> .
+
+<https://fiafcore.org/ontology/Vinyl> a owl:NamedIndividual,
+        fiaf:Base ;
+    rdfs:label "Vinyl"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.7"^^<string> .
