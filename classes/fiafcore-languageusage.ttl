@@ -71,3 +71,11 @@
     rdfs:label "Subtitles"@en ;
     dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
     rdfs:subClassOf fiaf:WrittenLanguages .
+
+# Object Properties
+
+<https://fiafcore.org/ontology/hasLanguage> a owl:ObjectProperty ;
+    rdfs:label "Has Language"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.3"^^xsd:string ;
+    rdfs:domain fiaf:LanguageUsage ;
+    rdfs:range fiaf:Language .
