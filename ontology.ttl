@@ -1780,7 +1780,7 @@ fiaf:EditingActivity a owl:Class ;
     rdfs:subClassOf fiaf:Activity .
 
 fiaf:WrittenLanguages a owl:Class ;
-    rdfs:label "Written Languages)"@en ;
+    rdfs:label "Written Languages"@en ;
     dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
     rdfs:subClassOf fiaf:LanguageUsage .
 

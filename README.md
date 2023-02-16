@@ -1437,9 +1437,9 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.4   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Activity](https://fiafcore.org/ontology/Activity)   
-####  Written Languages)   
+####  Written Languages   
 > **iri** https://fiafcore.org/ontology/WrittenLanguages   
-**label** Written Languages)   
+**label** Written Languages   
 **source** FIAF Cataloguing Manual D.6   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:LanguageUsage](https://fiafcore.org/ontology/LanguageUsage)   
