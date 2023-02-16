@@ -1,0 +1,30 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix fiaf: <https://fiafcore.org/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Ontology
+
+<https://fiafcore.org/ontology/> a owl:Ontology ;
+    dc:title "FIAFcore" .
+
+# Class
+
+<https://fiafcore.org/ontology/BroadcastStandard> a owl:Class ;
+    rdfs:label "Broadcast Standard"@en ;
+    dc:source "FIAF Cataloguing Manual 3.1.5.10"^^xsd:string .
+
+# Individuals
+
+<https://fiafcore.org/ontology/NTSC> a owl:NamedIndividual, fiaf:BroadcastStandard ;
+    rdfs:label "NTSC"@en ;
+    dc:source "FIAF Cataloguing Manual 3.1.5.10"^^<string> .
+
+<https://fiafcore.org/ontology/PAL> a owl:NamedIndividual, fiaf:BroadcastStandard ;
+    rdfs:label "PAL"@en ;
+    dc:source "FIAF Cataloguing Manual 3.1.5.10"^^<string> .
+
+<https://fiafcore.org/ontology/SECAM> a owl:NamedIndividual, fiaf:BroadcastStandard ;
+    rdfs:label "SECAM"@en ;
+    dc:source "FIAF Cataloguing Manual 3.1.5.10"^^<string> .
