@@ -37,6 +37,11 @@ fiaf:AbridgedCondensed a owl:NamedIndividual,
     rdfs:label "Abridged/Condensed"@en ;
     dc:source "FIAF Cataloguing Manual D.2"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
 
+fiaf:Accessioned a owl:NamedIndividual,
+        fiaf:Status ;
+    rdfs:label "Accessioned"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.3"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+
 fiaf:Acetate a owl:NamedIndividual,
         fiaf:Base ;
     rdfs:label "Acetate"@en ;
@@ -675,6 +680,11 @@ fiaf:MakeUpArtist a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.6.19"^^xsd:string ;
     rdfs:subClassOf fiaf:ProductionDesignActivity .
 
+fiaf:Master a owl:NamedIndividual,
+        fiaf:Status ;
+    rdfs:label "Master"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.3"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+
 fiaf:Matte a owl:Class ;
     rdfs:label "Matte"@en,
         "Matte Painting"@en,
@@ -818,6 +828,11 @@ fiaf:NotForRelease a owl:Class ;
     rdfs:label "Not For Release"@en ;
     dc:source "FIAF Cataloguing Manual D.5.4"^^xsd:string ;
     rdfs:subClassOf fiaf:Manifestation .
+
+fiaf:OnLoan a owl:NamedIndividual,
+        fiaf:Status ;
+    rdfs:label "On Loan"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.3"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
 
 fiaf:OriginalSource a owl:Class ;
     rdfs:label "Based on"@en,
@@ -971,6 +986,11 @@ fiaf:Pyrotechnics a owl:Class ;
     rdfs:label "Pyrotechnics"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.8.6"^^xsd:string ;
     rdfs:subClassOf fiaf:SpecialEffectsActivity .
+
+fiaf:Removed a owl:NamedIndividual,
+        fiaf:Status ;
+    rdfs:label "Removed"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.3"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
 
 fiaf:RerecordingMixer a owl:Class ;
     rdfs:label "Dubbing Mixer"@en,
@@ -1166,6 +1186,11 @@ fiaf:StandIn a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.7.3"^^xsd:string ;
     rdfs:subClassOf fiaf:CastActivity .
 
+fiaf:StatusPending a owl:NamedIndividual,
+        fiaf:Status ;
+    rdfs:label "Status pending"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.3"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+
 fiaf:SteadicamOperator a owl:Class ;
     rdfs:label "Steadicam Operator"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.5.6"^^xsd:string ;
@@ -1294,6 +1319,11 @@ fiaf:VideoAssistOperator a owl:Class ;
         "Video Assist Operator"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.5.10"^^xsd:string ;
     rdfs:subClassOf fiaf:CinematographyActivity .
+
+fiaf:Viewing a owl:NamedIndividual,
+        fiaf:Status ;
+    rdfs:label "Viewing"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.3"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
 
 fiaf:Vinyl a owl:NamedIndividual,
         fiaf:Base ;
@@ -1613,6 +1643,10 @@ fiaf:DirectingActivity a owl:Class ;
     rdfs:label "Directing Activity"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.3"^^xsd:string ;
     rdfs:subClassOf fiaf:Activity .
+
+fiaf:Status a owl:Class ;
+    rdfs:label "Status"@en ;
+    dc:source "FIAF Cataloguing Manual 3.1.5.2"^^xsd:string .
 
 fiaf:Title a owl:Class ;
     rdfs:label "Title"@en ;
