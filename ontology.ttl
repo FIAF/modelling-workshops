@@ -440,6 +440,11 @@ fiaf:DialogueEditor a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.9.8"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundActivity .
 
+fiaf:DialogueLanguages a owl:Class ;
+    rdfs:label "Dialogue language(s)"@en ;
+    dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:LanguageUsage .
+
 fiaf:DifferentSoundTrack a owl:NamedIndividual,
         fiaf:VariantType ;
     rdfs:label "Different sound track"@en ;
@@ -693,6 +698,16 @@ fiaf:LaboratoryTechnicians a owl:Class ;
     rdfs:label "Laboratory Technicians"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.12.2"^^xsd:string ;
     rdfs:subClassOf fiaf:LaboratoryActivity .
+
+fiaf:LanguagesOfAccompanyingMaterial a owl:Class ;
+    rdfs:label "Language(s) of accompanying material"@en ;
+    dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:LanguageUsage .
+
+fiaf:LanguagesOfSummariesOnContainers a owl:Class ;
+    rdfs:label "Language(s) of summaries on containers"@en ;
+    dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:LanguageUsage .
 
 fiaf:LeadMan a owl:Class ;
     rdfs:label "Lead Man"@en,
@@ -1484,6 +1499,11 @@ fiaf:WriterofLyrics a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.11.13"^^xsd:string ;
     rdfs:subClassOf fiaf:MusicActivity .
 
+fiaf:WrittenLanguages a owl:Class ;
+    rdfs:label "Written Languages)"@en ;
+    dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:LanguageUsage .
+
 fiaf:hasActivity a owl:ObjectProperty ;
     rdfs:label "Has Activity"@en ;
     dc:source "FIAF Cataloguing Manual 1.4.1.1"^^xsd:string,
@@ -1746,6 +1766,10 @@ fiaf:LaboratoryActivity a owl:Class ;
     rdfs:label "Laboratory Activity"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.12"^^xsd:string ;
     rdfs:subClassOf fiaf:Activity .
+
+fiaf:LanguageUsage a owl:Class ;
+    rdfs:label "Language Usage"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.3.2"^^xsd:string .
 
 fiaf:Identifier a owl:Class ;
     rdfs:label "Identifier"@en ;

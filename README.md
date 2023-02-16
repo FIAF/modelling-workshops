@@ -416,6 +416,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.9.8   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:SoundActivity](https://fiafcore.org/ontology/SoundActivity)   
+####  Dialogue language(s)   
+> **iri** https://fiafcore.org/ontology/DialogueLanguages   
+**label** Dialogue language(s)   
+**source** FIAF Cataloguing Manual D.6   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:LanguageUsage](https://fiafcore.org/ontology/LanguageUsage)   
 ####  Directing Activity   
 > **iri** https://fiafcore.org/ontology/DirectingActivity   
 **label** Directing Activity   
@@ -677,6 +683,23 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.12.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:LaboratoryActivity](https://fiafcore.org/ontology/LaboratoryActivity)   
+####  Language Usage   
+> **iri** https://fiafcore.org/ontology/LanguageUsage   
+**label** Language Usage   
+**source** FIAF Cataloguing Manual 2.3.3.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+####  Language(s) of accompanying material   
+> **iri** https://fiafcore.org/ontology/LanguagesOfAccompanyingMaterial   
+**label** Language(s) of accompanying material   
+**source** FIAF Cataloguing Manual D.6   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:LanguageUsage](https://fiafcore.org/ontology/LanguageUsage)   
+####  Language(s) of summaries on containers   
+> **iri** https://fiafcore.org/ontology/LanguagesOfSummariesOnContainers   
+**label** Language(s) of summaries on containers   
+**source** FIAF Cataloguing Manual D.6   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:LanguageUsage](https://fiafcore.org/ontology/LanguageUsage)   
 ####  Lead Man, Lead Person, Swing Gang   
 > **iri** https://fiafcore.org/ontology/LeadMan   
 **label** Lead Man, Lead Person, Swing Gang   
@@ -1372,6 +1395,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.4   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Activity](https://fiafcore.org/ontology/Activity)   
+####  Written Languages)   
+> **iri** https://fiafcore.org/ontology/WrittenLanguages   
+**label** Written Languages)   
+**source** FIAF Cataloguing Manual D.6   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:LanguageUsage](https://fiafcore.org/ontology/LanguageUsage)   
 ## Individuals   
 ####  1080   
 > **iri** https://fiafcore.org/ontology/1080   
