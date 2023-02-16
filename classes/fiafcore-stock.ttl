@@ -13,7 +13,7 @@
 
 <https://fiafcore.org/ontology/Stock> a owl:Class ;
     rdfs:label "Stock"@en ;
-    dc:source "FIAF Cataloguing Manual 3.1.5.15"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual 3.1.5.14"^^xsd:string .
 
 # Individuals
 
@@ -131,3 +131,11 @@
         <https://fiafcore.org/ontology/Stock> ;
     rdfs:label "Western Digital"@en ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^<string> .
+
+# Datatype Property 
+
+<https://fiafcore.org/ontology/hasStockValue> a owl:DatatypeProperty ;
+  rdfs:label "Has Stock Value"@en ;
+  dc:source "FIAF Cataloguing Manual 3.1.5.15"^^xsd:string ;
+  rdfs:domain fiaf:Stock ;
+  rdfs:range xsd:string .
