@@ -7,6 +7,11 @@
 fiaf: a owl:Ontology ;
     dc:title "FIAFcore" .
 
+fiaf:AbridgedCondensed a owl:NamedIndividual,
+        fiaf:VariantType ;
+    rdfs:label "Abridged/Condensed"@en ;
+    dc:source "FIAF Cataloguing Manual D.2"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+
 fiaf:Adaptation a owl:Class ;
     rdfs:label "Adaptation"@en,
         "Adapted"@en ;
@@ -112,6 +117,11 @@ fiaf:AssociateProducer a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.2.6"^^xsd:string ;
     rdfs:subClassOf fiaf:ProducingActivity .
 
+fiaf:Augmented a owl:NamedIndividual,
+        fiaf:VariantType ;
+    rdfs:label "Augmented"@en ;
+    dc:source "FIAF Cataloguing Manual D.2"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+
 fiaf:BasedonCharactersCreated a owl:Class ;
     rdfs:label "Based on Characters Created"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.4.5"^^xsd:string ;
@@ -130,6 +140,11 @@ fiaf:BestBoy a owl:Class ;
         "Best Boy Electric"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.5.12"^^xsd:string ;
     rdfs:subClassOf fiaf:CinematographyActivity .
+
+fiaf:BlackAndWhiteCopyOfWorkOriginallyIssuedInColour a owl:NamedIndividual,
+        fiaf:VariantType ;
+    rdfs:label "Black and white copy of work originally issued in colour"@en ;
+    dc:source "FIAF Cataloguing Manual D.2"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
 
 fiaf:BoomOperator a owl:Class ;
     rdfs:label "Boom Operator"@en ;
@@ -160,6 +175,11 @@ fiaf:CastingDirector a owl:Class ;
         "Casting Director"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.3.4"^^xsd:string ;
     rdfs:subClassOf fiaf:DirectingActivity .
+
+fiaf:Censored a owl:NamedIndividual,
+        fiaf:VariantType ;
+    rdfs:label "Censored"@en ;
+    dc:source "FIAF Cataloguing Manual D.2"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
 
 fiaf:Censorship a owl:Class ;
     rdfs:label "Approved"@en,
@@ -222,6 +242,11 @@ fiaf:ColorTimer a owl:Class ;
         "Timer"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.12.4"^^xsd:string ;
     rdfs:subClassOf fiaf:LaboratoryActivity .
+
+fiaf:Colourized a owl:NamedIndividual,
+        fiaf:VariantType ;
+    rdfs:label "Colourized"@en ;
+    dc:source "FIAF Cataloguing Manual D.2"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
 
 fiaf:Compilation a owl:NamedIndividual,
         fiaf:Form ;
@@ -325,6 +350,11 @@ fiaf:DialogueEditor a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.9.8"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundActivity .
 
+fiaf:DifferentSoundTrack a owl:NamedIndividual,
+        fiaf:VariantType ;
+    rdfs:label "Different sound track"@en ;
+    dc:source "FIAF Cataloguing Manual D.2"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+
 fiaf:Director a owl:Class ;
     rdfs:label "Directed"@en,
         "Direction"@en,
@@ -386,6 +416,11 @@ fiaf:Double a owl:Class ;
         "Stunt Double"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:CastActivity .
+
+fiaf:Dubbed a owl:NamedIndividual,
+        fiaf:VariantType ;
+    rdfs:label "Dubbed"@en ;
+    dc:source "FIAF Cataloguing Manual D.2"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
 
 fiaf:DubbingDirector a owl:Class ;
     rdfs:label "Dubbing Director"@en ;
@@ -760,9 +795,12 @@ fiaf:Presenter a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.2.21"^^xsd:string ;
     rdfs:subClassOf fiaf:ProducingActivity .
 
-fiaf:PreservationRestoration a owl:Class ;
+fiaf:PreservationRestoration a owl:Class,
+        owl:NamedIndividual,
+        fiaf:VariantType ;
     rdfs:label "Preservation/Restoration"@en ;
-    dc:source "FIAF Cataloguing Manual D.5.9"^^xsd:string ;
+    dc:source "FIAF Cataloguing Manual D.2"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string>,
+        "FIAF Cataloguing Manual D.5.9"^^xsd:string ;
     rdfs:subClassOf fiaf:Manifestation .
 
 fiaf:Previsualization a owl:Class ;
@@ -964,6 +1002,11 @@ fiaf:SongComposer a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.11.12"^^xsd:string ;
     rdfs:subClassOf fiaf:MusicActivity .
 
+fiaf:Sonorized a owl:NamedIndividual,
+        fiaf:VariantType ;
+    rdfs:label "Sonorized"@en ;
+    dc:source "FIAF Cataloguing Manual D.2"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+
 fiaf:SoundDesigner a owl:Class ;
     rdfs:label "Sound Design"@en,
         "Sound Designer"@en ;
@@ -1060,6 +1103,11 @@ fiaf:StuntMan a owl:Class ;
         "Stunts"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.7.11"^^xsd:string ;
     rdfs:subClassOf fiaf:CastActivity .
+
+fiaf:Subtitled a owl:NamedIndividual,
+        fiaf:VariantType ;
+    rdfs:label "Subtitled"@en ;
+    dc:source "FIAF Cataloguing Manual D.2"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
 
 fiaf:SupervisingAnimator a owl:Class ;
     rdfs:label "Key Animator"@en,
@@ -1466,6 +1514,10 @@ fiaf:MusicActivity a owl:Class ;
     rdfs:label "Music Activity"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.11"^^xsd:string ;
     rdfs:subClassOf fiaf:Activity .
+
+fiaf:VariantType a owl:Class ;
+    rdfs:label "Variant Type"@en ;
+    dc:source "FIAF Cataloguing Manual 1.2.2"^^xsd:string .
 
 fiaf:SpecialEffectsActivity a owl:Class ;
     rdfs:label "Special Effects Activity"@en ;

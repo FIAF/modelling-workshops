@@ -795,8 +795,8 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 ####  Preservation/Restoration   
 > **iri** https://fiafcore.org/ontology/PreservationRestoration   
 **label** Preservation/Restoration   
-**source** FIAF Cataloguing Manual D.5.9   
-**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**source** FIAF Cataloguing Manual D.2, FIAF Cataloguing Manual D.5.9   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class), [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
 **subclass of** [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation)   
 ####  Illustrator, Previsualization, Production Illustrator, Storyboard Artist   
 > **iri** https://fiafcore.org/ontology/Previsualization   
@@ -1151,6 +1151,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual 1.3.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Identifier](https://fiafcore.org/ontology/Identifier)   
+####  Variant Type   
+> **iri** https://fiafcore.org/ontology/VariantType   
+**label** Variant Type   
+**source** FIAF Cataloguing Manual 1.2.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 ####  Video Assist, Video Assist Operator   
 > **iri** https://fiafcore.org/ontology/VideoAssistOperator   
 **label** Video Assist, Video Assist Operator   
