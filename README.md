@@ -130,6 +130,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.2.6   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProducingActivity](https://fiafcore.org/ontology/ProducingActivity)   
+####  Base   
+> **iri** https://fiafcore.org/ontology/Base   
+**label** Base   
+**source** FIAF Cataloguing Manual 3.1.5.13   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 ####  Based on Characters Created   
 > **iri** https://fiafcore.org/ontology/BasedonCharactersCreated   
 **label** Based on Characters Created   
