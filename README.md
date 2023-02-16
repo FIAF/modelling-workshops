@@ -207,9 +207,9 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
-####  Broadcast   
-> **iri** https://fiafcore.org/ontology/Broadcast   
-**label** Broadcast   
+####  Broadcast Manifestation   
+> **iri** https://fiafcore.org/ontology/BroadcastManifestation   
+**label** Broadcast Manifestation   
 **source** FIAF Cataloguing Manual D.5.7   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation)   
@@ -619,9 +619,9 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
-####  Home Viewing Publication   
-> **iri** https://fiafcore.org/ontology/HomeViewingPublication   
-**label** Home Viewing Publication   
+####  Home Viewing Publication Manifestation   
+> **iri** https://fiafcore.org/ontology/HomeViewingPublicationManifestation   
+**label** Home Viewing Publication Manifestation   
 **source** FIAF Cataloguing Manual D.5.6   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation)   
@@ -648,9 +648,9 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual 1.3.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Identifier](https://fiafcore.org/ontology/Identifier)   
-####  Internet   
-> **iri** https://fiafcore.org/ontology/Internet   
-**label** Internet   
+####  Internet Manifestation   
+> **iri** https://fiafcore.org/ontology/InternetManifestation   
+**label** Internet Manifestation   
 **source** FIAF Cataloguing Manual D.5.8   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation)   
@@ -878,9 +878,9 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.5.3   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation)   
-####  Not For Release   
-> **iri** https://fiafcore.org/ontology/NotForRelease   
-**label** Not For Release   
+####  Not For Release Manifestation   
+> **iri** https://fiafcore.org/ontology/NotForReleaseManifestation   
+**label** Not For Release Manifestation   
 **source** FIAF Cataloguing Manual D.5.4   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation)   
@@ -926,9 +926,9 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.2.15   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProducingActivity](https://fiafcore.org/ontology/ProducingActivity)   
-####  Pre-Release   
-> **iri** https://fiafcore.org/ontology/PreRelease   
-**label** Pre-Release   
+####  Pre-Release Manifestation   
+> **iri** https://fiafcore.org/ontology/PreReleaseManifestation   
+**label** Pre-Release Manifestation   
 **source** FIAF Cataloguing Manual D.5.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation)   
@@ -944,11 +944,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.2.21   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProducingActivity](https://fiafcore.org/ontology/ProducingActivity)   
-####  Preservation/Restoration   
-> **iri** https://fiafcore.org/ontology/PreservationRestoration   
-**label** Preservation/Restoration   
-**source** FIAF Cataloguing Manual D.2, FIAF Cataloguing Manual D.5.9   
-**type** [owl:Class](http://www.w3.org/2002/07/owl#Class), [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
+####  Preservation/Restoration Manifestation   
+> **iri** https://fiafcore.org/ontology/PreservationRestorationManifestation   
+**label** Preservation/Restoration Manifestation   
+**source** FIAF Cataloguing Manual D.5.9   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation)   
 ####  Illustrator, Previsualization, Production Illustrator, Storyboard Artist   
 > **iri** https://fiafcore.org/ontology/Previsualization   
@@ -1355,9 +1355,9 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.5.10    
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation)   
-####  Unreleased   
-> **iri** https://fiafcore.org/ontology/Unreleased   
-**label** Unreleased   
+####  Unreleased Manifestation   
+> **iri** https://fiafcore.org/ontology/UnreleasedManifestation   
+**label** Unreleased Manifestation   
 **source** FIAF Cataloguing Manual D.5.5   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation)   
@@ -1617,9 +1617,8 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 ####  Preservation/Restoration   
 > **iri** https://fiafcore.org/ontology/PreservationRestoration   
 **label** Preservation/Restoration   
-**source** FIAF Cataloguing Manual D.2, FIAF Cataloguing Manual D.5.9   
-**type** [owl:Class](http://www.w3.org/2002/07/owl#Class), [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
-**subclass of** [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation)   
+**source** FIAF Cataloguing Manual D.2   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
 ####  PVC   
 > **iri** https://fiafcore.org/ontology/Pvc   
 **label** PVC   
