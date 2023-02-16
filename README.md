@@ -1085,7 +1085,7 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 ####  Stock   
 > **iri** https://fiafcore.org/ontology/Stock   
 **label** Stock   
-**source** FIAF Cataloguing Manual 3.1.5.15   
+**source** FIAF Cataloguing Manual 3.1.5.14   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 ####  Location of Studios, Studio   
 > **iri** https://fiafcore.org/ontology/Studio   
@@ -1843,6 +1843,13 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual 1.3.1, 2.3.1, 3.1.1   
 **type** [http://www.w3.org/2002/07/owl#DatatypeProperty](http://www.w3.org/2002/07/owl#DatatypeProperty)   
 **domain** [fiaf:Identifier](https://fiafcore.org/ontology/Identifier)   
+**range** [http://www.w3.org/2001/XMLSchema#string](http://www.w3.org/2001/XMLSchema#string)   
+####  Has Stock Value   
+> **iri** https://fiafcore.org/ontology/hasStockValue   
+**label** Has Stock Value   
+**source** FIAF Cataloguing Manual 3.1.5.15   
+**type** [http://www.w3.org/2002/07/owl#DatatypeProperty](http://www.w3.org/2002/07/owl#DatatypeProperty)   
+**domain** [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
 **range** [http://www.w3.org/2001/XMLSchema#string](http://www.w3.org/2001/XMLSchema#string)   
 ####  Has Title Value   
 > **iri** https://fiafcore.org/ontology/hasTitleValue   

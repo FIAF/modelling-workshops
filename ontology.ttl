@@ -1667,6 +1667,12 @@ fiaf:hasStock a owl:ObjectProperty ;
     rdfs:domain fiaf:Item ;
     rdfs:range fiaf:Stock .
 
+fiaf:hasStockValue a owl:DatatypeProperty ;
+    rdfs:label "Has Stock Value"@en ;
+    dc:source "FIAF Cataloguing Manual 3.1.5.15"^^xsd:string ;
+    rdfs:domain fiaf:Stock ;
+    rdfs:range xsd:string .
+
 fiaf:hasStream a owl:ObjectProperty ;
     rdfs:label "Has Stream"@en ;
     dc:source "FIAF Cataloguing Manual 3.1.5.16"^^xsd:string ;
@@ -1842,5 +1848,5 @@ fiaf:Item a owl:Class ;
 
 fiaf:Stock a owl:Class ;
     rdfs:label "Stock"@en ;
-    dc:source "FIAF Cataloguing Manual 3.1.5.15"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual 3.1.5.14"^^xsd:string .
 
