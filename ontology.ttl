@@ -1888,6 +1888,7 @@ fiaf:Activity a owl:Class ;
 
 fiaf:WorkVariant a owl:Class ;
     rdfs:label "Work/Variant"@en ;
+    dc:description "A moving image Work comprises both the intellectual or artistic content and the process of realisation in a cinematographic medium, e.g., what it is called, when it was made, who made it, who was in it, what it is about, etc."@en ;
     dc:source "FIAF Cataloguing Manual 1.0"^^xsd:string .
 
 fiaf:CinematographyActivity a owl:Class ;
