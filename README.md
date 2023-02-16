@@ -1082,6 +1082,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.5.18   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CinematographyActivity](https://fiafcore.org/ontology/CinematographyActivity)   
+####  Stock   
+> **iri** https://fiafcore.org/ontology/Stock   
+**label** Stock   
+**source** FIAF Cataloguing Manual 3.1.5.15   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 ####  Location of Studios, Studio   
 > **iri** https://fiafcore.org/ontology/Studio   
 **label** Location of Studios, Studio   
@@ -1235,6 +1240,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** 1080   
 **source** FIAF Cataloguing Manual D.7.21   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:LineStandard](https://fiafcore.org/ontology/LineStandard)   
+####  3M   
+> **iri** https://fiafcore.org/ontology/3M   
+**label** 3M   
+**source** FIAF Cataloguing Manual D.7.16   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
 ####  405   
 > **iri** https://fiafcore.org/ontology/405   
 **label** 405   
@@ -1275,21 +1285,56 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Acrylic   
 **source** FIAF Cataloguing Manual D.7.7   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
+####  Agfa   
+> **iri** https://fiafcore.org/ontology/Agfa   
+**label** Agfa   
+**source** FIAF Cataloguing Manual D.7.16   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  Agfa Gavaert   
+> **iri** https://fiafcore.org/ontology/AgfaGavaert   
+**label** Agfa Gavaert   
+**source** FIAF Cataloguing Manual D.7.16   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  Akai   
+> **iri** https://fiafcore.org/ontology/Akai   
+**label** Akai   
+**source** FIAF Cataloguing Manual D.7.16   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
 ####  Amateur Film   
 > **iri** https://fiafcore.org/ontology/AmateurFilm   
 **label** Amateur Film   
 **source** FIAF Glossary of Filmographic Terms D.1.9   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
+####  Ampex   
+> **iri** https://fiafcore.org/ontology/Ampex   
+**label** Ampex   
+**source** FIAF Cataloguing Manual D.7.16   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  Ansco   
+> **iri** https://fiafcore.org/ontology/Ansco   
+**label** Ansco   
+**source** FIAF Cataloguing Manual D.7.16   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
 ####  Augmented   
 > **iri** https://fiafcore.org/ontology/Augmented   
 **label** Augmented   
 **source** FIAF Cataloguing Manual D.2   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
+####  BASF   
+> **iri** https://fiafcore.org/ontology/Basf   
+**label** BASF   
+**source** FIAF Cataloguing Manual D.7.16   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
 ####  Black and white copy of work originally issued in colour   
 > **iri** https://fiafcore.org/ontology/BlackAndWhiteCopyOfWorkOriginallyIssuedInColour   
 **label** Black and white copy of work originally issued in colour   
 **source** FIAF Cataloguing Manual D.2   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
+####  Brifco   
+> **iri** https://fiafcore.org/ontology/Brifco   
+**label** Brifco   
+**source** FIAF Cataloguing Manual D.7.16   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
 ####  Censored   
 > **iri** https://fiafcore.org/ontology/Censored   
 **label** Censored   
@@ -1325,6 +1370,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Dubbed   
 **source** FIAF Cataloguing Manual D.2   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
+####  Eastman Kodak   
+> **iri** https://fiafcore.org/ontology/EastmanKodak   
+**label** Eastman Kodak   
+**source** FIAF Cataloguing Manual D.7.16   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
 ####  Clip, Excerpt   
 > **iri** https://fiafcore.org/ontology/Excerpt   
 **label** Clip, Excerpt   
@@ -1340,11 +1390,26 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Featurette, Making Of   
 **source** FIAF Glossary of Filmographic Terms D.1.8   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
+####  Fuji   
+> **iri** https://fiafcore.org/ontology/Fuji   
+**label** Fuji   
+**source** FIAF Cataloguing Manual D.7.16   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  Hitachi   
+> **iri** https://fiafcore.org/ontology/Hitachi   
+**label** Hitachi   
+**source** FIAF Cataloguing Manual D.7.16   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
 ####  Home Movie   
 > **iri** https://fiafcore.org/ontology/HomeMovie   
 **label** Home Movie   
 **source** FIAF Glossary of Filmographic Terms D.1.10   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
+####  HP   
+> **iri** https://fiafcore.org/ontology/Hp   
+**label** HP   
+**source** FIAF Cataloguing Manual D.7.16   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
 ####  Mainly nitrate   
 > **iri** https://fiafcore.org/ontology/MainlyNitrate   
 **label** Mainly nitrate   
@@ -1360,6 +1425,16 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Master   
 **source** FIAF Cataloguing Manual D.7.3   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Status](https://fiafcore.org/ontology/Status)   
+####  Maxell   
+> **iri** https://fiafcore.org/ontology/Maxell   
+**label** Maxell   
+**source** FIAF Cataloguing Manual D.7.16   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  Memorex   
+> **iri** https://fiafcore.org/ontology/Memorex   
+**label** Memorex   
+**source** FIAF Cataloguing Manual D.7.16   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
 ####  Mixed   
 > **iri** https://fiafcore.org/ontology/Mixed   
 **label** Mixed   
@@ -1385,6 +1460,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** On Loan   
 **source** FIAF Cataloguing Manual D.7.3   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Status](https://fiafcore.org/ontology/Status)   
+####  Oracle   
+> **iri** https://fiafcore.org/ontology/Oracle   
+**label** Oracle   
+**source** FIAF Cataloguing Manual D.7.16   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
 ####  Out, Outtake   
 > **iri** https://fiafcore.org/ontology/Outtake   
 **label** Out, Outtake   
@@ -1395,6 +1475,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** PAL   
 **source** FIAF Cataloguing Manual 3.1.5.10   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:BroadcastStandard](https://fiafcore.org/ontology/BroadcastStandard)   
+####  Philips   
+> **iri** https://fiafcore.org/ontology/Philips   
+**label** Philips   
+**source** FIAF Cataloguing Manual D.7.16   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
 ####  Polyester   
 > **iri** https://fiafcore.org/ontology/Polyester   
 **label** Polyester   
@@ -1426,11 +1511,21 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Safety   
 **source** FIAF Cataloguing Manual D.7.7   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
+####  Scotch   
+> **iri** https://fiafcore.org/ontology/Scotch   
+**label** Scotch   
+**source** FIAF Cataloguing Manual D.7.16   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
 ####  Screen Test, Wardrobe Test   
 > **iri** https://fiafcore.org/ontology/ScreenTest   
 **label** Screen Test, Wardrobe Test   
 **source** FIAF Glossary of Filmographic Terms D.1.15   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
+####  Seagate   
+> **iri** https://fiafcore.org/ontology/Seagate   
+**label** Seagate   
+**source** FIAF Cataloguing Manual D.7.16   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
 ####  Serial   
 > **iri** https://fiafcore.org/ontology/Serial   
 **label** Serial   
@@ -1442,6 +1537,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Series   
 **source** FIAF Glossary of Filmographic Terms D.1.4   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
+####  Shamrock   
+> **iri** https://fiafcore.org/ontology/Shamrock   
+**label** Shamrock   
+**source** FIAF Cataloguing Manual D.7.16   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
 ####  Short   
 > **iri** https://fiafcore.org/ontology/Short   
 **label** Short   
@@ -1452,6 +1552,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Sonorized   
 **source** FIAF Cataloguing Manual D.2   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
+####  Sony   
+> **iri** https://fiafcore.org/ontology/Sony   
+**label** Sony   
+**source** FIAF Cataloguing Manual D.7.16   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
 ####  Status pending   
 > **iri** https://fiafcore.org/ontology/StatusPending   
 **label** Status pending   
@@ -1467,6 +1572,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Subtitled   
 **source** FIAF Cataloguing Manual D.2   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
+####  Toshiba   
+> **iri** https://fiafcore.org/ontology/Toshiba   
+**label** Toshiba   
+**source** FIAF Cataloguing Manual D.7.16   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
 ####  Preview, Teaser, Trailer   
 > **iri** https://fiafcore.org/ontology/Trailer   
 **label** Preview, Teaser, Trailer   
@@ -1477,6 +1587,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Unedited Footage   
 **source** FIAF Glossary of Filmographic Terms D.1.14   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
+####  Verbatim   
+> **iri** https://fiafcore.org/ontology/Verbatim   
+**label** Verbatim   
+**source** FIAF Cataloguing Manual D.7.16   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
 ####  Video   
 > **iri** https://fiafcore.org/ontology/Video   
 **label** Video   
@@ -1492,6 +1607,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Vinyl   
 **source** FIAF Cataloguing Manual D.7.7   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
+####  Western Digital   
+> **iri** https://fiafcore.org/ontology/WesternDigital   
+**label** Western Digital   
+**source** FIAF Cataloguing Manual D.7.16   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
 ## Object Properties   
 ####  Has Activity   
 > **iri** https://fiafcore.org/ontology/hasActivity   
