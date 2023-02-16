@@ -1790,7 +1790,7 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 ####  Has Stock   
 > **iri** https://fiafcore.org/ontology/hasStock   
 **label** Has Stock   
-**source** FIAF Cataloguing Manual 3.1.5.15   
+**source** FIAF Cataloguing Manual 3.1.5.14   
 **type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
 **domain** [fiaf:Item](https://fiafcore.org/ontology/Item)   
 **range** [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
