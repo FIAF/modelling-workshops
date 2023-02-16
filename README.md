@@ -629,6 +629,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.2.7   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProducingActivity](https://fiafcore.org/ontology/ProducingActivity)   
+####  Line Standard   
+> **iri** https://fiafcore.org/ontology/LineStandard   
+**label** Line Standard   
+**source** FIAF Cataloguing Manual 3.1.5.19   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 ####  Location Coordinator, Location Manager, Location Scout   
 > **iri** https://fiafcore.org/ontology/LocationManager   
 **label** Location Coordinator, Location Manager, Location Scout   
@@ -1220,6 +1225,31 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Activity](https://fiafcore.org/ontology/Activity)   
 ## Individuals   
+####  1080   
+> **iri** https://fiafcore.org/ontology/1080   
+**label** 1080   
+**source** FIAF Cataloguing Manual D.7.21   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:LineStandard](https://fiafcore.org/ontology/LineStandard)   
+####  405   
+> **iri** https://fiafcore.org/ontology/405   
+**label** 405   
+**source** FIAF Cataloguing Manual D.7.21   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:LineStandard](https://fiafcore.org/ontology/LineStandard)   
+####  525   
+> **iri** https://fiafcore.org/ontology/525   
+**label** 525   
+**source** FIAF Cataloguing Manual D.7.21   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:LineStandard](https://fiafcore.org/ontology/LineStandard)   
+####  625   
+> **iri** https://fiafcore.org/ontology/625   
+**label** 625   
+**source** FIAF Cataloguing Manual D.7.21   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:LineStandard](https://fiafcore.org/ontology/LineStandard)   
+####  720   
+> **iri** https://fiafcore.org/ontology/720   
+**label** 720   
+**source** FIAF Cataloguing Manual D.7.21   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:LineStandard](https://fiafcore.org/ontology/LineStandard)   
 ####  Abridged/Condensed   
 > **iri** https://fiafcore.org/ontology/AbridgedCondensed   
 **label** Abridged/Condensed   

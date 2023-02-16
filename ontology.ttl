@@ -7,6 +7,31 @@
 fiaf: a owl:Ontology ;
     dc:title "FIAFcore" .
 
+fiaf:1080 a owl:NamedIndividual,
+        fiaf:LineStandard ;
+    rdfs:label "1080"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.21"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+
+fiaf:405 a owl:NamedIndividual,
+        fiaf:LineStandard ;
+    rdfs:label "405"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.21"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+
+fiaf:525 a owl:NamedIndividual,
+        fiaf:LineStandard ;
+    rdfs:label "525"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.21"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+
+fiaf:625 a owl:NamedIndividual,
+        fiaf:LineStandard ;
+    rdfs:label "625"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.21"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+
+fiaf:720 a owl:NamedIndividual,
+        fiaf:LineStandard ;
+    rdfs:label "720"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.21"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+
 fiaf:AbridgedCondensed a owl:NamedIndividual,
         fiaf:VariantType ;
     rdfs:label "Abridged/Condensed"@en ;
@@ -1574,6 +1599,10 @@ fiaf:LaboratoryActivity a owl:Class ;
 fiaf:Identifier a owl:Class ;
     rdfs:label "Identifier"@en ;
     dc:source "FIAF Cataloguing Manual 1.3.1, 2.3.1, 3.1.1"^^xsd:string .
+
+fiaf:LineStandard a owl:Class ;
+    rdfs:label "Line Standard"@en ;
+    dc:source "FIAF Cataloguing Manual 3.1.5.19"^^xsd:string .
 
 fiaf:CopyrightandDistributionActivity a owl:Class ;
     rdfs:label "Copyright and Distribution Activity"@en ;
