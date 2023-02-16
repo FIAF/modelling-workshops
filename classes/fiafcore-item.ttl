@@ -132,7 +132,7 @@
 
 <https://fiafcore.org/ontology/hasStock> a owl:ObjectProperty ;
     rdfs:label "Has Stock"@en ;
-    dc:source "FIAF Cataloguing Manual 3.1.5.15"^^xsd:string ;
+    dc:source "FIAF Cataloguing Manual 3.1.5.14"^^xsd:string ;
     rdfs:domain fiaf:Item ;
     rdfs:range fiaf:Stock .
 
