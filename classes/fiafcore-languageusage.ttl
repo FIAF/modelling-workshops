@@ -53,7 +53,7 @@
     rdfs:subClassOf fiaf:LanguageUsage .
 
 <https://fiafcore.org/ontology/WrittenLanguages> a owl:Class ;
-    rdfs:label "Written Languages)"@en ;
+    rdfs:label "Written Languages"@en ;
     dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
     rdfs:subClassOf fiaf:LanguageUsage .
 
