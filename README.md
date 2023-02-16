@@ -165,6 +165,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.5.7   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation)   
+####  Broadcast Standard   
+> **iri** https://fiafcore.org/ontology/BroadcastStandard   
+**label** Broadcast Standard   
+**source** FIAF Cataloguing Manual 3.1.5.10   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 ####  Camera, Camera Operator, Cameraman   
 > **iri** https://fiafcore.org/ontology/CameraOperator   
 **label** Camera, Camera Operator, Cameraman   
@@ -1214,6 +1219,214 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.4   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Activity](https://fiafcore.org/ontology/Activity)   
+## Individuals   
+####  Abridged/Condensed   
+> **iri** https://fiafcore.org/ontology/AbridgedCondensed   
+**label** Abridged/Condensed   
+**source** FIAF Cataloguing Manual D.2   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
+####  Acetate   
+> **iri** https://fiafcore.org/ontology/Acetate   
+**label** Acetate   
+**source** FIAF Cataloguing Manual D.7.7   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
+####  Acrylic   
+> **iri** https://fiafcore.org/ontology/Acrylic   
+**label** Acrylic   
+**source** FIAF Cataloguing Manual D.7.7   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
+####  Amateur Film   
+> **iri** https://fiafcore.org/ontology/AmateurFilm   
+**label** Amateur Film   
+**source** FIAF Glossary of Filmographic Terms D.1.9   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
+####  Augmented   
+> **iri** https://fiafcore.org/ontology/Augmented   
+**label** Augmented   
+**source** FIAF Cataloguing Manual D.2   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
+####  Black and white copy of work originally issued in colour   
+> **iri** https://fiafcore.org/ontology/BlackAndWhiteCopyOfWorkOriginallyIssuedInColour   
+**label** Black and white copy of work originally issued in colour   
+**source** FIAF Cataloguing Manual D.2   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
+####  Censored   
+> **iri** https://fiafcore.org/ontology/Censored   
+**label** Censored   
+**source** FIAF Cataloguing Manual D.2   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
+####  Colourized   
+> **iri** https://fiafcore.org/ontology/Colourized   
+**label** Colourized   
+**source** FIAF Cataloguing Manual D.2   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
+####  Compilation   
+> **iri** https://fiafcore.org/ontology/Compilation   
+**label** Compilation   
+**source** FIAF Glossary of Filmographic Terms D.1.6   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
+####  CTA   
+> **iri** https://fiafcore.org/ontology/Cta   
+**label** CTA   
+**source** FIAF Cataloguing Manual D.7.7   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
+####  Diacetate   
+> **iri** https://fiafcore.org/ontology/Diacetate   
+**label** Diacetate   
+**source** FIAF Cataloguing Manual D.7.7   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
+####  Different sound track   
+> **iri** https://fiafcore.org/ontology/DifferentSoundTrack   
+**label** Different sound track   
+**source** FIAF Cataloguing Manual D.2   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
+####  Dubbed   
+> **iri** https://fiafcore.org/ontology/Dubbed   
+**label** Dubbed   
+**source** FIAF Cataloguing Manual D.2   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
+####  Clip, Excerpt   
+> **iri** https://fiafcore.org/ontology/Excerpt   
+**label** Clip, Excerpt   
+**source** FIAF Glossary of Filmographic Terms D.1.13   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
+####  Feature   
+> **iri** https://fiafcore.org/ontology/Feature   
+**label** Feature   
+**source** FIAF Glossary of Filmographic Terms D.1.2   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
+####  Featurette, Making Of   
+> **iri** https://fiafcore.org/ontology/Featurette   
+**label** Featurette, Making Of   
+**source** FIAF Glossary of Filmographic Terms D.1.8   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
+####  Home Movie   
+> **iri** https://fiafcore.org/ontology/HomeMovie   
+**label** Home Movie   
+**source** FIAF Glossary of Filmographic Terms D.1.10   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
+####  Mainly nitrate   
+> **iri** https://fiafcore.org/ontology/MainlyNitrate   
+**label** Mainly nitrate   
+**source** FIAF Cataloguing Manual D.7.7   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
+####  Mainly safety   
+> **iri** https://fiafcore.org/ontology/MainlySafety   
+**label** Mainly safety   
+**source** FIAF Cataloguing Manual D.7.7   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
+####  Mixed   
+> **iri** https://fiafcore.org/ontology/Mixed   
+**label** Mixed   
+**source** FIAF Cataloguing Manual D.7.7   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
+####  Mylar   
+> **iri** https://fiafcore.org/ontology/Mylar   
+**label** Mylar   
+**source** FIAF Cataloguing Manual D.7.7   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
+####  NTSC   
+> **iri** https://fiafcore.org/ontology/NTSC   
+**label** NTSC   
+**source** FIAF Cataloguing Manual 3.1.5.10   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:BroadcastStandard](https://fiafcore.org/ontology/BroadcastStandard)   
+####  Nitrate   
+> **iri** https://fiafcore.org/ontology/Nitrate   
+**label** Nitrate   
+**source** FIAF Cataloguing Manual D.7.7   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
+####  Out, Outtake   
+> **iri** https://fiafcore.org/ontology/Outtake   
+**label** Out, Outtake   
+**source** FIAF Glossary of Filmographic Terms D.1.11   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
+####  PAL   
+> **iri** https://fiafcore.org/ontology/PAL   
+**label** PAL   
+**source** FIAF Cataloguing Manual 3.1.5.10   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:BroadcastStandard](https://fiafcore.org/ontology/BroadcastStandard)   
+####  Polyester   
+> **iri** https://fiafcore.org/ontology/Polyester   
+**label** Polyester   
+**source** FIAF Cataloguing Manual D.7.7   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
+####  Preservation/Restoration   
+> **iri** https://fiafcore.org/ontology/PreservationRestoration   
+**label** Preservation/Restoration   
+**source** FIAF Cataloguing Manual D.2, FIAF Cataloguing Manual D.5.9   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class), [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
+**subclass of** [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation)   
+####  PVC   
+> **iri** https://fiafcore.org/ontology/Pvc   
+**label** PVC   
+**source** FIAF Cataloguing Manual D.7.7   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
+####  SECAM   
+> **iri** https://fiafcore.org/ontology/SECAM   
+**label** SECAM   
+**source** FIAF Cataloguing Manual 3.1.5.10   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:BroadcastStandard](https://fiafcore.org/ontology/BroadcastStandard)   
+####  Safety   
+> **iri** https://fiafcore.org/ontology/Safety   
+**label** Safety   
+**source** FIAF Cataloguing Manual D.7.7   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
+####  Screen Test, Wardrobe Test   
+> **iri** https://fiafcore.org/ontology/ScreenTest   
+**label** Screen Test, Wardrobe Test   
+**source** FIAF Glossary of Filmographic Terms D.1.15   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
+####  Serial   
+> **iri** https://fiafcore.org/ontology/Serial   
+**label** Serial   
+**source** FIAF Cataloguing Manual D.1, FIAF Glossary of Filmographic Terms D.1.5   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class), [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
+**subclass of** [fiaf:WorkVariant](https://fiafcore.org/ontology/WorkVariant)   
+####  Series   
+> **iri** https://fiafcore.org/ontology/Series   
+**label** Series   
+**source** FIAF Glossary of Filmographic Terms D.1.4   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
+####  Short   
+> **iri** https://fiafcore.org/ontology/Short   
+**label** Short   
+**source** FIAF Glossary of Filmographic Terms D.1.3   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
+####  Sonorized   
+> **iri** https://fiafcore.org/ontology/Sonorized   
+**label** Sonorized   
+**source** FIAF Cataloguing Manual D.2   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
+####  Stock Footage, Stock Shot   
+> **iri** https://fiafcore.org/ontology/StockFootage   
+**label** Stock Footage, Stock Shot   
+**source** FIAF Glossary of Filmographic Terms D.1.12   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
+####  Subtitled   
+> **iri** https://fiafcore.org/ontology/Subtitled   
+**label** Subtitled   
+**source** FIAF Cataloguing Manual D.2   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
+####  Preview, Teaser, Trailer   
+> **iri** https://fiafcore.org/ontology/Trailer   
+**label** Preview, Teaser, Trailer   
+**source** FIAF Glossary of Filmographic Terms D.1.7   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
+####  Unedited Footage   
+> **iri** https://fiafcore.org/ontology/UneditedFootage   
+**label** Unedited Footage   
+**source** FIAF Glossary of Filmographic Terms D.1.14   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
+####  Video   
+> **iri** https://fiafcore.org/ontology/Video   
+**label** Video   
+**source** FIAF Cataloguing Manual D.7.7   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
+####  Vinyl   
+> **iri** https://fiafcore.org/ontology/Vinyl   
+**label** Vinyl   
+**source** FIAF Cataloguing Manual D.7.7   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
 ## Object Properties   
 ####  Has Activity   
 > **iri** https://fiafcore.org/ontology/hasActivity   

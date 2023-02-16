@@ -748,6 +748,11 @@ fiaf:Mylar a owl:NamedIndividual,
     rdfs:label "Mylar"@en ;
     dc:source "FIAF Cataloguing Manual D.7.7"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
 
+fiaf:NTSC a owl:NamedIndividual,
+        fiaf:BroadcastStandard ;
+    rdfs:label "NTSC"@en ;
+    dc:source "FIAF Cataloguing Manual 3.1.5.10"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+
 fiaf:NarrationWritten a owl:Class ;
     rdfs:label "Commentary"@en,
         "Commentary Written"@en,
@@ -808,6 +813,11 @@ fiaf:Outtake a owl:NamedIndividual,
     rdfs:label "Out"@en,
         "Outtake"@en ;
     dc:source "FIAF Glossary of Filmographic Terms D.1.11"^^xsd:string .
+
+fiaf:PAL a owl:NamedIndividual,
+        fiaf:BroadcastStandard ;
+    rdfs:label "PAL"@en ;
+    dc:source "FIAF Cataloguing Manual 3.1.5.10"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
 
 fiaf:Person a owl:Class ;
     rdfs:label "Person"@en ;
@@ -954,6 +964,11 @@ fiaf:Rotoscoping a owl:Class ;
     rdfs:label "Rotoscoping"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.8.9"^^xsd:string ;
     rdfs:subClassOf fiaf:SpecialEffectsActivity .
+
+fiaf:SECAM a owl:NamedIndividual,
+        fiaf:BroadcastStandard ;
+    rdfs:label "SECAM"@en ;
+    dc:source "FIAF Cataloguing Manual 3.1.5.10"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
 
 fiaf:Safety a owl:NamedIndividual,
         fiaf:Base ;
@@ -1546,6 +1561,10 @@ fiaf:EditingActivity a owl:Class ;
 fiaf:Agent a owl:Class ;
     rdfs:label "Agent"@en ;
     dc:source "FIAF Cataloguing Manual 1.4.1"^^xsd:string .
+
+fiaf:BroadcastStandard a owl:Class ;
+    rdfs:label "Broadcast Standard"@en ;
+    dc:source "FIAF Cataloguing Manual 3.1.5.10"^^xsd:string .
 
 fiaf:LaboratoryActivity a owl:Class ;
     rdfs:label "Laboratory Activity"@en ;
