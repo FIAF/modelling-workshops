@@ -243,6 +243,11 @@ fiaf:CameraOperator a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.5.3"^^xsd:string ;
     rdfs:subClassOf fiaf:CinematographyActivity .
 
+fiaf:Captions a owl:Class ;
+    rdfs:label "Captions"@en ;
+    dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:WrittenLanguages .
+
 fiaf:Cast a owl:Class ;
     rdfs:label "Cast"@en,
         "Cast of Characters"@en,
@@ -439,11 +444,6 @@ fiaf:DialogueEditor a owl:Class ;
     rdfs:label "Dialogue Editor"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.9.8"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundActivity .
-
-fiaf:DialogueLanguages a owl:Class ;
-    rdfs:label "Dialogue language(s)"@en ;
-    dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
-    rdfs:subClassOf fiaf:LanguageUsage .
 
 fiaf:DifferentSoundTrack a owl:NamedIndividual,
         fiaf:VariantType ;
@@ -675,6 +675,11 @@ fiaf:Internet a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.5.8"^^xsd:string ;
     rdfs:subClassOf fiaf:Manifestation .
 
+fiaf:Intertitles a owl:Class ;
+    rdfs:label "Intertitles"@en ;
+    dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:WrittenLanguages .
+
 fiaf:Interviewer a owl:Class ;
     rdfs:label "Interviewed"@en,
         "Interviewer"@en ;
@@ -903,6 +908,11 @@ fiaf:Nitrate a owl:NamedIndividual,
         fiaf:Base ;
     rdfs:label "Nitrate"@en ;
     dc:source "FIAF Cataloguing Manual D.7.7"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+
+fiaf:NoDialogue a owl:Class ;
+    rdfs:label "No Dialogue"@en ;
+    dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:DialogueLanguages .
 
 fiaf:NonTheatricalDistribution a owl:Class ;
     rdfs:label "Non-Theatrical Distribution"@en ;
@@ -1213,6 +1223,11 @@ fiaf:Short a owl:NamedIndividual,
     rdfs:label "Short"@en ;
     dc:source "FIAF Glossary of Filmographic Terms D.1.3"^^xsd:string .
 
+fiaf:SignedLanguage a owl:Class ;
+    rdfs:label "Signed Language"@en ;
+    dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:DialogueLanguages .
+
 fiaf:Singer a owl:Class ;
     rdfs:label "Singer"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.7.6"^^xsd:string ;
@@ -1285,6 +1300,11 @@ fiaf:SpecialEffects a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.8.1"^^xsd:string ;
     rdfs:subClassOf fiaf:SpecialEffectsActivity .
 
+fiaf:SpokenLanguage a owl:Class ;
+    rdfs:label "Spoken Language"@en ;
+    dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:DialogueLanguages .
+
 fiaf:Sponsor a owl:Class ;
     rdfs:label "Sponsor"@en,
         "Sponsored"@en ;
@@ -1348,6 +1368,16 @@ fiaf:Subtitled a owl:NamedIndividual,
         fiaf:VariantType ;
     rdfs:label "Subtitled"@en ;
     dc:source "FIAF Cataloguing Manual D.2"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+
+fiaf:Subtitles a owl:Class ;
+    rdfs:label "Subtitles"@en ;
+    dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:WrittenLanguages .
+
+fiaf:SungLanguage a owl:Class ;
+    rdfs:label "Sung Language"@en ;
+    dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:DialogueLanguages .
 
 fiaf:SupervisingAnimator a owl:Class ;
     rdfs:label "Key Animator"@en,
@@ -1498,11 +1528,6 @@ fiaf:WriterofLyrics a owl:Class ;
         "Writer of Lyrics"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.11.13"^^xsd:string ;
     rdfs:subClassOf fiaf:MusicActivity .
-
-fiaf:WrittenLanguages a owl:Class ;
-    rdfs:label "Written Languages)"@en ;
-    dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
-    rdfs:subClassOf fiaf:LanguageUsage .
 
 fiaf:hasActivity a owl:ObjectProperty ;
     rdfs:label "Has Activity"@en ;
@@ -1754,6 +1779,11 @@ fiaf:EditingActivity a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.10"^^xsd:string ;
     rdfs:subClassOf fiaf:Activity .
 
+fiaf:WrittenLanguages a owl:Class ;
+    rdfs:label "Written Languages)"@en ;
+    dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:LanguageUsage .
+
 fiaf:Agent a owl:Class ;
     rdfs:label "Agent"@en ;
     dc:source "FIAF Cataloguing Manual 1.4.1"^^xsd:string .
@@ -1761,6 +1791,11 @@ fiaf:Agent a owl:Class ;
 fiaf:BroadcastStandard a owl:Class ;
     rdfs:label "Broadcast Standard"@en ;
     dc:source "FIAF Cataloguing Manual 3.1.5.10"^^xsd:string .
+
+fiaf:DialogueLanguages a owl:Class ;
+    rdfs:label "Dialogue language(s)"@en ;
+    dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:LanguageUsage .
 
 fiaf:LaboratoryActivity a owl:Class ;
     rdfs:label "Laboratory Activity"@en ;

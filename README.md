@@ -224,6 +224,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.5.3   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CinematographyActivity](https://fiafcore.org/ontology/CinematographyActivity)   
+####  Captions   
+> **iri** https://fiafcore.org/ontology/Captions   
+**label** Captions   
+**source** FIAF Cataloguing Manual D.6   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:WrittenLanguages](https://fiafcore.org/ontology/WrittenLanguages)   
 ####  Cast, Cast of Characters, Players   
 > **iri** https://fiafcore.org/ontology/Cast   
 **label** Cast, Cast of Characters, Players   
@@ -648,6 +654,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.5.8   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation)   
+####  Intertitles   
+> **iri** https://fiafcore.org/ontology/Intertitles   
+**label** Intertitles   
+**source** FIAF Cataloguing Manual D.6   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:WrittenLanguages](https://fiafcore.org/ontology/WrittenLanguages)   
 ####  Interviewed, Interviewer   
 > **iri** https://fiafcore.org/ontology/Interviewer   
 **label** Interviewed, Interviewer   
@@ -854,6 +866,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.12.3   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:LaboratoryActivity](https://fiafcore.org/ontology/LaboratoryActivity)   
+####  No Dialogue   
+> **iri** https://fiafcore.org/ontology/NoDialogue   
+**label** No Dialogue   
+**source** FIAF Cataloguing Manual D.6   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:DialogueLanguages](https://fiafcore.org/ontology/DialogueLanguages)   
 ####  Non-Theatrical Distribution   
 > **iri** https://fiafcore.org/ontology/NonTheatricalDistribution   
 **label** Non-Theatrical Distribution   
@@ -1118,6 +1136,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  Signed Language   
+> **iri** https://fiafcore.org/ontology/SignedLanguage   
+**label** Signed Language   
+**source** FIAF Cataloguing Manual D.6   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:DialogueLanguages](https://fiafcore.org/ontology/DialogueLanguages)   
 ####  Singer   
 > **iri** https://fiafcore.org/ontology/Singer   
 **label** Singer   
@@ -1190,6 +1214,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.8   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Activity](https://fiafcore.org/ontology/Activity)   
+####  Spoken Language   
+> **iri** https://fiafcore.org/ontology/SpokenLanguage   
+**label** Spoken Language   
+**source** FIAF Cataloguing Manual D.6   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:DialogueLanguages](https://fiafcore.org/ontology/DialogueLanguages)   
 ####  Sponsor, Sponsored   
 > **iri** https://fiafcore.org/ontology/Sponsor   
 **label** Sponsor, Sponsored   
@@ -1248,6 +1278,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.7.11   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CastActivity](https://fiafcore.org/ontology/CastActivity)   
+####  Subtitles   
+> **iri** https://fiafcore.org/ontology/Subtitles   
+**label** Subtitles   
+**source** FIAF Cataloguing Manual D.6   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:WrittenLanguages](https://fiafcore.org/ontology/WrittenLanguages)   
+####  Sung Language   
+> **iri** https://fiafcore.org/ontology/SungLanguage   
+**label** Sung Language   
+**source** FIAF Cataloguing Manual D.6   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:DialogueLanguages](https://fiafcore.org/ontology/DialogueLanguages)   
 ####  Key Animator, Lead Animator, Supervising Animator   
 > **iri** https://fiafcore.org/ontology/SupervisingAnimator   
 **label** Key Animator, Lead Animator, Supervising Animator   
