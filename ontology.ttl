@@ -443,6 +443,11 @@ fiaf:Cta a owl:NamedIndividual,
     rdfs:label "CTA"@en ;
     dc:source "FIAF Cataloguing Manual D.7.7"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
 
+fiaf:DVSI a owl:NamedIndividual,
+        fiaf:SourceDevice ;
+    rdfs:label "DVSI"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.20"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+
 fiaf:Dancer a owl:Class ;
     rdfs:label "Danced"@en,
         "Dancer"@en ;
@@ -653,6 +658,11 @@ fiaf:Greensman a owl:Class ;
         "Greensperson"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.6.11"^^xsd:string ;
     rdfs:subClassOf fiaf:ProductionDesignActivity .
+
+fiaf:HDCAMSRW55002 a owl:NamedIndividual,
+        fiaf:SourceDevice ;
+    rdfs:label "HDCAM SRW5500/2"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.20"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
 
 fiaf:Hairdresser a owl:Class ;
     rdfs:label "Hair Stylist"@en,
@@ -1491,6 +1501,11 @@ fiaf:VIAFIdentifier a owl:Class ;
     dc:source "FIAF Cataloguing Manual 1.3.1"^^xsd:string ;
     rdfs:subClassOf fiaf:Identifier .
 
+fiaf:VT20 a owl:NamedIndividual,
+        fiaf:SourceDevice ;
+    rdfs:label "VT20"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.20"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+
 fiaf:Verbatim a owl:Class ;
     rdfs:label "Verbatim"@en ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> ;
@@ -1839,6 +1854,10 @@ fiaf:LaboratoryActivity a owl:Class ;
     rdfs:label "Laboratory Activity"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.12"^^xsd:string ;
     rdfs:subClassOf fiaf:Activity .
+
+fiaf:SourceDevice a owl:Class ;
+    rdfs:label "Source Device"@en ;
+    dc:source "FIAF Cataloguing Manual 3.1.5.21"^^xsd:string .
 
 fiaf:Identifier a owl:Class ;
     rdfs:label "Identifier"@en ;

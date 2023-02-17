@@ -1207,6 +1207,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.9.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:SoundActivity](https://fiafcore.org/ontology/SoundActivity)   
+####  Source Device   
+> **iri** https://fiafcore.org/ontology/SourceDevice   
+**label** Source Device   
+**source** FIAF Cataloguing Manual 3.1.5.21   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 ####  Effects, FX, SFX, Special Effects   
 > **iri** https://fiafcore.org/ontology/SpecialEffects   
 **label** Effects, FX, SFX, Special Effects   
@@ -1549,6 +1554,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** CTA   
 **source** FIAF Cataloguing Manual D.7.7   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
+####  DVSI   
+> **iri** https://fiafcore.org/ontology/DVSI   
+**label** DVSI   
+**source** FIAF Cataloguing Manual D.7.20   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:SourceDevice](https://fiafcore.org/ontology/SourceDevice)   
 ####  Diacetate   
 > **iri** https://fiafcore.org/ontology/Diacetate   
 **label** Diacetate   
@@ -1579,6 +1589,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Featurette, Making Of   
 **source** FIAF Glossary of Filmographic Terms D.1.8   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
+####  HDCAM SRW5500/2   
+> **iri** https://fiafcore.org/ontology/HDCAMSRW55002   
+**label** HDCAM SRW5500/2   
+**source** FIAF Cataloguing Manual D.7.20   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:SourceDevice](https://fiafcore.org/ontology/SourceDevice)   
 ####  High Definition   
 > **iri** https://fiafcore.org/ontology/HighDefinition   
 **label** High Definition   
@@ -1725,6 +1740,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Unedited Footage   
 **source** FIAF Glossary of Filmographic Terms D.1.14   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
+####  VT20   
+> **iri** https://fiafcore.org/ontology/VT20   
+**label** VT20   
+**source** FIAF Cataloguing Manual D.7.20   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:SourceDevice](https://fiafcore.org/ontology/SourceDevice)   
 ####  Video   
 > **iri** https://fiafcore.org/ontology/Video   
 **label** Video   
