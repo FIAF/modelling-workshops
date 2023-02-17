@@ -1052,6 +1052,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.4.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:WritingActivity](https://fiafcore.org/ontology/WritingActivity)   
+####  Resolution   
+> **iri** https://fiafcore.org/ontology/Resolution   
+**label** Resolution   
+**source** FIAF Cataloguing Manual 3.1.5.18   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 ####  Rotoscoping   
 > **iri** https://fiafcore.org/ontology/Rotoscoping   
 **label** Rotoscoping   
@@ -1449,11 +1454,21 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** 1080   
 **source** FIAF Cataloguing Manual D.7.21   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:LineStandard](https://fiafcore.org/ontology/LineStandard)   
+####  2K   
+> **iri** https://fiafcore.org/ontology/2K   
+**label** 2K   
+**source** FIAF Cataloguing Manual D.7.19   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Resolution](https://fiafcore.org/ontology/Resolution)   
 ####  405   
 > **iri** https://fiafcore.org/ontology/405   
 **label** 405   
 **source** FIAF Cataloguing Manual D.7.21   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:LineStandard](https://fiafcore.org/ontology/LineStandard)   
+####  4K   
+> **iri** https://fiafcore.org/ontology/4K   
+**label** 4K   
+**source** FIAF Cataloguing Manual D.7.19   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Resolution](https://fiafcore.org/ontology/Resolution)   
 ####  525   
 > **iri** https://fiafcore.org/ontology/525   
 **label** 525   
@@ -1464,11 +1479,21 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** 625   
 **source** FIAF Cataloguing Manual D.7.21   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:LineStandard](https://fiafcore.org/ontology/LineStandard)   
+####  6K   
+> **iri** https://fiafcore.org/ontology/6K   
+**label** 6K   
+**source** FIAF Cataloguing Manual D.7.19   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Resolution](https://fiafcore.org/ontology/Resolution)   
 ####  720   
 > **iri** https://fiafcore.org/ontology/720   
 **label** 720   
 **source** FIAF Cataloguing Manual D.7.21   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:LineStandard](https://fiafcore.org/ontology/LineStandard)   
+####  8K   
+> **iri** https://fiafcore.org/ontology/8K   
+**label** 8K   
+**source** FIAF Cataloguing Manual D.7.19   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Resolution](https://fiafcore.org/ontology/Resolution)   
 ####  Abridged/Condensed   
 > **iri** https://fiafcore.org/ontology/AbridgedCondensed   
 **label** Abridged/Condensed   
@@ -1554,6 +1579,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Featurette, Making Of   
 **source** FIAF Glossary of Filmographic Terms D.1.8   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
+####  High Definition   
+> **iri** https://fiafcore.org/ontology/HighDefinition   
+**label** High Definition   
+**source** FIAF Cataloguing Manual D.7.19   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Resolution](https://fiafcore.org/ontology/Resolution)   
 ####  Home Movie   
 > **iri** https://fiafcore.org/ontology/HomeMovie   
 **label** Home Movie   
@@ -1665,6 +1695,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Sonorized   
 **source** FIAF Cataloguing Manual D.2   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
+####  Standard Definition   
+> **iri** https://fiafcore.org/ontology/StandardDefinition   
+**label** Standard Definition   
+**source** FIAF Cataloguing Manual D.7.19   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Resolution](https://fiafcore.org/ontology/Resolution)   
 ####  Status pending   
 > **iri** https://fiafcore.org/ontology/StatusPending   
 **label** Status pending   
