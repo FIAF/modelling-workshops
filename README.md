@@ -1212,6 +1212,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Source Device   
 **source** FIAF Cataloguing Manual 3.1.5.21   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+####  Source Software   
+> **iri** https://fiafcore.org/ontology/SourceSoftware   
+**label** Source Software   
+**source** FIAF Cataloguing Manual 3.1.5.22   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 ####  Effects, FX, SFX, Special Effects   
 > **iri** https://fiafcore.org/ontology/SpecialEffects   
 **label** Effects, FX, SFX, Special Effects   
@@ -1579,6 +1584,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Clip, Excerpt   
 **source** FIAF Glossary of Filmographic Terms D.1.13   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
+####  FFmpeg   
+> **iri** https://fiafcore.org/ontology/FFmpeg   
+**label** FFmpeg   
+**source** FIAF Cataloguing Manual 3.1.5.22   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:SourceSoftware](https://fiafcore.org/ontology/SourceSoftware)   
 ####  Feature   
 > **iri** https://fiafcore.org/ontology/Feature   
 **label** Feature   
