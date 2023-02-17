@@ -1,0 +1,31 @@
+
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix fiaf: <https://fiafcore.org/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Ontology
+
+<https://fiafcore.org/ontology/> a owl:Ontology ;
+    dc:title "FIAFcore" .
+
+# Class
+
+<https://fiafcore.org/ontology/SourceDevice> a owl:Class ;
+    rdfs:label "Source Device"@en ;
+    dc:source "FIAF Cataloguing Manual 3.1.5.21"^^xsd:string .
+
+# Individuals
+
+<https://fiafcore.org/ontology/DVSI> a owl:NamedIndividual, fiaf:SourceDevice ;
+    rdfs:label "DVSI"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.20"^^<string> .
+
+<https://fiafcore.org/ontology/HDCAMSRW55002> a owl:NamedIndividual, fiaf:SourceDevice ;
+    rdfs:label "HDCAM SRW5500/2"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.20"^^<string> .
+
+<https://fiafcore.org/ontology/VT20> a owl:NamedIndividual,fiaf:SourceDevice ;
+    rdfs:label "VT20"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.20"^^<string> .
