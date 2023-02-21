@@ -1358,12 +1358,9 @@ fiaf:SecondUnitDirectorofPhotography a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.5.2"^^xsd:string ;
     rdfs:subClassOf fiaf:CinematographyActivity .
 
-fiaf:Serial a owl:Class,
-        owl:NamedIndividual,
-        fiaf:Form ;
+fiaf:Serial a owl:Class ;
     rdfs:label "Serial"@en ;
-    dc:source "FIAF Cataloguing Manual D.1"^^xsd:string,
-        "FIAF Glossary of Filmographic Terms D.1.5"^^xsd:string ;
+    dc:source "FIAF Cataloguing Manual D.1"^^xsd:string ;
     rdfs:subClassOf fiaf:WorkVariant .
 
 fiaf:Series a owl:NamedIndividual,
@@ -2145,13 +2142,13 @@ fiaf:SoundActivity a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.9"^^xsd:string ;
     rdfs:subClassOf fiaf:Activity .
 
-fiaf:Base a owl:Class ;
-    rdfs:label "Base"@en ;
-    dc:source "FIAF Cataloguing Manual 3.1.5.13"^^xsd:string .
-
 fiaf:Form a owl:Class ;
     rdfs:label "Form"@en ;
     dc:source "FIAF Glossary of Filmographic Terms D.1.1"^^xsd:string .
+
+fiaf:Base a owl:Class ;
+    rdfs:label "Base"@en ;
+    dc:source "FIAF Cataloguing Manual 3.1.5.13"^^xsd:string .
 
 fiaf:Activity a owl:Class ;
     rdfs:label "Activity"@en ;

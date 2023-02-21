@@ -1323,8 +1323,8 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 ####  Serial   
 > **iri** https://fiafcore.org/ontology/Serial   
 **label** Serial   
-**source** FIAF Cataloguing Manual D.1, FIAF Glossary of Filmographic Terms D.1.5   
-**type** [owl:Class](http://www.w3.org/2002/07/owl#Class), [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
+**source** FIAF Cataloguing Manual D.1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:WorkVariant](https://fiafcore.org/ontology/WorkVariant)   
 ####  Series Created   
 > **iri** https://fiafcore.org/ontology/SeriesCreated   
@@ -1950,12 +1950,6 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Screen Test, Wardrobe Test   
 **source** FIAF Glossary of Filmographic Terms D.1.15   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
-####  Serial   
-> **iri** https://fiafcore.org/ontology/Serial   
-**label** Serial   
-**source** FIAF Cataloguing Manual D.1, FIAF Glossary of Filmographic Terms D.1.5   
-**type** [owl:Class](http://www.w3.org/2002/07/owl#Class), [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
-**subclass of** [fiaf:WorkVariant](https://fiafcore.org/ontology/WorkVariant)   
 ####  Series   
 > **iri** https://fiafcore.org/ontology/Series   
 **label** Series   
