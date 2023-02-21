@@ -12,6 +12,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  Acquisition Event   
+> **iri** https://fiafcore.org/ontology/AcquisitionEvent   
+**label** Acquisition Event   
+**source** FIAF Cataloguing Manual D.4.9   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Event](https://fiafcore.org/ontology/Event)   
 ####  Activity   
 > **iri** https://fiafcore.org/ontology/Activity   
 **label** Activity   
@@ -166,6 +172,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.2.6   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProducingActivity](https://fiafcore.org/ontology/ProducingActivity)   
+####  Award(s) or Nomination(s) Event   
+> **iri** https://fiafcore.org/ontology/AwardsOrNominationsEvent   
+**label** Award(s) or Nomination(s) Event   
+**source** FIAF Cataloguing Manual D.4.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Event](https://fiafcore.org/ontology/Event)   
 ####  Base   
 > **iri** https://fiafcore.org/ontology/Base   
 **label** Base   
@@ -207,6 +219,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  Broadcast Event   
+> **iri** https://fiafcore.org/ontology/BroadcastEvent   
+**label** Broadcast Event   
+**source** FIAF Cataloguing Manual D.10   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:PublicationEvent](https://fiafcore.org/ontology/PublicationEvent)   
 ####  Broadcast Manifestation   
 > **iri** https://fiafcore.org/ontology/BroadcastManifestation   
 **label** Broadcast Manifestation   
@@ -248,6 +266,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.3.4   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:DirectingActivity](https://fiafcore.org/ontology/DirectingActivity)   
+####  Casting Event   
+> **iri** https://fiafcore.org/ontology/CastingEvent   
+**label** Casting Event   
+**source** FIAF Cataloguing Manual D.11   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ProductionEvent](https://fiafcore.org/ontology/ProductionEvent)   
 ####  Approved, Censor, Censored, Censorship   
 > **iri** https://fiafcore.org/ontology/Censorship   
 **label** Approved, Censor, Censored, Censorship   
@@ -260,6 +284,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms C.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Activity](https://fiafcore.org/ontology/Activity)   
+####  Censorship Event   
+> **iri** https://fiafcore.org/ontology/CensorshipEvent   
+**label** Censorship Event   
+**source** FIAF Cataloguing Manual D.13   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:DecisionEvent](https://fiafcore.org/ontology/DecisionEvent)   
 ####  Character Design, Character Designer   
 > **iri** https://fiafcore.org/ontology/CharacterDesign   
 **label** Character Design, Character Designer   
@@ -410,6 +440,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.7.5   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CastActivity](https://fiafcore.org/ontology/CastActivity)   
+####  Decision Event   
+> **iri** https://fiafcore.org/ontology/DecisionEvent   
+**label** Decision Event   
+**source** FIAF Cataloguing Manual D.4.6   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Event](https://fiafcore.org/ontology/Event)   
 ####  Dialect Coach, Dialogue Coach   
 > **iri** https://fiafcore.org/ontology/DialogueCoach   
 **label** Dialect Coach, Dialogue Coach   
@@ -428,6 +464,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.6   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:LanguageUsage](https://fiafcore.org/ontology/LanguageUsage)   
+####  Digitisation Event   
+> **iri** https://fiafcore.org/ontology/DigitisationEvent   
+**label** Digitisation Event   
+**source** FIAF Cataloguing Manual D.12   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:PreservationEvent](https://fiafcore.org/ontology/PreservationEvent)   
 ####  Directing Activity   
 > **iri** https://fiafcore.org/ontology/DirectingActivity   
 **label** Directing Activity   
@@ -452,6 +494,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.2.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProducingActivity](https://fiafcore.org/ontology/ProducingActivity)   
+####  Distribution Event   
+> **iri** https://fiafcore.org/ontology/DistributionEvent   
+**label** Distribution Event   
+**source** FIAF Cataloguing Manual D.10   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:PublicationEvent](https://fiafcore.org/ontology/PublicationEvent)   
 ####  Distributed, Distribution, Distributor, Released   
 > **iri** https://fiafcore.org/ontology/Distributor   
 **label** Distributed, Distribution, Distributor, Released   
@@ -488,6 +536,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.5.15   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CinematographyActivity](https://fiafcore.org/ontology/CinematographyActivity)   
+####  Donation Event   
+> **iri** https://fiafcore.org/ontology/DonationEvent   
+**label** Donation Event   
+**source** FIAF Cataloguing Manual D.15.1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:AcquisitionEvent](https://fiafcore.org/ontology/AcquisitionEvent)   
 ####  Body Double, Double, Stunt Double   
 > **iri** https://fiafcore.org/ontology/Double   
 **label** Body Double, Double, Stunt Double   
@@ -512,6 +566,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.9.15   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:SoundActivity](https://fiafcore.org/ontology/SoundActivity)   
+####  Duplication Event   
+> **iri** https://fiafcore.org/ontology/DuplicationEvent   
+**label** Duplication Event   
+**source** FIAF Cataloguing Manual D.12   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:PreservationEvent](https://fiafcore.org/ontology/PreservationEvent)   
 ####  EIDR Identifier   
 > **iri** https://fiafcore.org/ontology/EIDRIdentifier   
 **label** EIDR Identifier   
@@ -536,6 +596,17 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.5.13   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CinematographyActivity](https://fiafcore.org/ontology/CinematographyActivity)   
+####  Event   
+> **iri** https://fiafcore.org/ontology/Event   
+**label** Event   
+**source** FIAF Cataloguing Manual 1.4.2, 2.4.2, 3.3.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+####  Exchange Event   
+> **iri** https://fiafcore.org/ontology/ExchangeEvent   
+**label** Exchange Event   
+**source** FIAF Cataloguing Manual D.15.1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:AcquisitionEvent](https://fiafcore.org/ontology/AcquisitionEvent)   
 ####  Executive Producer   
 > **iri** https://fiafcore.org/ontology/ExecutiveProducer   
 **label** Executive Producer   
@@ -566,6 +637,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.10.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:EditingActivity](https://fiafcore.org/ontology/EditingActivity)   
+####  Film Printing Event   
+> **iri** https://fiafcore.org/ontology/FilmPrintingEvent   
+**label** Film Printing Event   
+**source** FIAF Cataloguing Manual D.14   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ManufactureEvent](https://fiafcore.org/ontology/ManufactureEvent)   
 ####  Focus Puller   
 > **iri** https://fiafcore.org/ontology/FocusPuller   
 **label** Focus Puller   
@@ -619,6 +696,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  Home Video Publication Event   
+> **iri** https://fiafcore.org/ontology/HomeVideoPublicationEvent   
+**label** Home Video Publication Event   
+**source** FIAF Cataloguing Manual D.10   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:PublicationEvent](https://fiafcore.org/ontology/PublicationEvent)   
 ####  Home Viewing Publication Manifestation   
 > **iri** https://fiafcore.org/ontology/HomeViewingPublicationManifestation   
 **label** Home Viewing Publication Manifestation   
@@ -642,6 +725,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual A.2.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Title](https://fiafcore.org/ontology/Title)   
+####  Indoor Shooting Event   
+> **iri** https://fiafcore.org/ontology/IndoorShootingEvent   
+**label** Indoor Shooting Event   
+**source** FIAF Cataloguing Manual D.11   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ProductionEvent](https://fiafcore.org/ontology/ProductionEvent)   
+####  Inspection Event   
+> **iri** https://fiafcore.org/ontology/InspectionEvent   
+**label** Inspection Event   
+**source** FIAF Cataloguing Manual D.4.8   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Event](https://fiafcore.org/ontology/Event)   
 ####  Internal Identifier   
 > **iri** https://fiafcore.org/ontology/InternalIdentifier   
 **label** Internal Identifier   
@@ -741,6 +836,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Line Standard   
 **source** FIAF Cataloguing Manual 3.1.5.19   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+####  Loan Event   
+> **iri** https://fiafcore.org/ontology/LoanEvent   
+**label** Loan Event   
+**source** FIAF Cataloguing Manual D.15.1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:AcquisitionEvent](https://fiafcore.org/ontology/AcquisitionEvent)   
 ####  Location Coordinator, Location Manager, Location Scout   
 > **iri** https://fiafcore.org/ontology/LocationManager   
 **label** Location Coordinator, Location Manager, Location Scout   
@@ -758,6 +859,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Manifestation   
 **source** FIAF Cataloguing Manual 2.0   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+####  Manufacture Event   
+> **iri** https://fiafcore.org/ontology/ManufactureEvent   
+**label** Manufacture Event   
+**source** FIAF Cataloguing Manual D.4.7   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Event](https://fiafcore.org/ontology/Event)   
+####  Mastering Event   
+> **iri** https://fiafcore.org/ontology/MasteringEvent   
+**label** Mastering Event   
+**source** FIAF Cataloguing Manual D.14   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ManufactureEvent](https://fiafcore.org/ontology/ManufactureEvent)   
 ####  Matte, Matte Painting, Traveling Matte   
 > **iri** https://fiafcore.org/ontology/Matte   
 **label** Matte, Matte Painting, Traveling Matte   
@@ -878,12 +991,36 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.5.3   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation)   
+####  Non-Theatrical Distribution Event   
+> **iri** https://fiafcore.org/ontology/NonTheatricalDistributionEvent   
+**label** Non-Theatrical Distribution Event   
+**source** FIAF Cataloguing Manual D.10   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:PublicationEvent](https://fiafcore.org/ontology/PublicationEvent)   
+####  Not For Release Event   
+> **iri** https://fiafcore.org/ontology/NotForReleaseEvent   
+**label** Not For Release Event   
+**source** FIAF Cataloguing Manual D.10   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:PublicationEvent](https://fiafcore.org/ontology/PublicationEvent)   
 ####  Not For Release Manifestation   
 > **iri** https://fiafcore.org/ontology/NotForReleaseManifestation   
 **label** Not For Release Manifestation   
 **source** FIAF Cataloguing Manual D.5.4   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation)   
+####  Off-Air Recording Event   
+> **iri** https://fiafcore.org/ontology/OffAirRecordingEvent   
+**label** Off-Air Recording Event   
+**source** FIAF Cataloguing Manual D.15.1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:AcquisitionEvent](https://fiafcore.org/ontology/AcquisitionEvent)   
+####  Online Transmission Event   
+> **iri** https://fiafcore.org/ontology/OnlineTransmissionEvent   
+**label** Online Transmission Event   
+**source** FIAF Cataloguing Manual D.10   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:PublicationEvent](https://fiafcore.org/ontology/PublicationEvent)   
 ####  Oracle   
 > **iri** https://fiafcore.org/ontology/Oracle   
 **label** Oracle   
@@ -902,6 +1039,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.4.3   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:WritingActivity](https://fiafcore.org/ontology/WritingActivity)   
+####  Outdoor Shooting Event   
+> **iri** https://fiafcore.org/ontology/OutdoorShootingEvent   
+**label** Outdoor Shooting Event   
+**source** FIAF Cataloguing Manual D.11   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ProductionEvent](https://fiafcore.org/ontology/ProductionEvent)   
 ####  Person   
 > **iri** https://fiafcore.org/ontology/Person   
 **label** Person   
@@ -920,12 +1063,24 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  Post-Production   
+> **iri** https://fiafcore.org/ontology/PostProductionEvent   
+**label** Post-Production   
+**source** FIAF Cataloguing Manual D.11   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ProductionEvent](https://fiafcore.org/ontology/ProductionEvent)   
 ####  Post-Production Supervisor   
 > **iri** https://fiafcore.org/ontology/PostProductionSupervisor   
 **label** Post-Production Supervisor   
 **source** FIAF Glossary of Filmographic Terms B.2.15   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProducingActivity](https://fiafcore.org/ontology/ProducingActivity)   
+####  Pre-Release Event   
+> **iri** https://fiafcore.org/ontology/PreReleaseEvent   
+**label** Pre-Release Event   
+**source** FIAF Cataloguing Manual D.10   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:PublicationEvent](https://fiafcore.org/ontology/PublicationEvent)   
 ####  Pre-Release Manifestation   
 > **iri** https://fiafcore.org/ontology/PreReleaseManifestation   
 **label** Pre-Release Manifestation   
@@ -944,6 +1099,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.2.21   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProducingActivity](https://fiafcore.org/ontology/ProducingActivity)   
+####  Preservation Event   
+> **iri** https://fiafcore.org/ontology/PreservationEvent   
+**label** Preservation Event   
+**source** FIAF Cataloguing Manual D.4.5   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Event](https://fiafcore.org/ontology/Event)   
 ####  Preservation/Restoration Manifestation   
 > **iri** https://fiafcore.org/ontology/PreservationRestorationManifestation   
 **label** Preservation/Restoration Manifestation   
@@ -1004,6 +1165,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.6.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProductionDesignActivity](https://fiafcore.org/ontology/ProductionDesignActivity)   
+####  Production Event   
+> **iri** https://fiafcore.org/ontology/ProductionEvent   
+**label** Production Event   
+**source** FIAF Cataloguing Manual D.4.3   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Event](https://fiafcore.org/ontology/Event)   
 ####  Production Manager, Production Supervisor, Unit Production Manager   
 > **iri** https://fiafcore.org/ontology/ProductionManager   
 **label** Production Manager, Production Supervisor, Unit Production Manager   
@@ -1022,6 +1189,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.8.5   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:SpecialEffectsActivity](https://fiafcore.org/ontology/SpecialEffectsActivity)   
+####  Publication Event   
+> **iri** https://fiafcore.org/ontology/PublicationEvent   
+**label** Publication Event   
+**source** FIAF Cataloguing Manual D.4.1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Event](https://fiafcore.org/ontology/Event)   
 ####  Puppet Activity   
 > **iri** https://fiafcore.org/ontology/PuppetActivity   
 **label** Puppet Activity   
@@ -1034,12 +1207,36 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.14.7   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:PuppetActivity](https://fiafcore.org/ontology/PuppetActivity)   
+####  Purchase Event   
+> **iri** https://fiafcore.org/ontology/PurchaseEvent   
+**label** Purchase Event   
+**source** FIAF Cataloguing Manual D.15.1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:AcquisitionEvent](https://fiafcore.org/ontology/AcquisitionEvent)   
 ####  Pyrotechnics   
 > **iri** https://fiafcore.org/ontology/Pyrotechnics   
 **label** Pyrotechnics   
 **source** FIAF Glossary of Filmographic Terms B.8.6   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:SpecialEffectsActivity](https://fiafcore.org/ontology/SpecialEffectsActivity)   
+####  Rating Event   
+> **iri** https://fiafcore.org/ontology/RatingEvent   
+**label** Rating Event   
+**source** FIAF Cataloguing Manual D.13   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:DecisionEvent](https://fiafcore.org/ontology/DecisionEvent)   
+####  Release Event   
+> **iri** https://fiafcore.org/ontology/ReleaseEvent   
+**label** Release Event   
+**source** FIAF Cataloguing Manual D.10   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:PublicationEvent](https://fiafcore.org/ontology/PublicationEvent)   
+####  Reproduction Event   
+> **iri** https://fiafcore.org/ontology/ReproductionEvent   
+**label** Reproduction Event   
+**source** FIAF Cataloguing Manual D.12   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:PreservationEvent](https://fiafcore.org/ontology/PreservationEvent)   
 ####  Dubbing Mixer, Mixer, Re-recording Mixer   
 > **iri** https://fiafcore.org/ontology/RerecordingMixer   
 **label** Dubbing Mixer, Mixer, Re-recording Mixer   
@@ -1057,12 +1254,30 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Resolution   
 **source** FIAF Cataloguing Manual 3.1.5.18   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+####  Revision Event   
+> **iri** https://fiafcore.org/ontology/RevisionEvent   
+**label** Revision Event   
+**source** FIAF Cataloguing Manual D.13   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:DecisionEvent](https://fiafcore.org/ontology/DecisionEvent)   
+####  Rights/Copyright/Registration Event   
+> **iri** https://fiafcore.org/ontology/RightsCopyrightRegistrationEvent   
+**label** Rights/Copyright/Registration Event   
+**source** FIAF Cataloguing Manual D.4.4   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Event](https://fiafcore.org/ontology/Event)   
 ####  Rotoscoping   
 > **iri** https://fiafcore.org/ontology/Rotoscoping   
 **label** Rotoscoping   
 **source** FIAF Glossary of Filmographic Terms B.8.9   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:SpecialEffectsActivity](https://fiafcore.org/ontology/SpecialEffectsActivity)   
+####  Scanning Event   
+> **iri** https://fiafcore.org/ontology/ScanningEvent   
+**label** Scanning Event   
+**source** FIAF Cataloguing Manual D.14   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ManufactureEvent](https://fiafcore.org/ontology/ManufactureEvent)   
 ####  Scenic Artist   
 > **iri** https://fiafcore.org/ontology/ScenicArtist   
 **label** Scenic Artist   
@@ -1323,12 +1538,24 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual A.2.5   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Title](https://fiafcore.org/ontology/Title)   
+####  Telecine Event   
+> **iri** https://fiafcore.org/ontology/TelecineEvent   
+**label** Telecine Event   
+**source** FIAF Cataloguing Manual D.14   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ManufactureEvent](https://fiafcore.org/ontology/ManufactureEvent)   
 ####  Theatrical Distribution   
 > **iri** https://fiafcore.org/ontology/TheatricalDistribution   
 **label** Theatrical Distribution   
 **source** FIAF Cataloguing Manual D.5.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation)   
+####  Theatrical Distribution Event   
+> **iri** https://fiafcore.org/ontology/TheatricalDistributionEvent   
+**label** Theatrical Distribution Event   
+**source** FIAF Cataloguing Manual D.10   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:PublicationEvent](https://fiafcore.org/ontology/PublicationEvent)   
 ####  Title   
 > **iri** https://fiafcore.org/ontology/Title   
 **label** Title   
@@ -1352,6 +1579,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  Transfer Event   
+> **iri** https://fiafcore.org/ontology/TransferEvent   
+**label** Transfer Event   
+**source** FIAF Cataloguing Manual D.12   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:PreservationEvent](https://fiafcore.org/ontology/PreservationEvent)   
 ####  Transportation Coordinator, Transportation Manager   
 > **iri** https://fiafcore.org/ontology/TransportationManager   
 **label** Transportation Coordinator, Transportation Manager   
@@ -1364,6 +1597,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.5.5   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CinematographyActivity](https://fiafcore.org/ontology/CinematographyActivity)   
+####  Unknown Event   
+> **iri** https://fiafcore.org/ontology/UnknownEvent   
+**label** Unknown Event   
+**source** FIAF Cataloguing Manual D.10   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:PublicationEvent](https://fiafcore.org/ontology/PublicationEvent)   
 ####  Unknown Manifestation   
 > **iri** https://fiafcore.org/ontology/UnknownManifestation   
 **label** Unknown Manifestation   
@@ -1376,6 +1615,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.5.5   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation)   
+####  Uploading Event   
+> **iri** https://fiafcore.org/ontology/UploadingEvent   
+**label** Uploading Event   
+**source** FIAF Cataloguing Manual D.14   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ManufactureEvent](https://fiafcore.org/ontology/ManufactureEvent)   
 ####  VIAF Identifier   
 > **iri** https://fiafcore.org/ontology/VIAFIdentifier   
 **label** VIAF Identifier   
@@ -1399,6 +1644,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.5.10   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CinematographyActivity](https://fiafcore.org/ontology/CinematographyActivity)   
+####  Video Copying Event   
+> **iri** https://fiafcore.org/ontology/VideoCopyingEvent   
+**label** Video Copying Event   
+**source** FIAF Cataloguing Manual D.14   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ManufactureEvent](https://fiafcore.org/ontology/ManufactureEvent)   
 ####  Optical Effects, Photographic Effects, Special Photographic Effects, VFX, Visual Effects   
 > **iri** https://fiafcore.org/ontology/VisualEffects   
 **label** Optical Effects, Photographic Effects, Special Photographic Effects, VFX, Visual Effects   
