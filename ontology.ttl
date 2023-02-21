@@ -70,12 +70,12 @@ fiaf:Accessioned a owl:NamedIndividual,
 fiaf:Acetate a owl:NamedIndividual,
         fiaf:Base ;
     rdfs:label "Acetate"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
 
 fiaf:Acrylic a owl:NamedIndividual,
         fiaf:Base ;
     rdfs:label "Acrylic"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
 
 fiaf:Adaptation a owl:Class ;
     rdfs:label "Adaptation"@en,
@@ -461,7 +461,7 @@ fiaf:CraneOperator a owl:Class ;
 fiaf:Cta a owl:NamedIndividual,
         fiaf:Base ;
     rdfs:label "CTA"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
 
 fiaf:DVSI a owl:NamedIndividual,
         fiaf:SourceDevice ;
@@ -477,7 +477,7 @@ fiaf:Dancer a owl:Class ;
 fiaf:Diacetate a owl:NamedIndividual,
         fiaf:Base ;
     rdfs:label "Diacetate"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
 
 fiaf:DialogueCoach a owl:Class ;
     rdfs:label "Dialect Coach"@en,
@@ -857,12 +857,12 @@ fiaf:LocationManager a owl:Class ;
 fiaf:MainlyNitrate a owl:NamedIndividual,
         fiaf:Base ;
     rdfs:label "Mainly nitrate"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
 
 fiaf:MainlySafety a owl:NamedIndividual,
         fiaf:Base ;
     rdfs:label "Mainly safety"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
 
 fiaf:MakeUpArtist a owl:Class ;
     rdfs:label "Make-Up"@en,
@@ -906,7 +906,7 @@ fiaf:Memorex a owl:Class ;
 fiaf:Mixed a owl:NamedIndividual,
         fiaf:Base ;
     rdfs:label "Mixed"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
 
 fiaf:ModelMaker a owl:Class ;
     rdfs:label "Model Maker"@en,
@@ -986,7 +986,7 @@ fiaf:MusicSupervisor a owl:Class ;
 fiaf:Mylar a owl:NamedIndividual,
         fiaf:Base ;
     rdfs:label "Mylar"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
 
 fiaf:NTSC a owl:NamedIndividual,
         fiaf:BroadcastStandard ;
@@ -1022,7 +1022,7 @@ fiaf:NegativeCutter a owl:Class ;
 fiaf:Nitrate a owl:NamedIndividual,
         fiaf:Base ;
     rdfs:label "Nitrate"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
 
 fiaf:NoDialogue a owl:Class ;
     rdfs:label "No Dialogue"@en ;
@@ -1117,7 +1117,7 @@ fiaf:Philips a owl:Class ;
 fiaf:Polyester a owl:NamedIndividual,
         fiaf:Base ;
     rdfs:label "Polyester"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
 
 fiaf:PostProductionEvent a owl:Class ;
     rdfs:label "Post-Production"@en ;
@@ -1242,7 +1242,7 @@ fiaf:PurchaseEvent a owl:Class ;
 fiaf:Pvc a owl:NamedIndividual,
         fiaf:Base ;
     rdfs:label "PVC"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
 
 fiaf:Pyrotechnics a owl:Class ;
     rdfs:label "Pyrotechnics"@en ;
@@ -1305,7 +1305,7 @@ fiaf:SECAM a owl:NamedIndividual,
 fiaf:Safety a owl:NamedIndividual,
         fiaf:Base ;
     rdfs:label "Safety"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
 
 fiaf:ScanningEvent a owl:Class ;
     rdfs:label "Scanning Event"@en ;
@@ -1689,7 +1689,7 @@ fiaf:Verbatim a owl:Class ;
 fiaf:Video a owl:NamedIndividual,
         fiaf:Base ;
     rdfs:label "Video"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
 
 fiaf:VideoAssistOperator a owl:Class ;
     rdfs:label "Video Assist"@en,
@@ -1710,7 +1710,7 @@ fiaf:Viewing a owl:NamedIndividual,
 fiaf:Vinyl a owl:NamedIndividual,
         fiaf:Base ;
     rdfs:label "Vinyl"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
 
 fiaf:VisualEffects a owl:Class ;
     rdfs:label "Optical Effects"@en,
