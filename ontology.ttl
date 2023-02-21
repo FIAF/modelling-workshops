@@ -10,7 +10,7 @@ fiaf: a owl:Ontology ;
 fiaf:1080 a owl:NamedIndividual,
         fiaf:LineStandard ;
     rdfs:label "1080"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.21"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+    dc:source "FIAF Cataloguing Manual D.7.21"^^xsd:string .
 
 fiaf:2K a owl:NamedIndividual,
         fiaf:Resolution ;
@@ -25,7 +25,7 @@ fiaf:3M a owl:Class ;
 fiaf:405 a owl:NamedIndividual,
         fiaf:LineStandard ;
     rdfs:label "405"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.21"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+    dc:source "FIAF Cataloguing Manual D.7.21"^^xsd:string .
 
 fiaf:4K a owl:NamedIndividual,
         fiaf:Resolution ;
@@ -35,12 +35,12 @@ fiaf:4K a owl:NamedIndividual,
 fiaf:525 a owl:NamedIndividual,
         fiaf:LineStandard ;
     rdfs:label "525"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.21"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+    dc:source "FIAF Cataloguing Manual D.7.21"^^xsd:string .
 
 fiaf:625 a owl:NamedIndividual,
         fiaf:LineStandard ;
     rdfs:label "625"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.21"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+    dc:source "FIAF Cataloguing Manual D.7.21"^^xsd:string .
 
 fiaf:6K a owl:NamedIndividual,
         fiaf:Resolution ;
@@ -50,7 +50,7 @@ fiaf:6K a owl:NamedIndividual,
 fiaf:720 a owl:NamedIndividual,
         fiaf:LineStandard ;
     rdfs:label "720"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.21"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+    dc:source "FIAF Cataloguing Manual D.7.21"^^xsd:string .
 
 fiaf:8K a owl:NamedIndividual,
         fiaf:Resolution ;
