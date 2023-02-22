@@ -32,6 +32,26 @@ fiaf:1InchCFormat a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Video .
 
+<https://fiafcore.org/ontology/2.34:1> a owl:Class ;
+    rdfs:label "2.34:1"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.14"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageRatio .
+
+<https://fiafcore.org/ontology/2.39:1> a owl:Class ;
+    rdfs:label "2.39:1"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.14"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageRatio .
+
+<https://fiafcore.org/ontology/2.52:1> a owl:Class ;
+    rdfs:label "2.52:1"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.14"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageRatio .
+
+<https://fiafcore.org/ontology/2.7:1> a owl:Class ;
+    rdfs:label "2.7:1"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.14"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageRatio .
+
 fiaf:2InchQuadruplex a owl:Class ;
     rdfs:label "2-inch Quadruplex"@en ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
@@ -52,6 +72,11 @@ fiaf:35mmMagneticTrack a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Audio .
 
+fiaf:3D a owl:Class ;
+    rdfs:label "3D"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.15"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageFormat .
+
 fiaf:3M a owl:Class ;
     rdfs:label "3M"@en ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
@@ -61,6 +86,11 @@ fiaf:405 a owl:NamedIndividual,
         fiaf:LineStandard ;
     rdfs:label "405"@en ;
     dc:source "FIAF Cataloguing Manual D.7.21"^^xsd:string .
+
+<https://fiafcore.org/ontology/4:3> a owl:Class ;
+    rdfs:label "4:3"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.14"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageRatio .
 
 fiaf:4K a owl:NamedIndividual,
         fiaf:Resolution ;
@@ -116,6 +146,11 @@ fiaf:AbridgedCondensed a owl:NamedIndividual,
         fiaf:VariantType ;
     rdfs:label "Abridged/Condensed"@en ;
     dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
+
+fiaf:Academy a owl:Class ;
+    rdfs:label "Academy"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.15"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageFormat .
 
 fiaf:Accessioned a owl:NamedIndividual,
         fiaf:Status ;
@@ -185,6 +220,11 @@ fiaf:Analytic a owl:Class ;
     rdfs:label "Analytic"@en ;
     dc:source "FIAF Cataloguing Manual D.1"^^xsd:string ;
     rdfs:subClassOf fiaf:WorkVariant .
+
+fiaf:Anamorphic a owl:Class ;
+    rdfs:label "Anamorphic"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.15"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageFormat .
 
 fiaf:AnimalTrainer a owl:Class ;
     rdfs:label "Animal Trainer"@en ;
@@ -860,6 +900,11 @@ fiaf:FilmPrintingEvent a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.14"^^xsd:string ;
     rdfs:subClassOf fiaf:ManufactureEvent .
 
+fiaf:Flat a owl:Class ;
+    rdfs:label "Flat"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.15"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageFormat .
+
 fiaf:FocusPuller a owl:Class ;
     rdfs:label "Focus Puller"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.5.8"^^xsd:string ;
@@ -881,6 +926,16 @@ fiaf:Fujicolor a owl:NamedIndividual,
         fiaf:ColourStandard ;
     rdfs:label "Fujicolor"@en ;
     dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string .
+
+fiaf:FullHeight a owl:Class ;
+    rdfs:label "Full Height"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.15"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageFormat .
+
+fiaf:FullScreen a owl:Class ;
+    rdfs:label "Full Screen"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.15"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageFormat .
 
 fiaf:GeneratorOperator a owl:Class ;
     rdfs:label "Generator Operator"@en,
@@ -1056,6 +1111,11 @@ fiaf:Lenses a owl:Class ;
         "Opticals"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.5.20"^^xsd:string ;
     rdfs:subClassOf fiaf:CinematographyActivity .
+
+fiaf:Letterbox a owl:Class ;
+    rdfs:label "Letterbox"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.15"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageFormat .
 
 fiaf:Lighter a owl:Class ;
     rdfs:label "Lighter"@en ;
@@ -1369,6 +1429,11 @@ fiaf:PAL a owl:NamedIndividual,
     rdfs:label "PAL"@en ;
     dc:source "FIAF Cataloguing Manual 3.1.5.10"^^xsd:string .
 
+fiaf:PanAndScan a owl:Class ;
+    rdfs:label "Pan and Scan"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.15"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageFormat .
+
 fiaf:Pathécolor a owl:NamedIndividual,
         fiaf:ColourStandard ;
     rdfs:label "Pathécolor"@en ;
@@ -1388,6 +1453,11 @@ fiaf:Philips a owl:Class ;
     rdfs:label "Philips"@en ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
+
+fiaf:Pillarbox a owl:Class ;
+    rdfs:label "Pillarbox"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.15"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageFormat .
 
 fiaf:Polyester a owl:NamedIndividual,
         fiaf:Base ;
@@ -2091,6 +2161,11 @@ fiaf:WikidataIdentifier a owl:Class ;
     dc:source "FIAF Cataloguing Manual 1.3.1"^^xsd:string ;
     rdfs:subClassOf fiaf:Identifier .
 
+fiaf:Windowbox a owl:Class ;
+    rdfs:label "Windowbox"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.15"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageFormat .
+
 fiaf:WindowsMedia a owl:Class ;
     rdfs:label "WindowsMedia"@en ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
@@ -2390,6 +2465,10 @@ fiaf:DecisionEvent a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.4.6"^^xsd:string ;
     rdfs:subClassOf fiaf:Event .
 
+fiaf:ImageCharacteristic a owl:Class ;
+    rdfs:label "Image Characteristic"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.4.2, 3.1.5.9"^^xsd:string .
+
 fiaf:WrittenLanguages a owl:Class ;
     rdfs:label "Written Languages"@en ;
     dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
@@ -2441,6 +2520,11 @@ fiaf:DigitalFile a owl:Class ;
     rdfs:label "Digital File"@en ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Format .
+
+fiaf:ImageRatio a owl:Class ;
+    rdfs:label "Image Ratio"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.14"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageCharacteristic .
 
 fiaf:DigitalFileEncoding a owl:Class ;
     rdfs:label "Digital File Encoding"@en ;
@@ -2520,6 +2604,11 @@ fiaf:ColourCharacteristic a owl:Class ;
 fiaf:Event a owl:Class ;
     rdfs:label "Event"@en ;
     dc:source "FIAF Cataloguing Manual 1.4.2, 2.4.2, 3.3.2"^^xsd:string .
+
+fiaf:ImageFormat a owl:Class ;
+    rdfs:label "Image Format"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.15"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageCharacteristic .
 
 fiaf:PublicationEvent a owl:Class ;
     rdfs:label "Publication Event"@en ;

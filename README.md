@@ -30,6 +30,30 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Video](https://fiafcore.org/ontology/Video)   
+####  2.34:1   
+> **iri** https://fiafcore.org/ontology/2.34:1   
+**label** 2.34:1   
+**source** FIAF Cataloguing Manual D.7.14   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ImageRatio](https://fiafcore.org/ontology/ImageRatio)   
+####  2.39:1   
+> **iri** https://fiafcore.org/ontology/2.39:1   
+**label** 2.39:1   
+**source** FIAF Cataloguing Manual D.7.14   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ImageRatio](https://fiafcore.org/ontology/ImageRatio)   
+####  2.52:1   
+> **iri** https://fiafcore.org/ontology/2.52:1   
+**label** 2.52:1   
+**source** FIAF Cataloguing Manual D.7.14   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ImageRatio](https://fiafcore.org/ontology/ImageRatio)   
+####  2.7:1   
+> **iri** https://fiafcore.org/ontology/2.7:1   
+**label** 2.7:1   
+**source** FIAF Cataloguing Manual D.7.14   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ImageRatio](https://fiafcore.org/ontology/ImageRatio)   
 ####  2-inch Quadruplex   
 > **iri** https://fiafcore.org/ontology/2InchQuadruplex   
 **label** 2-inch Quadruplex   
@@ -48,12 +72,24 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Audio](https://fiafcore.org/ontology/Audio)   
+####  3D   
+> **iri** https://fiafcore.org/ontology/3D   
+**label** 3D   
+**source** FIAF Cataloguing Manual D.7.15   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ImageFormat](https://fiafcore.org/ontology/ImageFormat)   
 ####  3M   
 > **iri** https://fiafcore.org/ontology/3M   
 **label** 3M   
 **source** FIAF Cataloguing Manual D.7.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  4:3   
+> **iri** https://fiafcore.org/ontology/4:3   
+**label** 4:3   
+**source** FIAF Cataloguing Manual D.7.14   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ImageRatio](https://fiafcore.org/ontology/ImageRatio)   
 ####  70mm Film   
 > **iri** https://fiafcore.org/ontology/70mmFilm   
 **label** 70mm Film   
@@ -78,6 +114,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:DigitalFile](https://fiafcore.org/ontology/DigitalFile)   
+####  Academy   
+> **iri** https://fiafcore.org/ontology/Academy   
+**label** Academy   
+**source** FIAF Cataloguing Manual D.7.15   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ImageFormat](https://fiafcore.org/ontology/ImageFormat)   
 ####  Acquisition Event   
 > **iri** https://fiafcore.org/ontology/AcquisitionEvent   
 **label** Acquisition Event   
@@ -148,6 +190,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:WorkVariant](https://fiafcore.org/ontology/WorkVariant)   
+####  Anamorphic   
+> **iri** https://fiafcore.org/ontology/Anamorphic   
+**label** Anamorphic   
+**source** FIAF Cataloguing Manual D.7.15   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ImageFormat](https://fiafcore.org/ontology/ImageFormat)   
 ####  Animal Trainer   
 > **iri** https://fiafcore.org/ontology/AnimalTrainer   
 **label** Animal Trainer   
@@ -880,6 +928,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.14   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ManufactureEvent](https://fiafcore.org/ontology/ManufactureEvent)   
+####  Flat   
+> **iri** https://fiafcore.org/ontology/Flat   
+**label** Flat   
+**source** FIAF Cataloguing Manual D.7.15   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ImageFormat](https://fiafcore.org/ontology/ImageFormat)   
 ####  Focus Puller   
 > **iri** https://fiafcore.org/ontology/FocusPuller   
 **label** Focus Puller   
@@ -908,6 +962,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  Full Height   
+> **iri** https://fiafcore.org/ontology/FullHeight   
+**label** Full Height   
+**source** FIAF Cataloguing Manual D.7.15   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ImageFormat](https://fiafcore.org/ontology/ImageFormat)   
+####  Full Screen   
+> **iri** https://fiafcore.org/ontology/FullScreen   
+**label** Full Screen   
+**source** FIAF Cataloguing Manual D.7.15   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ImageFormat](https://fiafcore.org/ontology/ImageFormat)   
 ####  Generator Operator, Genny Operator   
 > **iri** https://fiafcore.org/ontology/GeneratorOperator   
 **label** Generator Operator, Genny Operator   
@@ -991,6 +1057,23 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual A.2.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Title](https://fiafcore.org/ontology/Title)   
+####  Image Characteristic   
+> **iri** https://fiafcore.org/ontology/ImageCharacteristic   
+**label** Image Characteristic   
+**source** FIAF Cataloguing Manual 2.3.4.2, 3.1.5.9   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+####  Image Format   
+> **iri** https://fiafcore.org/ontology/ImageFormat   
+**label** Image Format   
+**source** FIAF Cataloguing Manual D.7.15   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ImageCharacteristic](https://fiafcore.org/ontology/ImageCharacteristic)   
+####  Image Ratio   
+> **iri** https://fiafcore.org/ontology/ImageRatio   
+**label** Image Ratio   
+**source** FIAF Cataloguing Manual D.7.14   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ImageCharacteristic](https://fiafcore.org/ontology/ImageCharacteristic)   
 ####  Indoor Shooting Event   
 > **iri** https://fiafcore.org/ontology/IndoorShootingEvent   
 **label** Indoor Shooting Event   
@@ -1097,6 +1180,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.5.20   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CinematographyActivity](https://fiafcore.org/ontology/CinematographyActivity)   
+####  Letterbox   
+> **iri** https://fiafcore.org/ontology/Letterbox   
+**label** Letterbox   
+**source** FIAF Cataloguing Manual D.7.15   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ImageFormat](https://fiafcore.org/ontology/ImageFormat)   
 ####  Lighter   
 > **iri** https://fiafcore.org/ontology/Lighter   
 **label** Lighter   
@@ -1383,6 +1472,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.11   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProductionEvent](https://fiafcore.org/ontology/ProductionEvent)   
+####  Pan and Scan   
+> **iri** https://fiafcore.org/ontology/PanAndScan   
+**label** Pan and Scan   
+**source** FIAF Cataloguing Manual D.7.15   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ImageFormat](https://fiafcore.org/ontology/ImageFormat)   
 ####  Person   
 > **iri** https://fiafcore.org/ontology/Person   
 **label** Person   
@@ -1401,6 +1496,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  Pillarbox   
+> **iri** https://fiafcore.org/ontology/Pillarbox   
+**label** Pillarbox   
+**source** FIAF Cataloguing Manual D.7.15   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ImageFormat](https://fiafcore.org/ontology/ImageFormat)   
 ####  Post-Production   
 > **iri** https://fiafcore.org/ontology/PostProductionEvent   
 **label** Post-Production   
@@ -2108,6 +2209,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual 1.3.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Identifier](https://fiafcore.org/ontology/Identifier)   
+####  Windowbox   
+> **iri** https://fiafcore.org/ontology/Windowbox   
+**label** Windowbox   
+**source** FIAF Cataloguing Manual D.7.15   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ImageFormat](https://fiafcore.org/ontology/ImageFormat)   
 ####  WindowsMedia   
 > **iri** https://fiafcore.org/ontology/WindowsMedia   
 **label** WindowsMedia   
