@@ -20,49 +20,49 @@
 <https://fiafcore.org/ontology/AbridgedCondensed> a owl:NamedIndividual,
         fiaf:VariantType ;
     rdfs:label "Abridged/Condensed"@en ;
-    dc:source "FIAF Cataloguing Manual D.2"^^<string> .
+    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
 
 <https://fiafcore.org/ontology/Augmented> a owl:NamedIndividual,
         fiaf:VariantType ;
     rdfs:label "Augmented"@en ;
-    dc:source "FIAF Cataloguing Manual D.2"^^<string> .
+    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
 
 <https://fiafcore.org/ontology/BlackAndWhiteCopyOfWorkOriginallyIssuedInColour> a owl:NamedIndividual,
         fiaf:VariantType ;
     rdfs:label "Black and white copy of work originally issued in colour"@en ;
-    dc:source "FIAF Cataloguing Manual D.2"^^<string> .
+    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
 
 <https://fiafcore.org/ontology/Censored> a owl:NamedIndividual,
         fiaf:VariantType ;
     rdfs:label "Censored"@en ;
-    dc:source "FIAF Cataloguing Manual D.2"^^<string> .
+    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
 
 <https://fiafcore.org/ontology/Colourized> a owl:NamedIndividual,
         fiaf:VariantType ;
     rdfs:label "Colourized"@en ;
-    dc:source "FIAF Cataloguing Manual D.2"^^<string> .
+    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
 
 <https://fiafcore.org/ontology/DifferentSoundTrack> a owl:NamedIndividual,
         fiaf:VariantType ;
     rdfs:label "Different sound track"@en ;
-    dc:source "FIAF Cataloguing Manual D.2"^^<string> .
+    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
 
 <https://fiafcore.org/ontology/Dubbed> a owl:NamedIndividual,
         fiaf:VariantType ;
     rdfs:label "Dubbed"@en ;
-    dc:source "FIAF Cataloguing Manual D.2"^^<string> .
+    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
 
 <https://fiafcore.org/ontology/PreservationRestoration> a owl:NamedIndividual,
         fiaf:VariantType ;
     rdfs:label "Preservation/Restoration"@en ;
-    dc:source "FIAF Cataloguing Manual D.2"^^<string> .
+    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
 
 <https://fiafcore.org/ontology/Sonorized> a owl:NamedIndividual,
         fiaf:VariantType ;
     rdfs:label "Sonorized"@en ;
-    dc:source "FIAF Cataloguing Manual D.2"^^<string> .
+    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
 
 <https://fiafcore.org/ontology/Subtitled> a owl:NamedIndividual,
         fiaf:VariantType ;
     rdfs:label "Subtitled"@en ;
-    dc:source "FIAF Cataloguing Manual D.2"^^<string> .
+    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
