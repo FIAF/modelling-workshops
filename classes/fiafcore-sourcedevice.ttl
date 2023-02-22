@@ -20,12 +20,12 @@
 
 <https://fiafcore.org/ontology/DVSI> a owl:NamedIndividual, fiaf:SourceDevice ;
     rdfs:label "DVSI"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.20"^^<string> .
+    dc:source "FIAF Cataloguing Manual D.7.20"^^xsd:string .
 
 <https://fiafcore.org/ontology/HDCAMSRW55002> a owl:NamedIndividual, fiaf:SourceDevice ;
     rdfs:label "HDCAM SRW5500/2"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.20"^^<string> .
+    dc:source "FIAF Cataloguing Manual D.7.20"^^xsd:string .
 
 <https://fiafcore.org/ontology/VT20> a owl:NamedIndividual,fiaf:SourceDevice ;
     rdfs:label "VT20"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.20"^^<string> .
+    dc:source "FIAF Cataloguing Manual D.7.20"^^xsd:string .
