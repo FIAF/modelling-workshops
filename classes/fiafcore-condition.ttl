@@ -1,0 +1,183 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix fiaf: <https://fiafcore.org/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Ontology
+
+<https://fiafcore.org/ontology/> a owl:Ontology ;
+    dc:title "FIAFcore" .
+
+# Class
+
+<https://fiafcore.org/ontology/Condition> a owl:Class ;
+    rdfs:label "Condition"@en ;
+    dc:source "FIAF Cataloguing Manual 3.1.6.1"^^xsd:string .
+
+# Subclasses
+
+<https://fiafcore.org/ontology/BaseEmulsionCondition> a owl:Class ;
+    rdfs:label "Copy Condition Base/Emulsion"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:Condition .
+
+<https://fiafcore.org/ontology/Brittle> a owl:Class ;
+    rdfs:label "Brittle"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:BaseEmulsionCondition .
+
+<https://fiafcore.org/ontology/Buckled> a owl:Class ;
+    rdfs:label "Buckled"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:BaseEmulsionCondition .
+
+<https://fiafcore.org/ontology/LightScratches> a owl:Class ;
+    rdfs:label "Light Scratches"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:BaseEmulsionCondition .
+
+<https://fiafcore.org/ontology/HeavyScratches> a owl:Class ;
+    rdfs:label "Heavy Scratches"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:BaseEmulsionCondition .
+
+<https://fiafcore.org/ontology/Tears> a owl:Class ;
+    rdfs:label "Tears"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:BaseEmulsionCondition .
+
+<https://fiafcore.org/ontology/Warped> a owl:Class ;
+    rdfs:label "Warped"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:BaseEmulsionCondition .
+
+<https://fiafcore.org/ontology/Hydrolysis> a owl:Class ;
+    rdfs:label "Hydrolysis"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:BaseEmulsionCondition .
+
+<https://fiafcore.org/ontology/PerforationCondition> a owl:Class ;
+    rdfs:label "Copy Condition Perforations"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:Condition .
+
+<https://fiafcore.org/ontology/FoilPatches> a owl:Class ;
+    rdfs:label "Foil Patches"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:PerforationCondition .
+
+<https://fiafcore.org/ontology/Torn> a owl:Class ;
+    rdfs:label "Torn"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:PerforationCondition .
+
+<https://fiafcore.org/ontology/Pulled> a owl:Class ;
+    rdfs:label "Pulled"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:PerforationCondition .
+
+<https://fiafcore.org/ontology/Missing> a owl:Class ;
+    rdfs:label "Missing"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:PerforationCondition .
+
+<https://fiafcore.org/ontology/SurfaceDeposit> a owl:Class ;
+    rdfs:label "Surface Deposit"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.3"^^xsd:string ;
+    rdfs:subClassOf fiaf:Condition .
+
+<https://fiafcore.org/ontology/Mould> a owl:Class ;
+    rdfs:label "Mould"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.3"^^xsd:string ;
+    rdfs:subClassOf fiaf:SurfaceDeposit .
+
+<https://fiafcore.org/ontology/Rust> a owl:Class ;
+    rdfs:label "Rust"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.3"^^xsd:string ;
+    rdfs:subClassOf fiaf:SurfaceDeposit .
+
+<https://fiafcore.org/ontology/OilDeposits> a owl:Class ;
+    rdfs:label "Oil deposits"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.3"^^xsd:string ;
+    rdfs:subClassOf fiaf:SurfaceDeposit .
+
+<https://fiafcore.org/ontology/Dirt> a owl:Class ;
+    rdfs:label "Dirt"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.3"^^xsd:string ;
+    rdfs:subClassOf fiaf:SurfaceDeposit .
+
+<https://fiafcore.org/ontology/DryingMarks> a owl:Class ;
+    rdfs:label "Drying marks"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.3"^^xsd:string ;
+    rdfs:subClassOf fiaf:SurfaceDeposit .
+
+<https://fiafcore.org/ontology/ImageCondition> a owl:Class ;
+    rdfs:label "Image Condition"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:Condition .
+
+<https://fiafcore.org/ontology/Discolouration> a owl:Class ;
+    rdfs:label "Discolouration"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageCondition .
+
+<https://fiafcore.org/ontology/MagentaBias> a owl:Class ;
+    rdfs:label "Magenta Bias"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageCondition .
+
+<https://fiafcore.org/ontology/Faded> a owl:Class ;
+    rdfs:label "Faded"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageCondition .
+
+<https://fiafcore.org/ontology/PrintThroughInMould> a owl:Class ;
+    rdfs:label "Print through in mould"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageCondition .
+
+<https://fiafcore.org/ontology/Drop-outs> a owl:Class ;
+    rdfs:label "Drop-outs"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageCondition .
+
+<https://fiafcore.org/ontology/Decomposition> a owl:Class ;
+    rdfs:label "Decomposition"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.5"^^xsd:string ;
+    rdfs:subClassOf fiaf:Condition .
+
+<https://fiafcore.org/ontology/Powder> a owl:Class ;
+    rdfs:label "Powder"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.5"^^xsd:string ;
+    rdfs:subClassOf fiaf:Decomposition .
+
+<https://fiafcore.org/ontology/Sticky> a owl:Class ;
+    rdfs:label "Sticky"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.5"^^xsd:string ;
+    rdfs:subClassOf fiaf:Decomposition .
+
+<https://fiafcore.org/ontology/StickyAtHead> a owl:Class ;
+    rdfs:label "Sticky at head"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.5"^^xsd:string ;
+    rdfs:subClassOf fiaf:Decomposition .
+
+<https://fiafcore.org/ontology/Shrinkage> a owl:Class ;
+    rdfs:label "Shrinkage"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:Condition .
+
+<https://fiafcore.org/ontology/1-1.5%> a owl:Class ;
+    rdfs:label "1-1.5%"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:Shrinkage .
+
+<https://fiafcore.org/ontology/1.5-2%> a owl:Class ;
+    rdfs:label "1.5-2%"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:Shrinkage .
+
+<https://fiafcore.org/ontology/2-2.5%> a owl:Class ;
+    rdfs:label "2-2.5%"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:Shrinkage .
