@@ -533,6 +533,21 @@ fiaf:Colourized a owl:NamedIndividual,
     rdfs:label "Colourized"@en ;
     dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
 
+fiaf:Combined a owl:Class ;
+    rdfs:label "Combined"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundCharacteristic .
+
+fiaf:CombinedAsMute a owl:Class ;
+    rdfs:label "Combined as Mute"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundCharacteristic .
+
+fiaf:CombinedAsSound a owl:Class ;
+    rdfs:label "Combined as Sound"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundCharacteristic .
+
 fiaf:Compilation a owl:NamedIndividual,
         fiaf:Form ;
     rdfs:label "Compilation"@en ;
@@ -1228,10 +1243,13 @@ fiaf:Minutes a owl:Class ;
     dc:source "FIAF Cataloguing Manual 2.3.5.3"^^xsd:string ;
     rdfs:subClassOf fiaf:Extent .
 
-fiaf:Mixed a owl:NamedIndividual,
+fiaf:Mixed a owl:Class,
+        owl:NamedIndividual,
         fiaf:Base ;
     rdfs:label "Mixed"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.4"^^xsd:string,
+        "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundCharacteristic .
 
 fiaf:ModelMaker a owl:Class ;
     rdfs:label "Model Maker"@en,
@@ -1307,6 +1325,11 @@ fiaf:MusicSupervisor a owl:Class ;
         "Musical Supervision"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.11.3"^^xsd:string ;
     rdfs:subClassOf fiaf:MusicActivity .
+
+fiaf:Mute a owl:Class ;
+    rdfs:label "Mute"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundCharacteristic .
 
 fiaf:Mylar a owl:NamedIndividual,
         fiaf:Base ;
@@ -1802,6 +1825,11 @@ fiaf:SignedLanguage a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
     rdfs:subClassOf fiaf:DialogueLanguages .
 
+fiaf:Silent a owl:Class ;
+    rdfs:label "Silent"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundCharacteristic .
+
 fiaf:Singer a owl:Class ;
     rdfs:label "Singer"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.7.6"^^xsd:string ;
@@ -1830,6 +1858,11 @@ fiaf:Sony a owl:Class ;
     rdfs:label "Sony"@en ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
+
+fiaf:Sound a owl:Class ;
+    rdfs:label "Sound"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundCharacteristic .
 
 fiaf:SoundDesigner a owl:Class ;
     rdfs:label "Sound Design"@en,
@@ -1994,6 +2027,11 @@ fiaf:TelecineEvent a owl:Class ;
     rdfs:label "Telecine Event"@en ;
     dc:source "FIAF Cataloguing Manual D.14"^^xsd:string ;
     rdfs:subClassOf fiaf:ManufactureEvent .
+
+fiaf:Temporary a owl:Class ;
+    rdfs:label "Temporary"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundCharacteristic .
 
 fiaf:Terabyte a owl:Class ;
     rdfs:label "Terabyte"@en ;
@@ -2365,6 +2403,18 @@ fiaf:hasSoundCharacteristic a owl:ObjectProperty ;
         fiaf:Manifestation ;
     rdfs:range fiaf:SoundCharacteristic .
 
+fiaf:hasSoundFixation a owl:ObjectProperty ;
+    rdfs:label "Has Sound Fixation"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.4.3.2, 3.1.5.4"^^xsd:string ;
+    rdfs:domain fiaf:SoundCharacteristic ;
+    rdfs:range fiaf:SoundFixation .
+
+fiaf:hasSoundSystem a owl:ObjectProperty ;
+    rdfs:label "Has Sound System"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.4.3.1, 3.1.5.5"^^xsd:string ;
+    rdfs:domain fiaf:SoundCharacteristic ;
+    rdfs:range fiaf:SoundSystem .
+
 fiaf:hasSourceDevice a owl:ObjectProperty ;
     rdfs:label "Has Source Device"@en ;
     dc:source "FIAF Cataloguing Manual 3.1.5.21"^^xsd:string ;
@@ -2628,6 +2678,10 @@ fiaf:MusicActivity a owl:Class ;
     rdfs:label "Music Activity"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.11"^^xsd:string ;
     rdfs:subClassOf fiaf:Activity .
+
+fiaf:SoundCharacteristic a owl:Class ;
+    rdfs:label "Sound Characteristic"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.4.3, 3.1.5.5"^^xsd:string .
 
 fiaf:VariantType a owl:Class ;
     rdfs:label "Variant Type"@en ;

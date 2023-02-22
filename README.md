@@ -546,6 +546,24 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Colour Standard   
 **source** FIAF Cataloguing Manual 2.3.4.4   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+####  Combined   
+> **iri** https://fiafcore.org/ontology/Combined   
+**label** Combined   
+**source** FIAF Cataloguing Manual D.7.4   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:SoundCharacteristic](https://fiafcore.org/ontology/SoundCharacteristic)   
+####  Combined as Mute   
+> **iri** https://fiafcore.org/ontology/CombinedAsMute   
+**label** Combined as Mute   
+**source** FIAF Cataloguing Manual D.7.4   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:SoundCharacteristic](https://fiafcore.org/ontology/SoundCharacteristic)   
+####  Combined as Sound   
+> **iri** https://fiafcore.org/ontology/CombinedAsSound   
+**label** Combined as Sound   
+**source** FIAF Cataloguing Manual D.7.4   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:SoundCharacteristic](https://fiafcore.org/ontology/SoundCharacteristic)   
 ####  Compositing, Digital Compositing   
 > **iri** https://fiafcore.org/ontology/Compositing   
 **label** Compositing, Digital Compositing   
@@ -1310,6 +1328,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual 2.3.5.3   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Extent](https://fiafcore.org/ontology/Extent)   
+####  Mixed   
+> **iri** https://fiafcore.org/ontology/Mixed   
+**label** Mixed   
+**source** FIAF Cataloguing Manual D.7.4, FIAF Cataloguing Manual D.7.7   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class), [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
+**subclass of** [fiaf:SoundCharacteristic](https://fiafcore.org/ontology/SoundCharacteristic)   
 ####  Model Maker, Modeler, Modeling   
 > **iri** https://fiafcore.org/ontology/ModelMaker   
 **label** Model Maker, Modeler, Modeling   
@@ -1376,6 +1400,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.11.3   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:MusicActivity](https://fiafcore.org/ontology/MusicActivity)   
+####  Mute   
+> **iri** https://fiafcore.org/ontology/Mute   
+**label** Mute   
+**source** FIAF Cataloguing Manual D.7.4   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:SoundCharacteristic](https://fiafcore.org/ontology/SoundCharacteristic)   
 ####  Commentary, Commentary Written, Narration, Narration Written   
 > **iri** https://fiafcore.org/ontology/NarrationWritten   
 **label** Commentary, Commentary Written, Narration, Narration Written   
@@ -1849,6 +1879,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.6   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:DialogueLanguages](https://fiafcore.org/ontology/DialogueLanguages)   
+####  Silent   
+> **iri** https://fiafcore.org/ontology/Silent   
+**label** Silent   
+**source** FIAF Cataloguing Manual D.7.4   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:SoundCharacteristic](https://fiafcore.org/ontology/SoundCharacteristic)   
 ####  Singer   
 > **iri** https://fiafcore.org/ontology/Singer   
 **label** Singer   
@@ -1873,12 +1909,23 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  Sound   
+> **iri** https://fiafcore.org/ontology/Sound   
+**label** Sound   
+**source** FIAF Cataloguing Manual D.7.4   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:SoundCharacteristic](https://fiafcore.org/ontology/SoundCharacteristic)   
 ####  Sound Activity   
 > **iri** https://fiafcore.org/ontology/SoundActivity   
 **label** Sound Activity   
 **source** FIAF Glossary of Filmographic Terms B.9   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Activity](https://fiafcore.org/ontology/Activity)   
+####  Sound Characteristic   
+> **iri** https://fiafcore.org/ontology/SoundCharacteristic   
+**label** Sound Characteristic   
+**source** FIAF Cataloguing Manual 2.3.4.3, 3.1.5.5   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 ####  Sound Design, Sound Designer   
 > **iri** https://fiafcore.org/ontology/SoundDesigner   
 **label** Sound Design, Sound Designer   
@@ -2043,6 +2090,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.14   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ManufactureEvent](https://fiafcore.org/ontology/ManufactureEvent)   
+####  Temporary   
+> **iri** https://fiafcore.org/ontology/Temporary   
+**label** Temporary   
+**source** FIAF Cataloguing Manual D.7.4   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:SoundCharacteristic](https://fiafcore.org/ontology/SoundCharacteristic)   
 ####  Terabyte   
 > **iri** https://fiafcore.org/ontology/Terabyte   
 **label** Terabyte   
@@ -2454,8 +2507,9 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 ####  Mixed   
 > **iri** https://fiafcore.org/ontology/Mixed   
 **label** Mixed   
-**source** FIAF Cataloguing Manual D.7.7   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
+**source** FIAF Cataloguing Manual D.7.4, FIAF Cataloguing Manual D.7.7   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class), [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
+**subclass of** [fiaf:SoundCharacteristic](https://fiafcore.org/ontology/SoundCharacteristic)   
 ####  Mylar   
 > **iri** https://fiafcore.org/ontology/Mylar   
 **label** Mylar   
@@ -2775,6 +2829,20 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
 **domain** [fiaf:Item](https://fiafcore.org/ontology/Item), [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation)   
 **range** [fiaf:SoundCharacteristic](https://fiafcore.org/ontology/SoundCharacteristic)   
+####  Has Sound Fixation   
+> **iri** https://fiafcore.org/ontology/hasSoundFixation   
+**label** Has Sound Fixation   
+**source** FIAF Cataloguing Manual 2.3.4.3.2, 3.1.5.4   
+**type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
+**domain** [fiaf:SoundCharacteristic](https://fiafcore.org/ontology/SoundCharacteristic)   
+**range** [fiaf:SoundFixation](https://fiafcore.org/ontology/SoundFixation)   
+####  Has Sound System   
+> **iri** https://fiafcore.org/ontology/hasSoundSystem   
+**label** Has Sound System   
+**source** FIAF Cataloguing Manual 2.3.4.3.1, 3.1.5.5   
+**type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
+**domain** [fiaf:SoundCharacteristic](https://fiafcore.org/ontology/SoundCharacteristic)   
+**range** [fiaf:SoundSystem](https://fiafcore.org/ontology/SoundSystem)   
 ####  Has Source Device   
 > **iri** https://fiafcore.org/ontology/hasSourceDevice   
 **label** Has Source Device   
