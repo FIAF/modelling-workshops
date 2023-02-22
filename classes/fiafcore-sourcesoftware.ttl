@@ -19,4 +19,4 @@
 
 <https://fiafcore.org/ontology/FFmpeg> a owl:NamedIndividual, fiaf:SourceSoftware ;
     rdfs:label "FFmpeg"@en ;
-    dc:source "FIAF Cataloguing Manual 3.1.5.22"^^<string> .
+    dc:source "FIAF Cataloguing Manual 3.1.5.22"^^xsd:string .
