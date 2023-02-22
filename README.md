@@ -207,6 +207,30 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.5.12   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CinematographyActivity](https://fiafcore.org/ontology/CinematographyActivity)   
+####  Black and White   
+> **iri** https://fiafcore.org/ontology/BlackAndWhite   
+**label** Black and White   
+**source** FIAF Cataloguing Manual D.7.11   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ColourCharacteristic](https://fiafcore.org/ontology/ColourCharacteristic)   
+####  Black and White (Tinted)   
+> **iri** https://fiafcore.org/ontology/BlackAndWhiteTinted   
+**label** Black and White (Tinted)   
+**source** FIAF Cataloguing Manual D.7.11   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ColourCharacteristic](https://fiafcore.org/ontology/ColourCharacteristic)   
+####  Black and White (Tinted and Toned)   
+> **iri** https://fiafcore.org/ontology/BlackAndWhiteTintedAndToned   
+**label** Black and White (Tinted and Toned)   
+**source** FIAF Cataloguing Manual D.7.11   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ColourCharacteristic](https://fiafcore.org/ontology/ColourCharacteristic)   
+####  Black and White (Toned)   
+> **iri** https://fiafcore.org/ontology/BlackAndWhiteToned   
+**label** Black and White (Toned)   
+**source** FIAF Cataloguing Manual D.7.11   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ColourCharacteristic](https://fiafcore.org/ontology/ColourCharacteristic)   
 ####  Boom Operator   
 > **iri** https://fiafcore.org/ontology/BoomOperator   
 **label** Boom Operator   
@@ -344,6 +368,23 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.12.4   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:LaboratoryActivity](https://fiafcore.org/ontology/LaboratoryActivity)   
+####  Colour   
+> **iri** https://fiafcore.org/ontology/Colour   
+**label** Colour   
+**source** FIAF Cataloguing Manual D.7.11   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ColourCharacteristic](https://fiafcore.org/ontology/ColourCharacteristic)   
+####  Colour + Black And White   
+> **iri** https://fiafcore.org/ontology/ColourBlackAndWhite   
+**label** Colour + Black And White   
+**source** FIAF Cataloguing Manual D.7.11   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ColourCharacteristic](https://fiafcore.org/ontology/ColourCharacteristic)   
+####  Colour Characteristic   
+> **iri** https://fiafcore.org/ontology/ColourCharacteristic   
+**label** Colour Characteristic   
+**source** FIAF Cataloguing Manual 2.3.4.4   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 ####  Compositing, Digital Compositing   
 > **iri** https://fiafcore.org/ontology/Compositing   
 **label** Compositing, Digital Compositing   
@@ -1320,6 +1361,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.5.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CinematographyActivity](https://fiafcore.org/ontology/CinematographyActivity)   
+####  Sepia   
+> **iri** https://fiafcore.org/ontology/Sepia   
+**label** Sepia   
+**source** FIAF Cataloguing Manual D.7.11   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ColourCharacteristic](https://fiafcore.org/ontology/ColourCharacteristic)   
 ####  Serial   
 > **iri** https://fiafcore.org/ontology/Serial   
 **label** Serial   
@@ -1556,6 +1603,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.10   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:PublicationEvent](https://fiafcore.org/ontology/PublicationEvent)   
+####  Tinted   
+> **iri** https://fiafcore.org/ontology/Tinted   
+**label** Tinted   
+**source** FIAF Cataloguing Manual D.7.11   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ColourCharacteristic](https://fiafcore.org/ontology/ColourCharacteristic)   
 ####  Title   
 > **iri** https://fiafcore.org/ontology/Title   
 **label** Title   
@@ -2050,6 +2103,13 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
 **domain** [fiaf:Item](https://fiafcore.org/ontology/Item), [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation)   
 **range** [fiaf:ColourCharacteristic](https://fiafcore.org/ontology/ColourCharacteristic)   
+####  Has Colour Standard   
+> **iri** https://fiafcore.org/ontology/hasColourStandard   
+**label** Has Colour Standard   
+**source** FIAF Cataloguing Manual 2.3.4.4   
+**type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
+**domain** [fiaf:ColourCharacteristic](https://fiafcore.org/ontology/ColourCharacteristic)   
+**range** [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
 ####  Has Country   
 > **iri** https://fiafcore.org/ontology/hasCountry   
 **label** Has Country   

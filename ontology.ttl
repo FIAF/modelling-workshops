@@ -241,10 +241,30 @@ fiaf:BestBoy a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.5.12"^^xsd:string ;
     rdfs:subClassOf fiaf:CinematographyActivity .
 
+fiaf:BlackAndWhite a owl:Class ;
+    rdfs:label "Black and White"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.11"^^xsd:string ;
+    rdfs:subClassOf fiaf:ColourCharacteristic .
+
 fiaf:BlackAndWhiteCopyOfWorkOriginallyIssuedInColour a owl:NamedIndividual,
         fiaf:VariantType ;
     rdfs:label "Black and white copy of work originally issued in colour"@en ;
     dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
+
+fiaf:BlackAndWhiteTinted a owl:Class ;
+    rdfs:label "Black and White (Tinted)"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.11"^^xsd:string ;
+    rdfs:subClassOf fiaf:ColourCharacteristic .
+
+fiaf:BlackAndWhiteTintedAndToned a owl:Class ;
+    rdfs:label "Black and White (Tinted and Toned)"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.11"^^xsd:string ;
+    rdfs:subClassOf fiaf:ColourCharacteristic .
+
+fiaf:BlackAndWhiteToned a owl:Class ;
+    rdfs:label "Black and White (Toned)"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.11"^^xsd:string ;
+    rdfs:subClassOf fiaf:ColourCharacteristic .
 
 fiaf:BoomOperator a owl:Class ;
     rdfs:label "Boom Operator"@en ;
@@ -367,6 +387,16 @@ fiaf:ColorTimer a owl:Class ;
         "Timer"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.12.4"^^xsd:string ;
     rdfs:subClassOf fiaf:LaboratoryActivity .
+
+fiaf:Colour a owl:Class ;
+    rdfs:label "Colour"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.11"^^xsd:string ;
+    rdfs:subClassOf fiaf:ColourCharacteristic .
+
+fiaf:ColourBlackAndWhite a owl:Class ;
+    rdfs:label "Colour + Black And White"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.11"^^xsd:string ;
+    rdfs:subClassOf fiaf:ColourCharacteristic .
 
 fiaf:Colourized a owl:NamedIndividual,
         fiaf:VariantType ;
@@ -1358,6 +1388,11 @@ fiaf:SecondUnitDirectorofPhotography a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.5.2"^^xsd:string ;
     rdfs:subClassOf fiaf:CinematographyActivity .
 
+fiaf:Sepia a owl:Class ;
+    rdfs:label "Sepia"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.11"^^xsd:string ;
+    rdfs:subClassOf fiaf:ColourCharacteristic .
+
 fiaf:Serial a owl:Class ;
     rdfs:label "Serial"@en ;
     dc:source "FIAF Cataloguing Manual D.1"^^xsd:string ;
@@ -1600,6 +1635,11 @@ fiaf:TheatricalDistributionEvent a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.10"^^xsd:string ;
     rdfs:subClassOf fiaf:PublicationEvent .
 
+fiaf:Tinted a owl:Class ;
+    rdfs:label "Tinted"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.11"^^xsd:string ;
+    rdfs:subClassOf fiaf:ColourCharacteristic .
+
 fiaf:TitleDesign a owl:Class ;
     rdfs:label "Title Design"@en,
         "Title Designer"@en,
@@ -1787,6 +1827,12 @@ fiaf:hasColourCharacteristic a owl:ObjectProperty ;
     rdfs:domain fiaf:Item,
         fiaf:Manifestation ;
     rdfs:range fiaf:ColourCharacteristic .
+
+fiaf:hasColourStandard a owl:ObjectProperty ;
+    rdfs:label "Has Colour Standard"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.4.4"^^xsd:string ;
+    rdfs:domain fiaf:ColourCharacteristic ;
+    rdfs:range fiaf:ColourStandard .
 
 fiaf:hasCountry a owl:ObjectProperty ;
     rdfs:label "Has Country"@en ;
@@ -2103,6 +2149,10 @@ fiaf:AnimationActivity a owl:Class ;
     rdfs:label "Animation Activity"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.13"^^xsd:string ;
     rdfs:subClassOf fiaf:Activity .
+
+fiaf:ColourCharacteristic a owl:Class ;
+    rdfs:label "Colour Characteristic"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.4.4"^^xsd:string .
 
 fiaf:Event a owl:Class ;
     rdfs:label "Event"@en ;
