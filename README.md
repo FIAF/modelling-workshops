@@ -6,6 +6,18 @@ These will take place weekly, starting Thursday 12th of January at 5pm CET and  
 Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdataweb.org/webvowl-old/webvowl-old.html#iri=https://raw.githubusercontent.com/FIAF/modelling-workshops/main/ontology.ttl)]
 
 ## Classes   
+####  1-1.5%   
+> **iri** https://fiafcore.org/ontology/1-1.5   
+**label** 1-1.5%   
+**source** FIAF Cataloguing Manual D.16.6   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Shrinkage](https://fiafcore.org/ontology/Shrinkage)   
+####  1.5-2%   
+> **iri** https://fiafcore.org/ontology/1.5-2   
+**label** 1.5-2%   
+**source** FIAF Cataloguing Manual D.16.6   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Shrinkage](https://fiafcore.org/ontology/Shrinkage)   
 ####  10bit   
 > **iri** https://fiafcore.org/ontology/10bit   
 **label** 10bit   
@@ -42,6 +54,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Video](https://fiafcore.org/ontology/Video)   
+####  2-2.5%   
+> **iri** https://fiafcore.org/ontology/2-2.5   
+**label** 2-2.5%   
+**source** FIAF Cataloguing Manual D.16.6   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Shrinkage](https://fiafcore.org/ontology/Shrinkage)   
 ####  2.34:1   
 > **iri** https://fiafcore.org/ontology/2.34:1   
 **label** 2.34:1   
@@ -392,6 +410,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Base   
 **source** FIAF Cataloguing Manual 3.1.5.13   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+####  Copy Condition Base/Emulsion   
+> **iri** https://fiafcore.org/ontology/BaseEmulsionCondition   
+**label** Copy Condition Base/Emulsion   
+**source** FIAF Cataloguing Manual D.16.1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Condition](https://fiafcore.org/ontology/Condition)   
 ####  Based on Characters Created   
 > **iri** https://fiafcore.org/ontology/BasedonCharactersCreated   
 **label** Based on Characters Created   
@@ -469,6 +493,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  Brittle   
+> **iri** https://fiafcore.org/ontology/Brittle   
+**label** Brittle   
+**source** FIAF Cataloguing Manual D.16.1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:BaseEmulsionCondition](https://fiafcore.org/ontology/BaseEmulsionCondition)   
 ####  Broadcast Event   
 > **iri** https://fiafcore.org/ontology/BroadcastEvent   
 **label** Broadcast Event   
@@ -492,6 +522,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.8.3   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ManifestationActivity](https://fiafcore.org/ontology/ManifestationActivity)   
+####  Buckled   
+> **iri** https://fiafcore.org/ontology/Buckled   
+**label** Buckled   
+**source** FIAF Cataloguing Manual D.16.1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:BaseEmulsionCondition](https://fiafcore.org/ontology/BaseEmulsionCondition)   
 ####  CD   
 > **iri** https://fiafcore.org/ontology/CD   
 **label** CD   
@@ -687,6 +723,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.8.12   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:SpecialEffectsActivity](https://fiafcore.org/ontology/SpecialEffectsActivity)   
+####  Condition   
+> **iri** https://fiafcore.org/ontology/Condition   
+**label** Condition   
+**source** FIAF Cataloguing Manual 3.1.6.1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 ####  Construction Coordinator, Construction Manager   
 > **iri** https://fiafcore.org/ontology/ConstructionCoordinator   
 **label** Construction Coordinator, Construction Manager   
@@ -813,6 +854,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.4.6   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Event](https://fiafcore.org/ontology/Event)   
+####  Decomposition   
+> **iri** https://fiafcore.org/ontology/Decomposition   
+**label** Decomposition   
+**source** FIAF Cataloguing Manual D.16.5   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Condition](https://fiafcore.org/ontology/Condition)   
 ####  Dialect Coach, Dialogue Coach   
 > **iri** https://fiafcore.org/ontology/DialogueCoach   
 **label** Dialect Coach, Dialogue Coach   
@@ -891,12 +938,24 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.2.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProducingActivity](https://fiafcore.org/ontology/ProducingActivity)   
+####  Dirt   
+> **iri** https://fiafcore.org/ontology/Dirt   
+**label** Dirt   
+**source** FIAF Cataloguing Manual D.16.3   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:SurfaceDeposit](https://fiafcore.org/ontology/SurfaceDeposit)   
 ####  Disc   
 > **iri** https://fiafcore.org/ontology/Disc   
 **label** Disc   
 **source** FIAF Cataloguing Manual D.7.6   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Extent](https://fiafcore.org/ontology/Extent)   
+####  Discolouration   
+> **iri** https://fiafcore.org/ontology/Discolouration   
+**label** Discolouration   
+**source** FIAF Cataloguing Manual D.16.4   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ImageCondition](https://fiafcore.org/ontology/ImageCondition)   
 ####  Distribution Event   
 > **iri** https://fiafcore.org/ontology/DistributionEvent   
 **label** Distribution Event   
@@ -975,6 +1034,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.7.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CastActivity](https://fiafcore.org/ontology/CastActivity)   
+####  Drop-outs   
+> **iri** https://fiafcore.org/ontology/Drop-outs   
+**label** Drop-outs   
+**source** FIAF Cataloguing Manual D.16.4   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ImageCondition](https://fiafcore.org/ontology/ImageCondition)   
+####  Drying marks   
+> **iri** https://fiafcore.org/ontology/DryingMarks   
+**label** Drying marks   
+**source** FIAF Cataloguing Manual D.16.3   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:SurfaceDeposit](https://fiafcore.org/ontology/SurfaceDeposit)   
 ####  Dubbing Director   
 > **iri** https://fiafcore.org/ontology/DubbingDirector   
 **label** Dubbing Director   
@@ -1051,6 +1122,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.7.4   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CastActivity](https://fiafcore.org/ontology/CastActivity)   
+####  Faded   
+> **iri** https://fiafcore.org/ontology/Faded   
+**label** Faded   
+**source** FIAF Cataloguing Manual D.16.4   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ImageCondition](https://fiafcore.org/ontology/ImageCondition)   
 ####  Family   
 > **iri** https://fiafcore.org/ontology/Family   
 **label** Family   
@@ -1105,6 +1182,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.5.8   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CinematographyActivity](https://fiafcore.org/ontology/CinematographyActivity)   
+####  Foil Patches   
+> **iri** https://fiafcore.org/ontology/FoilPatches   
+**label** Foil Patches   
+**source** FIAF Cataloguing Manual D.16.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:PerforationCondition](https://fiafcore.org/ontology/PerforationCondition)   
 ####  Foley, Foley Artist, Sound Effects Specialist   
 > **iri** https://fiafcore.org/ontology/Foley   
 **label** Foley, Foley Artist, Sound Effects Specialist   
@@ -1181,6 +1264,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Audio](https://fiafcore.org/ontology/Audio)   
+####  Heavy Scratches   
+> **iri** https://fiafcore.org/ontology/HeavyScratches   
+**label** Heavy Scratches   
+**source** FIAF Cataloguing Manual D.16.1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:BaseEmulsionCondition](https://fiafcore.org/ontology/BaseEmulsionCondition)   
 ####  Hitachi   
 > **iri** https://fiafcore.org/ontology/Hitachi   
 **label** Hitachi   
@@ -1211,6 +1300,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  Hydrolysis   
+> **iri** https://fiafcore.org/ontology/Hydrolysis   
+**label** Hydrolysis   
+**source** FIAF Cataloguing Manual D.16.1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:BaseEmulsionCondition](https://fiafcore.org/ontology/BaseEmulsionCondition)   
 ####  Identifier   
 > **iri** https://fiafcore.org/ontology/Identifier   
 **label** Identifier   
@@ -1227,6 +1322,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Image Characteristic   
 **source** FIAF Cataloguing Manual 2.3.4.2, 3.1.5.9   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+####  Image Condition   
+> **iri** https://fiafcore.org/ontology/ImageCondition   
+**label** Image Condition   
+**source** FIAF Cataloguing Manual D.16.4   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Condition](https://fiafcore.org/ontology/Condition)   
 ####  Image Format   
 > **iri** https://fiafcore.org/ontology/ImageFormat   
 **label** Image Format   
@@ -1357,6 +1458,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.15   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ImageFormat](https://fiafcore.org/ontology/ImageFormat)   
+####  Light Scratches   
+> **iri** https://fiafcore.org/ontology/LightScratches   
+**label** Light Scratches   
+**source** FIAF Cataloguing Manual D.16.1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:BaseEmulsionCondition](https://fiafcore.org/ontology/BaseEmulsionCondition)   
 ####  Lighter   
 > **iri** https://fiafcore.org/ontology/Lighter   
 **label** Lighter   
@@ -1422,6 +1529,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:DigitalFile](https://fiafcore.org/ontology/DigitalFile)   
+####  Magenta Bias   
+> **iri** https://fiafcore.org/ontology/MagentaBias   
+**label** Magenta Bias   
+**source** FIAF Cataloguing Manual D.16.4   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ImageCondition](https://fiafcore.org/ontology/ImageCondition)   
 ####  Magnetic Sound   
 > **iri** https://fiafcore.org/ontology/MagneticSound   
 **label** Magnetic Sound   
@@ -1505,6 +1618,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual 2.3.5.3   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Extent](https://fiafcore.org/ontology/Extent)   
+####  Missing   
+> **iri** https://fiafcore.org/ontology/Missing   
+**label** Missing   
+**source** FIAF Cataloguing Manual D.16.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:PerforationCondition](https://fiafcore.org/ontology/PerforationCondition)   
 ####  Mixed   
 > **iri** https://fiafcore.org/ontology/Mixed   
 **label** Mixed   
@@ -1529,6 +1648,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.8.13   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:SpecialEffectsActivity](https://fiafcore.org/ontology/SpecialEffectsActivity)   
+####  Mould   
+> **iri** https://fiafcore.org/ontology/Mould   
+**label** Mould   
+**source** FIAF Cataloguing Manual D.16.3   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:SurfaceDeposit](https://fiafcore.org/ontology/SurfaceDeposit)   
 ####  Music Activity   
 > **iri** https://fiafcore.org/ontology/MusicActivity   
 **label** Music Activity   
@@ -1649,6 +1774,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.15.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:AcquisitionEvent](https://fiafcore.org/ontology/AcquisitionEvent)   
+####  Oil deposits   
+> **iri** https://fiafcore.org/ontology/OilDeposits   
+**label** Oil deposits   
+**source** FIAF Cataloguing Manual D.16.3   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:SurfaceDeposit](https://fiafcore.org/ontology/SurfaceDeposit)   
 ####  1-inch Audioreel   
 > **iri** https://fiafcore.org/ontology/OneInchAudioReel   
 **label** 1-inch Audioreel   
@@ -1703,6 +1834,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.15   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ImageFormat](https://fiafcore.org/ontology/ImageFormat)   
+####  Copy Condition Perforations   
+> **iri** https://fiafcore.org/ontology/PerforationCondition   
+**label** Copy Condition Perforations   
+**source** FIAF Cataloguing Manual D.16.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Condition](https://fiafcore.org/ontology/Condition)   
 ####  Person   
 > **iri** https://fiafcore.org/ontology/Person   
 **label** Person   
@@ -1739,6 +1876,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.2.15   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProducingActivity](https://fiafcore.org/ontology/ProducingActivity)   
+####  Powder   
+> **iri** https://fiafcore.org/ontology/Powder   
+**label** Powder   
+**source** FIAF Cataloguing Manual D.16.5   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Decomposition](https://fiafcore.org/ontology/Decomposition)   
 ####  Pre-Release Event   
 > **iri** https://fiafcore.org/ontology/PreReleaseEvent   
 **label** Pre-Release Event   
@@ -1781,6 +1924,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.6.4   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProductionDesignActivity](https://fiafcore.org/ontology/ProductionDesignActivity)   
+####  Print through in mould   
+> **iri** https://fiafcore.org/ontology/PrintThroughInMould   
+**label** Print through in mould   
+**source** FIAF Cataloguing Manual D.16.4   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ImageCondition](https://fiafcore.org/ontology/ImageCondition)   
 ####  Produced, Producer, Production   
 > **iri** https://fiafcore.org/ontology/Producer   
 **label** Produced, Producer, Production   
@@ -1865,6 +2014,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.8.4   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ManifestationActivity](https://fiafcore.org/ontology/ManifestationActivity)   
+####  Pulled   
+> **iri** https://fiafcore.org/ontology/Pulled   
+**label** Pulled   
+**source** FIAF Cataloguing Manual D.16.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:PerforationCondition](https://fiafcore.org/ontology/PerforationCondition)   
 ####  Puppet Activity   
 > **iri** https://fiafcore.org/ontology/PuppetActivity   
 **label** Puppet Activity   
@@ -1972,6 +2127,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.8.9   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:SpecialEffectsActivity](https://fiafcore.org/ontology/SpecialEffectsActivity)   
+####  Rust   
+> **iri** https://fiafcore.org/ontology/Rust   
+**label** Rust   
+**source** FIAF Cataloguing Manual D.16.3   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:SurfaceDeposit](https://fiafcore.org/ontology/SurfaceDeposit)   
 ####  S10   
 > **iri** https://fiafcore.org/ontology/S10   
 **label** S10   
@@ -2080,6 +2241,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  Shrinkage   
+> **iri** https://fiafcore.org/ontology/Shrinkage   
+**label** Shrinkage   
+**source** FIAF Cataloguing Manual D.16.6   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Condition](https://fiafcore.org/ontology/Condition)   
 ####  Signed Language   
 > **iri** https://fiafcore.org/ontology/SignedLanguage   
 **label** Signed Language   
@@ -2230,6 +2397,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.5.6   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CinematographyActivity](https://fiafcore.org/ontology/CinematographyActivity)   
+####  Sticky   
+> **iri** https://fiafcore.org/ontology/Sticky   
+**label** Sticky   
+**source** FIAF Cataloguing Manual D.16.5   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Decomposition](https://fiafcore.org/ontology/Decomposition)   
+####  Sticky at head   
+> **iri** https://fiafcore.org/ontology/StickyAtHead   
+**label** Sticky at head   
+**source** FIAF Cataloguing Manual D.16.5   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Decomposition](https://fiafcore.org/ontology/Decomposition)   
 ####  Still Photographer, Stills Photography   
 > **iri** https://fiafcore.org/ontology/StillPhotographer   
 **label** Still Photographer, Stills Photography   
@@ -2311,6 +2490,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual A.2.5   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Title](https://fiafcore.org/ontology/Title)   
+####  Surface Deposit   
+> **iri** https://fiafcore.org/ontology/SurfaceDeposit   
+**label** Surface Deposit   
+**source** FIAF Cataloguing Manual D.16.3   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Condition](https://fiafcore.org/ontology/Condition)   
+####  Tears   
+> **iri** https://fiafcore.org/ontology/Tears   
+**label** Tears   
+**source** FIAF Cataloguing Manual D.16.1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:BaseEmulsionCondition](https://fiafcore.org/ontology/BaseEmulsionCondition)   
 ####  Telecine Event   
 > **iri** https://fiafcore.org/ontology/TelecineEvent   
 **label** Telecine Event   
@@ -2364,6 +2555,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual A.2.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Title](https://fiafcore.org/ontology/Title)   
+####  Torn   
+> **iri** https://fiafcore.org/ontology/Torn   
+**label** Torn   
+**source** FIAF Cataloguing Manual D.16.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:PerforationCondition](https://fiafcore.org/ontology/PerforationCondition)   
 ####  Toshiba   
 > **iri** https://fiafcore.org/ontology/Toshiba   
 **label** Toshiba   
@@ -2494,6 +2691,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.6.15   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProductionDesignActivity](https://fiafcore.org/ontology/ProductionDesignActivity)   
+####  Warped   
+> **iri** https://fiafcore.org/ontology/Warped   
+**label** Warped   
+**source** FIAF Cataloguing Manual D.16.1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:BaseEmulsionCondition](https://fiafcore.org/ontology/BaseEmulsionCondition)   
 ####  Western Digital   
 > **iri** https://fiafcore.org/ontology/WesternDigital   
 **label** Western Digital   

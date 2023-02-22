@@ -7,6 +7,16 @@
 fiaf: a owl:Ontology ;
     dc:title "FIAFcore" .
 
+fiaf:1-1.5 a owl:Class ;
+    rdfs:label "1-1.5%"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:Shrinkage .
+
+fiaf:1.5-2 a owl:Class ;
+    rdfs:label "1.5-2%"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:Shrinkage .
+
 fiaf:1080 a owl:NamedIndividual,
         fiaf:LineStandard ;
     rdfs:label "1080"@en ;
@@ -41,6 +51,11 @@ fiaf:1InchCFormat a owl:Class ;
     rdfs:label "1-inch C Format"@en ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Video .
+
+fiaf:2-2.5 a owl:Class ;
+    rdfs:label "2-2.5%"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:Shrinkage .
 
 <https://fiafcore.org/ontology/2.34:1> a owl:Class ;
     rdfs:label "2.34:1"@en ;
@@ -460,6 +475,11 @@ fiaf:Brifco a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
+fiaf:Brittle a owl:Class ;
+    rdfs:label "Brittle"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:BaseEmulsionCondition .
+
 fiaf:BroadcastEvent a owl:Class ;
     rdfs:label "Broadcast Event"@en ;
     dc:source "FIAF Cataloguing Manual D.10"^^xsd:string ;
@@ -474,6 +494,11 @@ fiaf:Broadcaster a owl:Class ;
     rdfs:label "Broadcaster"@en ;
     dc:source "FIAF Cataloguing Manual D.8.3"^^xsd:string ;
     rdfs:subClassOf fiaf:ManifestationActivity .
+
+fiaf:Buckled a owl:Class ;
+    rdfs:label "Buckled"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:BaseEmulsionCondition .
 
 fiaf:CD a owl:Class ;
     rdfs:label "CD"@en ;
@@ -825,10 +850,20 @@ fiaf:DirectorofPublicity a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.2.16"^^xsd:string ;
     rdfs:subClassOf fiaf:ProducingActivity .
 
+fiaf:Dirt a owl:Class ;
+    rdfs:label "Dirt"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.3"^^xsd:string ;
+    rdfs:subClassOf fiaf:SurfaceDeposit .
+
 fiaf:Disc a owl:Class ;
     rdfs:label "Disc"@en ;
     dc:source "FIAF Cataloguing Manual D.7.6"^^xsd:string ;
     rdfs:subClassOf fiaf:Extent .
+
+fiaf:Discolouration a owl:Class ;
+    rdfs:label "Discolouration"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageCondition .
 
 fiaf:DistributionEvent a owl:Class ;
     rdfs:label "Distribution Event"@en ;
@@ -900,6 +935,16 @@ fiaf:Double a owl:Class ;
         "Stunt Double"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:CastActivity .
+
+fiaf:Drop-outs a owl:Class ;
+    rdfs:label "Drop-outs"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageCondition .
+
+fiaf:DryingMarks a owl:Class ;
+    rdfs:label "Drying marks"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.3"^^xsd:string ;
+    rdfs:subClassOf fiaf:SurfaceDeposit .
 
 fiaf:Dubbed a owl:NamedIndividual,
         fiaf:VariantType ;
@@ -976,6 +1021,11 @@ fiaf:FFmpeg a owl:NamedIndividual,
     rdfs:label "FFmpeg"@en ;
     dc:source "FIAF Cataloguing Manual 3.1.5.22"^^xsd:string .
 
+fiaf:Faded a owl:Class ;
+    rdfs:label "Faded"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageCondition .
+
 fiaf:Family a owl:Class ;
     rdfs:label "Family"@en ;
     dc:source "FIAF Cataloguing Manual 1.4.1"^^xsd:string ;
@@ -1038,6 +1088,11 @@ fiaf:FocusPuller a owl:Class ;
     rdfs:label "Focus Puller"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.5.8"^^xsd:string ;
     rdfs:subClassOf fiaf:CinematographyActivity .
+
+fiaf:FoilPatches a owl:Class ;
+    rdfs:label "Foil Patches"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:PerforationCondition .
 
 fiaf:Foley a owl:Class ;
     rdfs:label "Foley"@en,
@@ -1109,6 +1164,11 @@ fiaf:HalfInchAudioReel a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Audio .
 
+fiaf:HeavyScratches a owl:Class ;
+    rdfs:label "Heavy Scratches"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:BaseEmulsionCondition .
+
 fiaf:HighDefinition a owl:NamedIndividual,
         fiaf:Resolution ;
     rdfs:label "High Definition"@en ;
@@ -1143,6 +1203,11 @@ fiaf:Hp a owl:Class ;
     rdfs:label "HP"@en ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
+
+fiaf:Hydrolysis a owl:Class ;
+    rdfs:label "Hydrolysis"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:BaseEmulsionCondition .
 
 fiaf:IdentifiyingTitle a owl:Class ;
     rdfs:label "Identifiying Title"@en ;
@@ -1251,6 +1316,11 @@ fiaf:Letterbox a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.15"^^xsd:string ;
     rdfs:subClassOf fiaf:ImageFormat .
 
+fiaf:LightScratches a owl:Class ;
+    rdfs:label "Light Scratches"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:BaseEmulsionCondition .
+
 fiaf:Lighter a owl:Class ;
     rdfs:label "Lighter"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.13.19"^^xsd:string ;
@@ -1302,6 +1372,11 @@ fiaf:MXF a owl:Class ;
     rdfs:label "MXF"@en ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:DigitalFile .
+
+fiaf:MagentaBias a owl:Class ;
+    rdfs:label "Magenta Bias"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageCondition .
 
 fiaf:MagneticSound a owl:Class ;
     rdfs:label "Magnetic Sound"@en ;
@@ -1377,6 +1452,11 @@ fiaf:Minutes a owl:Class ;
     dc:source "FIAF Cataloguing Manual 2.3.5.3"^^xsd:string ;
     rdfs:subClassOf fiaf:Extent .
 
+fiaf:Missing a owl:Class ;
+    rdfs:label "Missing"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:PerforationCondition .
+
 fiaf:Mixed a owl:Class,
         owl:NamedIndividual,
         fiaf:Base ;
@@ -1401,6 +1481,11 @@ fiaf:MotionCapture a owl:Class ;
     rdfs:label "Motion Capture"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.8.13"^^xsd:string ;
     rdfs:subClassOf fiaf:SpecialEffectsActivity .
+
+fiaf:Mould a owl:Class ;
+    rdfs:label "Mould"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.3"^^xsd:string ;
+    rdfs:subClassOf fiaf:SurfaceDeposit .
 
 fiaf:MusicArranger a owl:Class ;
     rdfs:label "Arranged"@en,
@@ -1546,6 +1631,11 @@ fiaf:OffAirRecordingEvent a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.15.1"^^xsd:string ;
     rdfs:subClassOf fiaf:AcquisitionEvent .
 
+fiaf:OilDeposits a owl:Class ;
+    rdfs:label "Oil deposits"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.3"^^xsd:string ;
+    rdfs:subClassOf fiaf:SurfaceDeposit .
+
 fiaf:OnLoan a owl:NamedIndividual,
         fiaf:Status ;
     rdfs:label "On Loan"@en ;
@@ -1646,6 +1736,11 @@ fiaf:PostProductionSupervisor a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.2.15"^^xsd:string ;
     rdfs:subClassOf fiaf:ProducingActivity .
 
+fiaf:Powder a owl:Class ;
+    rdfs:label "Powder"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.5"^^xsd:string ;
+    rdfs:subClassOf fiaf:Decomposition .
+
 fiaf:PreReleaseEvent a owl:Class ;
     rdfs:label "Pre-Release Event"@en ;
     dc:source "FIAF Cataloguing Manual D.10"^^xsd:string ;
@@ -1684,6 +1779,11 @@ fiaf:Previsualization a owl:Class ;
         "Storyboard Artist"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.6.4"^^xsd:string ;
     rdfs:subClassOf fiaf:ProductionDesignActivity .
+
+fiaf:PrintThroughInMould a owl:Class ;
+    rdfs:label "Print through in mould"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageCondition .
 
 fiaf:Producer a owl:Class ;
     rdfs:label "Produced"@en,
@@ -1748,6 +1848,11 @@ fiaf:Publisher a owl:Class ;
     rdfs:label "Publisher"@en ;
     dc:source "FIAF Cataloguing Manual D.8.4"^^xsd:string ;
     rdfs:subClassOf fiaf:ManifestationActivity .
+
+fiaf:Pulled a owl:Class ;
+    rdfs:label "Pulled"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:PerforationCondition .
 
 fiaf:PuppetHandler a owl:Class ;
     rdfs:label "Puppet Handler"@en,
@@ -1848,6 +1953,11 @@ fiaf:Rotoscoping a owl:Class ;
     rdfs:label "Rotoscoping"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.8.9"^^xsd:string ;
     rdfs:subClassOf fiaf:SpecialEffectsActivity .
+
+fiaf:Rust a owl:Class ;
+    rdfs:label "Rust"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.3"^^xsd:string ;
+    rdfs:subClassOf fiaf:SurfaceDeposit .
 
 fiaf:S10 a owl:Class ;
     rdfs:label "S10"@en ;
@@ -2102,6 +2212,16 @@ fiaf:SteadicamOperator a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.5.6"^^xsd:string ;
     rdfs:subClassOf fiaf:CinematographyActivity .
 
+fiaf:Sticky a owl:Class ;
+    rdfs:label "Sticky"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.5"^^xsd:string ;
+    rdfs:subClassOf fiaf:Decomposition .
+
+fiaf:StickyAtHead a owl:Class ;
+    rdfs:label "Sticky at head"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.5"^^xsd:string ;
+    rdfs:subClassOf fiaf:Decomposition .
+
 fiaf:StillPhotographer a owl:Class ;
     rdfs:label "Still Photographer"@en,
         "Stills Photography"@en ;
@@ -2181,6 +2301,11 @@ fiaf:SuppliedDevisedTitle a owl:Class ;
     dc:source "FIAF Cataloguing Manual A.2.5"^^xsd:string ;
     rdfs:subClassOf fiaf:Title .
 
+fiaf:Tears a owl:Class ;
+    rdfs:label "Tears"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:BaseEmulsionCondition .
+
 fiaf:Technicolor a owl:NamedIndividual,
         fiaf:ColourStandard ;
     rdfs:label "Technicolor"@en ;
@@ -2228,6 +2353,11 @@ fiaf:TitleProper a owl:Class ;
     rdfs:label "Title Proper"@en ;
     dc:source "FIAF Cataloguing Manual A.2.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Title .
+
+fiaf:Torn a owl:Class ;
+    rdfs:label "Torn"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:PerforationCondition .
 
 fiaf:Toshiba a owl:Class ;
     rdfs:label "Toshiba"@en ;
@@ -2365,6 +2495,11 @@ fiaf:WardrobeSupervisor a owl:Class ;
         "Wardrobe Supervisor"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.6.15"^^xsd:string ;
     rdfs:subClassOf fiaf:ProductionDesignActivity .
+
+fiaf:Warped a owl:Class ;
+    rdfs:label "Warped"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:BaseEmulsionCondition .
 
 fiaf:WesternDigital a owl:Class ;
     rdfs:label "Western Digital"@en ;
@@ -2704,9 +2839,19 @@ fiaf:DecisionEvent a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.4.6"^^xsd:string ;
     rdfs:subClassOf fiaf:Event .
 
+fiaf:Decomposition a owl:Class ;
+    rdfs:label "Decomposition"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.5"^^xsd:string ;
+    rdfs:subClassOf fiaf:Condition .
+
 fiaf:ImageCharacteristic a owl:Class ;
     rdfs:label "Image Characteristic"@en ;
     dc:source "FIAF Cataloguing Manual 2.3.4.2, 3.1.5.9"^^xsd:string .
+
+fiaf:Shrinkage a owl:Class ;
+    rdfs:label "Shrinkage"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:Condition .
 
 fiaf:WrittenLanguages a owl:Class ;
     rdfs:label "Written Languages"@en ;
@@ -2736,6 +2881,11 @@ fiaf:Optical a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Format .
 
+fiaf:PerforationCondition a owl:Class ;
+    rdfs:label "Copy Condition Perforations"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:Condition .
+
 fiaf:PreservationEvent a owl:Class ;
     rdfs:label "Preservation Event"@en ;
     dc:source "FIAF Cataloguing Manual D.4.5"^^xsd:string ;
@@ -2764,10 +2914,24 @@ fiaf:DigitalFile a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Format .
 
+fiaf:ImageCondition a owl:Class ;
+    rdfs:label "Image Condition"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:Condition .
+
 fiaf:ImageRatio a owl:Class ;
     rdfs:label "Image Ratio"@en ;
     dc:source "FIAF Cataloguing Manual D.7.14"^^xsd:string ;
     rdfs:subClassOf fiaf:ImageCharacteristic .
+
+fiaf:SurfaceDeposit a owl:Class ;
+    rdfs:label "Surface Deposit"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.3"^^xsd:string ;
+    rdfs:subClassOf fiaf:Condition .
+
+fiaf:Condition a owl:Class ;
+    rdfs:label "Condition"@en ;
+    dc:source "FIAF Cataloguing Manual 3.1.6.1"^^xsd:string .
 
 fiaf:DigitalFileEncoding a owl:Class ;
     rdfs:label "Digital File Encoding"@en ;
@@ -2807,6 +2971,11 @@ fiaf:Audio a owl:Class ;
     rdfs:label "Audio"@en ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Format .
+
+fiaf:BaseEmulsionCondition a owl:Class ;
+    rdfs:label "Copy Condition Base/Emulsion"@en ;
+    dc:source "FIAF Cataloguing Manual D.16.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:Condition .
 
 fiaf:CopyrightandDistributionActivity a owl:Class ;
     rdfs:label "Copyright and Distribution Activity"@en ;
