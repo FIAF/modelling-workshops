@@ -1,0 +1,44 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix fiaf: <https://fiafcore.org/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Ontology
+
+<https://fiafcore.org/ontology/> a owl:Ontology ;
+    dc:title "FIAFcore" .
+
+# Class
+
+<https://fiafcore.org/ontology/SoundFixation> a owl:Class ;
+    rdfs:label "Sound Fixation"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.4.3.2, 3.1.5.4"^^xsd:string .
+
+# Subclasses
+
+<https://fiafcore.org/ontology/NeedleSound> a owl:Class ;
+    rdfs:label "Needle Sound"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.5"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundFixation .
+
+<https://fiafcore.org/ontology/OpticalSound> a owl:Class ;
+    rdfs:label "Optical Sound"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.5"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundFixation .
+
+<https://fiafcore.org/ontology/MagneticSound> a owl:Class ;
+    rdfs:label "Magnetic Sound"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.5"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundFixation .
+
+<https://fiafcore.org/ontology/AnalogueSound> a owl:Class ;
+    rdfs:label "Analogue Sound"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.5"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundFixation .
+
+<https://fiafcore.org/ontology/DigitalSound> a owl:Class ;
+    rdfs:label "Digital Sound"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.5"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundFixation .
+
