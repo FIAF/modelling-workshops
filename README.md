@@ -190,6 +190,42 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Agent   
 **source** FIAF Cataloguing Manual 1.4.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+####  Agent not identified   
+> **iri** https://fiafcore.org/ontology/AgentNotIdentified   
+**label** Agent not identified   
+**source** FIAF Cataloguing Manual D.8.11   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ManifestationActivity](https://fiafcore.org/ontology/ManifestationActivity)   
+####  Agent responsible for preservation   
+> **iri** https://fiafcore.org/ontology/AgentResponsibleForPreservation   
+**label** Agent responsible for preservation   
+**source** FIAF Cataloguing Manual D.8.6   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ManifestationActivity](https://fiafcore.org/ontology/ManifestationActivity)   
+####  Agent responsible for reproduction or transfer   
+> **iri** https://fiafcore.org/ontology/AgentResponsibleForReproductionOrTransfer   
+**label** Agent responsible for reproduction or transfer   
+**source** FIAF Cataloguing Manual D.8.7   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ManifestationActivity](https://fiafcore.org/ontology/ManifestationActivity)   
+####  Agent responsible for the archival availability   
+> **iri** https://fiafcore.org/ontology/AgentResponsibleForTheArchivalAvailability   
+**label** Agent responsible for the archival availability   
+**source** FIAF Cataloguing Manual D.8.8   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ManifestationActivity](https://fiafcore.org/ontology/ManifestationActivity)   
+####  Agent responsible for the mere availability   
+> **iri** https://fiafcore.org/ontology/AgentResponsibleForTheMereAvailability   
+**label** Agent responsible for the mere availability   
+**source** FIAF Cataloguing Manual D.8.9   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ManifestationActivity](https://fiafcore.org/ontology/ManifestationActivity)   
+####  Agent unclear or undetermined   
+> **iri** https://fiafcore.org/ontology/AgentUnclearOrUndetermined   
+**label** Agent unclear or undetermined   
+**source** FIAF Cataloguing Manual D.8.10   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ManifestationActivity](https://fiafcore.org/ontology/ManifestationActivity)   
 ####  Agfa   
 > **iri** https://fiafcore.org/ontology/Agfa   
 **label** Agfa   
@@ -450,6 +486,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Broadcast Standard   
 **source** FIAF Cataloguing Manual 3.1.5.10   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+####  Broadcaster   
+> **iri** https://fiafcore.org/ontology/Broadcaster   
+**label** Broadcaster   
+**source** FIAF Cataloguing Manual D.8.3   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ManifestationActivity](https://fiafcore.org/ontology/ManifestationActivity)   
 ####  CD   
 > **iri** https://fiafcore.org/ontology/CD   
 **label** CD   
@@ -873,6 +915,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms C.2.6   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CopyrightandDistributionActivity](https://fiafcore.org/ontology/CopyrightandDistributionActivity)   
+####  Distributor (non-theatrical)   
+> **iri** https://fiafcore.org/ontology/DistributorNonTheatrical   
+**label** Distributor (non-theatrical)   
+**source** FIAF Cataloguing Manual D.8.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ManifestationActivity](https://fiafcore.org/ontology/ManifestationActivity)   
 ####  Distributor (Original)   
 > **iri** https://fiafcore.org/ontology/DistributorOriginal   
 **label** Distributor (Original)   
@@ -885,6 +933,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms C.2.7   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CopyrightandDistributionActivity](https://fiafcore.org/ontology/CopyrightandDistributionActivity)   
+####  Distributor (theatrical)   
+> **iri** https://fiafcore.org/ontology/DistributorTheatrical   
+**label** Distributor (theatrical)   
+**source** FIAF Cataloguing Manual D.8.1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ManifestationActivity](https://fiafcore.org/ontology/ManifestationActivity)   
 ####  Distributor (World)   
 > **iri** https://fiafcore.org/ontology/DistributorWorld   
 **label** Distributor (World)   
@@ -1385,12 +1439,24 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Manifestation   
 **source** FIAF Cataloguing Manual 2.0   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+####  Manifestation Activity   
+> **iri** https://fiafcore.org/ontology/ManifestationActivity   
+**label** Manifestation Activity   
+**source** FIAF Cataloguing Manual 2.4.1.1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Activity](https://fiafcore.org/ontology/Activity)   
 ####  Manufacture Event   
 > **iri** https://fiafcore.org/ontology/ManufactureEvent   
 **label** Manufacture Event   
 **source** FIAF Cataloguing Manual D.4.7   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Event](https://fiafcore.org/ontology/Event)   
+####  Manufacturer   
+> **iri** https://fiafcore.org/ontology/Manufacturer   
+**label** Manufacturer   
+**source** FIAF Cataloguing Manual D.8.5   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ManifestationActivity](https://fiafcore.org/ontology/ManifestationActivity)   
 ####  Mastering Event   
 > **iri** https://fiafcore.org/ontology/MasteringEvent   
 **label** Mastering Event   
@@ -1793,6 +1859,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.4.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Event](https://fiafcore.org/ontology/Event)   
+####  Publisher   
+> **iri** https://fiafcore.org/ontology/Publisher   
+**label** Publisher   
+**source** FIAF Cataloguing Manual D.8.4   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ManifestationActivity](https://fiafcore.org/ontology/ManifestationActivity)   
 ####  Puppet Activity   
 > **iri** https://fiafcore.org/ontology/PuppetActivity   
 **label** Puppet Activity   
