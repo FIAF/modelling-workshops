@@ -60,7 +60,7 @@ fiaf:8K a owl:NamedIndividual,
 fiaf:AbridgedCondensed a owl:NamedIndividual,
         fiaf:VariantType ;
     rdfs:label "Abridged/Condensed"@en ;
-    dc:source "FIAF Cataloguing Manual D.2"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
 
 fiaf:Accessioned a owl:NamedIndividual,
         fiaf:Status ;
@@ -210,7 +210,7 @@ fiaf:AssociateProducer a owl:Class ;
 fiaf:Augmented a owl:NamedIndividual,
         fiaf:VariantType ;
     rdfs:label "Augmented"@en ;
-    dc:source "FIAF Cataloguing Manual D.2"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
 
 fiaf:AwardsOrNominationsEvent a owl:Class ;
     rdfs:label "Award(s) or Nomination(s) Event"@en ;
@@ -244,7 +244,7 @@ fiaf:BestBoy a owl:Class ;
 fiaf:BlackAndWhiteCopyOfWorkOriginallyIssuedInColour a owl:NamedIndividual,
         fiaf:VariantType ;
     rdfs:label "Black and white copy of work originally issued in colour"@en ;
-    dc:source "FIAF Cataloguing Manual D.2"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
 
 fiaf:BoomOperator a owl:Class ;
     rdfs:label "Boom Operator"@en ;
@@ -299,7 +299,7 @@ fiaf:CastingEvent a owl:Class ;
 fiaf:Censored a owl:NamedIndividual,
         fiaf:VariantType ;
     rdfs:label "Censored"@en ;
-    dc:source "FIAF Cataloguing Manual D.2"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
 
 fiaf:Censorship a owl:Class ;
     rdfs:label "Approved"@en,
@@ -371,7 +371,7 @@ fiaf:ColorTimer a owl:Class ;
 fiaf:Colourized a owl:NamedIndividual,
         fiaf:VariantType ;
     rdfs:label "Colourized"@en ;
-    dc:source "FIAF Cataloguing Manual D.2"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
 
 fiaf:Compilation a owl:NamedIndividual,
         fiaf:Form ;
@@ -493,7 +493,7 @@ fiaf:DialogueEditor a owl:Class ;
 fiaf:DifferentSoundTrack a owl:NamedIndividual,
         fiaf:VariantType ;
     rdfs:label "Different sound track"@en ;
-    dc:source "FIAF Cataloguing Manual D.2"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
 
 fiaf:DigitisationEvent a owl:Class ;
     rdfs:label "Digitisation Event"@en ;
@@ -575,7 +575,7 @@ fiaf:Double a owl:Class ;
 fiaf:Dubbed a owl:NamedIndividual,
         fiaf:VariantType ;
     rdfs:label "Dubbed"@en ;
-    dc:source "FIAF Cataloguing Manual D.2"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
 
 fiaf:DubbingDirector a owl:Class ;
     rdfs:label "Dubbing Director"@en ;
@@ -1153,7 +1153,7 @@ fiaf:Presenter a owl:Class ;
 fiaf:PreservationRestoration a owl:NamedIndividual,
         fiaf:VariantType ;
     rdfs:label "Preservation/Restoration"@en ;
-    dc:source "FIAF Cataloguing Manual D.2"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
 
 fiaf:PreservationRestorationManifestation a owl:Class ;
     rdfs:label "Preservation/Restoration Manifestation"@en ;
@@ -1434,7 +1434,7 @@ fiaf:SongComposer a owl:Class ;
 fiaf:Sonorized a owl:NamedIndividual,
         fiaf:VariantType ;
     rdfs:label "Sonorized"@en ;
-    dc:source "FIAF Cataloguing Manual D.2"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
 
 fiaf:Sony a owl:Class ;
     rdfs:label "Sony"@en ;
@@ -1556,7 +1556,7 @@ fiaf:StuntMan a owl:Class ;
 fiaf:Subtitled a owl:NamedIndividual,
         fiaf:VariantType ;
     rdfs:label "Subtitled"@en ;
-    dc:source "FIAF Cataloguing Manual D.2"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
 
 fiaf:Subtitles a owl:Class ;
     rdfs:label "Subtitles"@en ;
