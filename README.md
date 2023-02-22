@@ -6,12 +6,78 @@ These will take place weekly, starting Thursday 12th of January at 5pm CET and  
 Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdataweb.org/webvowl-old/webvowl-old.html#iri=https://raw.githubusercontent.com/FIAF/modelling-workshops/main/ontology.ttl)]
 
 ## Classes   
+####  16mm Film   
+> **iri** https://fiafcore.org/ontology/16mmFilm   
+**label** 16mm Film   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Film](https://fiafcore.org/ontology/Film)   
+####  16mm magnetic track   
+> **iri** https://fiafcore.org/ontology/16mmMagneticTrack   
+**label** 16mm magnetic track   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Audio](https://fiafcore.org/ontology/Audio)   
+####  17.5mm Film   
+> **iri** https://fiafcore.org/ontology/17.5mmFilm   
+**label** 17.5mm Film   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Film](https://fiafcore.org/ontology/Film)   
+####  1-inch C Format   
+> **iri** https://fiafcore.org/ontology/1InchCFormat   
+**label** 1-inch C Format   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Video](https://fiafcore.org/ontology/Video)   
+####  2-inch Quadruplex   
+> **iri** https://fiafcore.org/ontology/2InchQuadruplex   
+**label** 2-inch Quadruplex   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Video](https://fiafcore.org/ontology/Video)   
+####  35mm Film   
+> **iri** https://fiafcore.org/ontology/35mmFilm   
+**label** 35mm Film   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Film](https://fiafcore.org/ontology/Film)   
+####  35mm magnetic track   
+> **iri** https://fiafcore.org/ontology/35mmMagneticTrack   
+**label** 35mm magnetic track   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Audio](https://fiafcore.org/ontology/Audio)   
 ####  3M   
 > **iri** https://fiafcore.org/ontology/3M   
 **label** 3M   
 **source** FIAF Cataloguing Manual D.7.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  70mm Film   
+> **iri** https://fiafcore.org/ontology/70mmFilm   
+**label** 70mm Film   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Film](https://fiafcore.org/ontology/Film)   
+####  8mm Film   
+> **iri** https://fiafcore.org/ontology/8mmFilm   
+**label** 8mm Film   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Film](https://fiafcore.org/ontology/Film)   
+####  9.5mm Film   
+> **iri** https://fiafcore.org/ontology/9.5mmFilm   
+**label** 9.5mm Film   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Film](https://fiafcore.org/ontology/Film)   
+####  AVI   
+> **iri** https://fiafcore.org/ontology/AVI   
+**label** AVI   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:DigitalFile](https://fiafcore.org/ontology/DigitalFile)   
 ####  Acquisition Event   
 > **iri** https://fiafcore.org/ontology/AcquisitionEvent   
 **label** Acquisition Event   
@@ -172,6 +238,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.2.6   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProducingActivity](https://fiafcore.org/ontology/ProducingActivity)   
+####  Audio   
+> **iri** https://fiafcore.org/ontology/Audio   
+**label** Audio   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Format](https://fiafcore.org/ontology/Format)   
+####  Audiocassette   
+> **iri** https://fiafcore.org/ontology/Audiocassette   
+**label** Audiocassette   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Audio](https://fiafcore.org/ontology/Audio)   
 ####  Award(s) or Nomination(s) Event   
 > **iri** https://fiafcore.org/ontology/AwardsOrNominationsEvent   
 **label** Award(s) or Nomination(s) Event   
@@ -207,6 +285,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.5.12   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CinematographyActivity](https://fiafcore.org/ontology/CinematographyActivity)   
+####  Betacam SP   
+> **iri** https://fiafcore.org/ontology/BetacamSP   
+**label** Betacam SP   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Video](https://fiafcore.org/ontology/Video)   
 ####  Black and White   
 > **iri** https://fiafcore.org/ontology/BlackAndWhite   
 **label** Black and White   
@@ -231,6 +315,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.11   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ColourCharacteristic](https://fiafcore.org/ontology/ColourCharacteristic)   
+####  Blu-Ray   
+> **iri** https://fiafcore.org/ontology/BluRay   
+**label** Blu-Ray   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Optical](https://fiafcore.org/ontology/Optical)   
 ####  Boom Operator   
 > **iri** https://fiafcore.org/ontology/BoomOperator   
 **label** Boom Operator   
@@ -260,6 +350,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Broadcast Standard   
 **source** FIAF Cataloguing Manual 3.1.5.10   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+####  CD   
+> **iri** https://fiafcore.org/ontology/CD   
+**label** CD   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Optical](https://fiafcore.org/ontology/Optical)   
 ####  Camera, Camera Operator, Cameraman   
 > **iri** https://fiafcore.org/ontology/CameraOperator   
 **label** Camera, Camera Operator, Cameraman   
@@ -492,6 +588,36 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.5.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CinematographyActivity](https://fiafcore.org/ontology/CinematographyActivity)   
+####  D1   
+> **iri** https://fiafcore.org/ontology/D1   
+**label** D1   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Video](https://fiafcore.org/ontology/Video)   
+####  D5   
+> **iri** https://fiafcore.org/ontology/D5   
+**label** D5   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Video](https://fiafcore.org/ontology/Video)   
+####  DPX   
+> **iri** https://fiafcore.org/ontology/DPX   
+**label** DPX   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:DigitalFile](https://fiafcore.org/ontology/DigitalFile)   
+####  DVCPRO HD   
+> **iri** https://fiafcore.org/ontology/DVCPROHD   
+**label** DVCPRO HD   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Video](https://fiafcore.org/ontology/Video)   
+####  DVD   
+> **iri** https://fiafcore.org/ontology/DVD   
+**label** DVD   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Optical](https://fiafcore.org/ontology/Optical)   
 ####  Danced, Dancer   
 > **iri** https://fiafcore.org/ontology/Dancer   
 **label** Danced, Dancer   
@@ -522,6 +648,24 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.6   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:LanguageUsage](https://fiafcore.org/ontology/LanguageUsage)   
+####  Digital Betacam   
+> **iri** https://fiafcore.org/ontology/DigitalBetacam   
+**label** Digital Betacam   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Video](https://fiafcore.org/ontology/Video)   
+####  Digital File   
+> **iri** https://fiafcore.org/ontology/DigitalFile   
+**label** Digital File   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Format](https://fiafcore.org/ontology/Format)   
+####  Digital File Encoding   
+> **iri** https://fiafcore.org/ontology/DigitalFileEncoding   
+**label** Digital File Encoding   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Format](https://fiafcore.org/ontology/Format)   
 ####  Digital Tape   
 > **iri** https://fiafcore.org/ontology/DigitalTape   
 **label** Digital Tape   
@@ -718,6 +862,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.6   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Extent](https://fiafcore.org/ontology/Extent)   
+####  Film   
+> **iri** https://fiafcore.org/ontology/Film   
+**label** Film   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Format](https://fiafcore.org/ontology/Format)   
 ####  Edited, Editing, Editor, Film Editor, Picture Editor, Supervising Editor   
 > **iri** https://fiafcore.org/ontology/FilmEditor   
 **label** Edited, Editing, Editor, Film Editor, Picture Editor, Supervising Editor   
@@ -746,6 +896,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 > **iri** https://fiafcore.org/ontology/Form   
 **label** Form   
 **source** FIAF Glossary of Filmographic Terms D.1.1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+####  Format   
+> **iri** https://fiafcore.org/ontology/Format   
+**label** Format   
+**source** FIAF Cataloguing Manual 2.3.4.1, 3.1.5.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 ####  Fuji   
 > **iri** https://fiafcore.org/ontology/Fuji   
@@ -777,12 +932,24 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.6.11   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProductionDesignActivity](https://fiafcore.org/ontology/ProductionDesignActivity)   
+####  HDCAM SR   
+> **iri** https://fiafcore.org/ontology/HDCAMSR   
+**label** HDCAM SR   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Video](https://fiafcore.org/ontology/Video)   
 ####  Hair Stylist, Hairdresser   
 > **iri** https://fiafcore.org/ontology/Hairdresser   
 **label** Hair Stylist, Hairdresser   
 **source** FIAF Glossary of Filmographic Terms B.6.20   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProductionDesignActivity](https://fiafcore.org/ontology/ProductionDesignActivity)   
+####  1/2-inch Audioreel   
+> **iri** https://fiafcore.org/ontology/HalfInchAudioReel   
+**label** 1/2-inch Audioreel   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Audio](https://fiafcore.org/ontology/Audio)   
 ####  Hitachi   
 > **iri** https://fiafcore.org/ontology/Hitachi   
 **label** Hitachi   
@@ -912,6 +1079,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.6   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:LanguageUsage](https://fiafcore.org/ontology/LanguageUsage)   
+####  Laser Disc   
+> **iri** https://fiafcore.org/ontology/LaserDisc   
+**label** Laser Disc   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Optical](https://fiafcore.org/ontology/Optical)   
 ####  Lead Man, Lead Person, Swing Gang   
 > **iri** https://fiafcore.org/ontology/LeadMan   
 **label** Lead Man, Lead Person, Swing Gang   
@@ -959,6 +1132,30 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.6   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Extent](https://fiafcore.org/ontology/Extent)   
+####  MOV   
+> **iri** https://fiafcore.org/ontology/MOV   
+**label** MOV   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:DigitalFile](https://fiafcore.org/ontology/DigitalFile)   
+####  MP4   
+> **iri** https://fiafcore.org/ontology/MP4   
+**label** MP4   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:DigitalFile](https://fiafcore.org/ontology/DigitalFile)   
+####  MPEG-4   
+> **iri** https://fiafcore.org/ontology/MPEG4   
+**label** MPEG-4   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:DigitalFileEncoding](https://fiafcore.org/ontology/DigitalFileEncoding)   
+####  MXF   
+> **iri** https://fiafcore.org/ontology/MXF   
+**label** MXF   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:DigitalFile](https://fiafcore.org/ontology/DigitalFile)   
 ####  Make-Up, Make-Up Artist   
 > **iri** https://fiafcore.org/ontology/MakeUpArtist   
 **label** Make-Up, Make-Up Artist   
@@ -1144,12 +1341,24 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.15.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:AcquisitionEvent](https://fiafcore.org/ontology/AcquisitionEvent)   
+####  1-inch Audioreel   
+> **iri** https://fiafcore.org/ontology/OneInchAudioReel   
+**label** 1-inch Audioreel   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Audio](https://fiafcore.org/ontology/Audio)   
 ####  Online Transmission Event   
 > **iri** https://fiafcore.org/ontology/OnlineTransmissionEvent   
 **label** Online Transmission Event   
 **source** FIAF Cataloguing Manual D.10   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:PublicationEvent](https://fiafcore.org/ontology/PublicationEvent)   
+####  Optical   
+> **iri** https://fiafcore.org/ontology/Optical   
+**label** Optical   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Format](https://fiafcore.org/ontology/Format)   
 ####  Oracle   
 > **iri** https://fiafcore.org/ontology/Oracle   
 **label** Oracle   
@@ -1348,12 +1557,30 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.8.6   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:SpecialEffectsActivity](https://fiafcore.org/ontology/SpecialEffectsActivity)   
+####  1/4-inch Audioreel   
+> **iri** https://fiafcore.org/ontology/QuarterInchAudioReel   
+**label** 1/4-inch Audioreel   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Audio](https://fiafcore.org/ontology/Audio)   
+####  Quicktime   
+> **iri** https://fiafcore.org/ontology/Quicktime   
+**label** Quicktime   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:DigitalFileEncoding](https://fiafcore.org/ontology/DigitalFileEncoding)   
 ####  Rating Event   
 > **iri** https://fiafcore.org/ontology/RatingEvent   
 **label** Rating Event   
 **source** FIAF Cataloguing Manual D.13   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:DecisionEvent](https://fiafcore.org/ontology/DecisionEvent)   
+####  Real Video   
+> **iri** https://fiafcore.org/ontology/RealVideo   
+**label** Real Video   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:DigitalFileEncoding](https://fiafcore.org/ontology/DigitalFileEncoding)   
 ####  Reel   
 > **iri** https://fiafcore.org/ontology/Reel   
 **label** Reel   
@@ -1413,6 +1640,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.8.9   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:SpecialEffectsActivity](https://fiafcore.org/ontology/SpecialEffectsActivity)   
+####  SVCD   
+> **iri** https://fiafcore.org/ontology/SVCD   
+**label** SVCD   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:DigitalFileEncoding](https://fiafcore.org/ontology/DigitalFileEncoding)   
 ####  Scanning Event   
 > **iri** https://fiafcore.org/ontology/ScanningEvent   
 **label** Scanning Event   
@@ -1673,6 +1906,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.6   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:DialogueLanguages](https://fiafcore.org/ontology/DialogueLanguages)   
+####  Super16mm Film   
+> **iri** https://fiafcore.org/ontology/Super16mmFilm   
+**label** Super16mm Film   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Film](https://fiafcore.org/ontology/Film)   
+####  Super8mm Film   
+> **iri** https://fiafcore.org/ontology/Super8mmFilm   
+**label** Super8mm Film   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Film](https://fiafcore.org/ontology/Film)   
 ####  Key Animator, Lead Animator, Supervising Animator   
 > **iri** https://fiafcore.org/ontology/SupervisingAnimator   
 **label** Key Animator, Lead Animator, Supervising Animator   
@@ -1756,6 +2001,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.2.13   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProducingActivity](https://fiafcore.org/ontology/ProducingActivity)   
+####  2-inch Audioreel   
+> **iri** https://fiafcore.org/ontology/TwoInchAudioReel   
+**label** 2-inch Audioreel   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Audio](https://fiafcore.org/ontology/Audio)   
 ####  Underwater Cameraman, Underwater Photography, Underwater Sequences   
 > **iri** https://fiafcore.org/ontology/UnderwaterCameraman   
 **label** Underwater Cameraman, Underwater Photography, Underwater Sequences   
@@ -1786,6 +2037,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.14   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ManufactureEvent](https://fiafcore.org/ontology/ManufactureEvent)   
+####  VCD   
+> **iri** https://fiafcore.org/ontology/VCD   
+**label** VCD   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:DigitalFileEncoding](https://fiafcore.org/ontology/DigitalFileEncoding)   
 ####  VIAF Identifier   
 > **iri** https://fiafcore.org/ontology/VIAFIdentifier   
 **label** VIAF Identifier   
@@ -1803,6 +2060,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  Video   
+> **iri** https://fiafcore.org/ontology/Video   
+**label** Video   
+**source** FIAF Cataloguing Manual D.7.2, FIAF Cataloguing Manual D.7.7   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class), [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
+**subclass of** [fiaf:Format](https://fiafcore.org/ontology/Format)   
 ####  Video Assist, Video Assist Operator   
 > **iri** https://fiafcore.org/ontology/VideoAssistOperator   
 **label** Video Assist, Video Assist Operator   
@@ -1845,6 +2108,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual 1.3.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Identifier](https://fiafcore.org/ontology/Identifier)   
+####  WindowsMedia   
+> **iri** https://fiafcore.org/ontology/WindowsMedia   
+**label** WindowsMedia   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:DigitalFileEncoding](https://fiafcore.org/ontology/DigitalFileEncoding)   
 ####  Work/Variant   
 > **iri** https://fiafcore.org/ontology/WorkVariant   
 **label** Work/Variant   
@@ -2213,8 +2482,9 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 ####  Video   
 > **iri** https://fiafcore.org/ontology/Video   
 **label** Video   
-**source** FIAF Cataloguing Manual D.7.7   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
+**source** FIAF Cataloguing Manual D.7.2, FIAF Cataloguing Manual D.7.7   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class), [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
+**subclass of** [fiaf:Format](https://fiafcore.org/ontology/Format)   
 ####  Viewing   
 > **iri** https://fiafcore.org/ontology/Viewing   
 **label** Viewing   
