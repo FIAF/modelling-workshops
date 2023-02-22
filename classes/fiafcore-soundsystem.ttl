@@ -17,7 +17,7 @@
 
 # Subclasses
 
-<https://fiafcore.org/ontology/Dolby SR> a owl:Class ;
+<https://fiafcore.org/ontology/DolbySR> a owl:Class ;
     rdfs:label "Dolby SR"@en ;
     dc:source "FIAF Cataloguing Manual D.7.13"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundSystem .
