@@ -19,12 +19,12 @@
 
 <https://fiafcore.org/ontology/NTSC> a owl:NamedIndividual, fiaf:BroadcastStandard ;
     rdfs:label "NTSC"@en ;
-    dc:source "FIAF Cataloguing Manual 3.1.5.10"^^<string> .
+    dc:source "FIAF Cataloguing Manual 3.1.5.10"^^xsd:string .
 
 <https://fiafcore.org/ontology/PAL> a owl:NamedIndividual, fiaf:BroadcastStandard ;
     rdfs:label "PAL"@en ;
-    dc:source "FIAF Cataloguing Manual 3.1.5.10"^^<string> .
+    dc:source "FIAF Cataloguing Manual 3.1.5.10"^^xsd:string .
 
 <https://fiafcore.org/ontology/SECAM> a owl:NamedIndividual, fiaf:BroadcastStandard ;
     rdfs:label "SECAM"@en ;
-    dc:source "FIAF Cataloguing Manual 3.1.5.10"^^<string> .
+    dc:source "FIAF Cataloguing Manual 3.1.5.10"^^xsd:string .
