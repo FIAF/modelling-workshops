@@ -1,0 +1,103 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix fiaf: <https://fiafcore.org/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Ontology
+
+<https://fiafcore.org/ontology/> a owl:Ontology ;
+    dc:title "FIAFcore" .
+
+# Class
+
+<https://fiafcore.org/ontology/ImageCharacteristic> a owl:Class ;
+    rdfs:label "Image Characteristic"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.4.2, 3.1.5.9"^^xsd:string .
+
+# Subclasses
+
+<https://fiafcore.org/ontology/ImageRatio> a owl:Class ;
+    rdfs:label "Image Ratio"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.14"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageCharacteristic .
+
+<https://fiafcore.org/ontology/2.34:1> a owl:Class ;
+    rdfs:label "2.34:1"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.14"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageRatio .
+
+<https://fiafcore.org/ontology/2.39:1> a owl:Class ;
+    rdfs:label "2.39:1"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.14"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageRatio .
+
+<https://fiafcore.org/ontology/2.52:1> a owl:Class ;
+    rdfs:label "2.52:1"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.14"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageRatio .
+
+<https://fiafcore.org/ontology/2.7:1> a owl:Class ;
+    rdfs:label "2.7:1"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.14"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageRatio .
+
+<https://fiafcore.org/ontology/4:3> a owl:Class ;
+    rdfs:label "4:3"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.14"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageRatio .
+
+<https://fiafcore.org/ontology/ImageFormat> a owl:Class ;
+    rdfs:label "Image Format"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.15"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageCharacteristic .
+
+<https://fiafcore.org/ontology/Academy> a owl:Class ;
+    rdfs:label "Academy"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.15"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageFormat .
+
+<https://fiafcore.org/ontology/FullHeight> a owl:Class ;
+    rdfs:label "Full Height"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.15"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageFormat .
+
+<https://fiafcore.org/ontology/FullScreen> a owl:Class ;
+    rdfs:label "Full Screen"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.15"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageFormat .
+
+<https://fiafcore.org/ontology/Flat> a owl:Class ;
+    rdfs:label "Flat"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.15"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageFormat .
+
+<https://fiafcore.org/ontology/Anamorphic> a owl:Class ;
+    rdfs:label "Anamorphic"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.15"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageFormat .
+
+<https://fiafcore.org/ontology/3D> a owl:Class ;
+    rdfs:label "3D"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.15"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageFormat .
+
+<https://fiafcore.org/ontology/PanAndScan> a owl:Class ;
+    rdfs:label "Pan and Scan"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.15"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageFormat .
+
+<https://fiafcore.org/ontology/Pillarbox> a owl:Class ;
+    rdfs:label "Pillarbox"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.15"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageFormat .
+
+<https://fiafcore.org/ontology/Letterbox> a owl:Class ;
+    rdfs:label "Letterbox"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.15"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageFormat .
+
+<https://fiafcore.org/ontology/Windowbox> a owl:Class ;
+    rdfs:label "Windowbox"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.15"^^xsd:string ;
+    rdfs:subClassOf fiaf:ImageFormat .
