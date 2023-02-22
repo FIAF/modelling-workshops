@@ -272,6 +272,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.6   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:WrittenLanguages](https://fiafcore.org/ontology/WrittenLanguages)   
+####  Cartridge   
+> **iri** https://fiafcore.org/ontology/Cartridge   
+**label** Cartridge   
+**source** FIAF Cataloguing Manual D.7.6   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Extent](https://fiafcore.org/ontology/Extent)   
+####  Cassette   
+> **iri** https://fiafcore.org/ontology/Cassette   
+**label** Cassette   
+**source** FIAF Cataloguing Manual D.7.6   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Extent](https://fiafcore.org/ontology/Extent)   
 ####  Cast, Cast of Characters, Players   
 > **iri** https://fiafcore.org/ontology/Cast   
 **label** Cast, Cast of Characters, Players   
@@ -510,6 +522,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.6   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:LanguageUsage](https://fiafcore.org/ontology/LanguageUsage)   
+####  Digital Tape   
+> **iri** https://fiafcore.org/ontology/DigitalTape   
+**label** Digital Tape   
+**source** FIAF Cataloguing Manual D.7.6   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Extent](https://fiafcore.org/ontology/Extent)   
 ####  Digitisation Event   
 > **iri** https://fiafcore.org/ontology/DigitisationEvent   
 **label** Digitisation Event   
@@ -540,6 +558,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.2.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProducingActivity](https://fiafcore.org/ontology/ProducingActivity)   
+####  Disc   
+> **iri** https://fiafcore.org/ontology/Disc   
+**label** Disc   
+**source** FIAF Cataloguing Manual D.7.6   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Extent](https://fiafcore.org/ontology/Extent)   
 ####  Distribution Event   
 > **iri** https://fiafcore.org/ontology/DistributionEvent   
 **label** Distribution Event   
@@ -659,6 +683,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.2.4   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProducingActivity](https://fiafcore.org/ontology/ProducingActivity)   
+####  Extent   
+> **iri** https://fiafcore.org/ontology/Extent   
+**label** Extent   
+**source** FIAF Cataloguing Manual 2.3.5, 3.1.5.8   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 ####  Extra   
 > **iri** https://fiafcore.org/ontology/Extra   
 **label** Extra   
@@ -671,12 +700,24 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual 1.4.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Agent](https://fiafcore.org/ontology/Agent)   
+####  Feet   
+> **iri** https://fiafcore.org/ontology/Feet   
+**label** Feet   
+**source** FIAF Cataloguing Manual 2.3.5.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Extent](https://fiafcore.org/ontology/Extent)   
 ####  Fight Arranger, Fight Master, Fights Arranged   
 > **iri** https://fiafcore.org/ontology/FightArranger   
 **label** Fight Arranger, Fight Master, Fights Arranged   
 **source** FIAF Glossary of Filmographic Terms B.3.7   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:DirectingActivity](https://fiafcore.org/ontology/DirectingActivity)   
+####  File   
+> **iri** https://fiafcore.org/ontology/File   
+**label** File   
+**source** FIAF Cataloguing Manual D.7.6   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Extent](https://fiafcore.org/ontology/Extent)   
 ####  Edited, Editing, Editor, Film Editor, Picture Editor, Supervising Editor   
 > **iri** https://fiafcore.org/ontology/FilmEditor   
 **label** Edited, Editing, Editor, Film Editor, Picture Editor, Supervising Editor   
@@ -718,6 +759,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.5.17   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CinematographyActivity](https://fiafcore.org/ontology/CinematographyActivity)   
+####  Gigabyte   
+> **iri** https://fiafcore.org/ontology/Gigabyte   
+**label** Gigabyte   
+**source** FIAF Cataloguing Manual 2.3.5.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Extent](https://fiafcore.org/ontology/Extent)   
 ####  Gowns   
 > **iri** https://fiafcore.org/ontology/Gowns   
 **label** Gowns   
@@ -754,6 +801,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.5.6   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation)   
+####  Hours   
+> **iri** https://fiafcore.org/ontology/Hours   
+**label** Hours   
+**source** FIAF Cataloguing Manual 2.3.5.3   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Extent](https://fiafcore.org/ontology/Extent)   
 ####  HP   
 > **iri** https://fiafcore.org/ontology/Hp   
 **label** HP   
@@ -818,6 +871,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.5.14   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CinematographyActivity](https://fiafcore.org/ontology/CinematographyActivity)   
+####  Kilobyte   
+> **iri** https://fiafcore.org/ontology/Kilobyte   
+**label** Kilobyte   
+**source** FIAF Cataloguing Manual 2.3.5.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Extent](https://fiafcore.org/ontology/Extent)   
 ####  Laboratory, Laboratory Services, Processing Laboratory   
 > **iri** https://fiafcore.org/ontology/Laboratory   
 **label** Laboratory, Laboratory Services, Processing Laboratory   
@@ -894,6 +953,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.2.12   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProducingActivity](https://fiafcore.org/ontology/ProducingActivity)   
+####  Loop   
+> **iri** https://fiafcore.org/ontology/Loop   
+**label** Loop   
+**source** FIAF Cataloguing Manual D.7.6   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Extent](https://fiafcore.org/ontology/Extent)   
 ####  Make-Up, Make-Up Artist   
 > **iri** https://fiafcore.org/ontology/MakeUpArtist   
 **label** Make-Up, Make-Up Artist   
@@ -935,12 +1000,30 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.8.3   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:SpecialEffectsActivity](https://fiafcore.org/ontology/SpecialEffectsActivity)   
+####  Megabyte   
+> **iri** https://fiafcore.org/ontology/Megabyte   
+**label** Megabyte   
+**source** FIAF Cataloguing Manual 2.3.5.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Extent](https://fiafcore.org/ontology/Extent)   
 ####  Memorex   
 > **iri** https://fiafcore.org/ontology/Memorex   
 **label** Memorex   
 **source** FIAF Cataloguing Manual D.7.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  Metres   
+> **iri** https://fiafcore.org/ontology/Metres   
+**label** Metres   
+**source** FIAF Cataloguing Manual 2.3.5.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Extent](https://fiafcore.org/ontology/Extent)   
+####  Minutes   
+> **iri** https://fiafcore.org/ontology/Minutes   
+**label** Minutes   
+**source** FIAF Cataloguing Manual 2.3.5.3   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Extent](https://fiafcore.org/ontology/Extent)   
 ####  Model Maker, Modeler, Modeling   
 > **iri** https://fiafcore.org/ontology/ModelMaker   
 **label** Model Maker, Modeler, Modeling   
@@ -1271,6 +1354,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.13   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:DecisionEvent](https://fiafcore.org/ontology/DecisionEvent)   
+####  Reel   
+> **iri** https://fiafcore.org/ontology/Reel   
+**label** Reel   
+**source** FIAF Cataloguing Manual D.7.6   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Extent](https://fiafcore.org/ontology/Extent)   
 ####  Release Event   
 > **iri** https://fiafcore.org/ontology/ReleaseEvent   
 **label** Release Event   
@@ -1312,6 +1401,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.4.4   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Event](https://fiafcore.org/ontology/Event)   
+####  Roll   
+> **iri** https://fiafcore.org/ontology/Roll   
+**label** Roll   
+**source** FIAF Cataloguing Manual D.7.6   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Extent](https://fiafcore.org/ontology/Extent)   
 ####  Rotoscoping   
 > **iri** https://fiafcore.org/ontology/Rotoscoping   
 **label** Rotoscoping   
@@ -1366,6 +1461,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.5.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CinematographyActivity](https://fiafcore.org/ontology/CinematographyActivity)   
+####  Seconds   
+> **iri** https://fiafcore.org/ontology/Seconds   
+**label** Seconds   
+**source** FIAF Cataloguing Manual 2.3.5.3   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Extent](https://fiafcore.org/ontology/Extent)   
 ####  Sepia   
 > **iri** https://fiafcore.org/ontology/Sepia   
 **label** Sepia   
@@ -1596,6 +1697,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.14   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ManufactureEvent](https://fiafcore.org/ontology/ManufactureEvent)   
+####  Terabyte   
+> **iri** https://fiafcore.org/ontology/Terabyte   
+**label** Terabyte   
+**source** FIAF Cataloguing Manual 2.3.5.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Extent](https://fiafcore.org/ontology/Extent)   
 ####  Theatrical Distribution   
 > **iri** https://fiafcore.org/ontology/TheatricalDistribution   
 **label** Theatrical Distribution   
@@ -2362,6 +2469,13 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **domain** [fiaf:WorkVariant](https://fiafcore.org/ontology/WorkVariant)   
 **range** [fiaf:WorkVariant](https://fiafcore.org/ontology/WorkVariant)   
 ## Datatype Properties   
+####  Has Extent Value   
+> **iri** https://fiafcore.org/ontology/hasExtentValue   
+**label** Has Extent Value   
+**source** FIAF Cataloguing Manual 2.3.5, 3.1.5.8   
+**type** [http://www.w3.org/2002/07/owl#DatatypeProperty](http://www.w3.org/2002/07/owl#DatatypeProperty)   
+**domain** [fiaf:Extent](https://fiafcore.org/ontology/Extent)   
+**range** [http://www.w3.org/2001/XMLSchema#float](http://www.w3.org/2001/XMLSchema#float)   
 ####  Has Identifier Value   
 > **iri** https://fiafcore.org/ontology/hasIdentifierValue   
 **label** Has Identifier Value   

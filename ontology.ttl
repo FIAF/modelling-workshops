@@ -303,6 +303,16 @@ fiaf:Captions a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
     rdfs:subClassOf fiaf:WrittenLanguages .
 
+fiaf:Cartridge a owl:Class ;
+    rdfs:label "Cartridge"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:Extent .
+
+fiaf:Cassette a owl:Class ;
+    rdfs:label "Cassette"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:Extent .
+
 fiaf:Cast a owl:Class ;
     rdfs:label "Cast"@en,
         "Cast of Characters"@en,
@@ -530,6 +540,11 @@ fiaf:DifferentSoundTrack a owl:NamedIndividual,
     rdfs:label "Different sound track"@en ;
     dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
 
+fiaf:DigitalTape a owl:Class ;
+    rdfs:label "Digital Tape"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:Extent .
+
 fiaf:DigitisationEvent a owl:Class ;
     rdfs:label "Digitisation Event"@en ;
     dc:source "FIAF Cataloguing Manual D.12"^^xsd:string ;
@@ -555,6 +570,11 @@ fiaf:DirectorofPublicity a owl:Class ;
         "Unit Publicist"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.2.16"^^xsd:string ;
     rdfs:subClassOf fiaf:ProducingActivity .
+
+fiaf:Disc a owl:Class ;
+    rdfs:label "Disc"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:Extent .
 
 fiaf:DistributionEvent a owl:Class ;
     rdfs:label "Distribution Event"@en ;
@@ -698,6 +718,11 @@ fiaf:Featurette a owl:NamedIndividual,
         "Making Of"@en ;
     dc:source "FIAF Glossary of Filmographic Terms D.1.8"^^xsd:string .
 
+fiaf:Feet a owl:Class ;
+    rdfs:label "Feet"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.5.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:Extent .
+
 fiaf:Ferraniacolor a owl:NamedIndividual,
         fiaf:ColourStandard ;
     rdfs:label "Ferraniacolor"@en ;
@@ -709,6 +734,11 @@ fiaf:FightArranger a owl:Class ;
         "Fights Arranged"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.3.7"^^xsd:string ;
     rdfs:subClassOf fiaf:DirectingActivity .
+
+fiaf:File a owl:Class ;
+    rdfs:label "File"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:Extent .
 
 fiaf:FilmEditor a owl:Class ;
     rdfs:label "Edited"@en,
@@ -752,6 +782,11 @@ fiaf:GeneratorOperator a owl:Class ;
         "Genny Operator"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.5.17"^^xsd:string ;
     rdfs:subClassOf fiaf:CinematographyActivity .
+
+fiaf:Gigabyte a owl:Class ;
+    rdfs:label "Gigabyte"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.5.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:Extent .
 
 fiaf:Gowns a owl:Class ;
     rdfs:label "Gowns"@en ;
@@ -800,6 +835,11 @@ fiaf:HomeViewingPublicationManifestation a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.5.6"^^xsd:string ;
     rdfs:subClassOf fiaf:Manifestation .
 
+fiaf:Hours a owl:Class ;
+    rdfs:label "Hours"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.5.3"^^xsd:string ;
+    rdfs:subClassOf fiaf:Extent .
+
 fiaf:Hp a owl:Class ;
     rdfs:label "HP"@en ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
@@ -846,6 +886,11 @@ fiaf:KeyGrip a owl:Class ;
         "Key Grip"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.5.14"^^xsd:string ;
     rdfs:subClassOf fiaf:CinematographyActivity .
+
+fiaf:Kilobyte a owl:Class ;
+    rdfs:label "Kilobyte"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.5.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:Extent .
 
 fiaf:Kinemacolor a owl:NamedIndividual,
         fiaf:ColourStandard ;
@@ -914,6 +959,11 @@ fiaf:LocationManager a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.2.12"^^xsd:string ;
     rdfs:subClassOf fiaf:ProducingActivity .
 
+fiaf:Loop a owl:Class ;
+    rdfs:label "Loop"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:Extent .
+
 fiaf:MainlyNitrate a owl:NamedIndividual,
         fiaf:Base ;
     rdfs:label "Mainly nitrate"@en ;
@@ -958,10 +1008,25 @@ fiaf:MechanicalEffects a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.8.3"^^xsd:string ;
     rdfs:subClassOf fiaf:SpecialEffectsActivity .
 
+fiaf:Megabyte a owl:Class ;
+    rdfs:label "Megabyte"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.5.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:Extent .
+
 fiaf:Memorex a owl:Class ;
     rdfs:label "Memorex"@en ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
+
+fiaf:Metres a owl:Class ;
+    rdfs:label "Metres"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.5.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:Extent .
+
+fiaf:Minutes a owl:Class ;
+    rdfs:label "Minutes"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.5.3"^^xsd:string ;
+    rdfs:subClassOf fiaf:Extent .
 
 fiaf:Mixed a owl:NamedIndividual,
         fiaf:Base ;
@@ -1324,6 +1389,11 @@ fiaf:RatingEvent a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.13"^^xsd:string ;
     rdfs:subClassOf fiaf:DecisionEvent .
 
+fiaf:Reel a owl:Class ;
+    rdfs:label "Reel"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:Extent .
+
 fiaf:ReleaseEvent a owl:Class ;
     rdfs:label "Release Event"@en ;
     dc:source "FIAF Cataloguing Manual D.10"^^xsd:string ;
@@ -1361,6 +1431,11 @@ fiaf:RightsCopyrightRegistrationEvent a owl:Class ;
     rdfs:label "Rights/Copyright/Registration Event"@en ;
     dc:source "FIAF Cataloguing Manual D.4.4"^^xsd:string ;
     rdfs:subClassOf fiaf:Event .
+
+fiaf:Roll a owl:Class ;
+    rdfs:label "Roll"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:Extent .
 
 fiaf:Rotoscoping a owl:Class ;
     rdfs:label "Rotoscoping"@en ;
@@ -1427,6 +1502,11 @@ fiaf:SecondUnitDirectorofPhotography a owl:Class ;
         "Second Unit Photography"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.5.2"^^xsd:string ;
     rdfs:subClassOf fiaf:CinematographyActivity .
+
+fiaf:Seconds a owl:Class ;
+    rdfs:label "Seconds"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.5.3"^^xsd:string ;
+    rdfs:subClassOf fiaf:Extent .
 
 fiaf:Sepia a owl:Class ;
     rdfs:label "Sepia"@en ;
@@ -1669,6 +1749,11 @@ fiaf:TelecineEvent a owl:Class ;
     rdfs:label "Telecine Event"@en ;
     dc:source "FIAF Cataloguing Manual D.14"^^xsd:string ;
     rdfs:subClassOf fiaf:ManufactureEvent .
+
+fiaf:Terabyte a owl:Class ;
+    rdfs:label "Terabyte"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.5.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:Extent .
 
 fiaf:TheatricalDistribution a owl:Class ;
     rdfs:label "Theatrical Distribution"@en ;
@@ -1913,6 +1998,12 @@ fiaf:hasExtent a owl:ObjectProperty ;
     rdfs:domain fiaf:Item,
         fiaf:Manifestation ;
     rdfs:range fiaf:Extent .
+
+fiaf:hasExtentValue a owl:DatatypeProperty ;
+    rdfs:label "Has Extent Value"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.5, 3.1.5.8"^^xsd:string ;
+    rdfs:domain fiaf:Extent ;
+    rdfs:range xsd:float .
 
 fiaf:hasForm a owl:ObjectProperty ;
     rdfs:label "Has Form"@en ;
@@ -2262,6 +2353,10 @@ fiaf:WorkVariant a owl:Class ;
     rdfs:label "Work/Variant"@en ;
     dc:description "A moving image Work comprises both the intellectual or artistic content and the process of realisation in a cinematographic medium, e.g., what it is called, when it was made, who made it, who was in it, what it is about, etc."@en ;
     dc:source "FIAF Cataloguing Manual 1.0"^^xsd:string .
+
+fiaf:Extent a owl:Class ;
+    rdfs:label "Extent"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.5, 3.1.5.8"^^xsd:string .
 
 fiaf:CinematographyActivity a owl:Class ;
     rdfs:label "Cinematography Activity"@en ;
