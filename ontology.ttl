@@ -19,7 +19,7 @@ fiaf:2K a owl:NamedIndividual,
 
 fiaf:3M a owl:Class ;
     rdfs:label "3M"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.16"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
 fiaf:405 a owl:NamedIndividual,
@@ -98,17 +98,17 @@ fiaf:AerialCameraman a owl:Class ;
 
 fiaf:Agfa a owl:Class ;
     rdfs:label "Agfa"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.16"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
 fiaf:AgfaGavaert a owl:Class ;
     rdfs:label "Agfa Gavaert"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.16"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
 fiaf:Akai a owl:Class ;
     rdfs:label "Akai"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.16"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
 fiaf:AlternativeTitle a owl:Class ;
@@ -123,7 +123,7 @@ fiaf:AmateurFilm a owl:NamedIndividual,
 
 fiaf:Ampex a owl:Class ;
     rdfs:label "Ampex"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.16"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
 fiaf:Analytic a owl:Class ;
@@ -160,7 +160,7 @@ fiaf:Animatronics a owl:Class ;
 
 fiaf:Ansco a owl:Class ;
     rdfs:label "Ansco"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.16"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
 fiaf:Armorer a owl:Class ;
@@ -231,7 +231,7 @@ fiaf:BasedonanIdea a owl:Class ;
 
 fiaf:Basf a owl:Class ;
     rdfs:label "BASF"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.16"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
 fiaf:BestBoy a owl:Class ;
@@ -253,7 +253,7 @@ fiaf:BoomOperator a owl:Class ;
 
 fiaf:Brifco a owl:Class ;
     rdfs:label "Brifco"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.16"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
 fiaf:BroadcastEvent a owl:Class ;
@@ -607,7 +607,7 @@ fiaf:EIDRIdentifier a owl:Class ;
 
 fiaf:EastmanKodak a owl:Class ;
     rdfs:label "Eastman Kodak"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.16"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
 fiaf:Electrician a owl:Class ;
@@ -694,7 +694,7 @@ fiaf:Foley a owl:Class ;
 
 fiaf:Fuji a owl:Class ;
     rdfs:label "Fuji"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.16"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
 fiaf:GeneratorOperator a owl:Class ;
@@ -732,7 +732,7 @@ fiaf:HighDefinition a owl:NamedIndividual,
 
 fiaf:Hitachi a owl:Class ;
     rdfs:label "Hitachi"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.16"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
 fiaf:HomeMovie a owl:NamedIndividual,
@@ -752,7 +752,7 @@ fiaf:HomeViewingPublicationManifestation a owl:Class ;
 
 fiaf:Hp a owl:Class ;
     rdfs:label "HP"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.16"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
 fiaf:IdentifiyingTitle a owl:Class ;
@@ -889,7 +889,7 @@ fiaf:Matte a owl:Class ;
 
 fiaf:Maxell a owl:Class ;
     rdfs:label "Maxell"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.16"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
 fiaf:MechanicalEffects a owl:Class ;
@@ -900,7 +900,7 @@ fiaf:MechanicalEffects a owl:Class ;
 
 fiaf:Memorex a owl:Class ;
     rdfs:label "Memorex"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.16"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
 fiaf:Mixed a owl:NamedIndividual,
@@ -1066,7 +1066,7 @@ fiaf:OnlineTransmissionEvent a owl:Class ;
 
 fiaf:Oracle a owl:Class ;
     rdfs:label "Oracle"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.16"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
 fiaf:OriginalSource a owl:Class ;
@@ -1111,7 +1111,7 @@ fiaf:PersonGroup a owl:Class ;
 
 fiaf:Philips a owl:Class ;
     rdfs:label "Philips"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.16"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
 fiaf:Polyester a owl:NamedIndividual,
@@ -1319,7 +1319,7 @@ fiaf:ScenicArtist a owl:Class ;
 
 fiaf:Scotch a owl:Class ;
     rdfs:label "Scotch"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.16"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
 fiaf:ScreenTest a owl:NamedIndividual,
@@ -1344,7 +1344,7 @@ fiaf:ScriptSupervisor a owl:Class ;
 
 fiaf:Seagate a owl:Class ;
     rdfs:label "Seagate"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.16"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
 fiaf:SecondUnitDirector a owl:Class ;
@@ -1399,7 +1399,7 @@ fiaf:SetDesigner a owl:Class ;
 
 fiaf:Shamrock a owl:Class ;
     rdfs:label "Shamrock"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.16"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
 fiaf:Short a owl:NamedIndividual,
@@ -1438,7 +1438,7 @@ fiaf:Sonorized a owl:NamedIndividual,
 
 fiaf:Sony a owl:Class ;
     rdfs:label "Sony"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.16"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
 fiaf:SoundDesigner a owl:Class ;
@@ -1615,7 +1615,7 @@ fiaf:TitleProper a owl:Class ;
 
 fiaf:Toshiba a owl:Class ;
     rdfs:label "Toshiba"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.16"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
 fiaf:Trailer a owl:NamedIndividual,
@@ -1680,7 +1680,7 @@ fiaf:VT20 a owl:NamedIndividual,
 
 fiaf:Verbatim a owl:Class ;
     rdfs:label "Verbatim"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.16"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
 fiaf:Video a owl:NamedIndividual,
@@ -1733,7 +1733,7 @@ fiaf:WardrobeSupervisor a owl:Class ;
 
 fiaf:WesternDigital a owl:Class ;
     rdfs:label "Western Digital"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.16"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> ;
+    dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
 fiaf:WikidataIdentifier a owl:Class ;
