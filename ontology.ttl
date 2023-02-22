@@ -163,10 +163,10 @@ fiaf:Ansco a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
-fiaf:Anscocolor a owl:Class ;
+fiaf:Anscocolor a owl:NamedIndividual,
+        fiaf:ColourStandard ;
     rdfs:label "Anscocolor"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
-    rdfs:subClassOf fiaf:ColourStandard .
+    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string .
 
 fiaf:Armorer a owl:Class ;
     rdfs:label "Armorer"@en ;
@@ -645,10 +645,10 @@ fiaf:EastmanKodak a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
-fiaf:Eastmancolor a owl:Class ;
+fiaf:Eastmancolor a owl:NamedIndividual,
+        fiaf:ColourStandard ;
     rdfs:label "Eastmancolor"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
-    rdfs:subClassOf fiaf:ColourStandard .
+    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string .
 
 fiaf:Electrician a owl:Class ;
     rdfs:label "Electrician"@en,
@@ -698,10 +698,10 @@ fiaf:Featurette a owl:NamedIndividual,
         "Making Of"@en ;
     dc:source "FIAF Glossary of Filmographic Terms D.1.8"^^xsd:string .
 
-fiaf:Ferraniacolor a owl:Class ;
+fiaf:Ferraniacolor a owl:NamedIndividual,
+        fiaf:ColourStandard ;
     rdfs:label "Ferraniacolor"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
-    rdfs:subClassOf fiaf:ColourStandard .
+    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string .
 
 fiaf:FightArranger a owl:Class ;
     rdfs:label "Fight Arranger"@en,
@@ -742,10 +742,10 @@ fiaf:Fuji a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
-fiaf:Fujicolor a owl:Class ;
+fiaf:Fujicolor a owl:NamedIndividual,
+        fiaf:ColourStandard ;
     rdfs:label "Fujicolor"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
-    rdfs:subClassOf fiaf:ColourStandard .
+    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string .
 
 fiaf:GeneratorOperator a owl:Class ;
     rdfs:label "Generator Operator"@en,
@@ -847,15 +847,15 @@ fiaf:KeyGrip a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.5.14"^^xsd:string ;
     rdfs:subClassOf fiaf:CinematographyActivity .
 
-fiaf:Kinemacolor a owl:Class ;
+fiaf:Kinemacolor a owl:NamedIndividual,
+        fiaf:ColourStandard ;
     rdfs:label "Kinemacolor"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
-    rdfs:subClassOf fiaf:ColourStandard .
+    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string .
 
-fiaf:Kodachrome a owl:Class ;
+fiaf:Kodachrome a owl:NamedIndividual,
+        fiaf:ColourStandard ;
     rdfs:label "Kodachrome"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
-    rdfs:subClassOf fiaf:ColourStandard .
+    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string .
 
 fiaf:Laboratory a owl:Class ;
     rdfs:label "Laboratory"@en,
@@ -1159,10 +1159,10 @@ fiaf:PAL a owl:NamedIndividual,
     rdfs:label "PAL"@en ;
     dc:source "FIAF Cataloguing Manual 3.1.5.10"^^xsd:string .
 
-fiaf:Pathécolor a owl:Class ;
+fiaf:Pathécolor a owl:NamedIndividual,
+        fiaf:ColourStandard ;
     rdfs:label "Pathécolor"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
-    rdfs:subClassOf fiaf:ColourStandard .
+    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string .
 
 fiaf:Person a owl:Class ;
     rdfs:label "Person"@en ;
@@ -1314,10 +1314,10 @@ fiaf:Pyrotechnics a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.8.6"^^xsd:string ;
     rdfs:subClassOf fiaf:SpecialEffectsActivity .
 
-fiaf:RGB a owl:Class ;
+fiaf:RGB a owl:NamedIndividual,
+        fiaf:ColourStandard ;
     rdfs:label "RGB"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
-    rdfs:subClassOf fiaf:ColourStandard .
+    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string .
 
 fiaf:RatingEvent a owl:Class ;
     rdfs:label "Rating Event"@en ;
@@ -1660,10 +1660,10 @@ fiaf:SuppliedDevisedTitle a owl:Class ;
     dc:source "FIAF Cataloguing Manual A.2.5"^^xsd:string ;
     rdfs:subClassOf fiaf:Title .
 
-fiaf:Technicolor a owl:Class ;
+fiaf:Technicolor a owl:NamedIndividual,
+        fiaf:ColourStandard ;
     rdfs:label "Technicolor"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
-    rdfs:subClassOf fiaf:ColourStandard .
+    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string .
 
 fiaf:TelecineEvent a owl:Class ;
     rdfs:label "Telecine Event"@en ;
@@ -1838,10 +1838,10 @@ fiaf:WriterofLyrics a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.11.13"^^xsd:string ;
     rdfs:subClassOf fiaf:MusicActivity .
 
-fiaf:YUV a owl:Class ;
+fiaf:YUV a owl:NamedIndividual,
+        fiaf:ColourStandard ;
     rdfs:label "YUV"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
-    rdfs:subClassOf fiaf:ColourStandard .
+    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string .
 
 fiaf:hasActivity a owl:ObjectProperty ;
     rdfs:label "Has Activity"@en ;
