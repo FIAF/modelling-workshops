@@ -163,6 +163,11 @@ fiaf:Ansco a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
+fiaf:Anscocolor a owl:Class ;
+    rdfs:label "Anscocolor"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
+    rdfs:subClassOf fiaf:ColourStandard .
+
 fiaf:Armorer a owl:Class ;
     rdfs:label "Armorer"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.8.7"^^xsd:string ;
@@ -640,6 +645,11 @@ fiaf:EastmanKodak a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
+fiaf:Eastmancolor a owl:Class ;
+    rdfs:label "Eastmancolor"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
+    rdfs:subClassOf fiaf:ColourStandard .
+
 fiaf:Electrician a owl:Class ;
     rdfs:label "Electrician"@en,
         "Lamp Operator"@en ;
@@ -688,6 +698,11 @@ fiaf:Featurette a owl:NamedIndividual,
         "Making Of"@en ;
     dc:source "FIAF Glossary of Filmographic Terms D.1.8"^^xsd:string .
 
+fiaf:Ferraniacolor a owl:Class ;
+    rdfs:label "Ferraniacolor"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
+    rdfs:subClassOf fiaf:ColourStandard .
+
 fiaf:FightArranger a owl:Class ;
     rdfs:label "Fight Arranger"@en,
         "Fight Master"@en,
@@ -726,6 +741,11 @@ fiaf:Fuji a owl:Class ;
     rdfs:label "Fuji"@en ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
+
+fiaf:Fujicolor a owl:Class ;
+    rdfs:label "Fujicolor"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
+    rdfs:subClassOf fiaf:ColourStandard .
 
 fiaf:GeneratorOperator a owl:Class ;
     rdfs:label "Generator Operator"@en,
@@ -826,6 +846,16 @@ fiaf:KeyGrip a owl:Class ;
         "Key Grip"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.5.14"^^xsd:string ;
     rdfs:subClassOf fiaf:CinematographyActivity .
+
+fiaf:Kinemacolor a owl:Class ;
+    rdfs:label "Kinemacolor"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
+    rdfs:subClassOf fiaf:ColourStandard .
+
+fiaf:Kodachrome a owl:Class ;
+    rdfs:label "Kodachrome"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
+    rdfs:subClassOf fiaf:ColourStandard .
 
 fiaf:Laboratory a owl:Class ;
     rdfs:label "Laboratory"@en,
@@ -1129,6 +1159,11 @@ fiaf:PAL a owl:NamedIndividual,
     rdfs:label "PAL"@en ;
     dc:source "FIAF Cataloguing Manual 3.1.5.10"^^xsd:string .
 
+fiaf:Pathécolor a owl:Class ;
+    rdfs:label "Pathécolor"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
+    rdfs:subClassOf fiaf:ColourStandard .
+
 fiaf:Person a owl:Class ;
     rdfs:label "Person"@en ;
     dc:source "FIAF Cataloguing Manual 1.4.1"^^xsd:string ;
@@ -1278,6 +1313,11 @@ fiaf:Pyrotechnics a owl:Class ;
     rdfs:label "Pyrotechnics"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.8.6"^^xsd:string ;
     rdfs:subClassOf fiaf:SpecialEffectsActivity .
+
+fiaf:RGB a owl:Class ;
+    rdfs:label "RGB"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
+    rdfs:subClassOf fiaf:ColourStandard .
 
 fiaf:RatingEvent a owl:Class ;
     rdfs:label "Rating Event"@en ;
@@ -1620,6 +1660,11 @@ fiaf:SuppliedDevisedTitle a owl:Class ;
     dc:source "FIAF Cataloguing Manual A.2.5"^^xsd:string ;
     rdfs:subClassOf fiaf:Title .
 
+fiaf:Technicolor a owl:Class ;
+    rdfs:label "Technicolor"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
+    rdfs:subClassOf fiaf:ColourStandard .
+
 fiaf:TelecineEvent a owl:Class ;
     rdfs:label "Telecine Event"@en ;
     dc:source "FIAF Cataloguing Manual D.14"^^xsd:string ;
@@ -1792,6 +1837,11 @@ fiaf:WriterofLyrics a owl:Class ;
         "Writer of Lyrics"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.11.13"^^xsd:string ;
     rdfs:subClassOf fiaf:MusicActivity .
+
+fiaf:YUV a owl:Class ;
+    rdfs:label "YUV"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
+    rdfs:subClassOf fiaf:ColourStandard .
 
 fiaf:hasActivity a owl:ObjectProperty ;
     rdfs:label "Has Activity"@en ;
@@ -2167,6 +2217,10 @@ fiaf:WritingActivity a owl:Class ;
     rdfs:label "Writing Activity"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.4"^^xsd:string ;
     rdfs:subClassOf fiaf:Activity .
+
+fiaf:ColourStandard a owl:Class ;
+    rdfs:label "Colour Standard"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.4.4"^^xsd:string .
 
 fiaf:MusicActivity a owl:Class ;
     rdfs:label "Music Activity"@en ;
