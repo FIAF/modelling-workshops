@@ -132,6 +132,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Film](https://fiafcore.org/ontology/Film)   
+####  AIFF   
+> **iri** https://fiafcore.org/ontology/AIFF   
+**label** AIFF   
+**source** FIAF Cataloguing Manual D.7.10   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Codec](https://fiafcore.org/ontology/Codec)   
+####  AVC   
+> **iri** https://fiafcore.org/ontology/AVC   
+**label** AVC   
+**source** FIAF Cataloguing Manual D.7.10   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Codec](https://fiafcore.org/ontology/Codec)   
 ####  AVI   
 > **iri** https://fiafcore.org/ontology/AVI   
 **label** AVI   
@@ -546,6 +558,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.13.15   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:AnimationActivity](https://fiafcore.org/ontology/AnimationActivity)   
+####  Codec   
+> **iri** https://fiafcore.org/ontology/Codec   
+**label** Codec   
+**source** FIAF Cataloguing Manual 3.1.5.16, 3.1.5.17   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 ####  Collection   
 > **iri** https://fiafcore.org/ontology/Collection   
 **label** Collection   
@@ -712,6 +729,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Video](https://fiafcore.org/ontology/Video)   
+####  D10   
+> **iri** https://fiafcore.org/ontology/D10   
+**label** D10   
+**source** FIAF Cataloguing Manual D.7.10   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Codec](https://fiafcore.org/ontology/Codec)   
 ####  D5   
 > **iri** https://fiafcore.org/ontology/D5   
 **label** D5   
@@ -1203,6 +1226,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Item   
 **source** FIAF Cataloguing Manual 3.0   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+####  JPEG2000   
+> **iri** https://fiafcore.org/ontology/JPEG2000   
+**label** JPEG2000   
+**source** FIAF Cataloguing Manual D.7.10   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Codec](https://fiafcore.org/ontology/Codec)   
 ####  Grip, Key Grip   
 > **iri** https://fiafcore.org/ontology/KeyGrip   
 **label** Grip, Key Grip   
@@ -1327,6 +1356,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:DigitalFileEncoding](https://fiafcore.org/ontology/DigitalFileEncoding)   
+####  MPEG-4 H264/AVC Main Profile   
+> **iri** https://fiafcore.org/ontology/MPEG4H264AVCMainProfile   
+**label** MPEG-4 H264/AVC Main Profile   
+**source** FIAF Cataloguing Manual D.7.10   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Codec](https://fiafcore.org/ontology/Codec)   
 ####  MXF   
 > **iri** https://fiafcore.org/ontology/MXF   
 **label** MXF   
@@ -1482,6 +1517,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.4   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:SoundCharacteristic](https://fiafcore.org/ontology/SoundCharacteristic)   
+####  NIL ProRes 422 (HQ)   
+> **iri** https://fiafcore.org/ontology/NILProRes422HQ   
+**label** NIL ProRes 422 (HQ)   
+**source** FIAF Cataloguing Manual D.7.10   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Codec](https://fiafcore.org/ontology/Codec)   
 ####  Commentary, Commentary Written, Narration, Narration Written   
 > **iri** https://fiafcore.org/ontology/NarrationWritten   
 **label** Commentary, Commentary Written, Narration, Narration Written   
@@ -1859,6 +1900,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.8.9   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:SpecialEffectsActivity](https://fiafcore.org/ontology/SpecialEffectsActivity)   
+####  S10   
+> **iri** https://fiafcore.org/ontology/S10   
+**label** S10   
+**source** FIAF Cataloguing Manual D.7.10   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Codec](https://fiafcore.org/ontology/Codec)   
 ####  SVCD   
 > **iri** https://fiafcore.org/ontology/SVCD   
 **label** SVCD   
@@ -2363,6 +2410,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.7.7   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CastActivity](https://fiafcore.org/ontology/CastActivity)   
+####  WAV   
+> **iri** https://fiafcore.org/ontology/WAV   
+**label** WAV   
+**source** FIAF Cataloguing Manual D.7.10   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Codec](https://fiafcore.org/ontology/Codec)   
 ####  Wardrobe Master, Wardrobe Mistress, Wardrobe Supervision, Wardrobe Supervisor   
 > **iri** https://fiafcore.org/ontology/WardrobeSupervisor   
 **label** Wardrobe Master, Wardrobe Mistress, Wardrobe Supervision, Wardrobe Supervisor   

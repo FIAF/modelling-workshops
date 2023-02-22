@@ -157,6 +157,16 @@ fiaf:9.5mmFilm a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Film .
 
+fiaf:AIFF a owl:Class ;
+    rdfs:label "AIFF"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.10"^^xsd:string ;
+    rdfs:subClassOf fiaf:Codec .
+
+fiaf:AVC a owl:Class ;
+    rdfs:label "AVC"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.10"^^xsd:string ;
+    rdfs:subClassOf fiaf:Codec .
+
 fiaf:AVI a owl:Class ;
     rdfs:label "AVI"@en ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
@@ -682,6 +692,11 @@ fiaf:D1 a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Video .
 
+fiaf:D10 a owl:Class ;
+    rdfs:label "D10"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.10"^^xsd:string ;
+    rdfs:subClassOf fiaf:Codec .
+
 fiaf:D5 a owl:Class ;
     rdfs:label "D5"@en ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
@@ -1120,6 +1135,11 @@ fiaf:Interviewer a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.7.9"^^xsd:string ;
     rdfs:subClassOf fiaf:CastActivity .
 
+fiaf:JPEG2000 a owl:Class ;
+    rdfs:label "JPEG2000"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.10"^^xsd:string ;
+    rdfs:subClassOf fiaf:Codec .
+
 fiaf:KeyGrip a owl:Class ;
     rdfs:label "Grip"@en,
         "Key Grip"@en ;
@@ -1227,6 +1247,11 @@ fiaf:MPEG4 a owl:Class ;
     rdfs:label "MPEG-4"@en ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:DigitalFileEncoding .
+
+fiaf:MPEG4H264AVCMainProfile a owl:Class ;
+    rdfs:label "MPEG-4 H264/AVC Main Profile"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.10"^^xsd:string ;
+    rdfs:subClassOf fiaf:Codec .
 
 fiaf:MXF a owl:Class ;
     rdfs:label "MXF"@en ;
@@ -1394,6 +1419,11 @@ fiaf:Mylar a owl:NamedIndividual,
         fiaf:Base ;
     rdfs:label "Mylar"@en ;
     dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
+
+fiaf:NILProRes422HQ a owl:Class ;
+    rdfs:label "NIL ProRes 422 (HQ)"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.10"^^xsd:string ;
+    rdfs:subClassOf fiaf:Codec .
 
 fiaf:NTSC a owl:NamedIndividual,
         fiaf:BroadcastStandard ;
@@ -1763,6 +1793,11 @@ fiaf:Rotoscoping a owl:Class ;
     rdfs:label "Rotoscoping"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.8.9"^^xsd:string ;
     rdfs:subClassOf fiaf:SpecialEffectsActivity .
+
+fiaf:S10 a owl:Class ;
+    rdfs:label "S10"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.10"^^xsd:string ;
+    rdfs:subClassOf fiaf:Codec .
 
 fiaf:SECAM a owl:NamedIndividual,
         fiaf:BroadcastStandard ;
@@ -2263,6 +2298,11 @@ fiaf:Voices a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.7.7"^^xsd:string ;
     rdfs:subClassOf fiaf:CastActivity .
 
+fiaf:WAV a owl:Class ;
+    rdfs:label "WAV"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.10"^^xsd:string ;
+    rdfs:subClassOf fiaf:Codec .
+
 fiaf:WardrobeSupervisor a owl:Class ;
     rdfs:label "Wardrobe Master"@en,
         "Wardrobe Mistress"@en,
@@ -2756,6 +2796,10 @@ fiaf:Video a owl:Class,
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string,
         "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
     rdfs:subClassOf fiaf:Format .
+
+fiaf:Codec a owl:Class ;
+    rdfs:label "Codec"@en ;
+    dc:source "FIAF Cataloguing Manual 3.1.5.16, 3.1.5.17"^^xsd:string .
 
 fiaf:ColourCharacteristic a owl:Class ;
     rdfs:label "Colour Characteristic"@en ;
