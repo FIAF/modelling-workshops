@@ -640,7 +640,7 @@ fiaf:Extra a owl:Class ;
 fiaf:FFmpeg a owl:NamedIndividual,
         fiaf:SourceSoftware ;
     rdfs:label "FFmpeg"@en ;
-    dc:source "FIAF Cataloguing Manual 3.1.5.22"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+    dc:source "FIAF Cataloguing Manual 3.1.5.22"^^xsd:string .
 
 fiaf:Family a owl:Class ;
     rdfs:label "Family"@en ;
