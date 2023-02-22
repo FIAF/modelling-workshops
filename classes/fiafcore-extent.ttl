@@ -1,0 +1,112 @@
+
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix fiaf: <https://fiafcore.org/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Ontology
+
+<https://fiafcore.org/ontology/> a owl:Ontology ;
+    dc:title "FIAFcore" .
+
+# Class
+
+<https://fiafcore.org/ontology/Extent> a owl:Class ;
+    rdfs:label "Extent"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.5, 3.1.5.8"^^xsd:string .
+
+# Subclasses
+
+<https://fiafcore.org/ontology/Cartridge> a owl:Class ;
+    rdfs:label "Cartridge"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:Extent .
+
+<https://fiafcore.org/ontology/Cassette> a owl:Class ;
+    rdfs:label "Cassette"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:Extent .
+
+<https://fiafcore.org/ontology/DigitalTape> a owl:Class ;
+    rdfs:label "Digital Tape"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:Extent .
+
+<https://fiafcore.org/ontology/Disc> a owl:Class ;
+    rdfs:label "Disc"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:Extent .
+
+<https://fiafcore.org/ontology/File> a owl:Class ;
+    rdfs:label "File"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:Extent .
+
+<https://fiafcore.org/ontology/Loop> a owl:Class ;
+    rdfs:label "Loop"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:Extent .
+
+<https://fiafcore.org/ontology/Reel> a owl:Class ;
+    rdfs:label "Reel"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:Extent .
+
+<https://fiafcore.org/ontology/Roll> a owl:Class ;
+    rdfs:label "Roll"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:Extent .
+
+<https://fiafcore.org/ontology/Feet> a owl:Class ;
+    rdfs:label "Feet"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.5.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:Extent .
+
+<https://fiafcore.org/ontology/Metres> a owl:Class ;
+    rdfs:label "Metres"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.5.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:Extent .
+
+<https://fiafcore.org/ontology/Gigabyte> a owl:Class ;
+    rdfs:label "Gigabyte"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.5.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:Extent .
+
+<https://fiafcore.org/ontology/Kilobyte> a owl:Class ;
+    rdfs:label "Kilobyte"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.5.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:Extent .
+
+<https://fiafcore.org/ontology/Megabyte> a owl:Class ;
+    rdfs:label "Megabyte"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.5.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:Extent .
+
+<https://fiafcore.org/ontology/Terabyte> a owl:Class ;
+    rdfs:label "Terabyte"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.5.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:Extent .
+
+<https://fiafcore.org/ontology/Hours> a owl:Class ;
+    rdfs:label "Hours"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.5.3"^^xsd:string ;
+    rdfs:subClassOf fiaf:Extent .
+
+<https://fiafcore.org/ontology/Minutes> a owl:Class ;
+    rdfs:label "Minutes"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.5.3"^^xsd:string ;
+    rdfs:subClassOf fiaf:Extent .
+
+<https://fiafcore.org/ontology/Seconds> a owl:Class ;
+    rdfs:label "Seconds"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.5.3"^^xsd:string ;
+    rdfs:subClassOf fiaf:Extent .
+
+# Datatype Property 
+
+<https://fiafcore.org/ontology/hasExtentValue> a owl:DatatypeProperty ;
+  rdfs:label "Has Extent Value"@en ;
+  dc:source "FIAF Cataloguing Manual 2.3.5, 3.1.5.8"^^xsd:string ;
+  rdfs:domain fiaf:Extent ;
+  rdfs:range xsd:float .
