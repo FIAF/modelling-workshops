@@ -298,6 +298,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Format](https://fiafcore.org/ontology/Format)   
+####  Audio Stream   
+> **iri** https://fiafcore.org/ontology/AudioStream   
+**label** Audio Stream   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Stream](https://fiafcore.org/ontology/Stream)   
 ####  Audiocassette   
 > **iri** https://fiafcore.org/ontology/Audiocassette   
 **label** Audiocassette   
@@ -2088,6 +2093,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Stock   
 **source** FIAF Cataloguing Manual 3.1.5.14   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+####  Stream   
+> **iri** https://fiafcore.org/ontology/Stream   
+**label** Stream   
+**source** technical glossary   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 ####  Location of Studios, Studio   
 > **iri** https://fiafcore.org/ontology/Studio   
 **label** Location of Studios, Studio   
@@ -2106,6 +2116,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.7.11   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CastActivity](https://fiafcore.org/ontology/CastActivity)   
+####  Subtitle Stream   
+> **iri** https://fiafcore.org/ontology/SubtitleStream   
+**label** Subtitle Stream   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Stream](https://fiafcore.org/ontology/Stream)   
 ####  Subtitles   
 > **iri** https://fiafcore.org/ontology/Subtitles   
 **label** Subtitles   
@@ -2302,6 +2317,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.14   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ManufactureEvent](https://fiafcore.org/ontology/ManufactureEvent)   
+####  Video Stream   
+> **iri** https://fiafcore.org/ontology/VideoStream   
+**label** Video Stream   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Stream](https://fiafcore.org/ontology/Stream)   
 ####  Optical Effects, Photographic Effects, Special Photographic Effects, VFX, Visual Effects   
 > **iri** https://fiafcore.org/ontology/VisualEffects   
 **label** Optical Effects, Photographic Effects, Special Photographic Effects, VFX, Visual Effects   
@@ -2746,6 +2766,13 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
 **domain** [fiaf:Item](https://fiafcore.org/ontology/Item)   
 **range** [fiaf:Base](https://fiafcore.org/ontology/Base)   
+####  Has Bit Depth   
+> **iri** https://fiafcore.org/ontology/hasBitDepth   
+**label** Has Bit Depth   
+**source** FIAF Cataloguing Manual 3.1.5.20   
+**type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
+**domain** [fiaf:Stream](https://fiafcore.org/ontology/Stream)   
+**range** [fiaf:BitDepth](https://fiafcore.org/ontology/BitDepth)   
 ####  Has Broadcast Standard   
 > **iri** https://fiafcore.org/ontology/hasBroadcastStandard   
 **label** Has Broadcast Standard   
@@ -2759,6 +2786,13 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
 **domain** [fiaf:Item](https://fiafcore.org/ontology/Item)   
 **range** [fiaf:Carrier](https://fiafcore.org/ontology/Carrier)   
+####  Has Codec   
+> **iri** https://fiafcore.org/ontology/hasCodec   
+**label** Has Codec   
+**source** FIAF Cataloguing Manual 3.1.5.16, 3.1.5.17   
+**type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
+**domain** [fiaf:Stream](https://fiafcore.org/ontology/Stream)   
+**range** [fiaf:Codec](https://fiafcore.org/ontology/Codec)   
 ####  Has Colour Characteristic   
 > **iri** https://fiafcore.org/ontology/hasColourCharacteristic   
 **label** Has Colour Characteristic   
