@@ -61,7 +61,7 @@
 
 <https://fiafcore.org/ontology/hasSoundFixation> a owl:ObjectProperty ;
     rdfs:label "Has Sound Fixation"@en ;
-    dc:source "FIAF Cataloguing Manual 2.3.4.3.2, 3.1.5.4""^^xsd:string ;
+    dc:source "FIAF Cataloguing Manual 2.3.4.3.2, 3.1.5.4"^^xsd:string ;
     rdfs:domain fiaf:SoundCharacteristic ;
     rdfs:range fiaf:SoundFixation .
 
