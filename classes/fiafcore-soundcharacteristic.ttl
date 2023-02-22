@@ -1,0 +1,72 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix fiaf: <https://fiafcore.org/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Ontology
+
+<https://fiafcore.org/ontology/> a owl:Ontology ;
+    dc:title "FIAFcore" .
+
+# Class
+
+<https://fiafcore.org/ontology/SoundCharacteristic> a owl:Class ;
+    rdfs:label "Sound Characteristic"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.4.3, 3.1.5.5"^^xsd:string .
+
+# Subclasses
+
+<https://fiafcore.org/ontology/Sound> a owl:Class ;
+    rdfs:label "Sound"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundCharacteristic .
+
+<https://fiafcore.org/ontology/Silent> a owl:Class ;
+    rdfs:label "Silent"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundCharacteristic .
+
+<https://fiafcore.org/ontology/Mute> a owl:Class ;
+    rdfs:label "Mute"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundCharacteristic .
+
+<https://fiafcore.org/ontology/Combined> a owl:Class ;
+    rdfs:label "Combined"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundCharacteristic .
+
+<https://fiafcore.org/ontology/CombinedAsMute> a owl:Class ;
+    rdfs:label "Combined as Mute"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundCharacteristic .
+
+<https://fiafcore.org/ontology/CombinedAsSound> a owl:Class ;
+    rdfs:label "Combined as Sound"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundCharacteristic .
+
+<https://fiafcore.org/ontology/Mixed> a owl:Class ;
+    rdfs:label "Mixed"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundCharacteristic .
+
+<https://fiafcore.org/ontology/Temporary> a owl:Class ;
+    rdfs:label "Temporary"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundCharacteristic .
+
+# Object Properties
+
+<https://fiafcore.org/ontology/hasSoundFixation> a owl:ObjectProperty ;
+    rdfs:label "Has Sound Fixation"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.4.3.2, 3.1.5.4""^^xsd:string ;
+    rdfs:domain fiaf:SoundCharacteristic ;
+    rdfs:range fiaf:SoundFixation .
+
+<https://fiafcore.org/ontology/hasSoundSystem> a owl:ObjectProperty ;
+    rdfs:label "Has Sound System"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.4.3.1, 3.1.5.5"^^xsd:string ;
+    rdfs:domain fiaf:SoundCharacteristic ;
+    rdfs:range fiaf:SoundSystem .
