@@ -6,6 +6,18 @@ These will take place weekly, starting Thursday 12th of January at 5pm CET and  
 Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdataweb.org/webvowl-old/webvowl-old.html#iri=https://raw.githubusercontent.com/FIAF/modelling-workshops/main/ontology.ttl)]
 
 ## Classes   
+####  10bit   
+> **iri** https://fiafcore.org/ontology/10bit   
+**label** 10bit   
+**source** FIAF Cataloguing Manual D.7.17   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:BitDepth](https://fiafcore.org/ontology/BitDepth)   
+####  16bit   
+> **iri** https://fiafcore.org/ontology/16bit   
+**label** 16bit   
+**source** FIAF Cataloguing Manual D.7.17   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:BitDepth](https://fiafcore.org/ontology/BitDepth)   
 ####  16mm Film   
 > **iri** https://fiafcore.org/ontology/16mmFilm   
 **label** 16mm Film   
@@ -54,12 +66,24 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.14   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ImageRatio](https://fiafcore.org/ontology/ImageRatio)   
+####  24bit   
+> **iri** https://fiafcore.org/ontology/24bit   
+**label** 24bit   
+**source** FIAF Cataloguing Manual D.7.17   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:BitDepth](https://fiafcore.org/ontology/BitDepth)   
 ####  2-inch Quadruplex   
 > **iri** https://fiafcore.org/ontology/2InchQuadruplex   
 **label** 2-inch Quadruplex   
 **source** FIAF Cataloguing Manual D.7.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Video](https://fiafcore.org/ontology/Video)   
+####  32bit   
+> **iri** https://fiafcore.org/ontology/32bit   
+**label** 32bit   
+**source** FIAF Cataloguing Manual D.7.17   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:BitDepth](https://fiafcore.org/ontology/BitDepth)   
 ####  35mm Film   
 > **iri** https://fiafcore.org/ontology/35mmFilm   
 **label** 35mm Film   
@@ -350,6 +374,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Video](https://fiafcore.org/ontology/Video)   
+####  BitDepth   
+> **iri** https://fiafcore.org/ontology/BitDepth   
+**label** BitDepth   
+**source** FIAF Cataloguing Manual 3.1.5.20   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 ####  Black and White   
 > **iri** https://fiafcore.org/ontology/BlackAndWhite   
 **label** Black and White   

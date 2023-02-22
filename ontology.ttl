@@ -12,6 +12,16 @@ fiaf:1080 a owl:NamedIndividual,
     rdfs:label "1080"@en ;
     dc:source "FIAF Cataloguing Manual D.7.21"^^xsd:string .
 
+fiaf:10bit a owl:Class ;
+    rdfs:label "10bit"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.17"^^xsd:string ;
+    rdfs:subClassOf fiaf:BitDepth .
+
+fiaf:16bit a owl:Class ;
+    rdfs:label "16bit"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.17"^^xsd:string ;
+    rdfs:subClassOf fiaf:BitDepth .
+
 fiaf:16mmFilm a owl:Class ;
     rdfs:label "16mm Film"@en ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
@@ -52,6 +62,11 @@ fiaf:1InchCFormat a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.14"^^xsd:string ;
     rdfs:subClassOf fiaf:ImageRatio .
 
+fiaf:24bit a owl:Class ;
+    rdfs:label "24bit"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.17"^^xsd:string ;
+    rdfs:subClassOf fiaf:BitDepth .
+
 fiaf:2InchQuadruplex a owl:Class ;
     rdfs:label "2-inch Quadruplex"@en ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
@@ -61,6 +76,11 @@ fiaf:2K a owl:NamedIndividual,
         fiaf:Resolution ;
     rdfs:label "2K"@en ;
     dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string .
+
+fiaf:32bit a owl:Class ;
+    rdfs:label "32bit"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.17"^^xsd:string ;
+    rdfs:subClassOf fiaf:BitDepth .
 
 fiaf:35mmFilm a owl:Class ;
     rdfs:label "35mm Film"@en ;
@@ -2639,6 +2659,10 @@ fiaf:AcquisitionEvent a owl:Class ;
     rdfs:label "Acquisition Event"@en ;
     dc:source "FIAF Cataloguing Manual D.4.9"^^xsd:string ;
     rdfs:subClassOf fiaf:Event .
+
+fiaf:BitDepth a owl:Class ;
+    rdfs:label "BitDepth"@en ;
+    dc:source "FIAF Cataloguing Manual 3.1.5.20"^^xsd:string .
 
 fiaf:DigitalFile a owl:Class ;
     rdfs:label "Digital File"@en ;
