@@ -167,17 +167,17 @@
     dc:source "FIAF Cataloguing Manual D.16.6"^^xsd:string ;
     rdfs:subClassOf fiaf:Condition .
 
-<https://fiafcore.org/ontology/1-1.5%> a owl:Class ;
+<https://fiafcore.org/ontology/1-1.5> a owl:Class ;
     rdfs:label "1-1.5%"@en ;
     dc:source "FIAF Cataloguing Manual D.16.6"^^xsd:string ;
     rdfs:subClassOf fiaf:Shrinkage .
 
-<https://fiafcore.org/ontology/1.5-2%> a owl:Class ;
+<https://fiafcore.org/ontology/1.5-2> a owl:Class ;
     rdfs:label "1.5-2%"@en ;
     dc:source "FIAF Cataloguing Manual D.16.6"^^xsd:string ;
     rdfs:subClassOf fiaf:Shrinkage .
 
-<https://fiafcore.org/ontology/2-2.5%> a owl:Class ;
+<https://fiafcore.org/ontology/2-2.5> a owl:Class ;
     rdfs:label "2-2.5%"@en ;
     dc:source "FIAF Cataloguing Manual D.16.6"^^xsd:string ;
     rdfs:subClassOf fiaf:Shrinkage .
