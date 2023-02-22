@@ -553,6 +553,16 @@ fiaf:CombinedAsSound a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.4"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundCharacteristic .
 
+fiaf:CombinedMagneticSound a owl:Class ;
+    rdfs:label "Combined Magnetic Sound"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.13"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundSystem .
+
+fiaf:CombinedOpticalSound a owl:Class ;
+    rdfs:label "Combined Optical Sound"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.13"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundSystem .
+
 fiaf:Compilation a owl:NamedIndividual,
         fiaf:Form ;
     rdfs:label "Compilation"@en ;
@@ -779,6 +789,16 @@ fiaf:DistributorWorld a owl:Class ;
     rdfs:label "Distributor (World)"@en ;
     dc:source "FIAF Glossary of Filmographic Terms C.2.5"^^xsd:string ;
     rdfs:subClassOf fiaf:CopyrightandDistributionActivity .
+
+fiaf:DolbyDigital a owl:Class ;
+    rdfs:label "DolbyDigital"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.13"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundSystem .
+
+fiaf:DolbySR a owl:Class ;
+    rdfs:label "Dolby SR"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.13"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundSystem .
 
 fiaf:DollyGrip a owl:Class ;
     rdfs:label "Dolly Grip"@en ;
@@ -2151,6 +2171,11 @@ fiaf:UploadingEvent a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.14"^^xsd:string ;
     rdfs:subClassOf fiaf:ManufactureEvent .
 
+fiaf:VARCADuplex a owl:Class ;
+    rdfs:label "VA RCA Duplex"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.13"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundSystem .
+
 fiaf:VCD a owl:Class ;
     rdfs:label "VCD"@en ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
@@ -2626,6 +2651,10 @@ fiaf:ManufactureEvent a owl:Class ;
 fiaf:SoundFixation a owl:Class ;
     rdfs:label "Sound Fixation"@en ;
     dc:source "FIAF Cataloguing Manual 2.3.4.3.2, 3.1.5.4"^^xsd:string .
+
+fiaf:SoundSystem a owl:Class ;
+    rdfs:label "Sound System"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.4.3.1, 3.1.5.5"^^xsd:string .
 
 fiaf:Audio a owl:Class ;
     rdfs:label "Audio"@en ;

@@ -570,6 +570,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.4   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:SoundCharacteristic](https://fiafcore.org/ontology/SoundCharacteristic)   
+####  Combined Magnetic Sound   
+> **iri** https://fiafcore.org/ontology/CombinedMagneticSound   
+**label** Combined Magnetic Sound   
+**source** FIAF Cataloguing Manual D.7.13   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:SoundSystem](https://fiafcore.org/ontology/SoundSystem)   
+####  Combined Optical Sound   
+> **iri** https://fiafcore.org/ontology/CombinedOpticalSound   
+**label** Combined Optical Sound   
+**source** FIAF Cataloguing Manual D.7.13   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:SoundSystem](https://fiafcore.org/ontology/SoundSystem)   
 ####  Compositing, Digital Compositing   
 > **iri** https://fiafcore.org/ontology/Compositing   
 **label** Compositing, Digital Compositing   
@@ -822,6 +834,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms C.2.5   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CopyrightandDistributionActivity](https://fiafcore.org/ontology/CopyrightandDistributionActivity)   
+####  DolbyDigital   
+> **iri** https://fiafcore.org/ontology/DolbyDigital   
+**label** DolbyDigital   
+**source** FIAF Cataloguing Manual D.7.13   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:SoundSystem](https://fiafcore.org/ontology/SoundSystem)   
+####  Dolby SR   
+> **iri** https://fiafcore.org/ontology/DolbySR   
+**label** Dolby SR   
+**source** FIAF Cataloguing Manual D.7.13   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:SoundSystem](https://fiafcore.org/ontology/SoundSystem)   
 ####  Dolly Grip   
 > **iri** https://fiafcore.org/ontology/DollyGrip   
 **label** Dolly Grip   
@@ -1991,6 +2015,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.9.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:SoundActivity](https://fiafcore.org/ontology/SoundActivity)   
+####  Sound System   
+> **iri** https://fiafcore.org/ontology/SoundSystem   
+**label** Sound System   
+**source** FIAF Cataloguing Manual 2.3.4.3.1, 3.1.5.5   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 ####  Source Device   
 > **iri** https://fiafcore.org/ontology/SourceDevice   
 **label** Source Device   
@@ -2226,6 +2255,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.14   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ManufactureEvent](https://fiafcore.org/ontology/ManufactureEvent)   
+####  VA RCA Duplex   
+> **iri** https://fiafcore.org/ontology/VARCADuplex   
+**label** VA RCA Duplex   
+**source** FIAF Cataloguing Manual D.7.13   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:SoundSystem](https://fiafcore.org/ontology/SoundSystem)   
 ####  VCD   
 > **iri** https://fiafcore.org/ontology/VCD   
 **label** VCD   
