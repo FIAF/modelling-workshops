@@ -15,7 +15,7 @@ fiaf:1080 a owl:NamedIndividual,
 fiaf:2K a owl:NamedIndividual,
         fiaf:Resolution ;
     rdfs:label "2K"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.19"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+    dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string .
 
 fiaf:3M a owl:Class ;
     rdfs:label "3M"@en ;
@@ -30,7 +30,7 @@ fiaf:405 a owl:NamedIndividual,
 fiaf:4K a owl:NamedIndividual,
         fiaf:Resolution ;
     rdfs:label "4K"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.19"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+    dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string .
 
 fiaf:525 a owl:NamedIndividual,
         fiaf:LineStandard ;
@@ -45,7 +45,7 @@ fiaf:625 a owl:NamedIndividual,
 fiaf:6K a owl:NamedIndividual,
         fiaf:Resolution ;
     rdfs:label "6K"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.19"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+    dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string .
 
 fiaf:720 a owl:NamedIndividual,
         fiaf:LineStandard ;
@@ -55,7 +55,7 @@ fiaf:720 a owl:NamedIndividual,
 fiaf:8K a owl:NamedIndividual,
         fiaf:Resolution ;
     rdfs:label "8K"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.19"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+    dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string .
 
 fiaf:AbridgedCondensed a owl:NamedIndividual,
         fiaf:VariantType ;
@@ -728,7 +728,7 @@ fiaf:Hairdresser a owl:Class ;
 fiaf:HighDefinition a owl:NamedIndividual,
         fiaf:Resolution ;
     rdfs:label "High Definition"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.19"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+    dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string .
 
 fiaf:Hitachi a owl:Class ;
     rdfs:label "Hitachi"@en ;
@@ -1508,7 +1508,7 @@ fiaf:StandIn a owl:Class ;
 fiaf:StandardDefinition a owl:NamedIndividual,
         fiaf:Resolution ;
     rdfs:label "Standard Definition"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.19"^^<file:///home/runner/work/modelling-workshops/modelling-workshops/classes/string> .
+    dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string .
 
 fiaf:StatusPending a owl:NamedIndividual,
         fiaf:Status ;
