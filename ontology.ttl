@@ -216,6 +216,11 @@ fiaf:Ampex a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
+fiaf:AnalogueSound a owl:Class ;
+    rdfs:label "Analogue Sound"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.5"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundFixation .
+
 fiaf:Analytic a owl:Class ;
     rdfs:label "Analytic"@en ;
     dc:source "FIAF Cataloguing Manual D.1"^^xsd:string ;
@@ -700,6 +705,11 @@ fiaf:DigitalBetacam a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Video .
 
+fiaf:DigitalSound a owl:Class ;
+    rdfs:label "Digital Sound"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.5"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundFixation .
+
 fiaf:DigitalTape a owl:Class ;
     rdfs:label "Digital Tape"@en ;
     dc:source "FIAF Cataloguing Manual D.7.6"^^xsd:string ;
@@ -1179,6 +1189,11 @@ fiaf:MXF a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:DigitalFile .
 
+fiaf:MagneticSound a owl:Class ;
+    rdfs:label "Magnetic Sound"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.5"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundFixation .
+
 fiaf:MainlyNitrate a owl:NamedIndividual,
         fiaf:Base ;
     rdfs:label "Mainly nitrate"@en ;
@@ -1359,6 +1374,11 @@ fiaf:Narrator a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.7.10"^^xsd:string ;
     rdfs:subClassOf fiaf:CastActivity .
 
+fiaf:NeedleSound a owl:Class ;
+    rdfs:label "Needle Sound"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.5"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundFixation .
+
 fiaf:NegativeCutter a owl:Class ;
     rdfs:label "Negative Conforming"@en,
         "Negative Cutter"@en,
@@ -1416,6 +1436,11 @@ fiaf:OnlineTransmissionEvent a owl:Class ;
     rdfs:label "Online Transmission Event"@en ;
     dc:source "FIAF Cataloguing Manual D.10"^^xsd:string ;
     rdfs:subClassOf fiaf:PublicationEvent .
+
+fiaf:OpticalSound a owl:Class ;
+    rdfs:label "Optical Sound"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.5"^^xsd:string ;
+    rdfs:subClassOf fiaf:SoundFixation .
 
 fiaf:Oracle a owl:Class ;
     rdfs:label "Oracle"@en ;
@@ -2597,6 +2622,10 @@ fiaf:ManufactureEvent a owl:Class ;
     rdfs:label "Manufacture Event"@en ;
     dc:source "FIAF Cataloguing Manual D.4.7"^^xsd:string ;
     rdfs:subClassOf fiaf:Event .
+
+fiaf:SoundFixation a owl:Class ;
+    rdfs:label "Sound Fixation"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.4.3.2, 3.1.5.4"^^xsd:string .
 
 fiaf:Audio a owl:Class ;
     rdfs:label "Audio"@en ;

@@ -184,6 +184,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  Analogue Sound   
+> **iri** https://fiafcore.org/ontology/AnalogueSound   
+**label** Analogue Sound   
+**source** FIAF Cataloguing Manual D.7.5   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:SoundFixation](https://fiafcore.org/ontology/SoundFixation)   
 ####  Analytic   
 > **iri** https://fiafcore.org/ontology/Analytic   
 **label** Analytic   
@@ -732,6 +738,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Format](https://fiafcore.org/ontology/Format)   
+####  Digital Sound   
+> **iri** https://fiafcore.org/ontology/DigitalSound   
+**label** Digital Sound   
+**source** FIAF Cataloguing Manual D.7.5   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:SoundFixation](https://fiafcore.org/ontology/SoundFixation)   
 ####  Digital Tape   
 > **iri** https://fiafcore.org/ontology/DigitalTape   
 **label** Digital Tape   
@@ -1263,6 +1275,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:DigitalFile](https://fiafcore.org/ontology/DigitalFile)   
+####  Magnetic Sound   
+> **iri** https://fiafcore.org/ontology/MagneticSound   
+**label** Magnetic Sound   
+**source** FIAF Cataloguing Manual D.7.5   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:SoundFixation](https://fiafcore.org/ontology/SoundFixation)   
 ####  Make-Up, Make-Up Artist   
 > **iri** https://fiafcore.org/ontology/MakeUpArtist   
 **label** Make-Up, Make-Up Artist   
@@ -1418,6 +1436,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.7.10   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CastActivity](https://fiafcore.org/ontology/CastActivity)   
+####  Needle Sound   
+> **iri** https://fiafcore.org/ontology/NeedleSound   
+**label** Needle Sound   
+**source** FIAF Cataloguing Manual D.7.5   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:SoundFixation](https://fiafcore.org/ontology/SoundFixation)   
 ####  Negative Conforming, Negative Cutter, Negative Cutting, Negative Matching   
 > **iri** https://fiafcore.org/ontology/NegativeCutter   
 **label** Negative Conforming, Negative Cutter, Negative Cutting, Negative Matching   
@@ -1478,6 +1502,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Format](https://fiafcore.org/ontology/Format)   
+####  Optical Sound   
+> **iri** https://fiafcore.org/ontology/OpticalSound   
+**label** Optical Sound   
+**source** FIAF Cataloguing Manual D.7.5   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:SoundFixation](https://fiafcore.org/ontology/SoundFixation)   
 ####  Oracle   
 > **iri** https://fiafcore.org/ontology/Oracle   
 **label** Oracle   
@@ -1944,6 +1974,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.9.5   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:SoundActivity](https://fiafcore.org/ontology/SoundActivity)   
+####  Sound Fixation   
+> **iri** https://fiafcore.org/ontology/SoundFixation   
+**label** Sound Fixation   
+**source** FIAF Cataloguing Manual 2.3.4.3.2, 3.1.5.4   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 ####  Production Mixer, Production Sound Mixer, Sound Mixer, Sound Recorded, Sound Recorder, Sound Recordist   
 > **iri** https://fiafcore.org/ontology/SoundRecordist   
 **label** Production Mixer, Production Sound Mixer, Sound Mixer, Sound Recorded, Sound Recorder, Sound Recordist   
