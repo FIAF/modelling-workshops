@@ -47,8 +47,8 @@
     dc:source "FIAF Cataloguing Manual D.7.4"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundCharacteristic .
 
-<https://fiafcore.org/ontology/Mixed> a owl:Class ;
-    rdfs:label "Mixed"@en ;
+<https://fiafcore.org/ontology/MixedSound> a owl:Class ;
+    rdfs:label "Mixed Sound"@en ;
     dc:source "FIAF Cataloguing Manual D.7.4"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundCharacteristic .
 
