@@ -2647,8 +2647,8 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 ####  Video   
 > **iri** https://fiafcore.org/ontology/Video   
 **label** Video   
-**source** FIAF Cataloguing Manual D.7.2, FIAF Cataloguing Manual D.7.7   
-**type** [owl:Class](http://www.w3.org/2002/07/owl#Class), [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
+**source** FIAF Cataloguing Manual D.7.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Format](https://fiafcore.org/ontology/Format)   
 ####  Video Assist, Video Assist Operator   
 > **iri** https://fiafcore.org/ontology/VideoAssistOperator   
@@ -3086,12 +3086,6 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** VT20   
 **source** FIAF Cataloguing Manual D.7.20   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:SourceDevice](https://fiafcore.org/ontology/SourceDevice)   
-####  Video   
-> **iri** https://fiafcore.org/ontology/Video   
-**label** Video   
-**source** FIAF Cataloguing Manual D.7.2, FIAF Cataloguing Manual D.7.7   
-**type** [owl:Class](http://www.w3.org/2002/07/owl#Class), [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
-**subclass of** [fiaf:Format](https://fiafcore.org/ontology/Format)   
 ####  Viewing   
 > **iri** https://fiafcore.org/ontology/Viewing   
 **label** Viewing   

@@ -3015,12 +3015,9 @@ fiaf:Film a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Format .
 
-fiaf:Video a owl:Class,
-        owl:NamedIndividual,
-        fiaf:Base ;
+fiaf:Video a owl:Class ;
     rdfs:label "Video"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string,
-        "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
+    dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Format .
 
 fiaf:Codec a owl:Class ;
@@ -3087,13 +3084,13 @@ fiaf:SoundActivity a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.9"^^xsd:string ;
     rdfs:subClassOf fiaf:Activity .
 
-fiaf:Form a owl:Class ;
-    rdfs:label "Form"@en ;
-    dc:source "FIAF Glossary of Filmographic Terms D.1.1"^^xsd:string .
-
 fiaf:Base a owl:Class ;
     rdfs:label "Base"@en ;
     dc:source "FIAF Cataloguing Manual 3.1.5.13"^^xsd:string .
+
+fiaf:Form a owl:Class ;
+    rdfs:label "Form"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms D.1.1"^^xsd:string .
 
 fiaf:WorkVariant a owl:Class ;
     rdfs:label "Work/Variant"@en ;
