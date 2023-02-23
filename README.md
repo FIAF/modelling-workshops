@@ -1311,9 +1311,9 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Identifier   
 **source** FIAF Cataloguing Manual 1.3.1, 2.3.1, 3.1.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
-####  Identifiying Title   
+####  Identifiying Title, Uniform Title   
 > **iri** https://fiafcore.org/ontology/IdentifiyingTitle   
-**label** Identifiying Title   
+**label** Identifiying Title, Uniform Title   
 **source** FIAF Cataloguing Manual A.2.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Title](https://fiafcore.org/ontology/Title)   
