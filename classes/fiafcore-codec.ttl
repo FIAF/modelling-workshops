@@ -27,8 +27,8 @@
     dc:source "FIAF Cataloguing Manual D.7.10"^^xsd:string ;
     rdfs:subClassOf fiaf:Codec .
 
-<https://fiafcore.org/ontology/NILProRes422HQ> a owl:Class ;
-    rdfs:label "NIL ProRes 422 (HQ)"@en ;
+<https://fiafcore.org/ontology/ProRes422HQ> a owl:Class ;
+    rdfs:label "ProRes 422 (HQ)"@en ;
     dc:source "FIAF Cataloguing Manual D.7.10"^^xsd:string ;
     rdfs:subClassOf fiaf:Codec .
 
