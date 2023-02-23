@@ -2721,9 +2721,9 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:DigitalFileEncoding](https://fiafcore.org/ontology/DigitalFileEncoding)   
-####  Work/Variant   
+####  Work/Variant, l'Œuvre/la Variante   
 > **iri** https://fiafcore.org/ontology/WorkVariant   
-**label** Work/Variant   
+**label** Work/Variant, l'Œuvre/la Variante   
 **source** FIAF Cataloguing Manual 1.0   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 ####  Wrangler   
