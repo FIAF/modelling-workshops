@@ -1708,12 +1708,6 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.4   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:SoundCharacteristic](https://fiafcore.org/ontology/SoundCharacteristic)   
-####  NIL ProRes 422 (HQ)   
-> **iri** https://fiafcore.org/ontology/NILProRes422HQ   
-**label** NIL ProRes 422 (HQ)   
-**source** FIAF Cataloguing Manual D.7.10   
-**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
-**subclass of** [fiaf:Codec](https://fiafcore.org/ontology/Codec)   
 ####  Commentary, Commentary Written, Narration, Narration Written   
 > **iri** https://fiafcore.org/ontology/NarrationWritten   
 **label** Commentary, Commentary Written, Narration, Narration Written   
@@ -1930,6 +1924,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.16.4   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ImageCondition](https://fiafcore.org/ontology/ImageCondition)   
+####  ProRes 422 (HQ)   
+> **iri** https://fiafcore.org/ontology/ProRes422HQ   
+**label** ProRes 422 (HQ)   
+**source** FIAF Cataloguing Manual D.7.10   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Codec](https://fiafcore.org/ontology/Codec)   
 ####  Produced, Producer, Production   
 > **iri** https://fiafcore.org/ontology/Producer   
 **label** Produced, Producer, Production   

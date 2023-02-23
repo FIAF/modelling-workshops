@@ -1558,11 +1558,6 @@ fiaf:Mylar a owl:NamedIndividual,
     rdfs:label "Mylar"@en ;
     dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
 
-fiaf:NILProRes422HQ a owl:Class ;
-    rdfs:label "NIL ProRes 422 (HQ)"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.10"^^xsd:string ;
-    rdfs:subClassOf fiaf:Codec .
-
 fiaf:NTSC a owl:NamedIndividual,
         fiaf:BroadcastStandard ;
     rdfs:label "NTSC"@en ;
@@ -1787,6 +1782,11 @@ fiaf:PrintThroughInMould a owl:Class ;
     rdfs:label "Print through in mould"@en ;
     dc:source "FIAF Cataloguing Manual D.16.4"^^xsd:string ;
     rdfs:subClassOf fiaf:ImageCondition .
+
+fiaf:ProRes422HQ a owl:Class ;
+    rdfs:label "ProRes 422 (HQ)"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.10"^^xsd:string ;
+    rdfs:subClassOf fiaf:Codec .
 
 fiaf:Producer a owl:Class ;
     rdfs:label "Produced"@en,
