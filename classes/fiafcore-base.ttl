@@ -77,11 +77,6 @@
     rdfs:label "Safety"@en ;
     dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
 
-<https://fiafcore.org/ontology/Video> a owl:NamedIndividual,
-        fiaf:Base ;
-    rdfs:label "Video"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
-
 <https://fiafcore.org/ontology/Vinyl> a owl:NamedIndividual,
         fiaf:Base ;
     rdfs:label "Vinyl"@en ;
