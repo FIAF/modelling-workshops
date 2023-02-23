@@ -1457,12 +1457,14 @@ fiaf:Missing a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.16.2"^^xsd:string ;
     rdfs:subClassOf fiaf:PerforationCondition .
 
-fiaf:Mixed a owl:Class,
-        owl:NamedIndividual,
+fiaf:Mixed a owl:NamedIndividual,
         fiaf:Base ;
     rdfs:label "Mixed"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.4"^^xsd:string,
-        "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
+    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
+
+fiaf:MixedSound a owl:Class ;
+    rdfs:label "Mixed Sound"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.4"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundCharacteristic .
 
 fiaf:ModelMaker a owl:Class ;

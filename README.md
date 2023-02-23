@@ -1624,11 +1624,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.16.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:PerforationCondition](https://fiafcore.org/ontology/PerforationCondition)   
-####  Mixed   
-> **iri** https://fiafcore.org/ontology/Mixed   
-**label** Mixed   
-**source** FIAF Cataloguing Manual D.7.4, FIAF Cataloguing Manual D.7.7   
-**type** [owl:Class](http://www.w3.org/2002/07/owl#Class), [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
+####  Mixed Sound   
+> **iri** https://fiafcore.org/ontology/MixedSound   
+**label** Mixed Sound   
+**source** FIAF Cataloguing Manual D.7.4   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:SoundCharacteristic](https://fiafcore.org/ontology/SoundCharacteristic)   
 ####  Model Maker, Modeler, Modeling   
 > **iri** https://fiafcore.org/ontology/ModelMaker   
@@ -2954,9 +2954,8 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 ####  Mixed   
 > **iri** https://fiafcore.org/ontology/Mixed   
 **label** Mixed   
-**source** FIAF Cataloguing Manual D.7.4, FIAF Cataloguing Manual D.7.7   
-**type** [owl:Class](http://www.w3.org/2002/07/owl#Class), [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
-**subclass of** [fiaf:SoundCharacteristic](https://fiafcore.org/ontology/SoundCharacteristic)   
+**source** FIAF Cataloguing Manual D.7.7   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
 ####  Mylar   
 > **iri** https://fiafcore.org/ontology/Mylar   
 **label** Mylar   
