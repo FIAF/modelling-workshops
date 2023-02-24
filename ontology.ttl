@@ -1588,10 +1588,10 @@ fiaf:Mylar a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
     rdfs:subClassOf fiaf:Base .
 
-fiaf:NTSC a owl:NamedIndividual,
-        fiaf:BroadcastStandard ;
+fiaf:NTSC a owl:Class ;
     rdfs:label "NTSC"@en ;
-    dc:source "FIAF Cataloguing Manual 3.1.5.10"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual 3.1.5.10"^^xsd:string ;
+    rdfs:subClassOf fiaf:BroadcastStandard .
 
 fiaf:NarrationWritten a owl:Class ;
     rdfs:label "Commentary"@en,
@@ -1714,10 +1714,10 @@ fiaf:Outtake a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
     rdfs:subClassOf fiaf:Form .
 
-fiaf:PAL a owl:NamedIndividual,
-        fiaf:BroadcastStandard ;
+fiaf:PAL a owl:Class ;
     rdfs:label "PAL"@en ;
-    dc:source "FIAF Cataloguing Manual 3.1.5.10"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual 3.1.5.10"^^xsd:string ;
+    rdfs:subClassOf fiaf:BroadcastStandard .
 
 fiaf:PanAndScan a owl:Class ;
     rdfs:label "Pan and Scan"@en ;
@@ -2007,10 +2007,10 @@ fiaf:S10 a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.10"^^xsd:string ;
     rdfs:subClassOf fiaf:Codec .
 
-fiaf:SECAM a owl:NamedIndividual,
-        fiaf:BroadcastStandard ;
+fiaf:SECAM a owl:Class ;
     rdfs:label "SECAM"@en ;
-    dc:source "FIAF Cataloguing Manual 3.1.5.10"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual 3.1.5.10"^^xsd:string ;
+    rdfs:subClassOf fiaf:BroadcastStandard .
 
 fiaf:SVCD a owl:Class ;
     rdfs:label "SVCD"@en ;

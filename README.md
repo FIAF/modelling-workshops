@@ -1987,6 +1987,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.7   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Base](https://fiafcore.org/ontology/Base)   
+####  NTSC   
+> **iri** https://fiafcore.org/ontology/NTSC   
+**label** NTSC   
+**source** FIAF Cataloguing Manual 3.1.5.10   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:BroadcastStandard](https://fiafcore.org/ontology/BroadcastStandard)   
 ####  Commentary, Commentary Written, Narration, Narration Written   
 > **iri** https://fiafcore.org/ontology/NarrationWritten   
 **label** Commentary, Commentary Written, Narration, Narration Written   
@@ -2119,6 +2125,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms D.1.9   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Form](https://fiafcore.org/ontology/Form)   
+####  PAL   
+> **iri** https://fiafcore.org/ontology/PAL   
+**label** PAL   
+**source** FIAF Cataloguing Manual 3.1.5.10   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:BroadcastStandard](https://fiafcore.org/ontology/BroadcastStandard)   
 ####  Pan and Scan   
 > **iri** https://fiafcore.org/ontology/PanAndScan   
 **label** Pan and Scan   
@@ -2472,6 +2484,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.10   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Codec](https://fiafcore.org/ontology/Codec)   
+####  SECAM   
+> **iri** https://fiafcore.org/ontology/SECAM   
+**label** SECAM   
+**source** FIAF Cataloguing Manual 3.1.5.10   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:BroadcastStandard](https://fiafcore.org/ontology/BroadcastStandard)   
 ####  SVCD   
 > **iri** https://fiafcore.org/ontology/SVCD   
 **label** SVCD   
@@ -3234,16 +3252,6 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Kodachrome   
 **source** FIAF Cataloguing Manual D.7.12   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
-####  NTSC   
-> **iri** https://fiafcore.org/ontology/NTSC   
-**label** NTSC   
-**source** FIAF Cataloguing Manual 3.1.5.10   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:BroadcastStandard](https://fiafcore.org/ontology/BroadcastStandard)   
-####  PAL   
-> **iri** https://fiafcore.org/ontology/PAL   
-**label** PAL   
-**source** FIAF Cataloguing Manual 3.1.5.10   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:BroadcastStandard](https://fiafcore.org/ontology/BroadcastStandard)   
 ####  Pathécolor   
 > **iri** https://fiafcore.org/ontology/Pathécolor   
 **label** Pathécolor   
@@ -3254,11 +3262,6 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** RGB   
 **source** FIAF Cataloguing Manual D.7.12   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
-####  SECAM   
-> **iri** https://fiafcore.org/ontology/SECAM   
-**label** SECAM   
-**source** FIAF Cataloguing Manual 3.1.5.10   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:BroadcastStandard](https://fiafcore.org/ontology/BroadcastStandard)   
 ####  Technicolor   
 > **iri** https://fiafcore.org/ontology/Technicolor   
 **label** Technicolor   
