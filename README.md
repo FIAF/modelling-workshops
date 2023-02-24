@@ -282,6 +282,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.3   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Status](https://fiafcore.org/ontology/Status)   
+####  Acetate   
+> **iri** https://fiafcore.org/ontology/Acetate   
+**label** Acetate   
+**source** FIAF Cataloguing Manual D.7.7   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Base](https://fiafcore.org/ontology/Base)   
 ####  Acquisition Event   
 > **iri** https://fiafcore.org/ontology/AcquisitionEvent   
 **label** Acquisition Event   
@@ -294,6 +300,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual A.2.4.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:AlternativeTitle](https://fiafcore.org/ontology/AlternativeTitle)   
+####  Acrylic   
+> **iri** https://fiafcore.org/ontology/Acrylic   
+**label** Acrylic   
+**source** FIAF Cataloguing Manual D.7.7   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Base](https://fiafcore.org/ontology/Base)   
 ####  Activity   
 > **iri** https://fiafcore.org/ontology/Activity   
 **label** Activity   
@@ -954,6 +966,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.5.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CinematographyActivity](https://fiafcore.org/ontology/CinematographyActivity)   
+####  CTA   
+> **iri** https://fiafcore.org/ontology/Cta   
+**label** CTA   
+**source** FIAF Cataloguing Manual D.7.7   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Base](https://fiafcore.org/ontology/Base)   
 ####  D1   
 > **iri** https://fiafcore.org/ontology/D1   
 **label** D1   
@@ -1008,6 +1026,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.16.5   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Condition](https://fiafcore.org/ontology/Condition)   
+####  Diacetate   
+> **iri** https://fiafcore.org/ontology/Diacetate   
+**label** Diacetate   
+**source** FIAF Cataloguing Manual D.7.7   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Base](https://fiafcore.org/ontology/Base)   
 ####  Dialect Coach, Dialogue Coach   
 > **iri** https://fiafcore.org/ontology/DialogueCoach   
 **label** Dialect Coach, Dialogue Coach   
@@ -1712,6 +1736,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.5   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:SoundFixation](https://fiafcore.org/ontology/SoundFixation)   
+####  Mainly nitrate   
+> **iri** https://fiafcore.org/ontology/MainlyNitrate   
+**label** Mainly nitrate   
+**source** FIAF Cataloguing Manual D.7.7   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Base](https://fiafcore.org/ontology/Base)   
+####  Mainly safety   
+> **iri** https://fiafcore.org/ontology/MainlySafety   
+**label** Mainly safety   
+**source** FIAF Cataloguing Manual D.7.7   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Base](https://fiafcore.org/ontology/Base)   
 ####  Make-Up, Make-Up Artist   
 > **iri** https://fiafcore.org/ontology/MakeUpArtist   
 **label** Make-Up, Make-Up Artist   
@@ -1801,6 +1837,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.16.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:PerforationCondition](https://fiafcore.org/ontology/PerforationCondition)   
+####  Mixed   
+> **iri** https://fiafcore.org/ontology/Mixed   
+**label** Mixed   
+**source** FIAF Cataloguing Manual D.7.7   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Base](https://fiafcore.org/ontology/Base)   
 ####  Mixed Sound   
 > **iri** https://fiafcore.org/ontology/MixedSound   
 **label** Mixed Sound   
@@ -1885,6 +1927,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.4   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:SoundCharacteristic](https://fiafcore.org/ontology/SoundCharacteristic)   
+####  Mylar   
+> **iri** https://fiafcore.org/ontology/Mylar   
+**label** Mylar   
+**source** FIAF Cataloguing Manual D.7.7   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Base](https://fiafcore.org/ontology/Base)   
 ####  Commentary, Commentary Written, Narration, Narration Written   
 > **iri** https://fiafcore.org/ontology/NarrationWritten   
 **label** Commentary, Commentary Written, Narration, Narration Written   
@@ -1909,6 +1957,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.12.3   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:LaboratoryActivity](https://fiafcore.org/ontology/LaboratoryActivity)   
+####  Nitrate   
+> **iri** https://fiafcore.org/ontology/Nitrate   
+**label** Nitrate   
+**source** FIAF Cataloguing Manual D.7.7   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Base](https://fiafcore.org/ontology/Base)   
 ####  No Dialogue   
 > **iri** https://fiafcore.org/ontology/NoDialogue   
 **label** No Dialogue   
@@ -2047,6 +2101,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.15   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ImageFormat](https://fiafcore.org/ontology/ImageFormat)   
+####  Polyester   
+> **iri** https://fiafcore.org/ontology/Polyester   
+**label** Polyester   
+**source** FIAF Cataloguing Manual D.7.7   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Base](https://fiafcore.org/ontology/Base)   
 ####  Post-Production   
 > **iri** https://fiafcore.org/ontology/PostProductionEvent   
 **label** Post-Production   
@@ -2239,6 +2299,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.15.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:AcquisitionEvent](https://fiafcore.org/ontology/AcquisitionEvent)   
+####  PVC   
+> **iri** https://fiafcore.org/ontology/Pvc   
+**label** PVC   
+**source** FIAF Cataloguing Manual D.7.7   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Base](https://fiafcore.org/ontology/Base)   
 ####  Pyrotechnics   
 > **iri** https://fiafcore.org/ontology/Pyrotechnics   
 **label** Pyrotechnics   
@@ -2352,6 +2418,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:DigitalFileEncoding](https://fiafcore.org/ontology/DigitalFileEncoding)   
+####  Safety   
+> **iri** https://fiafcore.org/ontology/Safety   
+**label** Safety   
+**source** FIAF Cataloguing Manual D.7.7   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Base](https://fiafcore.org/ontology/Base)   
 ####  Scanning Event   
 > **iri** https://fiafcore.org/ontology/ScanningEvent   
 **label** Scanning Event   
@@ -2934,6 +3006,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.3   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Status](https://fiafcore.org/ontology/Status)   
+####  Vinyl   
+> **iri** https://fiafcore.org/ontology/Vinyl   
+**label** Vinyl   
+**source** FIAF Cataloguing Manual D.7.7   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Base](https://fiafcore.org/ontology/Base)   
 ####  Optical Effects, Photographic Effects, Special Photographic Effects, VFX, Visual Effects   
 > **iri** https://fiafcore.org/ontology/VisualEffects   
 **label** Optical Effects, Photographic Effects, Special Photographic Effects, VFX, Visual Effects   
@@ -3024,16 +3102,6 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:LanguageUsage](https://fiafcore.org/ontology/LanguageUsage)   
 ## Individuals   
-####  Acetate   
-> **iri** https://fiafcore.org/ontology/Acetate   
-**label** Acetate   
-**source** FIAF Cataloguing Manual D.7.7   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
-####  Acrylic   
-> **iri** https://fiafcore.org/ontology/Acrylic   
-**label** Acrylic   
-**source** FIAF Cataloguing Manual D.7.7   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
 ####  Amateur Film   
 > **iri** https://fiafcore.org/ontology/AmateurFilm   
 **label** Amateur Film   
@@ -3049,21 +3117,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Compilation   
 **source** FIAF Glossary of Filmographic Terms D.1.6   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
-####  CTA   
-> **iri** https://fiafcore.org/ontology/Cta   
-**label** CTA   
-**source** FIAF Cataloguing Manual D.7.7   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
 ####  DVSI   
 > **iri** https://fiafcore.org/ontology/DVSI   
 **label** DVSI   
 **source** FIAF Cataloguing Manual D.7.20   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:SourceDevice](https://fiafcore.org/ontology/SourceDevice)   
-####  Diacetate   
-> **iri** https://fiafcore.org/ontology/Diacetate   
-**label** Diacetate   
-**source** FIAF Cataloguing Manual D.7.7   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
 ####  Eastmancolor   
 > **iri** https://fiafcore.org/ontology/Eastmancolor   
 **label** Eastmancolor   
@@ -3119,36 +3177,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Kodachrome   
 **source** FIAF Cataloguing Manual D.7.12   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
-####  Mainly nitrate   
-> **iri** https://fiafcore.org/ontology/MainlyNitrate   
-**label** Mainly nitrate   
-**source** FIAF Cataloguing Manual D.7.7   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
-####  Mainly safety   
-> **iri** https://fiafcore.org/ontology/MainlySafety   
-**label** Mainly safety   
-**source** FIAF Cataloguing Manual D.7.7   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
-####  Mixed   
-> **iri** https://fiafcore.org/ontology/Mixed   
-**label** Mixed   
-**source** FIAF Cataloguing Manual D.7.7   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
-####  Mylar   
-> **iri** https://fiafcore.org/ontology/Mylar   
-**label** Mylar   
-**source** FIAF Cataloguing Manual D.7.7   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
 ####  NTSC   
 > **iri** https://fiafcore.org/ontology/NTSC   
 **label** NTSC   
 **source** FIAF Cataloguing Manual 3.1.5.10   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:BroadcastStandard](https://fiafcore.org/ontology/BroadcastStandard)   
-####  Nitrate   
-> **iri** https://fiafcore.org/ontology/Nitrate   
-**label** Nitrate   
-**source** FIAF Cataloguing Manual D.7.7   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
 ####  Out, Outtake   
 > **iri** https://fiafcore.org/ontology/Outtake   
 **label** Out, Outtake   
@@ -3164,16 +3197,6 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Pathécolor   
 **source** FIAF Cataloguing Manual D.7.12   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
-####  Polyester   
-> **iri** https://fiafcore.org/ontology/Polyester   
-**label** Polyester   
-**source** FIAF Cataloguing Manual D.7.7   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
-####  PVC   
-> **iri** https://fiafcore.org/ontology/Pvc   
-**label** PVC   
-**source** FIAF Cataloguing Manual D.7.7   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
 ####  RGB   
 > **iri** https://fiafcore.org/ontology/RGB   
 **label** RGB   
@@ -3184,11 +3207,6 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** SECAM   
 **source** FIAF Cataloguing Manual 3.1.5.10   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:BroadcastStandard](https://fiafcore.org/ontology/BroadcastStandard)   
-####  Safety   
-> **iri** https://fiafcore.org/ontology/Safety   
-**label** Safety   
-**source** FIAF Cataloguing Manual D.7.7   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
 ####  Screen Test, Wardrobe Test   
 > **iri** https://fiafcore.org/ontology/ScreenTest   
 **label** Screen Test, Wardrobe Test   
@@ -3229,11 +3247,6 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** VT20   
 **source** FIAF Cataloguing Manual D.7.20   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:SourceDevice](https://fiafcore.org/ontology/SourceDevice)   
-####  Vinyl   
-> **iri** https://fiafcore.org/ontology/Vinyl   
-**label** Vinyl   
-**source** FIAF Cataloguing Manual D.7.7   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
 ####  YUV   
 > **iri** https://fiafcore.org/ontology/YUV   
 **label** YUV   

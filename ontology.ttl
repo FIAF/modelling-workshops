@@ -237,20 +237,20 @@ fiaf:Accessioned a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.3"^^xsd:string ;
     rdfs:subClassOf fiaf:Status .
 
-fiaf:Acetate a owl:NamedIndividual,
-        fiaf:Base ;
+fiaf:Acetate a owl:Class ;
     rdfs:label "Acetate"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
+    rdfs:subClassOf fiaf:Base .
 
 fiaf:AcquisitionTitle a owl:Class ;
     rdfs:label "Acquisition Title"@en ;
     dc:source "FIAF Cataloguing Manual A.2.4.1"^^xsd:string ;
     rdfs:subClassOf fiaf:AlternativeTitle .
 
-fiaf:Acrylic a owl:NamedIndividual,
-        fiaf:Base ;
+fiaf:Acrylic a owl:Class ;
     rdfs:label "Acrylic"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
+    rdfs:subClassOf fiaf:Base .
 
 fiaf:Adaptation a owl:Class ;
     rdfs:label "Adaptation"@en,
@@ -777,10 +777,10 @@ fiaf:CraneOperator a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.5.16"^^xsd:string ;
     rdfs:subClassOf fiaf:CinematographyActivity .
 
-fiaf:Cta a owl:NamedIndividual,
-        fiaf:Base ;
+fiaf:Cta a owl:Class ;
     rdfs:label "CTA"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
+    rdfs:subClassOf fiaf:Base .
 
 fiaf:D1 a owl:Class ;
     rdfs:label "D1"@en ;
@@ -823,10 +823,10 @@ fiaf:Dancer a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.7.5"^^xsd:string ;
     rdfs:subClassOf fiaf:CastActivity .
 
-fiaf:Diacetate a owl:NamedIndividual,
-        fiaf:Base ;
+fiaf:Diacetate a owl:Class ;
     rdfs:label "Diacetate"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
+    rdfs:subClassOf fiaf:Base .
 
 fiaf:DialogueCoach a owl:Class ;
     rdfs:label "Dialect Coach"@en,
@@ -1414,15 +1414,15 @@ fiaf:MagneticSound a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.5"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundFixation .
 
-fiaf:MainlyNitrate a owl:NamedIndividual,
-        fiaf:Base ;
+fiaf:MainlyNitrate a owl:Class ;
     rdfs:label "Mainly nitrate"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
+    rdfs:subClassOf fiaf:Base .
 
-fiaf:MainlySafety a owl:NamedIndividual,
-        fiaf:Base ;
+fiaf:MainlySafety a owl:Class ;
     rdfs:label "Mainly safety"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
+    rdfs:subClassOf fiaf:Base .
 
 fiaf:MakeUpArtist a owl:Class ;
     rdfs:label "Make-Up"@en,
@@ -1488,10 +1488,10 @@ fiaf:Missing a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.16.2"^^xsd:string ;
     rdfs:subClassOf fiaf:PerforationCondition .
 
-fiaf:Mixed a owl:NamedIndividual,
-        fiaf:Base ;
+fiaf:Mixed a owl:Class ;
     rdfs:label "Mixed"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
+    rdfs:subClassOf fiaf:Base .
 
 fiaf:MixedSound a owl:Class ;
     rdfs:label "Mixed Sound"@en ;
@@ -1583,10 +1583,10 @@ fiaf:Mute a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.4"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundCharacteristic .
 
-fiaf:Mylar a owl:NamedIndividual,
-        fiaf:Base ;
+fiaf:Mylar a owl:Class ;
     rdfs:label "Mylar"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
+    rdfs:subClassOf fiaf:Base .
 
 fiaf:NTSC a owl:NamedIndividual,
         fiaf:BroadcastStandard ;
@@ -1624,10 +1624,10 @@ fiaf:NegativeCutter a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.12.3"^^xsd:string ;
     rdfs:subClassOf fiaf:LaboratoryActivity .
 
-fiaf:Nitrate a owl:NamedIndividual,
-        fiaf:Base ;
+fiaf:Nitrate a owl:Class ;
     rdfs:label "Nitrate"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
+    rdfs:subClassOf fiaf:Base .
 
 fiaf:NoDialogue a owl:Class ;
     rdfs:label "No Dialogue"@en ;
@@ -1754,10 +1754,10 @@ fiaf:Pillarbox a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.15"^^xsd:string ;
     rdfs:subClassOf fiaf:ImageFormat .
 
-fiaf:Polyester a owl:NamedIndividual,
-        fiaf:Base ;
+fiaf:Polyester a owl:Class ;
     rdfs:label "Polyester"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
+    rdfs:subClassOf fiaf:Base .
 
 fiaf:PostProductionEvent a owl:Class ;
     rdfs:label "Post-Production"@en ;
@@ -1909,10 +1909,10 @@ fiaf:PurchaseEvent a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.15.1"^^xsd:string ;
     rdfs:subClassOf fiaf:AcquisitionEvent .
 
-fiaf:Pvc a owl:NamedIndividual,
-        fiaf:Base ;
+fiaf:Pvc a owl:Class ;
     rdfs:label "PVC"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
+    rdfs:subClassOf fiaf:Base .
 
 fiaf:Pyrotechnics a owl:Class ;
     rdfs:label "Pyrotechnics"@en ;
@@ -2017,10 +2017,10 @@ fiaf:SVCD a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:DigitalFileEncoding .
 
-fiaf:Safety a owl:NamedIndividual,
-        fiaf:Base ;
+fiaf:Safety a owl:Class ;
     rdfs:label "Safety"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
+    rdfs:subClassOf fiaf:Base .
 
 fiaf:ScanningEvent a owl:Class ;
     rdfs:label "Scanning Event"@en ;
@@ -2532,10 +2532,10 @@ fiaf:Viewing a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.3"^^xsd:string ;
     rdfs:subClassOf fiaf:Status .
 
-fiaf:Vinyl a owl:NamedIndividual,
-        fiaf:Base ;
+fiaf:Vinyl a owl:Class ;
     rdfs:label "Vinyl"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
+    rdfs:subClassOf fiaf:Base .
 
 fiaf:VisualEffects a owl:Class ;
     rdfs:label "Optical Effects"@en,
