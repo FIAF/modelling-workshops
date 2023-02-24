@@ -1,0 +1,53 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix fiaf: <https://fiafcore.org/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Ontology
+
+<https://fiafcore.org/ontology/> a owl:Ontology ;
+    dc:title "FIAFcore" .
+
+# Class
+
+<https://fiafcore.org/ontology/FrameRate> a owl:Class ;
+    rdfs:label "Frame Rate"@en ;
+    dc:source "FIAF Cataloguing Manual 3.1.5.12"^^xsd:string .
+
+# Subclasses
+
+<https://fiafcore.org/ontology/16fps> a owl:Class ;
+    rdfs:label "16fps"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.18"^^xsd:string ;
+    rdfs:subClassOf fiaf:FrameRate .
+    
+<https://fiafcore.org/ontology/23.98fps> a owl:Class ;
+    rdfs:label "23.98 fps"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.18"^^xsd:string ;
+    rdfs:subClassOf fiaf:FrameRate .
+
+<https://fiafcore.org/ontology/24fps> a owl:Class ;
+    rdfs:label "24fps"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.18"^^xsd:string ;
+    rdfs:subClassOf fiaf:FrameRate .
+
+<https://fiafcore.org/ontology/25fps> a owl:Class ;
+    rdfs:label "25fps"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.18"^^xsd:string ;
+    rdfs:subClassOf fiaf:FrameRate .
+
+<https://fiafcore.org/ontology/30fps> a owl:Class ;
+    rdfs:label "30fps"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.18"^^xsd:string ;
+    rdfs:subClassOf fiaf:FrameRate .
+
+<https://fiafcore.org/ontology/48fps> a owl:Class ;
+    rdfs:label "48fps"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.18"^^xsd:string ;
+    rdfs:subClassOf fiaf:FrameRate .
+
+<https://fiafcore.org/ontology/VariableFrameRate> a owl:Class ;
+    rdfs:label "Variable Frame Rate"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.18"^^xsd:string ;
+    rdfs:subClassOf fiaf:FrameRate .
