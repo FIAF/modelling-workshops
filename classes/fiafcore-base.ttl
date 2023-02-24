@@ -15,69 +15,69 @@
     rdfs:label "Base"@en ;
     dc:source "FIAF Cataloguing Manual 3.1.5.13"^^xsd:string .
 
-# Individuals
+# Subclasses
 
-<https://fiafcore.org/ontology/Acetate> a owl:NamedIndividual,
-        fiaf:Base ;
+<https://fiafcore.org/ontology/Acetate> a owl:Class ;
     rdfs:label "Acetate"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
+    rdfs:subClassOf fiaf:Base .
 
-<https://fiafcore.org/ontology/Acrylic> a owl:NamedIndividual,
-        fiaf:Base ;
+<https://fiafcore.org/ontology/Acrylic> a owl:Class ;
     rdfs:label "Acrylic"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
+    rdfs:subClassOf fiaf:Base .
 
-<https://fiafcore.org/ontology/Cta> a owl:NamedIndividual,
-        fiaf:Base ;
+<https://fiafcore.org/ontology/Cta> a owl:Class ;
     rdfs:label "CTA"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
+    rdfs:subClassOf fiaf:Base .
 
-<https://fiafcore.org/ontology/Diacetate> a owl:NamedIndividual,
-        fiaf:Base ;
+<https://fiafcore.org/ontology/Diacetate> a owl:Class ;
     rdfs:label "Diacetate"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
+    rdfs:subClassOf fiaf:Base .
 
-<https://fiafcore.org/ontology/MainlyNitrate> a owl:NamedIndividual,
-        fiaf:Base ;
+<https://fiafcore.org/ontology/MainlyNitrate> a owl:Class ;
     rdfs:label "Mainly nitrate"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
+    rdfs:subClassOf fiaf:Base .
 
-<https://fiafcore.org/ontology/MainlySafety> a owl:NamedIndividual,
-        fiaf:Base ;
+<https://fiafcore.org/ontology/MainlySafety> a owl:Class ;
     rdfs:label "Mainly safety"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
+    rdfs:subClassOf fiaf:Base .
 
-<https://fiafcore.org/ontology/Mixed> a owl:NamedIndividual,
-        fiaf:Base ;
+<https://fiafcore.org/ontology/Mixed> a owl:Class ;
     rdfs:label "Mixed"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
+    rdfs:subClassOf fiaf:Base .
 
-<https://fiafcore.org/ontology/Mylar> a owl:NamedIndividual,
-        fiaf:Base ;
+<https://fiafcore.org/ontology/Mylar> a owl:Class ;
     rdfs:label "Mylar"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
+    rdfs:subClassOf fiaf:Base .
 
-<https://fiafcore.org/ontology/Nitrate> a owl:NamedIndividual,
-        fiaf:Base ;
+<https://fiafcore.org/ontology/Nitrate> a owl:Class ;
     rdfs:label "Nitrate"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
+    rdfs:subClassOf fiaf:Base .
 
-<https://fiafcore.org/ontology/Polyester> a owl:NamedIndividual,
-        fiaf:Base ;
+<https://fiafcore.org/ontology/Polyester> a owl:Class ;
     rdfs:label "Polyester"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
+    rdfs:subClassOf fiaf:Base .
 
-<https://fiafcore.org/ontology/Pvc> a owl:NamedIndividual,
-        fiaf:Base ;
+<https://fiafcore.org/ontology/Pvc> a owl:Class ;
     rdfs:label "PVC"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
+    rdfs:subClassOf fiaf:Base .
 
-<https://fiafcore.org/ontology/Safety> a owl:NamedIndividual,
-        fiaf:Base ;
+<https://fiafcore.org/ontology/Safety> a owl:Class ;
     rdfs:label "Safety"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
+    rdfs:subClassOf fiaf:Base .
 
-<https://fiafcore.org/ontology/Vinyl> a owl:NamedIndividual,
-        fiaf:Base ;
+<https://fiafcore.org/ontology/Vinyl> a owl:Class ;
     rdfs:label "Vinyl"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
+    rdfs:subClassOf fiaf:Base .
