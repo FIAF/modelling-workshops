@@ -238,38 +238,38 @@
 
 # Datatype Properties
 
-<https://fiafcore.org/ontology/hasEventDate> a owl:ObjectProperty ;
+<https://fiafcore.org/ontology/hasEventDate> a owl:DatatypeProperty ;
     rdfs:label "Has Event Date"@en ;
     dc:source "FIAF Cataloguing Manual D.4.1"^^xsd:string ;
     rdfs:domain fiaf:Event ;
     rdfs:range xsd:date .
 
-<https://fiafcore.org/ontology/hasAwardName> a owl:ObjectProperty ;
+<https://fiafcore.org/ontology/hasAwardName> a owl:DatatypeProperty ;
     rdfs:label "Has Award Name"@en ;
     dc:source "FIAF Cataloguing Manual D.4.2"^^xsd:string ;
     rdfs:domain fiaf:AwardsOrNominationsEvent ;
     rdfs:range xsd:string .
 
-<https://fiafcore.org/ontology/nominationOnly> a owl:ObjectProperty ;
+<https://fiafcore.org/ontology/nominationOnly> a owl:DatatypeProperty ;
     rdfs:label "Nomination Only"@en ;
     dc:source "FIAF Cataloguing Manual D.4.2"^^xsd:string ;
     rdfs:domain fiaf:AwardsOrNominationsEvent ;
     rdfs:range xsd:boolean .
 
-<https://fiafcore.org/ontology/hasAchievement> a owl:ObjectProperty ;
+<https://fiafcore.org/ontology/hasAchievement> a owl:DatatypeProperty ;
     rdfs:label "Has Achievement"@en ;
     dc:source "FIAF Cataloguing Manual D.4.2"^^xsd:string ;
     rdfs:domain fiaf:AwardsOrNominationsEvent ;
     rdfs:range xsd:string .
 
-<https://fiafcore.org/ontology/hasDecisionID> a owl:ObjectProperty ;
+<https://fiafcore.org/ontology/hasDecisionID> a owl:DatatypeProperty ;
     rdfs:label "Has Decision ID"@en ;
     dc:source "FIAF Cataloguing Manual D.4.6"^^xsd:string ;
     rdfs:domain fiaf:DecisionEvent ;
     rdfs:range xsd:string .
 
-<https://fiafcore.org/ontology/hasVerdict> a owl:ObjectProperty ;
+<https://fiafcore.org/ontology/hasVerdict> a owl:DatatypeProperty ;
     rdfs:label "Has Verdict"@en ;
     dc:source "FIAF Cataloguing Manual D.4.6"^^xsd:string ;
-    rdfs:domain fiaf:Event ;
+    rdfs:domain fiaf:DecisionEvent ;
     rdfs:range xsd:string .
