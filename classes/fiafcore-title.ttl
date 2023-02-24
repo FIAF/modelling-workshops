@@ -43,6 +43,56 @@
     dc:source "FIAF Cataloguing Manual A.2.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Title .
 
+<https://fiafcore.org/ontology/WorkingTitle> a owl:Class ;
+    rdfs:label "Working Title"@en ;
+    dc:source "FIAF Cataloguing Manual A.2.4.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:AlternativeTitle .
+
+<https://fiafcore.org/ontology/AcquisitionTitle> a owl:Class ;
+    rdfs:label "Acquisition Title"@en ;
+    dc:source "FIAF Cataloguing Manual A.2.4.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:AlternativeTitle .
+
+<https://fiafcore.org/ontology/PreReleaseTitle> a owl:Class ;
+    rdfs:label "Pre-Release Title"@en ;
+    dc:source "FIAF Cataloguing Manual A.2.4.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:AlternativeTitle .
+
+<https://fiafcore.org/ontology/AbbreviatedTitle> a owl:Class ;
+    rdfs:label "Abbreviated Title"@en ;
+    dc:source "FIAF Cataloguing Manual A.2.4.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:AlternativeTitle .
+
+<https://fiafcore.org/ontology/TranslatedTitle> a owl:Class ;
+    rdfs:label "Translated Title"@en ;
+    dc:source "FIAF Cataloguing Manual A.2.4.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:AlternativeTitle .
+
+<https://fiafcore.org/ontology/TransliteratedTitle> a owl:Class ;
+    rdfs:label "Transliterated Title"@en ;
+    dc:source "FIAF Cataloguing Manual A.2.4.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:AlternativeTitle .
+
+<https://fiafcore.org/ontology/CorrectedTitle> a owl:Class ;
+    rdfs:label "Corrected Title"@en ;
+    dc:source "FIAF Cataloguing Manual A.2.4.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:AlternativeTitle .
+
+<https://fiafcore.org/ontology/SearchTitle> a owl:Class ;
+    rdfs:label "Search Title"@en ;
+    dc:source "FIAF Cataloguing Manual A.2.4.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:AlternativeTitle .
+
+<https://fiafcore.org/ontology/SeriesTitle> a owl:Class ;
+    rdfs:label "Series Title"@en ;
+    dc:source "FIAF Cataloguing Manual A.2.4.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:AlternativeTitle .
+
+<https://fiafcore.org/ontology/ParallelTitle> a owl:Class ;
+    rdfs:label "Parallel Title"@en ;
+    dc:source "FIAF Cataloguing Manual A.2.4.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:AlternativeTitle .
+
 # Datatype Property 
 
 <https://fiafcore.org/ontology/hasTitleValue> a owl:DatatypeProperty ;
