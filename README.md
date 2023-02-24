@@ -1330,6 +1330,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.7.4   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CastActivity](https://fiafcore.org/ontology/CastActivity)   
+####  FFmpeg   
+> **iri** https://fiafcore.org/ontology/FFmpeg   
+**label** FFmpeg   
+**source** FIAF Cataloguing Manual 3.1.5.22   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:SourceSoftware](https://fiafcore.org/ontology/SourceSoftware)   
 ####  Faded   
 > **iri** https://fiafcore.org/ontology/Faded   
 **label** Faded   
@@ -3208,11 +3214,6 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Eastmancolor   
 **source** FIAF Cataloguing Manual D.7.12   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
-####  FFmpeg   
-> **iri** https://fiafcore.org/ontology/FFmpeg   
-**label** FFmpeg   
-**source** FIAF Cataloguing Manual 3.1.5.22   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:SourceSoftware](https://fiafcore.org/ontology/SourceSoftware)   
 ####  Ferraniacolor   
 > **iri** https://fiafcore.org/ontology/Ferraniacolor   
 **label** Ferraniacolor   
