@@ -32,6 +32,11 @@ fiaf:16bit a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.17"^^xsd:string ;
     rdfs:subClassOf fiaf:BitDepth .
 
+fiaf:16fps a owl:Class ;
+    rdfs:label "16fps"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.18"^^xsd:string ;
+    rdfs:subClassOf fiaf:FrameRate .
+
 fiaf:16mmFilm a owl:Class ;
     rdfs:label "16mm Film"@en ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
@@ -77,10 +82,25 @@ fiaf:2-2.5 a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.14"^^xsd:string ;
     rdfs:subClassOf fiaf:ImageRatio .
 
+fiaf:23.98fps a owl:Class ;
+    rdfs:label "23.98 fps"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.18"^^xsd:string ;
+    rdfs:subClassOf fiaf:FrameRate .
+
 fiaf:24bit a owl:Class ;
     rdfs:label "24bit"@en ;
     dc:source "FIAF Cataloguing Manual D.7.17"^^xsd:string ;
     rdfs:subClassOf fiaf:BitDepth .
+
+fiaf:24fps a owl:Class ;
+    rdfs:label "24fps"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.18"^^xsd:string ;
+    rdfs:subClassOf fiaf:FrameRate .
+
+fiaf:25fps a owl:Class ;
+    rdfs:label "25fps"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.18"^^xsd:string ;
+    rdfs:subClassOf fiaf:FrameRate .
 
 fiaf:2InchQuadruplex a owl:Class ;
     rdfs:label "2-inch Quadruplex"@en ;
@@ -91,6 +111,11 @@ fiaf:2K a owl:NamedIndividual,
         fiaf:Resolution ;
     rdfs:label "2K"@en ;
     dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string .
+
+fiaf:30fps a owl:Class ;
+    rdfs:label "30fps"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.18"^^xsd:string ;
+    rdfs:subClassOf fiaf:FrameRate .
 
 fiaf:32bit a owl:Class ;
     rdfs:label "32bit"@en ;
@@ -121,6 +146,11 @@ fiaf:405 a owl:NamedIndividual,
         fiaf:LineStandard ;
     rdfs:label "405"@en ;
     dc:source "FIAF Cataloguing Manual D.7.21"^^xsd:string .
+
+fiaf:48fps a owl:Class ;
+    rdfs:label "48fps"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.18"^^xsd:string ;
+    rdfs:subClassOf fiaf:FrameRate .
 
 <https://fiafcore.org/ontology/4:3> a owl:Class ;
     rdfs:label "4:3"@en ;
@@ -2482,6 +2512,11 @@ fiaf:VT20 a owl:NamedIndividual,
     rdfs:label "VT20"@en ;
     dc:source "FIAF Cataloguing Manual D.7.20"^^xsd:string .
 
+fiaf:VariableFrameRate a owl:Class ;
+    rdfs:label "Variable Frame Rate"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.18"^^xsd:string ;
+    rdfs:subClassOf fiaf:FrameRate .
+
 fiaf:Verbatim a owl:Class ;
     rdfs:label "Verbatim"@en ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
@@ -3069,6 +3104,10 @@ fiaf:Video a owl:Class ;
 fiaf:Codec a owl:Class ;
     rdfs:label "Codec"@en ;
     dc:source "FIAF Cataloguing Manual 3.1.5.16, 3.1.5.17"^^xsd:string .
+
+fiaf:FrameRate a owl:Class ;
+    rdfs:label "Frame Rate"@en ;
+    dc:source "FIAF Cataloguing Manual 3.1.5.12"^^xsd:string .
 
 fiaf:AlternativeTitle a owl:Class ;
     rdfs:label "Alternative Title"@en ;

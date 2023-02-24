@@ -30,6 +30,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.17   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:BitDepth](https://fiafcore.org/ontology/BitDepth)   
+####  16fps   
+> **iri** https://fiafcore.org/ontology/16fps   
+**label** 16fps   
+**source** FIAF Cataloguing Manual D.7.18   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:FrameRate](https://fiafcore.org/ontology/FrameRate)   
 ####  16mm Film   
 > **iri** https://fiafcore.org/ontology/16mmFilm   
 **label** 16mm Film   
@@ -84,18 +90,42 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.14   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ImageRatio](https://fiafcore.org/ontology/ImageRatio)   
+####  23.98 fps   
+> **iri** https://fiafcore.org/ontology/23.98fps   
+**label** 23.98 fps   
+**source** FIAF Cataloguing Manual D.7.18   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:FrameRate](https://fiafcore.org/ontology/FrameRate)   
 ####  24bit   
 > **iri** https://fiafcore.org/ontology/24bit   
 **label** 24bit   
 **source** FIAF Cataloguing Manual D.7.17   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:BitDepth](https://fiafcore.org/ontology/BitDepth)   
+####  24fps   
+> **iri** https://fiafcore.org/ontology/24fps   
+**label** 24fps   
+**source** FIAF Cataloguing Manual D.7.18   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:FrameRate](https://fiafcore.org/ontology/FrameRate)   
+####  25fps   
+> **iri** https://fiafcore.org/ontology/25fps   
+**label** 25fps   
+**source** FIAF Cataloguing Manual D.7.18   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:FrameRate](https://fiafcore.org/ontology/FrameRate)   
 ####  2-inch Quadruplex   
 > **iri** https://fiafcore.org/ontology/2InchQuadruplex   
 **label** 2-inch Quadruplex   
 **source** FIAF Cataloguing Manual D.7.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Video](https://fiafcore.org/ontology/Video)   
+####  30fps   
+> **iri** https://fiafcore.org/ontology/30fps   
+**label** 30fps   
+**source** FIAF Cataloguing Manual D.7.18   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:FrameRate](https://fiafcore.org/ontology/FrameRate)   
 ####  32bit   
 > **iri** https://fiafcore.org/ontology/32bit   
 **label** 32bit   
@@ -126,6 +156,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  48fps   
+> **iri** https://fiafcore.org/ontology/48fps   
+**label** 48fps   
+**source** FIAF Cataloguing Manual D.7.18   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:FrameRate](https://fiafcore.org/ontology/FrameRate)   
 ####  4:3   
 > **iri** https://fiafcore.org/ontology/4:3   
 **label** 4:3   
@@ -1221,6 +1257,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 > **iri** https://fiafcore.org/ontology/Format   
 **label** Format   
 **source** FIAF Cataloguing Manual 2.3.4.1, 3.1.5.1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+####  Frame Rate   
+> **iri** https://fiafcore.org/ontology/FrameRate   
+**label** Frame Rate   
+**source** FIAF Cataloguing Manual 3.1.5.12   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 ####  Fuji   
 > **iri** https://fiafcore.org/ontology/Fuji   
@@ -2687,6 +2728,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual 1.3.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Identifier](https://fiafcore.org/ontology/Identifier)   
+####  Variable Frame Rate   
+> **iri** https://fiafcore.org/ontology/VariableFrameRate   
+**label** Variable Frame Rate   
+**source** FIAF Cataloguing Manual D.7.18   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:FrameRate](https://fiafcore.org/ontology/FrameRate)   
 ####  Variant Type   
 > **iri** https://fiafcore.org/ontology/VariantType   
 **label** Variant Type   
