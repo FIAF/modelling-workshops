@@ -18,6 +18,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.16.6   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Shrinkage](https://fiafcore.org/ontology/Shrinkage)   
+####  1080   
+> **iri** https://fiafcore.org/ontology/1080   
+**label** 1080   
+**source** FIAF Cataloguing Manual D.7.21   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:LineStandard](https://fiafcore.org/ontology/LineStandard)   
 ####  10bit   
 > **iri** https://fiafcore.org/ontology/10bit   
 **label** 10bit   
@@ -156,6 +162,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  405   
+> **iri** https://fiafcore.org/ontology/405   
+**label** 405   
+**source** FIAF Cataloguing Manual D.7.21   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:LineStandard](https://fiafcore.org/ontology/LineStandard)   
 ####  48fps   
 > **iri** https://fiafcore.org/ontology/48fps   
 **label** 48fps   
@@ -168,12 +180,30 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.14   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ImageRatio](https://fiafcore.org/ontology/ImageRatio)   
+####  525   
+> **iri** https://fiafcore.org/ontology/525   
+**label** 525   
+**source** FIAF Cataloguing Manual D.7.21   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:LineStandard](https://fiafcore.org/ontology/LineStandard)   
+####  625   
+> **iri** https://fiafcore.org/ontology/625   
+**label** 625   
+**source** FIAF Cataloguing Manual D.7.21   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:LineStandard](https://fiafcore.org/ontology/LineStandard)   
 ####  70mm Film   
 > **iri** https://fiafcore.org/ontology/70mmFilm   
 **label** 70mm Film   
 **source** FIAF Cataloguing Manual D.7.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Film](https://fiafcore.org/ontology/Film)   
+####  720   
+> **iri** https://fiafcore.org/ontology/720   
+**label** 720   
+**source** FIAF Cataloguing Manual D.7.21   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:LineStandard](https://fiafcore.org/ontology/LineStandard)   
 ####  8mm Film   
 > **iri** https://fiafcore.org/ontology/8mmFilm   
 **label** 8mm Film   
@@ -2862,46 +2892,21 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:LanguageUsage](https://fiafcore.org/ontology/LanguageUsage)   
 ## Individuals   
-####  1080   
-> **iri** https://fiafcore.org/ontology/1080   
-**label** 1080   
-**source** FIAF Cataloguing Manual D.7.21   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:LineStandard](https://fiafcore.org/ontology/LineStandard)   
 ####  2K   
 > **iri** https://fiafcore.org/ontology/2K   
 **label** 2K   
 **source** FIAF Cataloguing Manual D.7.19   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Resolution](https://fiafcore.org/ontology/Resolution)   
-####  405   
-> **iri** https://fiafcore.org/ontology/405   
-**label** 405   
-**source** FIAF Cataloguing Manual D.7.21   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:LineStandard](https://fiafcore.org/ontology/LineStandard)   
 ####  4K   
 > **iri** https://fiafcore.org/ontology/4K   
 **label** 4K   
 **source** FIAF Cataloguing Manual D.7.19   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Resolution](https://fiafcore.org/ontology/Resolution)   
-####  525   
-> **iri** https://fiafcore.org/ontology/525   
-**label** 525   
-**source** FIAF Cataloguing Manual D.7.21   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:LineStandard](https://fiafcore.org/ontology/LineStandard)   
-####  625   
-> **iri** https://fiafcore.org/ontology/625   
-**label** 625   
-**source** FIAF Cataloguing Manual D.7.21   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:LineStandard](https://fiafcore.org/ontology/LineStandard)   
 ####  6K   
 > **iri** https://fiafcore.org/ontology/6K   
 **label** 6K   
 **source** FIAF Cataloguing Manual D.7.19   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Resolution](https://fiafcore.org/ontology/Resolution)   
-####  720   
-> **iri** https://fiafcore.org/ontology/720   
-**label** 720   
-**source** FIAF Cataloguing Manual D.7.21   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:LineStandard](https://fiafcore.org/ontology/LineStandard)   
 ####  8K   
 > **iri** https://fiafcore.org/ontology/8K   
 **label** 8K   

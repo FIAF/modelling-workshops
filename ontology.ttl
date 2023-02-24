@@ -17,10 +17,10 @@ fiaf:1.5-2 a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.16.6"^^xsd:string ;
     rdfs:subClassOf fiaf:Shrinkage .
 
-fiaf:1080 a owl:NamedIndividual,
-        fiaf:LineStandard ;
+fiaf:1080 a owl:Class ;
     rdfs:label "1080"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.21"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.21"^^xsd:string ;
+    rdfs:subClassOf fiaf:LineStandard .
 
 fiaf:10bit a owl:Class ;
     rdfs:label "10bit"@en ;
@@ -142,10 +142,10 @@ fiaf:3M a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
-fiaf:405 a owl:NamedIndividual,
-        fiaf:LineStandard ;
+fiaf:405 a owl:Class ;
     rdfs:label "405"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.21"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.21"^^xsd:string ;
+    rdfs:subClassOf fiaf:LineStandard .
 
 fiaf:48fps a owl:Class ;
     rdfs:label "48fps"@en ;
@@ -162,15 +162,15 @@ fiaf:4K a owl:NamedIndividual,
     rdfs:label "4K"@en ;
     dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string .
 
-fiaf:525 a owl:NamedIndividual,
-        fiaf:LineStandard ;
+fiaf:525 a owl:Class ;
     rdfs:label "525"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.21"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.21"^^xsd:string ;
+    rdfs:subClassOf fiaf:LineStandard .
 
-fiaf:625 a owl:NamedIndividual,
-        fiaf:LineStandard ;
+fiaf:625 a owl:Class ;
     rdfs:label "625"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.21"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.21"^^xsd:string ;
+    rdfs:subClassOf fiaf:LineStandard .
 
 fiaf:6K a owl:NamedIndividual,
         fiaf:Resolution ;
@@ -182,10 +182,10 @@ fiaf:70mmFilm a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Film .
 
-fiaf:720 a owl:NamedIndividual,
-        fiaf:LineStandard ;
+fiaf:720 a owl:Class ;
     rdfs:label "720"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.21"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.21"^^xsd:string ;
+    rdfs:subClassOf fiaf:LineStandard .
 
 fiaf:8K a owl:NamedIndividual,
         fiaf:Resolution ;
