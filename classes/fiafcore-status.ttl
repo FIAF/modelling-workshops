@@ -16,13 +16,12 @@
     rdfs:label "Status"@en ;
     dc:source "FIAF Cataloguing Manual 3.1.5.2"^^xsd:string .
 
-# Individuals
+# Subclasses
 
 <https://fiafcore.org/ontology/Accessioned> a owl:Class ;
     rdfs:label "Accessioned"@en ;
     dc:source "FIAF Cataloguing Manual D.7.3"^^xsd:string ;
     rdfs:subClassOf fiaf:Status .
-
 
 <https://fiafcore.org/ontology/Master> a owl:Class ;
     rdfs:label "Master"@en ;
