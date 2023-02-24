@@ -594,6 +594,10 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.6   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:WrittenLanguages](https://fiafcore.org/ontology/WrittenLanguages)   
+####  Carrier   
+> **iri** https://fiafcore.org/ontology/Carrier   
+**label** Carrier   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 ####  Cartridge   
 > **iri** https://fiafcore.org/ontology/Cartridge   
 **label** Cartridge   

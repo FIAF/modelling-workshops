@@ -2936,6 +2936,9 @@ fiaf:nominationOnly a owl:ObjectProperty ;
     rdfs:domain fiaf:AwardsOrNominationsEvent ;
     rdfs:range xsd:boolean .
 
+fiaf:Carrier a owl:Class ;
+    rdfs:label "Carrier"@en .
+
 fiaf:CensorshipActivity a owl:Class ;
     rdfs:label "Censorship Activity"@en ;
     dc:source "FIAF Glossary of Filmographic Terms C.1"^^xsd:string ;
