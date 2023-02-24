@@ -1020,6 +1020,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Optical](https://fiafcore.org/ontology/Optical)   
+####  DVSI   
+> **iri** https://fiafcore.org/ontology/DVSI   
+**label** DVSI   
+**source** FIAF Cataloguing Manual D.7.20   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:SourceDevice](https://fiafcore.org/ontology/SourceDevice)   
 ####  Danced, Dancer   
 > **iri** https://fiafcore.org/ontology/Dancer   
 **label** Danced, Dancer   
@@ -1471,6 +1477,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Video](https://fiafcore.org/ontology/Video)   
+####  HDCAM SRW5500/2   
+> **iri** https://fiafcore.org/ontology/HDCAMSRW55002   
+**label** HDCAM SRW5500/2   
+**source** FIAF Cataloguing Manual D.7.20   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:SourceDevice](https://fiafcore.org/ontology/SourceDevice)   
 ####  Hair Stylist, Hairdresser   
 > **iri** https://fiafcore.org/ontology/Hairdresser   
 **label** Hair Stylist, Hairdresser   
@@ -3038,6 +3050,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual 1.3.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Identifier](https://fiafcore.org/ontology/Identifier)   
+####  VT20   
+> **iri** https://fiafcore.org/ontology/VT20   
+**label** VT20   
+**source** FIAF Cataloguing Manual D.7.20   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:SourceDevice](https://fiafcore.org/ontology/SourceDevice)   
 ####  Variable Frame Rate   
 > **iri** https://fiafcore.org/ontology/VariableFrameRate   
 **label** Variable Frame Rate   
@@ -3185,11 +3203,6 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Anscocolor   
 **source** FIAF Cataloguing Manual D.7.12   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
-####  DVSI   
-> **iri** https://fiafcore.org/ontology/DVSI   
-**label** DVSI   
-**source** FIAF Cataloguing Manual D.7.20   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:SourceDevice](https://fiafcore.org/ontology/SourceDevice)   
 ####  Eastmancolor   
 > **iri** https://fiafcore.org/ontology/Eastmancolor   
 **label** Eastmancolor   
@@ -3210,11 +3223,6 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Fujicolor   
 **source** FIAF Cataloguing Manual D.7.12   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
-####  HDCAM SRW5500/2   
-> **iri** https://fiafcore.org/ontology/HDCAMSRW55002   
-**label** HDCAM SRW5500/2   
-**source** FIAF Cataloguing Manual D.7.20   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:SourceDevice](https://fiafcore.org/ontology/SourceDevice)   
 ####  Kinemacolor   
 > **iri** https://fiafcore.org/ontology/Kinemacolor   
 **label** Kinemacolor   
@@ -3255,11 +3263,6 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Technicolor   
 **source** FIAF Cataloguing Manual D.7.12   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
-####  VT20   
-> **iri** https://fiafcore.org/ontology/VT20   
-**label** VT20   
-**source** FIAF Cataloguing Manual D.7.20   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:SourceDevice](https://fiafcore.org/ontology/SourceDevice)   
 ####  YUV   
 > **iri** https://fiafcore.org/ontology/YUV   
 **label** YUV   

@@ -812,10 +812,10 @@ fiaf:DVD a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Optical .
 
-fiaf:DVSI a owl:NamedIndividual,
-        fiaf:SourceDevice ;
+fiaf:DVSI a owl:Class ;
     rdfs:label "DVSI"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.20"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.20"^^xsd:string ;
+    rdfs:subClassOf fiaf:SourceDevice .
 
 fiaf:Dancer a owl:Class ;
     rdfs:label "Danced"@en,
@@ -1183,10 +1183,10 @@ fiaf:HDCAMSR a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Video .
 
-fiaf:HDCAMSRW55002 a owl:NamedIndividual,
-        fiaf:SourceDevice ;
+fiaf:HDCAMSRW55002 a owl:Class ;
     rdfs:label "HDCAM SRW5500/2"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.20"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.20"^^xsd:string ;
+    rdfs:subClassOf fiaf:SourceDevice .
 
 fiaf:Hairdresser a owl:Class ;
     rdfs:label "Hair Stylist"@en,
@@ -2497,10 +2497,10 @@ fiaf:VIAFIdentifier a owl:Class ;
     dc:source "FIAF Cataloguing Manual 1.3.1"^^xsd:string ;
     rdfs:subClassOf fiaf:Identifier .
 
-fiaf:VT20 a owl:NamedIndividual,
-        fiaf:SourceDevice ;
+fiaf:VT20 a owl:Class ;
     rdfs:label "VT20"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.20"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.20"^^xsd:string ;
+    rdfs:subClassOf fiaf:SourceDevice .
 
 fiaf:VariableFrameRate a owl:Class ;
     rdfs:label "Variable Frame Rate"@en ;
