@@ -316,10 +316,10 @@ fiaf:Akai a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
-fiaf:AmateurFilm a owl:NamedIndividual,
-        fiaf:Form ;
+fiaf:AmateurFilm a owl:Class ;
     rdfs:label "Amateur Film"@en ;
-    dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string .
+    dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
+    rdfs:subClassOf fiaf:Form .
 
 fiaf:Ampex a owl:Class ;
     rdfs:label "Ampex"@en ;
@@ -687,10 +687,10 @@ fiaf:CombinedOpticalSound a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.13"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundSystem .
 
-fiaf:Compilation a owl:NamedIndividual,
-        fiaf:Form ;
+fiaf:Compilation a owl:Class ;
     rdfs:label "Compilation"@en ;
-    dc:source "FIAF Glossary of Filmographic Terms D.1.6"^^xsd:string .
+    dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
+    rdfs:subClassOf fiaf:Form .
 
 fiaf:Compositing a owl:Class ;
     rdfs:label "Compositing"@en,
@@ -1030,11 +1030,11 @@ fiaf:Electrician a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.5.13"^^xsd:string ;
     rdfs:subClassOf fiaf:CinematographyActivity .
 
-fiaf:Excerpt a owl:NamedIndividual,
-        fiaf:Form ;
+fiaf:Excerpt a owl:Class ;
     rdfs:label "Clip"@en,
         "Excerpt"@en ;
-    dc:source "FIAF Glossary of Filmographic Terms D.1.13"^^xsd:string .
+    dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
+    rdfs:subClassOf fiaf:Form .
 
 fiaf:ExchangeEvent a owl:Class ;
     rdfs:label "Exchange Event"@en ;
@@ -1066,16 +1066,16 @@ fiaf:Family a owl:Class ;
     dc:source "FIAF Cataloguing Manual 1.4.1"^^xsd:string ;
     rdfs:subClassOf fiaf:Agent .
 
-fiaf:Feature a owl:NamedIndividual,
-        fiaf:Form ;
+fiaf:Feature a owl:Class ;
     rdfs:label "Feature"@en ;
-    dc:source "FIAF Glossary of Filmographic Terms D.1.2"^^xsd:string .
+    dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
+    rdfs:subClassOf fiaf:Form .
 
-fiaf:Featurette a owl:NamedIndividual,
-        fiaf:Form ;
+fiaf:Featurette a owl:Class ;
     rdfs:label "Featurette"@en,
         "Making Of"@en ;
-    dc:source "FIAF Glossary of Filmographic Terms D.1.8"^^xsd:string .
+    dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
+    rdfs:subClassOf fiaf:Form .
 
 fiaf:Feet a owl:Class ;
     rdfs:label "Feet"@en ;
@@ -1214,10 +1214,10 @@ fiaf:Hitachi a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
-fiaf:HomeMovie a owl:NamedIndividual,
-        fiaf:Form ;
+fiaf:HomeMovie a owl:Class ;
     rdfs:label "Home Movie"@en ;
-    dc:source "FIAF Glossary of Filmographic Terms D.1.10"^^xsd:string .
+    dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
+    rdfs:subClassOf fiaf:Form .
 
 fiaf:HomeVideoPublicationEvent a owl:Class ;
     rdfs:label "Home Video Publication Event"@en ;
@@ -1708,11 +1708,11 @@ fiaf:OutdoorShootingEvent a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.11"^^xsd:string ;
     rdfs:subClassOf fiaf:ProductionEvent .
 
-fiaf:Outtake a owl:NamedIndividual,
-        fiaf:Form ;
+fiaf:Outtake a owl:Class ;
     rdfs:label "Out"@en,
         "Outtake"@en ;
-    dc:source "FIAF Glossary of Filmographic Terms D.1.11"^^xsd:string .
+    dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
+    rdfs:subClassOf fiaf:Form .
 
 fiaf:PAL a owl:NamedIndividual,
         fiaf:BroadcastStandard ;
@@ -2037,11 +2037,11 @@ fiaf:Scotch a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
-fiaf:ScreenTest a owl:NamedIndividual,
-        fiaf:Form ;
+fiaf:ScreenTest a owl:Class ;
     rdfs:label "Screen Test"@en,
         "Wardrobe Test"@en ;
-    dc:source "FIAF Glossary of Filmographic Terms D.1.15"^^xsd:string .
+    dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
+    rdfs:subClassOf fiaf:Form .
 
 fiaf:Screenplay a owl:Class ;
     rdfs:label "Screenplay"@en,
@@ -2093,10 +2093,10 @@ fiaf:Serial a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.1"^^xsd:string ;
     rdfs:subClassOf fiaf:WorkVariant .
 
-fiaf:Series a owl:NamedIndividual,
-        fiaf:Form ;
+fiaf:Series a owl:Class ;
     rdfs:label "Series"@en ;
-    dc:source "FIAF Glossary of Filmographic Terms D.1.4"^^xsd:string .
+    dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
+    rdfs:subClassOf fiaf:Form .
 
 fiaf:SeriesCreated a owl:Class ;
     rdfs:label "Series Created"@en ;
@@ -2137,10 +2137,10 @@ fiaf:Shamrock a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
-fiaf:Short a owl:NamedIndividual,
-        fiaf:Form ;
+fiaf:Short a owl:Class ;
     rdfs:label "Short"@en ;
-    dc:source "FIAF Glossary of Filmographic Terms D.1.3"^^xsd:string .
+    dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
+    rdfs:subClassOf fiaf:Form .
 
 fiaf:SignedLanguage a owl:Class ;
     rdfs:label "Signed Language"@en ;
@@ -2281,11 +2281,11 @@ fiaf:StillPhotographer a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.5.18"^^xsd:string ;
     rdfs:subClassOf fiaf:CinematographyActivity .
 
-fiaf:StockFootage a owl:NamedIndividual,
-        fiaf:Form ;
+fiaf:StockFootage a owl:Class ;
     rdfs:label "Stock Footage"@en,
         "Stock Shot"@en ;
-    dc:source "FIAF Glossary of Filmographic Terms D.1.12"^^xsd:string .
+    dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
+    rdfs:subClassOf fiaf:Form .
 
 fiaf:Studio a owl:Class ;
     rdfs:label "Location of Studios"@en,
@@ -2417,12 +2417,12 @@ fiaf:Toshiba a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
-fiaf:Trailer a owl:NamedIndividual,
-        fiaf:Form ;
+fiaf:Trailer a owl:Class ;
     rdfs:label "Preview"@en,
         "Teaser"@en,
         "Trailer"@en ;
-    dc:source "FIAF Glossary of Filmographic Terms D.1.7"^^xsd:string .
+    dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
+    rdfs:subClassOf fiaf:Form .
 
 fiaf:TransferEvent a owl:Class ;
     rdfs:label "Transfer Event"@en ;
@@ -2457,10 +2457,10 @@ fiaf:UnderwaterCameraman a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.5.5"^^xsd:string ;
     rdfs:subClassOf fiaf:CinematographyActivity .
 
-fiaf:UneditedFootage a owl:NamedIndividual,
-        fiaf:Form ;
+fiaf:UneditedFootage a owl:Class ;
     rdfs:label "Unedited Footage"@en ;
-    dc:source "FIAF Glossary of Filmographic Terms D.1.14"^^xsd:string .
+    dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
+    rdfs:subClassOf fiaf:Form .
 
 fiaf:UnknownEvent a owl:Class ;
     rdfs:label "Unknown Event"@en ;

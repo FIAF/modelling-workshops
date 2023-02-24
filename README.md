@@ -394,6 +394,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual A.2.4   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Title](https://fiafcore.org/ontology/Title)   
+####  Amateur Film   
+> **iri** https://fiafcore.org/ontology/AmateurFilm   
+**label** Amateur Film   
+**source** FIAF Glossary of Filmographic Terms D.1.9   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Form](https://fiafcore.org/ontology/Form)   
 ####  Ampex   
 > **iri** https://fiafcore.org/ontology/Ampex   
 **label** Ampex   
@@ -865,6 +871,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.13   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:SoundSystem](https://fiafcore.org/ontology/SoundSystem)   
+####  Compilation   
+> **iri** https://fiafcore.org/ontology/Compilation   
+**label** Compilation   
+**source** FIAF Glossary of Filmographic Terms D.1.9   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Form](https://fiafcore.org/ontology/Form)   
 ####  Compositing, Digital Compositing   
 > **iri** https://fiafcore.org/ontology/Compositing   
 **label** Compositing, Digital Compositing   
@@ -1283,6 +1295,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Event   
 **source** FIAF Cataloguing Manual 1.4.2, 2.4.2, 3.3.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+####  Clip, Excerpt   
+> **iri** https://fiafcore.org/ontology/Excerpt   
+**label** Clip, Excerpt   
+**source** FIAF Glossary of Filmographic Terms D.1.9   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Form](https://fiafcore.org/ontology/Form)   
 ####  Exchange Event   
 > **iri** https://fiafcore.org/ontology/ExchangeEvent   
 **label** Exchange Event   
@@ -1318,6 +1336,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual 1.4.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Agent](https://fiafcore.org/ontology/Agent)   
+####  Feature   
+> **iri** https://fiafcore.org/ontology/Feature   
+**label** Feature   
+**source** FIAF Glossary of Filmographic Terms D.1.9   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Form](https://fiafcore.org/ontology/Form)   
+####  Featurette, Making Of   
+> **iri** https://fiafcore.org/ontology/Featurette   
+**label** Featurette, Making Of   
+**source** FIAF Glossary of Filmographic Terms D.1.9   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Form](https://fiafcore.org/ontology/Form)   
 ####  Feet   
 > **iri** https://fiafcore.org/ontology/Feet   
 **label** Feet   
@@ -1471,6 +1501,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  Home Movie   
+> **iri** https://fiafcore.org/ontology/HomeMovie   
+**label** Home Movie   
+**source** FIAF Glossary of Filmographic Terms D.1.9   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Form](https://fiafcore.org/ontology/Form)   
 ####  Home Video Publication Event   
 > **iri** https://fiafcore.org/ontology/HomeVideoPublicationEvent   
 **label** Home Video Publication Event   
@@ -2059,6 +2095,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.11   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProductionEvent](https://fiafcore.org/ontology/ProductionEvent)   
+####  Out, Outtake   
+> **iri** https://fiafcore.org/ontology/Outtake   
+**label** Out, Outtake   
+**source** FIAF Glossary of Filmographic Terms D.1.9   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Form](https://fiafcore.org/ontology/Form)   
 ####  Pan and Scan   
 > **iri** https://fiafcore.org/ontology/PanAndScan   
 **label** Pan and Scan   
@@ -2442,6 +2484,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  Screen Test, Wardrobe Test   
+> **iri** https://fiafcore.org/ontology/ScreenTest   
+**label** Screen Test, Wardrobe Test   
+**source** FIAF Glossary of Filmographic Terms D.1.9   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Form](https://fiafcore.org/ontology/Form)   
 ####  Screenplay, Writer, Written   
 > **iri** https://fiafcore.org/ontology/Screenplay   
 **label** Screenplay, Writer, Written   
@@ -2496,6 +2544,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:WorkVariant](https://fiafcore.org/ontology/WorkVariant)   
+####  Series   
+> **iri** https://fiafcore.org/ontology/Series   
+**label** Series   
+**source** FIAF Glossary of Filmographic Terms D.1.9   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Form](https://fiafcore.org/ontology/Form)   
 ####  Series Created   
 > **iri** https://fiafcore.org/ontology/SeriesCreated   
 **label** Series Created   
@@ -2532,6 +2586,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  Short   
+> **iri** https://fiafcore.org/ontology/Short   
+**label** Short   
+**source** FIAF Glossary of Filmographic Terms D.1.9   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Form](https://fiafcore.org/ontology/Form)   
 ####  Shrinkage   
 > **iri** https://fiafcore.org/ontology/Shrinkage   
 **label** Shrinkage   
@@ -2729,6 +2789,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Stock   
 **source** FIAF Cataloguing Manual 3.1.5.14   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+####  Stock Footage, Stock Shot   
+> **iri** https://fiafcore.org/ontology/StockFootage   
+**label** Stock Footage, Stock Shot   
+**source** FIAF Glossary of Filmographic Terms D.1.9   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Form](https://fiafcore.org/ontology/Form)   
 ####  Stream   
 > **iri** https://fiafcore.org/ontology/Stream   
 **label** Stream   
@@ -2882,6 +2948,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  Preview, Teaser, Trailer   
+> **iri** https://fiafcore.org/ontology/Trailer   
+**label** Preview, Teaser, Trailer   
+**source** FIAF Glossary of Filmographic Terms D.1.9   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Form](https://fiafcore.org/ontology/Form)   
 ####  Transfer Event   
 > **iri** https://fiafcore.org/ontology/TransferEvent   
 **label** Transfer Event   
@@ -2918,6 +2990,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.5.5   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CinematographyActivity](https://fiafcore.org/ontology/CinematographyActivity)   
+####  Unedited Footage   
+> **iri** https://fiafcore.org/ontology/UneditedFootage   
+**label** Unedited Footage   
+**source** FIAF Glossary of Filmographic Terms D.1.9   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Form](https://fiafcore.org/ontology/Form)   
 ####  Unknown Event   
 > **iri** https://fiafcore.org/ontology/UnknownEvent   
 **label** Unknown Event   
@@ -3102,21 +3180,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:LanguageUsage](https://fiafcore.org/ontology/LanguageUsage)   
 ## Individuals   
-####  Amateur Film   
-> **iri** https://fiafcore.org/ontology/AmateurFilm   
-**label** Amateur Film   
-**source** FIAF Glossary of Filmographic Terms D.1.9   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
 ####  Anscocolor   
 > **iri** https://fiafcore.org/ontology/Anscocolor   
 **label** Anscocolor   
 **source** FIAF Cataloguing Manual D.7.12   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
-####  Compilation   
-> **iri** https://fiafcore.org/ontology/Compilation   
-**label** Compilation   
-**source** FIAF Glossary of Filmographic Terms D.1.6   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
 ####  DVSI   
 > **iri** https://fiafcore.org/ontology/DVSI   
 **label** DVSI   
@@ -3127,26 +3195,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Eastmancolor   
 **source** FIAF Cataloguing Manual D.7.12   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
-####  Clip, Excerpt   
-> **iri** https://fiafcore.org/ontology/Excerpt   
-**label** Clip, Excerpt   
-**source** FIAF Glossary of Filmographic Terms D.1.13   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
 ####  FFmpeg   
 > **iri** https://fiafcore.org/ontology/FFmpeg   
 **label** FFmpeg   
 **source** FIAF Cataloguing Manual 3.1.5.22   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:SourceSoftware](https://fiafcore.org/ontology/SourceSoftware)   
-####  Feature   
-> **iri** https://fiafcore.org/ontology/Feature   
-**label** Feature   
-**source** FIAF Glossary of Filmographic Terms D.1.2   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
-####  Featurette, Making Of   
-> **iri** https://fiafcore.org/ontology/Featurette   
-**label** Featurette, Making Of   
-**source** FIAF Glossary of Filmographic Terms D.1.8   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
 ####  Ferraniacolor   
 > **iri** https://fiafcore.org/ontology/Ferraniacolor   
 **label** Ferraniacolor   
@@ -3162,11 +3215,6 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** HDCAM SRW5500/2   
 **source** FIAF Cataloguing Manual D.7.20   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:SourceDevice](https://fiafcore.org/ontology/SourceDevice)   
-####  Home Movie   
-> **iri** https://fiafcore.org/ontology/HomeMovie   
-**label** Home Movie   
-**source** FIAF Glossary of Filmographic Terms D.1.10   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
 ####  Kinemacolor   
 > **iri** https://fiafcore.org/ontology/Kinemacolor   
 **label** Kinemacolor   
@@ -3182,11 +3230,6 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** NTSC   
 **source** FIAF Cataloguing Manual 3.1.5.10   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:BroadcastStandard](https://fiafcore.org/ontology/BroadcastStandard)   
-####  Out, Outtake   
-> **iri** https://fiafcore.org/ontology/Outtake   
-**label** Out, Outtake   
-**source** FIAF Glossary of Filmographic Terms D.1.11   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
 ####  PAL   
 > **iri** https://fiafcore.org/ontology/PAL   
 **label** PAL   
@@ -3207,41 +3250,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** SECAM   
 **source** FIAF Cataloguing Manual 3.1.5.10   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:BroadcastStandard](https://fiafcore.org/ontology/BroadcastStandard)   
-####  Screen Test, Wardrobe Test   
-> **iri** https://fiafcore.org/ontology/ScreenTest   
-**label** Screen Test, Wardrobe Test   
-**source** FIAF Glossary of Filmographic Terms D.1.15   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
-####  Series   
-> **iri** https://fiafcore.org/ontology/Series   
-**label** Series   
-**source** FIAF Glossary of Filmographic Terms D.1.4   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
-####  Short   
-> **iri** https://fiafcore.org/ontology/Short   
-**label** Short   
-**source** FIAF Glossary of Filmographic Terms D.1.3   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
-####  Stock Footage, Stock Shot   
-> **iri** https://fiafcore.org/ontology/StockFootage   
-**label** Stock Footage, Stock Shot   
-**source** FIAF Glossary of Filmographic Terms D.1.12   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
 ####  Technicolor   
 > **iri** https://fiafcore.org/ontology/Technicolor   
 **label** Technicolor   
 **source** FIAF Cataloguing Manual D.7.12   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
-####  Preview, Teaser, Trailer   
-> **iri** https://fiafcore.org/ontology/Trailer   
-**label** Preview, Teaser, Trailer   
-**source** FIAF Glossary of Filmographic Terms D.1.7   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
-####  Unedited Footage   
-> **iri** https://fiafcore.org/ontology/UneditedFootage   
-**label** Unedited Footage   
-**source** FIAF Glossary of Filmographic Terms D.1.14   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
 ####  VT20   
 > **iri** https://fiafcore.org/ontology/VT20   
 **label** VT20   
