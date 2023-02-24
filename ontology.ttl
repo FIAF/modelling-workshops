@@ -222,10 +222,10 @@ fiaf:AbbreviatedTitle a owl:Class ;
     dc:source "FIAF Cataloguing Manual A.2.4.1"^^xsd:string ;
     rdfs:subClassOf fiaf:AlternativeTitle .
 
-fiaf:AbridgedCondensed a owl:NamedIndividual,
-        fiaf:VariantType ;
+fiaf:AbridgedCondensed a owl:Class ;
     rdfs:label "Abridged/Condensed"@en ;
-    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:VariantType .
 
 fiaf:Academy a owl:Class ;
     rdfs:label "Academy"@en ;
@@ -431,10 +431,10 @@ fiaf:Audiocassette a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Audio .
 
-fiaf:Augmented a owl:NamedIndividual,
-        fiaf:VariantType ;
+fiaf:Augmented a owl:Class ;
     rdfs:label "Augmented"@en ;
-    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:VariantType .
 
 fiaf:BasedonCharactersCreated a owl:Class ;
     rdfs:label "Based on Characters Created"@en ;
@@ -470,10 +470,10 @@ fiaf:BlackAndWhite a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.11"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourCharacteristic .
 
-fiaf:BlackAndWhiteCopyOfWorkOriginallyIssuedInColour a owl:NamedIndividual,
-        fiaf:VariantType ;
+fiaf:BlackAndWhiteCopyOfWorkOriginallyIssuedInColour a owl:Class ;
     rdfs:label "Black and white copy of work originally issued in colour"@en ;
-    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:VariantType .
 
 fiaf:BlackAndWhiteTinted a owl:Class ;
     rdfs:label "Black and White (Tinted)"@en ;
@@ -575,10 +575,10 @@ fiaf:CastingEvent a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.11"^^xsd:string ;
     rdfs:subClassOf fiaf:ProductionEvent .
 
-fiaf:Censored a owl:NamedIndividual,
-        fiaf:VariantType ;
+fiaf:Censored a owl:Class ;
     rdfs:label "Censored"@en ;
-    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:VariantType .
 
 fiaf:Censorship a owl:Class ;
     rdfs:label "Approved"@en,
@@ -657,10 +657,10 @@ fiaf:ColourBlackAndWhite a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.11"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourCharacteristic .
 
-fiaf:Colourized a owl:NamedIndividual,
-        fiaf:VariantType ;
+fiaf:Colourized a owl:Class ;
     rdfs:label "Colourized"@en ;
-    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:VariantType .
 
 fiaf:Combined a owl:Class ;
     rdfs:label "Combined"@en ;
@@ -839,10 +839,10 @@ fiaf:DialogueEditor a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.9.8"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundActivity .
 
-fiaf:DifferentSoundTrack a owl:NamedIndividual,
-        fiaf:VariantType ;
+fiaf:DifferentSoundTrack a owl:Class ;
     rdfs:label "Different sound track"@en ;
-    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:VariantType .
 
 fiaf:DigitalBetacam a owl:Class ;
     rdfs:label "Digital Betacam"@en ;
@@ -981,10 +981,10 @@ fiaf:DryingMarks a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.16.3"^^xsd:string ;
     rdfs:subClassOf fiaf:SurfaceDeposit .
 
-fiaf:Dubbed a owl:NamedIndividual,
-        fiaf:VariantType ;
+fiaf:Dubbed a owl:Class ;
     rdfs:label "Dubbed"@en ;
-    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:VariantType .
 
 fiaf:DubbingDirector a owl:Class ;
     rdfs:label "Dubbing Director"@en ;
@@ -1800,10 +1800,10 @@ fiaf:Presenter a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.2.21"^^xsd:string ;
     rdfs:subClassOf fiaf:ProducingActivity .
 
-fiaf:PreservationRestoration a owl:NamedIndividual,
-        fiaf:VariantType ;
+fiaf:PreservationRestoration a owl:Class ;
     rdfs:label "Preservation/Restoration"@en ;
-    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:VariantType .
 
 fiaf:PreservationRestorationManifestation a owl:Class ;
     rdfs:label "Preservation/Restoration Manifestation"@en ;
@@ -2171,10 +2171,10 @@ fiaf:SongComposer a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.11.12"^^xsd:string ;
     rdfs:subClassOf fiaf:MusicActivity .
 
-fiaf:Sonorized a owl:NamedIndividual,
-        fiaf:VariantType ;
+fiaf:Sonorized a owl:Class ;
     rdfs:label "Sonorized"@en ;
-    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:VariantType .
 
 fiaf:Sony a owl:Class ;
     rdfs:label "Sony"@en ;
@@ -2312,10 +2312,10 @@ fiaf:SubtitleStream a owl:Class ;
     rdfs:label "Subtitle Stream"@en ;
     rdfs:subClassOf fiaf:Stream .
 
-fiaf:Subtitled a owl:NamedIndividual,
-        fiaf:VariantType ;
+fiaf:Subtitled a owl:Class ;
     rdfs:label "Subtitled"@en ;
-    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:VariantType .
 
 fiaf:Subtitles a owl:Class ;
     rdfs:label "Subtitles"@en ;

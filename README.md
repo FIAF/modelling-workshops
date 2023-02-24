@@ -264,6 +264,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual A.2.4.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:AlternativeTitle](https://fiafcore.org/ontology/AlternativeTitle)   
+####  Abridged/Condensed   
+> **iri** https://fiafcore.org/ontology/AbridgedCondensed   
+**label** Abridged/Condensed   
+**source** FIAF Cataloguing Manual D.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
 ####  Academy   
 > **iri** https://fiafcore.org/ontology/Academy   
 **label** Academy   
@@ -501,6 +507,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Audio](https://fiafcore.org/ontology/Audio)   
+####  Augmented   
+> **iri** https://fiafcore.org/ontology/Augmented   
+**label** Augmented   
+**source** FIAF Cataloguing Manual D.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
 ####  Award(s) or Nomination(s) Event   
 > **iri** https://fiafcore.org/ontology/AwardsOrNominationsEvent   
 **label** Award(s) or Nomination(s) Event   
@@ -559,6 +571,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.11   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ColourCharacteristic](https://fiafcore.org/ontology/ColourCharacteristic)   
+####  Black and white copy of work originally issued in colour   
+> **iri** https://fiafcore.org/ontology/BlackAndWhiteCopyOfWorkOriginallyIssuedInColour   
+**label** Black and white copy of work originally issued in colour   
+**source** FIAF Cataloguing Manual D.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
 ####  Black and White (Tinted)   
 > **iri** https://fiafcore.org/ontology/BlackAndWhiteTinted   
 **label** Black and White (Tinted)   
@@ -688,6 +706,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.11   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProductionEvent](https://fiafcore.org/ontology/ProductionEvent)   
+####  Censored   
+> **iri** https://fiafcore.org/ontology/Censored   
+**label** Censored   
+**source** FIAF Cataloguing Manual D.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
 ####  Approved, Censor, Censored, Censorship   
 > **iri** https://fiafcore.org/ontology/Censorship   
 **label** Approved, Censor, Censored, Censorship   
@@ -787,6 +811,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Colour Standard   
 **source** FIAF Cataloguing Manual 2.3.4.4   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+####  Colourized   
+> **iri** https://fiafcore.org/ontology/Colourized   
+**label** Colourized   
+**source** FIAF Cataloguing Manual D.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
 ####  Combined   
 > **iri** https://fiafcore.org/ontology/Combined   
 **label** Combined   
@@ -990,6 +1020,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.6   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:LanguageUsage](https://fiafcore.org/ontology/LanguageUsage)   
+####  Different sound track   
+> **iri** https://fiafcore.org/ontology/DifferentSoundTrack   
+**label** Different sound track   
+**source** FIAF Cataloguing Manual D.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
 ####  Digital Betacam   
 > **iri** https://fiafcore.org/ontology/DigitalBetacam   
 **label** Digital Betacam   
@@ -1158,6 +1194,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.16.3   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:SurfaceDeposit](https://fiafcore.org/ontology/SurfaceDeposit)   
+####  Dubbed   
+> **iri** https://fiafcore.org/ontology/Dubbed   
+**label** Dubbed   
+**source** FIAF Cataloguing Manual D.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
 ####  Dubbing Director   
 > **iri** https://fiafcore.org/ontology/DubbingDirector   
 **label** Dubbing Director   
@@ -2041,6 +2083,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.4.5   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Event](https://fiafcore.org/ontology/Event)   
+####  Preservation/Restoration   
+> **iri** https://fiafcore.org/ontology/PreservationRestoration   
+**label** Preservation/Restoration   
+**source** FIAF Cataloguing Manual D.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
 ####  Preservation/Restoration Manifestation   
 > **iri** https://fiafcore.org/ontology/PreservationRestorationManifestation   
 **label** Preservation/Restoration Manifestation   
@@ -2424,6 +2472,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.11.12   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:MusicActivity](https://fiafcore.org/ontology/MusicActivity)   
+####  Sonorized   
+> **iri** https://fiafcore.org/ontology/Sonorized   
+**label** Sonorized   
+**source** FIAF Cataloguing Manual D.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
 ####  Sony   
 > **iri** https://fiafcore.org/ontology/Sony   
 **label** Sony   
@@ -2601,6 +2655,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Subtitle Stream   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stream](https://fiafcore.org/ontology/Stream)   
+####  Subtitled   
+> **iri** https://fiafcore.org/ontology/Subtitled   
+**label** Subtitled   
+**source** FIAF Cataloguing Manual D.2   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
 ####  Subtitles   
 > **iri** https://fiafcore.org/ontology/Subtitles   
 **label** Subtitles   
@@ -2928,11 +2988,6 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:LanguageUsage](https://fiafcore.org/ontology/LanguageUsage)   
 ## Individuals   
-####  Abridged/Condensed   
-> **iri** https://fiafcore.org/ontology/AbridgedCondensed   
-**label** Abridged/Condensed   
-**source** FIAF Cataloguing Manual D.2   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
 ####  Accessioned   
 > **iri** https://fiafcore.org/ontology/Accessioned   
 **label** Accessioned   
@@ -2958,26 +3013,6 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Anscocolor   
 **source** FIAF Cataloguing Manual D.7.12   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
-####  Augmented   
-> **iri** https://fiafcore.org/ontology/Augmented   
-**label** Augmented   
-**source** FIAF Cataloguing Manual D.2   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
-####  Black and white copy of work originally issued in colour   
-> **iri** https://fiafcore.org/ontology/BlackAndWhiteCopyOfWorkOriginallyIssuedInColour   
-**label** Black and white copy of work originally issued in colour   
-**source** FIAF Cataloguing Manual D.2   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
-####  Censored   
-> **iri** https://fiafcore.org/ontology/Censored   
-**label** Censored   
-**source** FIAF Cataloguing Manual D.2   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
-####  Colourized   
-> **iri** https://fiafcore.org/ontology/Colourized   
-**label** Colourized   
-**source** FIAF Cataloguing Manual D.2   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
 ####  Compilation   
 > **iri** https://fiafcore.org/ontology/Compilation   
 **label** Compilation   
@@ -2998,16 +3033,6 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Diacetate   
 **source** FIAF Cataloguing Manual D.7.7   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
-####  Different sound track   
-> **iri** https://fiafcore.org/ontology/DifferentSoundTrack   
-**label** Different sound track   
-**source** FIAF Cataloguing Manual D.2   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
-####  Dubbed   
-> **iri** https://fiafcore.org/ontology/Dubbed   
-**label** Dubbed   
-**source** FIAF Cataloguing Manual D.2   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
 ####  Eastmancolor   
 > **iri** https://fiafcore.org/ontology/Eastmancolor   
 **label** Eastmancolor   
@@ -3123,11 +3148,6 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Polyester   
 **source** FIAF Cataloguing Manual D.7.7   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
-####  Preservation/Restoration   
-> **iri** https://fiafcore.org/ontology/PreservationRestoration   
-**label** Preservation/Restoration   
-**source** FIAF Cataloguing Manual D.2   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
 ####  PVC   
 > **iri** https://fiafcore.org/ontology/Pvc   
 **label** PVC   
@@ -3168,11 +3188,6 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Short   
 **source** FIAF Glossary of Filmographic Terms D.1.3   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
-####  Sonorized   
-> **iri** https://fiafcore.org/ontology/Sonorized   
-**label** Sonorized   
-**source** FIAF Cataloguing Manual D.2   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
 ####  Status pending   
 > **iri** https://fiafcore.org/ontology/StatusPending   
 **label** Status pending   
@@ -3183,11 +3198,6 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Stock Footage, Stock Shot   
 **source** FIAF Glossary of Filmographic Terms D.1.12   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
-####  Subtitled   
-> **iri** https://fiafcore.org/ontology/Subtitled   
-**label** Subtitled   
-**source** FIAF Cataloguing Manual D.2   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
 ####  Technicolor   
 > **iri** https://fiafcore.org/ontology/Technicolor   
 **label** Technicolor   
