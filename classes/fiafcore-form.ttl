@@ -15,63 +15,76 @@
     rdfs:label "Form"@en ;
     dc:source "FIAF Glossary of Filmographic Terms D.1.1"^^xsd:string .
 
-# Individuals
+# Subclasses
 
-<https://fiafcore.org/ontology/AmateurFilm> a owl:NamedIndividual, fiaf:Form ;
+<https://fiafcore.org/ontology/AmateurFilm> a owl:Class ;
     rdfs:label "Amateur Film"@en ;
-    dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string .
-    
-<https://fiafcore.org/ontology/Compilation> a owl:NamedIndividual, fiaf:Form ;
-    rdfs:label "Compilation"@en ;
-    dc:source "FIAF Glossary of Filmographic Terms D.1.6"^^xsd:string .
+    dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
+    rdfs:subClassOf fiaf:Form .
 
-<https://fiafcore.org/ontology/Excerpt> a owl:NamedIndividual, fiaf:Form ;
+<https://fiafcore.org/ontology/Compilation> a owl:Class ;
+    rdfs:label "Compilation"@en ;
+    dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
+    rdfs:subClassOf fiaf:Form .
+
+<https://fiafcore.org/ontology/Excerpt> a owl:Class ;
     rdfs:label "Excerpt"@en,
         "Clip"@en ;
-    dc:source "FIAF Glossary of Filmographic Terms D.1.13"^^xsd:string .
+    dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
+    rdfs:subClassOf fiaf:Form .
 
-<https://fiafcore.org/ontology/Feature> a owl:NamedIndividual, fiaf:Form ;
+<https://fiafcore.org/ontology/Feature> a owl:Class ;
     rdfs:label "Feature"@en ;
-    dc:source "FIAF Glossary of Filmographic Terms D.1.2"^^xsd:string .
+    dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
+    rdfs:subClassOf fiaf:Form .
 
-<https://fiafcore.org/ontology/Featurette> a owl:NamedIndividual, fiaf:Form ;
+<https://fiafcore.org/ontology/Featurette> a owl:Class ;
     rdfs:label "Featurette"@en,
         "Making Of"@en ;
-    dc:source "FIAF Glossary of Filmographic Terms D.1.8"^^xsd:string .
+    dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
+    rdfs:subClassOf fiaf:Form .
 
-<https://fiafcore.org/ontology/HomeMovie> a owl:NamedIndividual, fiaf:Form ;
+<https://fiafcore.org/ontology/HomeMovie> a owl:Class ;
     rdfs:label "Home Movie"@en ;
-    dc:source "FIAF Glossary of Filmographic Terms D.1.10"^^xsd:string .
+    dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
+    rdfs:subClassOf fiaf:Form .
 
-<https://fiafcore.org/ontology/Outtake> a owl:NamedIndividual, fiaf:Form ;
+<https://fiafcore.org/ontology/Outtake> a owl:Class ;
     rdfs:label "Outtake"@en,
         "Out"@en ;
-    dc:source "FIAF Glossary of Filmographic Terms D.1.11"^^xsd:string .
+    dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
+    rdfs:subClassOf fiaf:Form .
 
-<https://fiafcore.org/ontology/ScreenTest> a owl:NamedIndividual, fiaf:Form ;
+<https://fiafcore.org/ontology/ScreenTest> a owl:Class ;
     rdfs:label "Screen Test"@en,
         "Wardrobe Test"@en ;
-    dc:source "FIAF Glossary of Filmographic Terms D.1.15"^^xsd:string .
+    dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
+    rdfs:subClassOf fiaf:Form .
 
-<https://fiafcore.org/ontology/Series> a owl:NamedIndividual, fiaf:Form ;
+<https://fiafcore.org/ontology/Series> a owl:Class ;
     rdfs:label "Series"@en ;
-    dc:source "FIAF Glossary of Filmographic Terms D.1.4"^^xsd:string .
+    dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
+    rdfs:subClassOf fiaf:Form .
 
-<https://fiafcore.org/ontology/Short> a owl:NamedIndividual, fiaf:Form ;
+<https://fiafcore.org/ontology/Short> a owl:Class ;
     rdfs:label "Short"@en ;
-    dc:source "FIAF Glossary of Filmographic Terms D.1.3"^^xsd:string .
-    
-<https://fiafcore.org/ontology/StockFootage> a owl:NamedIndividual, fiaf:Form ;
+    dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
+    rdfs:subClassOf fiaf:Form .
+
+<https://fiafcore.org/ontology/StockFootage> a owl:Class ;
     rdfs:label "Stock Footage"@en,
         "Stock Shot"@en ;
-    dc:source "FIAF Glossary of Filmographic Terms D.1.12"^^xsd:string .
-    
-<https://fiafcore.org/ontology/Trailer> a owl:NamedIndividual, fiaf:Form ;
+    dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
+    rdfs:subClassOf fiaf:Form .
+
+<https://fiafcore.org/ontology/Trailer> a owl:Class ;
     rdfs:label "Trailer"@en,
         "Preview"@en,
         "Teaser"@en ;
-    dc:source "FIAF Glossary of Filmographic Terms D.1.7"^^xsd:string .
-    
-<https://fiafcore.org/ontology/UneditedFootage> a owl:NamedIndividual, fiaf:Form ;
+    dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
+    rdfs:subClassOf fiaf:Form .
+
+<https://fiafcore.org/ontology/UneditedFootage> a owl:Class ;
     rdfs:label "Unedited Footage"@en ;
-    dc:source "FIAF Glossary of Filmographic Terms D.1.14"^^xsd:string .
+    dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
+    rdfs:subClassOf fiaf:Form .
