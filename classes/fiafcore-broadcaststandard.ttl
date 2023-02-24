@@ -15,16 +15,19 @@
     rdfs:label "Broadcast Standard"@en ;
     dc:source "FIAF Cataloguing Manual 3.1.5.10"^^xsd:string .
 
-# Individuals
+# Subclasses
 
-<https://fiafcore.org/ontology/NTSC> a owl:NamedIndividual, fiaf:BroadcastStandard ;
+<https://fiafcore.org/ontology/NTSC> a owl:Class ;
     rdfs:label "NTSC"@en ;
-    dc:source "FIAF Cataloguing Manual 3.1.5.10"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual 3.1.5.10"^^xsd:string ;
+    rdfs:subClassOf fiaf:BroadcastStandard .
 
-<https://fiafcore.org/ontology/PAL> a owl:NamedIndividual, fiaf:BroadcastStandard ;
+<https://fiafcore.org/ontology/PAL> a owl:Class ;
     rdfs:label "PAL"@en ;
-    dc:source "FIAF Cataloguing Manual 3.1.5.10"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual 3.1.5.10"^^xsd:string ;
+    rdfs:subClassOf fiaf:BroadcastStandard .
 
-<https://fiafcore.org/ontology/SECAM> a owl:NamedIndividual, fiaf:BroadcastStandard ;
+<https://fiafcore.org/ontology/SECAM> a owl:Class ;
     rdfs:label "SECAM"@en ;
-    dc:source "FIAF Cataloguing Manual 3.1.5.10"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual 3.1.5.10"^^xsd:string ;
+    rdfs:subClassOf fiaf:BroadcastStandard .
