@@ -17,26 +17,32 @@
 
 # Individuals
 
-<https://fiafcore.org/ontology/2K> a owl:NamedIndividual, fiaf:Resolution ;
+<https://fiafcore.org/ontology/2K> a owl:Class ;
     rdfs:label "2K"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string ;
+    rdfs:subClassOf fiaf:Resolution .
 
-<https://fiafcore.org/ontology/4K> a owl:NamedIndividual, fiaf:Resolution ;
+<https://fiafcore.org/ontology/4K> a owl:Class ;
     rdfs:label "4K"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string ;
+    rdfs:subClassOf fiaf:Resolution .
 
-<https://fiafcore.org/ontology/6K> a owl:NamedIndividual, fiaf:Resolution ;
+<https://fiafcore.org/ontology/6K> a owl:Class ;
     rdfs:label "6K"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string ;
+    rdfs:subClassOf fiaf:Resolution .
 
-<https://fiafcore.org/ontology/8K> a owl:NamedIndividual, fiaf:Resolution ;
+<https://fiafcore.org/ontology/8K> a owl:Class ;
     rdfs:label "8K"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string ;
+    rdfs:subClassOf fiaf:Resolution .
 
-<https://fiafcore.org/ontology/HighDefinition> a owl:NamedIndividual, fiaf:Resolution ;
+<https://fiafcore.org/ontology/HighDefinition> a owl:Class ;
     rdfs:label "High Definition"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string ;
+    rdfs:subClassOf fiaf:Resolution .
     
-<https://fiafcore.org/ontology/StandardDefinition> a owl:NamedIndividual, fiaf:Resolution ;
+<https://fiafcore.org/ontology/StandardDefinition> a owl:Class ;
     rdfs:label "Standard Definition"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string ;
+    rdfs:subClassOf fiaf:Resolution .
