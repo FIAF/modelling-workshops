@@ -19,6 +19,6 @@
 <https://fiafcore.org/ontology/hasEvent> a owl:ObjectProperty ;
     rdfs:label "Has Event"@en ;
     dc:source "FIAF Cataloguing Manual 3.3.2"^^xsd:string ;
-    rdfs:domain fiaf:Item ;
+    rdfs:domain fiaf:Carrier ;
     rdfs:range fiaf:Event .
     
