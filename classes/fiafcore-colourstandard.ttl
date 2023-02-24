@@ -15,44 +15,54 @@
     rdfs:label "Colour Standard"@en ;
     dc:source "FIAF Cataloguing Manual 2.3.4.4"^^xsd:string .
 
-# Individuals
+# Subclasses
 
-<https://fiafcore.org/ontology/Anscocolor> a owl:NamedIndividual, fiaf:ColourStandard ;
+<https://fiafcore.org/ontology/Anscocolor> a owl:Class ;
     rdfs:label "Anscocolor"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
+    rdfs:subClassOf fiaf:ColourStandard .
 
-<https://fiafcore.org/ontology/Eastmancolor> a owl:NamedIndividual, fiaf:ColourStandard ;
+<https://fiafcore.org/ontology/Eastmancolor> a owl:Class ;
     rdfs:label "Eastmancolor"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
+    rdfs:subClassOf fiaf:ColourStandard .
 
-<https://fiafcore.org/ontology/Ferraniacolor> a owl:NamedIndividual, fiaf:ColourStandard ;
+<https://fiafcore.org/ontology/Ferraniacolor> a owl:Class ;
     rdfs:label "Ferraniacolor"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
+    rdfs:subClassOf fiaf:ColourStandard .
 
-<https://fiafcore.org/ontology/Fujicolor> a owl:NamedIndividual, fiaf:ColourStandard ;
+<https://fiafcore.org/ontology/Fujicolor> a owl:Class ;
     rdfs:label "Fujicolor"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
+    rdfs:subClassOf fiaf:ColourStandard .
 
-<https://fiafcore.org/ontology/Kinemacolor> a owl:NamedIndividual, fiaf:ColourStandard ;
+<https://fiafcore.org/ontology/Kinemacolor> a owl:Class ;
     rdfs:label "Kinemacolor"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
+    rdfs:subClassOf fiaf:ColourStandard .
 
-<https://fiafcore.org/ontology/Kodachrome> a owl:NamedIndividual, fiaf:ColourStandard ;
+<https://fiafcore.org/ontology/Kodachrome> a owl:Class ;
     rdfs:label "Kodachrome"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
+    rdfs:subClassOf fiaf:ColourStandard .
 
-<https://fiafcore.org/ontology/Pathécolor> a owl:NamedIndividual, fiaf:ColourStandard ;
+<https://fiafcore.org/ontology/Pathécolor> a owl:Class ;
     rdfs:label "Pathécolor"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
+    rdfs:subClassOf fiaf:ColourStandard .
 
-<https://fiafcore.org/ontology/RGB> a owl:NamedIndividual, fiaf:ColourStandard ;
+<https://fiafcore.org/ontology/RGB> a owl:Class ;
     rdfs:label "RGB"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
+    rdfs:subClassOf fiaf:ColourStandard .
 
-<https://fiafcore.org/ontology/Technicolor> a owl:NamedIndividual, fiaf:ColourStandard ;
+<https://fiafcore.org/ontology/Technicolor> a owl:Class ;
     rdfs:label "Technicolor"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
+    rdfs:subClassOf fiaf:ColourStandard .
 
-<https://fiafcore.org/ontology/YUV> a owl:NamedIndividual, fiaf:ColourStandard ;
+<https://fiafcore.org/ontology/YUV> a owl:Class ;
     rdfs:label "YUV"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
+    rdfs:subClassOf fiaf:ColourStandard .
