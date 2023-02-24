@@ -3213,13 +3213,6 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.12   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
 ## Object Properties   
-####  Has Achievement   
-> **iri** https://fiafcore.org/ontology/hasAchievement   
-**label** Has Achievement   
-**source** FIAF Cataloguing Manual D.4.2   
-**type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
-**domain** [fiaf:AwardsOrNominationsEvent](https://fiafcore.org/ontology/AwardsOrNominationsEvent)   
-**range** [http://www.w3.org/2001/XMLSchema#string](http://www.w3.org/2001/XMLSchema#string)   
 ####  Has Activity   
 > **iri** https://fiafcore.org/ontology/hasActivity   
 **label** Has Activity   
@@ -3227,13 +3220,6 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
 **domain** [fiaf:Item](https://fiafcore.org/ontology/Item), [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation), [fiaf:WorkVariant](https://fiafcore.org/ontology/WorkVariant)   
 **range** [fiaf:Activity](https://fiafcore.org/ontology/Activity)   
-####  Has Award Name   
-> **iri** https://fiafcore.org/ontology/hasAwardName   
-**label** Has Award Name   
-**source** FIAF Cataloguing Manual D.4.2   
-**type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
-**domain** [fiaf:AwardsOrNominationsEvent](https://fiafcore.org/ontology/AwardsOrNominationsEvent)   
-**range** [http://www.w3.org/2001/XMLSchema#string](http://www.w3.org/2001/XMLSchema#string)   
 ####  Has Base   
 > **iri** https://fiafcore.org/ontology/hasBase   
 **label** Has Base   
@@ -3296,13 +3282,6 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
 **domain** [fiaf:WorkVariant](https://fiafcore.org/ontology/WorkVariant)   
 **range** [fiaf:Country](https://fiafcore.org/ontology/Country)   
-####  Has Decision ID   
-> **iri** https://fiafcore.org/ontology/hasDecisionID   
-**label** Has Decision ID   
-**source** FIAF Cataloguing Manual D.4.6   
-**type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
-**domain** [fiaf:DecisionEvent](https://fiafcore.org/ontology/DecisionEvent)   
-**range** [http://www.w3.org/2001/XMLSchema#string](http://www.w3.org/2001/XMLSchema#string)   
 ####  Has Element Type   
 > **iri** https://fiafcore.org/ontology/hasElementType   
 **label** Has Element Type   
@@ -3317,13 +3296,6 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
 **domain** [fiaf:Item](https://fiafcore.org/ontology/Item), [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation), [fiaf:WorkVariant](https://fiafcore.org/ontology/WorkVariant)   
 **range** [fiaf:Event](https://fiafcore.org/ontology/Event)   
-####  Has Event Date   
-> **iri** https://fiafcore.org/ontology/hasEventDate   
-**label** Has Event Date   
-**source** FIAF Cataloguing Manual D.4.1   
-**type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
-**domain** [fiaf:Event](https://fiafcore.org/ontology/Event)   
-**range** [http://www.w3.org/2001/XMLSchema#date](http://www.w3.org/2001/XMLSchema#date)   
 ####  Has Event Location   
 > **iri** https://fiafcore.org/ontology/hasEventLocation   
 **label** Has Event Location   
@@ -3513,13 +3485,6 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
 **domain** [fiaf:WorkVariant](https://fiafcore.org/ontology/WorkVariant)   
 **range** [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
-####  Has Verdict   
-> **iri** https://fiafcore.org/ontology/hasVerdict   
-**label** Has Verdict   
-**source** FIAF Cataloguing Manual D.4.6   
-**type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
-**domain** [fiaf:Event](https://fiafcore.org/ontology/Event)   
-**range** [http://www.w3.org/2001/XMLSchema#string](http://www.w3.org/2001/XMLSchema#string)   
 ####  Has Work/Variant   
 > **iri** https://fiafcore.org/ontology/hasWorkVariant   
 **label** Has Work/Variant   
@@ -3527,14 +3492,35 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
 **domain** [fiaf:WorkVariant](https://fiafcore.org/ontology/WorkVariant)   
 **range** [fiaf:WorkVariant](https://fiafcore.org/ontology/WorkVariant)   
-####  Nomination Only   
-> **iri** https://fiafcore.org/ontology/nominationOnly   
-**label** Nomination Only   
-**source** FIAF Cataloguing Manual D.4.2   
-**type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
-**domain** [fiaf:AwardsOrNominationsEvent](https://fiafcore.org/ontology/AwardsOrNominationsEvent)   
-**range** [http://www.w3.org/2001/XMLSchema#boolean](http://www.w3.org/2001/XMLSchema#boolean)   
 ## Datatype Properties   
+####  Has Achievement   
+> **iri** https://fiafcore.org/ontology/hasAchievement   
+**label** Has Achievement   
+**source** FIAF Cataloguing Manual D.4.2   
+**type** [http://www.w3.org/2002/07/owl#DatatypeProperty](http://www.w3.org/2002/07/owl#DatatypeProperty)   
+**domain** [fiaf:AwardsOrNominationsEvent](https://fiafcore.org/ontology/AwardsOrNominationsEvent)   
+**range** [http://www.w3.org/2001/XMLSchema#string](http://www.w3.org/2001/XMLSchema#string)   
+####  Has Award Name   
+> **iri** https://fiafcore.org/ontology/hasAwardName   
+**label** Has Award Name   
+**source** FIAF Cataloguing Manual D.4.2   
+**type** [http://www.w3.org/2002/07/owl#DatatypeProperty](http://www.w3.org/2002/07/owl#DatatypeProperty)   
+**domain** [fiaf:AwardsOrNominationsEvent](https://fiafcore.org/ontology/AwardsOrNominationsEvent)   
+**range** [http://www.w3.org/2001/XMLSchema#string](http://www.w3.org/2001/XMLSchema#string)   
+####  Has Decision ID   
+> **iri** https://fiafcore.org/ontology/hasDecisionID   
+**label** Has Decision ID   
+**source** FIAF Cataloguing Manual D.4.6   
+**type** [http://www.w3.org/2002/07/owl#DatatypeProperty](http://www.w3.org/2002/07/owl#DatatypeProperty)   
+**domain** [fiaf:DecisionEvent](https://fiafcore.org/ontology/DecisionEvent)   
+**range** [http://www.w3.org/2001/XMLSchema#string](http://www.w3.org/2001/XMLSchema#string)   
+####  Has Event Date   
+> **iri** https://fiafcore.org/ontology/hasEventDate   
+**label** Has Event Date   
+**source** FIAF Cataloguing Manual D.4.1   
+**type** [http://www.w3.org/2002/07/owl#DatatypeProperty](http://www.w3.org/2002/07/owl#DatatypeProperty)   
+**domain** [fiaf:Event](https://fiafcore.org/ontology/Event)   
+**range** [http://www.w3.org/2001/XMLSchema#date](http://www.w3.org/2001/XMLSchema#date)   
 ####  Has Extent Value   
 > **iri** https://fiafcore.org/ontology/hasExtentValue   
 **label** Has Extent Value   
@@ -3563,3 +3549,17 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **type** [http://www.w3.org/2002/07/owl#DatatypeProperty](http://www.w3.org/2002/07/owl#DatatypeProperty)   
 **domain** [fiaf:Title](https://fiafcore.org/ontology/Title)   
 **range** [http://www.w3.org/2001/XMLSchema#string](http://www.w3.org/2001/XMLSchema#string)   
+####  Has Verdict   
+> **iri** https://fiafcore.org/ontology/hasVerdict   
+**label** Has Verdict   
+**source** FIAF Cataloguing Manual D.4.6   
+**type** [http://www.w3.org/2002/07/owl#DatatypeProperty](http://www.w3.org/2002/07/owl#DatatypeProperty)   
+**domain** [fiaf:DecisionEvent](https://fiafcore.org/ontology/DecisionEvent)   
+**range** [http://www.w3.org/2001/XMLSchema#string](http://www.w3.org/2001/XMLSchema#string)   
+####  Nomination Only   
+> **iri** https://fiafcore.org/ontology/nominationOnly   
+**label** Nomination Only   
+**source** FIAF Cataloguing Manual D.4.2   
+**type** [http://www.w3.org/2002/07/owl#DatatypeProperty](http://www.w3.org/2002/07/owl#DatatypeProperty)   
+**domain** [fiaf:AwardsOrNominationsEvent](https://fiafcore.org/ontology/AwardsOrNominationsEvent)   
+**range** [http://www.w3.org/2001/XMLSchema#boolean](http://www.w3.org/2001/XMLSchema#boolean)   
