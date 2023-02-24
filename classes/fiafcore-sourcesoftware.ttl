@@ -15,8 +15,9 @@
     rdfs:label "Source Software"@en ;
     dc:source "FIAF Cataloguing Manual 3.1.5.22"^^xsd:string .
 
-# Individuals
+# Subclasses
 
-<https://fiafcore.org/ontology/FFmpeg> a owl:NamedIndividual, fiaf:SourceSoftware ;
+<https://fiafcore.org/ontology/FFmpeg> a owl:Class ;
     rdfs:label "FFmpeg"@en ;
-    dc:source "FIAF Cataloguing Manual 3.1.5.22"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual 3.1.5.22"^^xsd:string ;
+    rdfs:subClassOf fiaf:SourceSoftware .
