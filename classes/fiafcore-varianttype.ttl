@@ -17,52 +17,52 @@
 
 # Individuals
 
-<https://fiafcore.org/ontology/AbridgedCondensed> a owl:NamedIndividual,
-        fiaf:VariantType ;
+<https://fiafcore.org/ontology/AbridgedCondensed> a owl:Class ;
     rdfs:label "Abridged/Condensed"@en ;
-    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:VariantType .
 
-<https://fiafcore.org/ontology/Augmented> a owl:NamedIndividual,
-        fiaf:VariantType ;
+<https://fiafcore.org/ontology/Augmented> a owl:Class ;
     rdfs:label "Augmented"@en ;
-    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:VariantType .
 
-<https://fiafcore.org/ontology/BlackAndWhiteCopyOfWorkOriginallyIssuedInColour> a owl:NamedIndividual,
-        fiaf:VariantType ;
+<https://fiafcore.org/ontology/BlackAndWhiteCopyOfWorkOriginallyIssuedInColour> a owl:Class ;
     rdfs:label "Black and white copy of work originally issued in colour"@en ;
-    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:VariantType .
 
-<https://fiafcore.org/ontology/Censored> a owl:NamedIndividual,
-        fiaf:VariantType ;
+<https://fiafcore.org/ontology/Censored> a owl:Class ;
     rdfs:label "Censored"@en ;
-    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:VariantType .
 
-<https://fiafcore.org/ontology/Colourized> a owl:NamedIndividual,
-        fiaf:VariantType ;
+<https://fiafcore.org/ontology/Colourized> a owl:Class ;
     rdfs:label "Colourized"@en ;
-    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:VariantType .
 
-<https://fiafcore.org/ontology/DifferentSoundTrack> a owl:NamedIndividual,
-        fiaf:VariantType ;
+<https://fiafcore.org/ontology/DifferentSoundTrack> a owl:Class ;
     rdfs:label "Different sound track"@en ;
-    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:VariantType .
 
-<https://fiafcore.org/ontology/Dubbed> a owl:NamedIndividual,
-        fiaf:VariantType ;
+<https://fiafcore.org/ontology/Dubbed> a owl:Class ;
     rdfs:label "Dubbed"@en ;
-    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:VariantType .
 
-<https://fiafcore.org/ontology/PreservationRestoration> a owl:NamedIndividual,
-        fiaf:VariantType ;
+<https://fiafcore.org/ontology/PreservationRestoration> a owl:Class ;
     rdfs:label "Preservation/Restoration"@en ;
-    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:VariantType .
 
-<https://fiafcore.org/ontology/Sonorized> a owl:NamedIndividual,
-        fiaf:VariantType ;
+<https://fiafcore.org/ontology/Sonorized> a owl:Class ;
     rdfs:label "Sonorized"@en ;
-    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:VariantType .
 
-<https://fiafcore.org/ontology/Subtitled> a owl:NamedIndividual,
-        fiaf:VariantType ;
+<https://fiafcore.org/ontology/Subtitled> a owl:Class ;
     rdfs:label "Subtitled"@en ;
-    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.2"^^xsd:string ;
+    rdfs:subClassOf fiaf:VariantType .
