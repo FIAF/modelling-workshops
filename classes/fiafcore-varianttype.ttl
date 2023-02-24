@@ -15,7 +15,7 @@
     rdfs:label "Variant Type"@en ;
     dc:source "FIAF Cataloguing Manual 1.2.2"^^xsd:string .
 
-# Individuals
+# Subclasses
 
 <https://fiafcore.org/ontology/AbridgedCondensed> a owl:Class ;
     rdfs:label "Abridged/Condensed"@en ;
