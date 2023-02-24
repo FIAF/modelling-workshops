@@ -168,6 +168,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:DigitalFile](https://fiafcore.org/ontology/DigitalFile)   
+####  Abbreviated Title   
+> **iri** https://fiafcore.org/ontology/AbbreviatedTitle   
+**label** Abbreviated Title   
+**source** FIAF Cataloguing Manual A.2.4.1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:AlternativeTitle](https://fiafcore.org/ontology/AlternativeTitle)   
 ####  Academy   
 > **iri** https://fiafcore.org/ontology/Academy   
 **label** Academy   
@@ -180,6 +186,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.4.9   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Event](https://fiafcore.org/ontology/Event)   
+####  Acquisition Title   
+> **iri** https://fiafcore.org/ontology/AcquisitionTitle   
+**label** Acquisition Title   
+**source** FIAF Cataloguing Manual A.2.4.1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:AlternativeTitle](https://fiafcore.org/ontology/AlternativeTitle)   
 ####  Activity   
 > **iri** https://fiafcore.org/ontology/Activity   
 **label** Activity   
@@ -770,6 +782,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual 1.4.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Agent](https://fiafcore.org/ontology/Agent)   
+####  Corrected Title   
+> **iri** https://fiafcore.org/ontology/CorrectedTitle   
+**label** Corrected Title   
+**source** FIAF Cataloguing Manual A.2.4.1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:AlternativeTitle](https://fiafcore.org/ontology/AlternativeTitle)   
 ####  Costume Design, Costume Designer, Costumes   
 > **iri** https://fiafcore.org/ontology/CostumeDesigner   
 **label** Costume Design, Costume Designer, Costumes   
@@ -1828,6 +1846,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.15   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ImageFormat](https://fiafcore.org/ontology/ImageFormat)   
+####  Parallel Title   
+> **iri** https://fiafcore.org/ontology/ParallelTitle   
+**label** Parallel Title   
+**source** FIAF Cataloguing Manual A.2.4.1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:AlternativeTitle](https://fiafcore.org/ontology/AlternativeTitle)   
 ####  Copy Condition Perforations   
 > **iri** https://fiafcore.org/ontology/PerforationCondition   
 **label** Copy Condition Perforations   
@@ -1888,6 +1912,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.5.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation)   
+####  Pre-Release Title   
+> **iri** https://fiafcore.org/ontology/PreReleaseTitle   
+**label** Pre-Release Title   
+**source** FIAF Cataloguing Manual A.2.4.1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:AlternativeTitle](https://fiafcore.org/ontology/AlternativeTitle)   
 ####  Preferred Title   
 > **iri** https://fiafcore.org/ontology/PreferredTitle   
 **label** Preferred Title   
@@ -2181,6 +2211,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  Search Title   
+> **iri** https://fiafcore.org/ontology/SearchTitle   
+**label** Search Title   
+**source** FIAF Cataloguing Manual A.2.4.1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:AlternativeTitle](https://fiafcore.org/ontology/AlternativeTitle)   
 ####  Second Unit Director   
 > **iri** https://fiafcore.org/ontology/SecondUnitDirector   
 **label** Second Unit Director   
@@ -2223,6 +2259,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.2.17   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProducingActivity](https://fiafcore.org/ontology/ProducingActivity)   
+####  Series Title   
+> **iri** https://fiafcore.org/ontology/SeriesTitle   
+**label** Series Title   
+**source** FIAF Cataloguing Manual A.2.4.1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:AlternativeTitle](https://fiafcore.org/ontology/AlternativeTitle)   
 ####  Decor, Decoration, Set Decoration, Set Decorator, Set Dresser, Set Dressing   
 > **iri** https://fiafcore.org/ontology/SetDecorator   
 **label** Decor, Decoration, Set Decoration, Set Decorator, Set Dresser, Set Dressing   
@@ -2573,6 +2615,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.12   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:PreservationEvent](https://fiafcore.org/ontology/PreservationEvent)   
+####  Translated Title   
+> **iri** https://fiafcore.org/ontology/TranslatedTitle   
+**label** Translated Title   
+**source** FIAF Cataloguing Manual A.2.4.1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:AlternativeTitle](https://fiafcore.org/ontology/AlternativeTitle)   
+####  Transliterated Title   
+> **iri** https://fiafcore.org/ontology/TransliteratedTitle   
+**label** Transliterated Title   
+**source** FIAF Cataloguing Manual A.2.4.1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:AlternativeTitle](https://fiafcore.org/ontology/AlternativeTitle)   
 ####  Transportation Coordinator, Transportation Manager   
 > **iri** https://fiafcore.org/ontology/TransportationManager   
 **label** Transportation Coordinator, Transportation Manager   
@@ -2726,6 +2780,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Work/Variant, l'Œuvre/la Variante   
 **source** FIAF Cataloguing Manual 1.0   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+####  Working Title   
+> **iri** https://fiafcore.org/ontology/WorkingTitle   
+**label** Working Title   
+**source** FIAF Cataloguing Manual A.2.4.1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:AlternativeTitle](https://fiafcore.org/ontology/AlternativeTitle)   
 ####  Wrangler   
 > **iri** https://fiafcore.org/ontology/Wrangler   
 **label** Wrangler   

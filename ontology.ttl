@@ -187,6 +187,11 @@ fiaf:AVI a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:DigitalFile .
 
+fiaf:AbbreviatedTitle a owl:Class ;
+    rdfs:label "Abbreviated Title"@en ;
+    dc:source "FIAF Cataloguing Manual A.2.4.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:AlternativeTitle .
+
 fiaf:AbridgedCondensed a owl:NamedIndividual,
         fiaf:VariantType ;
     rdfs:label "Abridged/Condensed"@en ;
@@ -206,6 +211,11 @@ fiaf:Acetate a owl:NamedIndividual,
         fiaf:Base ;
     rdfs:label "Acetate"@en ;
     dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string .
+
+fiaf:AcquisitionTitle a owl:Class ;
+    rdfs:label "Acquisition Title"@en ;
+    dc:source "FIAF Cataloguing Manual A.2.4.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:AlternativeTitle .
 
 fiaf:Acrylic a owl:NamedIndividual,
         fiaf:Base ;
@@ -275,11 +285,6 @@ fiaf:Akai a owl:Class ;
     rdfs:label "Akai"@en ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
-
-fiaf:AlternativeTitle a owl:Class ;
-    rdfs:label "Alternative Title"@en ;
-    dc:source "FIAF Cataloguing Manual A.2.4"^^xsd:string ;
-    rdfs:subClassOf fiaf:Title .
 
 fiaf:AmateurFilm a owl:NamedIndividual,
         fiaf:Form ;
@@ -705,6 +710,11 @@ fiaf:CorporateBody a owl:Class ;
     rdfs:label "Corporate Body"@en ;
     dc:source "FIAF Cataloguing Manual 1.4.1"^^xsd:string ;
     rdfs:subClassOf fiaf:Agent .
+
+fiaf:CorrectedTitle a owl:Class ;
+    rdfs:label "Corrected Title"@en ;
+    dc:source "FIAF Cataloguing Manual A.2.4.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:AlternativeTitle .
 
 fiaf:CostumeDesigner a owl:Class ;
     rdfs:label "Costume Design"@en,
@@ -1694,6 +1704,11 @@ fiaf:PanAndScan a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.15"^^xsd:string ;
     rdfs:subClassOf fiaf:ImageFormat .
 
+fiaf:ParallelTitle a owl:Class ;
+    rdfs:label "Parallel Title"@en ;
+    dc:source "FIAF Cataloguing Manual A.2.4.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:AlternativeTitle .
+
 fiaf:Pathécolor a owl:NamedIndividual,
         fiaf:ColourStandard ;
     rdfs:label "Pathécolor"@en ;
@@ -1748,6 +1763,11 @@ fiaf:PreReleaseManifestation a owl:Class ;
     rdfs:label "Pre-Release Manifestation"@en ;
     dc:source "FIAF Cataloguing Manual D.5.1"^^xsd:string ;
     rdfs:subClassOf fiaf:Manifestation .
+
+fiaf:PreReleaseTitle a owl:Class ;
+    rdfs:label "Pre-Release Title"@en ;
+    dc:source "FIAF Cataloguing Manual A.2.4.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:AlternativeTitle .
 
 fiaf:PreferredTitle a owl:Class ;
     rdfs:label "Preferred Title"@en ;
@@ -2022,6 +2042,11 @@ fiaf:Seagate a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
+fiaf:SearchTitle a owl:Class ;
+    rdfs:label "Search Title"@en ;
+    dc:source "FIAF Cataloguing Manual A.2.4.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:AlternativeTitle .
+
 fiaf:SecondUnitDirector a owl:Class ;
     rdfs:label "Second Unit Director"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.3.3"^^xsd:string ;
@@ -2064,6 +2089,11 @@ fiaf:SeriesProducer a owl:Class ;
         "Series Production"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.2.17"^^xsd:string ;
     rdfs:subClassOf fiaf:ProducingActivity .
+
+fiaf:SeriesTitle a owl:Class ;
+    rdfs:label "Series Title"@en ;
+    dc:source "FIAF Cataloguing Manual A.2.4.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:AlternativeTitle .
 
 fiaf:SetDecorator a owl:Class ;
     rdfs:label "Decor"@en,
@@ -2379,6 +2409,16 @@ fiaf:TransferEvent a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.12"^^xsd:string ;
     rdfs:subClassOf fiaf:PreservationEvent .
 
+fiaf:TranslatedTitle a owl:Class ;
+    rdfs:label "Translated Title"@en ;
+    dc:source "FIAF Cataloguing Manual A.2.4.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:AlternativeTitle .
+
+fiaf:TransliteratedTitle a owl:Class ;
+    rdfs:label "Transliterated Title"@en ;
+    dc:source "FIAF Cataloguing Manual A.2.4.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:AlternativeTitle .
+
 fiaf:TransportationManager a owl:Class ;
     rdfs:label "Transportation Coordinator"@en,
         "Transportation Manager"@en ;
@@ -2523,6 +2563,11 @@ fiaf:WindowsMedia a owl:Class ;
     rdfs:label "WindowsMedia"@en ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:DigitalFileEncoding .
+
+fiaf:WorkingTitle a owl:Class ;
+    rdfs:label "Working Title"@en ;
+    dc:source "FIAF Cataloguing Manual A.2.4.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:AlternativeTitle .
 
 fiaf:Wrangler a owl:Class ;
     rdfs:label "Wrangler"@en ;
@@ -3024,6 +3069,11 @@ fiaf:Video a owl:Class ;
 fiaf:Codec a owl:Class ;
     rdfs:label "Codec"@en ;
     dc:source "FIAF Cataloguing Manual 3.1.5.16, 3.1.5.17"^^xsd:string .
+
+fiaf:AlternativeTitle a owl:Class ;
+    rdfs:label "Alternative Title"@en ;
+    dc:source "FIAF Cataloguing Manual A.2.4"^^xsd:string ;
+    rdfs:subClassOf fiaf:Title .
 
 fiaf:ColourCharacteristic a owl:Class ;
     rdfs:label "Colour Characteristic"@en ;
