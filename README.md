@@ -3518,7 +3518,7 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Has Verdict   
 **source** FIAF Cataloguing Manual D.4.6   
 **type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
-**domain** [fiaf:DecisionEvent](https://fiafcore.org/ontology/DecisionEvent)   
+**domain** [fiaf:Event](https://fiafcore.org/ontology/Event)   
 **range** [http://www.w3.org/2001/XMLSchema#string](http://www.w3.org/2001/XMLSchema#string)   
 ####  Has Work/Variant   
 > **iri** https://fiafcore.org/ontology/hasWorkVariant   

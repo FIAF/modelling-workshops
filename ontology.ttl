@@ -2921,7 +2921,7 @@ fiaf:hasVariantType a owl:ObjectProperty ;
 fiaf:hasVerdict a owl:ObjectProperty ;
     rdfs:label "Has Verdict"@en ;
     dc:source "FIAF Cataloguing Manual D.4.6"^^xsd:string ;
-    rdfs:domain fiaf:DecisionEvent ;
+    rdfs:domain fiaf:Event ;
     rdfs:range xsd:string .
 
 fiaf:hasWorkVariant a owl:ObjectProperty ;
@@ -2995,6 +2995,11 @@ fiaf:BroadcastStandard a owl:Class ;
     rdfs:label "Broadcast Standard"@en ;
     dc:source "FIAF Cataloguing Manual 3.1.5.10"^^xsd:string .
 
+fiaf:DecisionEvent a owl:Class ;
+    rdfs:label "Decision Event"@en ;
+    dc:source "FIAF Cataloguing Manual D.4.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:Event .
+
 fiaf:DialogueLanguages a owl:Class ;
     rdfs:label "Dialogue language(s)"@en ;
     dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
@@ -3037,11 +3042,6 @@ fiaf:AcquisitionEvent a owl:Class ;
 fiaf:BitDepth a owl:Class ;
     rdfs:label "BitDepth"@en ;
     dc:source "FIAF Cataloguing Manual 3.1.5.20"^^xsd:string .
-
-fiaf:DecisionEvent a owl:Class ;
-    rdfs:label "Decision Event"@en ;
-    dc:source "FIAF Cataloguing Manual D.4.6"^^xsd:string ;
-    rdfs:subClassOf fiaf:Event .
 
 fiaf:DigitalFile a owl:Class ;
     rdfs:label "Digital File"@en ;
@@ -3206,10 +3206,6 @@ fiaf:VariantType a owl:Class ;
     rdfs:label "Variant Type"@en ;
     dc:source "FIAF Cataloguing Manual 1.2.2"^^xsd:string .
 
-fiaf:Event a owl:Class ;
-    rdfs:label "Event"@en ;
-    dc:source "FIAF Cataloguing Manual 1.4.2, 2.4.2, 3.3.2"^^xsd:string .
-
 fiaf:SpecialEffectsActivity a owl:Class ;
     rdfs:label "Special Effects Activity"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.8"^^xsd:string ;
@@ -3219,6 +3215,10 @@ fiaf:CastActivity a owl:Class ;
     rdfs:label "Cast Activity"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.7"^^xsd:string ;
     rdfs:subClassOf fiaf:Activity .
+
+fiaf:Event a owl:Class ;
+    rdfs:label "Event"@en ;
+    dc:source "FIAF Cataloguing Manual 1.4.2, 2.4.2, 3.3.2"^^xsd:string .
 
 fiaf:SoundActivity a owl:Class ;
     rdfs:label "Sound Activity"@en ;
