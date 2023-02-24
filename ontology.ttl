@@ -107,10 +107,10 @@ fiaf:2InchQuadruplex a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Video .
 
-fiaf:2K a owl:NamedIndividual,
-        fiaf:Resolution ;
+fiaf:2K a owl:Class ;
     rdfs:label "2K"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string ;
+    rdfs:subClassOf fiaf:Resolution .
 
 fiaf:30fps a owl:Class ;
     rdfs:label "30fps"@en ;
@@ -157,10 +157,10 @@ fiaf:48fps a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.14"^^xsd:string ;
     rdfs:subClassOf fiaf:ImageRatio .
 
-fiaf:4K a owl:NamedIndividual,
-        fiaf:Resolution ;
+fiaf:4K a owl:Class ;
     rdfs:label "4K"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string ;
+    rdfs:subClassOf fiaf:Resolution .
 
 fiaf:525 a owl:Class ;
     rdfs:label "525"@en ;
@@ -172,10 +172,10 @@ fiaf:625 a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.21"^^xsd:string ;
     rdfs:subClassOf fiaf:LineStandard .
 
-fiaf:6K a owl:NamedIndividual,
-        fiaf:Resolution ;
+fiaf:6K a owl:Class ;
     rdfs:label "6K"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string ;
+    rdfs:subClassOf fiaf:Resolution .
 
 fiaf:70mmFilm a owl:Class ;
     rdfs:label "70mm Film"@en ;
@@ -187,10 +187,10 @@ fiaf:720 a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.21"^^xsd:string ;
     rdfs:subClassOf fiaf:LineStandard .
 
-fiaf:8K a owl:NamedIndividual,
-        fiaf:Resolution ;
+fiaf:8K a owl:Class ;
     rdfs:label "8K"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string ;
+    rdfs:subClassOf fiaf:Resolution .
 
 fiaf:8mmFilm a owl:Class ;
     rdfs:label "8mm Film"@en ;
@@ -1204,10 +1204,10 @@ fiaf:HeavyScratches a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.16.1"^^xsd:string ;
     rdfs:subClassOf fiaf:BaseEmulsionCondition .
 
-fiaf:HighDefinition a owl:NamedIndividual,
-        fiaf:Resolution ;
+fiaf:HighDefinition a owl:Class ;
     rdfs:label "High Definition"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string ;
+    rdfs:subClassOf fiaf:Resolution .
 
 fiaf:Hitachi a owl:Class ;
     rdfs:label "Hitachi"@en ;
@@ -2250,10 +2250,10 @@ fiaf:StandIn a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.7.3"^^xsd:string ;
     rdfs:subClassOf fiaf:CastActivity .
 
-fiaf:StandardDefinition a owl:NamedIndividual,
-        fiaf:Resolution ;
+fiaf:StandardDefinition a owl:Class ;
     rdfs:label "Standard Definition"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string ;
+    rdfs:subClassOf fiaf:Resolution .
 
 fiaf:StatusPending a owl:NamedIndividual,
         fiaf:Status ;
