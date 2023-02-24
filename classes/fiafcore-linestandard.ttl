@@ -17,22 +17,27 @@
 
 # Individuals
 
-<https://fiafcore.org/ontology/1080> a owl:NamedIndividual, fiaf:LineStandard ;
+<https://fiafcore.org/ontology/1080> a owl:Class ;
     rdfs:label "1080"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.21"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.21"^^xsd:string ;
+    rdfs:subClassOf fiaf:LineStandard .
 
-<https://fiafcore.org/ontology/405> a owl:NamedIndividual, fiaf:LineStandard ;
+<https://fiafcore.org/ontology/405> a owl:Class ;
     rdfs:label "405"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.21"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.21"^^xsd:string ;
+    rdfs:subClassOf fiaf:LineStandard .
 
-<https://fiafcore.org/ontology/525> a owl:NamedIndividual, fiaf:LineStandard ;
+<https://fiafcore.org/ontology/525> a owl:Class ;
     rdfs:label "525"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.21"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.21"^^xsd:string ;
+    rdfs:subClassOf fiaf:LineStandard .
 
-<https://fiafcore.org/ontology/625> a owl:NamedIndividual, fiaf:LineStandard ;
+<https://fiafcore.org/ontology/625> a owl:Class ;
     rdfs:label "625"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.21"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.21"^^xsd:string ;
+    rdfs:subClassOf fiaf:LineStandard .
 
-<https://fiafcore.org/ontology/720> a owl:NamedIndividual, fiaf:LineStandard ;
+<https://fiafcore.org/ontology/720> a owl:Class ;
     rdfs:label "720"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.21"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.21"^^xsd:string ;
+    rdfs:subClassOf fiaf:LineStandard .
