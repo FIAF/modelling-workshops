@@ -466,6 +466,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  Anscocolor   
+> **iri** https://fiafcore.org/ontology/Anscocolor   
+**label** Anscocolor   
+**source** FIAF Cataloguing Manual D.7.12   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
 ####  Armorer   
 > **iri** https://fiafcore.org/ontology/Armorer   
 **label** Armorer   
@@ -1284,6 +1290,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  Eastmancolor   
+> **iri** https://fiafcore.org/ontology/Eastmancolor   
+**label** Eastmancolor   
+**source** FIAF Cataloguing Manual D.7.12   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
 ####  Editing Activity   
 > **iri** https://fiafcore.org/ontology/EditingActivity   
 **label** Editing Activity   
@@ -1366,6 +1378,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual 2.3.5.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Extent](https://fiafcore.org/ontology/Extent)   
+####  Ferraniacolor   
+> **iri** https://fiafcore.org/ontology/Ferraniacolor   
+**label** Ferraniacolor   
+**source** FIAF Cataloguing Manual D.7.12   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
 ####  Fight Arranger, Fight Master, Fights Arranged   
 > **iri** https://fiafcore.org/ontology/FightArranger   
 **label** Fight Arranger, Fight Master, Fights Arranged   
@@ -1441,6 +1459,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  Fujicolor   
+> **iri** https://fiafcore.org/ontology/Fujicolor   
+**label** Fujicolor   
+**source** FIAF Cataloguing Manual D.7.12   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
 ####  Full Height   
 > **iri** https://fiafcore.org/ontology/FullHeight   
 **label** Full Height   
@@ -1648,6 +1672,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual 2.3.5.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Extent](https://fiafcore.org/ontology/Extent)   
+####  Kinemacolor   
+> **iri** https://fiafcore.org/ontology/Kinemacolor   
+**label** Kinemacolor   
+**source** FIAF Cataloguing Manual D.7.12   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
+####  Kodachrome   
+> **iri** https://fiafcore.org/ontology/Kodachrome   
+**label** Kodachrome   
+**source** FIAF Cataloguing Manual D.7.12   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
 ####  Laboratory, Laboratory Services, Processing Laboratory   
 > **iri** https://fiafcore.org/ontology/Laboratory   
 **label** Laboratory, Laboratory Services, Processing Laboratory   
@@ -2143,6 +2179,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual A.2.4.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:AlternativeTitle](https://fiafcore.org/ontology/AlternativeTitle)   
+####  Pathécolor   
+> **iri** https://fiafcore.org/ontology/Pathécolor   
+**label** Pathécolor   
+**source** FIAF Cataloguing Manual D.7.12   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
 ####  Copy Condition Perforations   
 > **iri** https://fiafcore.org/ontology/PerforationCondition   
 **label** Copy Condition Perforations   
@@ -2395,6 +2437,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:DigitalFileEncoding](https://fiafcore.org/ontology/DigitalFileEncoding)   
+####  RGB   
+> **iri** https://fiafcore.org/ontology/RGB   
+**label** RGB   
+**source** FIAF Cataloguing Manual D.7.12   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
 ####  Rating Event   
 > **iri** https://fiafcore.org/ontology/RatingEvent   
 **label** Rating Event   
@@ -2919,6 +2967,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.16.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:BaseEmulsionCondition](https://fiafcore.org/ontology/BaseEmulsionCondition)   
+####  Technicolor   
+> **iri** https://fiafcore.org/ontology/Technicolor   
+**label** Technicolor   
+**source** FIAF Cataloguing Manual D.7.12   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
 ####  Telecine Event   
 > **iri** https://fiafcore.org/ontology/TelecineEvent   
 **label** Telecine Event   
@@ -3221,57 +3275,13 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.6   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:LanguageUsage](https://fiafcore.org/ontology/LanguageUsage)   
-## Individuals   
-####  Anscocolor   
-> **iri** https://fiafcore.org/ontology/Anscocolor   
-**label** Anscocolor   
-**source** FIAF Cataloguing Manual D.7.12   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
-####  Eastmancolor   
-> **iri** https://fiafcore.org/ontology/Eastmancolor   
-**label** Eastmancolor   
-**source** FIAF Cataloguing Manual D.7.12   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
-####  Ferraniacolor   
-> **iri** https://fiafcore.org/ontology/Ferraniacolor   
-**label** Ferraniacolor   
-**source** FIAF Cataloguing Manual D.7.12   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
-####  Fujicolor   
-> **iri** https://fiafcore.org/ontology/Fujicolor   
-**label** Fujicolor   
-**source** FIAF Cataloguing Manual D.7.12   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
-####  Kinemacolor   
-> **iri** https://fiafcore.org/ontology/Kinemacolor   
-**label** Kinemacolor   
-**source** FIAF Cataloguing Manual D.7.12   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
-####  Kodachrome   
-> **iri** https://fiafcore.org/ontology/Kodachrome   
-**label** Kodachrome   
-**source** FIAF Cataloguing Manual D.7.12   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
-####  Pathécolor   
-> **iri** https://fiafcore.org/ontology/Pathécolor   
-**label** Pathécolor   
-**source** FIAF Cataloguing Manual D.7.12   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
-####  RGB   
-> **iri** https://fiafcore.org/ontology/RGB   
-**label** RGB   
-**source** FIAF Cataloguing Manual D.7.12   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
-####  Technicolor   
-> **iri** https://fiafcore.org/ontology/Technicolor   
-**label** Technicolor   
-**source** FIAF Cataloguing Manual D.7.12   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
 ####  YUV   
 > **iri** https://fiafcore.org/ontology/YUV   
 **label** YUV   
 **source** FIAF Cataloguing Manual D.7.12   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
+## Individuals   
 ## Object Properties   
 ####  Has Activity   
 > **iri** https://fiafcore.org/ontology/hasActivity   
