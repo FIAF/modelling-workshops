@@ -232,10 +232,10 @@ fiaf:Academy a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.15"^^xsd:string ;
     rdfs:subClassOf fiaf:ImageFormat .
 
-fiaf:Accessioned a owl:NamedIndividual,
-        fiaf:Status ;
+fiaf:Accessioned a owl:Class ;
     rdfs:label "Accessioned"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.3"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.3"^^xsd:string ;
+    rdfs:subClassOf fiaf:Status .
 
 fiaf:Acetate a owl:NamedIndividual,
         fiaf:Base ;
@@ -1435,10 +1435,10 @@ fiaf:Manufacturer a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.8.5"^^xsd:string ;
     rdfs:subClassOf fiaf:ManifestationActivity .
 
-fiaf:Master a owl:NamedIndividual,
-        fiaf:Status ;
+fiaf:Master a owl:Class ;
     rdfs:label "Master"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.3"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.3"^^xsd:string ;
+    rdfs:subClassOf fiaf:Status .
 
 fiaf:MasteringEvent a owl:Class ;
     rdfs:label "Mastering Event"@en ;
@@ -1664,10 +1664,10 @@ fiaf:OilDeposits a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.16.3"^^xsd:string ;
     rdfs:subClassOf fiaf:SurfaceDeposit .
 
-fiaf:OnLoan a owl:NamedIndividual,
-        fiaf:Status ;
+fiaf:OnLoan a owl:Class ;
     rdfs:label "On Loan"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.3"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.3"^^xsd:string ;
+    rdfs:subClassOf fiaf:Status .
 
 fiaf:OneInchAudioReel a owl:Class ;
     rdfs:label "1-inch Audioreel"@en ;
@@ -1954,10 +1954,10 @@ fiaf:ReleaseEvent a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.10"^^xsd:string ;
     rdfs:subClassOf fiaf:PublicationEvent .
 
-fiaf:Removed a owl:NamedIndividual,
-        fiaf:Status ;
+fiaf:Removed a owl:Class ;
     rdfs:label "Removed"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.3"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.3"^^xsd:string ;
+    rdfs:subClassOf fiaf:Status .
 
 fiaf:ReproductionEvent a owl:Class ;
     rdfs:label "Reproduction Event"@en ;
@@ -2255,10 +2255,10 @@ fiaf:StandardDefinition a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string ;
     rdfs:subClassOf fiaf:Resolution .
 
-fiaf:StatusPending a owl:NamedIndividual,
-        fiaf:Status ;
+fiaf:StatusPending a owl:Class ;
     rdfs:label "Status pending"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.3"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.3"^^xsd:string ;
+    rdfs:subClassOf fiaf:Status .
 
 fiaf:SteadicamOperator a owl:Class ;
     rdfs:label "Steadicam Operator"@en ;
@@ -2527,10 +2527,10 @@ fiaf:VideoStream a owl:Class ;
     rdfs:label "Video Stream"@en ;
     rdfs:subClassOf fiaf:Stream .
 
-fiaf:Viewing a owl:NamedIndividual,
-        fiaf:Status ;
+fiaf:Viewing a owl:Class ;
     rdfs:label "Viewing"@en ;
-    dc:source "FIAF Cataloguing Manual D.7.3"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual D.7.3"^^xsd:string ;
+    rdfs:subClassOf fiaf:Status .
 
 fiaf:Vinyl a owl:NamedIndividual,
         fiaf:Base ;

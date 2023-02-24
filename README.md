@@ -276,6 +276,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.15   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ImageFormat](https://fiafcore.org/ontology/ImageFormat)   
+####  Accessioned   
+> **iri** https://fiafcore.org/ontology/Accessioned   
+**label** Accessioned   
+**source** FIAF Cataloguing Manual D.7.3   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Status](https://fiafcore.org/ontology/Status)   
 ####  Acquisition Event   
 > **iri** https://fiafcore.org/ontology/AcquisitionEvent   
 **label** Acquisition Event   
@@ -1735,6 +1741,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.8.5   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ManifestationActivity](https://fiafcore.org/ontology/ManifestationActivity)   
+####  Master   
+> **iri** https://fiafcore.org/ontology/Master   
+**label** Master   
+**source** FIAF Cataloguing Manual D.7.3   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Status](https://fiafcore.org/ontology/Status)   
 ####  Mastering Event   
 > **iri** https://fiafcore.org/ontology/MasteringEvent   
 **label** Mastering Event   
@@ -1939,6 +1951,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.16.3   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:SurfaceDeposit](https://fiafcore.org/ontology/SurfaceDeposit)   
+####  On Loan   
+> **iri** https://fiafcore.org/ontology/OnLoan   
+**label** On Loan   
+**source** FIAF Cataloguing Manual D.7.3   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Status](https://fiafcore.org/ontology/Status)   
 ####  1-inch Audioreel   
 > **iri** https://fiafcore.org/ontology/OneInchAudioReel   
 **label** 1-inch Audioreel   
@@ -2263,6 +2281,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.10   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:PublicationEvent](https://fiafcore.org/ontology/PublicationEvent)   
+####  Removed   
+> **iri** https://fiafcore.org/ontology/Removed   
+**label** Removed   
+**source** FIAF Cataloguing Manual D.7.3   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Status](https://fiafcore.org/ontology/Status)   
 ####  Reproduction Event   
 > **iri** https://fiafcore.org/ontology/ReproductionEvent   
 **label** Reproduction Event   
@@ -2598,6 +2622,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Status   
 **source** FIAF Cataloguing Manual 3.1.5.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+####  Status pending   
+> **iri** https://fiafcore.org/ontology/StatusPending   
+**label** Status pending   
+**source** FIAF Cataloguing Manual D.7.3   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Status](https://fiafcore.org/ontology/Status)   
 ####  Steadicam Operator   
 > **iri** https://fiafcore.org/ontology/SteadicamOperator   
 **label** Steadicam Operator   
@@ -2898,6 +2928,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Video Stream   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stream](https://fiafcore.org/ontology/Stream)   
+####  Viewing   
+> **iri** https://fiafcore.org/ontology/Viewing   
+**label** Viewing   
+**source** FIAF Cataloguing Manual D.7.3   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Status](https://fiafcore.org/ontology/Status)   
 ####  Optical Effects, Photographic Effects, Special Photographic Effects, VFX, Visual Effects   
 > **iri** https://fiafcore.org/ontology/VisualEffects   
 **label** Optical Effects, Photographic Effects, Special Photographic Effects, VFX, Visual Effects   
@@ -2988,11 +3024,6 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:LanguageUsage](https://fiafcore.org/ontology/LanguageUsage)   
 ## Individuals   
-####  Accessioned   
-> **iri** https://fiafcore.org/ontology/Accessioned   
-**label** Accessioned   
-**source** FIAF Cataloguing Manual D.7.3   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Status](https://fiafcore.org/ontology/Status)   
 ####  Acetate   
 > **iri** https://fiafcore.org/ontology/Acetate   
 **label** Acetate   
@@ -3098,11 +3129,6 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Mainly safety   
 **source** FIAF Cataloguing Manual D.7.7   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
-####  Master   
-> **iri** https://fiafcore.org/ontology/Master   
-**label** Master   
-**source** FIAF Cataloguing Manual D.7.3   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Status](https://fiafcore.org/ontology/Status)   
 ####  Mixed   
 > **iri** https://fiafcore.org/ontology/Mixed   
 **label** Mixed   
@@ -3123,11 +3149,6 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Nitrate   
 **source** FIAF Cataloguing Manual D.7.7   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Base](https://fiafcore.org/ontology/Base)   
-####  On Loan   
-> **iri** https://fiafcore.org/ontology/OnLoan   
-**label** On Loan   
-**source** FIAF Cataloguing Manual D.7.3   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Status](https://fiafcore.org/ontology/Status)   
 ####  Out, Outtake   
 > **iri** https://fiafcore.org/ontology/Outtake   
 **label** Out, Outtake   
@@ -3158,11 +3179,6 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** RGB   
 **source** FIAF Cataloguing Manual D.7.12   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
-####  Removed   
-> **iri** https://fiafcore.org/ontology/Removed   
-**label** Removed   
-**source** FIAF Cataloguing Manual D.7.3   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Status](https://fiafcore.org/ontology/Status)   
 ####  SECAM   
 > **iri** https://fiafcore.org/ontology/SECAM   
 **label** SECAM   
@@ -3188,11 +3204,6 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Short   
 **source** FIAF Glossary of Filmographic Terms D.1.3   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Form](https://fiafcore.org/ontology/Form)   
-####  Status pending   
-> **iri** https://fiafcore.org/ontology/StatusPending   
-**label** Status pending   
-**source** FIAF Cataloguing Manual D.7.3   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Status](https://fiafcore.org/ontology/Status)   
 ####  Stock Footage, Stock Shot   
 > **iri** https://fiafcore.org/ontology/StockFootage   
 **label** Stock Footage, Stock Shot   
@@ -3218,11 +3229,6 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** VT20   
 **source** FIAF Cataloguing Manual D.7.20   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:SourceDevice](https://fiafcore.org/ontology/SourceDevice)   
-####  Viewing   
-> **iri** https://fiafcore.org/ontology/Viewing   
-**label** Viewing   
-**source** FIAF Cataloguing Manual D.7.3   
-**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:Status](https://fiafcore.org/ontology/Status)   
 ####  Vinyl   
 > **iri** https://fiafcore.org/ontology/Vinyl   
 **label** Vinyl   
