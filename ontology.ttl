@@ -436,11 +436,6 @@ fiaf:Augmented a owl:NamedIndividual,
     rdfs:label "Augmented"@en ;
     dc:source "FIAF Cataloguing Manual D.2"^^xsd:string .
 
-fiaf:AwardsOrNominationsEvent a owl:Class ;
-    rdfs:label "Award(s) or Nomination(s) Event"@en ;
-    dc:source "FIAF Cataloguing Manual D.4.2"^^xsd:string ;
-    rdfs:subClassOf fiaf:Event .
-
 fiaf:BasedonCharactersCreated a owl:Class ;
     rdfs:label "Based on Characters Created"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.4.5"^^xsd:string ;
@@ -1259,11 +1254,6 @@ fiaf:IndoorShootingEvent a owl:Class ;
     rdfs:label "Indoor Shooting Event"@en ;
     dc:source "FIAF Cataloguing Manual D.11"^^xsd:string ;
     rdfs:subClassOf fiaf:ProductionEvent .
-
-fiaf:InspectionEvent a owl:Class ;
-    rdfs:label "Inspection Event"@en ;
-    dc:source "FIAF Cataloguing Manual D.4.8"^^xsd:string ;
-    rdfs:subClassOf fiaf:Event .
 
 fiaf:InternalIdentifier a owl:Class ;
     rdfs:label "Internal Identifier"@en ;
@@ -2621,6 +2611,12 @@ fiaf:YUV a owl:NamedIndividual,
     rdfs:label "YUV"@en ;
     dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string .
 
+fiaf:hasAchievement a owl:ObjectProperty ;
+    rdfs:label "Has Achievement"@en ;
+    dc:source "FIAF Cataloguing Manual D.4.2"^^xsd:string ;
+    rdfs:domain fiaf:AwardsOrNominationsEvent ;
+    rdfs:range xsd:string .
+
 fiaf:hasActivity a owl:ObjectProperty ;
     rdfs:label "Has Activity"@en ;
     dc:source "FIAF Cataloguing Manual 1.4.1.1"^^xsd:string,
@@ -2630,6 +2626,12 @@ fiaf:hasActivity a owl:ObjectProperty ;
         fiaf:Manifestation,
         fiaf:WorkVariant ;
     rdfs:range fiaf:Activity .
+
+fiaf:hasAwardName a owl:ObjectProperty ;
+    rdfs:label "Has Award Name"@en ;
+    dc:source "FIAF Cataloguing Manual D.4.2"^^xsd:string ;
+    rdfs:domain fiaf:AwardsOrNominationsEvent ;
+    rdfs:range xsd:string .
 
 fiaf:hasBase a owl:ObjectProperty ;
     rdfs:label "Has Base"@en ;
@@ -2674,11 +2676,23 @@ fiaf:hasColourStandard a owl:ObjectProperty ;
     rdfs:domain fiaf:ColourCharacteristic ;
     rdfs:range fiaf:ColourStandard .
 
+fiaf:hasCondition a owl:ObjectProperty ;
+    rdfs:label "Has Condition"@en ;
+    dc:source "FIAF Cataloguing Manual D.4.8"^^xsd:string ;
+    rdfs:domain fiaf:InspectionEvent ;
+    rdfs:range fiaf:Condition .
+
 fiaf:hasCountry a owl:ObjectProperty ;
     rdfs:label "Has Country"@en ;
     dc:source "FIAF Cataloguing Manual 1.3.3"^^xsd:string ;
     rdfs:domain fiaf:WorkVariant ;
     rdfs:range fiaf:Country .
+
+fiaf:hasDecisionID a owl:ObjectProperty ;
+    rdfs:label "Has Decision ID"@en ;
+    dc:source "FIAF Cataloguing Manual D.4.6"^^xsd:string ;
+    rdfs:domain fiaf:DecisionEvent ;
+    rdfs:range xsd:string .
 
 fiaf:hasElementType a owl:ObjectProperty ;
     rdfs:label "Has Element Type"@en ;
@@ -2695,6 +2709,18 @@ fiaf:hasEvent a owl:ObjectProperty ;
         fiaf:Manifestation,
         fiaf:WorkVariant ;
     rdfs:range fiaf:Event .
+
+fiaf:hasEventDate a owl:ObjectProperty ;
+    rdfs:label "Has Event Date"@en ;
+    dc:source "FIAF Cataloguing Manual D.4.1"^^xsd:string ;
+    rdfs:domain fiaf:Event ;
+    rdfs:range xsd:date .
+
+fiaf:hasEventLocation a owl:ObjectProperty ;
+    rdfs:label "Has Event Location"@en ;
+    dc:source "FIAF Cataloguing Manual D.4.1"^^xsd:string ;
+    rdfs:domain fiaf:Event ;
+    rdfs:range fiaf:Location .
 
 fiaf:hasExtent a owl:ObjectProperty ;
     rdfs:label "Has Extent"@en ;
@@ -2892,16 +2918,33 @@ fiaf:hasVariantType a owl:ObjectProperty ;
     rdfs:domain fiaf:WorkVariant ;
     rdfs:range fiaf:VariantType .
 
+fiaf:hasVerdict a owl:ObjectProperty ;
+    rdfs:label "Has Verdict"@en ;
+    dc:source "FIAF Cataloguing Manual D.4.6"^^xsd:string ;
+    rdfs:domain fiaf:DecisionEvent ;
+    rdfs:range xsd:string .
+
 fiaf:hasWorkVariant a owl:ObjectProperty ;
     rdfs:label "Has Work/Variant"@en ;
     dc:source "FIAF Cataloguing Manual 1.4.5"^^xsd:string ;
     rdfs:domain fiaf:WorkVariant ;
     rdfs:range fiaf:WorkVariant .
 
+fiaf:nominationOnly a owl:ObjectProperty ;
+    rdfs:label "Nomination Only"@en ;
+    dc:source "FIAF Cataloguing Manual D.4.2"^^xsd:string ;
+    rdfs:domain fiaf:AwardsOrNominationsEvent ;
+    rdfs:range xsd:boolean .
+
 fiaf:CensorshipActivity a owl:Class ;
     rdfs:label "Censorship Activity"@en ;
     dc:source "FIAF Glossary of Filmographic Terms C.1"^^xsd:string ;
     rdfs:subClassOf fiaf:Activity .
+
+fiaf:InspectionEvent a owl:Class ;
+    rdfs:label "Inspection Event"@en ;
+    dc:source "FIAF Cataloguing Manual D.4.8"^^xsd:string ;
+    rdfs:subClassOf fiaf:Event .
 
 fiaf:PuppetActivity a owl:Class ;
     rdfs:label "Puppet Activity"@en ;
@@ -2917,9 +2960,9 @@ fiaf:SourceSoftware a owl:Class ;
     rdfs:label "Source Software"@en ;
     dc:source "FIAF Cataloguing Manual 3.1.5.22"^^xsd:string .
 
-fiaf:DecisionEvent a owl:Class ;
-    rdfs:label "Decision Event"@en ;
-    dc:source "FIAF Cataloguing Manual D.4.6"^^xsd:string ;
+fiaf:AwardsOrNominationsEvent a owl:Class ;
+    rdfs:label "Award(s) or Nomination(s) Event"@en ;
+    dc:source "FIAF Cataloguing Manual D.4.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Event .
 
 fiaf:Decomposition a owl:Class ;
@@ -2992,6 +3035,11 @@ fiaf:BitDepth a owl:Class ;
     rdfs:label "BitDepth"@en ;
     dc:source "FIAF Cataloguing Manual 3.1.5.20"^^xsd:string .
 
+fiaf:DecisionEvent a owl:Class ;
+    rdfs:label "Decision Event"@en ;
+    dc:source "FIAF Cataloguing Manual D.4.6"^^xsd:string ;
+    rdfs:subClassOf fiaf:Event .
+
 fiaf:DigitalFile a owl:Class ;
     rdfs:label "Digital File"@en ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
@@ -3011,10 +3059,6 @@ fiaf:SurfaceDeposit a owl:Class ;
     rdfs:label "Surface Deposit"@en ;
     dc:source "FIAF Cataloguing Manual D.16.3"^^xsd:string ;
     rdfs:subClassOf fiaf:Condition .
-
-fiaf:Condition a owl:Class ;
-    rdfs:label "Condition"@en ;
-    dc:source "FIAF Cataloguing Manual 3.1.6.1"^^xsd:string .
 
 fiaf:DigitalFileEncoding a owl:Class ;
     rdfs:label "Digital File Encoding"@en ;
@@ -3059,6 +3103,10 @@ fiaf:BaseEmulsionCondition a owl:Class ;
     rdfs:label "Copy Condition Base/Emulsion"@en ;
     dc:source "FIAF Cataloguing Manual D.16.1"^^xsd:string ;
     rdfs:subClassOf fiaf:Condition .
+
+fiaf:Condition a owl:Class ;
+    rdfs:label "Condition"@en ;
+    dc:source "FIAF Cataloguing Manual 3.1.6.1"^^xsd:string .
 
 fiaf:CopyrightandDistributionActivity a owl:Class ;
     rdfs:label "Copyright and Distribution Activity"@en ;
@@ -3118,10 +3166,6 @@ fiaf:ColourCharacteristic a owl:Class ;
     rdfs:label "Colour Characteristic"@en ;
     dc:source "FIAF Cataloguing Manual 2.3.4.4"^^xsd:string .
 
-fiaf:Event a owl:Class ;
-    rdfs:label "Event"@en ;
-    dc:source "FIAF Cataloguing Manual 1.4.2, 2.4.2, 3.3.2"^^xsd:string .
-
 fiaf:ImageFormat a owl:Class ;
     rdfs:label "Image Format"@en ;
     dc:source "FIAF Cataloguing Manual D.7.15"^^xsd:string ;
@@ -3158,6 +3202,10 @@ fiaf:SoundCharacteristic a owl:Class ;
 fiaf:VariantType a owl:Class ;
     rdfs:label "Variant Type"@en ;
     dc:source "FIAF Cataloguing Manual 1.2.2"^^xsd:string .
+
+fiaf:Event a owl:Class ;
+    rdfs:label "Event"@en ;
+    dc:source "FIAF Cataloguing Manual 1.4.2, 2.4.2, 3.3.2"^^xsd:string .
 
 fiaf:SpecialEffectsActivity a owl:Class ;
     rdfs:label "Special Effects Activity"@en ;
