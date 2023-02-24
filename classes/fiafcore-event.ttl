@@ -271,5 +271,5 @@
 <https://fiafcore.org/ontology/hasVerdict> a owl:ObjectProperty ;
     rdfs:label "Has Verdict"@en ;
     dc:source "FIAF Cataloguing Manual D.4.6"^^xsd:string ;
-    rdfs:domain fiaf:DecisionEvent ;
+    rdfs:domain fiaf:Event ;
     rdfs:range xsd:string .
