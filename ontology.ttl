@@ -2705,7 +2705,8 @@ fiaf:hasEvent a owl:ObjectProperty ;
     dc:source "FIAF Cataloguing Manual 1.4.2"^^xsd:string,
         "FIAF Cataloguing Manual 2.4.2"^^xsd:string,
         "FIAF Cataloguing Manual 3.3.2"^^xsd:string ;
-    rdfs:domain fiaf:Item,
+    rdfs:domain fiaf:Carrier,
+        fiaf:Item,
         fiaf:Manifestation,
         fiaf:WorkVariant ;
     rdfs:range fiaf:Event .
@@ -2936,9 +2937,6 @@ fiaf:nominationOnly a owl:DatatypeProperty ;
     rdfs:domain fiaf:AwardsOrNominationsEvent ;
     rdfs:range xsd:boolean .
 
-fiaf:Carrier a owl:Class ;
-    rdfs:label "Carrier"@en .
-
 fiaf:CensorshipActivity a owl:Class ;
     rdfs:label "Censorship Activity"@en ;
     dc:source "FIAF Glossary of Filmographic Terms C.1"^^xsd:string ;
@@ -2953,6 +2951,9 @@ fiaf:PuppetActivity a owl:Class ;
     rdfs:label "Puppet Activity"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.14"^^xsd:string ;
     rdfs:subClassOf fiaf:Activity .
+
+fiaf:Carrier a owl:Class ;
+    rdfs:label "Carrier"@en .
 
 fiaf:EditingActivity a owl:Class ;
     rdfs:label "Editing Activity"@en ;

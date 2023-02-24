@@ -3294,7 +3294,7 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Has Event   
 **source** FIAF Cataloguing Manual 1.4.2, FIAF Cataloguing Manual 2.4.2, FIAF Cataloguing Manual 3.3.2   
 **type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
-**domain** [fiaf:Item](https://fiafcore.org/ontology/Item), [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation), [fiaf:WorkVariant](https://fiafcore.org/ontology/WorkVariant)   
+**domain** [fiaf:Carrier](https://fiafcore.org/ontology/Carrier), [fiaf:Item](https://fiafcore.org/ontology/Item), [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation), [fiaf:WorkVariant](https://fiafcore.org/ontology/WorkVariant)   
 **range** [fiaf:Event](https://fiafcore.org/ontology/Event)   
 ####  Has Event Location   
 > **iri** https://fiafcore.org/ontology/hasEventLocation   
