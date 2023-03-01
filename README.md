@@ -264,6 +264,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual A.2.4.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:AlternativeTitle](https://fiafcore.org/ontology/AlternativeTitle)   
+####  Abkhazian   
+> **iri** https://fiafcore.org/ontology/Abkhazian   
+**label** Abkhazian   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Abridged/Condensed   
 > **iri** https://fiafcore.org/ontology/AbridgedCondensed   
 **label** Abridged/Condensed   
@@ -329,6 +335,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.5.4   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CinematographyActivity](https://fiafcore.org/ontology/CinematographyActivity)   
+####  Afar   
+> **iri** https://fiafcore.org/ontology/Afar   
+**label** Afar   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Afrikaans   
+> **iri** https://fiafcore.org/ontology/Afrikaans   
+**label** Afrikaans   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Agent   
 > **iri** https://fiafcore.org/ontology/Agent   
 **label** Agent   
@@ -388,6 +406,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  Akan   
+> **iri** https://fiafcore.org/ontology/Akan   
+**label** Akan   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Albanian   
+> **iri** https://fiafcore.org/ontology/Albanian   
+**label** Albanian   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Alternative Title   
 > **iri** https://fiafcore.org/ontology/AlternativeTitle   
 **label** Alternative Title   
@@ -400,6 +430,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms D.1.9   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Form](https://fiafcore.org/ontology/Form)   
+####  Amharic   
+> **iri** https://fiafcore.org/ontology/Amharic   
+**label** Amharic   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Ampex   
 > **iri** https://fiafcore.org/ontology/Ampex   
 **label** Ampex   
@@ -472,6 +508,24 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.12   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
+####  Arabic   
+> **iri** https://fiafcore.org/ontology/Arabic   
+**label** Arabic   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Aragonese   
+> **iri** https://fiafcore.org/ontology/Aragonese   
+**label** Aragonese   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Armenian   
+> **iri** https://fiafcore.org/ontology/Armenian   
+**label** Armenian   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Armorer   
 > **iri** https://fiafcore.org/ontology/Armorer   
 **label** Armorer   
@@ -484,6 +538,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.6.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProductionDesignActivity](https://fiafcore.org/ontology/ProductionDesignActivity)   
+####  Assamese   
+> **iri** https://fiafcore.org/ontology/Assamese   
+**label** Assamese   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Assistant Art Director   
 > **iri** https://fiafcore.org/ontology/AssistantArtDirector   
 **label** Assistant Art Director   
@@ -543,12 +603,42 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
+####  Avaric   
+> **iri** https://fiafcore.org/ontology/Avaric   
+**label** Avaric   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Avestan   
+> **iri** https://fiafcore.org/ontology/Avestan   
+**label** Avestan   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Award(s) or Nomination(s) Event   
 > **iri** https://fiafcore.org/ontology/AwardsOrNominationsEvent   
 **label** Award(s) or Nomination(s) Event   
 **source** FIAF Cataloguing Manual D.4.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Event](https://fiafcore.org/ontology/Event)   
+####  Aymara   
+> **iri** https://fiafcore.org/ontology/Aymara   
+**label** Aymara   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Azerbaijani   
+> **iri** https://fiafcore.org/ontology/Azerbaijani   
+**label** Azerbaijani   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Bambara   
+> **iri** https://fiafcore.org/ontology/Bambara   
+**label** Bambara   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Base   
 > **iri** https://fiafcore.org/ontology/Base   
 **label** Base   
@@ -578,6 +668,30 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  Bashkir   
+> **iri** https://fiafcore.org/ontology/Bashkir   
+**label** Bashkir   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Basque   
+> **iri** https://fiafcore.org/ontology/Basque   
+**label** Basque   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Belarusian   
+> **iri** https://fiafcore.org/ontology/Belarusian   
+**label** Belarusian   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Bengali   
+> **iri** https://fiafcore.org/ontology/Bengali   
+**label** Bengali   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Assistant Chief Lighting Technician, Best Boy, Best Boy Electric   
 > **iri** https://fiafcore.org/ontology/BestBoy   
 **label** Assistant Chief Lighting Technician, Best Boy, Best Boy Electric   
@@ -590,6 +704,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Video](https://fiafcore.org/ontology/Video)   
+####  Bihari languages   
+> **iri** https://fiafcore.org/ontology/BihariLanguages   
+**label** Bihari languages   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Bislama   
+> **iri** https://fiafcore.org/ontology/Bislama   
+**label** Bislama   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  BitDepth   
 > **iri** https://fiafcore.org/ontology/BitDepth   
 **label** BitDepth   
@@ -631,12 +757,30 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Optical](https://fiafcore.org/ontology/Optical)   
+####  Bokmål, Norwegian; Norwegian Bokmål   
+> **iri** https://fiafcore.org/ontology/BokmålNorwegianNorwegianBokmål   
+**label** Bokmål, Norwegian; Norwegian Bokmål   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Boom Operator   
 > **iri** https://fiafcore.org/ontology/BoomOperator   
 **label** Boom Operator   
 **source** FIAF Glossary of Filmographic Terms B.9.4   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:SoundActivity](https://fiafcore.org/ontology/SoundActivity)   
+####  Bosnian   
+> **iri** https://fiafcore.org/ontology/Bosnian   
+**label** Bosnian   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Breton   
+> **iri** https://fiafcore.org/ontology/Breton   
+**label** Breton   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Brifco   
 > **iri** https://fiafcore.org/ontology/Brifco   
 **label** Brifco   
@@ -678,6 +822,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.16.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:BaseEmulsionCondition](https://fiafcore.org/ontology/BaseEmulsionCondition)   
+####  Bulgarian   
+> **iri** https://fiafcore.org/ontology/Bulgarian   
+**label** Bulgarian   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Burmese   
+> **iri** https://fiafcore.org/ontology/Burmese   
+**label** Burmese   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  CD   
 > **iri** https://fiafcore.org/ontology/CD   
 **label** CD   
@@ -736,6 +892,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.11   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProductionEvent](https://fiafcore.org/ontology/ProductionEvent)   
+####  Catalan; Valencian   
+> **iri** https://fiafcore.org/ontology/CatalanValencian   
+**label** Catalan; Valencian   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Censored   
 > **iri** https://fiafcore.org/ontology/Censored   
 **label** Censored   
@@ -760,24 +922,66 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.13   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:DecisionEvent](https://fiafcore.org/ontology/DecisionEvent)   
+####  Central Khmer   
+> **iri** https://fiafcore.org/ontology/CentralKhmer   
+**label** Central Khmer   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Chamorro   
+> **iri** https://fiafcore.org/ontology/Chamorro   
+**label** Chamorro   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Character Design, Character Designer   
 > **iri** https://fiafcore.org/ontology/CharacterDesign   
 **label** Character Design, Character Designer   
 **source** FIAF Glossary of Filmographic Terms B.13.14   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:AnimationActivity](https://fiafcore.org/ontology/AnimationActivity)   
+####  Chechen   
+> **iri** https://fiafcore.org/ontology/Chechen   
+**label** Chechen   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Chichewa; Chewa; Nyanja   
+> **iri** https://fiafcore.org/ontology/ChichewaChewaNyanja   
+**label** Chichewa; Chewa; Nyanja   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Chief Lighting Technician, Gaffer, Lighting   
 > **iri** https://fiafcore.org/ontology/ChiefLightingTechnician   
 **label** Chief Lighting Technician, Gaffer, Lighting   
 **source** FIAF Glossary of Filmographic Terms B.5.11   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CinematographyActivity](https://fiafcore.org/ontology/CinematographyActivity)   
+####  Chinese   
+> **iri** https://fiafcore.org/ontology/Chinese   
+**label** Chinese   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Choreographed, Choreographer, Choreography, Dance Director   
 > **iri** https://fiafcore.org/ontology/Choreographer   
 **label** Choreographed, Choreographer, Choreography, Dance Director   
 **source** FIAF Glossary of Filmographic Terms B.11.15   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:MusicActivity](https://fiafcore.org/ontology/MusicActivity)   
+####  Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic   
+> **iri** https://fiafcore.org/ontology/ChurchSlavicOldSlavonicChurchSlavonicOldBulgarianOldChurchSlavonic   
+**label** Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Chuvash   
+> **iri** https://fiafcore.org/ontology/Chuvash   
+**label** Chuvash   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Cinematography Activity   
 > **iri** https://fiafcore.org/ontology/CinematographyActivity   
 **label** Cinematography Activity   
@@ -936,6 +1140,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms C.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Activity](https://fiafcore.org/ontology/Activity)   
+####  Cornish   
+> **iri** https://fiafcore.org/ontology/Cornish   
+**label** Cornish   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Corporate Body   
 > **iri** https://fiafcore.org/ontology/CorporateBody   
 **label** Corporate Body   
@@ -948,6 +1158,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual A.2.4.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:AlternativeTitle](https://fiafcore.org/ontology/AlternativeTitle)   
+####  Corsican   
+> **iri** https://fiafcore.org/ontology/Corsican   
+**label** Corsican   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Costume Design, Costume Designer, Costumes   
 > **iri** https://fiafcore.org/ontology/CostumeDesigner   
 **label** Costume Design, Costume Designer, Costumes   
@@ -984,12 +1200,30 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.5.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CinematographyActivity](https://fiafcore.org/ontology/CinematographyActivity)   
+####  Cree   
+> **iri** https://fiafcore.org/ontology/Cree   
+**label** Cree   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Croatian   
+> **iri** https://fiafcore.org/ontology/Croatian   
+**label** Croatian   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  CTA   
 > **iri** https://fiafcore.org/ontology/Cta   
 **label** CTA   
 **source** FIAF Cataloguing Manual D.7.7   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Base](https://fiafcore.org/ontology/Base)   
+####  Czech   
+> **iri** https://fiafcore.org/ontology/Czech   
+**label** Czech   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  D1   
 > **iri** https://fiafcore.org/ontology/D1   
 **label** D1   
@@ -1038,6 +1272,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.7.5   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CastActivity](https://fiafcore.org/ontology/CastActivity)   
+####  Danish   
+> **iri** https://fiafcore.org/ontology/Danish   
+**label** Danish   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Decision Event   
 > **iri** https://fiafcore.org/ontology/DecisionEvent   
 **label** Decision Event   
@@ -1206,6 +1446,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms C.2.5   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CopyrightandDistributionActivity](https://fiafcore.org/ontology/CopyrightandDistributionActivity)   
+####  Divehi; Dhivehi; Maldivian   
+> **iri** https://fiafcore.org/ontology/DivehiDhivehiMaldivian   
+**label** Divehi; Dhivehi; Maldivian   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  DolbyDigital   
 > **iri** https://fiafcore.org/ontology/DolbyDigital   
 **label** DolbyDigital   
@@ -1278,6 +1524,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.12   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:PreservationEvent](https://fiafcore.org/ontology/PreservationEvent)   
+####  Dutch; Flemish   
+> **iri** https://fiafcore.org/ontology/DutchFlemish   
+**label** Dutch; Flemish   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Dzongkha   
+> **iri** https://fiafcore.org/ontology/Dzongkha   
+**label** Dzongkha   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  EIDR Identifier   
 > **iri** https://fiafcore.org/ontology/EIDRIdentifier   
 **label** EIDR Identifier   
@@ -1308,11 +1566,35 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.5.13   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CinematographyActivity](https://fiafcore.org/ontology/CinematographyActivity)   
+####  English   
+> **iri** https://fiafcore.org/ontology/English   
+**label** English   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Esperanto   
+> **iri** https://fiafcore.org/ontology/Esperanto   
+**label** Esperanto   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Estonian   
+> **iri** https://fiafcore.org/ontology/Estonian   
+**label** Estonian   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Event   
 > **iri** https://fiafcore.org/ontology/Event   
 **label** Event   
 **source** FIAF Cataloguing Manual 1.4.2, 2.4.2, 3.3.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+####  Ewe   
+> **iri** https://fiafcore.org/ontology/Ewe   
+**label** Ewe   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Clip, Excerpt   
 > **iri** https://fiafcore.org/ontology/Excerpt   
 **label** Clip, Excerpt   
@@ -1360,6 +1642,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual 1.4.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Agent](https://fiafcore.org/ontology/Agent)   
+####  Faroese   
+> **iri** https://fiafcore.org/ontology/Faroese   
+**label** Faroese   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Feature   
 > **iri** https://fiafcore.org/ontology/Feature   
 **label** Feature   
@@ -1390,6 +1678,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.3.7   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:DirectingActivity](https://fiafcore.org/ontology/DirectingActivity)   
+####  Fijian   
+> **iri** https://fiafcore.org/ontology/Fijian   
+**label** Fijian   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  File   
 > **iri** https://fiafcore.org/ontology/File   
 **label** File   
@@ -1414,6 +1708,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.14   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ManufactureEvent](https://fiafcore.org/ontology/ManufactureEvent)   
+####  Finnish   
+> **iri** https://fiafcore.org/ontology/Finnish   
+**label** Finnish   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Flat   
 > **iri** https://fiafcore.org/ontology/Flat   
 **label** Flat   
@@ -1453,6 +1753,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Frame Rate   
 **source** FIAF Cataloguing Manual 3.1.5.12   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+####  French   
+> **iri** https://fiafcore.org/ontology/French   
+**label** French   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Fuji   
 > **iri** https://fiafcore.org/ontology/Fuji   
 **label** Fuji   
@@ -1465,6 +1771,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.12   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
+####  Fulah   
+> **iri** https://fiafcore.org/ontology/Fulah   
+**label** Fulah   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Full Height   
 > **iri** https://fiafcore.org/ontology/FullHeight   
 **label** Full Height   
@@ -1477,12 +1789,42 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.15   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ImageFormat](https://fiafcore.org/ontology/ImageFormat)   
+####  Gaelic; Scottish Gaelic   
+> **iri** https://fiafcore.org/ontology/GaelicScottishGaelic   
+**label** Gaelic; Scottish Gaelic   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Galician   
+> **iri** https://fiafcore.org/ontology/Galician   
+**label** Galician   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Ganda   
+> **iri** https://fiafcore.org/ontology/Ganda   
+**label** Ganda   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Generator Operator, Genny Operator   
 > **iri** https://fiafcore.org/ontology/GeneratorOperator   
 **label** Generator Operator, Genny Operator   
 **source** FIAF Glossary of Filmographic Terms B.5.17   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CinematographyActivity](https://fiafcore.org/ontology/CinematographyActivity)   
+####  Georgian   
+> **iri** https://fiafcore.org/ontology/Georgian   
+**label** Georgian   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  German   
+> **iri** https://fiafcore.org/ontology/German   
+**label** German   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Gigabyte   
 > **iri** https://fiafcore.org/ontology/Gigabyte   
 **label** Gigabyte   
@@ -1495,12 +1837,30 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.6.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProductionDesignActivity](https://fiafcore.org/ontology/ProductionDesignActivity)   
+####  Greek, Modern (1453-)   
+> **iri** https://fiafcore.org/ontology/GreekModern1453   
+**label** Greek, Modern (1453-)   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Greensman, Greensperson   
 > **iri** https://fiafcore.org/ontology/Greensman   
 **label** Greensman, Greensperson   
 **source** FIAF Glossary of Filmographic Terms B.6.11   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProductionDesignActivity](https://fiafcore.org/ontology/ProductionDesignActivity)   
+####  Guarani   
+> **iri** https://fiafcore.org/ontology/Guarani   
+**label** Guarani   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Gujarati   
+> **iri** https://fiafcore.org/ontology/Gujarati   
+**label** Gujarati   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  HDCAM SR   
 > **iri** https://fiafcore.org/ontology/HDCAMSR   
 **label** HDCAM SR   
@@ -1519,24 +1879,60 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.6.20   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProductionDesignActivity](https://fiafcore.org/ontology/ProductionDesignActivity)   
+####  Haitian; Haitian Creole   
+> **iri** https://fiafcore.org/ontology/HaitianHaitianCreole   
+**label** Haitian; Haitian Creole   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  1/2-inch Audioreel   
 > **iri** https://fiafcore.org/ontology/HalfInchAudioReel   
 **label** 1/2-inch Audioreel   
 **source** FIAF Cataloguing Manual D.7.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Audio](https://fiafcore.org/ontology/Audio)   
+####  Hausa   
+> **iri** https://fiafcore.org/ontology/Hausa   
+**label** Hausa   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Heavy Scratches   
 > **iri** https://fiafcore.org/ontology/HeavyScratches   
 **label** Heavy Scratches   
 **source** FIAF Cataloguing Manual D.16.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:BaseEmulsionCondition](https://fiafcore.org/ontology/BaseEmulsionCondition)   
+####  Hebrew   
+> **iri** https://fiafcore.org/ontology/Hebrew   
+**label** Hebrew   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Herero   
+> **iri** https://fiafcore.org/ontology/Herero   
+**label** Herero   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  High Definition   
 > **iri** https://fiafcore.org/ontology/HighDefinition   
 **label** High Definition   
 **source** FIAF Cataloguing Manual D.7.19   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Resolution](https://fiafcore.org/ontology/Resolution)   
+####  Hindi   
+> **iri** https://fiafcore.org/ontology/Hindi   
+**label** Hindi   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Hiri Motu   
+> **iri** https://fiafcore.org/ontology/HiriMotu   
+**label** Hiri Motu   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Hitachi   
 > **iri** https://fiafcore.org/ontology/Hitachi   
 **label** Hitachi   
@@ -1573,12 +1969,24 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  Hungarian   
+> **iri** https://fiafcore.org/ontology/Hungarian   
+**label** Hungarian   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Hydrolysis   
 > **iri** https://fiafcore.org/ontology/Hydrolysis   
 **label** Hydrolysis   
 **source** FIAF Cataloguing Manual D.16.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:BaseEmulsionCondition](https://fiafcore.org/ontology/BaseEmulsionCondition)   
+####  Icelandic   
+> **iri** https://fiafcore.org/ontology/Icelandic   
+**label** Icelandic   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Identifier   
 > **iri** https://fiafcore.org/ontology/Identifier   
 **label** Identifier   
@@ -1590,6 +1998,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual A.2.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Title](https://fiafcore.org/ontology/Title)   
+####  Ido   
+> **iri** https://fiafcore.org/ontology/Ido   
+**label** Ido   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Igbo   
+> **iri** https://fiafcore.org/ontology/Igbo   
+**label** Igbo   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Image Characteristic   
 > **iri** https://fiafcore.org/ontology/ImageCharacteristic   
 **label** Image Characteristic   
@@ -1613,6 +2033,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.14   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ImageCharacteristic](https://fiafcore.org/ontology/ImageCharacteristic)   
+####  Indonesian   
+> **iri** https://fiafcore.org/ontology/Indonesian   
+**label** Indonesian   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Indoor Shooting Event   
 > **iri** https://fiafcore.org/ontology/IndoorShootingEvent   
 **label** Indoor Shooting Event   
@@ -1625,6 +2051,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.4.8   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Event](https://fiafcore.org/ontology/Event)   
+####  Interlingua (International Auxiliary Language Association)   
+> **iri** https://fiafcore.org/ontology/InterlinguaInternationalAuxiliaryLanguageAssociation   
+**label** Interlingua (International Auxiliary Language Association)   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Interlingue; Occidental   
+> **iri** https://fiafcore.org/ontology/InterlingueOccidental   
+**label** Interlingue; Occidental   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Internal Identifier   
 > **iri** https://fiafcore.org/ontology/InternalIdentifier   
 **label** Internal Identifier   
@@ -1649,6 +2087,30 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.7.9   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CastActivity](https://fiafcore.org/ontology/CastActivity)   
+####  Inuktitut   
+> **iri** https://fiafcore.org/ontology/Inuktitut   
+**label** Inuktitut   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Inupiaq   
+> **iri** https://fiafcore.org/ontology/Inupiaq   
+**label** Inupiaq   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Irish   
+> **iri** https://fiafcore.org/ontology/Irish   
+**label** Irish   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Italian   
+> **iri** https://fiafcore.org/ontology/Italian   
+**label** Italian   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Item   
 > **iri** https://fiafcore.org/ontology/Item   
 **label** Item   
@@ -1660,12 +2122,60 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.10   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Codec](https://fiafcore.org/ontology/Codec)   
+####  Japanese   
+> **iri** https://fiafcore.org/ontology/Japanese   
+**label** Japanese   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Javanese   
+> **iri** https://fiafcore.org/ontology/Javanese   
+**label** Javanese   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Kalaallisut; Greenlandic   
+> **iri** https://fiafcore.org/ontology/KalaallisutGreenlandic   
+**label** Kalaallisut; Greenlandic   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Kannada   
+> **iri** https://fiafcore.org/ontology/Kannada   
+**label** Kannada   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Kanuri   
+> **iri** https://fiafcore.org/ontology/Kanuri   
+**label** Kanuri   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Kashmiri   
+> **iri** https://fiafcore.org/ontology/Kashmiri   
+**label** Kashmiri   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Kazakh   
+> **iri** https://fiafcore.org/ontology/Kazakh   
+**label** Kazakh   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Grip, Key Grip   
 > **iri** https://fiafcore.org/ontology/KeyGrip   
 **label** Grip, Key Grip   
 **source** FIAF Glossary of Filmographic Terms B.5.14   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CinematographyActivity](https://fiafcore.org/ontology/CinematographyActivity)   
+####  Kikuyu; Gikuyu   
+> **iri** https://fiafcore.org/ontology/KikuyuGikuyu   
+**label** Kikuyu; Gikuyu   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Kilobyte   
 > **iri** https://fiafcore.org/ontology/Kilobyte   
 **label** Kilobyte   
@@ -1678,12 +2188,54 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.12   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
+####  Kinyarwanda   
+> **iri** https://fiafcore.org/ontology/Kinyarwanda   
+**label** Kinyarwanda   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Kirghiz; Kyrgyz   
+> **iri** https://fiafcore.org/ontology/KirghizKyrgyz   
+**label** Kirghiz; Kyrgyz   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Kodachrome   
 > **iri** https://fiafcore.org/ontology/Kodachrome   
 **label** Kodachrome   
 **source** FIAF Cataloguing Manual D.7.12   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
+####  Komi   
+> **iri** https://fiafcore.org/ontology/Komi   
+**label** Komi   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Kongo   
+> **iri** https://fiafcore.org/ontology/Kongo   
+**label** Kongo   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Korean   
+> **iri** https://fiafcore.org/ontology/Korean   
+**label** Korean   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Kuanyama; Kwanyama   
+> **iri** https://fiafcore.org/ontology/KuanyamaKwanyama   
+**label** Kuanyama; Kwanyama   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Kurdish   
+> **iri** https://fiafcore.org/ontology/Kurdish   
+**label** Kurdish   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Laboratory, Laboratory Services, Processing Laboratory   
 > **iri** https://fiafcore.org/ontology/Laboratory   
 **label** Laboratory, Laboratory Services, Processing Laboratory   
@@ -1702,6 +2254,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.12.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:LaboratoryActivity](https://fiafcore.org/ontology/LaboratoryActivity)   
+####  Language   
+> **iri** https://fiafcore.org/ontology/Language   
+**label** Language   
+**source** FIAF Cataloguing Manual 2.3.3   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 ####  Language Usage   
 > **iri** https://fiafcore.org/ontology/LanguageUsage   
 **label** Language Usage   
@@ -1719,12 +2276,30 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.6   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:LanguageUsage](https://fiafcore.org/ontology/LanguageUsage)   
+####  Lao   
+> **iri** https://fiafcore.org/ontology/Lao   
+**label** Lao   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Laser Disc   
 > **iri** https://fiafcore.org/ontology/LaserDisc   
 **label** Laser Disc   
 **source** FIAF Cataloguing Manual D.7.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Optical](https://fiafcore.org/ontology/Optical)   
+####  Latin   
+> **iri** https://fiafcore.org/ontology/Latin   
+**label** Latin   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Latvian   
+> **iri** https://fiafcore.org/ontology/Latvian   
+**label** Latvian   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Lead Man, Lead Person, Swing Gang   
 > **iri** https://fiafcore.org/ontology/LeadMan   
 **label** Lead Man, Lead Person, Swing Gang   
@@ -1755,6 +2330,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.13.19   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:AnimationActivity](https://fiafcore.org/ontology/AnimationActivity)   
+####  Limburgan; Limburger; Limburgish   
+> **iri** https://fiafcore.org/ontology/LimburganLimburgerLimburgish   
+**label** Limburgan; Limburger; Limburgish   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Line Producer   
 > **iri** https://fiafcore.org/ontology/LineProducer   
 **label** Line Producer   
@@ -1766,6 +2347,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Line Standard   
 **source** FIAF Cataloguing Manual 3.1.5.19   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+####  Lingala   
+> **iri** https://fiafcore.org/ontology/Lingala   
+**label** Lingala   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Lithuanian   
+> **iri** https://fiafcore.org/ontology/Lithuanian   
+**label** Lithuanian   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Loan Event   
 > **iri** https://fiafcore.org/ontology/LoanEvent   
 **label** Loan Event   
@@ -1784,6 +2377,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.6   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Extent](https://fiafcore.org/ontology/Extent)   
+####  Luba-Katanga   
+> **iri** https://fiafcore.org/ontology/LubaKatanga   
+**label** Luba-Katanga   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Luxembourgish; Letzeburgesch   
+> **iri** https://fiafcore.org/ontology/LuxembourgishLetzeburgesch   
+**label** Luxembourgish; Letzeburgesch   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  MOV   
 > **iri** https://fiafcore.org/ontology/MOV   
 **label** MOV   
@@ -1814,6 +2419,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:DigitalFile](https://fiafcore.org/ontology/DigitalFile)   
+####  Macedonian   
+> **iri** https://fiafcore.org/ontology/Macedonian   
+**label** Macedonian   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Magenta Bias   
 > **iri** https://fiafcore.org/ontology/MagentaBias   
 **label** Magenta Bias   
@@ -1844,6 +2455,30 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.6.19   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProductionDesignActivity](https://fiafcore.org/ontology/ProductionDesignActivity)   
+####  Malagasy   
+> **iri** https://fiafcore.org/ontology/Malagasy   
+**label** Malagasy   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Malay   
+> **iri** https://fiafcore.org/ontology/Malay   
+**label** Malay   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Malayalam   
+> **iri** https://fiafcore.org/ontology/Malayalam   
+**label** Malayalam   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Maltese   
+> **iri** https://fiafcore.org/ontology/Maltese   
+**label** Maltese   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Manifestation   
 > **iri** https://fiafcore.org/ontology/Manifestation   
 **label** Manifestation   
@@ -1867,6 +2502,30 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.8.5   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ManifestationActivity](https://fiafcore.org/ontology/ManifestationActivity)   
+####  Manx   
+> **iri** https://fiafcore.org/ontology/Manx   
+**label** Manx   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Maori   
+> **iri** https://fiafcore.org/ontology/Maori   
+**label** Maori   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Marathi   
+> **iri** https://fiafcore.org/ontology/Marathi   
+**label** Marathi   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Marshallese   
+> **iri** https://fiafcore.org/ontology/Marshallese   
+**label** Marshallese   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Master   
 > **iri** https://fiafcore.org/ontology/Master   
 **label** Master   
@@ -1945,6 +2604,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.13.17   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:AnimationActivity](https://fiafcore.org/ontology/AnimationActivity)   
+####  Mongolian   
+> **iri** https://fiafcore.org/ontology/Mongolian   
+**label** Mongolian   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Monographic   
 > **iri** https://fiafcore.org/ontology/Monographic   
 **label** Monographic   
@@ -2041,6 +2706,36 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.7.10   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CastActivity](https://fiafcore.org/ontology/CastActivity)   
+####  Nauru   
+> **iri** https://fiafcore.org/ontology/Nauru   
+**label** Nauru   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Navajo; Navaho   
+> **iri** https://fiafcore.org/ontology/NavajoNavaho   
+**label** Navajo; Navaho   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Ndebele, North; North Ndebele   
+> **iri** https://fiafcore.org/ontology/NdebeleNorthNorthNdebele   
+**label** Ndebele, North; North Ndebele   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Ndebele, South; South Ndebele   
+> **iri** https://fiafcore.org/ontology/NdebeleSouthSouthNdebele   
+**label** Ndebele, South; South Ndebele   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Ndonga   
+> **iri** https://fiafcore.org/ontology/Ndonga   
+**label** Ndonga   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Needle Sound   
 > **iri** https://fiafcore.org/ontology/NeedleSound   
 **label** Needle Sound   
@@ -2053,6 +2748,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.12.3   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:LaboratoryActivity](https://fiafcore.org/ontology/LaboratoryActivity)   
+####  Nepali   
+> **iri** https://fiafcore.org/ontology/Nepali   
+**label** Nepali   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Nitrate   
 > **iri** https://fiafcore.org/ontology/Nitrate   
 **label** Nitrate   
@@ -2077,6 +2778,24 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.10   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:PublicationEvent](https://fiafcore.org/ontology/PublicationEvent)   
+####  Northern Sami   
+> **iri** https://fiafcore.org/ontology/NorthernSami   
+**label** Northern Sami   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Norwegian   
+> **iri** https://fiafcore.org/ontology/Norwegian   
+**label** Norwegian   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Norwegian Nynorsk; Nynorsk, Norwegian   
+> **iri** https://fiafcore.org/ontology/NorwegianNynorskNynorskNorwegian   
+**label** Norwegian Nynorsk; Nynorsk, Norwegian   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Not For Release Event   
 > **iri** https://fiafcore.org/ontology/NotForReleaseEvent   
 **label** Not For Release Event   
@@ -2089,6 +2808,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.5.4   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation)   
+####  Occitan (post 1500); Provençal   
+> **iri** https://fiafcore.org/ontology/OccitanPost1500Provençal   
+**label** Occitan (post 1500); Provençal   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Off-Air Recording Event   
 > **iri** https://fiafcore.org/ontology/OffAirRecordingEvent   
 **label** Off-Air Recording Event   
@@ -2101,6 +2826,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.16.3   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:SurfaceDeposit](https://fiafcore.org/ontology/SurfaceDeposit)   
+####  Ojibwa   
+> **iri** https://fiafcore.org/ontology/Ojibwa   
+**label** Ojibwa   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  On Loan   
 > **iri** https://fiafcore.org/ontology/OnLoan   
 **label** On Loan   
@@ -2149,6 +2880,24 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.4.3   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:WritingActivity](https://fiafcore.org/ontology/WritingActivity)   
+####  Oriya   
+> **iri** https://fiafcore.org/ontology/Oriya   
+**label** Oriya   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Oromo   
+> **iri** https://fiafcore.org/ontology/Oromo   
+**label** Oromo   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Ossetian; Ossetic   
+> **iri** https://fiafcore.org/ontology/OssetianOssetic   
+**label** Ossetian; Ossetic   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Outdoor Shooting Event   
 > **iri** https://fiafcore.org/ontology/OutdoorShootingEvent   
 **label** Outdoor Shooting Event   
@@ -2167,12 +2916,24 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual 3.1.5.10   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:BroadcastStandard](https://fiafcore.org/ontology/BroadcastStandard)   
+####  Pali   
+> **iri** https://fiafcore.org/ontology/Pali   
+**label** Pali   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Pan and Scan   
 > **iri** https://fiafcore.org/ontology/PanAndScan   
 **label** Pan and Scan   
 **source** FIAF Cataloguing Manual D.7.15   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ImageFormat](https://fiafcore.org/ontology/ImageFormat)   
+####  Panjabi; Punjabi   
+> **iri** https://fiafcore.org/ontology/PanjabiPunjabi   
+**label** Panjabi; Punjabi   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Parallel Title   
 > **iri** https://fiafcore.org/ontology/ParallelTitle   
 **label** Parallel Title   
@@ -2191,6 +2952,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.16.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Condition](https://fiafcore.org/ontology/Condition)   
+####  Persian   
+> **iri** https://fiafcore.org/ontology/Persian   
+**label** Persian   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Person   
 > **iri** https://fiafcore.org/ontology/Person   
 **label** Person   
@@ -2215,12 +2982,24 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.15   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ImageFormat](https://fiafcore.org/ontology/ImageFormat)   
+####  Polish   
+> **iri** https://fiafcore.org/ontology/Polish   
+**label** Polish   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Polyester   
 > **iri** https://fiafcore.org/ontology/Polyester   
 **label** Polyester   
 **source** FIAF Cataloguing Manual D.7.7   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Base](https://fiafcore.org/ontology/Base)   
+####  Portuguese   
+> **iri** https://fiafcore.org/ontology/Portuguese   
+**label** Portuguese   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Post-Production   
 > **iri** https://fiafcore.org/ontology/PostProductionEvent   
 **label** Post-Production   
@@ -2413,6 +3192,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.15.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:AcquisitionEvent](https://fiafcore.org/ontology/AcquisitionEvent)   
+####  Pushto; Pashto   
+> **iri** https://fiafcore.org/ontology/PushtoPashto   
+**label** Pushto; Pashto   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  PVC   
 > **iri** https://fiafcore.org/ontology/Pvc   
 **label** PVC   
@@ -2431,6 +3216,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Audio](https://fiafcore.org/ontology/Audio)   
+####  Quechua   
+> **iri** https://fiafcore.org/ontology/Quechua   
+**label** Quechua   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Quicktime   
 > **iri** https://fiafcore.org/ontology/Quicktime   
 **label** Quicktime   
@@ -2514,12 +3305,36 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.6   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Extent](https://fiafcore.org/ontology/Extent)   
+####  Romanian; Moldavian; Moldovan   
+> **iri** https://fiafcore.org/ontology/RomanianMoldavianMoldovan   
+**label** Romanian; Moldavian; Moldovan   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Romansh   
+> **iri** https://fiafcore.org/ontology/Romansh   
+**label** Romansh   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Rotoscoping   
 > **iri** https://fiafcore.org/ontology/Rotoscoping   
 **label** Rotoscoping   
 **source** FIAF Glossary of Filmographic Terms B.8.9   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:SpecialEffectsActivity](https://fiafcore.org/ontology/SpecialEffectsActivity)   
+####  Rundi   
+> **iri** https://fiafcore.org/ontology/Rundi   
+**label** Rundi   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Russian   
+> **iri** https://fiafcore.org/ontology/Russian   
+**label** Russian   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Rust   
 > **iri** https://fiafcore.org/ontology/Rust   
 **label** Rust   
@@ -2550,6 +3365,30 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.7   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Base](https://fiafcore.org/ontology/Base)   
+####  Samoan   
+> **iri** https://fiafcore.org/ontology/Samoan   
+**label** Samoan   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Sango   
+> **iri** https://fiafcore.org/ontology/Sango   
+**label** Sango   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Sanskrit   
+> **iri** https://fiafcore.org/ontology/Sanskrit   
+**label** Sanskrit   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Sardinian   
+> **iri** https://fiafcore.org/ontology/Sardinian   
+**label** Sardinian   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Scanning Event   
 > **iri** https://fiafcore.org/ontology/ScanningEvent   
 **label** Scanning Event   
@@ -2622,6 +3461,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.11   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ColourCharacteristic](https://fiafcore.org/ontology/ColourCharacteristic)   
+####  Serbian   
+> **iri** https://fiafcore.org/ontology/Serbian   
+**label** Serbian   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Serial   
 > **iri** https://fiafcore.org/ontology/Serial   
 **label** Serial   
@@ -2670,6 +3515,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  Shona   
+> **iri** https://fiafcore.org/ontology/Shona   
+**label** Shona   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Short   
 > **iri** https://fiafcore.org/ontology/Short   
 **label** Short   
@@ -2682,6 +3533,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.16.6   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Condition](https://fiafcore.org/ontology/Condition)   
+####  Sichuan Yi; Nuosu   
+> **iri** https://fiafcore.org/ontology/SichuanYiNuosu   
+**label** Sichuan Yi; Nuosu   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Signed Language   
 > **iri** https://fiafcore.org/ontology/SignedLanguage   
 **label** Signed Language   
@@ -2694,6 +3551,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.4   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:SoundCharacteristic](https://fiafcore.org/ontology/SoundCharacteristic)   
+####  Sindhi   
+> **iri** https://fiafcore.org/ontology/Sindhi   
+**label** Sindhi   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Singer   
 > **iri** https://fiafcore.org/ontology/Singer   
 **label** Singer   
@@ -2706,6 +3569,30 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.11.8   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:MusicActivity](https://fiafcore.org/ontology/MusicActivity)   
+####  Sinhala; Sinhalese   
+> **iri** https://fiafcore.org/ontology/SinhalaSinhalese   
+**label** Sinhala; Sinhalese   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Slovak   
+> **iri** https://fiafcore.org/ontology/Slovak   
+**label** Slovak   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Slovenian   
+> **iri** https://fiafcore.org/ontology/Slovenian   
+**label** Slovenian   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Somali   
+> **iri** https://fiafcore.org/ontology/Somali   
+**label** Somali   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Song Composer, Songs, Songs Composed   
 > **iri** https://fiafcore.org/ontology/SongComposer   
 **label** Song Composer, Songs, Songs Composed   
@@ -2724,6 +3611,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  Sotho, Southern   
+> **iri** https://fiafcore.org/ontology/SothoSouthern   
+**label** Sotho, Southern   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Sound   
 > **iri** https://fiafcore.org/ontology/Sound   
 **label** Sound   
@@ -2791,6 +3684,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Source Software   
 **source** FIAF Cataloguing Manual 3.1.5.22   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+####  Spanish; Castilian   
+> **iri** https://fiafcore.org/ontology/SpanishCastilian   
+**label** Spanish; Castilian   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Effects, FX, SFX, Special Effects   
 > **iri** https://fiafcore.org/ontology/SpecialEffects   
 **label** Effects, FX, SFX, Special Effects   
@@ -2919,6 +3818,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.6   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:WrittenLanguages](https://fiafcore.org/ontology/WrittenLanguages)   
+####  Sundanese   
+> **iri** https://fiafcore.org/ontology/Sundanese   
+**label** Sundanese   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Sung Language   
 > **iri** https://fiafcore.org/ontology/SungLanguage   
 **label** Sung Language   
@@ -2961,6 +3866,54 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.16.3   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Condition](https://fiafcore.org/ontology/Condition)   
+####  Swahili   
+> **iri** https://fiafcore.org/ontology/Swahili   
+**label** Swahili   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Swati   
+> **iri** https://fiafcore.org/ontology/Swati   
+**label** Swati   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Swedish   
+> **iri** https://fiafcore.org/ontology/Swedish   
+**label** Swedish   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Tagalog   
+> **iri** https://fiafcore.org/ontology/Tagalog   
+**label** Tagalog   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Tahitian   
+> **iri** https://fiafcore.org/ontology/Tahitian   
+**label** Tahitian   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Tajik   
+> **iri** https://fiafcore.org/ontology/Tajik   
+**label** Tajik   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Tamil   
+> **iri** https://fiafcore.org/ontology/Tamil   
+**label** Tamil   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Tatar   
+> **iri** https://fiafcore.org/ontology/Tatar   
+**label** Tatar   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Tears   
 > **iri** https://fiafcore.org/ontology/Tears   
 **label** Tears   
@@ -2979,6 +3932,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.14   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ManufactureEvent](https://fiafcore.org/ontology/ManufactureEvent)   
+####  Telugu   
+> **iri** https://fiafcore.org/ontology/Telugu   
+**label** Telugu   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Temporary   
 > **iri** https://fiafcore.org/ontology/Temporary   
 **label** Temporary   
@@ -2991,6 +3950,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual 2.3.5.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Extent](https://fiafcore.org/ontology/Extent)   
+####  Thai   
+> **iri** https://fiafcore.org/ontology/Thai   
+**label** Thai   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Theatrical Distribution   
 > **iri** https://fiafcore.org/ontology/TheatricalDistribution   
 **label** Theatrical Distribution   
@@ -3003,6 +3968,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.10   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:PublicationEvent](https://fiafcore.org/ontology/PublicationEvent)   
+####  Tibetan   
+> **iri** https://fiafcore.org/ontology/Tibetan   
+**label** Tibetan   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Tigrinya   
+> **iri** https://fiafcore.org/ontology/Tigrinya   
+**label** Tigrinya   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Tinted   
 > **iri** https://fiafcore.org/ontology/Tinted   
 **label** Tinted   
@@ -3026,6 +4003,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual A.2.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Title](https://fiafcore.org/ontology/Title)   
+####  Tonga (Tonga Islands)   
+> **iri** https://fiafcore.org/ontology/TongaTongaIslands   
+**label** Tonga (Tonga Islands)   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Torn   
 > **iri** https://fiafcore.org/ontology/Torn   
 **label** Torn   
@@ -3068,12 +4051,54 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.2.13   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProducingActivity](https://fiafcore.org/ontology/ProducingActivity)   
+####  Tsonga   
+> **iri** https://fiafcore.org/ontology/Tsonga   
+**label** Tsonga   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Tswana   
+> **iri** https://fiafcore.org/ontology/Tswana   
+**label** Tswana   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Turkish   
+> **iri** https://fiafcore.org/ontology/Turkish   
+**label** Turkish   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Turkmen   
+> **iri** https://fiafcore.org/ontology/Turkmen   
+**label** Turkmen   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Twi   
+> **iri** https://fiafcore.org/ontology/Twi   
+**label** Twi   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  2-inch Audioreel   
 > **iri** https://fiafcore.org/ontology/TwoInchAudioReel   
 **label** 2-inch Audioreel   
 **source** FIAF Cataloguing Manual D.7.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Audio](https://fiafcore.org/ontology/Audio)   
+####  Uighur; Uyghur   
+> **iri** https://fiafcore.org/ontology/UighurUyghur   
+**label** Uighur; Uyghur   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Ukrainian   
+> **iri** https://fiafcore.org/ontology/Ukrainian   
+**label** Ukrainian   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Underwater Cameraman, Underwater Photography, Underwater Sequences   
 > **iri** https://fiafcore.org/ontology/UnderwaterCameraman   
 **label** Underwater Cameraman, Underwater Photography, Underwater Sequences   
@@ -3110,6 +4135,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.14   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ManufactureEvent](https://fiafcore.org/ontology/ManufactureEvent)   
+####  Urdu   
+> **iri** https://fiafcore.org/ontology/Urdu   
+**label** Urdu   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Uzbek   
+> **iri** https://fiafcore.org/ontology/Uzbek   
+**label** Uzbek   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  VA RCA Duplex   
 > **iri** https://fiafcore.org/ontology/VARCADuplex   
 **label** VA RCA Duplex   
@@ -3145,6 +4182,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Variant Type   
 **source** FIAF Cataloguing Manual 1.2.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+####  Venda   
+> **iri** https://fiafcore.org/ontology/Venda   
+**label** Venda   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Verbatim   
 > **iri** https://fiafcore.org/ontology/Verbatim   
 **label** Verbatim   
@@ -3174,6 +4217,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Video Stream   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stream](https://fiafcore.org/ontology/Stream)   
+####  Vietnamese   
+> **iri** https://fiafcore.org/ontology/Vietnamese   
+**label** Vietnamese   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Viewing   
 > **iri** https://fiafcore.org/ontology/Viewing   
 **label** Viewing   
@@ -3198,12 +4247,24 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.7.7   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CastActivity](https://fiafcore.org/ontology/CastActivity)   
+####  Volapük   
+> **iri** https://fiafcore.org/ontology/Volapük   
+**label** Volapük   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  WAV   
 > **iri** https://fiafcore.org/ontology/WAV   
 **label** WAV   
 **source** FIAF Cataloguing Manual D.7.10   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Codec](https://fiafcore.org/ontology/Codec)   
+####  Walloon   
+> **iri** https://fiafcore.org/ontology/Walloon   
+**label** Walloon   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Wardrobe Master, Wardrobe Mistress, Wardrobe Supervision, Wardrobe Supervisor   
 > **iri** https://fiafcore.org/ontology/WardrobeSupervisor   
 **label** Wardrobe Master, Wardrobe Mistress, Wardrobe Supervision, Wardrobe Supervisor   
@@ -3216,12 +4277,24 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.16.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:BaseEmulsionCondition](https://fiafcore.org/ontology/BaseEmulsionCondition)   
+####  Welsh   
+> **iri** https://fiafcore.org/ontology/Welsh   
+**label** Welsh   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Western Digital   
 > **iri** https://fiafcore.org/ontology/WesternDigital   
 **label** Western Digital   
 **source** FIAF Cataloguing Manual D.7.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  Western Frisian   
+> **iri** https://fiafcore.org/ontology/WesternFrisian   
+**label** Western Frisian   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Wikidata Identifier   
 > **iri** https://fiafcore.org/ontology/WikidataIdentifier   
 **label** Wikidata Identifier   
@@ -3240,6 +4313,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:DigitalFileEncoding](https://fiafcore.org/ontology/DigitalFileEncoding)   
+####  Wolof   
+> **iri** https://fiafcore.org/ontology/Wolof   
+**label** Wolof   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Work/Variant, l'Œuvre/la Variante   
 > **iri** https://fiafcore.org/ontology/WorkVariant   
 **label** Work/Variant, l'Œuvre/la Variante   
@@ -3275,12 +4354,42 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.6   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:LanguageUsage](https://fiafcore.org/ontology/LanguageUsage)   
+####  Xhosa   
+> **iri** https://fiafcore.org/ontology/Xhosa   
+**label** Xhosa   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  YUV   
 > **iri** https://fiafcore.org/ontology/YUV   
 **label** YUV   
 **source** FIAF Cataloguing Manual D.7.12   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
+####  Yiddish   
+> **iri** https://fiafcore.org/ontology/Yiddish   
+**label** Yiddish   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Yoruba   
+> **iri** https://fiafcore.org/ontology/Yoruba   
+**label** Yoruba   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Zhuang; Chuang   
+> **iri** https://fiafcore.org/ontology/ZhuangChuang   
+**label** Zhuang; Chuang   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Zulu   
+> **iri** https://fiafcore.org/ontology/Zulu   
+**label** Zulu   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ## Individuals   
 ####  Academy Film Archive   
 > **iri** https://fiafcore.org/ontology/AcademyFilmArchive   
