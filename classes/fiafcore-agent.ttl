@@ -36,3 +36,475 @@
     rdfs:label "Person Group"@en ;
     dc:source "FIAF Cataloguing Manual 1.4.1"^^xsd:string ;
     rdfs:subClassOf fiaf:Agent .
+
+# Individuals
+
+fiaf:AcademyFilmArchive a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Academy Film Archive"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:ArchivoDeImagenesEnMovimientoArchivoGeneralDePuertoRico a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Archivo de Imagenes en Movimiento - Archivo General de Puerto Rico"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:ArchivoNacionalDeLaImagenYLaPalabraSodre a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Archivo Nacional de la Imagen y la Palabra - Sodre"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:ArhivRepublikeSlovenijeSlovenskiFilmskiArhivSfa a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Arhiv Republike Slovenije - Slovenski Filmski Arhiv (SFA)"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:ArhivaNationalaDeFilmeCinematecaRomana a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Arhiva Nationala de Filme - Cinemateca Romana"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:ArkiviQendrorShteterorIFilmitAqshf a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Arkivi Qendror Shteteror I Filmit (AQSHF)"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:BangladeshFilmArchive a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Bangladesh Film Archive"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:BfiNationalArchive a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "BFI National Archive"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:BulgarskaNacionalnaFilmoteka a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Bulgarska Nacionalna Filmoteka"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:Bundesarchiv a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Bundesarchiv"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:CentreNationalDuCinémaEtDeLImageAniméeDirectionDuPatrimoineCinématographique a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Centre national du cinéma et de l’image animée - Direction du patrimoine cinématographique"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:ChinaFilmArchive a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "China Film Archive"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:CinematecaBrasileira a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Cinemateca Brasileira"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:CinematecaDeCuba a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Cinemateca de Cuba"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:CinematecaPortuguesa a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Cinemateca Portuguesa"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:CinematecaUruguaya a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Cinemateca Uruguaya"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:CinetecaNacional a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Cineteca Nacional"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:CinetecaNacionalDeChile a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Cineteca Nacional de Chile"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:CinémathèqueDeLaVilleDeLuxembourg a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Cinémathèque de la Ville de Luxembourg"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:CinémathèqueFrançaise a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Cinémathèque française"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:CinémathèqueMarocaineCentreCinématographiqueMarocainCcm a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Cinémathèque Marocaine - Centre cinématographique Marocain (CCM)"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:CinémathèqueRoyaleDeBelgique a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Cinémathèque royale de Belgique"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:CinémathèqueSuisse a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Cinémathèque suisse"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:DeutscheKinemathek a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Deutsche Kinemathek"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:DffDeutschesFilminstitutFilmmuseum a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "DFF - Deutsches Filminstitut & Filmmuseum"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:EcpadÉtablissementDeCommunicationEtDeProductionAudiovisuelleDeLaDéfense a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "ECPAD - Établissement de communication et de production audiovisuelle de la Défense"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:EuskadikoFilmategiaFundazioa a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Euskadiko Filmategia Fundazioa"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:EyeFilmmuseum a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Eye Filmmuseum"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:FilmArchiveOfTheNationalArchivesOfEstonia a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Film Archive of the National Archives of Estonia"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:FilmArchivePublicOrganization a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Film Archive (Public Organization)"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:FilmarchivAustria a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Filmarchiv Austria"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:FilmmuseumDüsseldorf a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Filmmuseum Düsseldorf"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:FilmmuseumMünchen a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Filmmuseum München"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:FilmotecaDeCatalunyaIcec a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Filmoteca de Catalunya - ICEC"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:FilmotecaDeLaPontificiaUniversidadCatolicaDelPeruPupc a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Filmoteca de la Pontificia Universidad Catolica del Peru (PUPC)"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:FilmotecaDeLaUnam a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Filmoteca de la UNAM"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:FilmotecaEspañola a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Filmoteca Española"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:FilmotecaValencianaInstitutValenciàDeCultura a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Filmoteca Valenciana - Institut Valencià de Cultura"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:FilmotecaVaticana a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Filmoteca Vaticana"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:FilmotekaNarodowaInstytutAudiowizualnyFina a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Filmoteka Narodowa - Instytut Audiowizualny (FINA)"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:FondazioneCentroSperimentaleDiCinematografiaCinetecaNazionale a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Fondazione Centro Sperimentale di Cinematografia - Cineteca Nazionale"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:FondazioneCinetecaDiBologna a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Fondazione Cineteca di Bologna"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:FondazioneCinetecaItaliana a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Fondazione Cineteca Italiana"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:FundaciónCinematecaArgentina a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Fundación Cinemateca Argentina"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:FundaciónPatrimonioFílmicoColombiano a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Fundación Patrimonio Fílmico Colombiano"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:GeorgeEastmanMuseum a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "George Eastman Museum"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:GosfilmofondOfRussia a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Gosfilmofond of Russia"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:HarvardFilmArchive a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Harvard Film Archive"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:HongKongFilmArchive a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Hong Kong Film Archive"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:HrvatskiDržavniArhivHrvatskaKinoteka a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Hrvatski Državni Arhiv - Hrvatska Kinoteka"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:IfiIrishFilmArchive a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "IFI Irish Film Archive"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:ImperialWarMuseumsFilmArchive a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Imperial War Museums - Film Archive"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:IndianaUniversityLibrariesMovingImageArchive a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Indiana University Libraries Moving Image Archive"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:IsraelFilmArchive a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Israel Film Archive"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:JosonMinjujuiInmingonghwagukKuggaYonghwaMunhongo a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Joson Minjujui Inmingonghwaguk Kugga Yonghwa Munhongo"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:JugoslovenskaKinoteka a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Jugoslovenska Kinoteka"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:KansallinenAudiovisuaalinenInstituutti a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Kansallinen Audiovisuaalinen Instituutti"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:KinotekaNaRepublikaSevernaMakedonija a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Kinoteka na Republika Severna Makedonija"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:KoreanFilmArchive a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Korean Film Archive"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:KvikmyndasafnIslands a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Kvikmyndasafn Islands"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:LaCinetecaDelFriuli a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "La Cineteca del Friuli"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:LaCinémathèqueDeToulouse a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "La Cinémathèque de Toulouse"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:LaCinémathèqueQuébécoise a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "La Cinémathèque québécoise"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:LibraryAndArchivesCanada a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Library and Archives Canada"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:LibraryOfCongressNationalAudioVisualConservationCenterMbrsDivision a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Library of Congress - National Audio-Visual Conservation Center (MBRS DIVISION)"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:Lichtspiel a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Lichtspiel"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:MuseoNazionaleDelCinemaFondazioneMariaAdrianaProlo a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Museo Nazionale del Cinema - Fondazione Maria Adriana Prolo"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:NationalFilmAndSoundArchive a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "National Film and Sound Archive"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:NationalFilmArchiveOfIndia a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "National Film Archive of India"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:NationalFilmArchiveOfIran a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "National Film Archive of Iran"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:NationalFilmArchiveOfJapanNfaj a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "National Film Archive of Japan (NFAJ)"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:NationalFilmInstituteHungaryFilmArchive a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "National Film Institute Hungary – Film Archive"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:NationalLibraryOfScotlandMovingImageArchive a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "National Library of Scotland - Moving Image Archive"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:NationalLibraryOfWalesScreenAndSoundArchives a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "National Library of Wales - Screen and Sound Archives"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:NgaTaongaSoundVision a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "NGA Taonga Sound & Vision"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:NorthWestFilmArchive a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "North West Film Archive"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:NárodníFilmovýArchiv a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Národní filmový archiv"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:OleksandrDovzhenkoNationalCentre a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Oleksandr Dovzhenko National Centre"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:SinemaTvEnstitüsü a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Sinema-TV Enstitüsü"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:SlovakFilmInstitute a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Slovak Film Institute"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:SlovenianCinematheque a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Slovenian Cinematheque"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:SouthAfricanNationalFilmVideoAndSoundArchives a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "South African National Film, Video and Sound Archives"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:StevenSpielbergJewishFilmArchive a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Steven Spielberg Jewish Film Archive"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:SvenskaFilminstitutet a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Svenska Filminstitutet"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:TainiothikiTisEllados a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Tainiothiki Tis Ellados"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:TaiwanFilmAndAudiovisualInstitute a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Taiwan Film and Audiovisual Institute"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:TheDanishFilmInstitute a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "The Danish Film Institute"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:TheMuseumOfModernArtDepartmentOfFilm a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "The Museum of Modern Art - Department of Film"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:TheNationalLibraryOfNorwayFilmAndBroadcasting a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "The National Library of Norway - Film and Broadcasting"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:TiffFilmReferenceLibrary a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "TIFF Film Reference Library"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:UcBerkeleyArtMuseumPacificFilmArchiveBampfa a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "UC Berkeley Art Museum & Pacific Film Archive (BAMPFA)"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:UclaFilmTelevisionArchive a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "UCLA Film & Television Archive"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:VietnamFilmInstitute a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Vietnam Film Institute"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:ÖsterreichischesFilmmuseum a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Österreichisches Filmmuseum"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
