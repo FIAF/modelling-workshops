@@ -1,0 +1,1263 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix fiaf: <https://fiafcore.org/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Ontology
+
+<https://fiafcore.org/ontology/> a owl:Ontology ;
+    dc:title "FIAFcore" .
+
+# Class
+
+<https://fiafcore.org/ontology/Country> a owl:Class ;
+    rdfs:label "Country"@en ;
+    dc:source "FIAF Cataloguing Manual 1.3.3"^^xsd:string .
+
+# Subclasses
+
+<https://fiafcore.org/ontology/Afghanistan> a owl:Class ;
+    rdfs:label "Afghanistan"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Albania> a owl:Class ;
+    rdfs:label "Albania"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Algeria> a owl:Class ;
+    rdfs:label "Algeria"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/AmericanSamoa> a owl:Class ;
+    rdfs:label "American Samoa"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Andorra> a owl:Class ;
+    rdfs:label "Andorra"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Angola> a owl:Class ;
+    rdfs:label "Angola"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Anguilla> a owl:Class ;
+    rdfs:label "Anguilla"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Antarctica> a owl:Class ;
+    rdfs:label "Antarctica"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/AntiguaAndBarbuda> a owl:Class ;
+    rdfs:label "Antigua and Barbuda"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Argentina> a owl:Class ;
+    rdfs:label "Argentina"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Armenia> a owl:Class ;
+    rdfs:label "Armenia"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Aruba> a owl:Class ;
+    rdfs:label "Aruba"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Australia> a owl:Class ;
+    rdfs:label "Australia"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Austria> a owl:Class ;
+    rdfs:label "Austria"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Azerbaijan> a owl:Class ;
+    rdfs:label "Azerbaijan"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Bahamas> a owl:Class ;
+    rdfs:label "Bahamas"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Bahrain> a owl:Class ;
+    rdfs:label "Bahrain"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Bangladesh> a owl:Class ;
+    rdfs:label "Bangladesh"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Barbados> a owl:Class ;
+    rdfs:label "Barbados"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Belarus> a owl:Class ;
+    rdfs:label "Belarus"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Belgium> a owl:Class ;
+    rdfs:label "Belgium"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Belize> a owl:Class ;
+    rdfs:label "Belize"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Benin> a owl:Class ;
+    rdfs:label "Benin"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Bermuda> a owl:Class ;
+    rdfs:label "Bermuda"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Bhutan> a owl:Class ;
+    rdfs:label "Bhutan"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/BoliviaPlurinationalStateOf> a owl:Class ;
+    rdfs:label "Bolivia (Plurinational State of)"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/BonaireSintEustatiusAndSaba> a owl:Class ;
+    rdfs:label "Bonaire, Sint Eustatius and Saba"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/BosniaAndHerzegovina> a owl:Class ;
+    rdfs:label "Bosnia and Herzegovina"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Botswana> a owl:Class ;
+    rdfs:label "Botswana"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/BouvetIsland> a owl:Class ;
+    rdfs:label "Bouvet Island"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Brazil> a owl:Class ;
+    rdfs:label "Brazil"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/BritishIndianOceanTerritory> a owl:Class ;
+    rdfs:label "British Indian Ocean Territory"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/BruneiDarussalam> a owl:Class ;
+    rdfs:label "Brunei Darussalam"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Bulgaria> a owl:Class ;
+    rdfs:label "Bulgaria"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/BurkinaFaso> a owl:Class ;
+    rdfs:label "Burkina Faso"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Burundi> a owl:Class ;
+    rdfs:label "Burundi"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/CaboVerde> a owl:Class ;
+    rdfs:label "Cabo Verde"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Cambodia> a owl:Class ;
+    rdfs:label "Cambodia"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Cameroon> a owl:Class ;
+    rdfs:label "Cameroon"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Canada> a owl:Class ;
+    rdfs:label "Canada"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/CaymanIslands> a owl:Class ;
+    rdfs:label "Cayman Islands"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/CentralAfricanRepublic> a owl:Class ;
+    rdfs:label "Central African Republic"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Chad> a owl:Class ;
+    rdfs:label "Chad"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Chile> a owl:Class ;
+    rdfs:label "Chile"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/China> a owl:Class ;
+    rdfs:label "China"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/ChristmasIsland> a owl:Class ;
+    rdfs:label "Christmas Island"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/CocosKeelingIslands> a owl:Class ;
+    rdfs:label "Cocos (Keeling) Islands"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Colombia> a owl:Class ;
+    rdfs:label "Colombia"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Comoros> a owl:Class ;
+    rdfs:label "Comoros"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Congo> a owl:Class ;
+    rdfs:label "Congo"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/CongoDemocraticRepublicOfThe> a owl:Class ;
+    rdfs:label "Congo, Democratic Republic of the"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/CookIslands> a owl:Class ;
+    rdfs:label "Cook Islands"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/CostaRica> a owl:Class ;
+    rdfs:label "Costa Rica"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Croatia> a owl:Class ;
+    rdfs:label "Croatia"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Cuba> a owl:Class ;
+    rdfs:label "Cuba"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Curaçao> a owl:Class ;
+    rdfs:label "Curaçao"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Cyprus> a owl:Class ;
+    rdfs:label "Cyprus"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Czechia> a owl:Class ;
+    rdfs:label "Czechia"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/CôteD'Ivoire> a owl:Class ;
+    rdfs:label "Côte d'Ivoire"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Denmark> a owl:Class ;
+    rdfs:label "Denmark"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Djibouti> a owl:Class ;
+    rdfs:label "Djibouti"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Dominica> a owl:Class ;
+    rdfs:label "Dominica"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/DominicanRepublic> a owl:Class ;
+    rdfs:label "Dominican Republic"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Ecuador> a owl:Class ;
+    rdfs:label "Ecuador"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Egypt> a owl:Class ;
+    rdfs:label "Egypt"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/ElSalvador> a owl:Class ;
+    rdfs:label "El Salvador"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/EquatorialGuinea> a owl:Class ;
+    rdfs:label "Equatorial Guinea"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Eritrea> a owl:Class ;
+    rdfs:label "Eritrea"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Estonia> a owl:Class ;
+    rdfs:label "Estonia"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Eswatini> a owl:Class ;
+    rdfs:label "Eswatini"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Ethiopia> a owl:Class ;
+    rdfs:label "Ethiopia"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/FalklandIslandsMalvinas> a owl:Class ;
+    rdfs:label "Falkland Islands (Malvinas)"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/FaroeIslands> a owl:Class ;
+    rdfs:label "Faroe Islands"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Fiji> a owl:Class ;
+    rdfs:label "Fiji"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Finland> a owl:Class ;
+    rdfs:label "Finland"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/France> a owl:Class ;
+    rdfs:label "France"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/FrenchGuiana> a owl:Class ;
+    rdfs:label "French Guiana"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/FrenchPolynesia> a owl:Class ;
+    rdfs:label "French Polynesia"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/FrenchSouthernTerritories> a owl:Class ;
+    rdfs:label "French Southern Territories"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Gabon> a owl:Class ;
+    rdfs:label "Gabon"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Gambia> a owl:Class ;
+    rdfs:label "Gambia"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Georgia> a owl:Class ;
+    rdfs:label "Georgia"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Germany> a owl:Class ;
+    rdfs:label "Germany"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Ghana> a owl:Class ;
+    rdfs:label "Ghana"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Gibraltar> a owl:Class ;
+    rdfs:label "Gibraltar"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Greece> a owl:Class ;
+    rdfs:label "Greece"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Greenland> a owl:Class ;
+    rdfs:label "Greenland"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Grenada> a owl:Class ;
+    rdfs:label "Grenada"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Guadeloupe> a owl:Class ;
+    rdfs:label "Guadeloupe"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Guam> a owl:Class ;
+    rdfs:label "Guam"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Guatemala> a owl:Class ;
+    rdfs:label "Guatemala"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Guernsey> a owl:Class ;
+    rdfs:label "Guernsey"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Guinea> a owl:Class ;
+    rdfs:label "Guinea"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/GuineaBissau> a owl:Class ;
+    rdfs:label "Guinea-Bissau"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Guyana> a owl:Class ;
+    rdfs:label "Guyana"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Haiti> a owl:Class ;
+    rdfs:label "Haiti"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/HeardIslandAndMcdonaldIslands> a owl:Class ;
+    rdfs:label "Heard Island and McDonald Islands"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/HolySee> a owl:Class ;
+    rdfs:label "Holy See"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Honduras> a owl:Class ;
+    rdfs:label "Honduras"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/HongKong> a owl:Class ;
+    rdfs:label "Hong Kong"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Hungary> a owl:Class ;
+    rdfs:label "Hungary"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Iceland> a owl:Class ;
+    rdfs:label "Iceland"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/India> a owl:Class ;
+    rdfs:label "India"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Indonesia> a owl:Class ;
+    rdfs:label "Indonesia"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/IranIslamicRepublicOf> a owl:Class ;
+    rdfs:label "Iran (Islamic Republic of)"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Iraq> a owl:Class ;
+    rdfs:label "Iraq"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Ireland> a owl:Class ;
+    rdfs:label "Ireland"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/IsleOfMan> a owl:Class ;
+    rdfs:label "Isle of Man"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Israel> a owl:Class ;
+    rdfs:label "Israel"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Italy> a owl:Class ;
+    rdfs:label "Italy"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Jamaica> a owl:Class ;
+    rdfs:label "Jamaica"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Japan> a owl:Class ;
+    rdfs:label "Japan"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Jersey> a owl:Class ;
+    rdfs:label "Jersey"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Jordan> a owl:Class ;
+    rdfs:label "Jordan"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Kazakhstan> a owl:Class ;
+    rdfs:label "Kazakhstan"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Kenya> a owl:Class ;
+    rdfs:label "Kenya"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Kiribati> a owl:Class ;
+    rdfs:label "Kiribati"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/KoreaDemocraticPeople'SRepublicOf> a owl:Class ;
+    rdfs:label "Korea (Democratic People's Republic of)"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/KoreaRepublicOf> a owl:Class ;
+    rdfs:label "Korea, Republic of"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Kuwait> a owl:Class ;
+    rdfs:label "Kuwait"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Kyrgyzstan> a owl:Class ;
+    rdfs:label "Kyrgyzstan"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/LaoPeople'SDemocraticRepublic> a owl:Class ;
+    rdfs:label "Lao People's Democratic Republic"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Latvia> a owl:Class ;
+    rdfs:label "Latvia"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Lebanon> a owl:Class ;
+    rdfs:label "Lebanon"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Lesotho> a owl:Class ;
+    rdfs:label "Lesotho"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Liberia> a owl:Class ;
+    rdfs:label "Liberia"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Libya> a owl:Class ;
+    rdfs:label "Libya"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Liechtenstein> a owl:Class ;
+    rdfs:label "Liechtenstein"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Lithuania> a owl:Class ;
+    rdfs:label "Lithuania"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Luxembourg> a owl:Class ;
+    rdfs:label "Luxembourg"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Macao> a owl:Class ;
+    rdfs:label "Macao"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Madagascar> a owl:Class ;
+    rdfs:label "Madagascar"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Malawi> a owl:Class ;
+    rdfs:label "Malawi"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Malaysia> a owl:Class ;
+    rdfs:label "Malaysia"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Maldives> a owl:Class ;
+    rdfs:label "Maldives"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Mali> a owl:Class ;
+    rdfs:label "Mali"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Malta> a owl:Class ;
+    rdfs:label "Malta"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/MarshallIslands> a owl:Class ;
+    rdfs:label "Marshall Islands"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Martinique> a owl:Class ;
+    rdfs:label "Martinique"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Mauritania> a owl:Class ;
+    rdfs:label "Mauritania"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Mauritius> a owl:Class ;
+    rdfs:label "Mauritius"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Mayotte> a owl:Class ;
+    rdfs:label "Mayotte"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Mexico> a owl:Class ;
+    rdfs:label "Mexico"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/MicronesiaFederatedStatesOf> a owl:Class ;
+    rdfs:label "Micronesia (Federated States of)"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/MoldovaRepublicOf> a owl:Class ;
+    rdfs:label "Moldova, Republic of"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Monaco> a owl:Class ;
+    rdfs:label "Monaco"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Mongolia> a owl:Class ;
+    rdfs:label "Mongolia"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Montenegro> a owl:Class ;
+    rdfs:label "Montenegro"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Montserrat> a owl:Class ;
+    rdfs:label "Montserrat"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Morocco> a owl:Class ;
+    rdfs:label "Morocco"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Mozambique> a owl:Class ;
+    rdfs:label "Mozambique"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Myanmar> a owl:Class ;
+    rdfs:label "Myanmar"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Namibia> a owl:Class ;
+    rdfs:label "Namibia"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Nauru> a owl:Class ;
+    rdfs:label "Nauru"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Nepal> a owl:Class ;
+    rdfs:label "Nepal"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Netherlands> a owl:Class ;
+    rdfs:label "Netherlands"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/NewCaledonia> a owl:Class ;
+    rdfs:label "New Caledonia"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/NewZealand> a owl:Class ;
+    rdfs:label "New Zealand"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Nicaragua> a owl:Class ;
+    rdfs:label "Nicaragua"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Niger> a owl:Class ;
+    rdfs:label "Niger"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Nigeria> a owl:Class ;
+    rdfs:label "Nigeria"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Niue> a owl:Class ;
+    rdfs:label "Niue"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/NorfolkIsland> a owl:Class ;
+    rdfs:label "Norfolk Island"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/NorthMacedonia> a owl:Class ;
+    rdfs:label "North Macedonia"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/NorthernMarianaIslands> a owl:Class ;
+    rdfs:label "Northern Mariana Islands"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Norway> a owl:Class ;
+    rdfs:label "Norway"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Oman> a owl:Class ;
+    rdfs:label "Oman"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Pakistan> a owl:Class ;
+    rdfs:label "Pakistan"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Palau> a owl:Class ;
+    rdfs:label "Palau"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/PalestineStateOf> a owl:Class ;
+    rdfs:label "Palestine, State of"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Panama> a owl:Class ;
+    rdfs:label "Panama"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/PapuaNewGuinea> a owl:Class ;
+    rdfs:label "Papua New Guinea"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Paraguay> a owl:Class ;
+    rdfs:label "Paraguay"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Peru> a owl:Class ;
+    rdfs:label "Peru"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Philippines> a owl:Class ;
+    rdfs:label "Philippines"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Pitcairn> a owl:Class ;
+    rdfs:label "Pitcairn"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Poland> a owl:Class ;
+    rdfs:label "Poland"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Portugal> a owl:Class ;
+    rdfs:label "Portugal"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/PuertoRico> a owl:Class ;
+    rdfs:label "Puerto Rico"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Qatar> a owl:Class ;
+    rdfs:label "Qatar"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Romania> a owl:Class ;
+    rdfs:label "Romania"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/RussianFederation> a owl:Class ;
+    rdfs:label "Russian Federation"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Rwanda> a owl:Class ;
+    rdfs:label "Rwanda"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Réunion> a owl:Class ;
+    rdfs:label "Réunion"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/SaintBarthélemy> a owl:Class ;
+    rdfs:label "Saint Barthélemy"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/SaintHelenaAscensionAndTristanDaCunha> a owl:Class ;
+    rdfs:label "Saint Helena, Ascension and Tristan da Cunha"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/SaintKittsAndNevis> a owl:Class ;
+    rdfs:label "Saint Kitts and Nevis"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/SaintLucia> a owl:Class ;
+    rdfs:label "Saint Lucia"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/SaintMartinFrenchPart> a owl:Class ;
+    rdfs:label "Saint Martin (French part)"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/SaintPierreAndMiquelon> a owl:Class ;
+    rdfs:label "Saint Pierre and Miquelon"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/SaintVincentAndTheGrenadines> a owl:Class ;
+    rdfs:label "Saint Vincent and the Grenadines"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Samoa> a owl:Class ;
+    rdfs:label "Samoa"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/SanMarino> a owl:Class ;
+    rdfs:label "San Marino"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/SaoTomeAndPrincipe> a owl:Class ;
+    rdfs:label "Sao Tome and Principe"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/SaudiArabia> a owl:Class ;
+    rdfs:label "Saudi Arabia"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Senegal> a owl:Class ;
+    rdfs:label "Senegal"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Serbia> a owl:Class ;
+    rdfs:label "Serbia"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Seychelles> a owl:Class ;
+    rdfs:label "Seychelles"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/SierraLeone> a owl:Class ;
+    rdfs:label "Sierra Leone"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Singapore> a owl:Class ;
+    rdfs:label "Singapore"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/SintMaartenDutchPart> a owl:Class ;
+    rdfs:label "Sint Maarten (Dutch part)"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Slovakia> a owl:Class ;
+    rdfs:label "Slovakia"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Slovenia> a owl:Class ;
+    rdfs:label "Slovenia"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/SolomonIslands> a owl:Class ;
+    rdfs:label "Solomon Islands"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Somalia> a owl:Class ;
+    rdfs:label "Somalia"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/SouthAfrica> a owl:Class ;
+    rdfs:label "South Africa"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/SouthGeorgiaAndTheSouthSandwichIslands> a owl:Class ;
+    rdfs:label "South Georgia and the South Sandwich Islands"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/SouthSudan> a owl:Class ;
+    rdfs:label "South Sudan"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Spain> a owl:Class ;
+    rdfs:label "Spain"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/SriLanka> a owl:Class ;
+    rdfs:label "Sri Lanka"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Sudan> a owl:Class ;
+    rdfs:label "Sudan"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Suriname> a owl:Class ;
+    rdfs:label "Suriname"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/SvalbardAndJanMayen> a owl:Class ;
+    rdfs:label "Svalbard and Jan Mayen"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Sweden> a owl:Class ;
+    rdfs:label "Sweden"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Switzerland> a owl:Class ;
+    rdfs:label "Switzerland"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/SyrianArabRepublic> a owl:Class ;
+    rdfs:label "Syrian Arab Republic"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/TaiwanProvinceOfChina> a owl:Class ;
+    rdfs:label "Taiwan, Province of China"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Tajikistan> a owl:Class ;
+    rdfs:label "Tajikistan"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/TanzaniaUnitedRepublicOf> a owl:Class ;
+    rdfs:label "Tanzania, United Republic of"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Thailand> a owl:Class ;
+    rdfs:label "Thailand"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/TimorLeste> a owl:Class ;
+    rdfs:label "Timor-Leste"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Togo> a owl:Class ;
+    rdfs:label "Togo"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Tokelau> a owl:Class ;
+    rdfs:label "Tokelau"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Tonga> a owl:Class ;
+    rdfs:label "Tonga"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/TrinidadAndTobago> a owl:Class ;
+    rdfs:label "Trinidad and Tobago"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Tunisia> a owl:Class ;
+    rdfs:label "Tunisia"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Turkey> a owl:Class ;
+    rdfs:label "Turkey"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Turkmenistan> a owl:Class ;
+    rdfs:label "Turkmenistan"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/TurksAndCaicosIslands> a owl:Class ;
+    rdfs:label "Turks and Caicos Islands"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Tuvalu> a owl:Class ;
+    rdfs:label "Tuvalu"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Uganda> a owl:Class ;
+    rdfs:label "Uganda"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Ukraine> a owl:Class ;
+    rdfs:label "Ukraine"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/UnitedArabEmirates> a owl:Class ;
+    rdfs:label "United Arab Emirates"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/UnitedKingdomOfGreatBritainAndNorthernIreland> a owl:Class ;
+    rdfs:label "United Kingdom of Great Britain and Northern Ireland"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/UnitedStatesMinorOutlyingIslands> a owl:Class ;
+    rdfs:label "United States Minor Outlying Islands"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/UnitedStatesOfAmerica> a owl:Class ;
+    rdfs:label "United States of America"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Uruguay> a owl:Class ;
+    rdfs:label "Uruguay"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Uzbekistan> a owl:Class ;
+    rdfs:label "Uzbekistan"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Vanuatu> a owl:Class ;
+    rdfs:label "Vanuatu"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/VenezuelaBolivarianRepublicOf> a owl:Class ;
+    rdfs:label "Venezuela (Bolivarian Republic of)"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/VietNam> a owl:Class ;
+    rdfs:label "Viet Nam"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/VirginIslandsBritish> a owl:Class ;
+    rdfs:label "Virgin Islands (British)"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/VirginIslandsU.S.> a owl:Class ;
+    rdfs:label "Virgin Islands (U.S.)"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/WallisAndFutuna> a owl:Class ;
+    rdfs:label "Wallis and Futuna"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/WesternSahara> a owl:Class ;
+    rdfs:label "Western Sahara"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Yemen> a owl:Class ;
+    rdfs:label "Yemen"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Zambia> a owl:Class ;
+    rdfs:label "Zambia"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/Zimbabwe> a owl:Class ;
+    rdfs:label "Zimbabwe"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
+
+<https://fiafcore.org/ontology/ÅlandIslands> a owl:Class ;
+    rdfs:label "Åland Islands"@en ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Country> .
