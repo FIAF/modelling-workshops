@@ -1,0 +1,938 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix fiaf: <https://fiafcore.org/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Ontology
+
+<https://fiafcore.org/ontology/> a owl:Ontology ;
+    dc:title "FIAFcore" .
+
+# Class
+
+<https://fiafcore.org/ontology/Language> a owl:Class ;
+    rdfs:label "Language"@en ;
+    dc:source "FIAF Cataloguing Manual 2.3.3"^^xsd:string .
+
+# Subclasses
+
+<https://fiafcore.org/ontology/Abkhazian> a owl:Class ;
+    rdfs:label "Abkhazian"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Afar> a owl:Class ;
+    rdfs:label "Afar"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Afrikaans> a owl:Class ;
+    rdfs:label "Afrikaans"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Akan> a owl:Class ;
+    rdfs:label "Akan"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Albanian> a owl:Class ;
+    rdfs:label "Albanian"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Amharic> a owl:Class ;
+    rdfs:label "Amharic"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Arabic> a owl:Class ;
+    rdfs:label "Arabic"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Aragonese> a owl:Class ;
+    rdfs:label "Aragonese"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Armenian> a owl:Class ;
+    rdfs:label "Armenian"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Assamese> a owl:Class ;
+    rdfs:label "Assamese"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Avaric> a owl:Class ;
+    rdfs:label "Avaric"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Avestan> a owl:Class ;
+    rdfs:label "Avestan"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Aymara> a owl:Class ;
+    rdfs:label "Aymara"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Azerbaijani> a owl:Class ;
+    rdfs:label "Azerbaijani"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Bambara> a owl:Class ;
+    rdfs:label "Bambara"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Bashkir> a owl:Class ;
+    rdfs:label "Bashkir"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Basque> a owl:Class ;
+    rdfs:label "Basque"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Belarusian> a owl:Class ;
+    rdfs:label "Belarusian"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Bengali> a owl:Class ;
+    rdfs:label "Bengali"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/BihariLanguages> a owl:Class ;
+    rdfs:label "Bihari languages"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Bislama> a owl:Class ;
+    rdfs:label "Bislama"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/BokmålNorwegianNorwegianBokmål> a owl:Class ;
+    rdfs:label "Bokmål, Norwegian; Norwegian Bokmål"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Bosnian> a owl:Class ;
+    rdfs:label "Bosnian"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Breton> a owl:Class ;
+    rdfs:label "Breton"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Bulgarian> a owl:Class ;
+    rdfs:label "Bulgarian"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Burmese> a owl:Class ;
+    rdfs:label "Burmese"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/CatalanValencian> a owl:Class ;
+    rdfs:label "Catalan; Valencian"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/CentralKhmer> a owl:Class ;
+    rdfs:label "Central Khmer"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Chamorro> a owl:Class ;
+    rdfs:label "Chamorro"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Chechen> a owl:Class ;
+    rdfs:label "Chechen"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/ChichewaChewaNyanja> a owl:Class ;
+    rdfs:label "Chichewa; Chewa; Nyanja"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Chinese> a owl:Class ;
+    rdfs:label "Chinese"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/ChurchSlavicOldSlavonicChurchSlavonicOldBulgarianOldChurchSlavonic> a owl:Class ;
+    rdfs:label "Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Chuvash> a owl:Class ;
+    rdfs:label "Chuvash"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Cornish> a owl:Class ;
+    rdfs:label "Cornish"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Corsican> a owl:Class ;
+    rdfs:label "Corsican"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Cree> a owl:Class ;
+    rdfs:label "Cree"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Croatian> a owl:Class ;
+    rdfs:label "Croatian"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Czech> a owl:Class ;
+    rdfs:label "Czech"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Danish> a owl:Class ;
+    rdfs:label "Danish"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/DivehiDhivehiMaldivian> a owl:Class ;
+    rdfs:label "Divehi; Dhivehi; Maldivian"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/DutchFlemish> a owl:Class ;
+    rdfs:label "Dutch; Flemish"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Dzongkha> a owl:Class ;
+    rdfs:label "Dzongkha"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/English> a owl:Class ;
+    rdfs:label "English"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Esperanto> a owl:Class ;
+    rdfs:label "Esperanto"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Estonian> a owl:Class ;
+    rdfs:label "Estonian"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Ewe> a owl:Class ;
+    rdfs:label "Ewe"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Faroese> a owl:Class ;
+    rdfs:label "Faroese"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Fijian> a owl:Class ;
+    rdfs:label "Fijian"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Finnish> a owl:Class ;
+    rdfs:label "Finnish"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/French> a owl:Class ;
+    rdfs:label "French"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Fulah> a owl:Class ;
+    rdfs:label "Fulah"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/GaelicScottishGaelic> a owl:Class ;
+    rdfs:label "Gaelic; Scottish Gaelic"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Galician> a owl:Class ;
+    rdfs:label "Galician"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Ganda> a owl:Class ;
+    rdfs:label "Ganda"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Georgian> a owl:Class ;
+    rdfs:label "Georgian"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/German> a owl:Class ;
+    rdfs:label "German"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/GreekModern1453> a owl:Class ;
+    rdfs:label "Greek, Modern (1453-)"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Guarani> a owl:Class ;
+    rdfs:label "Guarani"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Gujarati> a owl:Class ;
+    rdfs:label "Gujarati"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/HaitianHaitianCreole> a owl:Class ;
+    rdfs:label "Haitian; Haitian Creole"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Hausa> a owl:Class ;
+    rdfs:label "Hausa"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Hebrew> a owl:Class ;
+    rdfs:label "Hebrew"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Herero> a owl:Class ;
+    rdfs:label "Herero"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Hindi> a owl:Class ;
+    rdfs:label "Hindi"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/HiriMotu> a owl:Class ;
+    rdfs:label "Hiri Motu"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Hungarian> a owl:Class ;
+    rdfs:label "Hungarian"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Icelandic> a owl:Class ;
+    rdfs:label "Icelandic"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Ido> a owl:Class ;
+    rdfs:label "Ido"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Igbo> a owl:Class ;
+    rdfs:label "Igbo"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Indonesian> a owl:Class ;
+    rdfs:label "Indonesian"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/InterlinguaInternationalAuxiliaryLanguageAssociation> a owl:Class ;
+    rdfs:label "Interlingua (International Auxiliary Language Association)"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/InterlingueOccidental> a owl:Class ;
+    rdfs:label "Interlingue; Occidental"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Inuktitut> a owl:Class ;
+    rdfs:label "Inuktitut"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Inupiaq> a owl:Class ;
+    rdfs:label "Inupiaq"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Irish> a owl:Class ;
+    rdfs:label "Irish"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Italian> a owl:Class ;
+    rdfs:label "Italian"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Japanese> a owl:Class ;
+    rdfs:label "Japanese"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Javanese> a owl:Class ;
+    rdfs:label "Javanese"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/KalaallisutGreenlandic> a owl:Class ;
+    rdfs:label "Kalaallisut; Greenlandic"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Kannada> a owl:Class ;
+    rdfs:label "Kannada"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Kanuri> a owl:Class ;
+    rdfs:label "Kanuri"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Kashmiri> a owl:Class ;
+    rdfs:label "Kashmiri"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Kazakh> a owl:Class ;
+    rdfs:label "Kazakh"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/KikuyuGikuyu> a owl:Class ;
+    rdfs:label "Kikuyu; Gikuyu"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Kinyarwanda> a owl:Class ;
+    rdfs:label "Kinyarwanda"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/KirghizKyrgyz> a owl:Class ;
+    rdfs:label "Kirghiz; Kyrgyz"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Komi> a owl:Class ;
+    rdfs:label "Komi"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Kongo> a owl:Class ;
+    rdfs:label "Kongo"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Korean> a owl:Class ;
+    rdfs:label "Korean"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/KuanyamaKwanyama> a owl:Class ;
+    rdfs:label "Kuanyama; Kwanyama"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Kurdish> a owl:Class ;
+    rdfs:label "Kurdish"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Lao> a owl:Class ;
+    rdfs:label "Lao"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Latin> a owl:Class ;
+    rdfs:label "Latin"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Latvian> a owl:Class ;
+    rdfs:label "Latvian"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/LimburganLimburgerLimburgish> a owl:Class ;
+    rdfs:label "Limburgan; Limburger; Limburgish"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Lingala> a owl:Class ;
+    rdfs:label "Lingala"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Lithuanian> a owl:Class ;
+    rdfs:label "Lithuanian"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/LubaKatanga> a owl:Class ;
+    rdfs:label "Luba-Katanga"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/LuxembourgishLetzeburgesch> a owl:Class ;
+    rdfs:label "Luxembourgish; Letzeburgesch"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Macedonian> a owl:Class ;
+    rdfs:label "Macedonian"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Malagasy> a owl:Class ;
+    rdfs:label "Malagasy"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Malay> a owl:Class ;
+    rdfs:label "Malay"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Malayalam> a owl:Class ;
+    rdfs:label "Malayalam"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Maltese> a owl:Class ;
+    rdfs:label "Maltese"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Manx> a owl:Class ;
+    rdfs:label "Manx"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Maori> a owl:Class ;
+    rdfs:label "Maori"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Marathi> a owl:Class ;
+    rdfs:label "Marathi"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Marshallese> a owl:Class ;
+    rdfs:label "Marshallese"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Mongolian> a owl:Class ;
+    rdfs:label "Mongolian"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Nauru> a owl:Class ;
+    rdfs:label "Nauru"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/NavajoNavaho> a owl:Class ;
+    rdfs:label "Navajo; Navaho"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/NdebeleNorthNorthNdebele> a owl:Class ;
+    rdfs:label "Ndebele, North; North Ndebele"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/NdebeleSouthSouthNdebele> a owl:Class ;
+    rdfs:label "Ndebele, South; South Ndebele"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Ndonga> a owl:Class ;
+    rdfs:label "Ndonga"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Nepali> a owl:Class ;
+    rdfs:label "Nepali"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/NorthernSami> a owl:Class ;
+    rdfs:label "Northern Sami"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Norwegian> a owl:Class ;
+    rdfs:label "Norwegian"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/NorwegianNynorskNynorskNorwegian> a owl:Class ;
+    rdfs:label "Norwegian Nynorsk; Nynorsk, Norwegian"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/OccitanPost1500Provençal> a owl:Class ;
+    rdfs:label "Occitan (post 1500); Provençal"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Ojibwa> a owl:Class ;
+    rdfs:label "Ojibwa"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Oriya> a owl:Class ;
+    rdfs:label "Oriya"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Oromo> a owl:Class ;
+    rdfs:label "Oromo"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/OssetianOssetic> a owl:Class ;
+    rdfs:label "Ossetian; Ossetic"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Pali> a owl:Class ;
+    rdfs:label "Pali"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/PanjabiPunjabi> a owl:Class ;
+    rdfs:label "Panjabi; Punjabi"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Persian> a owl:Class ;
+    rdfs:label "Persian"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Polish> a owl:Class ;
+    rdfs:label "Polish"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Portuguese> a owl:Class ;
+    rdfs:label "Portuguese"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/PushtoPashto> a owl:Class ;
+    rdfs:label "Pushto; Pashto"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Quechua> a owl:Class ;
+    rdfs:label "Quechua"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/RomanianMoldavianMoldovan> a owl:Class ;
+    rdfs:label "Romanian; Moldavian; Moldovan"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Romansh> a owl:Class ;
+    rdfs:label "Romansh"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Rundi> a owl:Class ;
+    rdfs:label "Rundi"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Russian> a owl:Class ;
+    rdfs:label "Russian"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Samoan> a owl:Class ;
+    rdfs:label "Samoan"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Sango> a owl:Class ;
+    rdfs:label "Sango"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Sanskrit> a owl:Class ;
+    rdfs:label "Sanskrit"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Sardinian> a owl:Class ;
+    rdfs:label "Sardinian"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Serbian> a owl:Class ;
+    rdfs:label "Serbian"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Shona> a owl:Class ;
+    rdfs:label "Shona"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/SichuanYiNuosu> a owl:Class ;
+    rdfs:label "Sichuan Yi; Nuosu"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Sindhi> a owl:Class ;
+    rdfs:label "Sindhi"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/SinhalaSinhalese> a owl:Class ;
+    rdfs:label "Sinhala; Sinhalese"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Slovak> a owl:Class ;
+    rdfs:label "Slovak"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Slovenian> a owl:Class ;
+    rdfs:label "Slovenian"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Somali> a owl:Class ;
+    rdfs:label "Somali"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/SothoSouthern> a owl:Class ;
+    rdfs:label "Sotho, Southern"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/SpanishCastilian> a owl:Class ;
+    rdfs:label "Spanish; Castilian"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Sundanese> a owl:Class ;
+    rdfs:label "Sundanese"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Swahili> a owl:Class ;
+    rdfs:label "Swahili"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Swati> a owl:Class ;
+    rdfs:label "Swati"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Swedish> a owl:Class ;
+    rdfs:label "Swedish"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Tagalog> a owl:Class ;
+    rdfs:label "Tagalog"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Tahitian> a owl:Class ;
+    rdfs:label "Tahitian"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Tajik> a owl:Class ;
+    rdfs:label "Tajik"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Tamil> a owl:Class ;
+    rdfs:label "Tamil"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Tatar> a owl:Class ;
+    rdfs:label "Tatar"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Telugu> a owl:Class ;
+    rdfs:label "Telugu"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Thai> a owl:Class ;
+    rdfs:label "Thai"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Tibetan> a owl:Class ;
+    rdfs:label "Tibetan"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Tigrinya> a owl:Class ;
+    rdfs:label "Tigrinya"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/TongaTongaIslands> a owl:Class ;
+    rdfs:label "Tonga (Tonga Islands)"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Tsonga> a owl:Class ;
+    rdfs:label "Tsonga"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Tswana> a owl:Class ;
+    rdfs:label "Tswana"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Turkish> a owl:Class ;
+    rdfs:label "Turkish"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Turkmen> a owl:Class ;
+    rdfs:label "Turkmen"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Twi> a owl:Class ;
+    rdfs:label "Twi"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/UighurUyghur> a owl:Class ;
+    rdfs:label "Uighur; Uyghur"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Ukrainian> a owl:Class ;
+    rdfs:label "Ukrainian"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Urdu> a owl:Class ;
+    rdfs:label "Urdu"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Uzbek> a owl:Class ;
+    rdfs:label "Uzbek"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Venda> a owl:Class ;
+    rdfs:label "Venda"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Vietnamese> a owl:Class ;
+    rdfs:label "Vietnamese"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Volapük> a owl:Class ;
+    rdfs:label "Volapük"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Walloon> a owl:Class ;
+    rdfs:label "Walloon"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Welsh> a owl:Class ;
+    rdfs:label "Welsh"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/WesternFrisian> a owl:Class ;
+    rdfs:label "Western Frisian"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Wolof> a owl:Class ;
+    rdfs:label "Wolof"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Xhosa> a owl:Class ;
+    rdfs:label "Xhosa"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Yiddish> a owl:Class ;
+    rdfs:label "Yiddish"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Yoruba> a owl:Class ;
+    rdfs:label "Yoruba"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/ZhuangChuang> a owl:Class ;
+    rdfs:label "Zhuang; Chuang"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
+
+<https://fiafcore.org/ontology/Zulu> a owl:Class ;
+    rdfs:label "Zulu"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
