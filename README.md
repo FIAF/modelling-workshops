@@ -341,6 +341,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Afghanistan   
+> **iri** https://fiafcore.org/ontology/Afghanistan   
+**label** Afghanistan   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Afrikaans   
 > **iri** https://fiafcore.org/ontology/Afrikaans   
 **label** Afrikaans   
@@ -412,12 +418,24 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Albania   
+> **iri** https://fiafcore.org/ontology/Albania   
+**label** Albania   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Albanian   
 > **iri** https://fiafcore.org/ontology/Albanian   
 **label** Albanian   
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Algeria   
+> **iri** https://fiafcore.org/ontology/Algeria   
+**label** Algeria   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Alternative Title   
 > **iri** https://fiafcore.org/ontology/AlternativeTitle   
 **label** Alternative Title   
@@ -430,6 +448,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms D.1.9   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Form](https://fiafcore.org/ontology/Form)   
+####  American Samoa   
+> **iri** https://fiafcore.org/ontology/AmericanSamoa   
+**label** American Samoa   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Amharic   
 > **iri** https://fiafcore.org/ontology/Amharic   
 **label** Amharic   
@@ -460,6 +484,24 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.15   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ImageFormat](https://fiafcore.org/ontology/ImageFormat)   
+####  Andorra   
+> **iri** https://fiafcore.org/ontology/Andorra   
+**label** Andorra   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Angola   
+> **iri** https://fiafcore.org/ontology/Angola   
+**label** Angola   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Anguilla   
+> **iri** https://fiafcore.org/ontology/Anguilla   
+**label** Anguilla   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Animal Trainer   
 > **iri** https://fiafcore.org/ontology/AnimalTrainer   
 **label** Animal Trainer   
@@ -508,6 +550,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.12   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
+####  Antarctica   
+> **iri** https://fiafcore.org/ontology/Antarctica   
+**label** Antarctica   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Antigua and Barbuda   
+> **iri** https://fiafcore.org/ontology/AntiguaAndBarbuda   
+**label** Antigua and Barbuda   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Arabic   
 > **iri** https://fiafcore.org/ontology/Arabic   
 **label** Arabic   
@@ -520,6 +574,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Argentina   
+> **iri** https://fiafcore.org/ontology/Argentina   
+**label** Argentina   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Armenia   
+> **iri** https://fiafcore.org/ontology/Armenia   
+**label** Armenia   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Armenian   
 > **iri** https://fiafcore.org/ontology/Armenian   
 **label** Armenian   
@@ -538,6 +604,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.6.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProductionDesignActivity](https://fiafcore.org/ontology/ProductionDesignActivity)   
+####  Aruba   
+> **iri** https://fiafcore.org/ontology/Aruba   
+**label** Aruba   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Assamese   
 > **iri** https://fiafcore.org/ontology/Assamese   
 **label** Assamese   
@@ -603,6 +675,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:VariantType](https://fiafcore.org/ontology/VariantType)   
+####  Australia   
+> **iri** https://fiafcore.org/ontology/Australia   
+**label** Australia   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Austria   
+> **iri** https://fiafcore.org/ontology/Austria   
+**label** Austria   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Avaric   
 > **iri** https://fiafcore.org/ontology/Avaric   
 **label** Avaric   
@@ -627,18 +711,48 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Azerbaijan   
+> **iri** https://fiafcore.org/ontology/Azerbaijan   
+**label** Azerbaijan   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Azerbaijani   
 > **iri** https://fiafcore.org/ontology/Azerbaijani   
 **label** Azerbaijani   
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Bahamas   
+> **iri** https://fiafcore.org/ontology/Bahamas   
+**label** Bahamas   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Bahrain   
+> **iri** https://fiafcore.org/ontology/Bahrain   
+**label** Bahrain   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Bambara   
 > **iri** https://fiafcore.org/ontology/Bambara   
 **label** Bambara   
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Bangladesh   
+> **iri** https://fiafcore.org/ontology/Bangladesh   
+**label** Bangladesh   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Barbados   
+> **iri** https://fiafcore.org/ontology/Barbados   
+**label** Barbados   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Base   
 > **iri** https://fiafcore.org/ontology/Base   
 **label** Base   
@@ -680,18 +794,48 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Belarus   
+> **iri** https://fiafcore.org/ontology/Belarus   
+**label** Belarus   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Belarusian   
 > **iri** https://fiafcore.org/ontology/Belarusian   
 **label** Belarusian   
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Belgium   
+> **iri** https://fiafcore.org/ontology/Belgium   
+**label** Belgium   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Belize   
+> **iri** https://fiafcore.org/ontology/Belize   
+**label** Belize   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Bengali   
 > **iri** https://fiafcore.org/ontology/Bengali   
 **label** Bengali   
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Benin   
+> **iri** https://fiafcore.org/ontology/Benin   
+**label** Benin   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Bermuda   
+> **iri** https://fiafcore.org/ontology/Bermuda   
+**label** Bermuda   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Assistant Chief Lighting Technician, Best Boy, Best Boy Electric   
 > **iri** https://fiafcore.org/ontology/BestBoy   
 **label** Assistant Chief Lighting Technician, Best Boy, Best Boy Electric   
@@ -704,6 +848,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Video](https://fiafcore.org/ontology/Video)   
+####  Bhutan   
+> **iri** https://fiafcore.org/ontology/Bhutan   
+**label** Bhutan   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Bihari languages   
 > **iri** https://fiafcore.org/ontology/BihariLanguages   
 **label** Bihari languages   
@@ -763,18 +913,54 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Bolivia (Plurinational State of)   
+> **iri** https://fiafcore.org/ontology/BoliviaPlurinationalStateOf   
+**label** Bolivia (Plurinational State of)   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Bonaire, Sint Eustatius and Saba   
+> **iri** https://fiafcore.org/ontology/BonaireSintEustatiusAndSaba   
+**label** Bonaire, Sint Eustatius and Saba   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Boom Operator   
 > **iri** https://fiafcore.org/ontology/BoomOperator   
 **label** Boom Operator   
 **source** FIAF Glossary of Filmographic Terms B.9.4   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:SoundActivity](https://fiafcore.org/ontology/SoundActivity)   
+####  Bosnia and Herzegovina   
+> **iri** https://fiafcore.org/ontology/BosniaAndHerzegovina   
+**label** Bosnia and Herzegovina   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Bosnian   
 > **iri** https://fiafcore.org/ontology/Bosnian   
 **label** Bosnian   
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Botswana   
+> **iri** https://fiafcore.org/ontology/Botswana   
+**label** Botswana   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Bouvet Island   
+> **iri** https://fiafcore.org/ontology/BouvetIsland   
+**label** Bouvet Island   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Brazil   
+> **iri** https://fiafcore.org/ontology/Brazil   
+**label** Brazil   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Breton   
 > **iri** https://fiafcore.org/ontology/Breton   
 **label** Breton   
@@ -787,6 +973,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  British Indian Ocean Territory   
+> **iri** https://fiafcore.org/ontology/BritishIndianOceanTerritory   
+**label** British Indian Ocean Territory   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Brittle   
 > **iri** https://fiafcore.org/ontology/Brittle   
 **label** Brittle   
@@ -816,36 +1008,84 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.8.3   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ManifestationActivity](https://fiafcore.org/ontology/ManifestationActivity)   
+####  Brunei Darussalam   
+> **iri** https://fiafcore.org/ontology/BruneiDarussalam   
+**label** Brunei Darussalam   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Buckled   
 > **iri** https://fiafcore.org/ontology/Buckled   
 **label** Buckled   
 **source** FIAF Cataloguing Manual D.16.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:BaseEmulsionCondition](https://fiafcore.org/ontology/BaseEmulsionCondition)   
+####  Bulgaria   
+> **iri** https://fiafcore.org/ontology/Bulgaria   
+**label** Bulgaria   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Bulgarian   
 > **iri** https://fiafcore.org/ontology/Bulgarian   
 **label** Bulgarian   
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Burkina Faso   
+> **iri** https://fiafcore.org/ontology/BurkinaFaso   
+**label** Burkina Faso   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Burmese   
 > **iri** https://fiafcore.org/ontology/Burmese   
 **label** Burmese   
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Burundi   
+> **iri** https://fiafcore.org/ontology/Burundi   
+**label** Burundi   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  CD   
 > **iri** https://fiafcore.org/ontology/CD   
 **label** CD   
 **source** FIAF Cataloguing Manual D.7.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Optical](https://fiafcore.org/ontology/Optical)   
+####  Cabo Verde   
+> **iri** https://fiafcore.org/ontology/CaboVerde   
+**label** Cabo Verde   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Cambodia   
+> **iri** https://fiafcore.org/ontology/Cambodia   
+**label** Cambodia   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Camera, Camera Operator, Cameraman   
 > **iri** https://fiafcore.org/ontology/CameraOperator   
 **label** Camera, Camera Operator, Cameraman   
 **source** FIAF Glossary of Filmographic Terms B.5.3   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CinematographyActivity](https://fiafcore.org/ontology/CinematographyActivity)   
+####  Cameroon   
+> **iri** https://fiafcore.org/ontology/Cameroon   
+**label** Cameroon   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Canada   
+> **iri** https://fiafcore.org/ontology/Canada   
+**label** Canada   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Captions   
 > **iri** https://fiafcore.org/ontology/Captions   
 **label** Captions   
@@ -898,6 +1138,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Cayman Islands   
+> **iri** https://fiafcore.org/ontology/CaymanIslands   
+**label** Cayman Islands   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Censored   
 > **iri** https://fiafcore.org/ontology/Censored   
 **label** Censored   
@@ -922,12 +1168,24 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.13   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:DecisionEvent](https://fiafcore.org/ontology/DecisionEvent)   
+####  Central African Republic   
+> **iri** https://fiafcore.org/ontology/CentralAfricanRepublic   
+**label** Central African Republic   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Central Khmer   
 > **iri** https://fiafcore.org/ontology/CentralKhmer   
 **label** Central Khmer   
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Chad   
+> **iri** https://fiafcore.org/ontology/Chad   
+**label** Chad   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Chamorro   
 > **iri** https://fiafcore.org/ontology/Chamorro   
 **label** Chamorro   
@@ -958,6 +1216,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.5.11   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CinematographyActivity](https://fiafcore.org/ontology/CinematographyActivity)   
+####  Chile   
+> **iri** https://fiafcore.org/ontology/Chile   
+**label** Chile   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  China   
+> **iri** https://fiafcore.org/ontology/China   
+**label** China   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Chinese   
 > **iri** https://fiafcore.org/ontology/Chinese   
 **label** Chinese   
@@ -970,6 +1240,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.11.15   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:MusicActivity](https://fiafcore.org/ontology/MusicActivity)   
+####  Christmas Island   
+> **iri** https://fiafcore.org/ontology/ChristmasIsland   
+**label** Christmas Island   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic   
 > **iri** https://fiafcore.org/ontology/ChurchSlavicOldSlavonicChurchSlavonicOldBulgarianOldChurchSlavonic   
 **label** Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church Slavonic   
@@ -1000,6 +1276,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.13.15   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:AnimationActivity](https://fiafcore.org/ontology/AnimationActivity)   
+####  Cocos (Keeling) Islands   
+> **iri** https://fiafcore.org/ontology/CocosKeelingIslands   
+**label** Cocos (Keeling) Islands   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Codec   
 > **iri** https://fiafcore.org/ontology/Codec   
 **label** Codec   
@@ -1011,6 +1293,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:WorkVariant](https://fiafcore.org/ontology/WorkVariant)   
+####  Colombia   
+> **iri** https://fiafcore.org/ontology/Colombia   
+**label** Colombia   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Color Consultant   
 > **iri** https://fiafcore.org/ontology/ColorConsultant   
 **label** Color Consultant   
@@ -1081,6 +1369,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.13   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:SoundSystem](https://fiafcore.org/ontology/SoundSystem)   
+####  Comoros   
+> **iri** https://fiafcore.org/ontology/Comoros   
+**label** Comoros   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Compilation   
 > **iri** https://fiafcore.org/ontology/Compilation   
 **label** Compilation   
@@ -1104,12 +1398,30 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Condition   
 **source** FIAF Cataloguing Manual 3.1.6.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+####  Congo   
+> **iri** https://fiafcore.org/ontology/Congo   
+**label** Congo   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Congo, Democratic Republic of the   
+> **iri** https://fiafcore.org/ontology/CongoDemocraticRepublicOfThe   
+**label** Congo, Democratic Republic of the   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Construction Coordinator, Construction Manager   
 > **iri** https://fiafcore.org/ontology/ConstructionCoordinator   
 **label** Construction Coordinator, Construction Manager   
 **source** FIAF Glossary of Filmographic Terms B.6.8   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProductionDesignActivity](https://fiafcore.org/ontology/ProductionDesignActivity)   
+####  Cook Islands   
+> **iri** https://fiafcore.org/ontology/CookIslands   
+**label** Cook Islands   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Cooperation (by outside body in making of film)   
 > **iri** https://fiafcore.org/ontology/Cooperationbyoutsidebodyinmakingoffilm   
 **label** Cooperation (by outside body in making of film)   
@@ -1164,6 +1476,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Costa Rica   
+> **iri** https://fiafcore.org/ontology/CostaRica   
+**label** Costa Rica   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Costume Design, Costume Designer, Costumes   
 > **iri** https://fiafcore.org/ontology/CostumeDesigner   
 **label** Costume Design, Costume Designer, Costumes   
@@ -1194,6 +1512,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.6.14   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProductionDesignActivity](https://fiafcore.org/ontology/ProductionDesignActivity)   
+####  Country   
+> **iri** https://fiafcore.org/ontology/Country   
+**label** Country   
+**source** FIAF Cataloguing Manual 1.3.3   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 ####  Crane Operator   
 > **iri** https://fiafcore.org/ontology/CraneOperator   
 **label** Crane Operator   
@@ -1206,6 +1529,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Croatia   
+> **iri** https://fiafcore.org/ontology/Croatia   
+**label** Croatia   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Croatian   
 > **iri** https://fiafcore.org/ontology/Croatian   
 **label** Croatian   
@@ -1218,12 +1547,42 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.7   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Base](https://fiafcore.org/ontology/Base)   
+####  Cuba   
+> **iri** https://fiafcore.org/ontology/Cuba   
+**label** Cuba   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Curaçao   
+> **iri** https://fiafcore.org/ontology/Curaçao   
+**label** Curaçao   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Cyprus   
+> **iri** https://fiafcore.org/ontology/Cyprus   
+**label** Cyprus   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Czech   
 > **iri** https://fiafcore.org/ontology/Czech   
 **label** Czech   
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Czechia   
+> **iri** https://fiafcore.org/ontology/Czechia   
+**label** Czechia   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Côte d'Ivoire   
+> **iri** https://fiafcore.org/ontology/CôteD'Ivoire   
+**label** Côte d'Ivoire   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  D1   
 > **iri** https://fiafcore.org/ontology/D1   
 **label** D1   
@@ -1290,6 +1649,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.16.5   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Condition](https://fiafcore.org/ontology/Condition)   
+####  Denmark   
+> **iri** https://fiafcore.org/ontology/Denmark   
+**label** Denmark   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Diacetate   
 > **iri** https://fiafcore.org/ontology/Diacetate   
 **label** Diacetate   
@@ -1452,6 +1817,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Djibouti   
+> **iri** https://fiafcore.org/ontology/Djibouti   
+**label** Djibouti   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  DolbyDigital   
 > **iri** https://fiafcore.org/ontology/DolbyDigital   
 **label** DolbyDigital   
@@ -1470,6 +1841,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.5.15   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CinematographyActivity](https://fiafcore.org/ontology/CinematographyActivity)   
+####  Dominica   
+> **iri** https://fiafcore.org/ontology/Dominica   
+**label** Dominica   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Dominican Republic   
+> **iri** https://fiafcore.org/ontology/DominicanRepublic   
+**label** Dominican Republic   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Donation Event   
 > **iri** https://fiafcore.org/ontology/DonationEvent   
 **label** Donation Event   
@@ -1554,12 +1937,30 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.12   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
+####  Ecuador   
+> **iri** https://fiafcore.org/ontology/Ecuador   
+**label** Ecuador   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Editing Activity   
 > **iri** https://fiafcore.org/ontology/EditingActivity   
 **label** Editing Activity   
 **source** FIAF Glossary of Filmographic Terms B.10   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Activity](https://fiafcore.org/ontology/Activity)   
+####  Egypt   
+> **iri** https://fiafcore.org/ontology/Egypt   
+**label** Egypt   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  El Salvador   
+> **iri** https://fiafcore.org/ontology/ElSalvador   
+**label** El Salvador   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Electrician, Lamp Operator   
 > **iri** https://fiafcore.org/ontology/Electrician   
 **label** Electrician, Lamp Operator   
@@ -1572,18 +1973,48 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Equatorial Guinea   
+> **iri** https://fiafcore.org/ontology/EquatorialGuinea   
+**label** Equatorial Guinea   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Eritrea   
+> **iri** https://fiafcore.org/ontology/Eritrea   
+**label** Eritrea   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Esperanto   
 > **iri** https://fiafcore.org/ontology/Esperanto   
 **label** Esperanto   
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Estonia   
+> **iri** https://fiafcore.org/ontology/Estonia   
+**label** Estonia   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Estonian   
 > **iri** https://fiafcore.org/ontology/Estonian   
 **label** Estonian   
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Eswatini   
+> **iri** https://fiafcore.org/ontology/Eswatini   
+**label** Eswatini   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Ethiopia   
+> **iri** https://fiafcore.org/ontology/Ethiopia   
+**label** Ethiopia   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Event   
 > **iri** https://fiafcore.org/ontology/Event   
 **label** Event   
@@ -1636,12 +2067,24 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.16.4   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ImageCondition](https://fiafcore.org/ontology/ImageCondition)   
+####  Falkland Islands (Malvinas)   
+> **iri** https://fiafcore.org/ontology/FalklandIslandsMalvinas   
+**label** Falkland Islands (Malvinas)   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Family   
 > **iri** https://fiafcore.org/ontology/Family   
 **label** Family   
 **source** FIAF Cataloguing Manual 1.4.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Agent](https://fiafcore.org/ontology/Agent)   
+####  Faroe Islands   
+> **iri** https://fiafcore.org/ontology/FaroeIslands   
+**label** Faroe Islands   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Faroese   
 > **iri** https://fiafcore.org/ontology/Faroese   
 **label** Faroese   
@@ -1678,6 +2121,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.3.7   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:DirectingActivity](https://fiafcore.org/ontology/DirectingActivity)   
+####  Fiji   
+> **iri** https://fiafcore.org/ontology/Fiji   
+**label** Fiji   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Fijian   
 > **iri** https://fiafcore.org/ontology/Fijian   
 **label** Fijian   
@@ -1708,6 +2157,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.14   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ManufactureEvent](https://fiafcore.org/ontology/ManufactureEvent)   
+####  Finland   
+> **iri** https://fiafcore.org/ontology/Finland   
+**label** Finland   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Finnish   
 > **iri** https://fiafcore.org/ontology/Finnish   
 **label** Finnish   
@@ -1753,12 +2208,36 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Frame Rate   
 **source** FIAF Cataloguing Manual 3.1.5.12   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+####  France   
+> **iri** https://fiafcore.org/ontology/France   
+**label** France   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  French   
 > **iri** https://fiafcore.org/ontology/French   
 **label** French   
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  French Guiana   
+> **iri** https://fiafcore.org/ontology/FrenchGuiana   
+**label** French Guiana   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  French Polynesia   
+> **iri** https://fiafcore.org/ontology/FrenchPolynesia   
+**label** French Polynesia   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  French Southern Territories   
+> **iri** https://fiafcore.org/ontology/FrenchSouthernTerritories   
+**label** French Southern Territories   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Fuji   
 > **iri** https://fiafcore.org/ontology/Fuji   
 **label** Fuji   
@@ -1789,6 +2268,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.15   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ImageFormat](https://fiafcore.org/ontology/ImageFormat)   
+####  Gabon   
+> **iri** https://fiafcore.org/ontology/Gabon   
+**label** Gabon   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Gaelic; Scottish Gaelic   
 > **iri** https://fiafcore.org/ontology/GaelicScottishGaelic   
 **label** Gaelic; Scottish Gaelic   
@@ -1801,6 +2286,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Gambia   
+> **iri** https://fiafcore.org/ontology/Gambia   
+**label** Gambia   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Ganda   
 > **iri** https://fiafcore.org/ontology/Ganda   
 **label** Ganda   
@@ -1813,6 +2304,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.5.17   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CinematographyActivity](https://fiafcore.org/ontology/CinematographyActivity)   
+####  Georgia   
+> **iri** https://fiafcore.org/ontology/Georgia   
+**label** Georgia   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Georgian   
 > **iri** https://fiafcore.org/ontology/Georgian   
 **label** Georgian   
@@ -1825,6 +2322,24 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Germany   
+> **iri** https://fiafcore.org/ontology/Germany   
+**label** Germany   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Ghana   
+> **iri** https://fiafcore.org/ontology/Ghana   
+**label** Ghana   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Gibraltar   
+> **iri** https://fiafcore.org/ontology/Gibraltar   
+**label** Gibraltar   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Gigabyte   
 > **iri** https://fiafcore.org/ontology/Gigabyte   
 **label** Gigabyte   
@@ -1837,30 +2352,90 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.6.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProductionDesignActivity](https://fiafcore.org/ontology/ProductionDesignActivity)   
+####  Greece   
+> **iri** https://fiafcore.org/ontology/Greece   
+**label** Greece   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Greek, Modern (1453-)   
 > **iri** https://fiafcore.org/ontology/GreekModern1453   
 **label** Greek, Modern (1453-)   
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Greenland   
+> **iri** https://fiafcore.org/ontology/Greenland   
+**label** Greenland   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Greensman, Greensperson   
 > **iri** https://fiafcore.org/ontology/Greensman   
 **label** Greensman, Greensperson   
 **source** FIAF Glossary of Filmographic Terms B.6.11   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProductionDesignActivity](https://fiafcore.org/ontology/ProductionDesignActivity)   
+####  Grenada   
+> **iri** https://fiafcore.org/ontology/Grenada   
+**label** Grenada   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Guadeloupe   
+> **iri** https://fiafcore.org/ontology/Guadeloupe   
+**label** Guadeloupe   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Guam   
+> **iri** https://fiafcore.org/ontology/Guam   
+**label** Guam   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Guarani   
 > **iri** https://fiafcore.org/ontology/Guarani   
 **label** Guarani   
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Guatemala   
+> **iri** https://fiafcore.org/ontology/Guatemala   
+**label** Guatemala   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Guernsey   
+> **iri** https://fiafcore.org/ontology/Guernsey   
+**label** Guernsey   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Guinea   
+> **iri** https://fiafcore.org/ontology/Guinea   
+**label** Guinea   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Guinea-Bissau   
+> **iri** https://fiafcore.org/ontology/GuineaBissau   
+**label** Guinea-Bissau   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Gujarati   
 > **iri** https://fiafcore.org/ontology/Gujarati   
 **label** Gujarati   
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Guyana   
+> **iri** https://fiafcore.org/ontology/Guyana   
+**label** Guyana   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  HDCAM SR   
 > **iri** https://fiafcore.org/ontology/HDCAMSR   
 **label** HDCAM SR   
@@ -1879,6 +2454,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.6.20   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProductionDesignActivity](https://fiafcore.org/ontology/ProductionDesignActivity)   
+####  Haiti   
+> **iri** https://fiafcore.org/ontology/Haiti   
+**label** Haiti   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Haitian; Haitian Creole   
 > **iri** https://fiafcore.org/ontology/HaitianHaitianCreole   
 **label** Haitian; Haitian Creole   
@@ -1897,6 +2478,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Heard Island and McDonald Islands   
+> **iri** https://fiafcore.org/ontology/HeardIslandAndMcdonaldIslands   
+**label** Heard Island and McDonald Islands   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Heavy Scratches   
 > **iri** https://fiafcore.org/ontology/HeavyScratches   
 **label** Heavy Scratches   
@@ -1939,6 +2526,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  Holy See   
+> **iri** https://fiafcore.org/ontology/HolySee   
+**label** Holy See   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Home Movie   
 > **iri** https://fiafcore.org/ontology/HomeMovie   
 **label** Home Movie   
@@ -1957,6 +2550,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.5.6   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation)   
+####  Honduras   
+> **iri** https://fiafcore.org/ontology/Honduras   
+**label** Honduras   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Hong Kong   
+> **iri** https://fiafcore.org/ontology/HongKong   
+**label** Hong Kong   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Hours   
 > **iri** https://fiafcore.org/ontology/Hours   
 **label** Hours   
@@ -1975,12 +2580,24 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Hungary   
+> **iri** https://fiafcore.org/ontology/Hungary   
+**label** Hungary   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Hydrolysis   
 > **iri** https://fiafcore.org/ontology/Hydrolysis   
 **label** Hydrolysis   
 **source** FIAF Cataloguing Manual D.16.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:BaseEmulsionCondition](https://fiafcore.org/ontology/BaseEmulsionCondition)   
+####  Iceland   
+> **iri** https://fiafcore.org/ontology/Iceland   
+**label** Iceland   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Icelandic   
 > **iri** https://fiafcore.org/ontology/Icelandic   
 **label** Icelandic   
@@ -2033,6 +2650,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.14   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ImageCharacteristic](https://fiafcore.org/ontology/ImageCharacteristic)   
+####  India   
+> **iri** https://fiafcore.org/ontology/India   
+**label** India   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Indonesia   
+> **iri** https://fiafcore.org/ontology/Indonesia   
+**label** Indonesia   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Indonesian   
 > **iri** https://fiafcore.org/ontology/Indonesian   
 **label** Indonesian   
@@ -2099,18 +2728,54 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Iran (Islamic Republic of)   
+> **iri** https://fiafcore.org/ontology/IranIslamicRepublicOf   
+**label** Iran (Islamic Republic of)   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Iraq   
+> **iri** https://fiafcore.org/ontology/Iraq   
+**label** Iraq   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Ireland   
+> **iri** https://fiafcore.org/ontology/Ireland   
+**label** Ireland   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Irish   
 > **iri** https://fiafcore.org/ontology/Irish   
 **label** Irish   
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Isle of Man   
+> **iri** https://fiafcore.org/ontology/IsleOfMan   
+**label** Isle of Man   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Israel   
+> **iri** https://fiafcore.org/ontology/Israel   
+**label** Israel   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Italian   
 > **iri** https://fiafcore.org/ontology/Italian   
 **label** Italian   
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Italy   
+> **iri** https://fiafcore.org/ontology/Italy   
+**label** Italy   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Item   
 > **iri** https://fiafcore.org/ontology/Item   
 **label** Item   
@@ -2122,6 +2787,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.10   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Codec](https://fiafcore.org/ontology/Codec)   
+####  Jamaica   
+> **iri** https://fiafcore.org/ontology/Jamaica   
+**label** Jamaica   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Japan   
+> **iri** https://fiafcore.org/ontology/Japan   
+**label** Japan   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Japanese   
 > **iri** https://fiafcore.org/ontology/Japanese   
 **label** Japanese   
@@ -2134,6 +2811,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Jersey   
+> **iri** https://fiafcore.org/ontology/Jersey   
+**label** Jersey   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Jordan   
+> **iri** https://fiafcore.org/ontology/Jordan   
+**label** Jordan   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Kalaallisut; Greenlandic   
 > **iri** https://fiafcore.org/ontology/KalaallisutGreenlandic   
 **label** Kalaallisut; Greenlandic   
@@ -2164,6 +2853,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Kazakhstan   
+> **iri** https://fiafcore.org/ontology/Kazakhstan   
+**label** Kazakhstan   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Kenya   
+> **iri** https://fiafcore.org/ontology/Kenya   
+**label** Kenya   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Grip, Key Grip   
 > **iri** https://fiafcore.org/ontology/KeyGrip   
 **label** Grip, Key Grip   
@@ -2200,6 +2901,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Kiribati   
+> **iri** https://fiafcore.org/ontology/Kiribati   
+**label** Kiribati   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Kodachrome   
 > **iri** https://fiafcore.org/ontology/Kodachrome   
 **label** Kodachrome   
@@ -2218,6 +2925,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Korea (Democratic People's Republic of)   
+> **iri** https://fiafcore.org/ontology/KoreaDemocraticPeople'SRepublicOf   
+**label** Korea (Democratic People's Republic of)   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Korea, Republic of   
+> **iri** https://fiafcore.org/ontology/KoreaRepublicOf   
+**label** Korea, Republic of   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Korean   
 > **iri** https://fiafcore.org/ontology/Korean   
 **label** Korean   
@@ -2236,6 +2955,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Kuwait   
+> **iri** https://fiafcore.org/ontology/Kuwait   
+**label** Kuwait   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Kyrgyzstan   
+> **iri** https://fiafcore.org/ontology/Kyrgyzstan   
+**label** Kyrgyzstan   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Laboratory, Laboratory Services, Processing Laboratory   
 > **iri** https://fiafcore.org/ontology/Laboratory   
 **label** Laboratory, Laboratory Services, Processing Laboratory   
@@ -2282,6 +3013,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Lao People's Democratic Republic   
+> **iri** https://fiafcore.org/ontology/LaoPeople'SDemocraticRepublic   
+**label** Lao People's Democratic Republic   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Laser Disc   
 > **iri** https://fiafcore.org/ontology/LaserDisc   
 **label** Laser Disc   
@@ -2294,6 +3031,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Latvia   
+> **iri** https://fiafcore.org/ontology/Latvia   
+**label** Latvia   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Latvian   
 > **iri** https://fiafcore.org/ontology/Latvian   
 **label** Latvian   
@@ -2306,18 +3049,48 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.6.9   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProductionDesignActivity](https://fiafcore.org/ontology/ProductionDesignActivity)   
+####  Lebanon   
+> **iri** https://fiafcore.org/ontology/Lebanon   
+**label** Lebanon   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Lenses, Opticals   
 > **iri** https://fiafcore.org/ontology/Lenses   
 **label** Lenses, Opticals   
 **source** FIAF Glossary of Filmographic Terms B.5.20   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CinematographyActivity](https://fiafcore.org/ontology/CinematographyActivity)   
+####  Lesotho   
+> **iri** https://fiafcore.org/ontology/Lesotho   
+**label** Lesotho   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Letterbox   
 > **iri** https://fiafcore.org/ontology/Letterbox   
 **label** Letterbox   
 **source** FIAF Cataloguing Manual D.7.15   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ImageFormat](https://fiafcore.org/ontology/ImageFormat)   
+####  Liberia   
+> **iri** https://fiafcore.org/ontology/Liberia   
+**label** Liberia   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Libya   
+> **iri** https://fiafcore.org/ontology/Libya   
+**label** Libya   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Liechtenstein   
+> **iri** https://fiafcore.org/ontology/Liechtenstein   
+**label** Liechtenstein   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Light Scratches   
 > **iri** https://fiafcore.org/ontology/LightScratches   
 **label** Light Scratches   
@@ -2353,6 +3126,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Lithuania   
+> **iri** https://fiafcore.org/ontology/Lithuania   
+**label** Lithuania   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Lithuanian   
 > **iri** https://fiafcore.org/ontology/Lithuanian   
 **label** Lithuanian   
@@ -2383,6 +3162,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Luxembourg   
+> **iri** https://fiafcore.org/ontology/Luxembourg   
+**label** Luxembourg   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Luxembourgish; Letzeburgesch   
 > **iri** https://fiafcore.org/ontology/LuxembourgishLetzeburgesch   
 **label** Luxembourgish; Letzeburgesch   
@@ -2419,12 +3204,24 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:DigitalFile](https://fiafcore.org/ontology/DigitalFile)   
+####  Macao   
+> **iri** https://fiafcore.org/ontology/Macao   
+**label** Macao   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Macedonian   
 > **iri** https://fiafcore.org/ontology/Macedonian   
 **label** Macedonian   
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Madagascar   
+> **iri** https://fiafcore.org/ontology/Madagascar   
+**label** Madagascar   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Magenta Bias   
 > **iri** https://fiafcore.org/ontology/MagentaBias   
 **label** Magenta Bias   
@@ -2461,6 +3258,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Malawi   
+> **iri** https://fiafcore.org/ontology/Malawi   
+**label** Malawi   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Malay   
 > **iri** https://fiafcore.org/ontology/Malay   
 **label** Malay   
@@ -2473,6 +3276,30 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Malaysia   
+> **iri** https://fiafcore.org/ontology/Malaysia   
+**label** Malaysia   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Maldives   
+> **iri** https://fiafcore.org/ontology/Maldives   
+**label** Maldives   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Mali   
+> **iri** https://fiafcore.org/ontology/Mali   
+**label** Mali   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Malta   
+> **iri** https://fiafcore.org/ontology/Malta   
+**label** Malta   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Maltese   
 > **iri** https://fiafcore.org/ontology/Maltese   
 **label** Maltese   
@@ -2520,12 +3347,24 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Marshall Islands   
+> **iri** https://fiafcore.org/ontology/MarshallIslands   
+**label** Marshall Islands   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Marshallese   
 > **iri** https://fiafcore.org/ontology/Marshallese   
 **label** Marshallese   
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Martinique   
+> **iri** https://fiafcore.org/ontology/Martinique   
+**label** Martinique   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Master   
 > **iri** https://fiafcore.org/ontology/Master   
 **label** Master   
@@ -2544,12 +3383,30 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.8.8   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:SpecialEffectsActivity](https://fiafcore.org/ontology/SpecialEffectsActivity)   
+####  Mauritania   
+> **iri** https://fiafcore.org/ontology/Mauritania   
+**label** Mauritania   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Mauritius   
+> **iri** https://fiafcore.org/ontology/Mauritius   
+**label** Mauritius   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Maxell   
 > **iri** https://fiafcore.org/ontology/Maxell   
 **label** Maxell   
 **source** FIAF Cataloguing Manual D.7.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  Mayotte   
+> **iri** https://fiafcore.org/ontology/Mayotte   
+**label** Mayotte   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Mechanical Effects, Physical Effects   
 > **iri** https://fiafcore.org/ontology/MechanicalEffects   
 **label** Mechanical Effects, Physical Effects   
@@ -2574,6 +3431,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual 2.3.5.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Extent](https://fiafcore.org/ontology/Extent)   
+####  Mexico   
+> **iri** https://fiafcore.org/ontology/Mexico   
+**label** Mexico   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Micronesia (Federated States of)   
+> **iri** https://fiafcore.org/ontology/MicronesiaFederatedStatesOf   
+**label** Micronesia (Federated States of)   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Minutes   
 > **iri** https://fiafcore.org/ontology/Minutes   
 **label** Minutes   
@@ -2604,6 +3473,24 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.13.17   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:AnimationActivity](https://fiafcore.org/ontology/AnimationActivity)   
+####  Moldova, Republic of   
+> **iri** https://fiafcore.org/ontology/MoldovaRepublicOf   
+**label** Moldova, Republic of   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Monaco   
+> **iri** https://fiafcore.org/ontology/Monaco   
+**label** Monaco   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Mongolia   
+> **iri** https://fiafcore.org/ontology/Mongolia   
+**label** Mongolia   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Mongolian   
 > **iri** https://fiafcore.org/ontology/Mongolian   
 **label** Mongolian   
@@ -2616,6 +3503,24 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:WorkVariant](https://fiafcore.org/ontology/WorkVariant)   
+####  Montenegro   
+> **iri** https://fiafcore.org/ontology/Montenegro   
+**label** Montenegro   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Montserrat   
+> **iri** https://fiafcore.org/ontology/Montserrat   
+**label** Montserrat   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Morocco   
+> **iri** https://fiafcore.org/ontology/Morocco   
+**label** Morocco   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Motion Capture   
 > **iri** https://fiafcore.org/ontology/MotionCapture   
 **label** Motion Capture   
@@ -2628,6 +3533,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.16.3   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:SurfaceDeposit](https://fiafcore.org/ontology/SurfaceDeposit)   
+####  Mozambique   
+> **iri** https://fiafcore.org/ontology/Mozambique   
+**label** Mozambique   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Music Activity   
 > **iri** https://fiafcore.org/ontology/MusicActivity   
 **label** Music Activity   
@@ -2682,6 +3593,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.4   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:SoundCharacteristic](https://fiafcore.org/ontology/SoundCharacteristic)   
+####  Myanmar   
+> **iri** https://fiafcore.org/ontology/Myanmar   
+**label** Myanmar   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Mylar   
 > **iri** https://fiafcore.org/ontology/Mylar   
 **label** Mylar   
@@ -2694,6 +3611,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual 3.1.5.10   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:BroadcastStandard](https://fiafcore.org/ontology/BroadcastStandard)   
+####  Namibia   
+> **iri** https://fiafcore.org/ontology/Namibia   
+**label** Namibia   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Commentary, Commentary Written, Narration, Narration Written   
 > **iri** https://fiafcore.org/ontology/NarrationWritten   
 **label** Commentary, Commentary Written, Narration, Narration Written   
@@ -2709,9 +3632,9 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 ####  Nauru   
 > **iri** https://fiafcore.org/ontology/Nauru   
 **label** Nauru   
-**source** ISO 639-1   
+**source** ISO 3166-1, ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
-**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country), [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Navajo; Navaho   
 > **iri** https://fiafcore.org/ontology/NavajoNavaho   
 **label** Navajo; Navaho   
@@ -2748,18 +3671,66 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.12.3   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:LaboratoryActivity](https://fiafcore.org/ontology/LaboratoryActivity)   
+####  Nepal   
+> **iri** https://fiafcore.org/ontology/Nepal   
+**label** Nepal   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Nepali   
 > **iri** https://fiafcore.org/ontology/Nepali   
 **label** Nepali   
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Netherlands   
+> **iri** https://fiafcore.org/ontology/Netherlands   
+**label** Netherlands   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  New Caledonia   
+> **iri** https://fiafcore.org/ontology/NewCaledonia   
+**label** New Caledonia   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  New Zealand   
+> **iri** https://fiafcore.org/ontology/NewZealand   
+**label** New Zealand   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Nicaragua   
+> **iri** https://fiafcore.org/ontology/Nicaragua   
+**label** Nicaragua   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Niger   
+> **iri** https://fiafcore.org/ontology/Niger   
+**label** Niger   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Nigeria   
+> **iri** https://fiafcore.org/ontology/Nigeria   
+**label** Nigeria   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Nitrate   
 > **iri** https://fiafcore.org/ontology/Nitrate   
 **label** Nitrate   
 **source** FIAF Cataloguing Manual D.7.7   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Base](https://fiafcore.org/ontology/Base)   
+####  Niue   
+> **iri** https://fiafcore.org/ontology/Niue   
+**label** Niue   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  No Dialogue   
 > **iri** https://fiafcore.org/ontology/NoDialogue   
 **label** No Dialogue   
@@ -2778,12 +3749,36 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.10   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:PublicationEvent](https://fiafcore.org/ontology/PublicationEvent)   
+####  Norfolk Island   
+> **iri** https://fiafcore.org/ontology/NorfolkIsland   
+**label** Norfolk Island   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  North Macedonia   
+> **iri** https://fiafcore.org/ontology/NorthMacedonia   
+**label** North Macedonia   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Northern Mariana Islands   
+> **iri** https://fiafcore.org/ontology/NorthernMarianaIslands   
+**label** Northern Mariana Islands   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Northern Sami   
 > **iri** https://fiafcore.org/ontology/NorthernSami   
 **label** Northern Sami   
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Norway   
+> **iri** https://fiafcore.org/ontology/Norway   
+**label** Norway   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Norwegian   
 > **iri** https://fiafcore.org/ontology/Norwegian   
 **label** Norwegian   
@@ -2832,6 +3827,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Oman   
+> **iri** https://fiafcore.org/ontology/Oman   
+**label** Oman   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  On Loan   
 > **iri** https://fiafcore.org/ontology/OnLoan   
 **label** On Loan   
@@ -2916,6 +3917,24 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual 3.1.5.10   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:BroadcastStandard](https://fiafcore.org/ontology/BroadcastStandard)   
+####  Pakistan   
+> **iri** https://fiafcore.org/ontology/Pakistan   
+**label** Pakistan   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Palau   
+> **iri** https://fiafcore.org/ontology/Palau   
+**label** Palau   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Palestine, State of   
+> **iri** https://fiafcore.org/ontology/PalestineStateOf   
+**label** Palestine, State of   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Pali   
 > **iri** https://fiafcore.org/ontology/Pali   
 **label** Pali   
@@ -2928,12 +3947,30 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.15   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ImageFormat](https://fiafcore.org/ontology/ImageFormat)   
+####  Panama   
+> **iri** https://fiafcore.org/ontology/Panama   
+**label** Panama   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Panjabi; Punjabi   
 > **iri** https://fiafcore.org/ontology/PanjabiPunjabi   
 **label** Panjabi; Punjabi   
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Papua New Guinea   
+> **iri** https://fiafcore.org/ontology/PapuaNewGuinea   
+**label** Papua New Guinea   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Paraguay   
+> **iri** https://fiafcore.org/ontology/Paraguay   
+**label** Paraguay   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Parallel Title   
 > **iri** https://fiafcore.org/ontology/ParallelTitle   
 **label** Parallel Title   
@@ -2970,6 +4007,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual 1.4.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Agent](https://fiafcore.org/ontology/Agent)   
+####  Peru   
+> **iri** https://fiafcore.org/ontology/Peru   
+**label** Peru   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Philippines   
+> **iri** https://fiafcore.org/ontology/Philippines   
+**label** Philippines   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Philips   
 > **iri** https://fiafcore.org/ontology/Philips   
 **label** Philips   
@@ -2982,6 +4031,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.15   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ImageFormat](https://fiafcore.org/ontology/ImageFormat)   
+####  Pitcairn   
+> **iri** https://fiafcore.org/ontology/Pitcairn   
+**label** Pitcairn   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Poland   
+> **iri** https://fiafcore.org/ontology/Poland   
+**label** Poland   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Polish   
 > **iri** https://fiafcore.org/ontology/Polish   
 **label** Polish   
@@ -2994,6 +4055,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.7   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Base](https://fiafcore.org/ontology/Base)   
+####  Portugal   
+> **iri** https://fiafcore.org/ontology/Portugal   
+**label** Portugal   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Portuguese   
 > **iri** https://fiafcore.org/ontology/Portuguese   
 **label** Portuguese   
@@ -3168,6 +4235,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.8.4   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ManifestationActivity](https://fiafcore.org/ontology/ManifestationActivity)   
+####  Puerto Rico   
+> **iri** https://fiafcore.org/ontology/PuertoRico   
+**label** Puerto Rico   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Pulled   
 > **iri** https://fiafcore.org/ontology/Pulled   
 **label** Pulled   
@@ -3210,6 +4283,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.8.6   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:SpecialEffectsActivity](https://fiafcore.org/ontology/SpecialEffectsActivity)   
+####  Qatar   
+> **iri** https://fiafcore.org/ontology/Qatar   
+**label** Qatar   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  1/4-inch Audioreel   
 > **iri** https://fiafcore.org/ontology/QuarterInchAudioReel   
 **label** 1/4-inch Audioreel   
@@ -3305,6 +4384,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.6   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Extent](https://fiafcore.org/ontology/Extent)   
+####  Romania   
+> **iri** https://fiafcore.org/ontology/Romania   
+**label** Romania   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Romanian; Moldavian; Moldovan   
 > **iri** https://fiafcore.org/ontology/RomanianMoldavianMoldovan   
 **label** Romanian; Moldavian; Moldovan   
@@ -3335,12 +4420,30 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Russian Federation   
+> **iri** https://fiafcore.org/ontology/RussianFederation   
+**label** Russian Federation   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Rust   
 > **iri** https://fiafcore.org/ontology/Rust   
 **label** Rust   
 **source** FIAF Cataloguing Manual D.16.3   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:SurfaceDeposit](https://fiafcore.org/ontology/SurfaceDeposit)   
+####  Rwanda   
+> **iri** https://fiafcore.org/ontology/Rwanda   
+**label** Rwanda   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Réunion   
+> **iri** https://fiafcore.org/ontology/Réunion   
+**label** Réunion   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  S10   
 > **iri** https://fiafcore.org/ontology/S10   
 **label** S10   
@@ -3365,12 +4468,66 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.7   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Base](https://fiafcore.org/ontology/Base)   
+####  Saint Barthélemy   
+> **iri** https://fiafcore.org/ontology/SaintBarthélemy   
+**label** Saint Barthélemy   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Saint Helena, Ascension and Tristan da Cunha   
+> **iri** https://fiafcore.org/ontology/SaintHelenaAscensionAndTristanDaCunha   
+**label** Saint Helena, Ascension and Tristan da Cunha   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Saint Kitts and Nevis   
+> **iri** https://fiafcore.org/ontology/SaintKittsAndNevis   
+**label** Saint Kitts and Nevis   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Saint Lucia   
+> **iri** https://fiafcore.org/ontology/SaintLucia   
+**label** Saint Lucia   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Saint Martin (French part)   
+> **iri** https://fiafcore.org/ontology/SaintMartinFrenchPart   
+**label** Saint Martin (French part)   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Saint Pierre and Miquelon   
+> **iri** https://fiafcore.org/ontology/SaintPierreAndMiquelon   
+**label** Saint Pierre and Miquelon   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Saint Vincent and the Grenadines   
+> **iri** https://fiafcore.org/ontology/SaintVincentAndTheGrenadines   
+**label** Saint Vincent and the Grenadines   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Samoa   
+> **iri** https://fiafcore.org/ontology/Samoa   
+**label** Samoa   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Samoan   
 > **iri** https://fiafcore.org/ontology/Samoan   
 **label** Samoan   
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  San Marino   
+> **iri** https://fiafcore.org/ontology/SanMarino   
+**label** San Marino   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Sango   
 > **iri** https://fiafcore.org/ontology/Sango   
 **label** Sango   
@@ -3383,12 +4540,24 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Sao Tome and Principe   
+> **iri** https://fiafcore.org/ontology/SaoTomeAndPrincipe   
+**label** Sao Tome and Principe   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Sardinian   
 > **iri** https://fiafcore.org/ontology/Sardinian   
 **label** Sardinian   
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Saudi Arabia   
+> **iri** https://fiafcore.org/ontology/SaudiArabia   
+**label** Saudi Arabia   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Scanning Event   
 > **iri** https://fiafcore.org/ontology/ScanningEvent   
 **label** Scanning Event   
@@ -3455,12 +4624,24 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual 2.3.5.3   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Extent](https://fiafcore.org/ontology/Extent)   
+####  Senegal   
+> **iri** https://fiafcore.org/ontology/Senegal   
+**label** Senegal   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Sepia   
 > **iri** https://fiafcore.org/ontology/Sepia   
 **label** Sepia   
 **source** FIAF Cataloguing Manual D.7.11   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ColourCharacteristic](https://fiafcore.org/ontology/ColourCharacteristic)   
+####  Serbia   
+> **iri** https://fiafcore.org/ontology/Serbia   
+**label** Serbia   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Serbian   
 > **iri** https://fiafcore.org/ontology/Serbian   
 **label** Serbian   
@@ -3509,6 +4690,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.6.5   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProductionDesignActivity](https://fiafcore.org/ontology/ProductionDesignActivity)   
+####  Seychelles   
+> **iri** https://fiafcore.org/ontology/Seychelles   
+**label** Seychelles   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Shamrock   
 > **iri** https://fiafcore.org/ontology/Shamrock   
 **label** Shamrock   
@@ -3539,6 +4726,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Sierra Leone   
+> **iri** https://fiafcore.org/ontology/SierraLeone   
+**label** Sierra Leone   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Signed Language   
 > **iri** https://fiafcore.org/ontology/SignedLanguage   
 **label** Signed Language   
@@ -3557,6 +4750,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Singapore   
+> **iri** https://fiafcore.org/ontology/Singapore   
+**label** Singapore   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Singer   
 > **iri** https://fiafcore.org/ontology/Singer   
 **label** Singer   
@@ -3575,24 +4774,54 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Sint Maarten (Dutch part)   
+> **iri** https://fiafcore.org/ontology/SintMaartenDutchPart   
+**label** Sint Maarten (Dutch part)   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Slovak   
 > **iri** https://fiafcore.org/ontology/Slovak   
 **label** Slovak   
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Slovakia   
+> **iri** https://fiafcore.org/ontology/Slovakia   
+**label** Slovakia   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Slovenia   
+> **iri** https://fiafcore.org/ontology/Slovenia   
+**label** Slovenia   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Slovenian   
 > **iri** https://fiafcore.org/ontology/Slovenian   
 **label** Slovenian   
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Solomon Islands   
+> **iri** https://fiafcore.org/ontology/SolomonIslands   
+**label** Solomon Islands   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Somali   
 > **iri** https://fiafcore.org/ontology/Somali   
 **label** Somali   
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Somalia   
+> **iri** https://fiafcore.org/ontology/Somalia   
+**label** Somalia   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Song Composer, Songs, Songs Composed   
 > **iri** https://fiafcore.org/ontology/SongComposer   
 **label** Song Composer, Songs, Songs Composed   
@@ -3684,6 +4913,30 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Source Software   
 **source** FIAF Cataloguing Manual 3.1.5.22   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+####  South Africa   
+> **iri** https://fiafcore.org/ontology/SouthAfrica   
+**label** South Africa   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  South Georgia and the South Sandwich Islands   
+> **iri** https://fiafcore.org/ontology/SouthGeorgiaAndTheSouthSandwichIslands   
+**label** South Georgia and the South Sandwich Islands   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  South Sudan   
+> **iri** https://fiafcore.org/ontology/SouthSudan   
+**label** South Sudan   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Spain   
+> **iri** https://fiafcore.org/ontology/Spain   
+**label** Spain   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Spanish; Castilian   
 > **iri** https://fiafcore.org/ontology/SpanishCastilian   
 **label** Spanish; Castilian   
@@ -3714,6 +4967,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.2.20   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProducingActivity](https://fiafcore.org/ontology/ProducingActivity)   
+####  Sri Lanka   
+> **iri** https://fiafcore.org/ontology/SriLanka   
+**label** Sri Lanka   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Staged   
 > **iri** https://fiafcore.org/ontology/Staged   
 **label** Staged   
@@ -3818,6 +5077,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.6   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:WrittenLanguages](https://fiafcore.org/ontology/WrittenLanguages)   
+####  Sudan   
+> **iri** https://fiafcore.org/ontology/Sudan   
+**label** Sudan   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Sundanese   
 > **iri** https://fiafcore.org/ontology/Sundanese   
 **label** Sundanese   
@@ -3866,6 +5131,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.16.3   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Condition](https://fiafcore.org/ontology/Condition)   
+####  Suriname   
+> **iri** https://fiafcore.org/ontology/Suriname   
+**label** Suriname   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Svalbard and Jan Mayen   
+> **iri** https://fiafcore.org/ontology/SvalbardAndJanMayen   
+**label** Svalbard and Jan Mayen   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Swahili   
 > **iri** https://fiafcore.org/ontology/Swahili   
 **label** Swahili   
@@ -3878,12 +5155,30 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Sweden   
+> **iri** https://fiafcore.org/ontology/Sweden   
+**label** Sweden   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Swedish   
 > **iri** https://fiafcore.org/ontology/Swedish   
 **label** Swedish   
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Switzerland   
+> **iri** https://fiafcore.org/ontology/Switzerland   
+**label** Switzerland   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Syrian Arab Republic   
+> **iri** https://fiafcore.org/ontology/SyrianArabRepublic   
+**label** Syrian Arab Republic   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Tagalog   
 > **iri** https://fiafcore.org/ontology/Tagalog   
 **label** Tagalog   
@@ -3896,18 +5191,36 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Taiwan, Province of China   
+> **iri** https://fiafcore.org/ontology/TaiwanProvinceOfChina   
+**label** Taiwan, Province of China   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Tajik   
 > **iri** https://fiafcore.org/ontology/Tajik   
 **label** Tajik   
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Tajikistan   
+> **iri** https://fiafcore.org/ontology/Tajikistan   
+**label** Tajikistan   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Tamil   
 > **iri** https://fiafcore.org/ontology/Tamil   
 **label** Tamil   
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Tanzania, United Republic of   
+> **iri** https://fiafcore.org/ontology/TanzaniaUnitedRepublicOf   
+**label** Tanzania, United Republic of   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Tatar   
 > **iri** https://fiafcore.org/ontology/Tatar   
 **label** Tatar   
@@ -3956,6 +5269,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Thailand   
+> **iri** https://fiafcore.org/ontology/Thailand   
+**label** Thailand   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Theatrical Distribution   
 > **iri** https://fiafcore.org/ontology/TheatricalDistribution   
 **label** Theatrical Distribution   
@@ -3980,6 +5299,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Timor-Leste   
+> **iri** https://fiafcore.org/ontology/TimorLeste   
+**label** Timor-Leste   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Tinted   
 > **iri** https://fiafcore.org/ontology/Tinted   
 **label** Tinted   
@@ -4003,6 +5328,24 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual A.2.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Title](https://fiafcore.org/ontology/Title)   
+####  Togo   
+> **iri** https://fiafcore.org/ontology/Togo   
+**label** Togo   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Tokelau   
+> **iri** https://fiafcore.org/ontology/Tokelau   
+**label** Tokelau   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Tonga   
+> **iri** https://fiafcore.org/ontology/Tonga   
+**label** Tonga   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Tonga (Tonga Islands)   
 > **iri** https://fiafcore.org/ontology/TongaTongaIslands   
 **label** Tonga (Tonga Islands)   
@@ -4051,6 +5394,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.2.13   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProducingActivity](https://fiafcore.org/ontology/ProducingActivity)   
+####  Trinidad and Tobago   
+> **iri** https://fiafcore.org/ontology/TrinidadAndTobago   
+**label** Trinidad and Tobago   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Tsonga   
 > **iri** https://fiafcore.org/ontology/Tsonga   
 **label** Tsonga   
@@ -4063,6 +5412,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Tunisia   
+> **iri** https://fiafcore.org/ontology/Tunisia   
+**label** Tunisia   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Turkey   
+> **iri** https://fiafcore.org/ontology/Turkey   
+**label** Turkey   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Turkish   
 > **iri** https://fiafcore.org/ontology/Turkish   
 **label** Turkish   
@@ -4075,6 +5436,24 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Turkmenistan   
+> **iri** https://fiafcore.org/ontology/Turkmenistan   
+**label** Turkmenistan   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Turks and Caicos Islands   
+> **iri** https://fiafcore.org/ontology/TurksAndCaicosIslands   
+**label** Turks and Caicos Islands   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Tuvalu   
+> **iri** https://fiafcore.org/ontology/Tuvalu   
+**label** Tuvalu   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Twi   
 > **iri** https://fiafcore.org/ontology/Twi   
 **label** Twi   
@@ -4087,12 +5466,24 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Audio](https://fiafcore.org/ontology/Audio)   
+####  Uganda   
+> **iri** https://fiafcore.org/ontology/Uganda   
+**label** Uganda   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Uighur; Uyghur   
 > **iri** https://fiafcore.org/ontology/UighurUyghur   
 **label** Uighur; Uyghur   
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Ukraine   
+> **iri** https://fiafcore.org/ontology/Ukraine   
+**label** Ukraine   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Ukrainian   
 > **iri** https://fiafcore.org/ontology/Ukrainian   
 **label** Ukrainian   
@@ -4111,6 +5502,30 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms D.1.9   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Form](https://fiafcore.org/ontology/Form)   
+####  United Arab Emirates   
+> **iri** https://fiafcore.org/ontology/UnitedArabEmirates   
+**label** United Arab Emirates   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  United Kingdom of Great Britain and Northern Ireland   
+> **iri** https://fiafcore.org/ontology/UnitedKingdomOfGreatBritainAndNorthernIreland   
+**label** United Kingdom of Great Britain and Northern Ireland   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  United States Minor Outlying Islands   
+> **iri** https://fiafcore.org/ontology/UnitedStatesMinorOutlyingIslands   
+**label** United States Minor Outlying Islands   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  United States of America   
+> **iri** https://fiafcore.org/ontology/UnitedStatesOfAmerica   
+**label** United States of America   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Unknown Event   
 > **iri** https://fiafcore.org/ontology/UnknownEvent   
 **label** Unknown Event   
@@ -4141,12 +5556,24 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Uruguay   
+> **iri** https://fiafcore.org/ontology/Uruguay   
+**label** Uruguay   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Uzbek   
 > **iri** https://fiafcore.org/ontology/Uzbek   
 **label** Uzbek   
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Uzbekistan   
+> **iri** https://fiafcore.org/ontology/Uzbekistan   
+**label** Uzbekistan   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  VA RCA Duplex   
 > **iri** https://fiafcore.org/ontology/VARCADuplex   
 **label** VA RCA Duplex   
@@ -4171,6 +5598,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.20   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:SourceDevice](https://fiafcore.org/ontology/SourceDevice)   
+####  Vanuatu   
+> **iri** https://fiafcore.org/ontology/Vanuatu   
+**label** Vanuatu   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Variable Frame Rate   
 > **iri** https://fiafcore.org/ontology/VariableFrameRate   
 **label** Variable Frame Rate   
@@ -4188,6 +5621,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Venezuela (Bolivarian Republic of)   
+> **iri** https://fiafcore.org/ontology/VenezuelaBolivarianRepublicOf   
+**label** Venezuela (Bolivarian Republic of)   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Verbatim   
 > **iri** https://fiafcore.org/ontology/Verbatim   
 **label** Verbatim   
@@ -4217,6 +5656,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Video Stream   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stream](https://fiafcore.org/ontology/Stream)   
+####  Viet Nam   
+> **iri** https://fiafcore.org/ontology/VietNam   
+**label** Viet Nam   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Vietnamese   
 > **iri** https://fiafcore.org/ontology/Vietnamese   
 **label** Vietnamese   
@@ -4235,6 +5680,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.7   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Base](https://fiafcore.org/ontology/Base)   
+####  Virgin Islands (British)   
+> **iri** https://fiafcore.org/ontology/VirginIslandsBritish   
+**label** Virgin Islands (British)   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Virgin Islands (U.S.)   
+> **iri** https://fiafcore.org/ontology/VirginIslandsU.S.   
+**label** Virgin Islands (U.S.)   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Optical Effects, Photographic Effects, Special Photographic Effects, VFX, Visual Effects   
 > **iri** https://fiafcore.org/ontology/VisualEffects   
 **label** Optical Effects, Photographic Effects, Special Photographic Effects, VFX, Visual Effects   
@@ -4259,6 +5716,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.10   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Codec](https://fiafcore.org/ontology/Codec)   
+####  Wallis and Futuna   
+> **iri** https://fiafcore.org/ontology/WallisAndFutuna   
+**label** Wallis and Futuna   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Walloon   
 > **iri** https://fiafcore.org/ontology/Walloon   
 **label** Walloon   
@@ -4295,6 +5758,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Western Sahara   
+> **iri** https://fiafcore.org/ontology/WesternSahara   
+**label** Western Sahara   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Wikidata Identifier   
 > **iri** https://fiafcore.org/ontology/WikidataIdentifier   
 **label** Wikidata Identifier   
@@ -4366,6 +5835,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.12   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
+####  Yemen   
+> **iri** https://fiafcore.org/ontology/Yemen   
+**label** Yemen   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Yiddish   
 > **iri** https://fiafcore.org/ontology/Yiddish   
 **label** Yiddish   
@@ -4378,18 +5853,36 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Zambia   
+> **iri** https://fiafcore.org/ontology/Zambia   
+**label** Zambia   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Zhuang; Chuang   
 > **iri** https://fiafcore.org/ontology/ZhuangChuang   
 **label** Zhuang; Chuang   
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Zimbabwe   
+> **iri** https://fiafcore.org/ontology/Zimbabwe   
+**label** Zimbabwe   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ####  Zulu   
 > **iri** https://fiafcore.org/ontology/Zulu   
 **label** Zulu   
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Åland Islands   
+> **iri** https://fiafcore.org/ontology/ÅlandIslands   
+**label** Åland Islands   
+**source** ISO 3166-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
 ## Individuals   
 ####  Academy Film Archive   
 > **iri** https://fiafcore.org/ontology/AcademyFilmArchive   
