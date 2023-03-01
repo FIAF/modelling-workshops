@@ -3282,6 +3282,476 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ColourStandard](https://fiafcore.org/ontology/ColourStandard)   
 ## Individuals   
+####  Academy Film Archive   
+> **iri** https://fiafcore.org/ontology/AcademyFilmArchive   
+**label** Academy Film Archive   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Archivo de Imagenes en Movimiento - Archivo General de Puerto Rico   
+> **iri** https://fiafcore.org/ontology/ArchivoDeImagenesEnMovimientoArchivoGeneralDePuertoRico   
+**label** Archivo de Imagenes en Movimiento - Archivo General de Puerto Rico   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Archivo Nacional de la Imagen y la Palabra - Sodre   
+> **iri** https://fiafcore.org/ontology/ArchivoNacionalDeLaImagenYLaPalabraSodre   
+**label** Archivo Nacional de la Imagen y la Palabra - Sodre   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Arhiv Republike Slovenije - Slovenski Filmski Arhiv (SFA)   
+> **iri** https://fiafcore.org/ontology/ArhivRepublikeSlovenijeSlovenskiFilmskiArhivSfa   
+**label** Arhiv Republike Slovenije - Slovenski Filmski Arhiv (SFA)   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Arhiva Nationala de Filme - Cinemateca Romana   
+> **iri** https://fiafcore.org/ontology/ArhivaNationalaDeFilmeCinematecaRomana   
+**label** Arhiva Nationala de Filme - Cinemateca Romana   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Arkivi Qendror Shteteror I Filmit (AQSHF)   
+> **iri** https://fiafcore.org/ontology/ArkiviQendrorShteterorIFilmitAqshf   
+**label** Arkivi Qendror Shteteror I Filmit (AQSHF)   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Bangladesh Film Archive   
+> **iri** https://fiafcore.org/ontology/BangladeshFilmArchive   
+**label** Bangladesh Film Archive   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  BFI National Archive   
+> **iri** https://fiafcore.org/ontology/BfiNationalArchive   
+**label** BFI National Archive   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Bulgarska Nacionalna Filmoteka   
+> **iri** https://fiafcore.org/ontology/BulgarskaNacionalnaFilmoteka   
+**label** Bulgarska Nacionalna Filmoteka   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Bundesarchiv   
+> **iri** https://fiafcore.org/ontology/Bundesarchiv   
+**label** Bundesarchiv   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Centre national du cinéma et de l’image animée - Direction du patrimoine cinématographique   
+> **iri** https://fiafcore.org/ontology/CentreNationalDuCinémaEtDeLImageAniméeDirectionDuPatrimoineCinématographique   
+**label** Centre national du cinéma et de l’image animée - Direction du patrimoine cinématographique   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  China Film Archive   
+> **iri** https://fiafcore.org/ontology/ChinaFilmArchive   
+**label** China Film Archive   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Cinemateca Brasileira   
+> **iri** https://fiafcore.org/ontology/CinematecaBrasileira   
+**label** Cinemateca Brasileira   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Cinemateca de Cuba   
+> **iri** https://fiafcore.org/ontology/CinematecaDeCuba   
+**label** Cinemateca de Cuba   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Cinemateca Portuguesa   
+> **iri** https://fiafcore.org/ontology/CinematecaPortuguesa   
+**label** Cinemateca Portuguesa   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Cinemateca Uruguaya   
+> **iri** https://fiafcore.org/ontology/CinematecaUruguaya   
+**label** Cinemateca Uruguaya   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Cineteca Nacional   
+> **iri** https://fiafcore.org/ontology/CinetecaNacional   
+**label** Cineteca Nacional   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Cineteca Nacional de Chile   
+> **iri** https://fiafcore.org/ontology/CinetecaNacionalDeChile   
+**label** Cineteca Nacional de Chile   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Cinémathèque de la Ville de Luxembourg   
+> **iri** https://fiafcore.org/ontology/CinémathèqueDeLaVilleDeLuxembourg   
+**label** Cinémathèque de la Ville de Luxembourg   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Cinémathèque française   
+> **iri** https://fiafcore.org/ontology/CinémathèqueFrançaise   
+**label** Cinémathèque française   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Cinémathèque Marocaine - Centre cinématographique Marocain (CCM)   
+> **iri** https://fiafcore.org/ontology/CinémathèqueMarocaineCentreCinématographiqueMarocainCcm   
+**label** Cinémathèque Marocaine - Centre cinématographique Marocain (CCM)   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Cinémathèque royale de Belgique   
+> **iri** https://fiafcore.org/ontology/CinémathèqueRoyaleDeBelgique   
+**label** Cinémathèque royale de Belgique   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Cinémathèque suisse   
+> **iri** https://fiafcore.org/ontology/CinémathèqueSuisse   
+**label** Cinémathèque suisse   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Deutsche Kinemathek   
+> **iri** https://fiafcore.org/ontology/DeutscheKinemathek   
+**label** Deutsche Kinemathek   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  DFF - Deutsches Filminstitut & Filmmuseum   
+> **iri** https://fiafcore.org/ontology/DffDeutschesFilminstitutFilmmuseum   
+**label** DFF - Deutsches Filminstitut & Filmmuseum   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  ECPAD - Établissement de communication et de production audiovisuelle de la Défense   
+> **iri** https://fiafcore.org/ontology/EcpadÉtablissementDeCommunicationEtDeProductionAudiovisuelleDeLaDéfense   
+**label** ECPAD - Établissement de communication et de production audiovisuelle de la Défense   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Euskadiko Filmategia Fundazioa   
+> **iri** https://fiafcore.org/ontology/EuskadikoFilmategiaFundazioa   
+**label** Euskadiko Filmategia Fundazioa   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Eye Filmmuseum   
+> **iri** https://fiafcore.org/ontology/EyeFilmmuseum   
+**label** Eye Filmmuseum   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Film Archive of the National Archives of Estonia   
+> **iri** https://fiafcore.org/ontology/FilmArchiveOfTheNationalArchivesOfEstonia   
+**label** Film Archive of the National Archives of Estonia   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Film Archive (Public Organization)   
+> **iri** https://fiafcore.org/ontology/FilmArchivePublicOrganization   
+**label** Film Archive (Public Organization)   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Filmarchiv Austria   
+> **iri** https://fiafcore.org/ontology/FilmarchivAustria   
+**label** Filmarchiv Austria   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Filmmuseum Düsseldorf   
+> **iri** https://fiafcore.org/ontology/FilmmuseumDüsseldorf   
+**label** Filmmuseum Düsseldorf   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Filmmuseum München   
+> **iri** https://fiafcore.org/ontology/FilmmuseumMünchen   
+**label** Filmmuseum München   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Filmoteca de Catalunya - ICEC   
+> **iri** https://fiafcore.org/ontology/FilmotecaDeCatalunyaIcec   
+**label** Filmoteca de Catalunya - ICEC   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Filmoteca de la Pontificia Universidad Catolica del Peru (PUPC)   
+> **iri** https://fiafcore.org/ontology/FilmotecaDeLaPontificiaUniversidadCatolicaDelPeruPupc   
+**label** Filmoteca de la Pontificia Universidad Catolica del Peru (PUPC)   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Filmoteca de la UNAM   
+> **iri** https://fiafcore.org/ontology/FilmotecaDeLaUnam   
+**label** Filmoteca de la UNAM   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Filmoteca Española   
+> **iri** https://fiafcore.org/ontology/FilmotecaEspañola   
+**label** Filmoteca Española   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Filmoteca Valenciana - Institut Valencià de Cultura   
+> **iri** https://fiafcore.org/ontology/FilmotecaValencianaInstitutValenciàDeCultura   
+**label** Filmoteca Valenciana - Institut Valencià de Cultura   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Filmoteca Vaticana   
+> **iri** https://fiafcore.org/ontology/FilmotecaVaticana   
+**label** Filmoteca Vaticana   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Filmoteka Narodowa - Instytut Audiowizualny (FINA)   
+> **iri** https://fiafcore.org/ontology/FilmotekaNarodowaInstytutAudiowizualnyFina   
+**label** Filmoteka Narodowa - Instytut Audiowizualny (FINA)   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Fondazione Centro Sperimentale di Cinematografia - Cineteca Nazionale   
+> **iri** https://fiafcore.org/ontology/FondazioneCentroSperimentaleDiCinematografiaCinetecaNazionale   
+**label** Fondazione Centro Sperimentale di Cinematografia - Cineteca Nazionale   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Fondazione Cineteca di Bologna   
+> **iri** https://fiafcore.org/ontology/FondazioneCinetecaDiBologna   
+**label** Fondazione Cineteca di Bologna   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Fondazione Cineteca Italiana   
+> **iri** https://fiafcore.org/ontology/FondazioneCinetecaItaliana   
+**label** Fondazione Cineteca Italiana   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Fundación Cinemateca Argentina   
+> **iri** https://fiafcore.org/ontology/FundaciónCinematecaArgentina   
+**label** Fundación Cinemateca Argentina   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Fundación Patrimonio Fílmico Colombiano   
+> **iri** https://fiafcore.org/ontology/FundaciónPatrimonioFílmicoColombiano   
+**label** Fundación Patrimonio Fílmico Colombiano   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  George Eastman Museum   
+> **iri** https://fiafcore.org/ontology/GeorgeEastmanMuseum   
+**label** George Eastman Museum   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Gosfilmofond of Russia   
+> **iri** https://fiafcore.org/ontology/GosfilmofondOfRussia   
+**label** Gosfilmofond of Russia   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Harvard Film Archive   
+> **iri** https://fiafcore.org/ontology/HarvardFilmArchive   
+**label** Harvard Film Archive   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Hong Kong Film Archive   
+> **iri** https://fiafcore.org/ontology/HongKongFilmArchive   
+**label** Hong Kong Film Archive   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Hrvatski Državni Arhiv - Hrvatska Kinoteka   
+> **iri** https://fiafcore.org/ontology/HrvatskiDržavniArhivHrvatskaKinoteka   
+**label** Hrvatski Državni Arhiv - Hrvatska Kinoteka   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  IFI Irish Film Archive   
+> **iri** https://fiafcore.org/ontology/IfiIrishFilmArchive   
+**label** IFI Irish Film Archive   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Imperial War Museums - Film Archive   
+> **iri** https://fiafcore.org/ontology/ImperialWarMuseumsFilmArchive   
+**label** Imperial War Museums - Film Archive   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Indiana University Libraries Moving Image Archive   
+> **iri** https://fiafcore.org/ontology/IndianaUniversityLibrariesMovingImageArchive   
+**label** Indiana University Libraries Moving Image Archive   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Israel Film Archive   
+> **iri** https://fiafcore.org/ontology/IsraelFilmArchive   
+**label** Israel Film Archive   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Joson Minjujui Inmingonghwaguk Kugga Yonghwa Munhongo   
+> **iri** https://fiafcore.org/ontology/JosonMinjujuiInmingonghwagukKuggaYonghwaMunhongo   
+**label** Joson Minjujui Inmingonghwaguk Kugga Yonghwa Munhongo   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Jugoslovenska Kinoteka   
+> **iri** https://fiafcore.org/ontology/JugoslovenskaKinoteka   
+**label** Jugoslovenska Kinoteka   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Kansallinen Audiovisuaalinen Instituutti   
+> **iri** https://fiafcore.org/ontology/KansallinenAudiovisuaalinenInstituutti   
+**label** Kansallinen Audiovisuaalinen Instituutti   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Kinoteka na Republika Severna Makedonija   
+> **iri** https://fiafcore.org/ontology/KinotekaNaRepublikaSevernaMakedonija   
+**label** Kinoteka na Republika Severna Makedonija   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Korean Film Archive   
+> **iri** https://fiafcore.org/ontology/KoreanFilmArchive   
+**label** Korean Film Archive   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Kvikmyndasafn Islands   
+> **iri** https://fiafcore.org/ontology/KvikmyndasafnIslands   
+**label** Kvikmyndasafn Islands   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  La Cineteca del Friuli   
+> **iri** https://fiafcore.org/ontology/LaCinetecaDelFriuli   
+**label** La Cineteca del Friuli   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  La Cinémathèque de Toulouse   
+> **iri** https://fiafcore.org/ontology/LaCinémathèqueDeToulouse   
+**label** La Cinémathèque de Toulouse   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  La Cinémathèque québécoise   
+> **iri** https://fiafcore.org/ontology/LaCinémathèqueQuébécoise   
+**label** La Cinémathèque québécoise   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Library and Archives Canada   
+> **iri** https://fiafcore.org/ontology/LibraryAndArchivesCanada   
+**label** Library and Archives Canada   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Library of Congress - National Audio-Visual Conservation Center (MBRS DIVISION)   
+> **iri** https://fiafcore.org/ontology/LibraryOfCongressNationalAudioVisualConservationCenterMbrsDivision   
+**label** Library of Congress - National Audio-Visual Conservation Center (MBRS DIVISION)   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Lichtspiel   
+> **iri** https://fiafcore.org/ontology/Lichtspiel   
+**label** Lichtspiel   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Museo Nazionale del Cinema - Fondazione Maria Adriana Prolo   
+> **iri** https://fiafcore.org/ontology/MuseoNazionaleDelCinemaFondazioneMariaAdrianaProlo   
+**label** Museo Nazionale del Cinema - Fondazione Maria Adriana Prolo   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  National Film and Sound Archive   
+> **iri** https://fiafcore.org/ontology/NationalFilmAndSoundArchive   
+**label** National Film and Sound Archive   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  National Film Archive of India   
+> **iri** https://fiafcore.org/ontology/NationalFilmArchiveOfIndia   
+**label** National Film Archive of India   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  National Film Archive of Iran   
+> **iri** https://fiafcore.org/ontology/NationalFilmArchiveOfIran   
+**label** National Film Archive of Iran   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  National Film Archive of Japan (NFAJ)   
+> **iri** https://fiafcore.org/ontology/NationalFilmArchiveOfJapanNfaj   
+**label** National Film Archive of Japan (NFAJ)   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  National Film Institute Hungary – Film Archive   
+> **iri** https://fiafcore.org/ontology/NationalFilmInstituteHungaryFilmArchive   
+**label** National Film Institute Hungary – Film Archive   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  National Library of Scotland - Moving Image Archive   
+> **iri** https://fiafcore.org/ontology/NationalLibraryOfScotlandMovingImageArchive   
+**label** National Library of Scotland - Moving Image Archive   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  National Library of Wales - Screen and Sound Archives   
+> **iri** https://fiafcore.org/ontology/NationalLibraryOfWalesScreenAndSoundArchives   
+**label** National Library of Wales - Screen and Sound Archives   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  NGA Taonga Sound & Vision   
+> **iri** https://fiafcore.org/ontology/NgaTaongaSoundVision   
+**label** NGA Taonga Sound & Vision   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  North West Film Archive   
+> **iri** https://fiafcore.org/ontology/NorthWestFilmArchive   
+**label** North West Film Archive   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Národní filmový archiv   
+> **iri** https://fiafcore.org/ontology/NárodníFilmovýArchiv   
+**label** Národní filmový archiv   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Oleksandr Dovzhenko National Centre   
+> **iri** https://fiafcore.org/ontology/OleksandrDovzhenkoNationalCentre   
+**label** Oleksandr Dovzhenko National Centre   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Sinema-TV Enstitüsü   
+> **iri** https://fiafcore.org/ontology/SinemaTvEnstitüsü   
+**label** Sinema-TV Enstitüsü   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Slovak Film Institute   
+> **iri** https://fiafcore.org/ontology/SlovakFilmInstitute   
+**label** Slovak Film Institute   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Slovenian Cinematheque   
+> **iri** https://fiafcore.org/ontology/SlovenianCinematheque   
+**label** Slovenian Cinematheque   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  South African National Film, Video and Sound Archives   
+> **iri** https://fiafcore.org/ontology/SouthAfricanNationalFilmVideoAndSoundArchives   
+**label** South African National Film, Video and Sound Archives   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Steven Spielberg Jewish Film Archive   
+> **iri** https://fiafcore.org/ontology/StevenSpielbergJewishFilmArchive   
+**label** Steven Spielberg Jewish Film Archive   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Svenska Filminstitutet   
+> **iri** https://fiafcore.org/ontology/SvenskaFilminstitutet   
+**label** Svenska Filminstitutet   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Tainiothiki Tis Ellados   
+> **iri** https://fiafcore.org/ontology/TainiothikiTisEllados   
+**label** Tainiothiki Tis Ellados   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Taiwan Film and Audiovisual Institute   
+> **iri** https://fiafcore.org/ontology/TaiwanFilmAndAudiovisualInstitute   
+**label** Taiwan Film and Audiovisual Institute   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  The Danish Film Institute   
+> **iri** https://fiafcore.org/ontology/TheDanishFilmInstitute   
+**label** The Danish Film Institute   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  The Museum of Modern Art - Department of Film   
+> **iri** https://fiafcore.org/ontology/TheMuseumOfModernArtDepartmentOfFilm   
+**label** The Museum of Modern Art - Department of Film   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  The National Library of Norway - Film and Broadcasting   
+> **iri** https://fiafcore.org/ontology/TheNationalLibraryOfNorwayFilmAndBroadcasting   
+**label** The National Library of Norway - Film and Broadcasting   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  TIFF Film Reference Library   
+> **iri** https://fiafcore.org/ontology/TiffFilmReferenceLibrary   
+**label** TIFF Film Reference Library   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  UC Berkeley Art Museum & Pacific Film Archive (BAMPFA)   
+> **iri** https://fiafcore.org/ontology/UcBerkeleyArtMuseumPacificFilmArchiveBampfa   
+**label** UC Berkeley Art Museum & Pacific Film Archive (BAMPFA)   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  UCLA Film & Television Archive   
+> **iri** https://fiafcore.org/ontology/UclaFilmTelevisionArchive   
+**label** UCLA Film & Television Archive   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Vietnam Film Institute   
+> **iri** https://fiafcore.org/ontology/VietnamFilmInstitute   
+**label** Vietnam Film Institute   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
+####  Österreichisches Filmmuseum   
+> **iri** https://fiafcore.org/ontology/ÖsterreichischesFilmmuseum   
+**label** Österreichisches Filmmuseum   
+**source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
+**type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
 ## Object Properties   
 ####  Has Activity   
 > **iri** https://fiafcore.org/ontology/hasActivity   

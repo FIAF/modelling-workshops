@@ -232,6 +232,11 @@ fiaf:Academy a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.15"^^xsd:string ;
     rdfs:subClassOf fiaf:ImageFormat .
 
+fiaf:AcademyFilmArchive a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Academy Film Archive"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
 fiaf:Accessioned a owl:Class ;
     rdfs:label "Accessioned"@en ;
     dc:source "FIAF Cataloguing Manual D.7.3"^^xsd:string ;
@@ -378,6 +383,31 @@ fiaf:Anscocolor a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourStandard .
 
+fiaf:ArchivoDeImagenesEnMovimientoArchivoGeneralDePuertoRico a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Archivo de Imagenes en Movimiento - Archivo General de Puerto Rico"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:ArchivoNacionalDeLaImagenYLaPalabraSodre a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Archivo Nacional de la Imagen y la Palabra - Sodre"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:ArhivRepublikeSlovenijeSlovenskiFilmskiArhivSfa a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Arhiv Republike Slovenije - Slovenski Filmski Arhiv (SFA)"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:ArhivaNationalaDeFilmeCinematecaRomana a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Arhiva Nationala de Filme - Cinemateca Romana"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:ArkiviQendrorShteterorIFilmitAqshf a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Arkivi Qendror Shteteror I Filmit (AQSHF)"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
 fiaf:Armorer a owl:Class ;
     rdfs:label "Armorer"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.8.7"^^xsd:string ;
@@ -436,6 +466,11 @@ fiaf:Augmented a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.2"^^xsd:string ;
     rdfs:subClassOf fiaf:VariantType .
 
+fiaf:BangladeshFilmArchive a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Bangladesh Film Archive"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
 fiaf:BasedonCharactersCreated a owl:Class ;
     rdfs:label "Based on Characters Created"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.4.5"^^xsd:string ;
@@ -464,6 +499,11 @@ fiaf:BetacamSP a owl:Class ;
     rdfs:label "Betacam SP"@en ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Video .
+
+fiaf:BfiNationalArchive a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "BFI National Archive"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:BlackAndWhite a owl:Class ;
     rdfs:label "Black and White"@en ;
@@ -530,6 +570,16 @@ fiaf:Buckled a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.16.1"^^xsd:string ;
     rdfs:subClassOf fiaf:BaseEmulsionCondition .
 
+fiaf:BulgarskaNacionalnaFilmoteka a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Bulgarska Nacionalna Filmoteka"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:Bundesarchiv a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Bundesarchiv"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
 fiaf:CD a owl:Class ;
     rdfs:label "CD"@en ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
@@ -593,6 +643,11 @@ fiaf:CensorshipEvent a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.13"^^xsd:string ;
     rdfs:subClassOf fiaf:DecisionEvent .
 
+fiaf:CentreNationalDuCinémaEtDeLImageAniméeDirectionDuPatrimoineCinématographique a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Centre national du cinéma et de l’image animée - Direction du patrimoine cinématographique"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
 fiaf:CharacterDesign a owl:Class ;
     rdfs:label "Character Design"@en,
         "Character Designer"@en ;
@@ -606,6 +661,11 @@ fiaf:ChiefLightingTechnician a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.5.11"^^xsd:string ;
     rdfs:subClassOf fiaf:CinematographyActivity .
 
+fiaf:ChinaFilmArchive a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "China Film Archive"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
 fiaf:Choreographer a owl:Class ;
     rdfs:label "Choreographed"@en,
         "Choreographer"@en,
@@ -613,6 +673,61 @@ fiaf:Choreographer a owl:Class ;
         "Dance Director"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.11.15"^^xsd:string ;
     rdfs:subClassOf fiaf:MusicActivity .
+
+fiaf:CinematecaBrasileira a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Cinemateca Brasileira"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:CinematecaDeCuba a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Cinemateca de Cuba"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:CinematecaPortuguesa a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Cinemateca Portuguesa"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:CinematecaUruguaya a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Cinemateca Uruguaya"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:CinetecaNacional a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Cineteca Nacional"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:CinetecaNacionalDeChile a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Cineteca Nacional de Chile"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:CinémathèqueDeLaVilleDeLuxembourg a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Cinémathèque de la Ville de Luxembourg"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:CinémathèqueFrançaise a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Cinémathèque française"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:CinémathèqueMarocaineCentreCinématographiqueMarocainCcm a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Cinémathèque Marocaine - Centre cinématographique Marocain (CCM)"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:CinémathèqueRoyaleDeBelgique a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Cinémathèque royale de Belgique"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:CinémathèqueSuisse a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Cinémathèque suisse"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:ClapperLoader a owl:Class ;
     rdfs:label "Camera Loader"@en,
@@ -731,11 +846,6 @@ fiaf:CopyrightOwnerPresent a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms C.2.2"^^xsd:string ;
     rdfs:subClassOf fiaf:CopyrightandDistributionActivity .
 
-fiaf:CorporateBody a owl:Class ;
-    rdfs:label "Corporate Body"@en ;
-    dc:source "FIAF Cataloguing Manual 1.4.1"^^xsd:string ;
-    rdfs:subClassOf fiaf:Agent .
-
 fiaf:CorrectedTitle a owl:Class ;
     rdfs:label "Corrected Title"@en ;
     dc:source "FIAF Cataloguing Manual A.2.4.1"^^xsd:string ;
@@ -822,6 +932,16 @@ fiaf:Dancer a owl:Class ;
         "Dancer"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.7.5"^^xsd:string ;
     rdfs:subClassOf fiaf:CastActivity .
+
+fiaf:DeutscheKinemathek a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Deutsche Kinemathek"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:DffDeutschesFilminstitutFilmmuseum a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "DFF - Deutsches Filminstitut & Filmmuseum"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:Diacetate a owl:Class ;
     rdfs:label "Diacetate"@en ;
@@ -1024,11 +1144,21 @@ fiaf:Eastmancolor a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourStandard .
 
+fiaf:EcpadÉtablissementDeCommunicationEtDeProductionAudiovisuelleDeLaDéfense a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "ECPAD - Établissement de communication et de production audiovisuelle de la Défense"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
 fiaf:Electrician a owl:Class ;
     rdfs:label "Electrician"@en,
         "Lamp Operator"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.5.13"^^xsd:string ;
     rdfs:subClassOf fiaf:CinematographyActivity .
+
+fiaf:EuskadikoFilmategiaFundazioa a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Euskadiko Filmategia Fundazioa"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:Excerpt a owl:Class ;
     rdfs:label "Clip"@en,
@@ -1050,6 +1180,11 @@ fiaf:Extra a owl:Class ;
     rdfs:label "Extra"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.7.4"^^xsd:string ;
     rdfs:subClassOf fiaf:CastActivity .
+
+fiaf:EyeFilmmuseum a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Eye Filmmuseum"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:FFmpeg a owl:Class ;
     rdfs:label "FFmpeg"@en ;
@@ -1099,6 +1234,16 @@ fiaf:File a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.6"^^xsd:string ;
     rdfs:subClassOf fiaf:Extent .
 
+fiaf:FilmArchiveOfTheNationalArchivesOfEstonia a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Film Archive of the National Archives of Estonia"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:FilmArchivePublicOrganization a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Film Archive (Public Organization)"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
 fiaf:FilmEditor a owl:Class ;
     rdfs:label "Edited"@en,
         "Editing"@en,
@@ -1113,6 +1258,56 @@ fiaf:FilmPrintingEvent a owl:Class ;
     rdfs:label "Film Printing Event"@en ;
     dc:source "FIAF Cataloguing Manual D.14"^^xsd:string ;
     rdfs:subClassOf fiaf:ManufactureEvent .
+
+fiaf:FilmarchivAustria a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Filmarchiv Austria"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:FilmmuseumDüsseldorf a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Filmmuseum Düsseldorf"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:FilmmuseumMünchen a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Filmmuseum München"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:FilmotecaDeCatalunyaIcec a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Filmoteca de Catalunya - ICEC"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:FilmotecaDeLaPontificiaUniversidadCatolicaDelPeruPupc a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Filmoteca de la Pontificia Universidad Catolica del Peru (PUPC)"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:FilmotecaDeLaUnam a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Filmoteca de la UNAM"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:FilmotecaEspañola a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Filmoteca Española"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:FilmotecaValencianaInstitutValenciàDeCultura a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Filmoteca Valenciana - Institut Valencià de Cultura"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:FilmotecaVaticana a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Filmoteca Vaticana"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:FilmotekaNarodowaInstytutAudiowizualnyFina a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Filmoteka Narodowa - Instytut Audiowizualny (FINA)"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:Flat a owl:Class ;
     rdfs:label "Flat"@en ;
@@ -1136,6 +1331,21 @@ fiaf:Foley a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.9.9"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundActivity .
 
+fiaf:FondazioneCentroSperimentaleDiCinematografiaCinetecaNazionale a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Fondazione Centro Sperimentale di Cinematografia - Cineteca Nazionale"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:FondazioneCinetecaDiBologna a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Fondazione Cineteca di Bologna"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:FondazioneCinetecaItaliana a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Fondazione Cineteca Italiana"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
 fiaf:Fuji a owl:Class ;
     rdfs:label "Fuji"@en ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
@@ -1156,16 +1366,36 @@ fiaf:FullScreen a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.15"^^xsd:string ;
     rdfs:subClassOf fiaf:ImageFormat .
 
+fiaf:FundaciónCinematecaArgentina a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Fundación Cinemateca Argentina"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:FundaciónPatrimonioFílmicoColombiano a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Fundación Patrimonio Fílmico Colombiano"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
 fiaf:GeneratorOperator a owl:Class ;
     rdfs:label "Generator Operator"@en,
         "Genny Operator"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.5.17"^^xsd:string ;
     rdfs:subClassOf fiaf:CinematographyActivity .
 
+fiaf:GeorgeEastmanMuseum a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "George Eastman Museum"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
 fiaf:Gigabyte a owl:Class ;
     rdfs:label "Gigabyte"@en ;
     dc:source "FIAF Cataloguing Manual 2.3.5.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Extent .
+
+fiaf:GosfilmofondOfRussia a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Gosfilmofond of Russia"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:Gowns a owl:Class ;
     rdfs:label "Gowns"@en ;
@@ -1199,6 +1429,11 @@ fiaf:HalfInchAudioReel a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Audio .
 
+fiaf:HarvardFilmArchive a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Harvard Film Archive"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
 fiaf:HeavyScratches a owl:Class ;
     rdfs:label "Heavy Scratches"@en ;
     dc:source "FIAF Cataloguing Manual D.16.1"^^xsd:string ;
@@ -1229,6 +1464,11 @@ fiaf:HomeViewingPublicationManifestation a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.5.6"^^xsd:string ;
     rdfs:subClassOf fiaf:Manifestation .
 
+fiaf:HongKongFilmArchive a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Hong Kong Film Archive"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
 fiaf:Hours a owl:Class ;
     rdfs:label "Hours"@en ;
     dc:source "FIAF Cataloguing Manual 2.3.5.3"^^xsd:string ;
@@ -1238,6 +1478,11 @@ fiaf:Hp a owl:Class ;
     rdfs:label "HP"@en ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
+
+fiaf:HrvatskiDržavniArhivHrvatskaKinoteka a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Hrvatski Državni Arhiv - Hrvatska Kinoteka"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:Hydrolysis a owl:Class ;
     rdfs:label "Hydrolysis"@en ;
@@ -1249,6 +1494,21 @@ fiaf:IdentifiyingTitle a owl:Class ;
         "Uniform Title"@en ;
     dc:source "FIAF Cataloguing Manual A.2.1"^^xsd:string ;
     rdfs:subClassOf fiaf:Title .
+
+fiaf:IfiIrishFilmArchive a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "IFI Irish Film Archive"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:ImperialWarMuseumsFilmArchive a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Imperial War Museums - Film Archive"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:IndianaUniversityLibrariesMovingImageArchive a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Indiana University Libraries Moving Image Archive"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:IndoorShootingEvent a owl:Class ;
     rdfs:label "Indoor Shooting Event"@en ;
@@ -1276,10 +1536,30 @@ fiaf:Interviewer a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.7.9"^^xsd:string ;
     rdfs:subClassOf fiaf:CastActivity .
 
+fiaf:IsraelFilmArchive a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Israel Film Archive"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
 fiaf:JPEG2000 a owl:Class ;
     rdfs:label "JPEG2000"@en ;
     dc:source "FIAF Cataloguing Manual D.7.10"^^xsd:string ;
     rdfs:subClassOf fiaf:Codec .
+
+fiaf:JosonMinjujuiInmingonghwagukKuggaYonghwaMunhongo a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Joson Minjujui Inmingonghwaguk Kugga Yonghwa Munhongo"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:JugoslovenskaKinoteka a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Jugoslovenska Kinoteka"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:KansallinenAudiovisuaalinenInstituutti a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Kansallinen Audiovisuaalinen Instituutti"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:KeyGrip a owl:Class ;
     rdfs:label "Grip"@en,
@@ -1297,10 +1577,40 @@ fiaf:Kinemacolor a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourStandard .
 
+fiaf:KinotekaNaRepublikaSevernaMakedonija a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Kinoteka na Republika Severna Makedonija"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
 fiaf:Kodachrome a owl:Class ;
     rdfs:label "Kodachrome"@en ;
     dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourStandard .
+
+fiaf:KoreanFilmArchive a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Korean Film Archive"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:KvikmyndasafnIslands a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Kvikmyndasafn Islands"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:LaCinetecaDelFriuli a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "La Cineteca del Friuli"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:LaCinémathèqueDeToulouse a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "La Cinémathèque de Toulouse"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:LaCinémathèqueQuébécoise a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "La Cinémathèque québécoise"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:Laboratory a owl:Class ;
     rdfs:label "Laboratory"@en,
@@ -1346,6 +1656,21 @@ fiaf:Letterbox a owl:Class ;
     rdfs:label "Letterbox"@en ;
     dc:source "FIAF Cataloguing Manual D.7.15"^^xsd:string ;
     rdfs:subClassOf fiaf:ImageFormat .
+
+fiaf:LibraryAndArchivesCanada a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Library and Archives Canada"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:LibraryOfCongressNationalAudioVisualConservationCenterMbrsDivision a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Library of Congress - National Audio-Visual Conservation Center (MBRS DIVISION)"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:Lichtspiel a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Lichtspiel"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:LightScratches a owl:Class ;
     rdfs:label "Light Scratches"@en ;
@@ -1520,6 +1845,11 @@ fiaf:Mould a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.16.3"^^xsd:string ;
     rdfs:subClassOf fiaf:SurfaceDeposit .
 
+fiaf:MuseoNazionaleDelCinemaFondazioneMariaAdrianaProlo a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Museo Nazionale del Cinema - Fondazione Maria Adriana Prolo"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
 fiaf:MusicArranger a owl:Class ;
     rdfs:label "Arranged"@en,
         "Arrangements"@en,
@@ -1611,6 +1941,41 @@ fiaf:Narrator a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.7.10"^^xsd:string ;
     rdfs:subClassOf fiaf:CastActivity .
 
+fiaf:NationalFilmAndSoundArchive a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "National Film and Sound Archive"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:NationalFilmArchiveOfIndia a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "National Film Archive of India"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:NationalFilmArchiveOfIran a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "National Film Archive of Iran"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:NationalFilmArchiveOfJapanNfaj a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "National Film Archive of Japan (NFAJ)"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:NationalFilmInstituteHungaryFilmArchive a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "National Film Institute Hungary – Film Archive"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:NationalLibraryOfScotlandMovingImageArchive a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "National Library of Scotland - Moving Image Archive"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:NationalLibraryOfWalesScreenAndSoundArchives a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "National Library of Wales - Screen and Sound Archives"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
 fiaf:NeedleSound a owl:Class ;
     rdfs:label "Needle Sound"@en ;
     dc:source "FIAF Cataloguing Manual D.7.5"^^xsd:string ;
@@ -1623,6 +1988,11 @@ fiaf:NegativeCutter a owl:Class ;
         "Negative Matching"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.12.3"^^xsd:string ;
     rdfs:subClassOf fiaf:LaboratoryActivity .
+
+fiaf:NgaTaongaSoundVision a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "NGA Taonga Sound & Vision"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:Nitrate a owl:Class ;
     rdfs:label "Nitrate"@en ;
@@ -1644,6 +2014,11 @@ fiaf:NonTheatricalDistributionEvent a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.10"^^xsd:string ;
     rdfs:subClassOf fiaf:PublicationEvent .
 
+fiaf:NorthWestFilmArchive a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "North West Film Archive"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
 fiaf:NotForReleaseEvent a owl:Class ;
     rdfs:label "Not For Release Event"@en ;
     dc:source "FIAF Cataloguing Manual D.10"^^xsd:string ;
@@ -1654,6 +2029,11 @@ fiaf:NotForReleaseManifestation a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.5.4"^^xsd:string ;
     rdfs:subClassOf fiaf:Manifestation .
 
+fiaf:NárodníFilmovýArchiv a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Národní filmový archiv"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
 fiaf:OffAirRecordingEvent a owl:Class ;
     rdfs:label "Off-Air Recording Event"@en ;
     dc:source "FIAF Cataloguing Manual D.15.1"^^xsd:string ;
@@ -1663,6 +2043,11 @@ fiaf:OilDeposits a owl:Class ;
     rdfs:label "Oil deposits"@en ;
     dc:source "FIAF Cataloguing Manual D.16.3"^^xsd:string ;
     rdfs:subClassOf fiaf:SurfaceDeposit .
+
+fiaf:OleksandrDovzhenkoNationalCentre a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Oleksandr Dovzhenko National Centre"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:OnLoan a owl:Class ;
     rdfs:label "On Loan"@en ;
@@ -2152,6 +2537,11 @@ fiaf:Silent a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.4"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundCharacteristic .
 
+fiaf:SinemaTvEnstitüsü a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Sinema-TV Enstitüsü"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
 fiaf:Singer a owl:Class ;
     rdfs:label "Singer"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.7.6"^^xsd:string ;
@@ -2163,6 +2553,16 @@ fiaf:SingingVoice a owl:Class ;
         "Singing Voice"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.11.8"^^xsd:string ;
     rdfs:subClassOf fiaf:MusicActivity .
+
+fiaf:SlovakFilmInstitute a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Slovak Film Institute"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:SlovenianCinematheque a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Slovenian Cinematheque"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:SongComposer a owl:Class ;
     rdfs:label "Song Composer"@en,
@@ -2221,6 +2621,11 @@ fiaf:SoundSupervisor a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.9.2"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundActivity .
 
+fiaf:SouthAfricanNationalFilmVideoAndSoundArchives a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "South African National Film, Video and Sound Archives"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
 fiaf:SpecialEffects a owl:Class ;
     rdfs:label "Effects"@en,
         "FX"@en,
@@ -2264,6 +2669,11 @@ fiaf:SteadicamOperator a owl:Class ;
     rdfs:label "Steadicam Operator"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.5.6"^^xsd:string ;
     rdfs:subClassOf fiaf:CinematographyActivity .
+
+fiaf:StevenSpielbergJewishFilmArchive a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Steven Spielberg Jewish Film Archive"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:Sticky a owl:Class ;
     rdfs:label "Sticky"@en ;
@@ -2354,6 +2764,21 @@ fiaf:SuppliedDevisedTitle a owl:Class ;
     dc:source "FIAF Cataloguing Manual A.2.5"^^xsd:string ;
     rdfs:subClassOf fiaf:Title .
 
+fiaf:SvenskaFilminstitutet a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Svenska Filminstitutet"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:TainiothikiTisEllados a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Tainiothiki Tis Ellados"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:TaiwanFilmAndAudiovisualInstitute a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Taiwan Film and Audiovisual Institute"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
 fiaf:Tears a owl:Class ;
     rdfs:label "Tears"@en ;
     dc:source "FIAF Cataloguing Manual D.16.1"^^xsd:string ;
@@ -2379,6 +2804,21 @@ fiaf:Terabyte a owl:Class ;
     dc:source "FIAF Cataloguing Manual 2.3.5.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Extent .
 
+fiaf:TheDanishFilmInstitute a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "The Danish Film Institute"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:TheMuseumOfModernArtDepartmentOfFilm a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "The Museum of Modern Art - Department of Film"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:TheNationalLibraryOfNorwayFilmAndBroadcasting a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "The National Library of Norway - Film and Broadcasting"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
 fiaf:TheatricalDistribution a owl:Class ;
     rdfs:label "Theatrical Distribution"@en ;
     dc:source "FIAF Cataloguing Manual D.5.2"^^xsd:string ;
@@ -2388,6 +2828,11 @@ fiaf:TheatricalDistributionEvent a owl:Class ;
     rdfs:label "Theatrical Distribution Event"@en ;
     dc:source "FIAF Cataloguing Manual D.10"^^xsd:string ;
     rdfs:subClassOf fiaf:PublicationEvent .
+
+fiaf:TiffFilmReferenceLibrary a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "TIFF Film Reference Library"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:Tinted a owl:Class ;
     rdfs:label "Tinted"@en ;
@@ -2449,6 +2894,16 @@ fiaf:TwoInchAudioReel a owl:Class ;
     rdfs:label "2-inch Audioreel"@en ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Audio .
+
+fiaf:UcBerkeleyArtMuseumPacificFilmArchiveBampfa a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "UC Berkeley Art Museum & Pacific Film Archive (BAMPFA)"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
+fiaf:UclaFilmTelevisionArchive a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "UCLA Film & Television Archive"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:UnderwaterCameraman a owl:Class ;
     rdfs:label "Underwater Cameraman"@en,
@@ -2526,6 +2981,11 @@ fiaf:VideoCopyingEvent a owl:Class ;
 fiaf:VideoStream a owl:Class ;
     rdfs:label "Video Stream"@en ;
     rdfs:subClassOf fiaf:Stream .
+
+fiaf:VietnamFilmInstitute a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Vietnam Film Institute"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:Viewing a owl:Class ;
     rdfs:label "Viewing"@en ;
@@ -2937,6 +3397,11 @@ fiaf:nominationOnly a owl:DatatypeProperty ;
     rdfs:domain fiaf:AwardsOrNominationsEvent ;
     rdfs:range xsd:boolean .
 
+fiaf:ÖsterreichischesFilmmuseum a owl:NamedIndividual,
+        fiaf:CorporateBody ;
+    rdfs:label "Österreichisches Filmmuseum"@en ;
+    dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
+
 fiaf:CensorshipActivity a owl:Class ;
     rdfs:label "Censorship Activity"@en ;
     dc:source "FIAF Glossary of Filmographic Terms C.1"^^xsd:string ;
@@ -3275,4 +3740,9 @@ fiaf:Item a owl:Class ;
 fiaf:Stock a owl:Class ;
     rdfs:label "Stock"@en ;
     dc:source "FIAF Cataloguing Manual 3.1.5.14"^^xsd:string .
+
+fiaf:CorporateBody a owl:Class ;
+    rdfs:label "Corporate Body"@en ;
+    dc:source "FIAF Cataloguing Manual 1.4.1"^^xsd:string ;
+    rdfs:subClassOf fiaf:Agent .
 
