@@ -6362,6 +6362,13 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
 **domain** [fiaf:Event](https://fiafcore.org/ontology/Event)   
 **range** [fiaf:Activity](https://fiafcore.org/ontology/Activity)   
+####  Has Agent   
+> **iri** https://fiafcore.org/ontology/hasAgent   
+**label** Has Agent   
+**source** FIAF Cataloguing Manual 1.4.1, 2.4.1, 3.3.1   
+**type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
+**domain** [fiaf:Activity](https://fiafcore.org/ontology/Activity)   
+**range** [fiaf:Agent](https://fiafcore.org/ontology/Agent)   
 ####  Has Base   
 > **iri** https://fiafcore.org/ontology/hasBase   
 **label** Has Base   
