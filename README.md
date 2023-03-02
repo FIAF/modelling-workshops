@@ -6431,13 +6431,6 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
 **domain** [fiaf:WorkVariant](https://fiafcore.org/ontology/WorkVariant)   
 **range** [fiaf:Country](https://fiafcore.org/ontology/Country)   
-####  Has Element Type   
-> **iri** https://fiafcore.org/ontology/hasElementType   
-**label** Has Element Type   
-**source** FIAF Cataloguing Manual 3.1.4   
-**type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
-**domain** [fiaf:Item](https://fiafcore.org/ontology/Item)   
-**range** [fiaf:ElementType](https://fiafcore.org/ontology/ElementType)   
 ####  Has Event   
 > **iri** https://fiafcore.org/ontology/hasEvent   
 **label** Has Event   
@@ -6641,6 +6634,13 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
 **domain** [fiaf:WorkVariant](https://fiafcore.org/ontology/WorkVariant)   
 **range** [fiaf:WorkVariant](https://fiafcore.org/ontology/WorkVariant)   
+####  Is Element   
+> **iri** https://fiafcore.org/ontology/isElement   
+**label** Is Element   
+**source** FIAF Cataloguing Manual 3.1.4   
+**type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
+**domain** [fiaf:Item](https://fiafcore.org/ontology/Item)   
+**range** [fiaf:Element](https://fiafcore.org/ontology/Element)   
 ## Datatype Properties   
 ####  Has Achievement   
 > **iri** https://fiafcore.org/ontology/hasAchievement   

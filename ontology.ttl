@@ -5313,12 +5313,6 @@ fiaf:hasDecisionID a owl:DatatypeProperty ;
     rdfs:domain fiaf:DecisionEvent ;
     rdfs:range xsd:string .
 
-fiaf:hasElementType a owl:ObjectProperty ;
-    rdfs:label "Has Element Type"@en ;
-    dc:source "FIAF Cataloguing Manual 3.1.4"^^xsd:string ;
-    rdfs:domain fiaf:Item ;
-    rdfs:range fiaf:ElementType .
-
 fiaf:hasEvent a owl:ObjectProperty ;
     rdfs:label "Has Event"@en ;
     dc:source "FIAF Cataloguing Manual 1.4.2"^^xsd:string,
@@ -5549,6 +5543,12 @@ fiaf:hasWorkVariant a owl:ObjectProperty ;
     dc:source "FIAF Cataloguing Manual 1.4.5"^^xsd:string ;
     rdfs:domain fiaf:WorkVariant ;
     rdfs:range fiaf:WorkVariant .
+
+fiaf:isElement a owl:ObjectProperty ;
+    rdfs:label "Is Element"@en ;
+    dc:source "FIAF Cataloguing Manual 3.1.4"^^xsd:string ;
+    rdfs:domain fiaf:Item ;
+    rdfs:range fiaf:Element .
 
 fiaf:nominationOnly a owl:DatatypeProperty ;
     rdfs:label "Nomination Only"@en ;
