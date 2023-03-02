@@ -1,0 +1,88 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix fiaf: <https://fiafcore.org/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Ontology
+
+<https://fiafcore.org/ontology/> a owl:Ontology ;
+    dc:title "FIAFcore" .
+
+# Class
+
+<https://fiafcore.org/ontology/Element> a owl:Class ;
+    rdfs:label "Element"@en ;
+    dc:source "FIAF Cataloguing Manual 3.1.4"^^xsd:string .
+
+# Subclasses
+
+<https://fiafcore.org/ontology/ColourPositive> a owl:Class ;
+    rdfs:label "Colour Positive"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
+    rdfs:subClassOf fiaf:Element .
+    
+<https://fiafcore.org/ontology/ColourNegative> a owl:Class ;
+    rdfs:label "Colour Negative"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
+    rdfs:subClassOf fiaf:Element .
+    
+<https://fiafcore.org/ontology/CopperTonedPositive> a owl:Class ;
+    rdfs:label "Copper Toned Positive"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
+    rdfs:subClassOf fiaf:Element .
+    
+<https://fiafcore.org/ontology/CyanMatrix> a owl:Class ;
+    rdfs:label "Cyan Matrix"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
+    rdfs:subClassOf fiaf:Element .
+    
+<https://fiafcore.org/ontology/DirectBWPositive> a owl:Class ;
+    rdfs:label "Direct BW Positive"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
+    rdfs:subClassOf fiaf:Element .
+    
+<https://fiafcore.org/ontology/OriginalNegative> a owl:Class ;
+    rdfs:label "Original negative"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
+    rdfs:subClassOf fiaf:Element .
+
+<https://fiafcore.org/ontology/DuplicateNegative> a owl:Class ;
+    rdfs:label "Duplicate negative"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
+    rdfs:subClassOf fiaf:Element .
+    
+<https://fiafcore.org/ontology/Positive> a owl:Class ;
+    rdfs:label "Positive"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
+    rdfs:subClassOf fiaf:Element .
+
+<https://fiafcore.org/ontology/OriginalPositiveReversalFilm)> a owl:Class ;
+    rdfs:label "Original positive (reversal film)"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
+    rdfs:subClassOf fiaf:Element .
+    
+<https://fiafcore.org/ontology/DuplicatePositive> a owl:Class ;
+    rdfs:label "Duplicate positive"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
+    rdfs:subClassOf fiaf:Element .
+    
+<https://fiafcore.org/ontology/Lavender> a owl:Class ;
+    rdfs:label "Lavender"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
+    rdfs:subClassOf fiaf:Element .
+    
+<https://fiafcore.org/ontology/ImageNegative> a owl:Class ;
+    rdfs:label "Image negative"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
+    rdfs:subClassOf fiaf:Element .
+    
+<https://fiafcore.org/ontology/SoundNegative> a owl:Class ;
+    rdfs:label "Sound negative"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
+    rdfs:subClassOf fiaf:Element .
+    
+<https://fiafcore.org/ontology/DCP> a owl:Class ;
+    rdfs:label "DCP"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
+    rdfs:subClassOf fiaf:Element .
