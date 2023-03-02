@@ -5236,12 +5236,10 @@ fiaf:hasAchievement a owl:DatatypeProperty ;
 
 fiaf:hasActivity a owl:ObjectProperty ;
     rdfs:label "Has Activity"@en ;
-    dc:source "FIAF Cataloguing Manual 1.4.1.1"^^xsd:string,
-        "FIAF Cataloguing Manual 2.4.1.1"^^xsd:string,
+    dc:source "FIAF Cataloguing Manual 2.4.1.1"^^xsd:string,
         "FIAF Cataloguing Manual 3.3.1"^^xsd:string ;
     rdfs:domain fiaf:Item,
-        fiaf:Manifestation,
-        fiaf:WorkVariant ;
+        fiaf:Manifestation ;
     rdfs:range fiaf:Activity .
 
 fiaf:hasActvity a owl:ObjectProperty ;

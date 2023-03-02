@@ -6358,9 +6358,9 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 ####  Has Activity   
 > **iri** https://fiafcore.org/ontology/hasActivity   
 **label** Has Activity   
-**source** FIAF Cataloguing Manual 1.4.1.1, FIAF Cataloguing Manual 2.4.1.1, FIAF Cataloguing Manual 3.3.1   
+**source** FIAF Cataloguing Manual 2.4.1.1, FIAF Cataloguing Manual 3.3.1   
 **type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
-**domain** [fiaf:Item](https://fiafcore.org/ontology/Item), [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation), [fiaf:WorkVariant](https://fiafcore.org/ontology/WorkVariant)   
+**domain** [fiaf:Item](https://fiafcore.org/ontology/Item), [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation)   
 **range** [fiaf:Activity](https://fiafcore.org/ontology/Activity)   
 ####  Has Actvity   
 > **iri** https://fiafcore.org/ontology/hasActvity   
