@@ -69,12 +69,6 @@
 
 # Object Properties
 
-<https://fiafcore.org/ontology/hasActivity> a owl:ObjectProperty ;
-    rdfs:label "Has Activity"@en ;
-    dc:source "FIAF Cataloguing Manual 2.4.1.1"^^xsd:string ;
-    rdfs:domain fiaf:Manifestation ;
-    rdfs:range fiaf:Activity .
-
 <https://fiafcore.org/ontology/hasColourCharacteristic> a owl:ObjectProperty ;
     rdfs:label "Has Colour Characteristic"@en ;
     dc:source "FIAF Cataloguing Manual 2.3.5"^^xsd:string ;
