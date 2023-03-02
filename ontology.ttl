@@ -1182,6 +1182,16 @@ fiaf:ColourBlackAndWhite a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.11"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourCharacteristic .
 
+fiaf:ColourNegative a owl:Class ;
+    rdfs:label "Colour Negative"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
+    rdfs:subClassOf fiaf:Element .
+
+fiaf:ColourPositive a owl:Class ;
+    rdfs:label "Colour Positive"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
+    rdfs:subClassOf fiaf:Element .
+
 fiaf:Colourized a owl:Class ;
     rdfs:label "Colourized"@en ;
     dc:source "FIAF Cataloguing Manual D.2"^^xsd:string ;
@@ -1259,6 +1269,11 @@ fiaf:Cooperationbyoutsidebodyinmakingoffilm a owl:Class ;
     rdfs:label "Cooperation (by outside body in making of film)"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.2.22"^^xsd:string ;
     rdfs:subClassOf fiaf:ProducingActivity .
+
+fiaf:CopperTonedPositive a owl:Class ;
+    rdfs:label "Copper Toned Positive"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
+    rdfs:subClassOf fiaf:Element .
 
 fiaf:Coproducer a owl:Class ;
     rdfs:label "Co-producer"@en ;
@@ -1362,6 +1377,11 @@ fiaf:Curaçao a owl:Class ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
+fiaf:CyanMatrix a owl:Class ;
+    rdfs:label "Cyan Matrix"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
+    rdfs:subClassOf fiaf:Element .
+
 fiaf:Cyprus a owl:Class ;
     rdfs:label "Cyprus"@en ;
     dc:source "ISO 3166-1"^^xsd:string ;
@@ -1396,6 +1416,11 @@ fiaf:D5 a owl:Class ;
     rdfs:label "D5"@en ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Video .
+
+fiaf:DCP a owl:Class ;
+    rdfs:label "DCP"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
+    rdfs:subClassOf fiaf:Element .
 
 fiaf:DPX a owl:Class ;
     rdfs:label "DPX"@en ;
@@ -1483,6 +1508,11 @@ fiaf:DigitisationEvent a owl:Class ;
     rdfs:label "Digitisation Event"@en ;
     dc:source "FIAF Cataloguing Manual D.12"^^xsd:string ;
     rdfs:subClassOf fiaf:PreservationEvent .
+
+fiaf:DirectBWPositive a owl:Class ;
+    rdfs:label "Direct BW Positive"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
+    rdfs:subClassOf fiaf:Element .
 
 fiaf:Director a owl:Class ;
     rdfs:label "Directed"@en,
@@ -1643,6 +1673,16 @@ fiaf:DubbingSpeakers a owl:Class ;
         "Speakers"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.9.15"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundActivity .
+
+fiaf:DuplicateNegative a owl:Class ;
+    rdfs:label "Duplicate negative"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
+    rdfs:subClassOf fiaf:Element .
+
+fiaf:DuplicatePositive a owl:Class ;
+    rdfs:label "Duplicate positive"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
+    rdfs:subClassOf fiaf:Element .
 
 fiaf:DuplicationEvent a owl:Class ;
     rdfs:label "Duplication Event"@en ;
@@ -2360,6 +2400,11 @@ fiaf:Igbo a owl:Class ;
     dc:source "ISO 639-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Language .
 
+fiaf:ImageNegative a owl:Class ;
+    rdfs:label "Image negative"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
+    rdfs:subClassOf fiaf:Element .
+
 fiaf:ImperialWarMuseumsFilmArchive a owl:NamedIndividual,
         fiaf:CorporateBody ;
     rdfs:label "Imperial War Museums - Film Archive"@en ;
@@ -2728,6 +2773,11 @@ fiaf:Latvian a owl:Class ;
     rdfs:label "Latvian"@en ;
     dc:source "ISO 639-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Language .
+
+fiaf:Lavender a owl:Class ;
+    rdfs:label "Lavender"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
+    rdfs:subClassOf fiaf:Element .
 
 fiaf:LeadMan a owl:Class ;
     rdfs:label "Lead Man"@en,
@@ -3511,6 +3561,16 @@ fiaf:Oracle a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
+fiaf:OriginalNegative a owl:Class ;
+    rdfs:label "Original negative"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
+    rdfs:subClassOf fiaf:Element .
+
+fiaf:OriginalPositiveReversalFilm\) a owl:Class ;
+    rdfs:label "Original positive (reversal film)"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
+    rdfs:subClassOf fiaf:Element .
+
 fiaf:OriginalSource a owl:Class ;
     rdfs:label "Based on"@en,
         "Original Source"@en,
@@ -3675,6 +3735,11 @@ fiaf:Portuguese a owl:Class ;
     rdfs:label "Portuguese"@en ;
     dc:source "ISO 639-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Language .
+
+fiaf:Positive a owl:Class ;
+    rdfs:label "Positive"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
+    rdfs:subClassOf fiaf:Element .
 
 fiaf:PostProductionEvent a owl:Class ;
     rdfs:label "Post-Production"@en ;
@@ -4367,6 +4432,11 @@ fiaf:SoundEngineer a owl:Class ;
         "Sound Engineer"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.9.5"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundActivity .
+
+fiaf:SoundNegative a owl:Class ;
+    rdfs:label "Sound negative"@en ;
+    dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
+    rdfs:subClassOf fiaf:Element .
 
 fiaf:SoundRecordist a owl:Class ;
     rdfs:label "Production Mixer"@en,
@@ -5862,6 +5932,10 @@ fiaf:Base a owl:Class ;
 fiaf:Form a owl:Class ;
     rdfs:label "Form"@en ;
     dc:source "FIAF Glossary of Filmographic Terms D.1.1"^^xsd:string .
+
+fiaf:Element a owl:Class ;
+    rdfs:label "Element"@en ;
+    dc:source "FIAF Cataloguing Manual 3.1.4"^^xsd:string .
 
 fiaf:WorkVariant a owl:Class ;
     rdfs:label "Work/Variant"@en,

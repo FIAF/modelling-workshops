@@ -1328,6 +1328,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Colour Characteristic   
 **source** FIAF Cataloguing Manual 2.3.4.4   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+####  Colour Negative   
+> **iri** https://fiafcore.org/ontology/ColourNegative   
+**label** Colour Negative   
+**source** FIAF Cataloguing Manual D.7.8   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Element](https://fiafcore.org/ontology/Element)   
+####  Colour Positive   
+> **iri** https://fiafcore.org/ontology/ColourPositive   
+**label** Colour Positive   
+**source** FIAF Cataloguing Manual D.7.8   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Element](https://fiafcore.org/ontology/Element)   
 ####  Colour Standard   
 > **iri** https://fiafcore.org/ontology/ColourStandard   
 **label** Colour Standard   
@@ -1428,6 +1440,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.2.22   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ProducingActivity](https://fiafcore.org/ontology/ProducingActivity)   
+####  Copper Toned Positive   
+> **iri** https://fiafcore.org/ontology/CopperTonedPositive   
+**label** Copper Toned Positive   
+**source** FIAF Cataloguing Manual D.7.8   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Element](https://fiafcore.org/ontology/Element)   
 ####  Co-producer   
 > **iri** https://fiafcore.org/ontology/Coproducer   
 **label** Co-producer   
@@ -1559,6 +1577,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 3166-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Cyan Matrix   
+> **iri** https://fiafcore.org/ontology/CyanMatrix   
+**label** Cyan Matrix   
+**source** FIAF Cataloguing Manual D.7.8   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Element](https://fiafcore.org/ontology/Element)   
 ####  Cyprus   
 > **iri** https://fiafcore.org/ontology/Cyprus   
 **label** Cyprus   
@@ -1601,6 +1625,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.2   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Video](https://fiafcore.org/ontology/Video)   
+####  DCP   
+> **iri** https://fiafcore.org/ontology/DCP   
+**label** DCP   
+**source** FIAF Cataloguing Manual D.7.8   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Element](https://fiafcore.org/ontology/Element)   
 ####  DPX   
 > **iri** https://fiafcore.org/ontology/DPX   
 **label** DPX   
@@ -1721,6 +1751,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.12   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:PreservationEvent](https://fiafcore.org/ontology/PreservationEvent)   
+####  Direct BW Positive   
+> **iri** https://fiafcore.org/ontology/DirectBWPositive   
+**label** Direct BW Positive   
+**source** FIAF Cataloguing Manual D.7.8   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Element](https://fiafcore.org/ontology/Element)   
 ####  Directing Activity   
 > **iri** https://fiafcore.org/ontology/DirectingActivity   
 **label** Directing Activity   
@@ -1901,6 +1937,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.9.15   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:SoundActivity](https://fiafcore.org/ontology/SoundActivity)   
+####  Duplicate negative   
+> **iri** https://fiafcore.org/ontology/DuplicateNegative   
+**label** Duplicate negative   
+**source** FIAF Cataloguing Manual D.7.8   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Element](https://fiafcore.org/ontology/Element)   
+####  Duplicate positive   
+> **iri** https://fiafcore.org/ontology/DuplicatePositive   
+**label** Duplicate positive   
+**source** FIAF Cataloguing Manual D.7.8   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Element](https://fiafcore.org/ontology/Element)   
 ####  Duplication Event   
 > **iri** https://fiafcore.org/ontology/DuplicationEvent   
 **label** Duplication Event   
@@ -1967,6 +2015,11 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Glossary of Filmographic Terms B.5.13   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:CinematographyActivity](https://fiafcore.org/ontology/CinematographyActivity)   
+####  Element   
+> **iri** https://fiafcore.org/ontology/Element   
+**label** Element   
+**source** FIAF Cataloguing Manual 3.1.4   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 ####  English   
 > **iri** https://fiafcore.org/ontology/English   
 **label** English   
@@ -2644,6 +2697,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.15   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:ImageCharacteristic](https://fiafcore.org/ontology/ImageCharacteristic)   
+####  Image negative   
+> **iri** https://fiafcore.org/ontology/ImageNegative   
+**label** Image negative   
+**source** FIAF Cataloguing Manual D.7.8   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Element](https://fiafcore.org/ontology/Element)   
 ####  Image Ratio   
 > **iri** https://fiafcore.org/ontology/ImageRatio   
 **label** Image Ratio   
@@ -3043,6 +3102,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Lavender   
+> **iri** https://fiafcore.org/ontology/Lavender   
+**label** Lavender   
+**source** FIAF Cataloguing Manual D.7.8   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Element](https://fiafcore.org/ontology/Element)   
 ####  Lead Man, Lead Person, Swing Gang   
 > **iri** https://fiafcore.org/ontology/LeadMan   
 **label** Lead Man, Lead Person, Swing Gang   
@@ -3869,6 +3934,18 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.16   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Stock](https://fiafcore.org/ontology/Stock)   
+####  Original negative   
+> **iri** https://fiafcore.org/ontology/OriginalNegative   
+**label** Original negative   
+**source** FIAF Cataloguing Manual D.7.8   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Element](https://fiafcore.org/ontology/Element)   
+####  Original positive (reversal film)   
+> **iri** https://fiafcore.org/ontology/OriginalPositiveReversalFilm)   
+**label** Original positive (reversal film)   
+**source** FIAF Cataloguing Manual D.7.8   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Element](https://fiafcore.org/ontology/Element)   
 ####  Based on, Original Source, Source Material   
 > **iri** https://fiafcore.org/ontology/OriginalSource   
 **label** Based on, Original Source, Source Material   
@@ -4067,6 +4144,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
+####  Positive   
+> **iri** https://fiafcore.org/ontology/Positive   
+**label** Positive   
+**source** FIAF Cataloguing Manual D.7.8   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Element](https://fiafcore.org/ontology/Element)   
 ####  Post-Production   
 > **iri** https://fiafcore.org/ontology/PostProductionEvent   
 **label** Post-Production   
@@ -4886,6 +4969,12 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Sound Fixation   
 **source** FIAF Cataloguing Manual 2.3.4.3.2, 3.1.5.4   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+####  Sound negative   
+> **iri** https://fiafcore.org/ontology/SoundNegative   
+**label** Sound negative   
+**source** FIAF Cataloguing Manual D.7.8   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Element](https://fiafcore.org/ontology/Element)   
 ####  Production Mixer, Production Sound Mixer, Sound Mixer, Sound Recorded, Sound Recorder, Sound Recordist   
 > **iri** https://fiafcore.org/ontology/SoundRecordist   
 **label** Production Mixer, Production Sound Mixer, Sound Mixer, Sound Recorded, Sound Recorder, Sound Recordist   
