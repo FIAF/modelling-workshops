@@ -40,11 +40,11 @@
     rdfs:domain fiaf:Item ;
     rdfs:range fiaf:ColourCharacteristic .
 
-<https://fiafcore.org/ontology/hasElementType> a owl:ObjectProperty ;
-    rdfs:label "Has Element Type"@en ;
+<https://fiafcore.org/ontology/isElement> a owl:ObjectProperty ;
+    rdfs:label "Is Element"@en ;
     dc:source "FIAF Cataloguing Manual 3.1.4"^^xsd:string ;
     rdfs:domain fiaf:Item ;
-    rdfs:range fiaf:ElementType .
+    rdfs:range fiaf:Element .
 
 <https://fiafcore.org/ontology/hasEvent> a owl:ObjectProperty ;
     rdfs:label "Has Event"@en ;
