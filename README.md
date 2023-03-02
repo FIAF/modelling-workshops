@@ -6355,13 +6355,6 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** [https://www.fiafnet.org/pages/Community/Members.html](https://www.fiafnet.org/pages/Community/Members.html)   
 **type** [http://www.w3.org/2002/07/owl#NamedIndividual](http://www.w3.org/2002/07/owl#NamedIndividual), [fiaf:CorporateBody](https://fiafcore.org/ontology/CorporateBody)   
 ## Object Properties   
-####  Has Activity   
-> **iri** https://fiafcore.org/ontology/hasActivity   
-**label** Has Activity   
-**source** FIAF Cataloguing Manual 2.4.1.1   
-**type** [owl:ObjectProperty](http://www.w3.org/2002/07/owl#ObjectProperty)   
-**domain** [fiaf:Manifestation](https://fiafcore.org/ontology/Manifestation)   
-**range** [fiaf:Activity](https://fiafcore.org/ontology/Activity)   
 ####  Has Actvity   
 > **iri** https://fiafcore.org/ontology/hasActvity   
 **label** Has Actvity   

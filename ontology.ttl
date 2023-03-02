@@ -5234,12 +5234,6 @@ fiaf:hasAchievement a owl:DatatypeProperty ;
     rdfs:domain fiaf:AwardsOrNominationsEvent ;
     rdfs:range xsd:string .
 
-fiaf:hasActivity a owl:ObjectProperty ;
-    rdfs:label "Has Activity"@en ;
-    dc:source "FIAF Cataloguing Manual 2.4.1.1"^^xsd:string ;
-    rdfs:domain fiaf:Manifestation ;
-    rdfs:range fiaf:Activity .
-
 fiaf:hasActvity a owl:ObjectProperty ;
     rdfs:label "Has Actvity"@en ;
     dc:source "FIAF Cataloguing Manual 1.4.1.1, 2.4.1.1, 3.3.1.1"^^xsd:string ;
@@ -5883,6 +5877,10 @@ fiaf:CinematographyActivity a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.5"^^xsd:string ;
     rdfs:subClassOf fiaf:Activity .
 
+fiaf:Manifestation a owl:Class ;
+    rdfs:label "Manifestation"@en ;
+    dc:source "FIAF Cataloguing Manual 2.0"^^xsd:string .
+
 fiaf:ProducingActivity a owl:Class ;
     rdfs:label "Producing Activity"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.2"^^xsd:string ;
@@ -5892,10 +5890,6 @@ fiaf:ProductionDesignActivity a owl:Class ;
     rdfs:label "Production Design Activity"@en ;
     dc:source "FIAF Glossary of Filmographic Terms B.6"^^xsd:string ;
     rdfs:subClassOf fiaf:Activity .
-
-fiaf:Manifestation a owl:Class ;
-    rdfs:label "Manifestation"@en ;
-    dc:source "FIAF Cataloguing Manual 2.0"^^xsd:string .
 
 fiaf:Item a owl:Class ;
     rdfs:label "Item"@en ;
