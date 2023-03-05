@@ -312,9 +312,9 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.7   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Base](https://fiafcore.org/ontology/Base)   
-####  Activity   
+####  Activity, Actividad, Activité   
 > **iri** https://fiafcore.org/ontology/Activity   
-**label** Activity   
+**label** Activity, Actividad, Activité   
 **source** FIAF Cataloguing Manual 1.4.1.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 ####  Adaptation, Adapted   

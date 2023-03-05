@@ -5947,7 +5947,9 @@ fiaf:WorkVariant a owl:Class ;
     dc:source "FIAF Cataloguing Manual 1.0"^^xsd:string .
 
 fiaf:Activity a owl:Class ;
-    rdfs:label "Activity"@en ;
+    rdfs:label "Activity"@en,
+        "Actividad"@es,
+        "Activité"@fr ;
     dc:source "FIAF Cataloguing Manual 1.4.1.1"^^xsd:string .
 
 fiaf:Extent a owl:Class ;
