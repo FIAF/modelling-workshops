@@ -3941,7 +3941,7 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Element](https://fiafcore.org/ontology/Element)   
 ####  Original positive (reversal film)   
-> **iri** https://fiafcore.org/ontology/OriginalPositiveReversalFilm)   
+> **iri** https://fiafcore.org/ontology/OriginalPositiveReversalFilm   
 **label** Original positive (reversal film)   
 **source** FIAF Cataloguing Manual D.7.8   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   

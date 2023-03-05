@@ -3566,7 +3566,7 @@ fiaf:OriginalNegative a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
     rdfs:subClassOf fiaf:Element .
 
-fiaf:OriginalPositiveReversalFilm\) a owl:Class ;
+fiaf:OriginalPositiveReversalFilm a owl:Class ;
     rdfs:label "Original positive (reversal film)"@en ;
     dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
     rdfs:subClassOf fiaf:Element .
