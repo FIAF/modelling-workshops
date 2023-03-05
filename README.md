@@ -5877,9 +5877,9 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
-####  Work/Variant, l'Œuvre/la Variante   
+####  Work/Variant, Obra/Variante, l'Œuvre/la Variante   
 > **iri** https://fiafcore.org/ontology/WorkVariant   
-**label** Work/Variant, l'Œuvre/la Variante   
+**label** Work/Variant, Obra/Variante, l'Œuvre/la Variante   
 **source** FIAF Cataloguing Manual 1.0   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 ####  Working Title   
