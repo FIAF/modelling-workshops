@@ -567,8 +567,8 @@
     dc:source "ISO 639-1"^^xsd:string ;
     rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
 
-<https://fiafcore.org/ontology/Nauru> a owl:Class ;
-    rdfs:label "Nauru"@en ;
+<https://fiafcore.org/ontology/Nauruan> a owl:Class ;
+    rdfs:label "Nauruan"@en ;
     dc:source "ISO 639-1"^^xsd:string ;
     rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
 
