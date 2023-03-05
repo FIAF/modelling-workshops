@@ -13,6 +13,8 @@
 
 <https://fiafcore.org/ontology/Activity> a owl:Class ;
     rdfs:label "Activity"@en ;
+    rdfs:label "Actividad"@es ;
+    rdfs:label "Activité"@fr ;
     dc:source "FIAF Cataloguing Manual 1.4.1.1"^^xsd:string .
 
 # Subclasses
