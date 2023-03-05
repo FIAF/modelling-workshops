@@ -3697,9 +3697,15 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 ####  Nauru   
 > **iri** https://fiafcore.org/ontology/Nauru   
 **label** Nauru   
-**source** ISO 3166-1, ISO 639-1   
+**source** ISO 3166-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
-**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country), [fiaf:Language](https://fiafcore.org/ontology/Language)   
+**subclass of** [fiaf:Country](https://fiafcore.org/ontology/Country)   
+####  Nauruan   
+> **iri** https://fiafcore.org/ontology/Nauruan   
+**label** Nauruan   
+**source** ISO 639-1   
+**type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
+**subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
 ####  Navajo; Navaho   
 > **iri** https://fiafcore.org/ontology/NavajoNavaho   
 **label** Navajo; Navaho   

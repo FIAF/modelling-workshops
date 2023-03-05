@@ -3343,10 +3343,13 @@ fiaf:NationalLibraryOfWalesScreenAndSoundArchives a owl:NamedIndividual,
 
 fiaf:Nauru a owl:Class ;
     rdfs:label "Nauru"@en ;
-    dc:source "ISO 3166-1"^^xsd:string,
-        "ISO 639-1"^^xsd:string ;
-    rdfs:subClassOf fiaf:Country,
-        fiaf:Language .
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf fiaf:Country .
+
+fiaf:Nauruan a owl:Class ;
+    rdfs:label "Nauruan"@en ;
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf fiaf:Language .
 
 fiaf:NavajoNavaho a owl:Class ;
     rdfs:label "Navajo; Navaho"@en ;
