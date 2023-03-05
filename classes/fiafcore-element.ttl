@@ -57,7 +57,7 @@
     dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
     rdfs:subClassOf fiaf:Element .
 
-<https://fiafcore.org/ontology/OriginalPositiveReversalFilm)> a owl:Class ;
+<https://fiafcore.org/ontology/OriginalPositiveReversalFilm> a owl:Class ;
     rdfs:label "Original positive (reversal film)"@en ;
     dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
     rdfs:subClassOf fiaf:Element .
