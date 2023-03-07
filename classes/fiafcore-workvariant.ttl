@@ -4,11 +4,6 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-# Ontology
-
-<https://fiafcore.org/ontology/> a owl:Ontology ;
-    dc:title "FIAFcore" .
-
 # Class
 
 <https://fiafcore.org/ontology/WorkVariant> a owl:Class ;
@@ -24,7 +19,12 @@
 
 <https://fiafcore.org/ontology/Analytic> a owl:Class ;
     rdfs:label "Analytic"@en ;
+    rdfs:label "Analítica"@es ;
+    rdfs:label "Analytique"@fr ;
     dc:source "FIAF Cataloguing Manual D.1"^^xsd:string ;
+    dc:description "Content that is contained in another content. A component part may itself be either monographic or serial."@en ;
+    dc:description "Contenido que está vinculado con otro contenido. Una parte componente puede ser monográfica o seriada."@es ;
+    dc:description "Contenu présent dans un autre contenu. Une partie composante peut être elle-même une monographie ou une série/film à épisodes"@fr ;
     rdfs:subClassOf fiaf:WorkVariant .
 
 <https://fiafcore.org/ontology/Collection> a owl:Class ;
@@ -41,6 +41,7 @@
     rdfs:label "Serial"@en ;
     dc:source "FIAF Cataloguing Manual D.1"^^xsd:string ;
     rdfs:subClassOf fiaf:WorkVariant .
+
 
 # Object Properties
 
