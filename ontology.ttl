@@ -387,7 +387,12 @@ fiaf:AnalogueSound a owl:Class ;
     rdfs:subClassOf fiaf:SoundFixation .
 
 fiaf:Analytic a owl:Class ;
-    rdfs:label "Analytic"@en ;
+    rdfs:label "Analytic"@en,
+        "Analítica"@es,
+        "Analytique"@fr ;
+    dc:description "Content that is contained in another content. A component part may itself be either monographic or serial."@en,
+        "Contenido que está vinculado con otro contenido. Una parte componente puede ser monográfica o seriada."@es,
+        "Contenu présent dans un autre contenu. Une partie composante peut être elle-même une monographie ou une série/film à épisodes"@fr ;
     dc:source "FIAF Cataloguing Manual D.1"^^xsd:string ;
     rdfs:subClassOf fiaf:WorkVariant .
 

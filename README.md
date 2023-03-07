@@ -472,9 +472,9 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** FIAF Cataloguing Manual D.7.5   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:SoundFixation](https://fiafcore.org/ontology/SoundFixation)   
-####  Analytic   
+####  Analytic, Analítica, Analytique   
 > **iri** https://fiafcore.org/ontology/Analytic   
-**label** Analytic   
+**label** Analytic, Analítica, Analytique   
 **source** FIAF Cataloguing Manual D.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:WorkVariant](https://fiafcore.org/ontology/WorkVariant)   
