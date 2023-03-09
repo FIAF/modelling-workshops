@@ -392,7 +392,7 @@ fiaf:Analytic a owl:Class ;
         "Analytique"@fr ;
     dc:description "Content that is contained in another content. A component part may itself be either monographic or serial."@en,
         "Contenido que está vinculado con otro contenido. Una parte componente puede ser monográfica o seriada."@es,
-        "Contenu présent dans un autre contenu. Une partie composante peut être elle-même une monographie ou une série/film à épisodes"@fr ;
+        "Contenu présent dans un autre contenu. Une partie composante peut être elle-même une monographie ou une série/film à épisodes."@fr ;
     dc:source "FIAF Cataloguing Manual D.1"^^xsd:string ;
     rdfs:subClassOf fiaf:WorkVariant .
 
@@ -1154,7 +1154,12 @@ fiaf:CocosKeelingIslands a owl:Class ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Collection a owl:Class ;
-    rdfs:label "Collection"@en ;
+    rdfs:label "Collection"@en,
+        "Colección"@es,
+        "Collection"@fr ;
+    dc:description "Content issued in several independent parts; an ‘umbrella’ work title covering a number of different Works/Variants/Manifestations."@en,
+        "Contenido emitido en varias partes independientes; una Obra bajo el título “Umbrella” comprende una serie de Obras/Variantes/Manifestaciones diferentes."@es,
+        "Contenu émis en plusieurs parties indépendantes ; un titre d’Œuvre générique recouvrant plusieurs Œuvres/Variantes/Manifestations différentes."@fr ;
     dc:source "FIAF Cataloguing Manual D.1"^^xsd:string ;
     rdfs:subClassOf fiaf:WorkVariant .
 
@@ -3171,7 +3176,12 @@ fiaf:Mongolian a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Monographic a owl:Class ;
-    rdfs:label "Monographic"@en ;
+    rdfs:label "Monographic"@en,
+        "Monográfico"@es,
+        "Monographie"@fr ;
+    dc:description "Complete content in one part or intended to be completed in a finite number of parts."@en,
+        "Contenido completo en una parte o destinado a completarse en un número finito de partes."@es,
+        "Contenu complet en une seule partie ou destiné à être complété par un nombre fini de parties."@fr ;
     dc:source "FIAF Cataloguing Manual D.1"^^xsd:string ;
     rdfs:subClassOf fiaf:WorkVariant .
 
@@ -4229,7 +4239,12 @@ fiaf:Serbian a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Serial a owl:Class ;
-    rdfs:label "Serial"@en ;
+    rdfs:label "Serial"@en,
+        "Serie"@es,
+        "Série"@fr ;
+    dc:description "Content issued in successive parts and intended to be continued indefinitely, or across a span of time."@en,
+        "Contenido emitido en partes sucesivas y destinado a continuar de forma indefinida o en un lapso de tiempo específico."@es,
+        "Contenu émis en parties successives et destiné à être poursuivi indéfiniment ou durant un certain temps."@fr ;
     dc:source "FIAF Cataloguing Manual D.1"^^xsd:string ;
     rdfs:subClassOf fiaf:WorkVariant .
 

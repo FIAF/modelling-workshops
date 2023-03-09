@@ -1287,9 +1287,9 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **label** Codec   
 **source** FIAF Cataloguing Manual 3.1.5.16, 3.1.5.17   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
-####  Collection   
+####  Collection, Colección, Collection   
 > **iri** https://fiafcore.org/ontology/Collection   
-**label** Collection   
+**label** Collection, Colección, Collection   
 **source** FIAF Cataloguing Manual D.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:WorkVariant](https://fiafcore.org/ontology/WorkVariant)   
@@ -3562,9 +3562,9 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
-####  Monographic   
+####  Monographic, Monográfico, Monographie   
 > **iri** https://fiafcore.org/ontology/Monographic   
-**label** Monographic   
+**label** Monographic, Monográfico, Monographie   
 **source** FIAF Cataloguing Manual D.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:WorkVariant](https://fiafcore.org/ontology/WorkVariant)   
@@ -4737,9 +4737,9 @@ Draft ontology: [ontology.ttl](ontology.ttl)   [[WebVOWL](http://vowl.visualdata
 **source** ISO 639-1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:Language](https://fiafcore.org/ontology/Language)   
-####  Serial   
+####  Serial, Serie, Série   
 > **iri** https://fiafcore.org/ontology/Serial   
-**label** Serial   
+**label** Serial, Serie, Série   
 **source** FIAF Cataloguing Manual D.1   
 **type** [owl:Class](http://www.w3.org/2002/07/owl#Class)   
 **subclass of** [fiaf:WorkVariant](https://fiafcore.org/ontology/WorkVariant)   
