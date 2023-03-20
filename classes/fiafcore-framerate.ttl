@@ -4,11 +4,6 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-# Ontology
-
-<https://fiafcore.org/ontology/> a owl:Ontology ;
-    dc:title "FIAFcore" .
-
 # Class
 
 <https://fiafcore.org/ontology/FrameRate> a owl:Class ;
