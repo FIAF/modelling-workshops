@@ -1,100 +1,239 @@
-@prefix : <http://example.org/rules/> .
+@prefix : <https://fiafcore.org/mapping/> .
 @prefix fiaf: <https://fiafcore.org/ontology/> .
-@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rml: <http://semweb.mmlab.be/ns/rml#> .
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 
-### Map WorkVariants
-
-:MapWorkVariant a rr:TriplesMap;
+:work1
+  a rr:TriplesMap ;
   rml:logicalSource [
-    rml:source "cd6685c5.xml";
-    rml:referenceFormulation ql:XPath;
+    rml:source "cd6685c5.xml" ;
+    rml:referenceFormulation <http://semweb.mmlab.be/ns/ql#XPath> ;
     rml:iterator "/Filmwerk"
+  ] ;
+  rr:subjectMap [
+    rr:template "https://www.bundesarchiv.de/work/{@uuid}" ;
+    rr:class fiaf:WorkVariant
+  ] ;
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label ;
+    rr:objectMap [ rml:reference "IDTitel" ]
+  ], [
+    rr:predicate fiaf:hasCountry ;
+    rr:objectMap [ rr:template "https://www.bundesarchiv.de/country/{Ursprungsland}" ]
+  ], [
+    rr:predicate fiaf:hasEvent ;
+    rr:objectMap [ rr:template "https://www.bundesarchiv.de/event/{@uuid}" ]
+  ], [
+    rr:predicate fiaf:hasForm ;
+    rr:objectMap [ rr:template "https://www.bundesarchiv.de/form/{Filmart}" ]
+  ], [
+    rr:predicate fiaf:hasGenre ;
+    rr:objectMap [ rr:template "https://www.bundesarchiv.de/genre/{Gattung}" ]
+  ], [
+    rr:predicate fiaf:hasManifestation ;
+    rr:objectMap [ rr:template "https://www.bundesarchiv.de/manifestation/{Manifestation/@uuid}" ]
   ].
 
-:MapWorkVariant rr:subjectMap [
-  rr:template "https://www.bundesarchiv.de/work/{@uuid}"
-].
-
-:MapWorkVariant rr:predicateObjectMap [
-  rr:predicate rdf:type;
-  rr:objectMap [ rr:constant fiaf:WorkVariant ];
-].
-
-:MapWorkVariant rr:predicateObjectMap [
-  rr:predicate rdfs:label;
-  rr:objectMap [  rml:reference "IDTitel" ];
-].
-
-:MapWorkVariant rr:predicateObjectMap [
-  rr:predicate fiaf:hasManifestation;
-  rr:objectMap [ rr:template "https://www.bundesarchiv.de/manifestation/{Manifestation/@uuid}"
- ];
-].
-
-:MapWorkVariant rr:predicateObjectMap [
-  rr:predicate fiaf:hasCountry;
-  rr:objectMap [ rr:template "https://www.bundesarchiv.de/country/{Ursprungsland}"
- ];
-].
-
-:MapWorkVariant rr:predicateObjectMap [
-  rr:predicate fiaf:hasCountry;
-  rr:objectMap [ rr:template "https://www.bundesarchiv.de/country/{Ursprungsland}"
- ];
-].
-
-:MapWorkVariant rr:predicateObjectMap [
-  rr:predicate fiaf:hasForm;
-  rr:objectMap [ rr:template "https://www.bundesarchiv.de/form/{Gattung}"
- ];
-].
-
-### Map Manifestations
-
-:MapManifestation a rr:TriplesMap;
+:event1
+  a rr:TriplesMap ;
   rml:logicalSource [
-    rml:source "cd6685c5.xml";
-    rml:referenceFormulation ql:XPath;
+    rml:source "cd6685c5.xml" ;
+    rml:referenceFormulation <http://semweb.mmlab.be/ns/ql#XPath> ;
+    rml:iterator "/Filmwerk"
+  ] ;
+  rr:subjectMap [
+    rr:template "https://www.bundesarchiv.de/event/{@uuid}" ;
+    rr:class fiaf:ProductionEvent
+  ] ;
+  rr:predicateObjectMap [
+    rr:predicate fiaf:hasActivity ;
+    rr:objectMap [ rr:parentTriplesMap :activity1 ]
+  ], [
+    rr:predicate fiaf:hasActivity ;
+    rr:objectMap [ rr:parentTriplesMap :activity2 ]
+  ], [
+    rr:predicate fiaf:hasEventDate ;
+    rr:objectMap [ rml:reference "ProdJahrVon" ]
+  ], [
+    rr:predicate fiaf:hasEventDate ;
+    rr:objectMap [ rml:reference "ProdJahrBis" ]
+  ] .
+
+:activity1
+  a rr:TriplesMap ;
+  rml:logicalSource [
+    rml:source "cd6685c5.xml" ;
+    rml:referenceFormulation <http://semweb.mmlab.be/ns/ql#XPath> ;
+    rml:iterator "/Filmwerk/Credit/Person"
+  ] ;
+  rr:subjectMap [ rr:termType rr:BlankNode ] ;
+  rr:predicateObjectMap [
+    rr:predicate rdf:type ;
+    rr:objectMap [ rr:template "https://www.bundesarchiv.de/role/{Funktion/@Funktion}" ]
+  ], [
+    rr:predicate fiaf:hasAgent ;
+    rr:objectMap [ rr:template "https://www.bundesarchiv.de/agent/{@uuid}" ]
+  ], [
+    rr:predicate fiaf:CharacterName ;
+    rr:objectMap [ rml:reference "@Funktionsanmerkung" ]
+  ] .
+
+:activity2
+  a rr:TriplesMap ;
+  rml:logicalSource [
+    rml:source "cd6685c5.xml" ;
+    rml:referenceFormulation <http://semweb.mmlab.be/ns/ql#XPath> ;
+    rml:iterator "/Filmwerk/Credit/Koerperschaft"
+  ] ;
+  rr:subjectMap [ rr:termType rr:BlankNode ] ;
+  rr:predicateObjectMap [
+    rr:predicate rdf:type ;
+    rr:objectMap [ rr:template "https://www.bundesarchiv.de/role/{Funktion/@Funktion}" ]
+  ], [
+    rr:predicate fiaf:hasAgent ;
+    rr:objectMap [ rr:template "https://www.bundesarchiv.de/agent/{@uuid}" ]
+  ] .
+
+:agent1
+  a rr:TriplesMap ;
+  rml:logicalSource [
+    rml:source "cd6685c5.xml" ;
+    rml:referenceFormulation <http://semweb.mmlab.be/ns/ql#XPath> ;
+    rml:iterator "/Filmwerk/Credit/Person"
+  ] ;
+  rr:subjectMap [
+    rr:template "https://www.bundesarchiv.de/agent/{@uuid}" ;
+    rr:class fiaf:Person
+  ] ;
+  rr:predicateObjectMap [
+    rr:predicate fiaf:FirstName ;
+    rr:objectMap [ rml:reference "@Vorname" ]
+  ], [
+    rr:predicate fiaf:LastName ;
+    rr:objectMap [ rml:reference "@Nachname" ]
+  ] .
+
+:agent2
+  a rr:TriplesMap ;
+  rml:logicalSource [
+    rml:source "cd6685c5.xml" ;
+    rml:referenceFormulation <http://semweb.mmlab.be/ns/ql#XPath> ;
+    rml:iterator "/Filmwerk/Credit/Koerperschaft"
+  ] ;
+  rr:subjectMap [
+    rr:template "https://www.bundesarchiv.de/agent/{@uuid}" ;
+    rr:class fiaf:CorporateBody
+  ] ;
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label ;
+    rr:objectMap [ rml:reference "@Koerperschaftsname" ]
+  ] .
+
+:manifestation1
+  a rr:TriplesMap ;
+  rml:logicalSource [
+    rml:source "cd6685c5.xml" ;
+    rml:referenceFormulation <http://semweb.mmlab.be/ns/ql#XPath> ;
     rml:iterator "/Filmwerk/Manifestation"
-  ].
+  ] ;
+    rr:subjectMap [
+    rr:template "https://www.bundesarchiv.de/manifestation/{@uuid}" ;
+    rr:class fiaf:Manifestation
+  ] ;
+    rr:predicateObjectMap [
+      rr:predicate fiaf:hasColourCharacteristic ;
+      rr:objectMap [ rr:template "https://www.bundesarchiv.de/colourcharacteristic/{Farbe}" ]
+  ], [
+    rr:predicate fiaf:hasExtent ;
+    rr:objectMap [ rr:parentTriplesMap :extent1 ]
+  ], [
+    rr:predicate fiaf:hasItem ;
+    rr:objectMap [ rr:template "https://www.bundesarchiv.de/item/{Exemplar/@uuid}" ]
+  ], [
+    rr:predicate fiaf:hasLanguageUsage ;
+    rr:objectMap [ rr:parentTriplesMap :language1 ]
+  ], [
+    rr:predicate fiaf:hasTitle ;
+    rr:objectMap [ rr:parentTriplesMap :title1 ]
+  ] .
 
-:MapManifestation rr:subjectMap [
-  rr:template "https://www.bundesarchiv.de/manifestation/{@uuid}"
-].
-
-:MapManifestation rr:predicateObjectMap [
-  rr:predicate rdf:type;
-  rr:objectMap [ rr:constant fiaf:Manifestation ];
-].
-
-:MapManifestation rr:predicateObjectMap [
-  rr:predicate fiaf:hasItem;
-  rr:objectMap [ rr:template "https://www.bundesarchiv.de/item/{Exemplar/@uuid}"
- ];
-].
-
-### Map Items
-
-:MapItem a rr:TriplesMap;
+:extent1
+  a rr:TriplesMap ;
   rml:logicalSource [
-    rml:source "cd6685c5.xml";
-    rml:referenceFormulation ql:XPath;
+    rml:source "cd6685c5.xml" ;
+    rml:referenceFormulation <http://semweb.mmlab.be/ns/ql#XPath> ;
+    rml:iterator "/Filmwerk/Manifestation"
+  ] ;
+  rr:subjectMap [ rr:termType rr:BlankNode; rr:class fiaf:Minutes ] ;
+  rr:predicateObjectMap [
+    rr:predicate fiaf:hasExtentValue ;
+    rr:objectMap [ rml:reference "Gesamtlaenge"]
+  ] .
+
+:language1
+  a rr:TriplesMap ;
+  rml:logicalSource [
+    rml:source "cd6685c5.xml" ;
+    rml:referenceFormulation <http://semweb.mmlab.be/ns/ql#XPath> ;
+    rml:iterator "/Filmwerk/Manifestation/Sprache"
+  ] ;
+  rr:subjectMap [ rr:termType rr:BlankNode ] ;
+  rr:predicateObjectMap [
+    rr:predicate rdf:type ;
+    rr:objectMap [ rr:template "https://www.bundesarchiv.de/languageusage/{@sprachgebrauch}" ]
+  ], [
+    rr:predicate fiaf:hasLanguage ;
+    rr:objectMap [ rr:template "https://www.bundesarchiv.de/language/{@sprache}"]
+  ] .
+
+:title1
+  a rr:TriplesMap ;
+  rml:logicalSource [
+    rml:source "cd6685c5.xml" ;
+    rml:referenceFormulation <http://semweb.mmlab.be/ns/ql#XPath> ;
+    rml:iterator "/Filmwerk/Manifestation/Filmtitel"
+  ] ;
+  rr:subjectMap [ rr:termType rr:BlankNode ] ;
+  rr:predicateObjectMap [
+    rr:predicate rdf:type ;
+    rr:objectMap [ rr:template "https://www.bundesarchiv.de/titletype/{@typ}" ]
+  ], [
+    rr:predicate fiaf:hasTitleValue ;
+    rr:objectMap [ rml:reference "@titel" ]
+  ] .
+
+:item1
+  a rr:TriplesMap ;
+  rml:logicalSource [
+    rml:source "cd6685c5.xml" ;
+    rml:referenceFormulation <http://semweb.mmlab.be/ns/ql#XPath> ;
     rml:iterator "/Filmwerk/Manifestation/Exemplar"
-  ].
-
-:MapItem rr:subjectMap [
-  rr:template "https://www.bundesarchiv.de/item/{@uuid}"
-].
-
-:MapItem rr:predicateObjectMap [
-  rr:predicate rdf:type;
-  rr:objectMap [ rr:template "https://www.bundesarchiv.de/itemtype/{Aufbewahrungseinheit/Materialart}" ];
-].
-
-:MapItem rr:predicateObjectMap [
-  rr:predicate fiaf:hasCarrier;
-  rr:objectMap [ rr:template "https://www.bundesarchiv.de/carrier/{Aufbewahrungseinheit/@uuid}"
- ];
-].
+  ] ;
+    rr:subjectMap [
+    rr:template "https://www.bundesarchiv.de/item/{@uuid}" ;
+    rr:class fiaf:Item
+  ] ;
+  rr:predicateObjectMap [
+    rr:predicate rdf:type ;
+    rr:objectMap [ rr:template "https://www.bundesarchiv.de/itemtype/{Aufbewahrungseinheit/Materialart}" ]
+  ], [
+    rr:predicate fiaf:hasBase ;
+    rr:objectMap [  rr:template "https://www.bundesarchiv.de/base/{Traeger}" ]
+  ], [
+    rr:predicate fiaf:hasCarrier ;
+    rr:objectMap [  rr:template "https://www.bundesarchiv.de/carrier/{Aufbewahrungseinheit/@uuid}" ]
+  ], [
+    rr:predicate fiaf:hasColourCharacteristic ;
+    rr:objectMap [  rr:template "https://www.bundesarchiv.de/colourcharacteristic/{Farbe}" ]
+  ], [
+    rr:predicate fiaf:hasElement ;
+    rr:objectMap [  rr:template "https://www.bundesarchiv.de/carrier/{Aufbewahrungseinheit/Materialart}" ]
+  ], [
+    rr:predicate fiaf:hasFormat ;
+    rr:objectMap [  rr:template "https://www.bundesarchiv.de/format/{Filmbreite}Film" ]
+  ], [
+    rr:predicate fiaf:hasFormat ;
+    rr:objectMap [  rr:template "https://www.bundesarchiv.de/format/{Videoformat}Video" ]
+  ] .
