@@ -5970,7 +5970,8 @@ fiaf:CinematographyActivity a owl:Class ;
     rdfs:subClassOf fiaf:Activity .
 
 fiaf:Manifestation a owl:Class ;
-    rdfs:label "Manifestation"@en ;
+    rdfs:label "Manifestation"@en,
+        "Manifestation"@fr ;
     dc:source "FIAF Cataloguing Manual 2.0"^^xsd:string .
 
 fiaf:ProducingActivity a owl:Class ;
