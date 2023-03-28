@@ -390,9 +390,6 @@ fiaf:Analytic a owl:Class ;
     rdfs:label "Analytic"@en,
         "Analítica"@es,
         "Analytique"@fr ;
-    dc:description "Content that is contained in another content. A component part may itself be either monographic or serial."@en,
-        "Contenido que está vinculado con otro contenido. Una parte componente puede ser monográfica o seriada."@es,
-        "Contenu présent dans un autre contenu. Une partie composante peut être elle-même une monographie ou une série/film à épisodes."@fr ;
     dc:source "FIAF Cataloguing Manual D.1"^^xsd:string ;
     rdfs:subClassOf fiaf:WorkVariant .
 
@@ -1157,9 +1154,6 @@ fiaf:Collection a owl:Class ;
     rdfs:label "Collection"@en,
         "Colección"@es,
         "Collection"@fr ;
-    dc:description "Content issued in several independent parts; an ‘umbrella’ work title covering a number of different Works/Variants/Manifestations."@en,
-        "Contenido emitido en varias partes independientes; una Obra bajo el título “Umbrella” comprende una serie de Obras/Variantes/Manifestaciones diferentes."@es,
-        "Contenu émis en plusieurs parties indépendantes ; un titre d’Œuvre générique recouvrant plusieurs Œuvres/Variantes/Manifestations différentes."@fr ;
     dc:source "FIAF Cataloguing Manual D.1"^^xsd:string ;
     rdfs:subClassOf fiaf:WorkVariant .
 
@@ -3179,9 +3173,6 @@ fiaf:Monographic a owl:Class ;
     rdfs:label "Monographic"@en,
         "Monográfico"@es,
         "Monographie"@fr ;
-    dc:description "Complete content in one part or intended to be completed in a finite number of parts."@en,
-        "Contenido completo en una parte o destinado a completarse en un número finito de partes."@es,
-        "Contenu complet en une seule partie ou destiné à être complété par un nombre fini de parties."@fr ;
     dc:source "FIAF Cataloguing Manual D.1"^^xsd:string ;
     rdfs:subClassOf fiaf:WorkVariant .
 
@@ -4242,9 +4233,6 @@ fiaf:Serial a owl:Class ;
     rdfs:label "Serial"@en,
         "Serie"@es,
         "Série"@fr ;
-    dc:description "Content issued in successive parts and intended to be continued indefinitely, or across a span of time."@en,
-        "Contenido emitido en partes sucesivas y destinado a continuar de forma indefinida o en un lapso de tiempo específico."@es,
-        "Contenu émis en parties successives et destiné à être poursuivi indéfiniment ou durant un certain temps."@fr ;
     dc:source "FIAF Cataloguing Manual D.1"^^xsd:string ;
     rdfs:subClassOf fiaf:WorkVariant .
 
@@ -5964,9 +5952,6 @@ fiaf:WorkVariant a owl:Class ;
     rdfs:label "Work/Variant"@en,
         "Obra/Variante"@es,
         "l'Œuvre/la Variante"@fr ;
-    dc:description "A moving image Work comprises both the intellectual or artistic content and the process of realisation in a cinematographic medium, e.g., what it is called, when it was made, who made it, who was in it, what it is about, etc."@en,
-        "Una Obra de imágenes en movimiento abarca tanto el contenido intelectual como el contenido artístico y el proceso de realización en un medio cinematográfico, p. ej. cómo se le llama, cuándo fue hecho, quién lo hizo, quién aparece, de qué se trata, etc."@es,
-        "L’Œuvre composée d’images animées comprend à la fois le contenu intellectuel ou artistique et le processus de réalisation sous une forme cinématographique : comment elle s'intitule, quand elle a été réalisée, qui l'a réalisée, qui y apparaît, de quels sujets elle traite, etc."@fr ;
     dc:source "FIAF Cataloguing Manual 1.0"^^xsd:string .
 
 fiaf:Activity a owl:Class ;
