@@ -10,10 +10,7 @@
     rdfs:label "Work/Variant"@en ;
     rdfs:label "Obra/Variante"@es ;
     rdfs:label "l'Œuvre/la Variante"@fr ;
-    dc:source "FIAF Cataloguing Manual 1.0"^^xsd:string ;
-    dc:description "A moving image Work comprises both the intellectual or artistic content and the process of realisation in a cinematographic medium, e.g., what it is called, when it was made, who made it, who was in it, what it is about, etc."@en ;
-    dc:description "Una Obra de imágenes en movimiento abarca tanto el contenido intelectual como el contenido artístico y el proceso de realización en un medio cinematográfico, p. ej. cómo se le llama, cuándo fue hecho, quién lo hizo, quién aparece, de qué se trata, etc."@es ;
-    dc:description "L’Œuvre composée d’images animées comprend à la fois le contenu intellectuel ou artistique et le processus de réalisation sous une forme cinématographique : comment elle s'intitule, quand elle a été réalisée, qui l'a réalisée, qui y apparaît, de quels sujets elle traite, etc."@fr .
+    dc:source "FIAF Cataloguing Manual 1.0"^^xsd:string .
 
 # Subclasses
 
@@ -22,9 +19,6 @@
     rdfs:label "Analítica"@es ;
     rdfs:label "Analytique"@fr ;
     dc:source "FIAF Cataloguing Manual D.1"^^xsd:string ;
-    dc:description "Content that is contained in another content. A component part may itself be either monographic or serial."@en ;
-    dc:description "Contenido que está vinculado con otro contenido. Una parte componente puede ser monográfica o seriada."@es ;
-    dc:description "Contenu présent dans un autre contenu. Une partie composante peut être elle-même une monographie ou une série/film à épisodes."@fr ;
     rdfs:subClassOf fiaf:WorkVariant .
 
 <https://fiafcore.org/ontology/Collection> a owl:Class ;
@@ -32,9 +26,6 @@
     rdfs:label "Colección"@es ;
     rdfs:label "Collection"@fr ;
     dc:source "FIAF Cataloguing Manual D.1"^^xsd:string ;
-    dc:description "Content issued in several independent parts; an ‘umbrella’ work title covering a number of different Works/Variants/Manifestations."@en ;
-    dc:description "Contenido emitido en varias partes independientes; una Obra bajo el título “Umbrella” comprende una serie de Obras/Variantes/Manifestaciones diferentes."@es ;
-    dc:description "Contenu émis en plusieurs parties indépendantes ; un titre d’Œuvre générique recouvrant plusieurs Œuvres/Variantes/Manifestations différentes."@fr ;
     rdfs:subClassOf fiaf:WorkVariant .
 
 <https://fiafcore.org/ontology/Monographic> a owl:Class ;
@@ -42,9 +33,6 @@
     rdfs:label "Monográfico"@es ;
     rdfs:label "Monographie"@fr ;
     dc:source "FIAF Cataloguing Manual D.1"^^xsd:string ;
-    dc:description "Complete content in one part or intended to be completed in a finite number of parts."@en ;
-    dc:description "Contenido completo en una parte o destinado a completarse en un número finito de partes."@es ;
-    dc:description "Contenu complet en une seule partie ou destiné à être complété par un nombre fini de parties."@fr ;
     rdfs:subClassOf fiaf:WorkVariant .
 
 <https://fiafcore.org/ontology/Serial> a owl:Class ;
@@ -52,9 +40,6 @@
     rdfs:label "Serie"@es ;
     rdfs:label "Série"@fr ;
     dc:source "FIAF Cataloguing Manual D.1"^^xsd:string ;
-    dc:description "Content issued in successive parts and intended to be continued indefinitely, or across a span of time."@en ;
-    dc:description "Contenido emitido en partes sucesivas y destinado a continuar de forma indefinida o en un lapso de tiempo específico."@es ;
-    dc:description "Contenu émis en parties successives et destiné à être poursuivi indéfiniment ou durant un certain temps."@fr ;
     rdfs:subClassOf fiaf:WorkVariant .
 
 # Object Properties
