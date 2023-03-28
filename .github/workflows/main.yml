@@ -75,86 +75,86 @@ jobs:
           set_env('CHANGE_DETECT', str(a.serialize(format='ttl') != b.serialize(format='ttl')))
           b.serialize(destination=str(pathlib.Path.cwd() / 'ontology.ttl'), format="turtle")
 
-    - name: generate docs
-      uses: jannekem/run-python-script-action@v1
-      if: github.event_name == 'push' && env.CHANGE_DETECT == 'True'
-      with:
-        script: |
+#     - name: generate docs
+#       uses: jannekem/run-python-script-action@v1
+#       if: github.event_name == 'push' && env.CHANGE_DETECT == 'True'
+#       with:
+#         script: |
           
-          # import libraries
+#           # import libraries
           
-          import pathlib
-          import rdflib
+#           import pathlib
+#           import rdflib
           
-          # formatter functions
+#           # formatter functions
           
-          def short_link(url):
+#           def short_link(url):
             
-            ''' Shorten iri links to prefixed form. '''
+#             ''' Shorten iri links to prefixed form. '''
             
-            if url[:4] == 'http':
-              short = url.replace('https://fiafcore.org/ontology/', 'fiaf:')
-              short = short.replace('http://www.w3.org/2002/07/owl#Class', 'owl:Class')
-              short = short.replace('http://www.w3.org/2002/07/owl#ObjectProperty', 'owl:ObjectProperty')
-              return f'[{short}]({url})'
-            return url
+#             if url[:4] == 'http':
+#               short = url.replace('https://fiafcore.org/ontology/', 'fiaf:')
+#               short = short.replace('http://www.w3.org/2002/07/owl#Class', 'owl:Class')
+#               short = short.replace('http://www.w3.org/2002/07/owl#ObjectProperty', 'owl:ObjectProperty')
+#               return f'[{short}]({url})'
+#             return url
           
-          def attribute(subj, predicate, label):
+#           def attribute(subj, predicate, label):
           
-            ''' Pull all objects which match subject-predicate pattern. '''
+#             ''' Pull all objects which match subject-predicate pattern. '''
             
-            text = ''
-            objs = [short_link(o) for s,p,o in graph.triples((subj, predicate, None))]
-            if len(objs):
-              text = f'{label} '+', '.join(objs)+'   \n'
-            return text
+#             text = ''
+#             objs = [short_link(o) for s,p,o in graph.triples((subj, predicate, None))]
+#             if len(objs):
+#               text = f'{label} '+', '.join(objs)+'   \n'
+#             return text
             
-          def element(source):
+#           def element(source):
           
-            ''' Assemble attributes for entity. '''
+#             ''' Assemble attributes for entity. '''
             
-            text = ''
-            text += '#### '+attribute(source, rdflib.RDFS.label, '')
-            text += '> **iri** '+str(source)+'   \n'
-            text += attribute(source, rdflib.RDFS.label, '**label**')
-            text += attribute(source, rdflib.URIRef('http://purl.org/dc/elements/1.1/source'), '**source**')
-            text += attribute(source, rdflib.RDF.type, '**type**')
-            text += attribute(source, rdflib.RDFS.subClassOf, '**subclass of**')
-            text += attribute(source, rdflib.RDFS.domain, '**domain**')
-            text += attribute(source, rdflib.RDFS.range, '**range**')
-            return text
+#             text = ''
+#             text += '#### '+attribute(source, rdflib.RDFS.label, '')
+#             text += '> **iri** '+str(source)+'   \n'
+#             text += attribute(source, rdflib.RDFS.label, '**label**')
+#             text += attribute(source, rdflib.URIRef('http://purl.org/dc/elements/1.1/source'), '**source**')
+#             text += attribute(source, rdflib.RDF.type, '**type**')
+#             text += attribute(source, rdflib.RDFS.subClassOf, '**subclass of**')
+#             text += attribute(source, rdflib.RDFS.domain, '**domain**')
+#             text += attribute(source, rdflib.RDFS.range, '**range**')
+#             return text
           
-          # load ontology    
+#           # load ontology    
        
-          graph = rdflib.Graph()
-          graph.parse(pathlib.Path.cwd() / 'ontology.ttl')
+#           graph = rdflib.Graph()
+#           graph.parse(pathlib.Path.cwd() / 'ontology.ttl')
 
-          # workshop intro
+#           # workshop intro
           
-          md = '# Modelling Workshops\n'
-          md += 'Owing to recent conversation around formal modelling of the FIAF Cataloguing \
-            Manual and EN15907, we intend on holding a series of workshops to explicitly \
-            discuss these concepts. The goal of these workshops will be to provide both a \
-            formal implementation of the Cataloguing Manual (as RDF/OWL), as well as a shared \
-            model which could be used for the interoperability of film data between organisations.\n\n'
-          md += 'These will take place weekly, starting Thursday 12th of January at 5pm CET and \
-            will be short meetings of no longer than an hour each. \n\n'
-          md += 'Draft ontology: [ontology.ttl](ontology.ttl) \
-            [[WebVOWL](http://vowl.visualdataweb.org/webvowl-old/webvowl-old.html#iri=https://raw.githubusercontent.com/FIAF/modelling-workshops/main/ontology.ttl)]'
-          md += '\n\n'
-          for a,b in [
-            ('Classes', rdflib.OWL.Class),
-            ('Individuals', rdflib.OWL.NamedIndividual),
-            ('Object Properties', rdflib.OWL.ObjectProperty),
-            ('Datatype Properties', rdflib.OWL.DatatypeProperty)]:
-            md += f'## {a}'+'   \n'
-            for x in sorted([s for s,p,o in graph.triples((None, None, b))]):
-              md += element(x)
+#           md = '# Modelling Workshops\n'
+#           md += 'Owing to recent conversation around formal modelling of the FIAF Cataloguing \
+#             Manual and EN15907, we intend on holding a series of workshops to explicitly \
+#             discuss these concepts. The goal of these workshops will be to provide both a \
+#             formal implementation of the Cataloguing Manual (as RDF/OWL), as well as a shared \
+#             model which could be used for the interoperability of film data between organisations.\n\n'
+#           md += 'These will take place weekly, starting Thursday 12th of January at 5pm CET and \
+#             will be short meetings of no longer than an hour each. \n\n'
+#           md += 'Draft ontology: [ontology.ttl](ontology.ttl) \
+#             [[WebVOWL](http://vowl.visualdataweb.org/webvowl-old/webvowl-old.html#iri=https://raw.githubusercontent.com/FIAF/modelling-workshops/main/ontology.ttl)]'
+#           md += '\n\n'
+#           for a,b in [
+#             ('Classes', rdflib.OWL.Class),
+#             ('Individuals', rdflib.OWL.NamedIndividual),
+#             ('Object Properties', rdflib.OWL.ObjectProperty),
+#             ('Datatype Properties', rdflib.OWL.DatatypeProperty)]:
+#             md += f'## {a}'+'   \n'
+#             for x in sorted([s for s,p,o in graph.triples((None, None, b))]):
+#               md += element(x)
           
-          # write readme
+#           # write readme
           
-          with open(pathlib.Path.cwd() / 'README.md', 'w') as readme:
-            readme.write(md)
+#           with open(pathlib.Path.cwd() / 'README.md', 'w') as readme:
+#             readme.write(md)
             
     - name: push graph
       if: github.event_name == 'push' && env.CHANGE_DETECT == 'True'
