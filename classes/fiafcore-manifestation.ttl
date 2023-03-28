@@ -8,6 +8,7 @@
 
 <https://fiafcore.org/ontology/Manifestation> a owl:Class ;
     rdfs:label "Manifestation"@en ;
+    rdfs:label "Manifestation"@fr ;
     dc:source "FIAF Cataloguing Manual 2.0"^^xsd:string .
 
 # Subclasses
