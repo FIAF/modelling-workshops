@@ -200,7 +200,7 @@ jobs:
 #             readme.write(md)
             
     - name: push graph
-      if: github.event_name == 'push' # && env.CHANGE_DETECT == 'True'
+      if: github.event_name == 'push' && env.CHANGE_DETECT == 'True'
       run: |
         git config user.name 'github-actions[bot]'
         git config user.email 'github-actions[bot]@users.noreply.github.com'
