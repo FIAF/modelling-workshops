@@ -75,6 +75,49 @@ jobs:
           set_env('CHANGE_DETECT', str(a.serialize(format='ttl') != b.serialize(format='ttl')))
           b.serialize(destination=str(pathlib.Path.cwd() / 'ontology.ttl'), format="turtle")
 
+    - name: multilingual coverage
+      uses: jannekem/run-python-script-action@v1
+      if: github.event_name == 'push' 
+      with:
+        script: |
+          
+          # import libraries
+          
+          import pathlib
+          import rdflib
+          
+          # attribute function
+          
+          def label_langauge(entity, lang):
+
+            ''' Find labels matching selected language'''
+
+            match = (len([o for s,p,o in graph.triples((entity, rdflib.RDFS.label, None)) if o.language == lang]))
+            if match == 1:
+              return entity
+            else:
+              return None
+          
+          # load ontology    
+       
+          graph = rdflib.Graph()
+          graph.parse(pathlib.Path.cwd() / 'ontology.ttl')
+
+          # collect all ontology entities
+
+          entities = [s for s,p,o in graph.triples((None, rdflib.RDF.type, rdflib.OWL.Class))]
+          entities += [s for s,p,o in graph.triples((None, rdflib.RDF.type, rdflib.OWL.ObjectProperty))]
+          entities += [s for s,p,o in graph.triples((None, rdflib.RDF.type, rdflib.OWL.DatatypeProperty))]
+
+          # report on coverage
+          
+          for l in ['en', 'es', 'fr']:
+            tr = [label_langauge(x, l) for x in entities]
+            tr = len([x for x in tr if x != None])
+            print(f'{tr} of {len(entities)} entities with {l} translated label: {round((tr/len(entities))*100, 2)}%')
+
+# legacy readme generator
+
 #     - name: generate docs
 #       uses: jannekem/run-python-script-action@v1
 #       if: github.event_name == 'push' && env.CHANGE_DETECT == 'True'
@@ -157,7 +200,7 @@ jobs:
 #             readme.write(md)
             
     - name: push graph
-      if: github.event_name == 'push' && env.CHANGE_DETECT == 'True'
+      if: github.event_name == 'push' # && env.CHANGE_DETECT == 'True'
       run: |
         git config user.name 'github-actions[bot]'
         git config user.email 'github-actions[bot]@users.noreply.github.com'
