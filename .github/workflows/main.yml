@@ -93,7 +93,7 @@ jobs:
             ''' Find labels matching selected language'''
 
             match = (len([o for s,p,o in graph.triples((entity, rdflib.RDFS.label, None)) if o.language == lang]))
-            if match == 1:
+            if match > 0:
               return entity
             else:
               print(f'No translation for {entity}.')
