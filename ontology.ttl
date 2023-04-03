@@ -108,7 +108,8 @@ fiaf:2InchQuadruplex a owl:Class ;
     rdfs:subClassOf fiaf:Video .
 
 fiaf:2K a owl:Class ;
-    rdfs:label "2K"@en ;
+    rdfs:label "2K"@en,
+        "2K"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string ;
     rdfs:subClassOf fiaf:Resolution .
 
@@ -159,7 +160,8 @@ fiaf:48fps a owl:Class ;
     rdfs:subClassOf fiaf:ImageRatio .
 
 fiaf:4K a owl:Class ;
-    rdfs:label "4K"@en ;
+    rdfs:label "4K"@en,
+        "4K"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string ;
     rdfs:subClassOf fiaf:Resolution .
 
@@ -174,7 +176,8 @@ fiaf:625 a owl:Class ;
     rdfs:subClassOf fiaf:LineStandard .
 
 fiaf:6K a owl:Class ;
-    rdfs:label "6K"@en ;
+    rdfs:label "6K"@en,
+        "6K"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string ;
     rdfs:subClassOf fiaf:Resolution .
 
@@ -189,7 +192,8 @@ fiaf:720 a owl:Class ;
     rdfs:subClassOf fiaf:LineStandard .
 
 fiaf:8K a owl:Class ;
-    rdfs:label "8K"@en ;
+    rdfs:label "8K"@en,
+        "8K"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string ;
     rdfs:subClassOf fiaf:Resolution .
 
@@ -2323,7 +2327,8 @@ fiaf:Herero a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:HighDefinition a owl:Class ;
-    rdfs:label "High Definition"@en ;
+    rdfs:label "High Definition"@en,
+        "Haute définition"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string ;
     rdfs:subClassOf fiaf:Resolution .
 
@@ -4591,7 +4596,8 @@ fiaf:StandIn a owl:Class ;
     rdfs:subClassOf fiaf:CastActivity .
 
 fiaf:StandardDefinition a owl:Class ;
-    rdfs:label "Standard Definition"@en ;
+    rdfs:label "Standard Definition"@en,
+        "Définition standard"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string ;
     rdfs:subClassOf fiaf:Resolution .
 
@@ -5920,7 +5926,8 @@ fiaf:Format a owl:Class ;
     dc:source "FIAF Cataloguing Manual 2.3.4.1, 3.1.5.1"^^xsd:string .
 
 fiaf:Resolution a owl:Class ;
-    rdfs:label "Resolution"@en ;
+    rdfs:label "Resolution"@en,
+        "Résolution"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.18"^^xsd:string .
 
 fiaf:Status a owl:Class ;
