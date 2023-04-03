@@ -1220,17 +1220,20 @@ fiaf:Colourized a owl:Class ;
     rdfs:subClassOf fiaf:VariantType .
 
 fiaf:Combined a owl:Class ;
-    rdfs:label "Combined"@en ;
+    rdfs:label "Combined"@en,
+        "Combiné"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.4"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundCharacteristic .
 
 fiaf:CombinedAsMute a owl:Class ;
-    rdfs:label "Combined as Mute"@en ;
+    rdfs:label "Combined as Mute"@en,
+        "Muet Combiné"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.4"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundCharacteristic .
 
 fiaf:CombinedAsSound a owl:Class ;
-    rdfs:label "Combined as Sound"@en ;
+    rdfs:label "Combined as Sound"@en,
+        "Son Combiné"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.4"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundCharacteristic .
 
@@ -3176,7 +3179,8 @@ fiaf:Mixed a owl:Class ;
     rdfs:subClassOf fiaf:Base .
 
 fiaf:MixedSound a owl:Class ;
-    rdfs:label "Mixed Sound"@en ;
+    rdfs:label "Mixed Sound"@en,
+        "Son Mixé"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.4"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundCharacteristic .
 
@@ -3308,7 +3312,8 @@ fiaf:MusicSupervisor a owl:Class ;
     rdfs:subClassOf fiaf:MusicActivity .
 
 fiaf:Mute a owl:Class ;
-    rdfs:label "Mute"@en ;
+    rdfs:label "Mute"@en,
+        "Muet"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.4"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundCharacteristic .
 
@@ -4364,7 +4369,8 @@ fiaf:SignedLanguage a owl:Class ;
     rdfs:subClassOf fiaf:DialogueLanguages .
 
 fiaf:Silent a owl:Class ;
-    rdfs:label "Silent"@en ;
+    rdfs:label "Silent"@en,
+        "Non pisté"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.4"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundCharacteristic .
 
@@ -4475,7 +4481,8 @@ fiaf:SothoSouthern a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Sound a owl:Class ;
-    rdfs:label "Sound"@en ;
+    rdfs:label "Sound"@en,
+        "Sonore"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.4"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundCharacteristic .
 
@@ -4822,7 +4829,8 @@ fiaf:Telugu a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Temporary a owl:Class ;
-    rdfs:label "Temporary"@en ;
+    rdfs:label "Temporary"@en,
+        "Temporaire"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.4"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundCharacteristic .
 
@@ -5988,7 +5996,8 @@ fiaf:MusicActivity a owl:Class ;
     rdfs:subClassOf fiaf:Activity .
 
 fiaf:SoundCharacteristic a owl:Class ;
-    rdfs:label "Sound Characteristic"@en ;
+    rdfs:label "Sound Characteristic"@en,
+        "Caractéristiques sonores"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.4.3, 3.1.5.5"^^xsd:string .
 
 fiaf:VariantType a owl:Class ;
