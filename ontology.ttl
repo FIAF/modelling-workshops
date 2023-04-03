@@ -1234,12 +1234,14 @@ fiaf:CombinedAsSound a owl:Class ;
     rdfs:subClassOf fiaf:SoundCharacteristic .
 
 fiaf:CombinedMagneticSound a owl:Class ;
-    rdfs:label "Combined Magnetic Sound"@en ;
+    rdfs:label "Combined Magnetic Sound"@en,
+        "Son magnétique combiné"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.13"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundSystem .
 
 fiaf:CombinedOpticalSound a owl:Class ;
-    rdfs:label "Combined Optical Sound"@en ;
+    rdfs:label "Combined Optical Sound"@en,
+        "Son optique combiné"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.13"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundSystem .
 
@@ -1629,12 +1631,14 @@ fiaf:Djibouti a owl:Class ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:DolbyDigital a owl:Class ;
-    rdfs:label "DolbyDigital"@en ;
+    rdfs:label "Dolby Digital"@en,
+        "Dolby Digital"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.13"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundSystem .
 
 fiaf:DolbySR a owl:Class ;
-    rdfs:label "Dolby SR"@en ;
+    rdfs:label "Dolby SR"@en,
+        "Dolby SR"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.13"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundSystem .
 
@@ -5120,7 +5124,8 @@ fiaf:Uzbekistan a owl:Class ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:VARCADuplex a owl:Class ;
-    rdfs:label "VA RCA Duplex"@en ;
+    rdfs:label "VA RCA Duplex"@en,
+        "VA RCA Duplex"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.13"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundSystem .
 
@@ -5863,7 +5868,8 @@ fiaf:SoundFixation a owl:Class ;
     dc:source "FIAF Cataloguing Manual 2.3.4.3.2, 3.1.5.4"^^xsd:string .
 
 fiaf:SoundSystem a owl:Class ;
-    rdfs:label "Sound System"@en ;
+    rdfs:label "Sound System"@en,
+        "Procédé sonore"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.4.3.1, 3.1.5.5"^^xsd:string .
 
 fiaf:Stream a owl:Class ;
