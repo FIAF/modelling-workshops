@@ -18,7 +18,8 @@ fiaf:1.5-2 a owl:Class ;
     rdfs:subClassOf fiaf:Shrinkage .
 
 fiaf:1080 a owl:Class ;
-    rdfs:label "1080"@en ;
+    rdfs:label "1080"@en,
+        "1080"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.21"^^xsd:string ;
     rdfs:subClassOf fiaf:LineStandard .
 
@@ -145,7 +146,8 @@ fiaf:3M a owl:Class ;
     rdfs:subClassOf fiaf:Stock .
 
 fiaf:405 a owl:Class ;
-    rdfs:label "405"@en ;
+    rdfs:label "405"@en,
+        "405"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.21"^^xsd:string ;
     rdfs:subClassOf fiaf:LineStandard .
 
@@ -166,12 +168,14 @@ fiaf:4K a owl:Class ;
     rdfs:subClassOf fiaf:Resolution .
 
 fiaf:525 a owl:Class ;
-    rdfs:label "525"@en ;
+    rdfs:label "525"@en,
+        "525"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.21"^^xsd:string ;
     rdfs:subClassOf fiaf:LineStandard .
 
 fiaf:625 a owl:Class ;
-    rdfs:label "625"@en ;
+    rdfs:label "625"@en,
+        "625"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.21"^^xsd:string ;
     rdfs:subClassOf fiaf:LineStandard .
 
@@ -187,7 +191,8 @@ fiaf:70mmFilm a owl:Class ;
     rdfs:subClassOf fiaf:Film .
 
 fiaf:720 a owl:Class ;
-    rdfs:label "720"@en ;
+    rdfs:label "720"@en,
+        "720"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.21"^^xsd:string ;
     rdfs:subClassOf fiaf:LineStandard .
 
@@ -5884,7 +5889,8 @@ fiaf:LanguageUsage a owl:Class ;
     dc:source "FIAF Cataloguing Manual 2.3.3.2"^^xsd:string .
 
 fiaf:LineStandard a owl:Class ;
-    rdfs:label "Line Standard"@en ;
+    rdfs:label "Line Standard"@en,
+        "Lignes de balayage"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.19"^^xsd:string .
 
 fiaf:ManufactureEvent a owl:Class ;
