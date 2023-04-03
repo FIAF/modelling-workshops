@@ -8,27 +8,32 @@
 
 <https://fiafcore.org/ontology/Agent> a owl:Class ;
     rdfs:label "Agent"@en ;
+    rdfs:label "Agent"@fr ;
     dc:source "FIAF Cataloguing Manual 1.4.1"^^xsd:string .
 
 # Subclasses
 
 <https://fiafcore.org/ontology/CorporateBody> a owl:Class ;
     rdfs:label "Corporate Body"@en ;
+    rdfs:label "Personne Morale"@fr ;
     dc:source "FIAF Cataloguing Manual 1.4.1"^^xsd:string ;
     rdfs:subClassOf fiaf:Agent .
 
 <https://fiafcore.org/ontology/Family> a owl:Class ;
     rdfs:label "Family"@en ;
+    rdfs:label "Famille"@fr ;
     dc:source "FIAF Cataloguing Manual 1.4.1"^^xsd:string ;
     rdfs:subClassOf fiaf:Agent .
 
 <https://fiafcore.org/ontology/Person> a owl:Class ;
     rdfs:label "Person"@en ;
+    rdfs:label "Personne"@fr ;
     dc:source "FIAF Cataloguing Manual 1.4.1"^^xsd:string ;
     rdfs:subClassOf fiaf:Agent .
 
 <https://fiafcore.org/ontology/PersonGroup> a owl:Class ;
     rdfs:label "Person Group"@en ;
+    rdfs:label "Groupe de Personnes"@fr ;
     dc:source "FIAF Cataloguing Manual 1.4.1"^^xsd:string ;
     rdfs:subClassOf fiaf:Agent .
 
