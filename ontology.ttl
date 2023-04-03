@@ -951,7 +951,8 @@ fiaf:Canada a owl:Class ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Captions a owl:Class ;
-    rdfs:label "Captions"@en ;
+    rdfs:label "Captions"@en,
+        "Synthés"@fr ;
     dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
     rdfs:subClassOf fiaf:WrittenLanguages .
 
@@ -2510,7 +2511,8 @@ fiaf:InternetManifestation a owl:Class ;
     rdfs:subClassOf fiaf:Manifestation .
 
 fiaf:Intertitles a owl:Class ;
-    rdfs:label "Intertitles"@en ;
+    rdfs:label "Intertitles"@en,
+        "Intertitres"@fr ;
     dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
     rdfs:subClassOf fiaf:WrittenLanguages .
 
@@ -2789,12 +2791,14 @@ fiaf:LaboratoryTechnicians a owl:Class ;
     rdfs:subClassOf fiaf:LaboratoryActivity .
 
 fiaf:LanguagesOfAccompanyingMaterial a owl:Class ;
-    rdfs:label "Language(s) of accompanying material"@en ;
+    rdfs:label "Language(s) of accompanying material"@en,
+        "Langue(s) du matériel d'accompagnement"@fr ;
     dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
     rdfs:subClassOf fiaf:LanguageUsage .
 
 fiaf:LanguagesOfSummariesOnContainers a owl:Class ;
-    rdfs:label "Language(s) of summaries on containers"@en ;
+    rdfs:label "Language(s) of summaries on containers"@en,
+        "Langue(s) des résumés sur les contenants"@fr ;
     dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
     rdfs:subClassOf fiaf:LanguageUsage .
 
@@ -3503,7 +3507,8 @@ fiaf:Niue a owl:Class ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:NoDialogue a owl:Class ;
-    rdfs:label "No Dialogue"@en ;
+    rdfs:label "No Dialogue"@en,
+        "Sans dialogue"@fr ;
     dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
     rdfs:subClassOf fiaf:DialogueLanguages .
 
@@ -4381,7 +4386,8 @@ fiaf:SierraLeone a owl:Class ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:SignedLanguage a owl:Class ;
-    rdfs:label "Signed Language"@en ;
+    rdfs:label "Signed Language"@en,
+        "Langue(s) des signes"@fr ;
     dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
     rdfs:subClassOf fiaf:DialogueLanguages .
 
@@ -4582,7 +4588,8 @@ fiaf:SpecialEffects a owl:Class ;
     rdfs:subClassOf fiaf:SpecialEffectsActivity .
 
 fiaf:SpokenLanguage a owl:Class ;
-    rdfs:label "Spoken Language"@en ;
+    rdfs:label "Spoken Language"@en,
+        "Langue(s) parlée(s)"@fr ;
     dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
     rdfs:subClassOf fiaf:DialogueLanguages .
 
@@ -4684,7 +4691,8 @@ fiaf:Subtitled a owl:Class ;
     rdfs:subClassOf fiaf:VariantType .
 
 fiaf:Subtitles a owl:Class ;
-    rdfs:label "Subtitles"@en ;
+    rdfs:label "Subtitles"@en,
+        "Sous-titres"@fr ;
     dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
     rdfs:subClassOf fiaf:WrittenLanguages .
 
@@ -4699,7 +4707,8 @@ fiaf:Sundanese a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:SungLanguage a owl:Class ;
-    rdfs:label "Sung Language"@en ;
+    rdfs:label "Sung Language"@en,
+        "Langue(s) chantée(s)"@fr ;
     dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
     rdfs:subClassOf fiaf:DialogueLanguages .
 
@@ -5794,7 +5803,8 @@ fiaf:Shrinkage a owl:Class ;
     rdfs:subClassOf fiaf:Condition .
 
 fiaf:WrittenLanguages a owl:Class ;
-    rdfs:label "Written Languages"@en ;
+    rdfs:label "Written Languages"@en,
+        "Langue(s) écrite(s)"@fr ;
     dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
     rdfs:subClassOf fiaf:LanguageUsage .
 
@@ -5803,7 +5813,8 @@ fiaf:BroadcastStandard a owl:Class ;
     dc:source "FIAF Cataloguing Manual 3.1.5.10"^^xsd:string .
 
 fiaf:DialogueLanguages a owl:Class ;
-    rdfs:label "Dialogue language(s)"@en ;
+    rdfs:label "Dialogue language(s)"@en,
+        "Langue(s) des dialogues"@fr ;
     dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
     rdfs:subClassOf fiaf:LanguageUsage .
 
@@ -5885,7 +5896,8 @@ fiaf:Identifier a owl:Class ;
     dc:source "FIAF Cataloguing Manual 1.3.1, 2.3.1, 3.1.1"^^xsd:string .
 
 fiaf:LanguageUsage a owl:Class ;
-    rdfs:label "Language Usage"@en ;
+    rdfs:label "Language Usage"@en,
+        "Utilisation des Langues"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.3.2"^^xsd:string .
 
 fiaf:LineStandard a owl:Class ;
