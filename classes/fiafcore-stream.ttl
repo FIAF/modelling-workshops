@@ -8,20 +8,24 @@
 
 <https://fiafcore.org/ontology/Stream> a owl:Class ;
     rdfs:label "Stream"@en ;
+    rdfs:label "Flux"@fr ;
     dc:source "technical glossary"^^xsd:string .
 
 # Subclasses
 
 <https://fiafcore.org/ontology/AudioStream> a owl:Class ;
     rdfs:label "Audio Stream"@en ;
+    rdfs:label "Flux Audio"@fr ;
     rdfs:subClassOf fiaf:Stream .
 
 <https://fiafcore.org/ontology/SubtitleStream> a owl:Class ;
     rdfs:label "Subtitle Stream"@en ;
+    rdfs:label "Flux de Sous-titres"@fr ;
     rdfs:subClassOf fiaf:Stream .
 
 <https://fiafcore.org/ontology/VideoStream> a owl:Class ;
     rdfs:label "Video Stream"@en ;
+    rdfs:label "Flux Vidéo"@fr ;
     rdfs:subClassOf fiaf:Stream .
 
 # Object Properties
