@@ -27,12 +27,14 @@ fiaf:1080 a owl:Class ;
     rdfs:subClassOf fiaf:LineStandard .
 
 fiaf:10bit a owl:Class ;
-    rdfs:label "10bit"@en ;
+    rdfs:label "10bit"@en,
+        "10bit"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.17"^^xsd:string ;
     rdfs:subClassOf fiaf:BitDepth .
 
 fiaf:16bit a owl:Class ;
-    rdfs:label "16bit"@en ;
+    rdfs:label "16bit"@en,
+        "16bit"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.17"^^xsd:string ;
     rdfs:subClassOf fiaf:BitDepth .
 
@@ -103,7 +105,8 @@ fiaf:23.98fps a owl:Class ;
     rdfs:subClassOf fiaf:FrameRate .
 
 fiaf:24bit a owl:Class ;
-    rdfs:label "24bit"@en ;
+    rdfs:label "24bit"@en,
+        "24bit"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.17"^^xsd:string ;
     rdfs:subClassOf fiaf:BitDepth .
 
@@ -138,7 +141,8 @@ fiaf:30fps a owl:Class ;
     rdfs:subClassOf fiaf:FrameRate .
 
 fiaf:32bit a owl:Class ;
-    rdfs:label "32bit"@en ;
+    rdfs:label "32bit"@en,
+        "32bit"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.17"^^xsd:string ;
     rdfs:subClassOf fiaf:BitDepth .
 
@@ -6061,7 +6065,8 @@ fiaf:Agent a owl:Class ;
     dc:source "FIAF Cataloguing Manual 1.4.1"^^xsd:string .
 
 fiaf:BitDepth a owl:Class ;
-    rdfs:label "BitDepth"@en ;
+    rdfs:label "Bit Depth"@en,
+        "Profondeur de bit"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.20"^^xsd:string .
 
 fiaf:DecisionEvent a owl:Class ;
