@@ -246,7 +246,8 @@ fiaf:AcademyFilmArchive a owl:NamedIndividual,
     dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:Accessioned a owl:Class ;
-    rdfs:label "Accessioned"@en ;
+    rdfs:label "Accessioned"@en,
+        "Intégré à la collection"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.3"^^xsd:string ;
     rdfs:subClassOf fiaf:Status .
 
@@ -3079,7 +3080,8 @@ fiaf:Martinique a owl:Class ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Master a owl:Class ;
-    rdfs:label "Master"@en ;
+    rdfs:label "Master"@en,
+        "Master"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.3"^^xsd:string ;
     rdfs:subClassOf fiaf:Status .
 
@@ -3572,7 +3574,8 @@ fiaf:Oman a owl:Class ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:OnLoan a owl:Class ;
-    rdfs:label "On Loan"@en ;
+    rdfs:label "On Loan"@en,
+        "En prêt"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.3"^^xsd:string ;
     rdfs:subClassOf fiaf:Status .
 
@@ -3998,7 +4001,8 @@ fiaf:ReleaseEvent a owl:Class ;
     rdfs:subClassOf fiaf:PublicationEvent .
 
 fiaf:Removed a owl:Class ;
-    rdfs:label "Removed"@en ;
+    rdfs:label "Removed"@en,
+        "Retiré de la collection"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.3"^^xsd:string ;
     rdfs:subClassOf fiaf:Status .
 
@@ -4573,7 +4577,8 @@ fiaf:StandardDefinition a owl:Class ;
     rdfs:subClassOf fiaf:Resolution .
 
 fiaf:StatusPending a owl:Class ;
-    rdfs:label "Status pending"@en ;
+    rdfs:label "Status pending"@en,
+        "Statut en attente"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.3"^^xsd:string ;
     rdfs:subClassOf fiaf:Status .
 
@@ -5189,7 +5194,8 @@ fiaf:Vietnamese a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Viewing a owl:Class ;
-    rdfs:label "Viewing"@en ;
+    rdfs:label "Viewing"@en,
+        "Visionnage"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.3"^^xsd:string ;
     rdfs:subClassOf fiaf:Status .
 
@@ -5892,7 +5898,8 @@ fiaf:Resolution a owl:Class ;
     dc:source "FIAF Cataloguing Manual 3.1.5.18"^^xsd:string .
 
 fiaf:Status a owl:Class ;
-    rdfs:label "Status"@en ;
+    rdfs:label "Status"@en,
+        "Statut"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.2"^^xsd:string .
 
 fiaf:Title a owl:Class ;
