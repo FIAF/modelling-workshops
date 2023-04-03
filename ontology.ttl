@@ -295,7 +295,8 @@ fiaf:Accessioned a owl:Class ;
     rdfs:subClassOf fiaf:Status .
 
 fiaf:Acetate a owl:Class ;
-    rdfs:label "Acetate"@en ;
+    rdfs:label "Acetate"@en,
+        "Acétate"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
     rdfs:subClassOf fiaf:Base .
 
@@ -306,7 +307,8 @@ fiaf:AcquisitionTitle a owl:Class ;
     rdfs:subClassOf fiaf:AlternativeTitle .
 
 fiaf:Acrylic a owl:Class ;
-    rdfs:label "Acrylic"@en ;
+    rdfs:label "Acrylic"@en,
+        "Acrylique"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
     rdfs:subClassOf fiaf:Base .
 
@@ -1460,7 +1462,8 @@ fiaf:Croatian a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Cta a owl:Class ;
-    rdfs:label "CTA"@en ;
+    rdfs:label "CTA"@en,
+        "CTA"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
     rdfs:subClassOf fiaf:Base .
 
@@ -1575,7 +1578,8 @@ fiaf:DffDeutschesFilminstitutFilmmuseum a owl:NamedIndividual,
     dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:Diacetate a owl:Class ;
-    rdfs:label "Diacetate"@en ;
+    rdfs:label "Diacetate"@en,
+        "Diacétate"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
     rdfs:subClassOf fiaf:Base .
 
@@ -3135,12 +3139,14 @@ fiaf:MagneticSound a owl:Class ;
     rdfs:subClassOf fiaf:SoundFixation .
 
 fiaf:MainlyNitrate a owl:Class ;
-    rdfs:label "Mainly nitrate"@en ;
+    rdfs:label "Mainly nitrate"@en,
+        "En majeure partie nitrate"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
     rdfs:subClassOf fiaf:Base .
 
 fiaf:MainlySafety a owl:Class ;
-    rdfs:label "Mainly safety"@en ;
+    rdfs:label "Mainly safety"@en,
+        "En majeure partie safety"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
     rdfs:subClassOf fiaf:Base .
 
@@ -3317,7 +3323,8 @@ fiaf:Missing a owl:Class ;
     rdfs:subClassOf fiaf:PerforationCondition .
 
 fiaf:Mixed a owl:Class ;
-    rdfs:label "Mixed"@en ;
+    rdfs:label "Mixed"@en,
+        "Acetate"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
     rdfs:subClassOf fiaf:Base .
 
@@ -3467,7 +3474,8 @@ fiaf:Myanmar a owl:Class ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Mylar a owl:Class ;
-    rdfs:label "Mylar"@en ;
+    rdfs:label "Mylar"@en,
+        "Mylar"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
     rdfs:subClassOf fiaf:Base .
 
@@ -3625,7 +3633,8 @@ fiaf:Nigeria a owl:Class ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Nitrate a owl:Class ;
-    rdfs:label "Nitrate"@en ;
+    rdfs:label "Nitrate"@en,
+        "Nitrate"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
     rdfs:subClassOf fiaf:Base .
 
@@ -3941,7 +3950,8 @@ fiaf:Polish a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Polyester a owl:Class ;
-    rdfs:label "Polyester"@en ;
+    rdfs:label "Polyester"@en,
+        "Polyester"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
     rdfs:subClassOf fiaf:Base .
 
@@ -4134,7 +4144,8 @@ fiaf:PushtoPashto a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Pvc a owl:Class ;
-    rdfs:label "PVC"@en ;
+    rdfs:label "PVC"@en,
+        "PVC"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
     rdfs:subClassOf fiaf:Base .
 
@@ -4308,7 +4319,8 @@ fiaf:SVCD a owl:Class ;
     rdfs:subClassOf fiaf:DigitalFileEncoding .
 
 fiaf:Safety a owl:Class ;
-    rdfs:label "Safety"@en ;
+    rdfs:label "Safety"@en,
+        "Safety"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
     rdfs:subClassOf fiaf:Base .
 
@@ -5441,7 +5453,8 @@ fiaf:Viewing a owl:Class ;
     rdfs:subClassOf fiaf:Status .
 
 fiaf:Vinyl a owl:Class ;
-    rdfs:label "Vinyl"@en ;
+    rdfs:label "Vinyl"@en,
+        "Vinyle"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
     rdfs:subClassOf fiaf:Base .
 
@@ -6289,7 +6302,8 @@ fiaf:SoundActivity a owl:Class ;
     rdfs:subClassOf fiaf:Activity .
 
 fiaf:Base a owl:Class ;
-    rdfs:label "Base"@en ;
+    rdfs:label "Base"@en,
+        "Base"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.13"^^xsd:string .
 
 fiaf:Form a owl:Class ;
