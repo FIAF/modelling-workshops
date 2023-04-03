@@ -45,7 +45,7 @@
 
 <https://fiafcore.org/ontology/CombinedAsSound> a owl:Class ;
     rdfs:label "Combined as Sound"@en ;
-    rdfs:label "Son Combiné"fr ;
+    rdfs:label "Son Combiné"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.4"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundCharacteristic .
 
