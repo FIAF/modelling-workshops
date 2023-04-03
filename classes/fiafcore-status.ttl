@@ -8,36 +8,43 @@
 
 <https://fiafcore.org/ontology/Status> a owl:Class ;
     rdfs:label "Status"@en ;
+    rdfs:label "Statut"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.2"^^xsd:string .
 
 # Subclasses
 
 <https://fiafcore.org/ontology/Accessioned> a owl:Class ;
     rdfs:label "Accessioned"@en ;
+    rdfs:label "Intégré à la collection"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.3"^^xsd:string ;
     rdfs:subClassOf fiaf:Status .
 
 <https://fiafcore.org/ontology/Master> a owl:Class ;
     rdfs:label "Master"@en ;
+    rdfs:label "Master"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.3"^^xsd:string ;
     rdfs:subClassOf fiaf:Status .
 
 <https://fiafcore.org/ontology/OnLoan> a owl:Class ;
     rdfs:label "On Loan"@en ;
+    rdfs:label "En prêt"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.3"^^xsd:string ;
     rdfs:subClassOf fiaf:Status .
 
 <https://fiafcore.org/ontology/Removed> a owl:Class ;
     rdfs:label "Removed"@en ;
+    rdfs:label "Retiré de la collection"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.3"^^xsd:string ;
     rdfs:subClassOf fiaf:Status .
 
 <https://fiafcore.org/ontology/StatusPending> a owl:Class ;
     rdfs:label "Status pending"@en ;
+    rdfs:label "Statut en attente"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.3"^^xsd:string ;
     rdfs:subClassOf fiaf:Status .
 
 <https://fiafcore.org/ontology/Viewing> a owl:Class ;
     rdfs:label "Viewing"@en ;
+    rdfs:label "Visionnage"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.3"^^xsd:string ;
     rdfs:subClassOf fiaf:Status .
