@@ -40,22 +40,26 @@ fiaf:16fps a owl:Class ;
     rdfs:subClassOf fiaf:FrameRate .
 
 fiaf:16mmFilm a owl:Class ;
-    rdfs:label "16mm Film"@en ;
+    rdfs:label "16mm Film"@en,
+        "16mm Pellicule"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Film .
 
 fiaf:16mmMagneticTrack a owl:Class ;
-    rdfs:label "16mm magnetic track"@en ;
+    rdfs:label "16mm magnetic track"@en,
+        "bande magnétique 16mm"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Audio .
 
 fiaf:17.5mmFilm a owl:Class ;
-    rdfs:label "17.5mm Film"@en ;
+    rdfs:label "17.5mm Film"@en,
+        "17.5mm Pellicule"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Film .
 
 fiaf:1InchCFormat a owl:Class ;
-    rdfs:label "1-inch C Format"@en ;
+    rdfs:label "1-inch C Format"@en,
+        "format 1 pouce C"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Video .
 
@@ -112,7 +116,8 @@ fiaf:25fps a owl:Class ;
     rdfs:subClassOf fiaf:FrameRate .
 
 fiaf:2InchQuadruplex a owl:Class ;
-    rdfs:label "2-inch Quadruplex"@en ;
+    rdfs:label "2-inch Quadruplex"@en,
+        "2 pouces Quadruplex"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Video .
 
@@ -134,12 +139,14 @@ fiaf:32bit a owl:Class ;
     rdfs:subClassOf fiaf:BitDepth .
 
 fiaf:35mmFilm a owl:Class ;
-    rdfs:label "35mm Film"@en ;
+    rdfs:label "35mm Film"@en,
+        "35mm Pellicule"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Film .
 
 fiaf:35mmMagneticTrack a owl:Class ;
-    rdfs:label "35mm magnetic track"@en ;
+    rdfs:label "35mm magnetic track"@en,
+        "bande magnétique 35mm"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Audio .
 
@@ -198,7 +205,8 @@ fiaf:6K a owl:Class ;
     rdfs:subClassOf fiaf:Resolution .
 
 fiaf:70mmFilm a owl:Class ;
-    rdfs:label "70mm Film"@en ;
+    rdfs:label "70mm Film"@en,
+        "70mm Pellicule"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Film .
 
@@ -215,12 +223,14 @@ fiaf:8K a owl:Class ;
     rdfs:subClassOf fiaf:Resolution .
 
 fiaf:8mmFilm a owl:Class ;
-    rdfs:label "8mm Film"@en ;
+    rdfs:label "8mm Film"@en,
+        "8mm Pellicule"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Film .
 
 fiaf:9.5mmFilm a owl:Class ;
-    rdfs:label "9.5mm Film"@en ;
+    rdfs:label "9.5mm Film"@en,
+        "9.5mm Pellicule"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Film .
 
@@ -235,7 +245,8 @@ fiaf:AVC a owl:Class ;
     rdfs:subClassOf fiaf:Codec .
 
 fiaf:AVI a owl:Class ;
-    rdfs:label "AVI"@en ;
+    rdfs:label "AVI"@en,
+        "AVI"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:DigitalFile .
 
@@ -604,7 +615,8 @@ fiaf:AudioStream a owl:Class ;
     rdfs:subClassOf fiaf:Stream .
 
 fiaf:Audiocassette a owl:Class ;
-    rdfs:label "Audiocassette"@en ;
+    rdfs:label "Audiocassette"@en,
+        "cassette audio"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Audio .
 
@@ -750,7 +762,8 @@ fiaf:BestBoy a owl:Class ;
     rdfs:subClassOf fiaf:CinematographyActivity .
 
 fiaf:BetacamSP a owl:Class ;
-    rdfs:label "Betacam SP"@en ;
+    rdfs:label "Betacam SP"@en,
+        "Betacam SP"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Video .
 
@@ -801,7 +814,8 @@ fiaf:BlackAndWhiteToned a owl:Class ;
     rdfs:subClassOf fiaf:ColourCharacteristic .
 
 fiaf:BluRay a owl:Class ;
-    rdfs:label "Blu-Ray"@en ;
+    rdfs:label "Blu-Ray"@en,
+        "Blu-Ray"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Optical .
 
@@ -933,7 +947,8 @@ fiaf:Burundi a owl:Class ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:CD a owl:Class ;
-    rdfs:label "CD"@en ;
+    rdfs:label "CD"@en,
+        "CD"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Optical .
 
@@ -1456,7 +1471,8 @@ fiaf:Czechia a owl:Class ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:D1 a owl:Class ;
-    rdfs:label "D1"@en ;
+    rdfs:label "D1"@en,
+        "D1"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Video .
 
@@ -1466,7 +1482,8 @@ fiaf:D10 a owl:Class ;
     rdfs:subClassOf fiaf:Codec .
 
 fiaf:D5 a owl:Class ;
-    rdfs:label "D5"@en ;
+    rdfs:label "D5"@en,
+        "D5"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Video .
 
@@ -1476,17 +1493,20 @@ fiaf:DCP a owl:Class ;
     rdfs:subClassOf fiaf:Element .
 
 fiaf:DPX a owl:Class ;
-    rdfs:label "DPX"@en ;
+    rdfs:label "DPX"@en,
+        "DPX"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:DigitalFile .
 
 fiaf:DVCPROHD a owl:Class ;
-    rdfs:label "DVCPRO HD"@en ;
+    rdfs:label "DVCPRO HD"@en,
+        "DVCPRO HD"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Video .
 
 fiaf:DVD a owl:Class ;
-    rdfs:label "DVD"@en ;
+    rdfs:label "DVD"@en,
+        "DVD"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Optical .
 
@@ -1545,7 +1565,8 @@ fiaf:DifferentSoundTrack a owl:Class ;
     rdfs:subClassOf fiaf:VariantType .
 
 fiaf:DigitalBetacam a owl:Class ;
-    rdfs:label "Digital Betacam"@en ;
+    rdfs:label "Digital Betacam"@en,
+        "Betacam Numérique"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Video .
 
@@ -2290,7 +2311,8 @@ fiaf:Guyana a owl:Class ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:HDCAMSR a owl:Class ;
-    rdfs:label "HDCAM SR"@en ;
+    rdfs:label "HDCAM SR"@en,
+        "HDCAM SR"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Video .
 
@@ -2317,7 +2339,8 @@ fiaf:HaitianHaitianCreole a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:HalfInchAudioReel a owl:Class ;
-    rdfs:label "1/2-inch Audioreel"@en ;
+    rdfs:label "1/2-inch Audioreel"@en,
+        "bande magnétique 1/2 pouce"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Audio .
 
@@ -2832,7 +2855,8 @@ fiaf:Lao a owl:Class ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:LaserDisc a owl:Class ;
-    rdfs:label "Laser Disc"@en ;
+    rdfs:label "Laser Disc"@en,
+        "Disque laser"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Optical .
 
@@ -2983,17 +3007,20 @@ fiaf:LuxembourgishLetzeburgesch a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:MOV a owl:Class ;
-    rdfs:label "MOV"@en ;
+    rdfs:label "MOV"@en,
+        "MOV"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:DigitalFile .
 
 fiaf:MP4 a owl:Class ;
-    rdfs:label "MP4"@en ;
+    rdfs:label "MP4"@en,
+        "MP4"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:DigitalFile .
 
 fiaf:MPEG4 a owl:Class ;
-    rdfs:label "MPEG-4"@en ;
+    rdfs:label "MPEG-4"@en,
+        "MPEG-4"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:DigitalFileEncoding .
 
@@ -3003,7 +3030,8 @@ fiaf:MPEG4H264AVCMainProfile a owl:Class ;
     rdfs:subClassOf fiaf:Codec .
 
 fiaf:MXF a owl:Class ;
-    rdfs:label "MXF"@en ;
+    rdfs:label "MXF"@en,
+        "MXF"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:DigitalFile .
 
@@ -3636,7 +3664,8 @@ fiaf:OnLoan a owl:Class ;
     rdfs:subClassOf fiaf:Status .
 
 fiaf:OneInchAudioReel a owl:Class ;
-    rdfs:label "1-inch Audioreel"@en ;
+    rdfs:label "1-inch Audioreel"@en,
+        "bande magnétique 1 pouce"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Audio .
 
@@ -4022,7 +4051,8 @@ fiaf:Qatar a owl:Class ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:QuarterInchAudioReel a owl:Class ;
-    rdfs:label "1/4-inch Audioreel"@en ;
+    rdfs:label "1/4-inch Audioreel"@en,
+        "bande magnétique 1/4 pouce"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Audio .
 
@@ -4032,7 +4062,8 @@ fiaf:Quechua a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Quicktime a owl:Class ;
-    rdfs:label "Quicktime"@en ;
+    rdfs:label "Quicktime"@en,
+        "Quicktime"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:DigitalFileEncoding .
 
@@ -4047,7 +4078,8 @@ fiaf:RatingEvent a owl:Class ;
     rdfs:subClassOf fiaf:DecisionEvent .
 
 fiaf:RealVideo a owl:Class ;
-    rdfs:label "Real Video"@en ;
+    rdfs:label "Real Video"@en,
+        "Real Video"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:DigitalFileEncoding .
 
@@ -4161,7 +4193,8 @@ fiaf:SECAM a owl:Class ;
     rdfs:subClassOf fiaf:BroadcastStandard .
 
 fiaf:SVCD a owl:Class ;
-    rdfs:label "SVCD"@en ;
+    rdfs:label "SVCD"@en,
+        "SVCD"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:DigitalFileEncoding .
 
@@ -4735,12 +4768,14 @@ fiaf:SungLanguage a owl:Class ;
     rdfs:subClassOf fiaf:DialogueLanguages .
 
 fiaf:Super16mmFilm a owl:Class ;
-    rdfs:label "Super16mm Film"@en ;
+    rdfs:label "Super16mm Film"@en,
+        "Super16mm Pellicule"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Film .
 
 fiaf:Super8mmFilm a owl:Class ;
-    rdfs:label "Super8mm Film"@en ;
+    rdfs:label "Super8mm Film"@en,
+        "Super8mm Pellicule"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Film .
 
@@ -5080,7 +5115,8 @@ fiaf:Twi a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:TwoInchAudioReel a owl:Class ;
-    rdfs:label "2-inch Audioreel"@en ;
+    rdfs:label "2-inch Audioreel"@en,
+        "bande magnétique 2 pouces"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Audio .
 
@@ -5195,7 +5231,8 @@ fiaf:VARCADuplex a owl:Class ;
     rdfs:subClassOf fiaf:SoundSystem .
 
 fiaf:VCD a owl:Class ;
-    rdfs:label "VCD"@en ;
+    rdfs:label "VCD"@en,
+        "VCD"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:DigitalFileEncoding .
 
@@ -5371,7 +5408,8 @@ fiaf:Windowbox a owl:Class ;
     rdfs:subClassOf fiaf:ImageFormat .
 
 fiaf:WindowsMedia a owl:Class ;
-    rdfs:label "WindowsMedia"@en ;
+    rdfs:label "Windows Media"@en,
+        "Windows Media"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:DigitalFileEncoding .
 
@@ -5851,7 +5889,8 @@ fiaf:LaboratoryActivity a owl:Class ;
     rdfs:subClassOf fiaf:Activity .
 
 fiaf:Optical a owl:Class ;
-    rdfs:label "Optical"@en ;
+    rdfs:label "Optical"@en,
+        "Optique"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Format .
 
@@ -5894,7 +5933,8 @@ fiaf:DecisionEvent a owl:Class ;
     rdfs:subClassOf fiaf:Event .
 
 fiaf:DigitalFile a owl:Class ;
-    rdfs:label "Digital File"@en ;
+    rdfs:label "Digital File"@en,
+        "Fichier numérique"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Format .
 
@@ -5915,7 +5955,8 @@ fiaf:SurfaceDeposit a owl:Class ;
     rdfs:subClassOf fiaf:Condition .
 
 fiaf:DigitalFileEncoding a owl:Class ;
-    rdfs:label "Digital File Encoding"@en ;
+    rdfs:label "Digital File Encoding"@en,
+        "Encodage du fichier numérique"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Format .
 
@@ -5955,7 +5996,8 @@ fiaf:Stream a owl:Class ;
     dc:source "technical glossary"^^xsd:string .
 
 fiaf:Audio a owl:Class ;
-    rdfs:label "Audio"@en ;
+    rdfs:label "Audio"@en,
+        "Audio"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Format .
 
@@ -5979,7 +6021,8 @@ fiaf:DirectingActivity a owl:Class ;
     rdfs:subClassOf fiaf:Activity .
 
 fiaf:Format a owl:Class ;
-    rdfs:label "Format"@en ;
+    rdfs:label "Format"@en,
+        "Format"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.4.1, 3.1.5.1"^^xsd:string .
 
 fiaf:Resolution a owl:Class ;
@@ -6003,12 +6046,14 @@ fiaf:AnimationActivity a owl:Class ;
     rdfs:subClassOf fiaf:Activity .
 
 fiaf:Film a owl:Class ;
-    rdfs:label "Film"@en ;
+    rdfs:label "Film"@en,
+        "Pellicule"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Format .
 
 fiaf:Video a owl:Class ;
-    rdfs:label "Video"@en ;
+    rdfs:label "Video"@en,
+        "Vidéo"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Format .
 
