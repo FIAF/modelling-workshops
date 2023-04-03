@@ -8,56 +8,67 @@
 
 <https://fiafcore.org/ontology/ColourStandard> a owl:Class ;
     rdfs:label "Colour Standard"@en ;
+    rdfs:label "Caractéristiques de couleur"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.4.4"^^xsd:string .
 
 # Subclasses
 
 <https://fiafcore.org/ontology/Anscocolor> a owl:Class ;
     rdfs:label "Anscocolor"@en ;
+    rdfs:label "Anscocolor"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourStandard .
 
 <https://fiafcore.org/ontology/Eastmancolor> a owl:Class ;
     rdfs:label "Eastmancolor"@en ;
+    rdfs:label "Eastmancolor"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourStandard .
 
 <https://fiafcore.org/ontology/Ferraniacolor> a owl:Class ;
     rdfs:label "Ferraniacolor"@en ;
+    rdfs:label "Ferraniacolor"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourStandard .
 
 <https://fiafcore.org/ontology/Fujicolor> a owl:Class ;
     rdfs:label "Fujicolor"@en ;
+    rdfs:label "Fujicolor"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourStandard .
 
 <https://fiafcore.org/ontology/Kinemacolor> a owl:Class ;
     rdfs:label "Kinemacolor"@en ;
+    rdfs:label "Kinemacolor"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourStandard .
 
 <https://fiafcore.org/ontology/Kodachrome> a owl:Class ;
     rdfs:label "Kodachrome"@en ;
+    rdfs:label "Kodachrome"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourStandard .
 
 <https://fiafcore.org/ontology/Pathécolor> a owl:Class ;
     rdfs:label "Pathécolor"@en ;
+    rdfs:label "Pathécolor"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourStandard .
 
 <https://fiafcore.org/ontology/RGB> a owl:Class ;
     rdfs:label "RGB"@en ;
+    rdfs:label "RGB"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourStandard .
 
 <https://fiafcore.org/ontology/Technicolor> a owl:Class ;
     rdfs:label "Technicolor"@en ;
+    rdfs:label "Technicolor"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourStandard .
 
 <https://fiafcore.org/ontology/YUV> a owl:Class ;
     rdfs:label "YUV"@en ;
+    rdfs:label "YUV"fr ;
     dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourStandard .
