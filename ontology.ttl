@@ -794,7 +794,8 @@ fiaf:Bislama a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:BlackAndWhite a owl:Class ;
-    rdfs:label "Black and White"@en ;
+    rdfs:label "Black and White"@en,
+        "Noir et blanc"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.11"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourCharacteristic .
 
@@ -805,17 +806,20 @@ fiaf:BlackAndWhiteCopyOfWorkOriginallyIssuedInColour a owl:Class ;
     rdfs:subClassOf fiaf:VariantType .
 
 fiaf:BlackAndWhiteTinted a owl:Class ;
-    rdfs:label "Black and White (Tinted)"@en ;
+    rdfs:label "Black and White (Tinted)"@en,
+        "Noir et blanc (teinté)"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.11"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourCharacteristic .
 
 fiaf:BlackAndWhiteTintedAndToned a owl:Class ;
-    rdfs:label "Black and White (Tinted and Toned)"@en ;
+    rdfs:label "Black and White (Tinted and Toned)"@en,
+        "Noir et blanc (teinté et viré)"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.11"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourCharacteristic .
 
 fiaf:BlackAndWhiteToned a owl:Class ;
-    rdfs:label "Black and White (Toned)"@en ;
+    rdfs:label "Black and White (Toned)"@en,
+        "Noir et blanc (viré)"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.11"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourCharacteristic .
 
@@ -1247,12 +1251,14 @@ fiaf:ColorTimer a owl:Class ;
     rdfs:subClassOf fiaf:LaboratoryActivity .
 
 fiaf:Colour a owl:Class ;
-    rdfs:label "Colour"@en ;
+    rdfs:label "Colour"@en,
+        "Couleur"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.11"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourCharacteristic .
 
 fiaf:ColourBlackAndWhite a owl:Class ;
-    rdfs:label "Colour + Black And White"@en ;
+    rdfs:label "Colour + Black And White"@en,
+        "Couleur + Noir et blanc"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.11"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourCharacteristic .
 
@@ -4439,7 +4445,8 @@ fiaf:Senegal a owl:Class ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Sepia a owl:Class ;
-    rdfs:label "Sepia"@en ;
+    rdfs:label "Sepia"@en,
+        "Sépia"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.11"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourCharacteristic .
 
@@ -5081,7 +5088,8 @@ fiaf:TimorLeste a owl:Class ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Tinted a owl:Class ;
-    rdfs:label "Tinted"@en ;
+    rdfs:label "Tinted"@en,
+        "Teinté"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.11"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourCharacteristic .
 
@@ -6195,7 +6203,8 @@ fiaf:AlternativeTitle a owl:Class ;
     rdfs:subClassOf fiaf:Title .
 
 fiaf:ColourCharacteristic a owl:Class ;
-    rdfs:label "Colour Characteristic"@en ;
+    rdfs:label "Colour Characteristic"@en,
+        "Caractéristiques de couleur"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.4.4"^^xsd:string .
 
 fiaf:ImageFormat a owl:Class ;
