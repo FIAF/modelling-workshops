@@ -5,6 +5,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 fiaf: a owl:Ontology ;
+    dc:creator "FIAF Cataloguing & Documentation Commission" ;
     dc:title "FIAFcore" .
 
 fiaf:1-1.5 a owl:Class ;
