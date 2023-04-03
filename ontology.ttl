@@ -138,7 +138,8 @@ fiaf:3D a owl:Class ;
     rdfs:subClassOf fiaf:ImageFormat .
 
 fiaf:3M a owl:Class ;
-    rdfs:label "3M"@en ;
+    rdfs:label "3M"@en,
+        "3M"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
@@ -330,17 +331,20 @@ fiaf:AgentUnclearOrUndetermined a owl:Class ;
     rdfs:subClassOf fiaf:ManifestationActivity .
 
 fiaf:Agfa a owl:Class ;
-    rdfs:label "Agfa"@en ;
+    rdfs:label "Agfa"@en,
+        "Agfa"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
 fiaf:AgfaGavaert a owl:Class ;
-    rdfs:label "Agfa Gavaert"@en ;
+    rdfs:label "Agfa Gavaert"@en,
+        "Agfa Gavaert"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
 fiaf:Akai a owl:Class ;
-    rdfs:label "Akai"@en ;
+    rdfs:label "Akai"@en,
+        "Akai"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
@@ -380,7 +384,8 @@ fiaf:Amharic a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Ampex a owl:Class ;
-    rdfs:label "Ampex"@en ;
+    rdfs:label "Ampex"@en,
+        "Ampex"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
@@ -444,7 +449,8 @@ fiaf:Animatronics a owl:Class ;
     rdfs:subClassOf fiaf:SpecialEffectsActivity .
 
 fiaf:Ansco a owl:Class ;
-    rdfs:label "Ansco"@en ;
+    rdfs:label "Ansco"@en,
+        "Ansco"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
@@ -661,7 +667,8 @@ fiaf:BasedonanIdea a owl:Class ;
     rdfs:subClassOf fiaf:WritingActivity .
 
 fiaf:Basf a owl:Class ;
-    rdfs:label "BASF"@en ;
+    rdfs:label "BASF"@en,
+        "BASF"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
@@ -824,7 +831,8 @@ fiaf:Breton a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Brifco a owl:Class ;
-    rdfs:label "Brifco"@en ;
+    rdfs:label "Brifco"@en,
+        "Brifco"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
@@ -1720,7 +1728,8 @@ fiaf:EIDRIdentifier a owl:Class ;
     rdfs:subClassOf fiaf:Identifier .
 
 fiaf:EastmanKodak a owl:Class ;
-    rdfs:label "Eastman Kodak"@en ;
+    rdfs:label "Eastman Kodak"@en,
+        "Eastman Kodak"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
@@ -2052,7 +2061,8 @@ fiaf:FrenchSouthernTerritories a owl:Class ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Fuji a owl:Class ;
-    rdfs:label "Fuji"@en ;
+    rdfs:label "Fuji"@en,
+        "Fuji"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
@@ -2315,7 +2325,8 @@ fiaf:HiriMotu a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Hitachi a owl:Class ;
-    rdfs:label "Hitachi"@en ;
+    rdfs:label "Hitachi"@en,
+        "Hitachi"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
@@ -2360,7 +2371,8 @@ fiaf:Hours a owl:Class ;
     rdfs:subClassOf fiaf:Extent .
 
 fiaf:Hp a owl:Class ;
-    rdfs:label "HP"@en ;
+    rdfs:label "HP"@en,
+        "HP"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
@@ -3094,7 +3106,8 @@ fiaf:Mauritius a owl:Class ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Maxell a owl:Class ;
-    rdfs:label "Maxell"@en ;
+    rdfs:label "Maxell"@en,
+        "Maxell"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
@@ -3115,7 +3128,8 @@ fiaf:Megabyte a owl:Class ;
     rdfs:subClassOf fiaf:Extent .
 
 fiaf:Memorex a owl:Class ;
-    rdfs:label "Memorex"@en ;
+    rdfs:label "Memorex"@en,
+        "Memorex"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
@@ -3578,7 +3592,8 @@ fiaf:OpticalSound a owl:Class ;
     rdfs:subClassOf fiaf:SoundFixation .
 
 fiaf:Oracle a owl:Class ;
-    rdfs:label "Oracle"@en ;
+    rdfs:label "Oracle"@en,
+        "Oracle"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
@@ -3719,7 +3734,8 @@ fiaf:Philippines a owl:Class ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Philips a owl:Class ;
-    rdfs:label "Philips"@en ;
+    rdfs:label "Philips"@en,
+        "Philips"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
@@ -4175,7 +4191,8 @@ fiaf:ScenicArtist a owl:Class ;
     rdfs:subClassOf fiaf:ProductionDesignActivity .
 
 fiaf:Scotch a owl:Class ;
-    rdfs:label "Scotch"@en ;
+    rdfs:label "Scotch"@en,
+        "Scotch"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
@@ -4200,7 +4217,8 @@ fiaf:ScriptSupervisor a owl:Class ;
     rdfs:subClassOf fiaf:DirectingActivity .
 
 fiaf:Seagate a owl:Class ;
-    rdfs:label "Seagate"@en ;
+    rdfs:label "Seagate"@en,
+        "Seagate"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
@@ -4299,7 +4317,8 @@ fiaf:Seychelles a owl:Class ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Shamrock a owl:Class ;
-    rdfs:label "Shamrock"@en ;
+    rdfs:label "Shamrock"@en,
+        "Shamrock"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
@@ -4429,7 +4448,8 @@ fiaf:Sonorized a owl:Class ;
     rdfs:subClassOf fiaf:VariantType .
 
 fiaf:Sony a owl:Class ;
-    rdfs:label "Sony"@en ;
+    rdfs:label "Sony"@en,
+        "Sony"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
@@ -4894,7 +4914,8 @@ fiaf:Torn a owl:Class ;
     rdfs:subClassOf fiaf:PerforationCondition .
 
 fiaf:Toshiba a owl:Class ;
-    rdfs:label "Toshiba"@en ;
+    rdfs:label "Toshiba"@en,
+        "Toshiba"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
@@ -5131,7 +5152,8 @@ fiaf:VenezuelaBolivarianRepublicOf a owl:Class ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Verbatim a owl:Class ;
-    rdfs:label "Verbatim"@en ;
+    rdfs:label "Verbatim"@en,
+        "Verbatim"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
@@ -5239,7 +5261,8 @@ fiaf:Welsh a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:WesternDigital a owl:Class ;
-    rdfs:label "Western Digital"@en ;
+    rdfs:label "Western Digital"@en,
+        "Western Digital"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
@@ -6021,7 +6044,8 @@ fiaf:Item a owl:Class ;
     dc:source "FIAF Cataloguing Manual 3.0"^^xsd:string .
 
 fiaf:Stock a owl:Class ;
-    rdfs:label "Stock"@en ;
+    rdfs:label "Stock"@en,
+        "Marque du support"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.14"^^xsd:string .
 
 fiaf:CorporateBody a owl:Class ;
