@@ -27,7 +27,7 @@
 
 <https://fiafcore.org/ontology/Buckled> a owl:Class ;
     rdfs:label "Buckled"@en ;
-    rdfs:label "Déformé"fr ;
+    rdfs:label "Déformé"@fr ;
     dc:source "FIAF Cataloguing Manual D.16.1"^^xsd:string ;
     rdfs:subClassOf fiaf:BaseEmulsionCondition .
 
