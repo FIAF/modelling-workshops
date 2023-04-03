@@ -3468,7 +3468,8 @@ fiaf:Mylar a owl:Class ;
     rdfs:subClassOf fiaf:Base .
 
 fiaf:NTSC a owl:Class ;
-    rdfs:label "NTSC"@en ;
+    rdfs:label "NTSC"@en,
+        "NTSC"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.10"^^xsd:string ;
     rdfs:subClassOf fiaf:BroadcastStandard .
 
@@ -3820,7 +3821,8 @@ fiaf:Outtake a owl:Class ;
     rdfs:subClassOf fiaf:Form .
 
 fiaf:PAL a owl:Class ;
-    rdfs:label "PAL"@en ;
+    rdfs:label "PAL"@en,
+        "PAL"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.10"^^xsd:string ;
     rdfs:subClassOf fiaf:BroadcastStandard .
 
@@ -4290,7 +4292,8 @@ fiaf:S10 a owl:Class ;
     rdfs:subClassOf fiaf:Codec .
 
 fiaf:SECAM a owl:Class ;
-    rdfs:label "SECAM"@en ;
+    rdfs:label "SECAM"@en,
+        "SECAM"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.10"^^xsd:string ;
     rdfs:subClassOf fiaf:BroadcastStandard .
 
@@ -6003,7 +6006,8 @@ fiaf:WrittenLanguages a owl:Class ;
     rdfs:subClassOf fiaf:LanguageUsage .
 
 fiaf:BroadcastStandard a owl:Class ;
-    rdfs:label "Broadcast Standard"@en ;
+    rdfs:label "Broadcast Standard"@en,
+        "Standard de télédiffusion"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.10"^^xsd:string .
 
 fiaf:DialogueLanguages a owl:Class ;
