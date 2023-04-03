@@ -16,51 +16,61 @@
 
 <https://fiafcore.org/ontology/PreReleaseManifestation> a owl:Class ;
     rdfs:label "Pre-Release Manifestation"@en ;
+    rdfs:label "Pré-diffusion Manifestation"@fr ;
     dc:source "FIAF Cataloguing Manual D.5.1"^^xsd:string ;
     rdfs:subClassOf fiaf:Manifestation .
 
 <https://fiafcore.org/ontology/TheatricalDistribution> a owl:Class ;
     rdfs:label "Theatrical Distribution"@en ;
+    rdfs:label "Distribution en salles"@fr ;
     dc:source "FIAF Cataloguing Manual D.5.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Manifestation .
 
 <https://fiafcore.org/ontology/NonTheatricalDistribution> a owl:Class ;
     rdfs:label "Non-Theatrical Distribution"@en ;
+    rdfs:label "Distribution non commerciale"@fr ;
     dc:source "FIAF Cataloguing Manual D.5.3"^^xsd:string ;
     rdfs:subClassOf fiaf:Manifestation .
 
 <https://fiafcore.org/ontology/NotForReleaseManifestation> a owl:Class ;
     rdfs:label "Not For Release Manifestation"@en ;
+    rdfs:label "Pas pour la diffusion"@fr ;
     dc:source "FIAF Cataloguing Manual D.5.4"^^xsd:string ;
     rdfs:subClassOf fiaf:Manifestation .
 
 <https://fiafcore.org/ontology/UnreleasedManifestation> a owl:Class ;
     rdfs:label "Unreleased Manifestation"@en ;
+    rdfs:label "Inédit"@fr ;
     dc:source "FIAF Cataloguing Manual D.5.5"^^xsd:string ;
     rdfs:subClassOf fiaf:Manifestation .
 
 <https://fiafcore.org/ontology/HomeViewingPublicationManifestation> a owl:Class ;
     rdfs:label "Home Viewing Publication Manifestation"@en ;
+    rdfs:label "Distribution pour visionnage domestique"@fr ;
     dc:source "FIAF Cataloguing Manual D.5.6"^^xsd:string ;
     rdfs:subClassOf fiaf:Manifestation .
 
 <https://fiafcore.org/ontology/BroadcastManifestation> a owl:Class ;
     rdfs:label "Broadcast Manifestation"@en ;
+    rdfs:label "Télédiffusion"@fr ;
     dc:source "FIAF Cataloguing Manual D.5.7"^^xsd:string ;
     rdfs:subClassOf fiaf:Manifestation .
 
 <https://fiafcore.org/ontology/InternetManifestation> a owl:Class ;
     rdfs:label "Internet Manifestation"@en ;
+    rdfs:label "Internet Manifestation"@fr ;
     dc:source "FIAF Cataloguing Manual D.5.8"^^xsd:string ;
     rdfs:subClassOf fiaf:Manifestation .
 
 <https://fiafcore.org/ontology/PreservationRestorationManifestation> a owl:Class ;
     rdfs:label "Preservation/Restoration Manifestation"@en ;
+   rdfs:label "Conservation/Restauration Manifestation"@fr ;
     dc:source "FIAF Cataloguing Manual D.5.9"^^xsd:string ;
     rdfs:subClassOf fiaf:Manifestation .
 
 <https://fiafcore.org/ontology/UnknownManifestation> a owl:Class ;
     rdfs:label "Unknown Manifestation"@en ;
+    rdfs:label "Inconnu Manifestation"@en ;
     dc:source "FIAF Cataloguing Manual D.5.10 "^^xsd:string ;
     rdfs:subClassOf fiaf:Manifestation .
 
