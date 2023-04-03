@@ -1842,7 +1842,8 @@ fiaf:EyeFilmmuseum a owl:NamedIndividual,
     dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:FFmpeg a owl:Class ;
-    rdfs:label "FFmpeg"@en ;
+    rdfs:label "FFmpeg"@en,
+        "FFmpeg"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.22"^^xsd:string ;
     rdfs:subClassOf fiaf:SourceSoftware .
 
@@ -5727,7 +5728,8 @@ fiaf:EditingActivity a owl:Class ;
     rdfs:subClassOf fiaf:Activity .
 
 fiaf:SourceSoftware a owl:Class ;
-    rdfs:label "Source Software"@en ;
+    rdfs:label "Source Software"@en,
+        "Logiciel"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.22"^^xsd:string .
 
 fiaf:AwardsOrNominationsEvent a owl:Class ;
