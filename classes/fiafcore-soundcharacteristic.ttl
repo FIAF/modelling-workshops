@@ -8,47 +8,56 @@
 
 <https://fiafcore.org/ontology/SoundCharacteristic> a owl:Class ;
     rdfs:label "Sound Characteristic"@en ;
+    rdfs:label "Caractéristiques sonores"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.4.3, 3.1.5.5"^^xsd:string .
 
 # Subclasses
 
 <https://fiafcore.org/ontology/Sound> a owl:Class ;
     rdfs:label "Sound"@en ;
+    rdfs:label "Sonore"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.4"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundCharacteristic .
 
 <https://fiafcore.org/ontology/Silent> a owl:Class ;
     rdfs:label "Silent"@en ;
+    rdfs:label "Non pisté"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.4"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundCharacteristic .
 
 <https://fiafcore.org/ontology/Mute> a owl:Class ;
     rdfs:label "Mute"@en ;
+    rdfs:label "Muet"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.4"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundCharacteristic .
 
 <https://fiafcore.org/ontology/Combined> a owl:Class ;
     rdfs:label "Combined"@en ;
+    rdfs:label "Combiné"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.4"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundCharacteristic .
 
 <https://fiafcore.org/ontology/CombinedAsMute> a owl:Class ;
     rdfs:label "Combined as Mute"@en ;
+    rdfs:label "Muet Combiné"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.4"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundCharacteristic .
 
 <https://fiafcore.org/ontology/CombinedAsSound> a owl:Class ;
     rdfs:label "Combined as Sound"@en ;
+    rdfs:label "Son Combiné"fr ;
     dc:source "FIAF Cataloguing Manual D.7.4"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundCharacteristic .
 
 <https://fiafcore.org/ontology/MixedSound> a owl:Class ;
     rdfs:label "Mixed Sound"@en ;
+    rdfs:label "Son Mixé"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.4"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundCharacteristic .
 
 <https://fiafcore.org/ontology/Temporary> a owl:Class ;
     rdfs:label "Temporary"@en ;
+    rdfs:label "Temporaire"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.4"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundCharacteristic .
 
