@@ -1251,12 +1251,14 @@ fiaf:ColourBlackAndWhite a owl:Class ;
     rdfs:subClassOf fiaf:ColourCharacteristic .
 
 fiaf:ColourNegative a owl:Class ;
-    rdfs:label "Colour Negative"@en ;
+    rdfs:label "Colour Negative"@en,
+        "Négatif couleur"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
     rdfs:subClassOf fiaf:Element .
 
 fiaf:ColourPositive a owl:Class ;
-    rdfs:label "Colour Positive"@en ;
+    rdfs:label "Colour Positive"@en,
+        "Positif couleur"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
     rdfs:subClassOf fiaf:Element .
 
@@ -1346,7 +1348,8 @@ fiaf:Cooperationbyoutsidebodyinmakingoffilm a owl:Class ;
     rdfs:subClassOf fiaf:ProducingActivity .
 
 fiaf:CopperTonedPositive a owl:Class ;
-    rdfs:label "Copper Toned Positive"@en ;
+    rdfs:label "Copper Toned Positive"@en,
+        "Colour Positive"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
     rdfs:subClassOf fiaf:Element .
 
@@ -1454,7 +1457,8 @@ fiaf:Curaçao a owl:Class ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:CyanMatrix a owl:Class ;
-    rdfs:label "Cyan Matrix"@en ;
+    rdfs:label "Cyan Matrix"@en,
+        "Séparation monochromatique"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
     rdfs:subClassOf fiaf:Element .
 
@@ -1496,7 +1500,8 @@ fiaf:D5 a owl:Class ;
     rdfs:subClassOf fiaf:Video .
 
 fiaf:DCP a owl:Class ;
-    rdfs:label "DCP"@en ;
+    rdfs:label "DCP"@en,
+        "DCP"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
     rdfs:subClassOf fiaf:Element .
 
@@ -1597,7 +1602,8 @@ fiaf:DigitisationEvent a owl:Class ;
     rdfs:subClassOf fiaf:PreservationEvent .
 
 fiaf:DirectBWPositive a owl:Class ;
-    rdfs:label "Direct BW Positive"@en ;
+    rdfs:label "Direct BW Positive"@en,
+        "Positif inversible noir et blanc"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
     rdfs:subClassOf fiaf:Element .
 
@@ -1768,12 +1774,14 @@ fiaf:DubbingSpeakers a owl:Class ;
     rdfs:subClassOf fiaf:SoundActivity .
 
 fiaf:DuplicateNegative a owl:Class ;
-    rdfs:label "Duplicate negative"@en ;
+    rdfs:label "Duplicate negative"@en,
+        "Internégatif"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
     rdfs:subClassOf fiaf:Element .
 
 fiaf:DuplicatePositive a owl:Class ;
-    rdfs:label "Duplicate positive"@en ;
+    rdfs:label "Duplicate positive"@en,
+        "Interpositif"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
     rdfs:subClassOf fiaf:Element .
 
@@ -2519,7 +2527,8 @@ fiaf:Igbo a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:ImageNegative a owl:Class ;
-    rdfs:label "Image negative"@en ;
+    rdfs:label "Image negative"@en,
+        "Négatif image"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
     rdfs:subClassOf fiaf:Element .
 
@@ -2901,7 +2910,8 @@ fiaf:Latvian a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Lavender a owl:Class ;
-    rdfs:label "Lavender"@en ;
+    rdfs:label "Lavender"@en,
+        "Lavande"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
     rdfs:subClassOf fiaf:Element .
 
@@ -3722,12 +3732,14 @@ fiaf:Oracle a owl:Class ;
     rdfs:subClassOf fiaf:Stock .
 
 fiaf:OriginalNegative a owl:Class ;
-    rdfs:label "Original negative"@en ;
+    rdfs:label "Original negative"@en,
+        "Négatif original"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
     rdfs:subClassOf fiaf:Element .
 
 fiaf:OriginalPositiveReversalFilm a owl:Class ;
-    rdfs:label "Original positive (reversal film)"@en ;
+    rdfs:label "Original positive (reversal film)"@en,
+        "Positif original (film inversible)"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
     rdfs:subClassOf fiaf:Element .
 
@@ -3902,7 +3914,8 @@ fiaf:Portuguese a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Positive a owl:Class ;
-    rdfs:label "Positive"@en ;
+    rdfs:label "Positive"@en,
+        "Positif"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
     rdfs:subClassOf fiaf:Element .
 
@@ -4635,7 +4648,8 @@ fiaf:SoundEngineer a owl:Class ;
     rdfs:subClassOf fiaf:SoundActivity .
 
 fiaf:SoundNegative a owl:Class ;
-    rdfs:label "Sound negative"@en ;
+    rdfs:label "Sound negative"@en,
+        "Négatif son"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
     rdfs:subClassOf fiaf:Element .
 
@@ -6211,7 +6225,8 @@ fiaf:Form a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms D.1.1"^^xsd:string .
 
 fiaf:Element a owl:Class ;
-    rdfs:label "Element"@en ;
+    rdfs:label "Element"@en,
+        "Nature"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.4"^^xsd:string .
 
 fiaf:WorkVariant a owl:Class ;
