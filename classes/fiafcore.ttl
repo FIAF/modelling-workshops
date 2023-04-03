@@ -4,4 +4,5 @@
 # Ontology
 
 <https://fiafcore.org/ontology/> a owl:Ontology ;
-    dc:title "FIAFcore" .
+    dc:title "FIAFcore" ;
+    dc:creator "FIAF Cataloguing & Documentation Commission" .
