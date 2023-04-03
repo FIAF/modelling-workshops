@@ -7,27 +7,32 @@
 # Class
 
 <https://fiafcore.org/ontology/BitDepth> a owl:Class ;
-    rdfs:label "BitDepth"@en ;
+    rdfs:label "Bit Depth"@en ;
+    rdfs:label "Profondeur de bit"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.20"^^xsd:string .
 
 # Subclasses
 
 <https://fiafcore.org/ontology/10bit> a owl:Class ;
     rdfs:label "10bit"@en ;
+    rdfs:label "10bit"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.17"^^xsd:string ;
     rdfs:subClassOf fiaf:BitDepth .
 
 <https://fiafcore.org/ontology/16bit> a owl:Class ;
     rdfs:label "16bit"@en ;
+    rdfs:label "16bit"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.17"^^xsd:string ;
     rdfs:subClassOf fiaf:BitDepth .
 
 <https://fiafcore.org/ontology/24bit> a owl:Class ;
     rdfs:label "24bit"@en ;
+    rdfs:label "24bit"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.17"^^xsd:string ;
     rdfs:subClassOf fiaf:BitDepth .
 
 <https://fiafcore.org/ontology/32bit> a owl:Class ;
     rdfs:label "32bit"@en ;
+    rdfs:label "32bit"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.17"^^xsd:string ;
     rdfs:subClassOf fiaf:BitDepth .
