@@ -96,7 +96,7 @@ jobs:
             if match == 1:
               return entity
             else:
-              print(f'No translation for {entity}.')
+              print(f'No single {lang} label for {entity}.')
               return None
           
           # load ontology    
