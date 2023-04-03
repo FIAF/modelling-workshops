@@ -6109,7 +6109,8 @@ fiaf:ProductionDesignActivity a owl:Class ;
     rdfs:subClassOf fiaf:Activity .
 
 fiaf:Item a owl:Class ;
-    rdfs:label "Item"@en ;
+    rdfs:label "Item"@en,
+        "Item"@fr ;
     dc:source "FIAF Cataloguing Manual 3.0"^^xsd:string .
 
 fiaf:Stock a owl:Class ;
