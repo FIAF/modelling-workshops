@@ -69,6 +69,6 @@
 
 <https://fiafcore.org/ontology/YUV> a owl:Class ;
     rdfs:label "YUV"@en ;
-    rdfs:label "YUV"fr ;
+    rdfs:label "YUV"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourStandard .
