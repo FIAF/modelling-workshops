@@ -239,12 +239,14 @@ fiaf:9.5mmFilm a owl:Class ;
     rdfs:subClassOf fiaf:Film .
 
 fiaf:AIFF a owl:Class ;
-    rdfs:label "AIFF"@en ;
+    rdfs:label "AIFF"@en,
+        "AIFF"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.10"^^xsd:string ;
     rdfs:subClassOf fiaf:Codec .
 
 fiaf:AVC a owl:Class ;
-    rdfs:label "AVC"@en ;
+    rdfs:label "AVC"@en,
+        "AVC"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.10"^^xsd:string ;
     rdfs:subClassOf fiaf:Codec .
 
@@ -1501,7 +1503,8 @@ fiaf:D1 a owl:Class ;
     rdfs:subClassOf fiaf:Video .
 
 fiaf:D10 a owl:Class ;
-    rdfs:label "D10"@en ;
+    rdfs:label "D10"@en,
+        "D10"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.10"^^xsd:string ;
     rdfs:subClassOf fiaf:Codec .
 
@@ -2676,7 +2679,8 @@ fiaf:Italy a owl:Class ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:JPEG2000 a owl:Class ;
-    rdfs:label "JPEG2000"@en ;
+    rdfs:label "JPEG2000"@en,
+        "JPEG2000"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.10"^^xsd:string ;
     rdfs:subClassOf fiaf:Codec .
 
@@ -3088,7 +3092,8 @@ fiaf:MPEG4 a owl:Class ;
     rdfs:subClassOf fiaf:DigitalFileEncoding .
 
 fiaf:MPEG4H264AVCMainProfile a owl:Class ;
-    rdfs:label "MPEG-4 H264/AVC Main Profile"@en ;
+    rdfs:label "MPEG-4 H264/AVC Main Profile"@en,
+        "MPEG-4 H264/AVC Main Profile"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.10"^^xsd:string ;
     rdfs:subClassOf fiaf:Codec .
 
@@ -4024,7 +4029,8 @@ fiaf:PrintThroughInMould a owl:Class ;
     rdfs:subClassOf fiaf:ImageCondition .
 
 fiaf:ProRes422HQ a owl:Class ;
-    rdfs:label "ProRes 422 (HQ)"@en ;
+    rdfs:label "ProRes 422 (HQ)"@en,
+        "ProRes 422 (HQ)"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.10"^^xsd:string ;
     rdfs:subClassOf fiaf:Codec .
 
@@ -4278,7 +4284,8 @@ fiaf:Réunion a owl:Class ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:S10 a owl:Class ;
-    rdfs:label "S10"@en ;
+    rdfs:label "S10"@en,
+        "S10"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.10"^^xsd:string ;
     rdfs:subClassOf fiaf:Codec .
 
@@ -5461,7 +5468,8 @@ fiaf:Volapük a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:WAV a owl:Class ;
-    rdfs:label "WAV"@en ;
+    rdfs:label "WAV"@en,
+        "WAV"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.10"^^xsd:string ;
     rdfs:subClassOf fiaf:Codec .
 
@@ -6188,7 +6196,8 @@ fiaf:Video a owl:Class ;
     rdfs:subClassOf fiaf:Format .
 
 fiaf:Codec a owl:Class ;
-    rdfs:label "Codec"@en ;
+    rdfs:label "Codec"@en,
+        "Codec"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.16, 3.1.5.17"^^xsd:string .
 
 fiaf:FrameRate a owl:Class ;
