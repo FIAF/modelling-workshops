@@ -5960,7 +5960,8 @@ fiaf:PuppetActivity a owl:Class ;
     rdfs:subClassOf fiaf:Activity .
 
 fiaf:Carrier a owl:Class ;
-    rdfs:label "Carrier"@en .
+    rdfs:label "Carrier"@en,
+        "Conteneur"@en .
 
 fiaf:EditingActivity a owl:Class ;
     rdfs:label "Editing Activity"@en ;
