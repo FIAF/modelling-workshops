@@ -34,7 +34,8 @@ fiaf:16bit a owl:Class ;
     rdfs:subClassOf fiaf:BitDepth .
 
 fiaf:16fps a owl:Class ;
-    rdfs:label "16fps"@en ;
+    rdfs:label "16fps"@en,
+        "16 images/seconde"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.18"^^xsd:string ;
     rdfs:subClassOf fiaf:FrameRate .
 
@@ -88,7 +89,8 @@ fiaf:2-2.5 a owl:Class ;
     rdfs:subClassOf fiaf:ImageRatio .
 
 fiaf:23.98fps a owl:Class ;
-    rdfs:label "23.98 fps"@en ;
+    rdfs:label "23.98 fps"@en,
+        "23.98 images/seconde"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.18"^^xsd:string ;
     rdfs:subClassOf fiaf:FrameRate .
 
@@ -98,12 +100,14 @@ fiaf:24bit a owl:Class ;
     rdfs:subClassOf fiaf:BitDepth .
 
 fiaf:24fps a owl:Class ;
-    rdfs:label "24fps"@en ;
+    rdfs:label "24fps"@en,
+        "24 images/seconde"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.18"^^xsd:string ;
     rdfs:subClassOf fiaf:FrameRate .
 
 fiaf:25fps a owl:Class ;
-    rdfs:label "25fps"@en ;
+    rdfs:label "25fps"@en,
+        "25 images/seconde"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.18"^^xsd:string ;
     rdfs:subClassOf fiaf:FrameRate .
 
@@ -119,7 +123,8 @@ fiaf:2K a owl:Class ;
     rdfs:subClassOf fiaf:Resolution .
 
 fiaf:30fps a owl:Class ;
-    rdfs:label "30fps"@en ;
+    rdfs:label "30fps"@en,
+        "30 images/seconde"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.18"^^xsd:string ;
     rdfs:subClassOf fiaf:FrameRate .
 
@@ -157,7 +162,8 @@ fiaf:405 a owl:Class ;
     rdfs:subClassOf fiaf:LineStandard .
 
 fiaf:48fps a owl:Class ;
-    rdfs:label "48fps"@en ;
+    rdfs:label "48fps"@en,
+        "48 images/seconde"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.18"^^xsd:string ;
     rdfs:subClassOf fiaf:FrameRate .
 
@@ -5211,7 +5217,8 @@ fiaf:Vanuatu a owl:Class ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:VariableFrameRate a owl:Class ;
-    rdfs:label "Variable Frame Rate"@en ;
+    rdfs:label "Variable Frame Rate"@en,
+        "Variable images/seconde"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.18"^^xsd:string ;
     rdfs:subClassOf fiaf:FrameRate .
 
@@ -6010,7 +6017,8 @@ fiaf:Codec a owl:Class ;
     dc:source "FIAF Cataloguing Manual 3.1.5.16, 3.1.5.17"^^xsd:string .
 
 fiaf:FrameRate a owl:Class ;
-    rdfs:label "Frame Rate"@en ;
+    rdfs:label "Frame Rate"@en,
+        "Nombre d’images par seconde"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.12"^^xsd:string .
 
 fiaf:AlternativeTitle a owl:Class ;
