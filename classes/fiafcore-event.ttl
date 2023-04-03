@@ -8,212 +8,254 @@
 
 <https://fiafcore.org/ontology/Event> a owl:Class ;
     rdfs:label "Event"@en ;
+    rdfs:label "Événement"@fr ;
     dc:source "FIAF Cataloguing Manual 1.4.2, 2.4.2, 3.3.2"^^xsd:string .
 
 # Subclasses
 
 <https://fiafcore.org/ontology/PublicationEvent> a owl:Class ;
     rdfs:label "Publication Event"@en ;
+    rdfs:label "Publication Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.1"^^xsd:string ;
     rdfs:subClassOf fiaf:Event .
 
 <https://fiafcore.org/ontology/ReleaseEvent> a owl:Class ;
     rdfs:label "Release Event"@en ;
+    rdfs:label "Sortie Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.10"^^xsd:string ;
     rdfs:subClassOf fiaf:PublicationEvent .
 
 <https://fiafcore.org/ontology/DistributionEvent> a owl:Class ;
     rdfs:label "Distribution Event"@en ;
+    rdfs:label "Distribution Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.10"^^xsd:string ;
     rdfs:subClassOf fiaf:PublicationEvent .
 
 <https://fiafcore.org/ontology/BroadcastEvent> a owl:Class ;
     rdfs:label "Broadcast Event"@en ;
+    rdfs:label "Télédiffusion Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.10"^^xsd:string ;
     rdfs:subClassOf fiaf:PublicationEvent .
 
 <https://fiafcore.org/ontology/OnlineTransmissionEvent> a owl:Class ;
     rdfs:label "Online Transmission Event"@en ;
+    rdfs:label "Diffusion en ligne Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.10"^^xsd:string ;
     rdfs:subClassOf fiaf:PublicationEvent .
 
 <https://fiafcore.org/ontology/PreReleaseEvent> a owl:Class ;
     rdfs:label "Pre-Release Event"@en ;
+    rdfs:label "Pré-diffusion Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.10"^^xsd:string ;
     rdfs:subClassOf fiaf:PublicationEvent .
 
 <https://fiafcore.org/ontology/TheatricalDistributionEvent> a owl:Class ;
     rdfs:label "Theatrical Distribution Event"@en ;
+    rdfs:label "Distribution en salles Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.10"^^xsd:string ;
     rdfs:subClassOf fiaf:PublicationEvent .
 
 <https://fiafcore.org/ontology/NonTheatricalDistributionEvent> a owl:Class ;
     rdfs:label "Non-Theatrical Distribution Event"@en ;
+    rdfs:label "Distribution non commerciale Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.10"^^xsd:string ;
     rdfs:subClassOf fiaf:PublicationEvent .
 
 <https://fiafcore.org/ontology/NotForReleaseEvent> a owl:Class ;
     rdfs:label "Not For Release Event"@en ;
+    rdfs:label "Pas pour la diffusion Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.10"^^xsd:string ;
     rdfs:subClassOf fiaf:PublicationEvent .
 
 <https://fiafcore.org/ontology/HomeVideoPublicationEvent> a owl:Class ;
     rdfs:label "Home Video Publication Event"@en ;
+    rdfs:label "Distribution pour visionnage domestique Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.10"^^xsd:string ;
     rdfs:subClassOf fiaf:PublicationEvent .
 
 <https://fiafcore.org/ontology/UnknownEvent> a owl:Class ;
     rdfs:label "Unknown Event"@en ;
+    rdfs:label "Inconnu Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.10"^^xsd:string ;
     rdfs:subClassOf fiaf:PublicationEvent .
 
 <https://fiafcore.org/ontology/AwardsOrNominationsEvent> a owl:Class ;
     rdfs:label "Award(s) or Nomination(s) Event"@en ;
+    rdfs:label "Récompense(s) ou nomination(s)"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Event .
 
 <https://fiafcore.org/ontology/ProductionEvent> a owl:Class ;
     rdfs:label "Production Event"@en ;
+    rdfs:label "Production Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.3"^^xsd:string ;
     rdfs:subClassOf fiaf:Event .
 
 <https://fiafcore.org/ontology/CastingEvent> a owl:Class ;
     rdfs:label "Casting Event"@en ;
+    rdfs:label "Distribution (casting) Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.11"^^xsd:string ;
     rdfs:subClassOf fiaf:ProductionEvent .
 
 <https://fiafcore.org/ontology/OutdoorShootingEvent> a owl:Class ;
     rdfs:label "Outdoor Shooting Event"@en ;
+    rdfs:label "Tournage en extérieur Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.11"^^xsd:string ;
     rdfs:subClassOf fiaf:ProductionEvent .
 
 <https://fiafcore.org/ontology/IndoorShootingEvent> a owl:Class ;
     rdfs:label "Indoor Shooting Event"@en ;
+    rdfs:label "Tournage en intérieur Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.11"^^xsd:string ;
     rdfs:subClassOf fiaf:ProductionEvent .
 
 <https://fiafcore.org/ontology/PostProductionEvent> a owl:Class ;
     rdfs:label "Post-Production"@en ;
+    rdfs:label "Post-production Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.11"^^xsd:string ;
     rdfs:subClassOf fiaf:ProductionEvent .
 
 <https://fiafcore.org/ontology/RightsCopyrightRegistrationEvent> a owl:Class ;
     rdfs:label "Rights/Copyright/Registration Event"@en ;
+    rdfs:label "Droits/Copyright/Déclaration DPI Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.4"^^xsd:string ;
     rdfs:subClassOf fiaf:Event .
 
 <https://fiafcore.org/ontology/PreservationEvent> a owl:Class ;
     rdfs:label "Preservation Event"@en ;
+    rdfs:label "Conservation Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.5"^^xsd:string ;
     rdfs:subClassOf fiaf:Event .
 
 <https://fiafcore.org/ontology/DuplicationEvent> a owl:Class ;
     rdfs:label "Duplication Event"@en ;
+    rdfs:label "Duplication Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.12"^^xsd:string ;
     rdfs:subClassOf fiaf:PreservationEvent .
 
 <https://fiafcore.org/ontology/TransferEvent> a owl:Class ;
     rdfs:label "Transfer Event"@en ;
+    rdfs:label "Transfert Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.12"^^xsd:string ;
     rdfs:subClassOf fiaf:PreservationEvent .
 
 <https://fiafcore.org/ontology/ReproductionEvent> a owl:Class ;
     rdfs:label "Reproduction Event"@en ;
+    rdfs:label "Reproduction Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.12"^^xsd:string ;
     rdfs:subClassOf fiaf:PreservationEvent .
 
 <https://fiafcore.org/ontology/DigitisationEvent> a owl:Class ;
     rdfs:label "Digitisation Event"@en ;
+    rdfs:label "Numérisation Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.12"^^xsd:string ;
     rdfs:subClassOf fiaf:PreservationEvent .
 
 <https://fiafcore.org/ontology/DecisionEvent> a owl:Class ;
     rdfs:label "Decision Event"@en ;
+    rdfs:label "Décision Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.6"^^xsd:string ;
     rdfs:subClassOf fiaf:Event .
 
 <https://fiafcore.org/ontology/CensorshipEvent> a owl:Class ;
     rdfs:label "Censorship Event"@en ;
+    rdfs:label "Censure Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.13"^^xsd:string ;
     rdfs:subClassOf fiaf:DecisionEvent .
     
 <https://fiafcore.org/ontology/RevisionEvent> a owl:Class ;
     rdfs:label "Revision Event"@en ;
+    rdfs:label "Révision Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.13"^^xsd:string ;
     rdfs:subClassOf fiaf:DecisionEvent .
     
 <https://fiafcore.org/ontology/RatingEvent> a owl:Class ;
     rdfs:label "Rating Event"@en ;
+    rdfs:label "Classification Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.13"^^xsd:string ;
     rdfs:subClassOf fiaf:DecisionEvent .
 
 <https://fiafcore.org/ontology/ManufactureEvent> a owl:Class ;
     rdfs:label "Manufacture Event"@en ;
+    rdfs:label "Fabrication Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.7"^^xsd:string ;
     rdfs:subClassOf fiaf:Event .
     
 <https://fiafcore.org/ontology/FilmPrintingEvent> a owl:Class ;
     rdfs:label "Film Printing Event"@en ;
+    rdfs:label "Tireuse cinématographique Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.14"^^xsd:string ;
     rdfs:subClassOf fiaf:ManufactureEvent .
 
 <https://fiafcore.org/ontology/TelecineEvent> a owl:Class ;
     rdfs:label "Telecine Event"@en ;
+    rdfs:label "Télécinéma Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.14"^^xsd:string ;
     rdfs:subClassOf fiaf:ManufactureEvent .  
     
 <https://fiafcore.org/ontology/VideoCopyingEvent> a owl:Class ;
     rdfs:label "Video Copying Event"@en ;
+    rdfs:label "Copie vidéo Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.14"^^xsd:string ;
     rdfs:subClassOf fiaf:ManufactureEvent .  
    
 <https://fiafcore.org/ontology/ScanningEvent> a owl:Class ;
     rdfs:label "Scanning Event"@en ;
+    rdfs:label "Scan Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.14"^^xsd:string ;
     rdfs:subClassOf fiaf:ManufactureEvent .   
     
 <https://fiafcore.org/ontology/MasteringEvent> a owl:Class ;
     rdfs:label "Mastering Event"@en ;
+    rdfs:label "Mastering Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.14"^^xsd:string ;
     rdfs:subClassOf fiaf:ManufactureEvent .   
     
 <https://fiafcore.org/ontology/UploadingEvent> a owl:Class ;
     rdfs:label "Uploading Event"@en ;
+    rdfs:label "Téléchargement Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.14"^^xsd:string ;
     rdfs:subClassOf fiaf:ManufactureEvent .       
     
 <https://fiafcore.org/ontology/InspectionEvent> a owl:Class ;
     rdfs:label "Inspection Event"@en ;
+    rdfs:label "Contrôle Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.8"^^xsd:string ;
     rdfs:subClassOf fiaf:Event .
 
 <https://fiafcore.org/ontology/AcquisitionEvent> a owl:Class ;
     rdfs:label "Acquisition Event"@en ;
+    rdfs:label "Acquisition Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.9"^^xsd:string ;
     rdfs:subClassOf fiaf:Event .
 
 <https://fiafcore.org/ontology/DonationEvent> a owl:Class ;
     rdfs:label "Donation Event"@en ;
+    rdfs:label "Don Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.15.1"^^xsd:string ;
     rdfs:subClassOf fiaf:AcquisitionEvent .       
         
 <https://fiafcore.org/ontology/ExchangeEvent> a owl:Class ;
     rdfs:label "Exchange Event"@en ;
+    rdfs:label "Echange Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.15.1"^^xsd:string ;
     rdfs:subClassOf fiaf:AcquisitionEvent .       
     
 <https://fiafcore.org/ontology/LoanEvent> a owl:Class ;
     rdfs:label "Loan Event"@en ;
+    rdfs:label "Prêt Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.15.1"^^xsd:string ;
     rdfs:subClassOf fiaf:AcquisitionEvent .       
     
 <https://fiafcore.org/ontology/PurchaseEvent> a owl:Class ;
     rdfs:label "Purchase Event"@en ;
+    rdfs:label "Achat Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.15.1"^^xsd:string ;
     rdfs:subClassOf fiaf:AcquisitionEvent .       
     
 <https://fiafcore.org/ontology/OffAirRecordingEvent> a owl:Class ;
     rdfs:label "Off-Air Recording Event"@en ;
+    rdfs:label "Enregistrement hors antenne Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.15.1"^^xsd:string ;
     rdfs:subClassOf fiaf:AcquisitionEvent .       
     
