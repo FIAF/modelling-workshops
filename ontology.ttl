@@ -403,7 +403,8 @@ fiaf:Algeria a owl:Class ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:AmateurFilm a owl:Class ;
-    rdfs:label "Amateur Film"@en ;
+    rdfs:label "Amateur Film"@en,
+        "Film amateur"@fr ;
     dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
     rdfs:subClassOf fiaf:Form .
 
@@ -1295,7 +1296,8 @@ fiaf:Comoros a owl:Class ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Compilation a owl:Class ;
-    rdfs:label "Compilation"@en ;
+    rdfs:label "Compilation"@en,
+        "Compilation"@fr ;
     dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
     rdfs:subClassOf fiaf:Form .
 
@@ -1873,8 +1875,8 @@ fiaf:Ewe a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Excerpt a owl:Class ;
-    rdfs:label "Clip"@en,
-        "Excerpt"@en ;
+    rdfs:label "Excerpt"@en,
+        "Extrait"@fr ;
     dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
     rdfs:subClassOf fiaf:Form .
 
@@ -1930,13 +1932,14 @@ fiaf:Faroese a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Feature a owl:Class ;
-    rdfs:label "Feature"@en ;
+    rdfs:label "Feature"@en,
+        "Long métrage"@fr ;
     dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
     rdfs:subClassOf fiaf:Form .
 
 fiaf:Featurette a owl:Class ;
     rdfs:label "Featurette"@en,
-        "Making Of"@en ;
+        "Film sur le film"@fr ;
     dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
     rdfs:subClassOf fiaf:Form .
 
@@ -2402,7 +2405,8 @@ fiaf:HolySee a owl:Class ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:HomeMovie a owl:Class ;
-    rdfs:label "Home Movie"@en ;
+    rdfs:label "Home Movie"@en,
+        "Film de famille"@fr ;
     dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
     rdfs:subClassOf fiaf:Form .
 
@@ -3731,8 +3735,8 @@ fiaf:OutdoorShootingEvent a owl:Class ;
     rdfs:subClassOf fiaf:ProductionEvent .
 
 fiaf:Outtake a owl:Class ;
-    rdfs:label "Out"@en,
-        "Outtake"@en ;
+    rdfs:label "Outtake"@en,
+        "Chutes"@fr ;
     dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
     rdfs:subClassOf fiaf:Form .
 
@@ -4296,7 +4300,7 @@ fiaf:Scotch a owl:Class ;
 
 fiaf:ScreenTest a owl:Class ;
     rdfs:label "Screen Test"@en,
-        "Wardrobe Test"@en ;
+        "Essai"@fr ;
     dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
     rdfs:subClassOf fiaf:Form .
 
@@ -4370,7 +4374,8 @@ fiaf:Serial a owl:Class ;
     rdfs:subClassOf fiaf:WorkVariant .
 
 fiaf:Series a owl:Class ;
-    rdfs:label "Series"@en ;
+    rdfs:label "Series"@en,
+        "Séries"@fr ;
     dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
     rdfs:subClassOf fiaf:Form .
 
@@ -4426,7 +4431,8 @@ fiaf:Shona a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Short a owl:Class ;
-    rdfs:label "Short"@en ;
+    rdfs:label "Short"@en,
+        "Court métrage"@fr ;
     dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
     rdfs:subClassOf fiaf:Form .
 
@@ -4709,7 +4715,7 @@ fiaf:StillPhotographer a owl:Class ;
 
 fiaf:StockFootage a owl:Class ;
     rdfs:label "Stock Footage"@en,
-        "Stock Shot"@en ;
+        "Métrage d'archives"@fr ;
     dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
     rdfs:subClassOf fiaf:Form .
 
@@ -5030,9 +5036,8 @@ fiaf:Toshiba a owl:Class ;
     rdfs:subClassOf fiaf:Stock .
 
 fiaf:Trailer a owl:Class ;
-    rdfs:label "Preview"@en,
-        "Teaser"@en,
-        "Trailer"@en ;
+    rdfs:label "Trailer"@en,
+        "Bande-annonce"@fr ;
     dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
     rdfs:subClassOf fiaf:Form .
 
@@ -5158,7 +5163,8 @@ fiaf:UnderwaterCameraman a owl:Class ;
     rdfs:subClassOf fiaf:CinematographyActivity .
 
 fiaf:UneditedFootage a owl:Class ;
-    rdfs:label "Unedited Footage"@en ;
+    rdfs:label "Unedited Footage"@en,
+        "Matériel non monté"@fr ;
     dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
     rdfs:subClassOf fiaf:Form .
 
@@ -6140,7 +6146,8 @@ fiaf:Base a owl:Class ;
     dc:source "FIAF Cataloguing Manual 3.1.5.13"^^xsd:string .
 
 fiaf:Form a owl:Class ;
-    rdfs:label "Form"@en ;
+    rdfs:label "Form"@en,
+        "Forme"@fr ;
     dc:source "FIAF Glossary of Filmographic Terms D.1.1"^^xsd:string .
 
 fiaf:Element a owl:Class ;
