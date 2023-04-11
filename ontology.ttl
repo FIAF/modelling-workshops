@@ -5634,8 +5634,8 @@ fiaf:hasAchievement a owl:DatatypeProperty ;
     rdfs:domain fiaf:AwardsOrNominationsEvent ;
     rdfs:range xsd:string .
 
-fiaf:hasActvity a owl:ObjectProperty ;
-    rdfs:label "Has Actvity"@en ;
+fiaf:hasActivity a owl:ObjectProperty ;
+    rdfs:label "Has Activity"@en ;
     dc:source "FIAF Cataloguing Manual 1.4.1.1, 2.4.1.1, 3.3.1.1"^^xsd:string ;
     rdfs:domain fiaf:Event ;
     rdfs:range fiaf:Activity .
