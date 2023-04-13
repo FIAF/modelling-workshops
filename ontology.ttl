@@ -5919,13 +5919,16 @@ fiaf:Tokelau a owl:Class ;
 fiaf:Tonga a owl:Class ;
     rdfs:label "Tonga"@en,
         "Tonga"@es,
+        "Tonga"@fr ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf fiaf:Country .
+
+fiaf:Tongan a owl:Class ;
+    rdfs:label "Tongan"@en,
         "Tongano"@es,
-        "Tonga"@fr,
         "Tongien"@fr ;
-    dc:source "ISO 3166-1"^^xsd:string,
-        "ISO 639-1"^^xsd:string ;
-    rdfs:subClassOf fiaf:Country,
-        fiaf:Language .
+    dc:source "ISO 639-1"^^xsd:string ;
+    rdfs:subClassOf fiaf:Language .
 
 fiaf:Torn a owl:Class ;
     rdfs:label "Torn"@en,
