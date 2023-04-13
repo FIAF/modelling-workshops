@@ -6134,8 +6134,8 @@ fiaf:UnknownEvent a owl:Class ;
     rdfs:subClassOf fiaf:PublicationEvent .
 
 fiaf:UnknownManifestation a owl:Class ;
-    rdfs:label "Inconnu Manifestation"@en,
-        "Unknown Manifestation"@en ;
+    rdfs:label "Unknown Manifestation"@en,
+        "Inconnu Manifestation"@fr ;
     dc:source "FIAF Cataloguing Manual D.5.10 "^^xsd:string ;
     rdfs:subClassOf fiaf:Manifestation .
 
