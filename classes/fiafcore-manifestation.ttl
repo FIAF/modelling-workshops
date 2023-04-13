@@ -70,7 +70,7 @@
 
 <https://fiafcore.org/ontology/UnknownManifestation> a owl:Class ;
     rdfs:label "Unknown Manifestation"@en ;
-    rdfs:label "Inconnu Manifestation"@en ;
+    rdfs:label "Inconnu Manifestation"@fr ;
     dc:source "FIAF Cataloguing Manual D.5.10 "^^xsd:string ;
     rdfs:subClassOf fiaf:Manifestation .
 
