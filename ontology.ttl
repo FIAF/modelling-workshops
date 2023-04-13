@@ -341,7 +341,9 @@ fiaf:Afar a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Afghanistan a owl:Class ;
-    rdfs:label "Afghanistan"@en ;
+    rdfs:label "Afghanistan"@en,
+        "Afganistán"@es,
+        "Afghanistan"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -408,7 +410,9 @@ fiaf:Akan a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Albania a owl:Class ;
-    rdfs:label "Albania"@en ;
+    rdfs:label "Albania"@en,
+        "Albania"@es,
+        "Albanie"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -420,7 +424,9 @@ fiaf:Albanian a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Algeria a owl:Class ;
-    rdfs:label "Algeria"@en ;
+    rdfs:label "Algeria"@en,
+        "Algeria"@es,
+        "Algérie"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -431,7 +437,9 @@ fiaf:AmateurFilm a owl:Class ;
     rdfs:subClassOf fiaf:Form .
 
 fiaf:AmericanSamoa a owl:Class ;
-    rdfs:label "American Samoa"@en ;
+    rdfs:label "American Samoa"@en,
+        "Samoa Estadounidense"@es,
+        "Samoa américaines"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -468,17 +476,23 @@ fiaf:Anamorphic a owl:Class ;
     rdfs:subClassOf fiaf:ImageFormat .
 
 fiaf:Andorra a owl:Class ;
-    rdfs:label "Andorra"@en ;
+    rdfs:label "Andorra"@en,
+        "Andorra"@es,
+        "Andorre"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Angola a owl:Class ;
-    rdfs:label "Angola"@en ;
+    rdfs:label "Angola"@en,
+        "Angola"@es,
+        "Angola"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Anguilla a owl:Class ;
-    rdfs:label "Anguilla"@en ;
+    rdfs:label "Anguilla"@en,
+        "Anguila"@es,
+        "Anguilla"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -522,12 +536,16 @@ fiaf:Anscocolor a owl:Class ;
     rdfs:subClassOf fiaf:ColourStandard .
 
 fiaf:Antarctica a owl:Class ;
-    rdfs:label "Antarctica"@en ;
+    rdfs:label "Antarctica"@en,
+        "Antártida"@es,
+        "Antarctique"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
-fiaf:AntiguaAndBarbuda a owl:Class ;
-    rdfs:label "Antigua and Barbuda"@en ;
+fiaf:AntiguaandBarbuda a owl:Class ;
+    rdfs:label "Antigua and Barbuda"@en,
+        "Antigua y Barbuda"@es,
+        "Antigua-et-Barbuda"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -556,7 +574,9 @@ fiaf:ArchivoNacionalDeLaImagenYLaPalabraSodre a owl:NamedIndividual,
     dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:Argentina a owl:Class ;
-    rdfs:label "Argentina"@en ;
+    rdfs:label "Argentina"@en,
+        "Argentina"@es,
+        "Argentine"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -576,7 +596,9 @@ fiaf:ArkiviQendrorShteterorIFilmitAqshf a owl:NamedIndividual,
     dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:Armenia a owl:Class ;
-    rdfs:label "Armenia"@en ;
+    rdfs:label "Armenia"@en,
+        "Armenia"@es,
+        "Arménie"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -599,7 +621,9 @@ fiaf:ArtDirector a owl:Class ;
     rdfs:subClassOf fiaf:ProductionDesignActivity .
 
 fiaf:Aruba a owl:Class ;
-    rdfs:label "Aruba"@en ;
+    rdfs:label "Aruba"@en,
+        "Aruba"@es,
+        "Aruba"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -661,12 +685,16 @@ fiaf:Augmented a owl:Class ;
     rdfs:subClassOf fiaf:VariantType .
 
 fiaf:Australia a owl:Class ;
-    rdfs:label "Australia"@en ;
+    rdfs:label "Australia"@en,
+        "Australia"@es,
+        "Australie"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Austria a owl:Class ;
-    rdfs:label "Austria"@en ;
+    rdfs:label "Austria"@en,
+        "Austria"@es,
+        "Autriche"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -692,7 +720,9 @@ fiaf:Aymara a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Azerbaijan a owl:Class ;
-    rdfs:label "Azerbaijan"@en ;
+    rdfs:label "Azerbaijan"@en,
+        "Azerbaiyán"@es,
+        "Azerbaïdjan"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -704,12 +734,16 @@ fiaf:Azerbaijani a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Bahamas a owl:Class ;
-    rdfs:label "Bahamas"@en ;
+    rdfs:label "Bahamas"@en,
+        "Bahamas"@es,
+        "Bahamas"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Bahrain a owl:Class ;
-    rdfs:label "Bahrain"@en ;
+    rdfs:label "Bahrain"@en,
+        "Baréin"@es,
+        "Bahreïn"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -721,7 +755,9 @@ fiaf:Bambara a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Bangladesh a owl:Class ;
-    rdfs:label "Bangladesh"@en ;
+    rdfs:label "Bangladesh"@en,
+        "Bangladés"@es,
+        "Bangladesh"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -731,7 +767,9 @@ fiaf:BangladeshFilmArchive a owl:NamedIndividual,
     dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:Barbados a owl:Class ;
-    rdfs:label "Barbados"@en ;
+    rdfs:label "Barbados"@en,
+        "Barbados"@es,
+        "Barbade"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -768,7 +806,9 @@ fiaf:Basque a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Belarus a owl:Class ;
-    rdfs:label "Belarus"@en ;
+    rdfs:label "Belarus"@en,
+        "Bielorrusia"@es,
+        "Bélarus"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -780,12 +820,16 @@ fiaf:Belarusian a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Belgium a owl:Class ;
-    rdfs:label "Belgium"@en ;
+    rdfs:label "Belgium"@en,
+        "Bélgica"@es,
+        "Belgique"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Belize a owl:Class ;
-    rdfs:label "Belize"@en ;
+    rdfs:label "Belize"@en,
+        "Belice"@es,
+        "Belize"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -797,12 +841,16 @@ fiaf:Bengali a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Benin a owl:Class ;
-    rdfs:label "Benin"@en ;
+    rdfs:label "Benin"@en,
+        "Benín"@es,
+        "Bénin"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Bermuda a owl:Class ;
-    rdfs:label "Bermuda"@en ;
+    rdfs:label "Bermuda"@en,
+        "Islas Bermudas"@es,
+        "Bermudes"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -825,7 +873,9 @@ fiaf:BfiNationalArchive a owl:NamedIndividual,
     dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:Bhutan a owl:Class ;
-    rdfs:label "Bhutan"@en ;
+    rdfs:label "Bhutan"@en,
+        "Bután"@es,
+        "Bhoutan"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -886,13 +936,17 @@ fiaf:Bokmål a owl:Class ;
     dc:source "ISO 639-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Language .
 
-fiaf:BoliviaPlurinationalStateOf a owl:Class ;
-    rdfs:label "Bolivia (Plurinational State of)"@en ;
+fiaf:Bolivia a owl:Class ;
+    rdfs:label "Bolivia"@en,
+        "Bolivia"@es,
+        "Bolivie"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
-fiaf:BonaireSintEustatiusAndSaba a owl:Class ;
-    rdfs:label "Bonaire, Sint Eustatius and Saba"@en ;
+<https://fiafcore.org/ontology/Bonaire,SintEustatiusandSaba> a owl:Class ;
+    rdfs:label "Bonaire, Sint Eustatius and Saba"@en,
+        "Islas BES (Caribe Neerlandés)"@es,
+        "Bonaire, Saint-Eustache et Saba"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -901,8 +955,10 @@ fiaf:BoomOperator a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.9.4"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundActivity .
 
-fiaf:BosniaAndHerzegovina a owl:Class ;
-    rdfs:label "Bosnia and Herzegovina"@en ;
+fiaf:BosniaandHerzegovina a owl:Class ;
+    rdfs:label "Bosnia and Herzegovina"@en,
+        "Bosnia y Herzegovina"@es,
+        "Bosnie-Herzégovine"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -914,17 +970,23 @@ fiaf:Bosnian a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Botswana a owl:Class ;
-    rdfs:label "Botswana"@en ;
+    rdfs:label "Botswana"@en,
+        "Botsuana"@es,
+        "Botswana"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:BouvetIsland a owl:Class ;
-    rdfs:label "Bouvet Island"@en ;
+    rdfs:label "Bouvet Island"@en,
+        "Isla Bouvet"@es,
+        "île Bouvet"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Brazil a owl:Class ;
-    rdfs:label "Brazil"@en ;
+    rdfs:label "Brazil"@en,
+        "Brasil"@es,
+        "Brésil"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -942,7 +1004,9 @@ fiaf:Brifco a owl:Class ;
     rdfs:subClassOf fiaf:Stock .
 
 fiaf:BritishIndianOceanTerritory a owl:Class ;
-    rdfs:label "British Indian Ocean Territory"@en ;
+    rdfs:label "British Indian Ocean Territory"@en,
+        "Territorio Británico del Océano Índico"@es,
+        "Territoire britannique de l'océan Indien"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -970,7 +1034,9 @@ fiaf:Broadcaster a owl:Class ;
     rdfs:subClassOf fiaf:ManifestationActivity .
 
 fiaf:BruneiDarussalam a owl:Class ;
-    rdfs:label "Brunei Darussalam"@en ;
+    rdfs:label "Brunei Darussalam"@en,
+        "Brunei Darussalam"@es,
+        "Brunéi Darussalam"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -981,7 +1047,9 @@ fiaf:Buckled a owl:Class ;
     rdfs:subClassOf fiaf:BaseEmulsionCondition .
 
 fiaf:Bulgaria a owl:Class ;
-    rdfs:label "Bulgaria"@en ;
+    rdfs:label "Bulgaria"@en,
+        "Bulgaria"@es,
+        "Bulgarie"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -1003,7 +1071,9 @@ fiaf:Bundesarchiv a owl:NamedIndividual,
     dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:BurkinaFaso a owl:Class ;
-    rdfs:label "Burkina Faso"@en ;
+    rdfs:label "Burkina Faso"@en,
+        "Burquina Faso"@es,
+        "Burkina Faso"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -1015,7 +1085,9 @@ fiaf:Burmese a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Burundi a owl:Class ;
-    rdfs:label "Burundi"@en ;
+    rdfs:label "Burundi"@en,
+        "Burundi"@es,
+        "Burundi"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -1026,12 +1098,16 @@ fiaf:CD a owl:Class ;
     rdfs:subClassOf fiaf:Optical .
 
 fiaf:CaboVerde a owl:Class ;
-    rdfs:label "Cabo Verde"@en ;
+    rdfs:label "Cabo Verde"@en,
+        "Cabo Verde"@es,
+        "Cap-Vert"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Cambodia a owl:Class ;
-    rdfs:label "Cambodia"@en ;
+    rdfs:label "Cambodia"@en,
+        "Camboya"@es,
+        "Cambodge"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -1043,12 +1119,16 @@ fiaf:CameraOperator a owl:Class ;
     rdfs:subClassOf fiaf:CinematographyActivity .
 
 fiaf:Cameroon a owl:Class ;
-    rdfs:label "Cameroon"@en ;
+    rdfs:label "Cameroon"@en,
+        "Camerún"@es,
+        "Cameroun"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Canada a owl:Class ;
-    rdfs:label "Canada"@en ;
+    rdfs:label "Canada"@en,
+        "Canadá"@es,
+        "Canada"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -1097,7 +1177,9 @@ fiaf:Catalan a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:CaymanIslands a owl:Class ;
-    rdfs:label "Cayman Islands"@en ;
+    rdfs:label "Cayman Islands"@en,
+        "Islas Caimán"@es,
+        "Îles Caïmans"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -1122,7 +1204,9 @@ fiaf:CensorshipEvent a owl:Class ;
     rdfs:subClassOf fiaf:DecisionEvent .
 
 fiaf:CentralAfricanRepublic a owl:Class ;
-    rdfs:label "Central African Republic"@en ;
+    rdfs:label "Central African Republic"@en,
+        "República Centroafricana"@es,
+        "République centrafricaine"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -1139,7 +1223,9 @@ fiaf:CentreNationalDuCinémaEtDeLImageAniméeDirectionDuPatrimoineCinématograph
     dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:Chad a owl:Class ;
-    rdfs:label "Chad"@en ;
+    rdfs:label "Chad"@en,
+        "Chad"@es,
+        "Tchad"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -1171,12 +1257,16 @@ fiaf:ChiefLightingTechnician a owl:Class ;
     rdfs:subClassOf fiaf:CinematographyActivity .
 
 fiaf:Chile a owl:Class ;
-    rdfs:label "Chile"@en ;
+    rdfs:label "Chile"@en,
+        "Chile"@es,
+        "Chili"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:China a owl:Class ;
-    rdfs:label "China"@en ;
+    rdfs:label "China"@en,
+        "China"@es,
+        "Chine"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -1201,7 +1291,9 @@ fiaf:Choreographer a owl:Class ;
     rdfs:subClassOf fiaf:MusicActivity .
 
 fiaf:ChristmasIsland a owl:Class ;
-    rdfs:label "Christmas Island"@en ;
+    rdfs:label "Christmas Island"@en,
+        "Isla de Navidad"@es,
+        "Christmas, Île"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -1288,8 +1380,10 @@ fiaf:Cleanup a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.13.15"^^xsd:string ;
     rdfs:subClassOf fiaf:AnimationActivity .
 
-fiaf:CocosKeelingIslands a owl:Class ;
-    rdfs:label "Cocos (Keeling) Islands"@en ;
+fiaf:Cocos\(Keeling\)Islands a owl:Class ;
+    rdfs:label "Cocos (Keeling) Islands"@en,
+        "Islas Cocos (Keeling)"@es,
+        "Cocos (Keeling), Îles"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -1301,7 +1395,9 @@ fiaf:Collection a owl:Class ;
     rdfs:subClassOf fiaf:WorkVariant .
 
 fiaf:Colombia a owl:Class ;
-    rdfs:label "Colombia"@en ;
+    rdfs:label "Colombia"@en,
+        "Colombia"@es,
+        "Colombie"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -1380,7 +1476,9 @@ fiaf:CombinedOpticalSound a owl:Class ;
     rdfs:subClassOf fiaf:SoundSystem .
 
 fiaf:Comoros a owl:Class ;
-    rdfs:label "Comoros"@en ;
+    rdfs:label "Comoros"@en,
+        "Comores, Islas"@es,
+        "Comores"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -1403,12 +1501,16 @@ fiaf:ComputerGeneratedImagery a owl:Class ;
     rdfs:subClassOf fiaf:SpecialEffectsActivity .
 
 fiaf:Congo a owl:Class ;
-    rdfs:label "Congo"@en ;
+    rdfs:label "Congo"@en,
+        "Congo"@es,
+        "République du Congo"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
-fiaf:CongoDemocraticRepublicOfThe a owl:Class ;
-    rdfs:label "Congo, Democratic Republic of the"@en ;
+<https://fiafcore.org/ontology/Congo,TheDemocraticRepublicofthe> a owl:Class ;
+    rdfs:label "Congo, The Democratic Republic of the"@en,
+        "Congo, República Democrática del"@es,
+        "République démocratique du Congo"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -1419,7 +1521,9 @@ fiaf:ConstructionCoordinator a owl:Class ;
     rdfs:subClassOf fiaf:ProductionDesignActivity .
 
 fiaf:CookIslands a owl:Class ;
-    rdfs:label "Cook Islands"@en ;
+    rdfs:label "Cook Islands"@en,
+        "Islas Cook"@es,
+        "Îles Cook"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -1471,7 +1575,9 @@ fiaf:Corsican a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:CostaRica a owl:Class ;
-    rdfs:label "Costa Rica"@en ;
+    rdfs:label "Costa Rica"@en,
+        "Costa Rica"@es,
+        "Costa Rica"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -1519,7 +1625,9 @@ fiaf:Cree a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Croatia a owl:Class ;
-    rdfs:label "Croatia"@en ;
+    rdfs:label "Croatia"@en,
+        "Croacia"@es,
+        "Croatie"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -1537,12 +1645,16 @@ fiaf:Cta a owl:Class ;
     rdfs:subClassOf fiaf:Base .
 
 fiaf:Cuba a owl:Class ;
-    rdfs:label "Cuba"@en ;
+    rdfs:label "Cuba"@en,
+        "Cuba"@es,
+        "Cuba"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Curaçao a owl:Class ;
-    rdfs:label "Curaçao"@en ;
+    rdfs:label "Curaçao"@en,
+        "Curazao"@es,
+        "Curaçao"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -1553,7 +1665,9 @@ fiaf:CyanMatrix a owl:Class ;
     rdfs:subClassOf fiaf:Element .
 
 fiaf:Cyprus a owl:Class ;
-    rdfs:label "Cyprus"@en ;
+    rdfs:label "Cyprus"@en,
+        "Chipre"@es,
+        "Chypre"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -1565,12 +1679,16 @@ fiaf:Czech a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Czechia a owl:Class ;
-    rdfs:label "Czechia"@en ;
+    rdfs:label "Czechia"@en,
+        "Chequia"@es,
+        "Tchéquie"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
-<https://fiafcore.org/ontology/CôteD'Ivoire> a owl:Class ;
-    rdfs:label "Côte d'Ivoire"@en ;
+<https://fiafcore.org/ontology/Côted'Ivoire> a owl:Class ;
+    rdfs:label "Côte d'Ivoire"@en,
+        "Costa de Marfíl"@es,
+        "Côte d'Ivoire"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -1636,7 +1754,9 @@ fiaf:Danish a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Denmark a owl:Class ;
-    rdfs:label "Denmark"@en ;
+    rdfs:label "Denmark"@en,
+        "Dinamarca"@es,
+        "Danemark"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -1788,7 +1908,9 @@ fiaf:DistributorWorld a owl:Class ;
     rdfs:subClassOf fiaf:CopyrightandDistributionActivity .
 
 fiaf:Djibouti a owl:Class ;
-    rdfs:label "Djibouti"@en ;
+    rdfs:label "Djibouti"@en,
+        "Yibuti"@es,
+        "Djibouti"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -1810,12 +1932,16 @@ fiaf:DollyGrip a owl:Class ;
     rdfs:subClassOf fiaf:CinematographyActivity .
 
 fiaf:Dominica a owl:Class ;
-    rdfs:label "Dominica"@en ;
+    rdfs:label "Dominica"@en,
+        "Dominica"@es,
+        "Dominique"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:DominicanRepublic a owl:Class ;
-    rdfs:label "Dominican Republic"@en ;
+    rdfs:label "Dominican Republic"@en,
+        "República Dominicana"@es,
+        "République dominicaine"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -1924,17 +2050,23 @@ fiaf:EcpadÉtablissementDeCommunicationEtDeProductionAudiovisuelleDeLaDéfense a
     dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:Ecuador a owl:Class ;
-    rdfs:label "Ecuador"@en ;
+    rdfs:label "Ecuador"@en,
+        "Ecuador"@es,
+        "Équateur"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Egypt a owl:Class ;
-    rdfs:label "Egypt"@en ;
+    rdfs:label "Egypt"@en,
+        "Egipto"@es,
+        "Égypte"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:ElSalvador a owl:Class ;
-    rdfs:label "El Salvador"@en ;
+    rdfs:label "El Salvador"@en,
+        "El Salvador"@es,
+        "Salvador"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -1952,12 +2084,16 @@ fiaf:English a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:EquatorialGuinea a owl:Class ;
-    rdfs:label "Equatorial Guinea"@en ;
+    rdfs:label "Equatorial Guinea"@en,
+        "Guinea Ecuatorial"@es,
+        "Guinée Équatoriale"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Eritrea a owl:Class ;
-    rdfs:label "Eritrea"@en ;
+    rdfs:label "Eritrea"@en,
+        "Eritrea"@es,
+        "Érythrée"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -1969,7 +2105,9 @@ fiaf:Esperanto a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Estonia a owl:Class ;
-    rdfs:label "Estonia"@en ;
+    rdfs:label "Estonia"@en,
+        "Estonia"@es,
+        "Estonie"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -1981,12 +2119,16 @@ fiaf:Estonian a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Eswatini a owl:Class ;
-    rdfs:label "Eswatini"@en ;
+    rdfs:label "Eswatini"@en,
+        "Esuatini"@es,
+        "Eswatini"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Ethiopia a owl:Class ;
-    rdfs:label "Ethiopia"@en ;
+    rdfs:label "Ethiopia"@en,
+        "Etiopía"@es,
+        "Éthiopie"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -2041,8 +2183,10 @@ fiaf:Faded a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.16.4"^^xsd:string ;
     rdfs:subClassOf fiaf:ImageCondition .
 
-fiaf:FalklandIslandsMalvinas a owl:Class ;
-    rdfs:label "Falkland Islands (Malvinas)"@en ;
+fiaf:FalklandIslands\(Malvinas\) a owl:Class ;
+    rdfs:label "Falkland Islands (Malvinas)"@en,
+        "Islas Falkland (Malvinas)"@es,
+        "Malouines, Îles (Falkland)"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -2053,7 +2197,9 @@ fiaf:Family a owl:Class ;
     rdfs:subClassOf fiaf:Agent .
 
 fiaf:FaroeIslands a owl:Class ;
-    rdfs:label "Faroe Islands"@en ;
+    rdfs:label "Faroe Islands"@en,
+        "Islas Feroe"@es,
+        "Îles Féroé"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -2096,7 +2242,9 @@ fiaf:FightArranger a owl:Class ;
     rdfs:subClassOf fiaf:DirectingActivity .
 
 fiaf:Fiji a owl:Class ;
-    rdfs:label "Fiji"@en ;
+    rdfs:label "Fiji"@en,
+        "Fiyi"@es,
+        "Fidji"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -2190,7 +2338,9 @@ fiaf:FilmotekaNarodowaInstytutAudiowizualnyFina a owl:NamedIndividual,
     dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:Finland a owl:Class ;
-    rdfs:label "Finland"@en ;
+    rdfs:label "Finland"@en,
+        "Finlandia"@es,
+        "Finlande"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -2241,7 +2391,9 @@ fiaf:FondazioneCinetecaItaliana a owl:NamedIndividual,
     dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:France a owl:Class ;
-    rdfs:label "France"@en ;
+    rdfs:label "France"@en,
+        "Francia"@es,
+        "France"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -2253,17 +2405,23 @@ fiaf:French a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:FrenchGuiana a owl:Class ;
-    rdfs:label "French Guiana"@en ;
+    rdfs:label "French Guiana"@en,
+        "Guayana Francesa"@es,
+        "Guyane française"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:FrenchPolynesia a owl:Class ;
-    rdfs:label "French Polynesia"@en ;
+    rdfs:label "French Polynesia"@en,
+        "Polinesia Francesa"@es,
+        "Polynésie française"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:FrenchSouthernTerritories a owl:Class ;
-    rdfs:label "French Southern Territories"@en ;
+    rdfs:label "French Southern Territories"@en,
+        "Territorios Franceses del Sur"@es,
+        "Terres australes françaises"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -2309,7 +2467,9 @@ fiaf:FundaciónPatrimonioFílmicoColombiano a owl:NamedIndividual,
     dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:Gabon a owl:Class ;
-    rdfs:label "Gabon"@en ;
+    rdfs:label "Gabon"@en,
+        "Gabón"@es,
+        "Gabon"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -2328,7 +2488,9 @@ fiaf:Galician a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Gambia a owl:Class ;
-    rdfs:label "Gambia"@en ;
+    rdfs:label "Gambia"@en,
+        "Gambia"@es,
+        "Gambie"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -2351,7 +2513,9 @@ fiaf:GeorgeEastmanMuseum a owl:NamedIndividual,
     dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:Georgia a owl:Class ;
-    rdfs:label "Georgia"@en ;
+    rdfs:label "Georgia"@en,
+        "Georgia"@es,
+        "Géorgie"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -2370,17 +2534,23 @@ fiaf:German a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Germany a owl:Class ;
-    rdfs:label "Germany"@en ;
+    rdfs:label "Germany"@en,
+        "Alemania"@es,
+        "Allemagne"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Ghana a owl:Class ;
-    rdfs:label "Ghana"@en ;
+    rdfs:label "Ghana"@en,
+        "Ghana"@es,
+        "Ghana"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Gibraltar a owl:Class ;
-    rdfs:label "Gibraltar"@en ;
+    rdfs:label "Gibraltar"@en,
+        "Gibraltar"@es,
+        "Gibraltar"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -2401,7 +2571,9 @@ fiaf:Gowns a owl:Class ;
     rdfs:subClassOf fiaf:ProductionDesignActivity .
 
 fiaf:Greece a owl:Class ;
-    rdfs:label "Greece"@en ;
+    rdfs:label "Greece"@en,
+        "Grecia"@es,
+        "Grèce"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -2413,7 +2585,9 @@ fiaf:Greek\(modern\) a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Greenland a owl:Class ;
-    rdfs:label "Greenland"@en ;
+    rdfs:label "Greenland"@en,
+        "Groenlandia"@es,
+        "Groënland"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -2431,17 +2605,23 @@ fiaf:Greensman a owl:Class ;
     rdfs:subClassOf fiaf:ProductionDesignActivity .
 
 fiaf:Grenada a owl:Class ;
-    rdfs:label "Grenada"@en ;
+    rdfs:label "Grenada"@en,
+        "Granada"@es,
+        "Grenade"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Guadeloupe a owl:Class ;
-    rdfs:label "Guadeloupe"@en ;
+    rdfs:label "Guadeloupe"@en,
+        "Guadalupe"@es,
+        "Guadeloupe"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Guam a owl:Class ;
-    rdfs:label "Guam"@en ;
+    rdfs:label "Guam"@en,
+        "Guam"@es,
+        "Guam"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -2453,22 +2633,30 @@ fiaf:Guaraní a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Guatemala a owl:Class ;
-    rdfs:label "Guatemala"@en ;
+    rdfs:label "Guatemala"@en,
+        "Guatemala"@es,
+        "Guatemala"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Guernsey a owl:Class ;
-    rdfs:label "Guernsey"@en ;
+    rdfs:label "Guernsey"@en,
+        "Guernsey"@es,
+        "Guernesey"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Guinea a owl:Class ;
-    rdfs:label "Guinea"@en ;
+    rdfs:label "Guinea"@en,
+        "Guinea"@es,
+        "Guinée"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
-fiaf:GuineaBissau a owl:Class ;
-    rdfs:label "Guinea-Bissau"@en ;
+fiaf:Guinea-Bissau a owl:Class ;
+    rdfs:label "Guinea-Bissau"@en,
+        "Guinea-Bisáu"@es,
+        "Guinée-Bissau"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -2480,7 +2668,9 @@ fiaf:Gujarati a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Guyana a owl:Class ;
-    rdfs:label "Guyana"@en ;
+    rdfs:label "Guyana"@en,
+        "Guyana"@es,
+        "Guyana"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -2503,7 +2693,9 @@ fiaf:Hairdresser a owl:Class ;
     rdfs:subClassOf fiaf:ProductionDesignActivity .
 
 fiaf:Haiti a owl:Class ;
-    rdfs:label "Haiti"@en ;
+    rdfs:label "Haiti"@en,
+        "Haití"@es,
+        "Haïti"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -2532,8 +2724,10 @@ fiaf:Hausa a owl:Class ;
     dc:source "ISO 639-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Language .
 
-fiaf:HeardIslandAndMcdonaldIslands a owl:Class ;
-    rdfs:label "Heard Island and McDonald Islands"@en ;
+fiaf:HeardIslandandMcDonaldIslands a owl:Class ;
+    rdfs:label "Heard Island and McDonald Islands"@en,
+        "Islas Heard y McDonald"@es,
+        "Îles Heard-et-MacDonald"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -2583,8 +2777,10 @@ fiaf:Hitachi a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.16"^^xsd:string ;
     rdfs:subClassOf fiaf:Stock .
 
-fiaf:HolySee a owl:Class ;
-    rdfs:label "Holy See"@en ;
+fiaf:HolySee\(VaticanCityState\) a owl:Class ;
+    rdfs:label "Holy See (Vatican City State)"@en,
+        "Santa Sede (Ciudad Estado del Vaticano)"@es,
+        "Saint-Siège (état de la cité du Vatican)"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -2607,12 +2803,16 @@ fiaf:HomeViewingPublicationManifestation a owl:Class ;
     rdfs:subClassOf fiaf:Manifestation .
 
 fiaf:Honduras a owl:Class ;
-    rdfs:label "Honduras"@en ;
+    rdfs:label "Honduras"@en,
+        "Honduras"@es,
+        "Honduras"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:HongKong a owl:Class ;
-    rdfs:label "Hong Kong"@en ;
+    rdfs:label "Hong Kong"@en,
+        "Hong Kong"@es,
+        "Hong Kong"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -2646,7 +2846,9 @@ fiaf:Hungarian a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Hungary a owl:Class ;
-    rdfs:label "Hungary"@en ;
+    rdfs:label "Hungary"@en,
+        "Hungría"@es,
+        "Hongrie"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -2657,7 +2859,9 @@ fiaf:Hydrolysis a owl:Class ;
     rdfs:subClassOf fiaf:BaseEmulsionCondition .
 
 fiaf:Iceland a owl:Class ;
-    rdfs:label "Iceland"@en ;
+    rdfs:label "Iceland"@en,
+        "Islandia"@es,
+        "Islande"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -2706,7 +2910,9 @@ fiaf:ImperialWarMuseumsFilmArchive a owl:NamedIndividual,
     dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:India a owl:Class ;
-    rdfs:label "India"@en ;
+    rdfs:label "India"@en,
+        "India"@es,
+        "Inde"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -2716,7 +2922,9 @@ fiaf:IndianaUniversityLibrariesMovingImageArchive a owl:NamedIndividual,
     dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:Indonesia a owl:Class ;
-    rdfs:label "Indonesia"@en ;
+    rdfs:label "Indonesia"@en,
+        "Indonesia"@es,
+        "Indonésie"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -2785,18 +2993,24 @@ fiaf:Inupiaq a owl:Class ;
     dc:source "ISO 639-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Language .
 
-fiaf:IranIslamicRepublicOf a owl:Class ;
-    rdfs:label "Iran (Islamic Republic of)"@en ;
+fiaf:Iran a owl:Class ;
+    rdfs:label "Iran"@en,
+        "Irán, República islámica de"@es,
+        "Iran, République islamique d'"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Iraq a owl:Class ;
-    rdfs:label "Iraq"@en ;
+    rdfs:label "Iraq"@en,
+        "Irak"@es,
+        "Irak"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Ireland a owl:Class ;
-    rdfs:label "Ireland"@en ;
+    rdfs:label "Ireland"@en,
+        "Irlanda"@es,
+        "Irlande"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -2807,13 +3021,17 @@ fiaf:Irish a owl:Class ;
     dc:source "ISO 639-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Language .
 
-fiaf:IsleOfMan a owl:Class ;
-    rdfs:label "Isle of Man"@en ;
+fiaf:IsleofMan a owl:Class ;
+    rdfs:label "Isle of Man"@en,
+        "Isla de Man"@es,
+        "Île de Man"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Israel a owl:Class ;
-    rdfs:label "Israel"@en ;
+    rdfs:label "Israel"@en,
+        "Israel"@es,
+        "Israël"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -2830,7 +3048,9 @@ fiaf:Italian a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Italy a owl:Class ;
-    rdfs:label "Italy"@en ;
+    rdfs:label "Italy"@en,
+        "Italia"@es,
+        "Italie"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -2841,12 +3061,16 @@ fiaf:JPEG2000 a owl:Class ;
     rdfs:subClassOf fiaf:Codec .
 
 fiaf:Jamaica a owl:Class ;
-    rdfs:label "Jamaica"@en ;
+    rdfs:label "Jamaica"@en,
+        "Jamaica"@es,
+        "Jamaïque"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Japan a owl:Class ;
-    rdfs:label "Japan"@en ;
+    rdfs:label "Japan"@en,
+        "Japón"@es,
+        "Japon"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -2865,12 +3089,16 @@ fiaf:Javanese a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Jersey a owl:Class ;
-    rdfs:label "Jersey"@en ;
+    rdfs:label "Jersey"@en,
+        "Jersey"@es,
+        "Jersey"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Jordan a owl:Class ;
-    rdfs:label "Jordan"@en ;
+    rdfs:label "Jordan"@en,
+        "Jordania"@es,
+        "Jordanie"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -2918,12 +3146,16 @@ fiaf:Kazakh a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Kazakhstan a owl:Class ;
-    rdfs:label "Kazakhstan"@en ;
+    rdfs:label "Kazakhstan"@en,
+        "Kazajistán"@es,
+        "Kazakhstan"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Kenya a owl:Class ;
-    rdfs:label "Kenya"@en ;
+    rdfs:label "Kenya"@en,
+        "Kenia"@es,
+        "Kenya"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -2965,7 +3197,9 @@ fiaf:Kinyarwanda a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Kiribati a owl:Class ;
-    rdfs:label "Kiribati"@en ;
+    rdfs:label "Kiribati"@en,
+        "Kiribati"@es,
+        "Kiribati"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -2989,16 +3223,6 @@ fiaf:Kongo a owl:Class ;
     dc:source "ISO 639-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Language .
 
-<https://fiafcore.org/ontology/KoreaDemocraticPeople'SRepublicOf> a owl:Class ;
-    rdfs:label "Korea (Democratic People's Republic of)"@en ;
-    dc:source "ISO 3166-1"^^xsd:string ;
-    rdfs:subClassOf fiaf:Country .
-
-fiaf:KoreaRepublicOf a owl:Class ;
-    rdfs:label "Korea, Republic of"@en ;
-    dc:source "ISO 3166-1"^^xsd:string ;
-    rdfs:subClassOf fiaf:Country .
-
 fiaf:Korean a owl:Class ;
     rdfs:label "Korean"@en,
         "Coreano"@es,
@@ -3019,7 +3243,9 @@ fiaf:Kurdish a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Kuwait a owl:Class ;
-    rdfs:label "Kuwait"@en ;
+    rdfs:label "Kuwait"@en,
+        "Kuwait"@es,
+        "Koweït"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -3043,7 +3269,9 @@ fiaf:Kyrgyz a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Kyrgyzstan a owl:Class ;
-    rdfs:label "Kyrgyzstan"@en ;
+    rdfs:label "Kyrgyzstan"@en,
+        "Kirguistán"@es,
+        "Kirghizistan"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -3093,8 +3321,10 @@ fiaf:Lao a owl:Class ;
     dc:source "ISO 639-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Language .
 
-<https://fiafcore.org/ontology/LaoPeople'SDemocraticRepublic> a owl:Class ;
-    rdfs:label "Lao People's Democratic Republic"@en ;
+<https://fiafcore.org/ontology/LaoPeople'sDemocraticRepublic> a owl:Class ;
+    rdfs:label "Lao People's Democratic Republic"@en,
+        "República Democrática Popular de Lao"@es,
+        "Lao, République démocratique populaire"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -3112,7 +3342,9 @@ fiaf:Latin a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Latvia a owl:Class ;
-    rdfs:label "Latvia"@en ;
+    rdfs:label "Latvia"@en,
+        "Letonia"@es,
+        "Lettonie"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -3137,7 +3369,9 @@ fiaf:LeadMan a owl:Class ;
     rdfs:subClassOf fiaf:ProductionDesignActivity .
 
 fiaf:Lebanon a owl:Class ;
-    rdfs:label "Lebanon"@en ;
+    rdfs:label "Lebanon"@en,
+        "Líbano"@es,
+        "Liban"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -3148,7 +3382,9 @@ fiaf:Lenses a owl:Class ;
     rdfs:subClassOf fiaf:CinematographyActivity .
 
 fiaf:Lesotho a owl:Class ;
-    rdfs:label "Lesotho"@en ;
+    rdfs:label "Lesotho"@en,
+        "Lesoto"@es,
+        "Lesotho"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -3159,7 +3395,9 @@ fiaf:Letterbox a owl:Class ;
     rdfs:subClassOf fiaf:ImageFormat .
 
 fiaf:Liberia a owl:Class ;
-    rdfs:label "Liberia"@en ;
+    rdfs:label "Liberia"@en,
+        "Liberia"@es,
+        "Libéria"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -3174,7 +3412,9 @@ fiaf:LibraryOfCongressNationalAudioVisualConservationCenterMbrsDivision a owl:Na
     dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:Libya a owl:Class ;
-    rdfs:label "Libya"@en ;
+    rdfs:label "Libya"@en,
+        "Libia"@es,
+        "Libye"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -3184,7 +3424,9 @@ fiaf:Lichtspiel a owl:NamedIndividual,
     dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:Liechtenstein a owl:Class ;
-    rdfs:label "Liechtenstein"@en ;
+    rdfs:label "Liechtenstein"@en,
+        "Liechtenstein"@es,
+        "Liechtenstein"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -3219,7 +3461,9 @@ fiaf:Lingala a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Lithuania a owl:Class ;
-    rdfs:label "Lithuania"@en ;
+    rdfs:label "Lithuania"@en,
+        "Lituania"@es,
+        "Lituanie"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -3257,7 +3501,9 @@ fiaf:Luba-Katanga a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Luxembourg a owl:Class ;
-    rdfs:label "Luxembourg"@en ;
+    rdfs:label "Luxembourg"@en,
+        "Luxemburgo"@es,
+        "Luxembourg"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -3299,7 +3545,9 @@ fiaf:MXF a owl:Class ;
     rdfs:subClassOf fiaf:DigitalFile .
 
 fiaf:Macao a owl:Class ;
-    rdfs:label "Macao"@en ;
+    rdfs:label "Macao"@en,
+        "Macao"@es,
+        "Macau"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -3311,7 +3559,9 @@ fiaf:Macedonian a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Madagascar a owl:Class ;
-    rdfs:label "Madagascar"@en ;
+    rdfs:label "Madagascar"@en,
+        "Madagascar"@es,
+        "Madagascar"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -3353,7 +3603,9 @@ fiaf:Malagasy a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Malawi a owl:Class ;
-    rdfs:label "Malawi"@en ;
+    rdfs:label "Malawi"@en,
+        "Malaui"@es,
+        "Malawi"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -3372,12 +3624,16 @@ fiaf:Malayalam a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Malaysia a owl:Class ;
-    rdfs:label "Malaysia"@en ;
+    rdfs:label "Malaysia"@en,
+        "Malasia"@es,
+        "Malaisie"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Maldives a owl:Class ;
-    rdfs:label "Maldives"@en ;
+    rdfs:label "Maldives"@en,
+        "Islas Maldivas"@es,
+        "Maldives"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -3389,12 +3645,16 @@ fiaf:Maldivian a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Mali a owl:Class ;
-    rdfs:label "Mali"@en ;
+    rdfs:label "Mali"@en,
+        "Malí"@es,
+        "Mali"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Malta a owl:Class ;
-    rdfs:label "Malta"@en ;
+    rdfs:label "Malta"@en,
+        "Malta"@es,
+        "Malte"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -3432,7 +3692,9 @@ fiaf:Marathi a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:MarshallIslands a owl:Class ;
-    rdfs:label "Marshall Islands"@en ;
+    rdfs:label "Marshall Islands"@en,
+        "Islas Marshall"@es,
+        "Îles Marshall"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -3444,7 +3706,9 @@ fiaf:Marshallese a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Martinique a owl:Class ;
-    rdfs:label "Martinique"@en ;
+    rdfs:label "Martinique"@en,
+        "Martinica"@es,
+        "Martinique"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -3468,12 +3732,16 @@ fiaf:Matte a owl:Class ;
     rdfs:subClassOf fiaf:SpecialEffectsActivity .
 
 fiaf:Mauritania a owl:Class ;
-    rdfs:label "Mauritania"@en ;
+    rdfs:label "Mauritania"@en,
+        "Mauritania"@es,
+        "Mauritanie"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Mauritius a owl:Class ;
-    rdfs:label "Mauritius"@en ;
+    rdfs:label "Mauritius"@en,
+        "Mauricio"@es,
+        "Maurice"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -3484,7 +3752,9 @@ fiaf:Maxell a owl:Class ;
     rdfs:subClassOf fiaf:Stock .
 
 fiaf:Mayotte a owl:Class ;
-    rdfs:label "Mayotte"@en ;
+    rdfs:label "Mayotte"@en,
+        "Mayotte"@es,
+        "Mayotte"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -3513,12 +3783,16 @@ fiaf:Metres a owl:Class ;
     rdfs:subClassOf fiaf:Extent .
 
 fiaf:Mexico a owl:Class ;
-    rdfs:label "Mexico"@en ;
+    rdfs:label "Mexico"@en,
+        "México"@es,
+        "Mexique"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
-fiaf:MicronesiaFederatedStatesOf a owl:Class ;
-    rdfs:label "Micronesia (Federated States of)"@en ;
+<https://fiafcore.org/ontology/Micronesia,FederatedStatesof> a owl:Class ;
+    rdfs:label "Micronesia, Federated States of"@en,
+        "Micronesia, Estados Federados de"@es,
+        "Micronésie, États fédérés de"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -3553,18 +3827,24 @@ fiaf:ModelMaker a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.13.17"^^xsd:string ;
     rdfs:subClassOf fiaf:AnimationActivity .
 
-fiaf:MoldovaRepublicOf a owl:Class ;
-    rdfs:label "Moldova, Republic of"@en ;
+fiaf:Moldova a owl:Class ;
+    rdfs:label "Moldova"@en,
+        "Moldavia"@es,
+        "Moldavie"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Monaco a owl:Class ;
-    rdfs:label "Monaco"@en ;
+    rdfs:label "Monaco"@en,
+        "Mónaco"@es,
+        "Monaco"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Mongolia a owl:Class ;
-    rdfs:label "Mongolia"@en ;
+    rdfs:label "Mongolia"@en,
+        "Mongolia"@es,
+        "Mongolie"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -3583,17 +3863,23 @@ fiaf:Monographic a owl:Class ;
     rdfs:subClassOf fiaf:WorkVariant .
 
 fiaf:Montenegro a owl:Class ;
-    rdfs:label "Montenegro"@en ;
+    rdfs:label "Montenegro"@en,
+        "Montenegro"@es,
+        "Monténégro"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Montserrat a owl:Class ;
-    rdfs:label "Montserrat"@en ;
+    rdfs:label "Montserrat"@en,
+        "Montserrat"@es,
+        "Montserrat"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Morocco a owl:Class ;
-    rdfs:label "Morocco"@en ;
+    rdfs:label "Morocco"@en,
+        "Marruecos"@es,
+        "Maroc"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -3609,7 +3895,9 @@ fiaf:Mould a owl:Class ;
     rdfs:subClassOf fiaf:SurfaceDeposit .
 
 fiaf:Mozambique a owl:Class ;
-    rdfs:label "Mozambique"@en ;
+    rdfs:label "Mozambique"@en,
+        "Mozambique"@es,
+        "Mozambique"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -3683,7 +3971,9 @@ fiaf:Mute a owl:Class ;
     rdfs:subClassOf fiaf:SoundCharacteristic .
 
 fiaf:Myanmar a owl:Class ;
-    rdfs:label "Myanmar"@en ;
+    rdfs:label "Myanmar"@en,
+        "Birmania"@es,
+        "Birmanie"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -3700,7 +3990,9 @@ fiaf:NTSC a owl:Class ;
     rdfs:subClassOf fiaf:BroadcastStandard .
 
 fiaf:Namibia a owl:Class ;
-    rdfs:label "Namibia"@en ;
+    rdfs:label "Namibia"@en,
+        "Namibia"@es,
+        "Namibie"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -3758,7 +4050,9 @@ fiaf:NationalLibraryOfWalesScreenAndSoundArchives a owl:NamedIndividual,
     dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:Nauru a owl:Class ;
-    rdfs:label "Nauru"@en ;
+    rdfs:label "Nauru"@en,
+        "Nauru"@es,
+        "Nauru"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -3798,7 +4092,9 @@ fiaf:NegativeCutter a owl:Class ;
     rdfs:subClassOf fiaf:LaboratoryActivity .
 
 fiaf:Nepal a owl:Class ;
-    rdfs:label "Nepal"@en ;
+    rdfs:label "Nepal"@en,
+        "Nepal"@es,
+        "Népal"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -3810,17 +4106,23 @@ fiaf:Nepali a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Netherlands a owl:Class ;
-    rdfs:label "Netherlands"@en ;
+    rdfs:label "Netherlands"@en,
+        "Países Bajos"@es,
+        "Pays-Bas"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:NewCaledonia a owl:Class ;
-    rdfs:label "New Caledonia"@en ;
+    rdfs:label "New Caledonia"@en,
+        "Nueva Caledonia"@es,
+        "Nouvelle-Calédonie"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:NewZealand a owl:Class ;
-    rdfs:label "New Zealand"@en ;
+    rdfs:label "New Zealand"@en,
+        "Nueva Zelanda"@es,
+        "Nouvelle-Zélande"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -3830,17 +4132,23 @@ fiaf:NgaTaongaSoundVision a owl:NamedIndividual,
     dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:Nicaragua a owl:Class ;
-    rdfs:label "Nicaragua"@en ;
+    rdfs:label "Nicaragua"@en,
+        "Nicaragua"@es,
+        "Nicaragua"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Niger a owl:Class ;
-    rdfs:label "Niger"@en ;
+    rdfs:label "Niger"@en,
+        "Niger"@es,
+        "Niger"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Nigeria a owl:Class ;
-    rdfs:label "Nigeria"@en ;
+    rdfs:label "Nigeria"@en,
+        "Nigeria"@es,
+        "Nigeria"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -3851,7 +4159,9 @@ fiaf:Nitrate a owl:Class ;
     rdfs:subClassOf fiaf:Base .
 
 fiaf:Niue a owl:Class ;
-    rdfs:label "Niue"@en ;
+    rdfs:label "Niue"@en,
+        "Niue"@es,
+        "Nioue"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -3874,12 +4184,23 @@ fiaf:NonTheatricalDistributionEvent a owl:Class ;
     rdfs:subClassOf fiaf:PublicationEvent .
 
 fiaf:NorfolkIsland a owl:Class ;
-    rdfs:label "Norfolk Island"@en ;
+    rdfs:label "Norfolk Island"@en,
+        "Isla Norfolk"@es,
+        "Île Norfolk"@fr ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf fiaf:Country .
+
+fiaf:NorthKorea a owl:Class ;
+    rdfs:label "North Korea"@en,
+        "Corea, República Democrática Popular de"@es,
+        "Corée du Nord"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:NorthMacedonia a owl:Class ;
-    rdfs:label "North Macedonia"@en ;
+    rdfs:label "North Macedonia"@en,
+        "Macedonia del Norte"@es,
+        "Macédoine du Nord"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -3896,7 +4217,9 @@ fiaf:NorthWestFilmArchive a owl:NamedIndividual,
     dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:NorthernMarianaIslands a owl:Class ;
-    rdfs:label "Northern Mariana Islands"@en ;
+    rdfs:label "Northern Mariana Islands"@en,
+        "Islas Marianas del Norte"@es,
+        "Îles Mariannes du Nord"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -3908,7 +4231,9 @@ fiaf:NorthernSami a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Norway a owl:Class ;
-    rdfs:label "Norway"@en ;
+    rdfs:label "Norway"@en,
+        "Noruega"@es,
+        "Norvège"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -3989,7 +4314,9 @@ fiaf:OleksandrDovzhenkoNationalCentre a owl:NamedIndividual,
     dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:Oman a owl:Class ;
-    rdfs:label "Oman"@en ;
+    rdfs:label "Oman"@en,
+        "Omán"@es,
+        "Oman"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -4089,17 +4416,23 @@ fiaf:PAL a owl:Class ;
     rdfs:subClassOf fiaf:BroadcastStandard .
 
 fiaf:Pakistan a owl:Class ;
-    rdfs:label "Pakistan"@en ;
+    rdfs:label "Pakistan"@en,
+        "Pakistán"@es,
+        "Pakistan"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Palau a owl:Class ;
-    rdfs:label "Palau"@en ;
+    rdfs:label "Palau"@en,
+        "Palaos"@es,
+        "Palaos"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
-fiaf:PalestineStateOf a owl:Class ;
-    rdfs:label "Palestine, State of"@en ;
+<https://fiafcore.org/ontology/Palestine,Stateof> a owl:Class ;
+    rdfs:label "Palestine, State of"@en,
+        "Palestina, Estado de"@es,
+        "Palestine, État de"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -4117,17 +4450,23 @@ fiaf:PanAndScan a owl:Class ;
     rdfs:subClassOf fiaf:ImageFormat .
 
 fiaf:Panama a owl:Class ;
-    rdfs:label "Panama"@en ;
+    rdfs:label "Panama"@en,
+        "Panamá"@es,
+        "Panama"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:PapuaNewGuinea a owl:Class ;
-    rdfs:label "Papua New Guinea"@en ;
+    rdfs:label "Papua New Guinea"@en,
+        "Papúa Nueva Guinea"@es,
+        "Papouasie-Nouvelle-Guinée"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Paraguay a owl:Class ;
-    rdfs:label "Paraguay"@en ;
+    rdfs:label "Paraguay"@en,
+        "Paraguay"@es,
+        "Paraguay"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -4170,12 +4509,16 @@ fiaf:PersonGroup a owl:Class ;
     rdfs:subClassOf fiaf:Agent .
 
 fiaf:Peru a owl:Class ;
-    rdfs:label "Peru"@en ;
+    rdfs:label "Peru"@en,
+        "Perú"@es,
+        "Pérou"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Philippines a owl:Class ;
-    rdfs:label "Philippines"@en ;
+    rdfs:label "Philippines"@en,
+        "Filipinas"@es,
+        "Philippines"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -4192,12 +4535,16 @@ fiaf:Pillarbox a owl:Class ;
     rdfs:subClassOf fiaf:ImageFormat .
 
 fiaf:Pitcairn a owl:Class ;
-    rdfs:label "Pitcairn"@en ;
+    rdfs:label "Pitcairn"@en,
+        "Pitcairn"@es,
+        "Îles Pitcairn"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Poland a owl:Class ;
-    rdfs:label "Poland"@en ;
+    rdfs:label "Poland"@en,
+        "Polonia"@es,
+        "Pologne"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -4215,7 +4562,9 @@ fiaf:Polyester a owl:Class ;
     rdfs:subClassOf fiaf:Base .
 
 fiaf:Portugal a owl:Class ;
-    rdfs:label "Portugal"@en ;
+    rdfs:label "Portugal"@en,
+        "Portugal"@es,
+        "Portugal"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -4376,7 +4725,9 @@ fiaf:Publisher a owl:Class ;
     rdfs:subClassOf fiaf:ManifestationActivity .
 
 fiaf:PuertoRico a owl:Class ;
-    rdfs:label "Puerto Rico"@en ;
+    rdfs:label "Puerto Rico"@en,
+        "Puerto Rico"@es,
+        "Porto Rico"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -4418,7 +4769,9 @@ fiaf:Pyrotechnics a owl:Class ;
     rdfs:subClassOf fiaf:SpecialEffectsActivity .
 
 fiaf:Qatar a owl:Class ;
-    rdfs:label "Qatar"@en ;
+    rdfs:label "Qatar"@en,
+        "Catar"@es,
+        "Qatar"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -4515,7 +4868,9 @@ fiaf:Roll a owl:Class ;
     rdfs:subClassOf fiaf:Extent .
 
 fiaf:Romania a owl:Class ;
-    rdfs:label "Romania"@en ;
+    rdfs:label "Romania"@en,
+        "Rumanía"@es,
+        "Roumanie"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -4553,7 +4908,9 @@ fiaf:Russian a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:RussianFederation a owl:Class ;
-    rdfs:label "Russian Federation"@en ;
+    rdfs:label "Russian Federation"@en,
+        "Federación Rusa"@es,
+        "Russie, Fédération de"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -4564,12 +4921,16 @@ fiaf:Rust a owl:Class ;
     rdfs:subClassOf fiaf:SurfaceDeposit .
 
 fiaf:Rwanda a owl:Class ;
-    rdfs:label "Rwanda"@en ;
+    rdfs:label "Rwanda"@en,
+        "Ruanda"@es,
+        "Rwanda"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Réunion a owl:Class ;
-    rdfs:label "Réunion"@en ;
+    rdfs:label "Réunion"@en,
+        "Reunión"@es,
+        "Réunion, Île de la"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -4598,42 +4959,58 @@ fiaf:Safety a owl:Class ;
     rdfs:subClassOf fiaf:Base .
 
 fiaf:SaintBarthélemy a owl:Class ;
-    rdfs:label "Saint Barthélemy"@en ;
+    rdfs:label "Saint Barthélemy"@en,
+        "San Bartolomé"@es,
+        "Saint-Barthélemy"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
-fiaf:SaintHelenaAscensionAndTristanDaCunha a owl:Class ;
-    rdfs:label "Saint Helena, Ascension and Tristan da Cunha"@en ;
+<https://fiafcore.org/ontology/SaintHelena,AscensionandTristandaCunha> a owl:Class ;
+    rdfs:label "Saint Helena, Ascension and Tristan da Cunha"@en,
+        "Santa Elena, Ascensión y Tristán de Acuña"@es,
+        "Sainte-Hélène, Ascension et Tristan da Cunha"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
-fiaf:SaintKittsAndNevis a owl:Class ;
-    rdfs:label "Saint Kitts and Nevis"@en ;
+fiaf:SaintKittsandNevis a owl:Class ;
+    rdfs:label "Saint Kitts and Nevis"@en,
+        "San Cristóbal y Nieves"@es,
+        "Saint-Christophe-et-Niévès"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:SaintLucia a owl:Class ;
-    rdfs:label "Saint Lucia"@en ;
+    rdfs:label "Saint Lucia"@en,
+        "Santa Lucía"@es,
+        "Sainte-Lucie"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
-fiaf:SaintMartinFrenchPart a owl:Class ;
-    rdfs:label "Saint Martin (French part)"@en ;
+fiaf:SaintMartin\(Frenchpart\) a owl:Class ;
+    rdfs:label "Saint Martin (French part)"@en,
+        "San Martín (zona francesa)"@es,
+        "Saint-Martin (partie française)"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
-fiaf:SaintPierreAndMiquelon a owl:Class ;
-    rdfs:label "Saint Pierre and Miquelon"@en ;
+fiaf:SaintPierreandMiquelon a owl:Class ;
+    rdfs:label "Saint Pierre and Miquelon"@en,
+        "San Pedro y Miquelon"@es,
+        "Saint-Pierre-et-Miquelon"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
-fiaf:SaintVincentAndTheGrenadines a owl:Class ;
-    rdfs:label "Saint Vincent and the Grenadines"@en ;
+fiaf:SaintVincentandtheGrenadines a owl:Class ;
+    rdfs:label "Saint Vincent and the Grenadines"@en,
+        "San Vicente y las Granadinas"@es,
+        "Saint-Vincent-et-les-Grenadines"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Samoa a owl:Class ;
-    rdfs:label "Samoa"@en ;
+    rdfs:label "Samoa"@en,
+        "Samoa"@es,
+        "Samoa"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -4645,7 +5022,9 @@ fiaf:Samoan a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:SanMarino a owl:Class ;
-    rdfs:label "San Marino"@en ;
+    rdfs:label "San Marino"@en,
+        "San Marino"@es,
+        "Saint-Marin"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -4663,8 +5042,10 @@ fiaf:Sanskrit a owl:Class ;
     dc:source "ISO 639-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Language .
 
-fiaf:SaoTomeAndPrincipe a owl:Class ;
-    rdfs:label "Sao Tome and Principe"@en ;
+fiaf:SaoTomeandPrincipe a owl:Class ;
+    rdfs:label "Sao Tome and Principe"@en,
+        "Santo Tomé y Príncipe"@es,
+        "Sao Tomé-et-Principe"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -4676,7 +5057,9 @@ fiaf:Sardinian a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:SaudiArabia a owl:Class ;
-    rdfs:label "Saudi Arabia"@en ;
+    rdfs:label "Saudi Arabia"@en,
+        "Arabia Saudí"@es,
+        "Arabie saoudite"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -4747,7 +5130,9 @@ fiaf:Seconds a owl:Class ;
     rdfs:subClassOf fiaf:Extent .
 
 fiaf:Senegal a owl:Class ;
-    rdfs:label "Senegal"@en ;
+    rdfs:label "Senegal"@en,
+        "Senegal"@es,
+        "Sénégal"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -4758,7 +5143,9 @@ fiaf:Sepia a owl:Class ;
     rdfs:subClassOf fiaf:ColourCharacteristic .
 
 fiaf:Serbia a owl:Class ;
-    rdfs:label "Serbia"@en ;
+    rdfs:label "Serbia"@en,
+        "Serbia"@es,
+        "Serbie"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -4818,7 +5205,9 @@ fiaf:SetDesigner a owl:Class ;
     rdfs:subClassOf fiaf:ProductionDesignActivity .
 
 fiaf:Seychelles a owl:Class ;
-    rdfs:label "Seychelles"@en ;
+    rdfs:label "Seychelles"@en,
+        "Seychelles"@es,
+        "Seychelles"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -4842,7 +5231,9 @@ fiaf:Short a owl:Class ;
     rdfs:subClassOf fiaf:Form .
 
 fiaf:SierraLeone a owl:Class ;
-    rdfs:label "Sierra Leone"@en ;
+    rdfs:label "Sierra Leone"@en,
+        "Sierra Leona"@es,
+        "Sierra Leone"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -4871,7 +5262,9 @@ fiaf:SinemaTvEnstitüsü a owl:NamedIndividual,
     dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:Singapore a owl:Class ;
-    rdfs:label "Singapore"@en ;
+    rdfs:label "Singapore"@en,
+        "Singapur"@es,
+        "Singapour"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -4894,8 +5287,10 @@ fiaf:Sinhalese a owl:Class ;
     dc:source "ISO 639-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Language .
 
-fiaf:SintMaartenDutchPart a owl:Class ;
-    rdfs:label "Sint Maarten (Dutch part)"@en ;
+fiaf:SintMaarten\(Dutchpart\) a owl:Class ;
+    rdfs:label "Sint Maarten (Dutch part)"@en,
+        "Isla de San Martín (zona holandsea)"@es,
+        "Saint-Martin (partie néerlandaise)"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -4912,12 +5307,16 @@ fiaf:SlovakFilmInstitute a owl:NamedIndividual,
     dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:Slovakia a owl:Class ;
-    rdfs:label "Slovakia"@en ;
+    rdfs:label "Slovakia"@en,
+        "Eslovaquia"@es,
+        "Slovaquie"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Slovenia a owl:Class ;
-    rdfs:label "Slovenia"@en ;
+    rdfs:label "Slovenia"@en,
+        "Eslovenia"@es,
+        "Slovénie"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -4934,7 +5333,9 @@ fiaf:SlovenianCinematheque a owl:NamedIndividual,
     dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:SolomonIslands a owl:Class ;
-    rdfs:label "Solomon Islands"@en ;
+    rdfs:label "Solomon Islands"@en,
+        "Islas Salomón"@es,
+        "Salomon, Îles"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -4946,7 +5347,9 @@ fiaf:Somali a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Somalia a owl:Class ;
-    rdfs:label "Somalia"@en ;
+    rdfs:label "Somalia"@en,
+        "Somalia"@es,
+        "Somalie"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -5017,7 +5420,9 @@ fiaf:SoundSupervisor a owl:Class ;
     rdfs:subClassOf fiaf:SoundActivity .
 
 fiaf:SouthAfrica a owl:Class ;
-    rdfs:label "South Africa"@en ;
+    rdfs:label "South Africa"@en,
+        "Sudáfrica"@es,
+        "Afrique du Sud"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -5026,8 +5431,17 @@ fiaf:SouthAfricanNationalFilmVideoAndSoundArchives a owl:NamedIndividual,
     rdfs:label "South African National Film, Video and Sound Archives"@en ;
     dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
-fiaf:SouthGeorgiaAndTheSouthSandwichIslands a owl:Class ;
-    rdfs:label "South Georgia and the South Sandwich Islands"@en ;
+fiaf:SouthGeorgiaandtheSouthSandwichIslands a owl:Class ;
+    rdfs:label "South Georgia and the South Sandwich Islands"@en,
+        "Islas Georgias del Sur y Sándwich del Sur"@es,
+        "Géorgie du Sud et les îles Sandwich du Sud"@fr ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf fiaf:Country .
+
+fiaf:SouthKorea a owl:Class ;
+    rdfs:label "South Korea"@en,
+        "Corea, República de"@es,
+        "Corée du Sud"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -5039,7 +5453,9 @@ fiaf:SouthNdebele a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:SouthSudan a owl:Class ;
-    rdfs:label "South Sudan"@en ;
+    rdfs:label "South Sudan"@en,
+        "Sudán del Sur"@es,
+        "Soudan du Sud"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -5051,7 +5467,9 @@ fiaf:SouthernSotho a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Spain a owl:Class ;
-    rdfs:label "Spain"@en ;
+    rdfs:label "Spain"@en,
+        "España"@es,
+        "Espagne"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -5083,7 +5501,9 @@ fiaf:Sponsor a owl:Class ;
     rdfs:subClassOf fiaf:ProducingActivity .
 
 fiaf:SriLanka a owl:Class ;
-    rdfs:label "Sri Lanka"@en ;
+    rdfs:label "Sri Lanka"@en,
+        "Sri Lanka"@es,
+        "Sri Lanka"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -5182,7 +5602,9 @@ fiaf:Subtitles a owl:Class ;
     rdfs:subClassOf fiaf:WrittenLanguages .
 
 fiaf:Sudan a owl:Class ;
-    rdfs:label "Sudan"@en ;
+    rdfs:label "Sudan"@en,
+        "Sudán"@es,
+        "Soudan"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -5230,12 +5652,16 @@ fiaf:SuppliedDevisedTitle a owl:Class ;
     rdfs:subClassOf fiaf:Title .
 
 fiaf:Suriname a owl:Class ;
-    rdfs:label "Suriname"@en ;
+    rdfs:label "Suriname"@en,
+        "Surinám"@es,
+        "Surinam"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
-fiaf:SvalbardAndJanMayen a owl:Class ;
-    rdfs:label "Svalbard and Jan Mayen"@en ;
+fiaf:SvalbardandJanMayen a owl:Class ;
+    rdfs:label "Svalbard and Jan Mayen"@en,
+        "Svalbard y Jan Mayen"@es,
+        "Svalbard et île Jan Mayen"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -5259,7 +5685,9 @@ fiaf:Swati a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Sweden a owl:Class ;
-    rdfs:label "Sweden"@en ;
+    rdfs:label "Sweden"@en,
+        "Suecia"@es,
+        "Suède"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -5271,12 +5699,16 @@ fiaf:Swedish a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Switzerland a owl:Class ;
-    rdfs:label "Switzerland"@en ;
+    rdfs:label "Switzerland"@en,
+        "Suiza"@es,
+        "Suisse"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:SyrianArabRepublic a owl:Class ;
-    rdfs:label "Syrian Arab Republic"@en ;
+    rdfs:label "Syrian Arab Republic"@en,
+        "República árabe de Siria"@es,
+        "Syrienne, République arabe"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -5299,15 +5731,17 @@ fiaf:TainiothikiTisEllados a owl:NamedIndividual,
     rdfs:label "Tainiothiki Tis Ellados"@en ;
     dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
+fiaf:Taiwan a owl:Class ;
+    rdfs:label "Taiwan"@en,
+        "Taiwán"@es,
+        "Taïwan"@fr ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf fiaf:Country .
+
 fiaf:TaiwanFilmAndAudiovisualInstitute a owl:NamedIndividual,
         fiaf:CorporateBody ;
     rdfs:label "Taiwan Film and Audiovisual Institute"@en ;
     dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
-
-fiaf:TaiwanProvinceOfChina a owl:Class ;
-    rdfs:label "Taiwan, Province of China"@en ;
-    dc:source "ISO 3166-1"^^xsd:string ;
-    rdfs:subClassOf fiaf:Country .
 
 fiaf:Tajik a owl:Class ;
     rdfs:label "Tajik"@en,
@@ -5317,7 +5751,9 @@ fiaf:Tajik a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Tajikistan a owl:Class ;
-    rdfs:label "Tajikistan"@en ;
+    rdfs:label "Tajikistan"@en,
+        "Tayikistán"@es,
+        "Tadjikistan"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -5328,8 +5764,10 @@ fiaf:Tamil a owl:Class ;
     dc:source "ISO 639-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Language .
 
-fiaf:TanzaniaUnitedRepublicOf a owl:Class ;
-    rdfs:label "Tanzania, United Republic of"@en ;
+fiaf:Tanzania a owl:Class ;
+    rdfs:label "Tanzania"@en,
+        "Tanzania"@es,
+        "Tanzanie"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -5385,7 +5823,9 @@ fiaf:Thai a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Thailand a owl:Class ;
-    rdfs:label "Thailand"@en ;
+    rdfs:label "Thailand"@en,
+        "Tailandia"@es,
+        "Thaïlande"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -5435,8 +5875,10 @@ fiaf:Tigrinya a owl:Class ;
     dc:source "ISO 639-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Language .
 
-fiaf:TimorLeste a owl:Class ;
-    rdfs:label "Timor-Leste"@en ;
+fiaf:Timor-Leste a owl:Class ;
+    rdfs:label "Timor-Leste"@en,
+        "Timor Oriental"@es,
+        "Timor oriental"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -5461,18 +5903,24 @@ fiaf:TitleProper a owl:Class ;
     rdfs:subClassOf fiaf:Title .
 
 fiaf:Togo a owl:Class ;
-    rdfs:label "Togo"@en ;
+    rdfs:label "Togo"@en,
+        "Togo"@es,
+        "Togo"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Tokelau a owl:Class ;
-    rdfs:label "Tokelau"@en ;
+    rdfs:label "Tokelau"@en,
+        "Tokelau"@es,
+        "Tokelau"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Tonga a owl:Class ;
     rdfs:label "Tonga"@en,
+        "Tonga"@es,
         "Tongano"@es,
+        "Tonga"@fr,
         "Tongien"@fr ;
     dc:source "ISO 3166-1"^^xsd:string,
         "ISO 639-1"^^xsd:string ;
@@ -5521,8 +5969,10 @@ fiaf:TransportationManager a owl:Class ;
     dc:source "FIAF Glossary of Filmographic Terms B.2.13"^^xsd:string ;
     rdfs:subClassOf fiaf:ProducingActivity .
 
-fiaf:TrinidadAndTobago a owl:Class ;
-    rdfs:label "Trinidad and Tobago"@en ;
+fiaf:TrinidadandTobago a owl:Class ;
+    rdfs:label "Trinidad and Tobago"@en,
+        "Trinidad y Tobago"@es,
+        "Trinité-et-Tobago"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -5541,12 +5991,9 @@ fiaf:Tswana a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Tunisia a owl:Class ;
-    rdfs:label "Tunisia"@en ;
-    dc:source "ISO 3166-1"^^xsd:string ;
-    rdfs:subClassOf fiaf:Country .
-
-fiaf:Turkey a owl:Class ;
-    rdfs:label "Turkey"@en ;
+    rdfs:label "Tunisia"@en,
+        "Tunez"@es,
+        "Tunisie"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -5565,17 +6012,23 @@ fiaf:Turkmen a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Turkmenistan a owl:Class ;
-    rdfs:label "Turkmenistan"@en ;
+    rdfs:label "Turkmenistan"@en,
+        "Turkmenistán"@es,
+        "Turkménistan"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
-fiaf:TurksAndCaicosIslands a owl:Class ;
-    rdfs:label "Turks and Caicos Islands"@en ;
+fiaf:TurksandCaicosIslands a owl:Class ;
+    rdfs:label "Turks and Caicos Islands"@en,
+        "Islas Turcas y Caicos"@es,
+        "Îles Turques-et-Caïques"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Tuvalu a owl:Class ;
-    rdfs:label "Tuvalu"@en ;
+    rdfs:label "Tuvalu"@en,
+        "Tuvalu"@es,
+        "Tuvalu"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -5592,6 +6045,13 @@ fiaf:TwoInchAudioReel a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Audio .
 
+fiaf:Türkiye a owl:Class ;
+    rdfs:label "Türkiye"@en,
+        "Turquía"@es,
+        "Turquie"@fr ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf fiaf:Country .
+
 fiaf:UcBerkeleyArtMuseumPacificFilmArchiveBampfa a owl:NamedIndividual,
         fiaf:CorporateBody ;
     rdfs:label "UC Berkeley Art Museum & Pacific Film Archive (BAMPFA)"@en ;
@@ -5603,12 +6063,16 @@ fiaf:UclaFilmTelevisionArchive a owl:NamedIndividual,
     dc:source "https://www.fiafnet.org/pages/Community/Members.html"^^xsd:string .
 
 fiaf:Uganda a owl:Class ;
-    rdfs:label "Uganda"@en ;
+    rdfs:label "Uganda"@en,
+        "Uganda"@es,
+        "Ouganda"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:Ukraine a owl:Class ;
-    rdfs:label "Ukraine"@en ;
+    rdfs:label "Ukraine"@en,
+        "Ucrania"@es,
+        "Ukraine"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -5633,22 +6097,30 @@ fiaf:UneditedFootage a owl:Class ;
     rdfs:subClassOf fiaf:Form .
 
 fiaf:UnitedArabEmirates a owl:Class ;
-    rdfs:label "United Arab Emirates"@en ;
+    rdfs:label "United Arab Emirates"@en,
+        "Emiratos Árabes Unidos"@es,
+        "Émirats arabes unis"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
-fiaf:UnitedKingdomOfGreatBritainAndNorthernIreland a owl:Class ;
-    rdfs:label "United Kingdom of Great Britain and Northern Ireland"@en ;
+fiaf:UnitedKingdom a owl:Class ;
+    rdfs:label "United Kingdom"@en,
+        "Reino Unido"@es,
+        "Royaume-Uni"@fr ;
+    dc:source "ISO 3166-1"^^xsd:string ;
+    rdfs:subClassOf fiaf:Country .
+
+fiaf:UnitedStates a owl:Class ;
+    rdfs:label "United States"@en,
+        "Estados Unidos"@es,
+        "États-Unis"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
 fiaf:UnitedStatesMinorOutlyingIslands a owl:Class ;
-    rdfs:label "United States Minor Outlying Islands"@en ;
-    dc:source "ISO 3166-1"^^xsd:string ;
-    rdfs:subClassOf fiaf:Country .
-
-fiaf:UnitedStatesOfAmerica a owl:Class ;
-    rdfs:label "United States of America"@en ;
+    rdfs:label "United States Minor Outlying Islands"@en,
+        "Islas Ultramarinas Menores de Estados Unidos"@es,
+        "Îles mineures éloignées des États-Unis"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -5684,7 +6156,9 @@ fiaf:Urdu a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Uruguay a owl:Class ;
-    rdfs:label "Uruguay"@en ;
+    rdfs:label "Uruguay"@en,
+        "Uruguay"@es,
+        "Uruguay"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -5703,7 +6177,9 @@ fiaf:Uzbek a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Uzbekistan a owl:Class ;
-    rdfs:label "Uzbekistan"@en ;
+    rdfs:label "Uzbekistan"@en,
+        "Uzbekistán"@es,
+        "Ouzbékistan"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -5732,7 +6208,9 @@ fiaf:VT20 a owl:Class ;
     rdfs:subClassOf fiaf:SourceDevice .
 
 fiaf:Vanuatu a owl:Class ;
-    rdfs:label "Vanuatu"@en ;
+    rdfs:label "Vanuatu"@en,
+        "Vanuatu"@es,
+        "Vanuatu"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -5749,8 +6227,10 @@ fiaf:Venda a owl:Class ;
     dc:source "ISO 639-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Language .
 
-fiaf:VenezuelaBolivarianRepublicOf a owl:Class ;
-    rdfs:label "Venezuela (Bolivarian Republic of)"@en ;
+fiaf:Venezuela a owl:Class ;
+    rdfs:label "Venezuela"@en,
+        "Venezuela"@es,
+        "Vénézuela"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -5777,8 +6257,10 @@ fiaf:VideoStream a owl:Class ;
         "Flux Vidéo"@fr ;
     rdfs:subClassOf fiaf:Stream .
 
-fiaf:VietNam a owl:Class ;
-    rdfs:label "Viet Nam"@en ;
+fiaf:Vietnam a owl:Class ;
+    rdfs:label "Vietnam"@en,
+        "Vietnam"@es,
+        "Viêt Nam"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -5806,13 +6288,17 @@ fiaf:Vinyl a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
     rdfs:subClassOf fiaf:Base .
 
-fiaf:VirginIslandsBritish a owl:Class ;
-    rdfs:label "Virgin Islands (British)"@en ;
+<https://fiafcore.org/ontology/VirginIslands,British> a owl:Class ;
+    rdfs:label "Virgin Islands, British"@en,
+        "Islas Vírgenes, Británicas"@es,
+        "îles Vierges britanniques"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
-<https://fiafcore.org/ontology/VirginIslandsU.S.> a owl:Class ;
-    rdfs:label "Virgin Islands (U.S.)"@en ;
+<https://fiafcore.org/ontology/VirginIslands,U.S.> a owl:Class ;
+    rdfs:label "Virgin Islands, U.S."@en,
+        "Islas Vírgenes, de EEUU"@es,
+        "Îles Vierges, États-Unis"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -5843,8 +6329,10 @@ fiaf:WAV a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.7.10"^^xsd:string ;
     rdfs:subClassOf fiaf:Codec .
 
-fiaf:WallisAndFutuna a owl:Class ;
-    rdfs:label "Wallis and Futuna"@en ;
+fiaf:WallisandFutuna a owl:Class ;
+    rdfs:label "Wallis and Futuna"@en,
+        "Wallis y Futuna"@es,
+        "Wallis et Futuna"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -5890,7 +6378,9 @@ fiaf:WesternFrisian a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:WesternSahara a owl:Class ;
-    rdfs:label "Western Sahara"@en ;
+    rdfs:label "Western Sahara"@en,
+        "Sahara Occidental"@es,
+        "Sahara occidental"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -5951,7 +6441,9 @@ fiaf:YUV a owl:Class ;
     rdfs:subClassOf fiaf:ColourStandard .
 
 fiaf:Yemen a owl:Class ;
-    rdfs:label "Yemen"@en ;
+    rdfs:label "Yemen"@en,
+        "Yemen"@es,
+        "Yémen"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -5970,7 +6462,9 @@ fiaf:Yoruba a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Zambia a owl:Class ;
-    rdfs:label "Zambia"@en ;
+    rdfs:label "Zambia"@en,
+        "Zambia"@es,
+        "Zambie"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -5982,7 +6476,9 @@ fiaf:Zhuang a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Zimbabwe a owl:Class ;
-    rdfs:label "Zimbabwe"@en ;
+    rdfs:label "Zimbabwe"@en,
+        "Zimbabue"@es,
+        "Zimbabwe"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
@@ -6322,7 +6818,9 @@ fiaf:nominationOnly a owl:DatatypeProperty ;
     rdfs:range xsd:boolean .
 
 fiaf:ÅlandIslands a owl:Class ;
-    rdfs:label "Åland Islands"@en ;
+    rdfs:label "Åland Islands"@en,
+        "Islas Äland"@es,
+        "Åland, Îles"@fr ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
