@@ -1146,8 +1146,8 @@
     dc:source "ISO 639-1"^^xsd:string ;
     rdfs:subClassOf <https://fiafcore.org/ontology/Language> .
 
-<https://fiafcore.org/ontology/Tonga> a owl:Class ;
-    rdfs:label "Tonga"@en,
+<https://fiafcore.org/ontology/Tongan> a owl:Class ;
+    rdfs:label "Tongan"@en,
         "Tongano"@es,
         "Tongien"@fr ;
     dc:source "ISO 639-1"^^xsd:string ;
