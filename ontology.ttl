@@ -6670,7 +6670,8 @@ fiaf:hasCondition a owl:ObjectProperty ;
     rdfs:range fiaf:Condition .
 
 fiaf:hasCountry a owl:ObjectProperty ;
-    rdfs:label "Has Country"@en ;
+    rdfs:label "Has Country"@en,
+        "A un Pays"@fr ;
     dc:source "FIAF Cataloguing Manual 1.3.3"^^xsd:string ;
     rdfs:domain fiaf:WorkVariant ;
     rdfs:range fiaf:Country .
@@ -6682,7 +6683,8 @@ fiaf:hasDecisionID a owl:DatatypeProperty ;
     rdfs:range xsd:string .
 
 fiaf:hasEvent a owl:ObjectProperty ;
-    rdfs:label "Has Event"@en ;
+    rdfs:label "Has Event"@en,
+        "A un Évènement"@fr ;
     dc:source "FIAF Cataloguing Manual 1.4.2"^^xsd:string,
         "FIAF Cataloguing Manual 2.4.2"^^xsd:string,
         "FIAF Cataloguing Manual 3.3.2"^^xsd:string ;
@@ -6719,7 +6721,8 @@ fiaf:hasExtentValue a owl:DatatypeProperty ;
     rdfs:range xsd:float .
 
 fiaf:hasForm a owl:ObjectProperty ;
-    rdfs:label "Has Form"@en ;
+    rdfs:label "Has Form"@en,
+        "A une Forme"@fr ;
     dc:source "FIAF Cataloguing Manual 1.4.3"^^xsd:string ;
     rdfs:domain fiaf:WorkVariant ;
     rdfs:range fiaf:Form .
@@ -6739,7 +6742,8 @@ fiaf:hasFrameRate a owl:ObjectProperty ;
     rdfs:range fiaf:FrameRate .
 
 fiaf:hasGenre a owl:ObjectProperty ;
-    rdfs:label "Has Genre"@en ;
+    rdfs:label "Has Genre"@en,
+        "A un Genre"@fr ;
     dc:source "FIAF Cataloguing Manual 1.4.3"^^xsd:string ;
     rdfs:domain fiaf:WorkVariant ;
     rdfs:range fiaf:Genre .
@@ -6751,7 +6755,8 @@ fiaf:hasHoldingInstitution a owl:ObjectProperty ;
     rdfs:range fiaf:Institution .
 
 fiaf:hasIdentifier a owl:ObjectProperty ;
-    rdfs:label "Has Identifier"@en ;
+    rdfs:label "Has Identifier"@en,
+        "A un Identifiant"@fr ;
     dc:source "FIAF Cataloguing Manual 1.3.1"^^xsd:string,
         "FIAF Cataloguing Manual 2.3.1"^^xsd:string,
         "FIAF Cataloguing Manual 3.1.1"^^xsd:string ;
