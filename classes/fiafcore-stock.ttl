@@ -155,6 +155,7 @@ rdfs:subClassOf fiaf:Stock .
 
 <https://fiafcore.org/ontology/hasStockValue> a owl:DatatypeProperty ;
   rdfs:label "Has Stock Value"@en ;
+  rdfs:label "A une Valeur de Support"@fr ;
   dc:source "FIAF Cataloguing Manual 3.1.5.15"^^xsd:string ;
   rdfs:domain fiaf:Stock ;
   rdfs:range xsd:string .
