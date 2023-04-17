@@ -6650,7 +6650,8 @@ fiaf:hasCodec a owl:ObjectProperty ;
     rdfs:range fiaf:Codec .
 
 fiaf:hasColourCharacteristic a owl:ObjectProperty ;
-    rdfs:label "Has Colour Characteristic"@en ;
+    rdfs:label "Has Colour Characteristic"@en,
+        "A une Caractéristique de couleur"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.5"^^xsd:string,
         "FIAF Cataloguing Manual 3.1.5.6"^^xsd:string ;
     rdfs:domain fiaf:Item,
@@ -6707,7 +6708,8 @@ fiaf:hasEventLocation a owl:ObjectProperty ;
     rdfs:range fiaf:Location .
 
 fiaf:hasExtent a owl:ObjectProperty ;
-    rdfs:label "Has Extent"@en ;
+    rdfs:label "Has Extent"@en,
+        "A une Étendue"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.5"^^xsd:string,
         "FIAF Cataloguing Manual 3.1.5.8"^^xsd:string ;
     rdfs:domain fiaf:Item,
@@ -6728,7 +6730,8 @@ fiaf:hasForm a owl:ObjectProperty ;
     rdfs:range fiaf:Form .
 
 fiaf:hasFormat a owl:ObjectProperty ;
-    rdfs:label "Has Format"@en ;
+    rdfs:label "Has Format"@en,
+        "A un Format"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.4"^^xsd:string,
         "FIAF Cataloguing Manual 3.1.5"^^xsd:string ;
     rdfs:domain fiaf:Item,
@@ -6772,7 +6775,8 @@ fiaf:hasIdentifierValue a owl:DatatypeProperty ;
     rdfs:range xsd:string .
 
 fiaf:hasImageCharacteristic a owl:ObjectProperty ;
-    rdfs:label "Has Image Characteristic"@en ;
+    rdfs:label "Has Image Characteristic"@en,
+        "A une Caractéristique d'image"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.5"^^xsd:string,
         "FIAF Cataloguing Manual 3.1.5.9"^^xsd:string ;
     rdfs:domain fiaf:Item,
@@ -6780,7 +6784,8 @@ fiaf:hasImageCharacteristic a owl:ObjectProperty ;
     rdfs:range fiaf:ImageCharacteristic .
 
 fiaf:hasItem a owl:ObjectProperty ;
-    rdfs:label "Has Item"@en ;
+    rdfs:label "Has Item"@en,
+        "A un Item"@fr ;
     dc:source "FIAF Cataloguing Manual 2.4.4"^^xsd:string ;
     rdfs:domain fiaf:Manifestation ;
     rdfs:range fiaf:Item .
@@ -6792,7 +6797,8 @@ fiaf:hasLanguage a owl:ObjectProperty ;
     rdfs:range fiaf:Language .
 
 fiaf:hasLanguageUsage a owl:ObjectProperty ;
-    rdfs:label "Has Language Usage"@en ;
+    rdfs:label "Has Language Usage"@en,
+        "A une Utilisation des Langues"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.3.2"^^xsd:string ;
     rdfs:domain fiaf:Manifestation ;
     rdfs:range fiaf:LanguageUsage .
@@ -6817,7 +6823,8 @@ fiaf:hasResolution a owl:ObjectProperty ;
     rdfs:range fiaf:Resolution .
 
 fiaf:hasSoundCharacteristic a owl:ObjectProperty ;
-    rdfs:label "Has Sound Characteristic"@en ;
+    rdfs:label "Has Sound Characteristic"@en,
+        "A une Caractéristique de son"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.5"^^xsd:string,
         "FIAF Cataloguing Manual 3.1.5.3"^^xsd:string ;
     rdfs:domain fiaf:Item,
