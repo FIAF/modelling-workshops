@@ -6621,7 +6621,8 @@ fiaf:hasAwardName a owl:DatatypeProperty ;
     rdfs:range xsd:string .
 
 fiaf:hasBase a owl:ObjectProperty ;
-    rdfs:label "Has Base"@en ;
+    rdfs:label "Has Base"@en,
+        "A une Base"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.13"^^xsd:string ;
     rdfs:domain fiaf:Item ;
     rdfs:range fiaf:Base .
@@ -6633,13 +6634,15 @@ fiaf:hasBitDepth a owl:ObjectProperty ;
     rdfs:range fiaf:BitDepth .
 
 fiaf:hasBroadcastStandard a owl:ObjectProperty ;
-    rdfs:label "Has Broadcast Standard"@en ;
+    rdfs:label "Has Broadcast Standard"@en,
+        "A un Standard de Télédiffusion"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.10"^^xsd:string ;
     rdfs:domain fiaf:Item ;
     rdfs:range fiaf:BroadcastStandard .
 
 fiaf:hasCarrier a owl:ObjectProperty ;
-    rdfs:label "Has Carrier"@en ;
+    rdfs:label "Has Carrier"@en,
+        "A un Conteneur"@fr ;
     rdfs:domain fiaf:Item ;
     rdfs:range fiaf:Carrier .
 
@@ -6739,7 +6742,8 @@ fiaf:hasFormat a owl:ObjectProperty ;
     rdfs:range fiaf:Format .
 
 fiaf:hasFrameRate a owl:ObjectProperty ;
-    rdfs:label "Has Frame Rate"@en ;
+    rdfs:label "Has Frame Rate"@en,
+        "A le Nombre d’images par seconde"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.12"^^xsd:string ;
     rdfs:domain fiaf:Item ;
     rdfs:range fiaf:FrameRate .
@@ -6752,7 +6756,8 @@ fiaf:hasGenre a owl:ObjectProperty ;
     rdfs:range fiaf:Genre .
 
 fiaf:hasHoldingInstitution a owl:ObjectProperty ;
-    rdfs:label "Has Holding Institution"@en ;
+    rdfs:label "Has Holding Institution"@en,
+        "A un Établissement détenteur"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.3"^^xsd:string ;
     rdfs:domain fiaf:Item ;
     rdfs:range fiaf:Institution .
@@ -6804,7 +6809,8 @@ fiaf:hasLanguageUsage a owl:ObjectProperty ;
     rdfs:range fiaf:LanguageUsage .
 
 fiaf:hasLineStandard a owl:ObjectProperty ;
-    rdfs:label "Has Line Standard"@en ;
+    rdfs:label "Has Line Standard"@en,
+        "A des Lignes de balayage"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.19"^^xsd:string ;
     rdfs:domain fiaf:Item ;
     rdfs:range fiaf:LineStandard .
@@ -6817,7 +6823,8 @@ fiaf:hasManifestation a owl:ObjectProperty ;
     rdfs:range fiaf:Manifestation .
 
 fiaf:hasResolution a owl:ObjectProperty ;
-    rdfs:label "Has Resolution"@en ;
+    rdfs:label "Has Resolution"@en,
+        "A une Résolution"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.18"^^xsd:string ;
     rdfs:domain fiaf:Item ;
     rdfs:range fiaf:Resolution .
@@ -6844,25 +6851,29 @@ fiaf:hasSoundSystem a owl:ObjectProperty ;
     rdfs:range fiaf:SoundSystem .
 
 fiaf:hasSourceDevice a owl:ObjectProperty ;
-    rdfs:label "Has Source Device"@en ;
+    rdfs:label "Has Source Device"@en,
+        "A un Périphérique de lecture"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.21"^^xsd:string ;
     rdfs:domain fiaf:Item ;
     rdfs:range fiaf:SourceDevice .
 
 fiaf:hasSourceSoftware a owl:ObjectProperty ;
-    rdfs:label "Has Source Software"@en ;
+    rdfs:label "Has Source Software"@en,
+        "A un Logiciel"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.22"^^xsd:string ;
     rdfs:domain fiaf:Item ;
     rdfs:range fiaf:SourceSoftware .
 
 fiaf:hasStatus a owl:ObjectProperty ;
-    rdfs:label "Has Status"@en ;
+    rdfs:label "Has Status"@en,
+        "A un Statut"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.2"^^xsd:string ;
     rdfs:domain fiaf:Item ;
     rdfs:range fiaf:Status .
 
 fiaf:hasStock a owl:ObjectProperty ;
-    rdfs:label "Has Stock"@en ;
+    rdfs:label "Has Stock"@en,
+        "A une Marque du support"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.14"^^xsd:string ;
     rdfs:domain fiaf:Item ;
     rdfs:range fiaf:Stock .
@@ -6874,7 +6885,8 @@ fiaf:hasStockValue a owl:DatatypeProperty ;
     rdfs:range xsd:string .
 
 fiaf:hasStream a owl:ObjectProperty ;
-    rdfs:label "Has Stream"@en ;
+    rdfs:label "Has Stream"@en,
+        "A un Flux"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.16"^^xsd:string ;
     rdfs:domain fiaf:Item ;
     rdfs:range fiaf:Stream .
@@ -6904,7 +6916,8 @@ fiaf:hasTitleValue a owl:DatatypeProperty ;
     rdfs:range xsd:string .
 
 fiaf:hasTransferSpeed a owl:ObjectProperty ;
-    rdfs:label "Has Transfer Speed"@en ;
+    rdfs:label "Has Transfer Speed"@en,
+        "A une Vitesse de transfert"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.23"^^xsd:string ;
     rdfs:domain fiaf:Item ;
     rdfs:range fiaf:FrameRate .
@@ -6930,7 +6943,8 @@ fiaf:hasWorkVariant a owl:ObjectProperty ;
     rdfs:range fiaf:WorkVariant .
 
 fiaf:isElement a owl:ObjectProperty ;
-    rdfs:label "Is Element"@en ;
+    rdfs:label "Is Element"@en,
+        "Est de Nature"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.4"^^xsd:string ;
     rdfs:domain fiaf:Item ;
     rdfs:range fiaf:Element .
