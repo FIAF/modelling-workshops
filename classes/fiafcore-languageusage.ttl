@@ -83,6 +83,7 @@
 
 <https://fiafcore.org/ontology/hasLanguage> a owl:ObjectProperty ;
     rdfs:label "Has Language"@en ;
+    rdfs:label "A une Langue"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.3"^^xsd:string ;
     rdfs:domain fiaf:LanguageUsage ;
     rdfs:range fiaf:Language .
