@@ -75,31 +75,36 @@
     rdfs:range fiaf:Identifier .
 
 <https://fiafcore.org/ontology/hasManifestation> a owl:ObjectProperty ;
-    rdfs:label "Has Manifestation"@en ;
+    rdfs:label "Has Manifestation"@en ,
+        "A une Manifestation"@fr ;
     dc:source "FIAF Cataloguing Manual 1.4.6"^^xsd:string ;
     rdfs:domain fiaf:WorkVariant ;
     rdfs:range fiaf:Manifestation .
 
 <https://fiafcore.org/ontology/hasSubject> a owl:ObjectProperty ;
-    rdfs:label "Has Subject"@en ;
+    rdfs:label "Has Subject"@en ,
+        "A un Sujet"@fr ;
     dc:source "FIAF Cataloguing Manual 1.4.3"^^xsd:string ;
     rdfs:domain fiaf:WorkVariant ;
     rdfs:range fiaf:Subject .
 
 <https://fiafcore.org/ontology/hasTitle> a owl:ObjectProperty ;
-    rdfs:label "Has Title"@en ;
+    rdfs:label "Has Title"@en ,
+        "A un Titre"@fr ;
     dc:source "FIAF Cataloguing Manual 1.3.2"^^xsd:string ;
     rdfs:domain fiaf:WorkVariant ;
     rdfs:range fiaf:Title .
 
 <https://fiafcore.org/ontology/hasVariantType> a owl:ObjectProperty ;
-    rdfs:label "Has Variant Type"@en ;
+    rdfs:label "Has Variant Type"@en ,
+        "A un Type de Variante"@fr ;
     dc:source "FIAF Cataloguing Manual 1.2.2"^^xsd:string ;
     rdfs:domain fiaf:WorkVariant ;
     rdfs:range fiaf:VariantType .
 
 <https://fiafcore.org/ontology/hasWorkVariant> a owl:ObjectProperty ;
-    rdfs:label "Has Work/Variant"@en ;
+    rdfs:label "Has Work/Variant"@en ,
+        "A une Œuvre/Variante"@fr ;
     dc:source "FIAF Cataloguing Manual 1.4.5"^^xsd:string ;
     rdfs:domain fiaf:WorkVariant ;
     rdfs:range fiaf:WorkVariant .
