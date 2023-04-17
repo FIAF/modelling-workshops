@@ -2919,7 +2919,6 @@ fiaf:Idea a owl:Class ;
 
 fiaf:IdentifiyingTitle a owl:Class ;
     rdfs:label "Identifiying Title"@en,
-        "Uniform Title"@en,
         "Titre d’identification"@fr ;
     dc:source "FIAF Cataloguing Manual A.2.1"^^xsd:string ;
     rdfs:subClassOf fiaf:Title .
