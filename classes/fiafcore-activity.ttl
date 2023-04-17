@@ -1251,7 +1251,8 @@
 # Object Properties
 
 <https://fiafcore.org/ontology/hasAgent> a owl:ObjectProperty ;
-    rdfs:label "Has Agent"@en ;
+    rdfs:label "Has Agent"@en ,
+        "A Agent"@fr ;
     dc:source "FIAF Cataloguing Manual 1.4.1, 2.4.1, 3.3.1"^^xsd:string ;
     rdfs:domain fiaf:Activity ;
     rdfs:range fiaf:Agent .
