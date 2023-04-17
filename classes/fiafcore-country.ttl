@@ -7,7 +7,8 @@
 # Class
 
 <https://fiafcore.org/ontology/Country> a owl:Class ;
-    rdfs:label "Country"@en ;
+    rdfs:label "Country"@en ,
+        "Pays"@fr ;
     dc:source "FIAF Cataloguing Manual 1.3.3"^^xsd:string .
 
 # Subclasses
