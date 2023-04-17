@@ -6805,7 +6805,8 @@ fiaf:hasItem a owl:ObjectProperty ;
     rdfs:range fiaf:Item .
 
 fiaf:hasLanguage a owl:ObjectProperty ;
-    rdfs:label "Has Language"@en ;
+    rdfs:label "Has Language"@en,
+        "A une Langue"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.3"^^xsd:string ;
     rdfs:domain fiaf:LanguageUsage ;
     rdfs:range fiaf:Language .
