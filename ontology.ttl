@@ -7375,7 +7375,8 @@ fiaf:CorporateBody a owl:Class ;
     rdfs:subClassOf fiaf:Agent .
 
 fiaf:Language a owl:Class ;
-    rdfs:label "Language"@en ;
+    rdfs:label "Language"@en,
+        "Langue"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.3"^^xsd:string .
 
 fiaf:Country a owl:Class ;
