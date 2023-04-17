@@ -7,7 +7,8 @@
 # Class
 
 <https://fiafcore.org/ontology/Language> a owl:Class ;
-    rdfs:label "Language"@en ;
+    rdfs:label "Language"@en ,
+        "Langue"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.3"^^xsd:string .
 
 # Subclasses
