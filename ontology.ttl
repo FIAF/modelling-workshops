@@ -357,32 +357,38 @@ fiaf:Afrikaans a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:AgentNotIdentified a owl:Class ;
-    rdfs:label "Agent not identified"@en ;
+    rdfs:label "Agent not identified"@en,
+        "Agent non identifié"@fr ;
     dc:source "FIAF Cataloguing Manual D.8.11"^^xsd:string ;
     rdfs:subClassOf fiaf:ManifestationActivity .
 
 fiaf:AgentResponsibleForPreservation a owl:Class ;
-    rdfs:label "Agent responsible for preservation"@en ;
+    rdfs:label "Agent responsible for preservation"@en,
+        "Agent responsable de la conservation"@fr ;
     dc:source "FIAF Cataloguing Manual D.8.6"^^xsd:string ;
     rdfs:subClassOf fiaf:ManifestationActivity .
 
 fiaf:AgentResponsibleForReproductionOrTransfer a owl:Class ;
-    rdfs:label "Agent responsible for reproduction or transfer"@en ;
+    rdfs:label "Agent responsible for reproduction or transfer"@en,
+        "Agent responsable de la reproduction ou du transfert"@fr ;
     dc:source "FIAF Cataloguing Manual D.8.7"^^xsd:string ;
     rdfs:subClassOf fiaf:ManifestationActivity .
 
 fiaf:AgentResponsibleForTheArchivalAvailability a owl:Class ;
-    rdfs:label "Agent responsible for the archival availability"@en ;
+    rdfs:label "Agent responsible for the archival availability"@en,
+        "Agent responsable de la mise à disposition publique"@fr ;
     dc:source "FIAF Cataloguing Manual D.8.8"^^xsd:string ;
     rdfs:subClassOf fiaf:ManifestationActivity .
 
 fiaf:AgentResponsibleForTheMereAvailability a owl:Class ;
-    rdfs:label "Agent responsible for the mere availability"@en ;
+    rdfs:label "Agent responsible for the mere availability"@en,
+        "Agent responsable de la mise à disposition privée"@fr ;
     dc:source "FIAF Cataloguing Manual D.8.9"^^xsd:string ;
     rdfs:subClassOf fiaf:ManifestationActivity .
 
 fiaf:AgentUnclearOrUndetermined a owl:Class ;
-    rdfs:label "Agent unclear or undetermined"@en ;
+    rdfs:label "Agent unclear or undetermined"@en,
+        "Agent non défini avec certitude ou indéterminé"@fr ;
     dc:source "FIAF Cataloguing Manual D.8.10"^^xsd:string ;
     rdfs:subClassOf fiaf:ManifestationActivity .
 
@@ -1048,7 +1054,8 @@ fiaf:BroadcastManifestation a owl:Class ;
     rdfs:subClassOf fiaf:Manifestation .
 
 fiaf:Broadcaster a owl:Class ;
-    rdfs:label "Broadcaster"@en ;
+    rdfs:label "Broadcaster"@en,
+        "Télédiffuseur"@fr ;
     dc:source "FIAF Cataloguing Manual D.8.3"^^xsd:string ;
     rdfs:subClassOf fiaf:ManifestationActivity .
 
@@ -1901,12 +1908,14 @@ fiaf:Distributor a owl:Class ;
     rdfs:subClassOf fiaf:CopyrightandDistributionActivity .
 
 fiaf:DistributorNonTheatrical a owl:Class ;
-    rdfs:label "Distributor (non-theatrical)"@en ;
+    rdfs:label "Distributor (non-theatrical)"@en,
+        "Distributeur (non commercial)"@fr ;
     dc:source "FIAF Cataloguing Manual D.8.2"^^xsd:string ;
     rdfs:subClassOf fiaf:ManifestationActivity .
 
 fiaf:DistributorTheatrical a owl:Class ;
-    rdfs:label "Distributor (theatrical)"@en ;
+    rdfs:label "Distributor (theatrical)"@en,
+        "Distributeur (cinéma)"@fr ;
     dc:source "FIAF Cataloguing Manual D.8.1"^^xsd:string ;
     rdfs:subClassOf fiaf:ManifestationActivity .
 
@@ -3727,7 +3736,8 @@ fiaf:Maltese a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:Manufacturer a owl:Class ;
-    rdfs:label "Manufacturer"@en ;
+    rdfs:label "Manufacturer"@en,
+        "Fabricant"@fr ;
     dc:source "FIAF Cataloguing Manual D.8.5"^^xsd:string ;
     rdfs:subClassOf fiaf:ManifestationActivity .
 
@@ -4783,7 +4793,8 @@ fiaf:Publicist a owl:Class ;
     rdfs:subClassOf fiaf:ProducingActivity .
 
 fiaf:Publisher a owl:Class ;
-    rdfs:label "Publisher"@en ;
+    rdfs:label "Publisher"@en,
+        "Éditeur"@fr ;
     dc:source "FIAF Cataloguing Manual D.8.4"^^xsd:string ;
     rdfs:subClassOf fiaf:ManifestationActivity .
 
@@ -7240,7 +7251,8 @@ fiaf:ColourStandard a owl:Class ;
     dc:source "FIAF Cataloguing Manual 2.3.4.4"^^xsd:string .
 
 fiaf:ManifestationActivity a owl:Class ;
-    rdfs:label "Manifestation Activity"@en ;
+    rdfs:label "Manifestation Activity"@en,
+        "Activité de manifestation"@fr ;
     dc:source "FIAF Cataloguing Manual 2.4.1.1"^^xsd:string ;
     rdfs:subClassOf fiaf:Activity .
 
