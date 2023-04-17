@@ -6596,13 +6596,15 @@ fiaf:Zulu a owl:Class ;
     rdfs:subClassOf fiaf:Language .
 
 fiaf:hasAchievement a owl:DatatypeProperty ;
-    rdfs:label "Has Achievement"@en ;
+    rdfs:label "Has Achievement"@en,
+        "A une Prestation"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.2"^^xsd:string ;
     rdfs:domain fiaf:AwardsOrNominationsEvent ;
     rdfs:range xsd:string .
 
 fiaf:hasActivity a owl:ObjectProperty ;
-    rdfs:label "Has Activity"@en ;
+    rdfs:label "Has Activity"@en,
+        "A une Activité"@fr ;
     dc:source "FIAF Cataloguing Manual 1.4.1.1, 2.4.1.1, 3.3.1.1"^^xsd:string ;
     rdfs:domain fiaf:Event ;
     rdfs:range fiaf:Activity .
@@ -6615,7 +6617,8 @@ fiaf:hasAgent a owl:ObjectProperty ;
     rdfs:range fiaf:Agent .
 
 fiaf:hasAwardName a owl:DatatypeProperty ;
-    rdfs:label "Has Award Name"@en ;
+    rdfs:label "Has Award Name"@en,
+        "A un Nom de la récompense"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.2"^^xsd:string ;
     rdfs:domain fiaf:AwardsOrNominationsEvent ;
     rdfs:range xsd:string .
@@ -6668,7 +6671,8 @@ fiaf:hasColourStandard a owl:ObjectProperty ;
     rdfs:range fiaf:ColourStandard .
 
 fiaf:hasCondition a owl:ObjectProperty ;
-    rdfs:label "Has Condition"@en ;
+    rdfs:label "Has Condition"@en,
+        "A un État"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.8"^^xsd:string ;
     rdfs:domain fiaf:InspectionEvent ;
     rdfs:range fiaf:Condition .
@@ -6681,7 +6685,8 @@ fiaf:hasCountry a owl:ObjectProperty ;
     rdfs:range fiaf:Country .
 
 fiaf:hasDecisionID a owl:DatatypeProperty ;
-    rdfs:label "Has Decision ID"@en ;
+    rdfs:label "Has Decision ID"@en,
+        "A un Numéro de visa"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.6"^^xsd:string ;
     rdfs:domain fiaf:DecisionEvent ;
     rdfs:range xsd:string .
@@ -6699,13 +6704,15 @@ fiaf:hasEvent a owl:ObjectProperty ;
     rdfs:range fiaf:Event .
 
 fiaf:hasEventDate a owl:DatatypeProperty ;
-    rdfs:label "Has Event Date"@en ;
+    rdfs:label "Has Event Date"@en,
+        "A une Date"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.1"^^xsd:string ;
     rdfs:domain fiaf:Event ;
     rdfs:range xsd:date .
 
 fiaf:hasEventLocation a owl:ObjectProperty ;
-    rdfs:label "Has Event Location"@en ;
+    rdfs:label "Has Event Location"@en,
+        "A une Location"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.1"^^xsd:string ;
     rdfs:domain fiaf:Event ;
     rdfs:range fiaf:Location .
@@ -6930,7 +6937,8 @@ fiaf:hasVariantType a owl:ObjectProperty ;
     rdfs:range fiaf:VariantType .
 
 fiaf:hasVerdict a owl:DatatypeProperty ;
-    rdfs:label "Has Verdict"@en ;
+    rdfs:label "Has Verdict"@en,
+        "A une Décision"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.6"^^xsd:string ;
     rdfs:domain fiaf:DecisionEvent ;
     rdfs:range xsd:string .
@@ -6950,7 +6958,8 @@ fiaf:isElement a owl:ObjectProperty ;
     rdfs:range fiaf:Element .
 
 fiaf:nominationOnly a owl:DatatypeProperty ;
-    rdfs:label "Nomination Only"@en ;
+    rdfs:label "Nomination Only"@en,
+        "Est une Nomination seule"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.2"^^xsd:string ;
     rdfs:domain fiaf:AwardsOrNominationsEvent ;
     rdfs:range xsd:boolean .
