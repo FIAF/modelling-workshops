@@ -263,18 +263,21 @@
 
 <https://fiafcore.org/ontology/hasActivity> a owl:ObjectProperty ;
     rdfs:label "Has Activity"@en ;
+    rdfs:label "A une Activité"@fr ;
     dc:source "FIAF Cataloguing Manual 1.4.1.1, 2.4.1.1, 3.3.1.1"^^xsd:string ;
     rdfs:domain fiaf:Event ;
     rdfs:range fiaf:Activity .
 
 <https://fiafcore.org/ontology/hasCondition> a owl:ObjectProperty ;
     rdfs:label "Has Condition"@en ;
+    rdfs:label "A un État"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.8"^^xsd:string ;
     rdfs:domain fiaf:InspectionEvent ;
     rdfs:range fiaf:Condition .
 
 <https://fiafcore.org/ontology/hasEventLocation> a owl:ObjectProperty ;
     rdfs:label "Has Event Location"@en ;
+    rdfs:label "A une Location"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.1"^^xsd:string ;
     rdfs:domain fiaf:Event ;
     rdfs:range fiaf:Location .
@@ -283,36 +286,42 @@
 
 <https://fiafcore.org/ontology/hasEventDate> a owl:DatatypeProperty ;
     rdfs:label "Has Event Date"@en ;
+    rdfs:label "A une Date"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.1"^^xsd:string ;
     rdfs:domain fiaf:Event ;
     rdfs:range xsd:date .
 
 <https://fiafcore.org/ontology/hasAwardName> a owl:DatatypeProperty ;
     rdfs:label "Has Award Name"@en ;
+    rdfs:label "A un Nom de la récompense"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.2"^^xsd:string ;
     rdfs:domain fiaf:AwardsOrNominationsEvent ;
     rdfs:range xsd:string .
 
 <https://fiafcore.org/ontology/nominationOnly> a owl:DatatypeProperty ;
     rdfs:label "Nomination Only"@en ;
+    rdfs:label "Est une Nomination seule"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.2"^^xsd:string ;
     rdfs:domain fiaf:AwardsOrNominationsEvent ;
     rdfs:range xsd:boolean .
 
 <https://fiafcore.org/ontology/hasAchievement> a owl:DatatypeProperty ;
     rdfs:label "Has Achievement"@en ;
+    rdfs:label "A une Prestation"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.2"^^xsd:string ;
     rdfs:domain fiaf:AwardsOrNominationsEvent ;
     rdfs:range xsd:string .
 
 <https://fiafcore.org/ontology/hasDecisionID> a owl:DatatypeProperty ;
     rdfs:label "Has Decision ID"@en ;
+    rdfs:label "A un Numéro de visa"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.6"^^xsd:string ;
     rdfs:domain fiaf:DecisionEvent ;
     rdfs:range xsd:string .
 
 <https://fiafcore.org/ontology/hasVerdict> a owl:DatatypeProperty ;
     rdfs:label "Has Verdict"@en ;
+    rdfs:label "A une Décision"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.6"^^xsd:string ;
     rdfs:domain fiaf:DecisionEvent ;
     rdfs:range xsd:string .
