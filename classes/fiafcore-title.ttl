@@ -21,7 +21,6 @@
 
 <https://fiafcore.org/ontology/IdentifiyingTitle> a owl:Class ;
     rdfs:label "Identifiying Title"@en ;
-    rdfs:label "Uniform Title"@en ;
     rdfs:label "Titre d’identification"@fr ;
     dc:source "FIAF Cataloguing Manual A.2.1"^^xsd:string ;
     rdfs:subClassOf fiaf:Title .
