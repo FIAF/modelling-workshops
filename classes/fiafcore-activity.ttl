@@ -1202,7 +1202,7 @@
     
 <https://fiafcore.org/ontology/Publisher> a owl:Class ;
     rdfs:label "Publisher"@en ,
-        "Éditeur"@fr .
+        "Éditeur"@fr ;
     dc:source "FIAF Cataloguing Manual D.8.4"^^xsd:string ;
     rdfs:subClassOf fiaf:ManifestationActivity .
     
