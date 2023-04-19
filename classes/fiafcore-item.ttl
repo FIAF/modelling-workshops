@@ -8,6 +8,7 @@
 
 <https://fiafcore.org/ontology/Item> a owl:Class ;
     rdfs:label "Item"@en ;
+    rdfs:label "Ítem"@es ;
     rdfs:label "Item"@fr ;
     dc:source "FIAF Cataloguing Manual 3.0"^^xsd:string .
 
