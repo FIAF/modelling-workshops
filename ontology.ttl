@@ -1097,6 +1097,7 @@ fiaf:Brittle a owl:Class ;
 
 fiaf:BroadcastEvent a owl:Class ;
     rdfs:label "Broadcast Event"@en,
+        "Teletransmisión Evento"@es,
         "Télédiffusion Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.10"^^xsd:string ;
     rdfs:subClassOf fiaf:PublicationEvent .
@@ -1265,6 +1266,7 @@ fiaf:CastingDirector a owl:Class ;
 
 fiaf:CastingEvent a owl:Class ;
     rdfs:label "Casting Event"@en,
+        "Selección de reparto Evento"@es,
         "Distribution (casting) Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.11"^^xsd:string ;
     rdfs:subClassOf fiaf:ProductionEvent .
@@ -1299,6 +1301,7 @@ fiaf:Censored a owl:Class ;
 
 fiaf:CensorshipEvent a owl:Class ;
     rdfs:label "Censorship Event"@en,
+        "Censura Evento"@es,
         "Censure Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.13"^^xsd:string ;
     rdfs:subClassOf fiaf:DecisionEvent .
@@ -1937,6 +1940,7 @@ fiaf:DigitalTape a owl:Class ;
 
 fiaf:DigitisationEvent a owl:Class ;
     rdfs:label "Digitisation Event"@en,
+        "Digitalización Evento"@es,
         "Numérisation Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.12"^^xsd:string ;
     rdfs:subClassOf fiaf:PreservationEvent .
@@ -1975,6 +1979,7 @@ fiaf:Discolouration a owl:Class ;
 
 fiaf:DistributionEvent a owl:Class ;
     rdfs:label "Distribution Event"@en,
+        "Distribución Evento"@es,
         "Distribution Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.10"^^xsd:string ;
     rdfs:subClassOf fiaf:PublicationEvent .
@@ -2042,6 +2047,7 @@ fiaf:DominicanRepublic a owl:Class ;
 
 fiaf:DonationEvent a owl:Class ;
     rdfs:label "Donation Event"@en,
+        "Donación Evento"@es,
         "Don Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.15.1"^^xsd:string ;
     rdfs:subClassOf fiaf:AcquisitionEvent .
@@ -2114,6 +2120,7 @@ fiaf:DuplicatePositive a owl:Class ;
 
 fiaf:DuplicationEvent a owl:Class ;
     rdfs:label "Duplication Event"@en,
+        "Duplicación Evento"@es,
         "Duplication Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.12"^^xsd:string ;
     rdfs:subClassOf fiaf:PreservationEvent .
@@ -2262,6 +2269,7 @@ fiaf:Excerpt a owl:Class ;
 
 fiaf:ExchangeEvent a owl:Class ;
     rdfs:label "Exchange Event"@en,
+        "Intercambio Evento"@es,
         "Echange Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.15.1"^^xsd:string ;
     rdfs:subClassOf fiaf:AcquisitionEvent .
@@ -2399,6 +2407,7 @@ fiaf:FilmEditor a owl:Class ;
 
 fiaf:FilmPrintingEvent a owl:Class ;
     rdfs:label "Film Printing Event"@en,
+        "Impresión en película Evento"@es,
         "Tireuse cinématographique Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.14"^^xsd:string ;
     rdfs:subClassOf fiaf:ManufactureEvent .
@@ -2940,6 +2949,7 @@ fiaf:HomeMovie a owl:Class ;
 
 fiaf:HomeVideoPublicationEvent a owl:Class ;
     rdfs:label "Home Video Publication Event"@en,
+        "Publicación en video Evento"@es,
         "Distribution pour visionnage domestique Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.10"^^xsd:string ;
     rdfs:subClassOf fiaf:PublicationEvent .
@@ -3095,6 +3105,7 @@ fiaf:Indonesian a owl:Class ;
 
 fiaf:IndoorShootingEvent a owl:Class ;
     rdfs:label "Indoor Shooting Event"@en,
+        "Tomas en interiores Evento"@es,
         "Tournage en intérieur Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.11"^^xsd:string ;
     rdfs:subClassOf fiaf:ProductionEvent .
@@ -3651,6 +3662,7 @@ fiaf:LoaderClapper a owl:Class ;
 
 fiaf:LoanEvent a owl:Class ;
     rdfs:label "Loan Event"@en,
+        "Préstamo Evento"@es,
         "Prêt Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.15.1"^^xsd:string ;
     rdfs:subClassOf fiaf:AcquisitionEvent .
@@ -3911,6 +3923,7 @@ fiaf:Master a owl:Class ;
 
 fiaf:MasteringEvent a owl:Class ;
     rdfs:label "Mastering Event"@en,
+        "Masterización Evento"@es,
         "Mastering Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.14"^^xsd:string ;
     rdfs:subClassOf fiaf:ManufactureEvent .
@@ -4369,6 +4382,7 @@ fiaf:NonTheatricalDistribution a owl:Class ;
 
 fiaf:NonTheatricalDistributionEvent a owl:Class ;
     rdfs:label "Non-Theatrical Distribution Event"@en,
+        "Distribución no comercial Evento"@es,
         "Distribution non commerciale Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.10"^^xsd:string ;
     rdfs:subClassOf fiaf:PublicationEvent .
@@ -4443,6 +4457,7 @@ fiaf:NorwegianNynorsk a owl:Class ;
 
 fiaf:NotForReleaseEvent a owl:Class ;
     rdfs:label "Not For Release Event"@en,
+        "Uso privado Evento"@es,
         "Pas pour la diffusion Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.10"^^xsd:string ;
     rdfs:subClassOf fiaf:PublicationEvent .
@@ -4482,6 +4497,7 @@ fiaf:Occitan a owl:Class ;
 
 fiaf:OffAirRecordingEvent a owl:Class ;
     rdfs:label "Off-Air Recording Event"@en,
+        "Grabación “off-air” Evento"@es,
         "Enregistrement hors antenne Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.15.1"^^xsd:string ;
     rdfs:subClassOf fiaf:AcquisitionEvent .
@@ -4527,6 +4543,7 @@ fiaf:OneInchAudioReel a owl:Class ;
 
 fiaf:OnlineTransmissionEvent a owl:Class ;
     rdfs:label "Online Transmission Event"@en,
+        "Transmisión en línea Evento"@es,
         "Diffusion en ligne Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.10"^^xsd:string ;
     rdfs:subClassOf fiaf:PublicationEvent .
@@ -4594,6 +4611,7 @@ fiaf:Ossetian a owl:Class ;
 
 fiaf:OutdoorShootingEvent a owl:Class ;
     rdfs:label "Outdoor Shooting Event"@en,
+        "Tomas en exteriores Evento"@es,
         "Tournage en extérieur Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.11"^^xsd:string ;
     rdfs:subClassOf fiaf:ProductionEvent .
@@ -4783,6 +4801,7 @@ fiaf:Positive a owl:Class ;
 
 fiaf:PostProductionEvent a owl:Class ;
     rdfs:label "Post-Production"@en,
+        "Post-producción Evento"@es,
         "Post-production Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.11"^^xsd:string ;
     rdfs:subClassOf fiaf:ProductionEvent .
@@ -4802,6 +4821,7 @@ fiaf:Powder a owl:Class ;
 
 fiaf:PreReleaseEvent a owl:Class ;
     rdfs:label "Pre-Release Event"@en,
+        "Pre-estreno Evento"@es,
         "Pré-diffusion Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.10"^^xsd:string ;
     rdfs:subClassOf fiaf:PublicationEvent .
@@ -4972,6 +4992,7 @@ fiaf:Puppeteer a owl:Class ;
 
 fiaf:PurchaseEvent a owl:Class ;
     rdfs:label "Purchase Event"@en,
+        "Compra Evento"@es,
         "Achat Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.15.1"^^xsd:string ;
     rdfs:subClassOf fiaf:AcquisitionEvent .
@@ -5025,6 +5046,7 @@ fiaf:RGB a owl:Class ;
 
 fiaf:RatingEvent a owl:Class ;
     rdfs:label "Rating Event"@en,
+        "Clasificación Evento"@es,
         "Classification Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.13"^^xsd:string ;
     rdfs:subClassOf fiaf:DecisionEvent .
@@ -5052,6 +5074,7 @@ fiaf:RegionalDistributor a owl:Class ;
 
 fiaf:ReleaseEvent a owl:Class ;
     rdfs:label "Release Event"@en,
+        "Estreno Evento"@es,
         "Sortie Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.10"^^xsd:string ;
     rdfs:subClassOf fiaf:PublicationEvent .
@@ -5065,6 +5088,7 @@ fiaf:Removed a owl:Class ;
 
 fiaf:ReproductionEvent a owl:Class ;
     rdfs:label "Reproduction Event"@en,
+        "Reproducción Evento"@es,
         "Reproduction Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.12"^^xsd:string ;
     rdfs:subClassOf fiaf:PreservationEvent .
@@ -5078,12 +5102,14 @@ fiaf:Research a owl:Class ;
 
 fiaf:RevisionEvent a owl:Class ;
     rdfs:label "Revision Event"@en,
+        "Revisión Evento"@es,
         "Révision Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.13"^^xsd:string ;
     rdfs:subClassOf fiaf:DecisionEvent .
 
 fiaf:RightsCopyrightRegistrationEvent a owl:Class ;
     rdfs:label "Rights/Copyright/Registration Event"@en,
+        "Derechos/Copyright/Registro de Propiedad Intelectual Evento"@es,
         "Droits/Copyright/Déclaration DPI Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.4"^^xsd:string ;
     rdfs:subClassOf fiaf:Event .
@@ -5296,6 +5322,7 @@ fiaf:SaudiArabia a owl:Class ;
 
 fiaf:ScanningEvent a owl:Class ;
     rdfs:label "Scanning Event"@en,
+        "Escaneo Evento"@es,
         "Scan Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.14"^^xsd:string ;
     rdfs:subClassOf fiaf:ManufactureEvent .
@@ -6063,6 +6090,7 @@ fiaf:Technicolor a owl:Class ;
 
 fiaf:TelecineEvent a owl:Class ;
     rdfs:label "Telecine Event"@en,
+        "Telecine Evento"@es,
         "Télécinéma Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.14"^^xsd:string ;
     rdfs:subClassOf fiaf:ManufactureEvent .
@@ -6126,6 +6154,7 @@ fiaf:TheatricalDistribution a owl:Class ;
 
 fiaf:TheatricalDistributionEvent a owl:Class ;
     rdfs:label "Theatrical Distribution Event"@en,
+        "Distribución en cines Evento"@es,
         "Distribution en salles Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.10"^^xsd:string ;
     rdfs:subClassOf fiaf:PublicationEvent .
@@ -6226,6 +6255,7 @@ fiaf:Trailer a owl:Class ;
 
 fiaf:TransferEvent a owl:Class ;
     rdfs:label "Transfer Event"@en,
+        "Transferencia Evento"@es,
         "Transfert Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.12"^^xsd:string ;
     rdfs:subClassOf fiaf:PreservationEvent .
@@ -6410,6 +6440,7 @@ fiaf:UnitedStatesMinorOutlyingIslands a owl:Class ;
 
 fiaf:UnknownEvent a owl:Class ;
     rdfs:label "Unknown Event"@en,
+        "Desconocida Evento"@es,
         "Inconnu Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.10"^^xsd:string ;
     rdfs:subClassOf fiaf:PublicationEvent .
@@ -6430,6 +6461,7 @@ fiaf:UnreleasedManifestation a owl:Class ;
 
 fiaf:UploadingEvent a owl:Class ;
     rdfs:label "Uploading Event"@en,
+        "Carga de subida Evento"@es,
         "Téléchargement Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.14"^^xsd:string ;
     rdfs:subClassOf fiaf:ManufactureEvent .
@@ -6541,6 +6573,7 @@ fiaf:VideoAssist a owl:Class ;
 
 fiaf:VideoCopyingEvent a owl:Class ;
     rdfs:label "Video Copying Event"@en,
+        "Copiado en video Evento"@es,
         "Copie vidéo Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.14"^^xsd:string ;
     rdfs:subClassOf fiaf:ManufactureEvent .
@@ -7198,6 +7231,7 @@ fiaf:CensorshipActivity a owl:Class ;
 
 fiaf:InspectionEvent a owl:Class ;
     rdfs:label "Inspection Event"@en,
+        "Inspección Evento"@es,
         "Contrôle Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.8"^^xsd:string ;
     rdfs:subClassOf fiaf:Event .
@@ -7227,6 +7261,7 @@ fiaf:SourceSoftware a owl:Class ;
 
 fiaf:AwardsOrNominationsEvent a owl:Class ;
     rdfs:label "Award(s) or Nomination(s) Event"@en,
+        "Premio(s) o Nominación(es) Evento"@es,
         "Récompense(s) ou nomination(s)"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Event .
@@ -7290,12 +7325,14 @@ fiaf:PerforationCondition a owl:Class ;
 
 fiaf:PreservationEvent a owl:Class ;
     rdfs:label "Preservation Event"@en,
+        "Preservación Evento"@es,
         "Conservation Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.5"^^xsd:string ;
     rdfs:subClassOf fiaf:Event .
 
 fiaf:ProductionEvent a owl:Class ;
     rdfs:label "Production Event"@en,
+        "Producción Evento"@es,
         "Production Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.3"^^xsd:string ;
     rdfs:subClassOf fiaf:Event .
@@ -7307,6 +7344,7 @@ fiaf:SourceDevice a owl:Class ;
 
 fiaf:AcquisitionEvent a owl:Class ;
     rdfs:label "Acquisition Event"@en,
+        "Adquisición Evento"@es,
         "Acquisition Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.9"^^xsd:string ;
     rdfs:subClassOf fiaf:Event .
@@ -7323,6 +7361,7 @@ fiaf:BitDepth a owl:Class ;
 
 fiaf:DecisionEvent a owl:Class ;
     rdfs:label "Decision Event"@en,
+        "Decisión Evento"@es,
         "Décision Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.6"^^xsd:string ;
     rdfs:subClassOf fiaf:Event .
@@ -7380,6 +7419,7 @@ fiaf:LineStandard a owl:Class ;
 
 fiaf:ManufactureEvent a owl:Class ;
     rdfs:label "Manufacture Event"@en,
+        "Manufactura Evento"@es,
         "Fabrication Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.7"^^xsd:string ;
     rdfs:subClassOf fiaf:Event .
@@ -7511,6 +7551,7 @@ fiaf:ImageFormat a owl:Class ;
 
 fiaf:PublicationEvent a owl:Class ;
     rdfs:label "Publication Event"@en,
+        "Publicación Evento"@es,
         "Publication Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.1"^^xsd:string ;
     rdfs:subClassOf fiaf:Event .
@@ -7568,6 +7609,7 @@ fiaf:CastActivity a owl:Class ;
 
 fiaf:Event a owl:Class ;
     rdfs:label "Event"@en,
+        "Evento"@es,
         "Événement"@fr ;
     dc:source "FIAF Cataloguing Manual 1.4.2, 2.4.2, 3.3.2"^^xsd:string .
 
