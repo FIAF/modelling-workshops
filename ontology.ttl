@@ -7623,8 +7623,8 @@ fiaf:WritingActivity a owl:Class ;
 
 fiaf:ColourStandard a owl:Class ;
     rdfs:label "Colour Standard"@en,
-        "Características de color"@es,
-        "Caractéristiques de couleur"@fr ;
+        "Estándar de Color"@es,
+        "Procédé couleur"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.4.4"^^xsd:string .
 
 fiaf:ManifestationActivity a owl:Class ;
