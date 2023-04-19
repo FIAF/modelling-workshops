@@ -475,6 +475,7 @@ fiaf:Ampex a owl:Class ;
 
 fiaf:AnalogueSound a owl:Class ;
     rdfs:label "Analogue Sound"@en,
+        "Analógico"@es,
         "Son Analogique"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.5"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundFixation .
@@ -1869,6 +1870,7 @@ fiaf:DigitalBetacam a owl:Class ;
 
 fiaf:DigitalSound a owl:Class ;
     rdfs:label "Digital Sound"@en,
+        "Digital"@es,
         "Son Numérique"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.5"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundFixation .
@@ -3674,6 +3676,7 @@ fiaf:MagentaBias a owl:Class ;
 
 fiaf:MagneticSound a owl:Class ;
     rdfs:label "Magnetic Sound"@en,
+        "Magnético"@es,
         "Son Magnétique"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.5"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundFixation .
@@ -4175,6 +4178,7 @@ fiaf:Ndonga a owl:Class ;
 
 fiaf:NeedleSound a owl:Class ;
     rdfs:label "Needle Sound"@en,
+        "Sonido de aguja"@es,
         "Son Aiguille"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.5"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundFixation .
@@ -4436,6 +4440,7 @@ fiaf:OnlineTransmissionEvent a owl:Class ;
 
 fiaf:OpticalSound a owl:Class ;
     rdfs:label "Optical Sound"@en,
+        "Óptico"@es,
         "Son Optique"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.5"^^xsd:string ;
     rdfs:subClassOf fiaf:SoundFixation .
@@ -7239,6 +7244,7 @@ fiaf:ManufactureEvent a owl:Class ;
 
 fiaf:SoundFixation a owl:Class ;
     rdfs:label "Sound Fixation"@en,
+        "Fijación de Sonido"@es,
         "Fixation du Son"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.4.3.2, 3.1.5.4"^^xsd:string .
 
