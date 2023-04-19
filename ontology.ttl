@@ -130,6 +130,7 @@ fiaf:2InchQuadruplex a owl:Class ;
 
 fiaf:2K a owl:Class ;
     rdfs:label "2K"@en,
+        "2K"@es,
         "2K"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string ;
     rdfs:subClassOf fiaf:Resolution .
@@ -191,6 +192,7 @@ fiaf:48fps a owl:Class ;
 
 fiaf:4K a owl:Class ;
     rdfs:label "4K"@en,
+        "4K"@es,
         "4K"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string ;
     rdfs:subClassOf fiaf:Resolution .
@@ -209,6 +211,7 @@ fiaf:625 a owl:Class ;
 
 fiaf:6K a owl:Class ;
     rdfs:label "6K"@en,
+        "6K"@es,
         "6K"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string ;
     rdfs:subClassOf fiaf:Resolution .
@@ -227,6 +230,7 @@ fiaf:720 a owl:Class ;
 
 fiaf:8K a owl:Class ;
     rdfs:label "8K"@en,
+        "8K"@es,
         "8K"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string ;
     rdfs:subClassOf fiaf:Resolution .
@@ -2834,6 +2838,7 @@ fiaf:Herero a owl:Class ;
 
 fiaf:HighDefinition a owl:Class ;
     rdfs:label "High Definition"@en,
+        "Alta Definición"@es,
         "Haute définition"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string ;
     rdfs:subClassOf fiaf:Resolution .
@@ -5670,6 +5675,7 @@ fiaf:StandIn a owl:Class ;
 
 fiaf:StandardDefinition a owl:Class ;
     rdfs:label "Standard Definition"@en,
+        "Definición Estándar"@es,
         "Définition standard"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.19"^^xsd:string ;
     rdfs:subClassOf fiaf:Resolution .
@@ -7306,6 +7312,7 @@ fiaf:Format a owl:Class ;
 
 fiaf:Resolution a owl:Class ;
     rdfs:label "Resolution"@en,
+        "Resolución"@es,
         "Résolution"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.18"^^xsd:string .
 
