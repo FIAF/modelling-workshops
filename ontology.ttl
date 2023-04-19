@@ -10,12 +10,14 @@ fiaf: a owl:Ontology ;
 
 fiaf:1-1.5 a owl:Class ;
     rdfs:label "1-1.5%"@en,
+        "1-1.5%"@es,
         "1-1.5%"@fr ;
     dc:source "FIAF Cataloguing Manual D.16.6"^^xsd:string ;
     rdfs:subClassOf fiaf:Shrinkage .
 
 fiaf:1.5-2 a owl:Class ;
     rdfs:label "1.5-2%"@en,
+        "1.5-2%"@es,
         "1.5-2%"@fr ;
     dc:source "FIAF Cataloguing Manual D.16.6"^^xsd:string ;
     rdfs:subClassOf fiaf:Shrinkage .
@@ -76,6 +78,7 @@ fiaf:1InchCFormat a owl:Class ;
 
 fiaf:2-2.5 a owl:Class ;
     rdfs:label "2-2.5%"@en,
+        "2-2.5%"@es,
         "2-2.5%"@fr ;
     dc:source "FIAF Cataloguing Manual D.16.6"^^xsd:string ;
     rdfs:subClassOf fiaf:Shrinkage .
@@ -1091,6 +1094,7 @@ fiaf:BritishIndianOceanTerritory a owl:Class ;
 
 fiaf:Brittle a owl:Class ;
     rdfs:label "Brittle"@en,
+        "Precaria"@es,
         "Cassant"@fr ;
     dc:source "FIAF Cataloguing Manual D.16.1"^^xsd:string ;
     rdfs:subClassOf fiaf:BaseEmulsionCondition .
@@ -1124,6 +1128,7 @@ fiaf:BruneiDarussalam a owl:Class ;
 
 fiaf:Buckled a owl:Class ;
     rdfs:label "Buckled"@en,
+        "Torcida/Abarquillada"@es,
         "Déformé"@fr ;
     dc:source "FIAF Cataloguing Manual D.16.1"^^xsd:string ;
     rdfs:subClassOf fiaf:BaseEmulsionCondition .
@@ -1966,6 +1971,7 @@ fiaf:Director a owl:Class ;
 
 fiaf:Dirt a owl:Class ;
     rdfs:label "Dirt"@en,
+        "Suciedad"@es,
         "Poussière"@fr ;
     dc:source "FIAF Cataloguing Manual D.16.3"^^xsd:string ;
     rdfs:subClassOf fiaf:SurfaceDeposit .
@@ -1979,6 +1985,7 @@ fiaf:Disc a owl:Class ;
 
 fiaf:Discolouration a owl:Class ;
     rdfs:label "Discolouration"@en,
+        "Decoloración"@es,
         "Affaiblissement des couleurs"@fr ;
     dc:source "FIAF Cataloguing Manual D.16.4"^^xsd:string ;
     rdfs:subClassOf fiaf:ImageCondition .
@@ -2067,12 +2074,14 @@ fiaf:Double a owl:Class ;
 
 fiaf:Drop-outs a owl:Class ;
     rdfs:label "Drop-outs"@en,
+        "Fotogramas defectuosos"@es,
         "Drops"@fr ;
     dc:source "FIAF Cataloguing Manual D.16.4"^^xsd:string ;
     rdfs:subClassOf fiaf:ImageCondition .
 
 fiaf:DryingMarks a owl:Class ;
     rdfs:label "Drying marks"@en,
+        "Marcas de secado"@es,
         "Marques de séchage"@fr ;
     dc:source "FIAF Cataloguing Manual D.16.3"^^xsd:string ;
     rdfs:subClassOf fiaf:SurfaceDeposit .
@@ -2310,6 +2319,7 @@ fiaf:FFmpeg a owl:Class ;
 
 fiaf:Faded a owl:Class ;
     rdfs:label "Faded"@en,
+        "Desvaído"@es,
         "Délavé"@fr ;
     dc:source "FIAF Cataloguing Manual D.16.4"^^xsd:string ;
     rdfs:subClassOf fiaf:ImageCondition .
@@ -2500,6 +2510,7 @@ fiaf:FocusPuller a owl:Class ;
 
 fiaf:FoilPatches a owl:Class ;
     rdfs:label "Foil Patches"@en,
+        "Parche de película opaca"@es,
         "Réparations en surépaisseur"@fr ;
     dc:source "FIAF Cataloguing Manual D.16.2"^^xsd:string ;
     rdfs:subClassOf fiaf:PerforationCondition .
@@ -2895,6 +2906,7 @@ fiaf:HeardIslandandMcDonaldIslands a owl:Class ;
 
 fiaf:HeavyScratches a owl:Class ;
     rdfs:label "Heavy Scratches"@en,
+        "Rayaduras severas"@es,
         "Rayures importantes"@fr ;
     dc:source "FIAF Cataloguing Manual D.16.1"^^xsd:string ;
     rdfs:subClassOf fiaf:BaseEmulsionCondition .
@@ -3023,6 +3035,7 @@ fiaf:Hungary a owl:Class ;
 
 fiaf:Hydrolysis a owl:Class ;
     rdfs:label "Hydrolysis"@en,
+        "Hidrólisis"@es,
         "Hydrolyse"@fr ;
     dc:source "FIAF Cataloguing Manual D.16.1"^^xsd:string ;
     rdfs:subClassOf fiaf:BaseEmulsionCondition .
@@ -3624,6 +3637,7 @@ fiaf:Liechtenstein a owl:Class ;
 
 fiaf:LightScratches a owl:Class ;
     rdfs:label "Light Scratches"@en,
+        "Rayaduras ligeras"@es,
         "Rayures légères"@fr ;
     dc:source "FIAF Cataloguing Manual D.16.1"^^xsd:string ;
     rdfs:subClassOf fiaf:BaseEmulsionCondition .
@@ -3776,6 +3790,7 @@ fiaf:Madagascar a owl:Class ;
 
 fiaf:MagentaBias a owl:Class ;
     rdfs:label "Magenta Bias"@en,
+        "Virado Magenta"@es,
         "Dominante magenta"@fr ;
     dc:source "FIAF Cataloguing Manual D.16.4"^^xsd:string ;
     rdfs:subClassOf fiaf:ImageCondition .
@@ -4024,6 +4039,7 @@ fiaf:Minutes a owl:Class ;
 
 fiaf:Missing a owl:Class ;
     rdfs:label "Missing"@en,
+        "Inexistentes"@es,
         "Manquantes"@fr ;
     dc:source "FIAF Cataloguing Manual D.16.2"^^xsd:string ;
     rdfs:subClassOf fiaf:PerforationCondition .
@@ -4113,6 +4129,7 @@ fiaf:MotionCapture a owl:Class ;
 
 fiaf:Mould a owl:Class ;
     rdfs:label "Mould"@en,
+        "Moho"@es,
         "Moisissure"@fr ;
     dc:source "FIAF Cataloguing Manual D.16.3"^^xsd:string ;
     rdfs:subClassOf fiaf:SurfaceDeposit .
@@ -4514,6 +4531,7 @@ fiaf:OffAirRecordingEvent a owl:Class ;
 
 fiaf:OilDeposits a owl:Class ;
     rdfs:label "Oil deposits"@en,
+        "Depósitos de lubricante"@es,
         "Dépôts d’huile"@fr ;
     dc:source "FIAF Cataloguing Manual D.16.3"^^xsd:string ;
     rdfs:subClassOf fiaf:SurfaceDeposit .
@@ -4828,6 +4846,7 @@ fiaf:PostProductionSupervisor a owl:Class ;
 
 fiaf:Powder a owl:Class ;
     rdfs:label "Powder"@en,
+        "Polvo"@es,
         "Poudreux"@fr ;
     dc:source "FIAF Cataloguing Manual D.16.5"^^xsd:string ;
     rdfs:subClassOf fiaf:Decomposition .
@@ -4890,6 +4909,7 @@ fiaf:PreservationRestorationManifestation a owl:Class ;
 
 fiaf:PrintThroughInMould a owl:Class ;
     rdfs:label "Print through in mould"@en,
+        "Print through in mould"@es,
         "Moisissure photographiée"@fr ;
     dc:source "FIAF Cataloguing Manual D.16.4"^^xsd:string ;
     rdfs:subClassOf fiaf:ImageCondition .
@@ -4985,6 +5005,7 @@ fiaf:PuertoRico a owl:Class ;
 
 fiaf:Pulled a owl:Class ;
     rdfs:label "Pulled"@en,
+        "Forzadas/Removidas"@es,
         "Étirées"@fr ;
     dc:source "FIAF Cataloguing Manual D.16.2"^^xsd:string ;
     rdfs:subClassOf fiaf:PerforationCondition .
@@ -5185,6 +5206,7 @@ fiaf:RussianFederation a owl:Class ;
 
 fiaf:Rust a owl:Class ;
     rdfs:label "Rust"@en,
+        "Oxidación"@es,
         "Rouille"@fr ;
     dc:source "FIAF Cataloguing Manual D.16.3"^^xsd:string ;
     rdfs:subClassOf fiaf:SurfaceDeposit .
@@ -5842,12 +5864,14 @@ fiaf:StevenSpielbergJewishFilmArchive a owl:NamedIndividual,
 
 fiaf:Sticky a owl:Class ;
     rdfs:label "Sticky"@en,
+        "Pegajoso"@es,
         "Collant"@fr ;
     dc:source "FIAF Cataloguing Manual D.16.5"^^xsd:string ;
     rdfs:subClassOf fiaf:Decomposition .
 
 fiaf:StickyAtHead a owl:Class ;
     rdfs:label "Sticky at head"@en,
+        "Pegajoso en la cabeza"@es,
         "Collant au noyau"@fr ;
     dc:source "FIAF Cataloguing Manual D.16.5"^^xsd:string ;
     rdfs:subClassOf fiaf:Decomposition .
@@ -6092,6 +6116,7 @@ fiaf:Tatar a owl:Class ;
 
 fiaf:Tears a owl:Class ;
     rdfs:label "Tears"@en,
+        "Rasgaduras"@es,
         "Déchirures"@fr ;
     dc:source "FIAF Cataloguing Manual D.16.1"^^xsd:string ;
     rdfs:subClassOf fiaf:BaseEmulsionCondition .
@@ -6249,6 +6274,7 @@ fiaf:Tongan a owl:Class ;
 
 fiaf:Torn a owl:Class ;
     rdfs:label "Torn"@en,
+        "Desgarradas"@es,
         "Déchirées"@fr ;
     dc:source "FIAF Cataloguing Manual D.16.2"^^xsd:string ;
     rdfs:subClassOf fiaf:PerforationCondition .
@@ -6694,6 +6720,7 @@ fiaf:WardrobeSupervisor a owl:Class ;
 
 fiaf:Warped a owl:Class ;
     rdfs:label "Warped"@en,
+        "Deformada/Ondulada"@es,
         "Gondolé"@fr ;
     dc:source "FIAF Cataloguing Manual D.16.1"^^xsd:string ;
     rdfs:subClassOf fiaf:BaseEmulsionCondition .
@@ -7282,6 +7309,7 @@ fiaf:AwardsOrNominationsEvent a owl:Class ;
 
 fiaf:Decomposition a owl:Class ;
     rdfs:label "Decomposition"@en,
+        "Descomposición"@es,
         "Décomposition"@fr ;
     dc:source "FIAF Cataloguing Manual D.16.5"^^xsd:string ;
     rdfs:subClassOf fiaf:Condition .
@@ -7294,6 +7322,7 @@ fiaf:ImageCharacteristic a owl:Class ;
 
 fiaf:Shrinkage a owl:Class ;
     rdfs:label "Shrinkage"@en,
+        "Contracción"@es,
         "Retrait"@fr ;
     dc:source "FIAF Cataloguing Manual D.16.6"^^xsd:string ;
     rdfs:subClassOf fiaf:Condition .
@@ -7333,6 +7362,7 @@ fiaf:Optical a owl:Class ;
 
 fiaf:PerforationCondition a owl:Class ;
     rdfs:label "Copy Condition Perforations"@en,
+        "Condición de las Perforaciones"@es,
         "État des perforations"@fr ;
     dc:source "FIAF Cataloguing Manual D.16.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Condition .
@@ -7389,6 +7419,7 @@ fiaf:DigitalFile a owl:Class ;
 
 fiaf:ImageCondition a owl:Class ;
     rdfs:label "Image Condition"@en,
+        "Imagen"@es,
         "État Image"@fr ;
     dc:source "FIAF Cataloguing Manual D.16.4"^^xsd:string ;
     rdfs:subClassOf fiaf:Condition .
@@ -7402,6 +7433,7 @@ fiaf:ImageRatio a owl:Class ;
 
 fiaf:SurfaceDeposit a owl:Class ;
     rdfs:label "Surface Deposit"@en,
+        "Depósitos en la Superficie"@es,
         "Dépôt en surface"@fr ;
     dc:source "FIAF Cataloguing Manual D.16.3"^^xsd:string ;
     rdfs:subClassOf fiaf:Condition .
@@ -7465,12 +7497,14 @@ fiaf:Audio a owl:Class ;
 
 fiaf:BaseEmulsionCondition a owl:Class ;
     rdfs:label "Copy Condition Base/Emulsion"@en,
+        "Condición de Copia Base/Emulsión"@es,
         "État de la base/émulsion"@fr ;
     dc:source "FIAF Cataloguing Manual D.16.1"^^xsd:string ;
     rdfs:subClassOf fiaf:Condition .
 
 fiaf:Condition a owl:Class ;
     rdfs:label "Condition"@en,
+        "Condición"@es,
         "État"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.6.1"^^xsd:string .
 
