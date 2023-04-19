@@ -7550,6 +7550,7 @@ fiaf:CorporateBody a owl:Class ;
 
 fiaf:Language a owl:Class ;
     rdfs:label "Language"@en,
+        "Lengua"@es,
         "Langue"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.3"^^xsd:string .
 
