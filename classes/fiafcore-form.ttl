@@ -51,7 +51,7 @@
 
 <https://fiafcore.org/ontology/HomeMovie> a owl:Class ;
     rdfs:label "Home Movie"@en ;
-    rdfs:label "Película familiar"@en ;
+    rdfs:label "Película familiar"@es ;
     rdfs:label "Film de famille"@fr ;
     dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
     rdfs:subClassOf fiaf:Form .
