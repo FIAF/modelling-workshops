@@ -14,7 +14,8 @@
 # Subclasses
 
 <https://fiafcore.org/ontology/FFmpeg> a owl:Class ;
-    rdfs:label "FFmpeg"@en ;    
+    rdfs:label "FFmpeg"@en ;   
+    rdfs:label "FFmpeg"@es ;   
     rdfs:label "FFmpeg"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.22"^^xsd:string ;
     rdfs:subClassOf fiaf:SourceSoftware .
