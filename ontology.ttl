@@ -41,6 +41,7 @@ fiaf:16bit a owl:Class ;
 
 fiaf:16fps a owl:Class ;
     rdfs:label "16fps"@en,
+        "16fps"@es,
         "16 images/seconde"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.18"^^xsd:string ;
     rdfs:subClassOf fiaf:FrameRate .
@@ -105,6 +106,7 @@ fiaf:2-2.5 a owl:Class ;
 
 fiaf:23.98fps a owl:Class ;
     rdfs:label "23.98 fps"@en,
+        "23.98 fps"@es,
         "23.98 images/seconde"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.18"^^xsd:string ;
     rdfs:subClassOf fiaf:FrameRate .
@@ -117,12 +119,14 @@ fiaf:24bit a owl:Class ;
 
 fiaf:24fps a owl:Class ;
     rdfs:label "24fps"@en,
+        "24fps"@es,
         "24 images/seconde"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.18"^^xsd:string ;
     rdfs:subClassOf fiaf:FrameRate .
 
 fiaf:25fps a owl:Class ;
     rdfs:label "25fps"@en,
+        "25fps"@es,
         "25 images/seconde"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.18"^^xsd:string ;
     rdfs:subClassOf fiaf:FrameRate .
@@ -142,6 +146,7 @@ fiaf:2K a owl:Class ;
 
 fiaf:30fps a owl:Class ;
     rdfs:label "30fps"@en,
+        "30fps"@es,
         "30 images/seconde"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.18"^^xsd:string ;
     rdfs:subClassOf fiaf:FrameRate .
@@ -187,6 +192,7 @@ fiaf:405 a owl:Class ;
 
 fiaf:48fps a owl:Class ;
     rdfs:label "48fps"@en,
+        "48fps"@es,
         "48 images/seconde"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.18"^^xsd:string ;
     rdfs:subClassOf fiaf:FrameRate .
@@ -6433,6 +6439,7 @@ fiaf:Vanuatu a owl:Class ;
 
 fiaf:VariableFrameRate a owl:Class ;
     rdfs:label "Variable Frame Rate"@en,
+        "Variable Velocidad"@es,
         "Variable images/seconde"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.18"^^xsd:string ;
     rdfs:subClassOf fiaf:FrameRate .
@@ -7404,6 +7411,7 @@ fiaf:Codec a owl:Class ;
 
 fiaf:FrameRate a owl:Class ;
     rdfs:label "Frame Rate"@en,
+        "Velocidad de Cuadros"@es,
         "Nombre d’images par seconde"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.12"^^xsd:string .
 
