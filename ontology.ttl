@@ -2101,6 +2101,7 @@ fiaf:Dzongkha a owl:Class ;
 
 fiaf:EIDRIdentifier a owl:Class ;
     rdfs:label "EIDR Identifier"@en,
+        "EIDR Identificador"@es,
         "EIDR Identifiant"@fr ;
     dc:source "FIAF Cataloguing Manual 1.3.1"^^xsd:string ;
     rdfs:subClassOf fiaf:Identifier .
@@ -3071,6 +3072,7 @@ fiaf:Interlingue a owl:Class ;
 
 fiaf:InternalIdentifier a owl:Class ;
     rdfs:label "Internal Identifier"@en,
+        "Identificador interno"@es,
         "Identifiant interne"@fr ;
     dc:source "FIAF Cataloguing Manual 1.3.1"^^xsd:string ;
     rdfs:subClassOf fiaf:Identifier .
@@ -6410,6 +6412,7 @@ fiaf:VCD a owl:Class ;
 
 fiaf:VIAFIdentifier a owl:Class ;
     rdfs:label "VIAF Identifier"@en,
+        "VIAF Identificador"@es,
         "VIAF Identifiant"@fr ;
     dc:source "FIAF Cataloguing Manual 1.3.1"^^xsd:string ;
     rdfs:subClassOf fiaf:Identifier .
@@ -6604,6 +6607,7 @@ fiaf:WesternSahara a owl:Class ;
 
 fiaf:WikidataIdentifier a owl:Class ;
     rdfs:label "Wikidata Identifier"@en,
+        "Wikidata Identificador"@es,
         "Wikidata Identifiant"@fr ;
     dc:source "FIAF Cataloguing Manual 1.3.1"^^xsd:string ;
     rdfs:subClassOf fiaf:Identifier .
@@ -7280,6 +7284,7 @@ fiaf:DigitalFileEncoding a owl:Class ;
 
 fiaf:Identifier a owl:Class ;
     rdfs:label "Identifier"@en,
+        "Identificador"@es,
         "Identifiant"@fr ;
     dc:source "FIAF Cataloguing Manual 1.3.1, 2.3.1, 3.1.1"^^xsd:string .
 
