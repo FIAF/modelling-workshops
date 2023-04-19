@@ -7,7 +7,8 @@
 # Class
 
 <https://fiafcore.org/ontology/Carrier> a owl:Class ;
-    rdfs:label "Carrier"@en ;
+    rdfs:label "Carrier"@en ;    
+    rdfs:label "Portador"@es ;
     rdfs:label "Conteneur"@fr .
 
 # Object Properties
