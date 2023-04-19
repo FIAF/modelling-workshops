@@ -1525,12 +1525,14 @@ fiaf:ColourBlackAndWhite a owl:Class ;
 
 fiaf:ColourNegative a owl:Class ;
     rdfs:label "Colour Negative"@en,
+        "Negativo color"@es,
         "Négatif couleur"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
     rdfs:subClassOf fiaf:Element .
 
 fiaf:ColourPositive a owl:Class ;
     rdfs:label "Colour Positive"@en,
+        "Positivo color"@es,
         "Positif couleur"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
     rdfs:subClassOf fiaf:Element .
@@ -1649,6 +1651,7 @@ fiaf:Cooperation a owl:Class ;
 
 fiaf:CopperTonedPositive a owl:Class ;
     rdfs:label "Copper Toned Positive"@en,
+        "Positivo Copper Toned"@es,
         "Colour Positive"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
     rdfs:subClassOf fiaf:Element .
@@ -1773,6 +1776,7 @@ fiaf:Curaçao a owl:Class ;
 
 fiaf:CyanMatrix a owl:Class ;
     rdfs:label "Cyan Matrix"@en,
+        "Matriz Cian"@es,
         "Séparation monochromatique"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
     rdfs:subClassOf fiaf:Element .
@@ -1827,6 +1831,7 @@ fiaf:D5 a owl:Class ;
 
 fiaf:DCP a owl:Class ;
     rdfs:label "DCP"@en,
+        "DCP"@es,
         "DCP"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
     rdfs:subClassOf fiaf:Element .
@@ -1947,6 +1952,7 @@ fiaf:DigitisationEvent a owl:Class ;
 
 fiaf:DirectBWPositive a owl:Class ;
     rdfs:label "Direct BW Positive"@en,
+        "Positivo Directo en Blanco y Negro"@es,
         "Positif inversible noir et blanc"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
     rdfs:subClassOf fiaf:Element .
@@ -2108,12 +2114,14 @@ fiaf:DubbingSpeaker a owl:Class ;
 
 fiaf:DuplicateNegative a owl:Class ;
     rdfs:label "Duplicate negative"@en,
+        "Negativo duplicado"@es,
         "Internégatif"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
     rdfs:subClassOf fiaf:Element .
 
 fiaf:DuplicatePositive a owl:Class ;
     rdfs:label "Duplicate positive"@en,
+        "Positivo duplicado"@es,
         "Interpositif"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
     rdfs:subClassOf fiaf:Element .
@@ -3068,6 +3076,7 @@ fiaf:Igbo a owl:Class ;
 
 fiaf:ImageNegative a owl:Class ;
     rdfs:label "Image negative"@en,
+        "Negativo de imagen"@es,
         "Négatif image"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
     rdfs:subClassOf fiaf:Element .
@@ -3530,6 +3539,7 @@ fiaf:Latvian a owl:Class ;
 
 fiaf:Lavender a owl:Class ;
     rdfs:label "Lavender"@en,
+        "Imagen Azul Lavanda"@es,
         "Lavande"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
     rdfs:subClassOf fiaf:Element .
@@ -4578,12 +4588,14 @@ fiaf:OriginalDistributor a owl:Class ;
 
 fiaf:OriginalNegative a owl:Class ;
     rdfs:label "Original negative"@en,
+        "Negativo original"@es,
         "Négatif original"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
     rdfs:subClassOf fiaf:Element .
 
 fiaf:OriginalPositiveReversalFilm a owl:Class ;
     rdfs:label "Original positive (reversal film)"@en,
+        "Positivo original (reversible)"@es,
         "Positif original (film inversible)"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
     rdfs:subClassOf fiaf:Element .
@@ -4795,6 +4807,7 @@ fiaf:Portuguese a owl:Class ;
 
 fiaf:Positive a owl:Class ;
     rdfs:label "Positive"@en,
+        "Positivo"@es,
         "Positif"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
     rdfs:subClassOf fiaf:Element .
@@ -5672,6 +5685,7 @@ fiaf:SoundEngineer a owl:Class ;
 
 fiaf:SoundNegative a owl:Class ;
     rdfs:label "Sound negative"@en,
+        "Negativo de sonido"@es,
         "Négatif son"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.8"^^xsd:string ;
     rdfs:subClassOf fiaf:Element .
@@ -7633,6 +7647,7 @@ fiaf:Form a owl:Class ;
 
 fiaf:Element a owl:Class ;
     rdfs:label "Element"@en,
+        "Elemento"@es,
         "Nature"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.4"^^xsd:string .
 
