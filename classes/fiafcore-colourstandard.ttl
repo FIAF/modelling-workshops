@@ -8,8 +8,8 @@
 
 <https://fiafcore.org/ontology/ColourStandard> a owl:Class ;
     rdfs:label "Colour Standard"@en ;
-    rdfs:label "Características de color"@es ;
-    rdfs:label "Caractéristiques de couleur"@fr ;
+    rdfs:label "Estándar de Color"@es ;
+    rdfs:label "Procédé couleur"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.4.4"^^xsd:string .
 
 # Subclasses
