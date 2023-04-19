@@ -295,6 +295,7 @@ fiaf:AcademyFilmArchive a owl:NamedIndividual,
 
 fiaf:Accessioned a owl:Class ;
     rdfs:label "Accessioned"@en,
+        "Adjudicado"@es,
         "Intégré à la collection"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.3"^^xsd:string ;
     rdfs:subClassOf fiaf:Status .
@@ -3809,6 +3810,7 @@ fiaf:Martinique a owl:Class ;
 
 fiaf:Master a owl:Class ;
     rdfs:label "Master"@en,
+        "Máster"@es,
         "Master"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.3"^^xsd:string ;
     rdfs:subClassOf fiaf:Status .
@@ -4408,6 +4410,7 @@ fiaf:Oman a owl:Class ;
 
 fiaf:OnLoan a owl:Class ;
     rdfs:label "On Loan"@en,
+        "En préstamo"@es,
         "En prêt"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.3"^^xsd:string ;
     rdfs:subClassOf fiaf:Status .
@@ -4941,6 +4944,7 @@ fiaf:ReleaseEvent a owl:Class ;
 
 fiaf:Removed a owl:Class ;
     rdfs:label "Removed"@en,
+        "Removido"@es,
         "Retiré de la collection"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.3"^^xsd:string ;
     rdfs:subClassOf fiaf:Status .
@@ -5653,6 +5657,7 @@ fiaf:StandardDefinition a owl:Class ;
 
 fiaf:StatusPending a owl:Class ;
     rdfs:label "Status pending"@en,
+        "Estado pendiente"@es,
         "Statut en attente"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.3"^^xsd:string ;
     rdfs:subClassOf fiaf:Status .
@@ -6424,6 +6429,7 @@ fiaf:Vietnamese a owl:Class ;
 
 fiaf:Viewing a owl:Class ;
     rdfs:label "Viewing"@en,
+        "Ver"@es,
         "Visionnage"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.3"^^xsd:string ;
     rdfs:subClassOf fiaf:Status .
@@ -7281,6 +7287,7 @@ fiaf:Resolution a owl:Class ;
 
 fiaf:Status a owl:Class ;
     rdfs:label "Status"@en,
+        "Estado"@es,
         "Statut"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.2"^^xsd:string .
 
