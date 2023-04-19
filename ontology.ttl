@@ -275,6 +275,7 @@ fiaf:Abkhazian a owl:Class ;
 
 fiaf:AbridgedCondensed a owl:Class ;
     rdfs:label "Abridged/Condensed"@en,
+        "Abreviada/Condensada"@es,
         "Raccourci/condensé"@fr ;
     dc:source "FIAF Cataloguing Manual D.2"^^xsd:string ;
     rdfs:subClassOf fiaf:VariantType .
@@ -708,6 +709,7 @@ fiaf:Audiocassette a owl:Class ;
 
 fiaf:Augmented a owl:Class ;
     rdfs:label "Augmented"@en,
+        "Aumentada"@es,
         "Augmentée"@fr ;
     dc:source "FIAF Cataloguing Manual D.2"^^xsd:string ;
     rdfs:subClassOf fiaf:VariantType .
@@ -924,6 +926,7 @@ fiaf:BlackAndWhite a owl:Class ;
 
 fiaf:BlackAndWhiteCopyOfWorkOriginallyIssuedInColour a owl:Class ;
     rdfs:label "Black and white copy of work originally issued in colour"@en,
+        "Copia en blanco y negro de una obra originalmente producida a color"@es,
         "Copie noir et blanc d’une œuvre sortie à l’origine en couleurs"@fr ;
     dc:source "FIAF Cataloguing Manual D.2"^^xsd:string ;
     rdfs:subClassOf fiaf:VariantType .
@@ -1233,6 +1236,7 @@ fiaf:Censor a owl:Class ;
 
 fiaf:Censored a owl:Class ;
     rdfs:label "Censored"@en,
+        "Censurada"@es,
         "Censuré"@fr ;
     dc:source "FIAF Cataloguing Manual D.2"^^xsd:string ;
     rdfs:subClassOf fiaf:VariantType .
@@ -1474,6 +1478,7 @@ fiaf:ColourPositive a owl:Class ;
 
 fiaf:Colourized a owl:Class ;
     rdfs:label "Colourized"@en,
+        "Coloreada"@es,
         "Colorisé"@fr ;
     dc:source "FIAF Cataloguing Manual D.2"^^xsd:string ;
     rdfs:subClassOf fiaf:VariantType .
@@ -1835,6 +1840,7 @@ fiaf:DialogueEditor a owl:Class ;
 
 fiaf:DifferentSoundTrack a owl:Class ;
     rdfs:label "Different sound track"@en,
+        "Diferentes pistas de sonido"@es,
         "Bande sonore différente"@fr ;
     dc:source "FIAF Cataloguing Manual D.2"^^xsd:string ;
     rdfs:subClassOf fiaf:VariantType .
@@ -1986,6 +1992,7 @@ fiaf:DryingMarks a owl:Class ;
 
 fiaf:Dubbed a owl:Class ;
     rdfs:label "Dubbed"@en,
+        "Doblada"@es,
         "Doublé"@fr ;
     dc:source "FIAF Cataloguing Manual D.2"^^xsd:string ;
     rdfs:subClassOf fiaf:VariantType .
@@ -4700,6 +4707,7 @@ fiaf:Presenter a owl:Class ;
 
 fiaf:PreservationRestoration a owl:Class ;
     rdfs:label "Preservation/Restoration"@en,
+        "Preservación/Restauración"@es,
         "Conservation/Restauration"@fr ;
     dc:source "FIAF Cataloguing Manual D.2"^^xsd:string ;
     rdfs:subClassOf fiaf:VariantType .
@@ -5440,6 +5448,7 @@ fiaf:SongComposer a owl:Class ;
 
 fiaf:Sonorized a owl:Class ;
     rdfs:label "Sonorized"@en,
+        "Sonorizada"@es,
         "Sonorisé"@fr ;
     dc:source "FIAF Cataloguing Manual D.2"^^xsd:string ;
     rdfs:subClassOf fiaf:VariantType .
@@ -5690,6 +5699,7 @@ fiaf:SubtitleStream a owl:Class ;
 
 fiaf:Subtitled a owl:Class ;
     rdfs:label "Subtitled"@en,
+        "Subtítulada"@es,
         "Sous-titré"@fr ;
     dc:source "FIAF Cataloguing Manual D.2"^^xsd:string ;
     rdfs:subClassOf fiaf:VariantType .
@@ -7322,6 +7332,7 @@ fiaf:SoundCharacteristic a owl:Class ;
 
 fiaf:VariantType a owl:Class ;
     rdfs:label "Variant Type"@en,
+        "Tipo de Variante"@es,
         "Type de Variante"@fr ;
     dc:source "FIAF Cataloguing Manual 1.2.2"^^xsd:string .
 
