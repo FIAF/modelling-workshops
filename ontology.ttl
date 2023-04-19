@@ -2926,7 +2926,7 @@ fiaf:HolySee\(VaticanCityState\) a owl:Class ;
 
 fiaf:HomeMovie a owl:Class ;
     rdfs:label "Home Movie"@en,
-        "Película familiar"@en,
+        "Película familiar"@es,
         "Film de famille"@fr ;
     dc:source "FIAF Glossary of Filmographic Terms D.1.9"^^xsd:string ;
     rdfs:subClassOf fiaf:Form .
