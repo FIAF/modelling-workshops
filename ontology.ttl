@@ -7722,6 +7722,7 @@ fiaf:Language a owl:Class ;
 
 fiaf:Country a owl:Class ;
     rdfs:label "Country"@en,
+        "País"@es,
         "Pays"@fr ;
     dc:source "FIAF Cataloguing Manual 1.3.3"^^xsd:string .
 
