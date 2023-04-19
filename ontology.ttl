@@ -700,6 +700,7 @@ fiaf:AssociateProducer a owl:Class ;
 
 fiaf:AudioStream a owl:Class ;
     rdfs:label "Audio Stream"@en,
+        "Flujo de sonido"@es,
         "Flux Audio"@fr ;
     rdfs:subClassOf fiaf:Stream .
 
@@ -5703,6 +5704,7 @@ fiaf:StuntPerformer a owl:Class ;
 
 fiaf:SubtitleStream a owl:Class ;
     rdfs:label "Subtitle Stream"@en,
+        "Flujo de subtítulos"@es,
         "Flux de Sous-titres"@fr ;
     rdfs:subClassOf fiaf:Stream .
 
@@ -6375,6 +6377,7 @@ fiaf:VideoCopyingEvent a owl:Class ;
 
 fiaf:VideoStream a owl:Class ;
     rdfs:label "Video Stream"@en,
+        "Flujo de vídeo"@es,
         "Flux Vidéo"@fr ;
     rdfs:subClassOf fiaf:Stream .
 
@@ -7208,6 +7211,7 @@ fiaf:SoundSystem a owl:Class ;
 
 fiaf:Stream a owl:Class ;
     rdfs:label "Stream"@en,
+        "Flujo"@es,
         "Flux"@fr ;
     dc:source "technical glossary"^^xsd:string .
 
