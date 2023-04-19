@@ -8,6 +8,7 @@
 
 <https://fiafcore.org/ontology/Stream> a owl:Class ;
     rdfs:label "Stream"@en ;
+    rdfs:label "Flujo"@es ;
     rdfs:label "Flux"@fr ;
     dc:source "technical glossary"^^xsd:string .
 
@@ -15,16 +16,19 @@
 
 <https://fiafcore.org/ontology/AudioStream> a owl:Class ;
     rdfs:label "Audio Stream"@en ;
+    rdfs:label "Flujo de sonido"@es ;
     rdfs:label "Flux Audio"@fr ;
     rdfs:subClassOf fiaf:Stream .
 
 <https://fiafcore.org/ontology/SubtitleStream> a owl:Class ;
     rdfs:label "Subtitle Stream"@en ;
+    rdfs:label "Flujo de subtítulos"@es ;
     rdfs:label "Flux de Sous-titres"@fr ;
     rdfs:subClassOf fiaf:Stream .
 
 <https://fiafcore.org/ontology/VideoStream> a owl:Class ;
     rdfs:label "Video Stream"@en ;
+    rdfs:label "Flujo de vídeo"@es ;
     rdfs:label "Flux Vidéo"@fr ;
     rdfs:subClassOf fiaf:Stream .
 
@@ -43,4 +47,3 @@
     dc:source "FIAF Cataloguing Manual 3.1.5.16, 3.1.5.17"^^xsd:string ;
     rdfs:domain fiaf:Stream ;
     rdfs:range fiaf:Codec .
-
