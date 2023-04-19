@@ -603,6 +603,7 @@ fiaf:Ansco a owl:Class ;
 
 fiaf:Anscocolor a owl:Class ;
     rdfs:label "Anscocolor"@en,
+        "Anscocolor"@es,
         "Anscocolor"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourStandard .
@@ -2172,6 +2173,7 @@ fiaf:EastmanKodak a owl:Class ;
 
 fiaf:Eastmancolor a owl:Class ;
     rdfs:label "Eastmancolor"@en,
+        "Eastmancolor"@es,
         "Eastmancolor"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourStandard .
@@ -2374,6 +2376,7 @@ fiaf:Feet a owl:Class ;
 
 fiaf:Ferraniacolor a owl:Class ;
     rdfs:label "Ferraniacolor"@en,
+        "Ferraniacolor"@es,
         "Ferraniacolor"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourStandard .
@@ -2581,6 +2584,7 @@ fiaf:Fuji a owl:Class ;
 
 fiaf:Fujicolor a owl:Class ;
     rdfs:label "Fujicolor"@en,
+        "Fujicolor"@es,
         "Fujicolor"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourStandard .
@@ -3370,6 +3374,7 @@ fiaf:Kilobyte a owl:Class ;
 
 fiaf:Kinemacolor a owl:Class ;
     rdfs:label "Kinemacolor"@en,
+        "Kinemacolor"@es,
         "Kinemacolor"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourStandard .
@@ -3395,6 +3400,7 @@ fiaf:Kiribati a owl:Class ;
 
 fiaf:Kodachrome a owl:Class ;
     rdfs:label "Kodachrome"@en,
+        "Kodachrome"@es,
         "Kodachrome"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourStandard .
@@ -4731,6 +4737,7 @@ fiaf:Pashto a owl:Class ;
 
 fiaf:Pathécolor a owl:Class ;
     rdfs:label "Pathécolor"@en,
+        "Pathécolor"@es,
         "Pathécolor"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourStandard .
@@ -5074,6 +5081,7 @@ fiaf:Quicktime a owl:Class ;
 
 fiaf:RGB a owl:Class ;
     rdfs:label "RGB"@en,
+        "RGB"@es,
         "RGB"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourStandard .
@@ -6123,6 +6131,7 @@ fiaf:Tears a owl:Class ;
 
 fiaf:Technicolor a owl:Class ;
     rdfs:label "Technicolor"@en,
+        "Technicolor"@es,
         "Technicolor"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourStandard .
@@ -6818,6 +6827,7 @@ fiaf:Xhosa a owl:Class ;
 
 fiaf:YUV a owl:Class ;
     rdfs:label "YUV"@en,
+        "YUV"@es,
         "YUV"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.12"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourStandard .
@@ -7613,6 +7623,7 @@ fiaf:WritingActivity a owl:Class ;
 
 fiaf:ColourStandard a owl:Class ;
     rdfs:label "Colour Standard"@en,
+        "Características de color"@es,
         "Caractéristiques de couleur"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.4.4"^^xsd:string .
 
