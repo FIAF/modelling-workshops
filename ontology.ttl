@@ -1069,6 +1069,7 @@ fiaf:BroadcastEvent a owl:Class ;
 
 fiaf:BroadcastManifestation a owl:Class ;
     rdfs:label "Broadcast Manifestation"@en,
+        "Teletransmisión"@es,
         "Télédiffusion"@fr ;
     dc:source "FIAF Cataloguing Manual D.5.7"^^xsd:string ;
     rdfs:subClassOf fiaf:Manifestation .
@@ -2885,6 +2886,7 @@ fiaf:HomeVideoPublicationEvent a owl:Class ;
 
 fiaf:HomeViewingPublicationManifestation a owl:Class ;
     rdfs:label "Home Viewing Publication Manifestation"@en,
+        "Publicación para presentación fuera de salas comerciales"@es,
         "Distribution pour visionnage domestique"@fr ;
     dc:source "FIAF Cataloguing Manual D.5.6"^^xsd:string ;
     rdfs:subClassOf fiaf:Manifestation .
@@ -3058,6 +3060,7 @@ fiaf:InternalIdentifier a owl:Class ;
 
 fiaf:InternetManifestation a owl:Class ;
     rdfs:label "Internet Manifestation"@en,
+        "Internet Manifestación"@es,
         "Internet Manifestation"@fr ;
     dc:source "FIAF Cataloguing Manual D.5.8"^^xsd:string ;
     rdfs:subClassOf fiaf:Manifestation .
@@ -4282,6 +4285,7 @@ fiaf:NoDialogue a owl:Class ;
 
 fiaf:NonTheatricalDistribution a owl:Class ;
     rdfs:label "Non-Theatrical Distribution"@en,
+        "Distribución no comercial"@es,
         "Distribution non commerciale"@fr ;
     dc:source "FIAF Cataloguing Manual D.5.3"^^xsd:string ;
     rdfs:subClassOf fiaf:Manifestation .
@@ -4368,6 +4372,7 @@ fiaf:NotForReleaseEvent a owl:Class ;
 
 fiaf:NotForReleaseManifestation a owl:Class ;
     rdfs:label "Not For Release Manifestation"@en,
+        "Uso privado"@es,
         "Pas pour la diffusion"@fr ;
     dc:source "FIAF Cataloguing Manual D.5.4"^^xsd:string ;
     rdfs:subClassOf fiaf:Manifestation .
@@ -4722,6 +4727,7 @@ fiaf:PreReleaseEvent a owl:Class ;
 
 fiaf:PreReleaseManifestation a owl:Class ;
     rdfs:label "Pre-Release Manifestation"@en,
+        "Pre-estreno Manifestación"@es,
         "Pré-diffusion Manifestation"@fr ;
     dc:source "FIAF Cataloguing Manual D.5.1"^^xsd:string ;
     rdfs:subClassOf fiaf:Manifestation .
@@ -4763,6 +4769,7 @@ fiaf:PreservationRestoration a owl:Class ;
 
 fiaf:PreservationRestorationManifestation a owl:Class ;
     rdfs:label "Preservation/Restoration Manifestation"@en,
+        "Preservación/Restauración Manifestación"@es,
         "Conservation/Restauration Manifestation"@fr ;
     dc:source "FIAF Cataloguing Manual D.5.9"^^xsd:string ;
     rdfs:subClassOf fiaf:Manifestation .
@@ -6013,6 +6020,7 @@ fiaf:TheNationalLibraryOfNorwayFilmAndBroadcasting a owl:NamedIndividual,
 
 fiaf:TheatricalDistribution a owl:Class ;
     rdfs:label "Theatrical Distribution"@en,
+        "Distribución en cines"@es,
         "Distribution en salles"@fr ;
     dc:source "FIAF Cataloguing Manual D.5.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Manifestation .
@@ -6306,12 +6314,14 @@ fiaf:UnknownEvent a owl:Class ;
 
 fiaf:UnknownManifestation a owl:Class ;
     rdfs:label "Unknown Manifestation"@en,
+        "Desconocido Manifestación"@es,
         "Inconnu Manifestation"@fr ;
     dc:source "FIAF Cataloguing Manual D.5.10 "^^xsd:string ;
     rdfs:subClassOf fiaf:Manifestation .
 
 fiaf:UnreleasedManifestation a owl:Class ;
     rdfs:label "Unreleased Manifestation"@en,
+        "No publicada"@es,
         "Inédit"@fr ;
     dc:source "FIAF Cataloguing Manual D.5.5"^^xsd:string ;
     rdfs:subClassOf fiaf:Manifestation .
