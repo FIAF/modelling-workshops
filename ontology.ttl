@@ -1237,12 +1237,14 @@ fiaf:Captions a owl:Class ;
 
 fiaf:Cartridge a owl:Class ;
     rdfs:label "Cartridge"@en,
+        "Cartucho"@es,
         "Cartouche"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.6"^^xsd:string ;
     rdfs:subClassOf fiaf:Extent .
 
 fiaf:Cassette a owl:Class ;
     rdfs:label "Cassette"@en,
+        "Casete"@es,
         "Cassette"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.6"^^xsd:string ;
     rdfs:subClassOf fiaf:Extent .
@@ -1928,6 +1930,7 @@ fiaf:DigitalSound a owl:Class ;
 
 fiaf:DigitalTape a owl:Class ;
     rdfs:label "Digital Tape"@en,
+        "Cinta digital"@es,
         "Bande numérique"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.6"^^xsd:string ;
     rdfs:subClassOf fiaf:Extent .
@@ -1959,6 +1962,7 @@ fiaf:Dirt a owl:Class ;
 
 fiaf:Disc a owl:Class ;
     rdfs:label "Disc"@en,
+        "Videodisco"@es,
         "Disque"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.6"^^xsd:string ;
     rdfs:subClassOf fiaf:Extent .
@@ -2337,6 +2341,7 @@ fiaf:Featurette a owl:Class ;
 
 fiaf:Feet a owl:Class ;
     rdfs:label "Feet"@en,
+        "Pie"@es,
         "Pied"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.5.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Extent .
@@ -2370,6 +2375,7 @@ fiaf:Fijian a owl:Class ;
 
 fiaf:File a owl:Class ;
     rdfs:label "File"@en,
+        "Archivo electrónico"@es,
         "Fichier"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.6"^^xsd:string ;
     rdfs:subClassOf fiaf:Extent .
@@ -2680,6 +2686,7 @@ fiaf:Gibraltar a owl:Class ;
 
 fiaf:Gigabyte a owl:Class ;
     rdfs:label "Gigabyte"@en,
+        "Gigabyte"@es,
         "Gigaoctet"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.5.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Extent .
@@ -2965,6 +2972,7 @@ fiaf:HongKongFilmArchive a owl:NamedIndividual,
 
 fiaf:Hours a owl:Class ;
     rdfs:label "Hours"@en,
+        "Hora"@es,
         "Heures"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.5.3"^^xsd:string ;
     rdfs:subClassOf fiaf:Extent .
@@ -3322,6 +3330,7 @@ fiaf:Kikuyu a owl:Class ;
 
 fiaf:Kilobyte a owl:Class ;
     rdfs:label "Kilobyte"@en,
+        "Kilobyte"@es,
         "Kilooctet"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.5.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Extent .
@@ -3655,6 +3664,7 @@ fiaf:LocationManager a owl:Class ;
 
 fiaf:Loop a owl:Class ;
     rdfs:label "Loop"@en,
+        "Bucle continuo"@es,
         "Boucle"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.6"^^xsd:string ;
     rdfs:subClassOf fiaf:Extent .
@@ -3949,6 +3959,7 @@ fiaf:MechanicalEffects a owl:Class ;
 
 fiaf:Megabyte a owl:Class ;
     rdfs:label "Megabyte"@en,
+        "Megabyte"@es,
         "Mégaoctet"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.5.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Extent .
@@ -3962,6 +3973,7 @@ fiaf:Memorex a owl:Class ;
 
 fiaf:Metres a owl:Class ;
     rdfs:label "Metres"@en,
+        "Metro"@es,
         "Mètre"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.5.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Extent .
@@ -3982,6 +3994,7 @@ fiaf:Mexico a owl:Class ;
 
 fiaf:Minutes a owl:Class ;
     rdfs:label "Minutes"@en,
+        "Minuto"@es,
         "Minutes"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.5.3"^^xsd:string ;
     rdfs:subClassOf fiaf:Extent .
@@ -5025,6 +5038,7 @@ fiaf:RealVideo a owl:Class ;
 
 fiaf:Reel a owl:Class ;
     rdfs:label "Reel"@en,
+        "Carrete"@es,
         "Bobine"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.6"^^xsd:string ;
     rdfs:subClassOf fiaf:Extent .
@@ -5076,6 +5090,7 @@ fiaf:RightsCopyrightRegistrationEvent a owl:Class ;
 
 fiaf:Roll a owl:Class ;
     rdfs:label "Roll"@en,
+        "Rollo"@es,
         "Rouleau"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.6"^^xsd:string ;
     rdfs:subClassOf fiaf:Extent .
@@ -5343,6 +5358,7 @@ fiaf:SecondUnitDirectorofPhotography a owl:Class ;
 
 fiaf:Seconds a owl:Class ;
     rdfs:label "Seconds"@en,
+        "Segundo"@es,
         "Secondes"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.5.3"^^xsd:string ;
     rdfs:subClassOf fiaf:Extent .
@@ -6067,6 +6083,7 @@ fiaf:Temporary a owl:Class ;
 
 fiaf:Terabyte a owl:Class ;
     rdfs:label "Terabyte"@en,
+        "Terabyte"@es,
         "Téraoctet"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.5.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Extent .
@@ -7591,6 +7608,7 @@ fiaf:Activity a owl:Class ;
 
 fiaf:Extent a owl:Class ;
     rdfs:label "Extent"@en,
+        "Extensión"@es,
         "Étendue"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.5, 3.1.5.8"^^xsd:string .
 
