@@ -1200,6 +1200,7 @@ fiaf:Canada a owl:Class ;
 
 fiaf:Captions a owl:Class ;
     rdfs:label "Captions"@en,
+        "Subtítulos especiales"@es,
         "Synthés"@fr ;
     dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
     rdfs:subClassOf fiaf:WrittenLanguages .
@@ -3072,6 +3073,7 @@ fiaf:InternetManifestation a owl:Class ;
 
 fiaf:Intertitles a owl:Class ;
     rdfs:label "Intertitles"@en,
+        "Intertítulos"@es,
         "Intertitres"@fr ;
     dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
     rdfs:subClassOf fiaf:WrittenLanguages .
@@ -3404,12 +3406,14 @@ fiaf:LaboratoryTechnician a owl:Class ;
 
 fiaf:LanguagesOfAccompanyingMaterial a owl:Class ;
     rdfs:label "Language(s) of accompanying material"@en,
+        "Idioma(s) del material(es) acompañante(s)"@es,
         "Langue(s) du matériel d'accompagnement"@fr ;
     dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
     rdfs:subClassOf fiaf:LanguageUsage .
 
 fiaf:LanguagesOfSummariesOnContainers a owl:Class ;
     rdfs:label "Language(s) of summaries on containers"@en,
+        "Idioma(s) del resúmen(es) en el envase"@es,
         "Langue(s) des résumés sur les contenants"@fr ;
     dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
     rdfs:subClassOf fiaf:LanguageUsage .
@@ -4284,6 +4288,7 @@ fiaf:Niue a owl:Class ;
 
 fiaf:NoDialogue a owl:Class ;
     rdfs:label "No Dialogue"@en,
+        "Sin diálogo"@es,
         "Sans dialogue"@fr ;
     dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
     rdfs:subClassOf fiaf:DialogueLanguages .
@@ -5390,6 +5395,7 @@ fiaf:SierraLeone a owl:Class ;
 
 fiaf:SignedLanguage a owl:Class ;
     rdfs:label "Signed Language"@en,
+        "Idiomade señas"@es,
         "Langue(s) des signes"@fr ;
     dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
     rdfs:subClassOf fiaf:DialogueLanguages .
@@ -5653,6 +5659,7 @@ fiaf:SpecialEffects a owl:Class ;
 
 fiaf:SpokenLanguage a owl:Class ;
     rdfs:label "Spoken Language"@en,
+        "Idioma hablado"@es,
         "Langue(s) parlée(s)"@fr ;
     dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
     rdfs:subClassOf fiaf:DialogueLanguages .
@@ -5779,6 +5786,7 @@ fiaf:Subtitled a owl:Class ;
 
 fiaf:Subtitles a owl:Class ;
     rdfs:label "Subtitles"@en,
+        "Subtítulos"@es,
         "Sous-titres"@fr ;
     dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
     rdfs:subClassOf fiaf:WrittenLanguages .
@@ -5799,6 +5807,7 @@ fiaf:Sundanese a owl:Class ;
 
 fiaf:SungLanguage a owl:Class ;
     rdfs:label "Sung Language"@en,
+        "Idioma cantado"@es,
         "Langue(s) chantée(s)"@fr ;
     dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
     rdfs:subClassOf fiaf:DialogueLanguages .
@@ -7147,6 +7156,7 @@ fiaf:Shrinkage a owl:Class ;
 
 fiaf:WrittenLanguages a owl:Class ;
     rdfs:label "Written Languages"@en,
+        "Idioma(s) escrito(s)"@es,
         "Langue(s) écrite(s)"@fr ;
     dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
     rdfs:subClassOf fiaf:LanguageUsage .
@@ -7158,6 +7168,7 @@ fiaf:BroadcastStandard a owl:Class ;
 
 fiaf:DialogueLanguages a owl:Class ;
     rdfs:label "Dialogue language(s)"@en,
+        "Idioma(s) de diálogo(s)"@es,
         "Langue(s) des dialogues"@fr ;
     dc:source "FIAF Cataloguing Manual D.6"^^xsd:string ;
     rdfs:subClassOf fiaf:LanguageUsage .
@@ -7257,6 +7268,7 @@ fiaf:Identifier a owl:Class ;
 
 fiaf:LanguageUsage a owl:Class ;
     rdfs:label "Language Usage"@en,
+        "Uso de lenguas"@es,
         "Utilisation des Langues"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.3.2"^^xsd:string .
 
