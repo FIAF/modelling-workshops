@@ -262,6 +262,7 @@ fiaf:AVI a owl:Class ;
 
 fiaf:AbbreviatedTitle a owl:Class ;
     rdfs:label "Abbreviated Title"@en,
+        "Título abreviado"@es,
         "Titre abrégé"@fr ;
     dc:source "FIAF Cataloguing Manual A.2.4.1"^^xsd:string ;
     rdfs:subClassOf fiaf:AlternativeTitle .
@@ -305,6 +306,7 @@ fiaf:Acetate a owl:Class ;
 
 fiaf:AcquisitionTitle a owl:Class ;
     rdfs:label "Acquisition Title"@en,
+        "Título de adquisición"@es,
         "Titre d'acquisition"@fr ;
     dc:source "FIAF Cataloguing Manual A.2.4.1"^^xsd:string ;
     rdfs:subClassOf fiaf:AlternativeTitle .
@@ -1604,6 +1606,7 @@ fiaf:Cornish a owl:Class ;
 
 fiaf:CorrectedTitle a owl:Class ;
     rdfs:label "Corrected Title"@en,
+        "Título corregido"@es,
         "Titre corrigé"@fr ;
     dc:source "FIAF Cataloguing Manual A.2.4.1"^^xsd:string ;
     rdfs:subClassOf fiaf:AlternativeTitle .
@@ -2935,6 +2938,7 @@ fiaf:Idea a owl:Class ;
 
 fiaf:IdentifiyingTitle a owl:Class ;
     rdfs:label "Identifiying Title"@en,
+        "Título Identificador"@es,
         "Titre d’identification"@fr ;
     dc:source "FIAF Cataloguing Manual A.2.1"^^xsd:string ;
     rdfs:subClassOf fiaf:Title .
@@ -4539,6 +4543,7 @@ fiaf:Paraguay a owl:Class ;
 
 fiaf:ParallelTitle a owl:Class ;
     rdfs:label "Parallel Title"@en,
+        "Título paralelo"@es,
         "Titre parallèle"@fr ;
     dc:source "FIAF Cataloguing Manual A.2.4.1"^^xsd:string ;
     rdfs:subClassOf fiaf:AlternativeTitle .
@@ -4681,12 +4686,14 @@ fiaf:PreReleaseManifestation a owl:Class ;
 
 fiaf:PreReleaseTitle a owl:Class ;
     rdfs:label "Pre-Release Title"@en,
+        "Título de pre-estreno:"@es,
         "Titre de pré-diffusion"@fr ;
     dc:source "FIAF Cataloguing Manual A.2.4.1"^^xsd:string ;
     rdfs:subClassOf fiaf:AlternativeTitle .
 
 fiaf:PreferredTitle a owl:Class ;
     rdfs:label "Preferred Title"@en,
+        "Título Preferido"@es,
         "Titre privilégié"@fr ;
     dc:source "FIAF Cataloguing Manual A.2.0"^^xsd:string ;
     rdfs:subClassOf fiaf:Title .
@@ -5190,6 +5197,7 @@ fiaf:Seagate a owl:Class ;
 
 fiaf:SearchTitle a owl:Class ;
     rdfs:label "Search Title"@en,
+        "Título Asistencia/Búsqueda"@es,
         "Aide à la recherche"@fr ;
     dc:source "FIAF Cataloguing Manual A.2.4.1"^^xsd:string ;
     rdfs:subClassOf fiaf:AlternativeTitle .
@@ -5270,6 +5278,7 @@ fiaf:SeriesProducer a owl:Class ;
 
 fiaf:SeriesTitle a owl:Class ;
     rdfs:label "Series Title"@en,
+        "Título de seriada"@es,
         "Titre de la série"@fr ;
     dc:source "FIAF Cataloguing Manual A.2.4.1"^^xsd:string ;
     rdfs:subClassOf fiaf:AlternativeTitle .
@@ -5751,6 +5760,7 @@ fiaf:SupervisingSoundEditor a owl:Class ;
 
 fiaf:SuppliedDevisedTitle a owl:Class ;
     rdfs:label "Supplied/Devised Title"@en,
+        "Títulos Asignados o Construidos"@es,
         "Titres forgés"@fr ;
     dc:source "FIAF Cataloguing Manual A.2.5"^^xsd:string ;
     rdfs:subClassOf fiaf:Title .
@@ -6001,6 +6011,7 @@ fiaf:TitleDesigner a owl:Class ;
 
 fiaf:TitleProper a owl:Class ;
     rdfs:label "Title Proper"@en,
+        "Título propiamente dicho"@es,
         "Titre propre"@fr ;
     dc:source "FIAF Cataloguing Manual A.2.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Title .
@@ -6059,12 +6070,14 @@ fiaf:TransferEvent a owl:Class ;
 
 fiaf:TranslatedTitle a owl:Class ;
     rdfs:label "Translated Title"@en,
+        "Título traducido:"@es,
         "Titre traduit"@fr ;
     dc:source "FIAF Cataloguing Manual A.2.4.1"^^xsd:string ;
     rdfs:subClassOf fiaf:AlternativeTitle .
 
 fiaf:TransliteratedTitle a owl:Class ;
     rdfs:label "Transliterated Title"@en,
+        "Título transliterado"@es,
         "Titre translittéré"@fr ;
     dc:source "FIAF Cataloguing Manual A.2.4.1"^^xsd:string ;
     rdfs:subClassOf fiaf:AlternativeTitle .
@@ -6518,6 +6531,7 @@ fiaf:Wolof a owl:Class ;
 
 fiaf:WorkingTitle a owl:Class ;
     rdfs:label "Working Title"@en,
+        "Título operativo"@es,
         "Titre de travail"@fr ;
     dc:source "FIAF Cataloguing Manual A.2.4.1"^^xsd:string ;
     rdfs:subClassOf fiaf:AlternativeTitle .
@@ -7245,6 +7259,7 @@ fiaf:Status a owl:Class ;
 
 fiaf:Title a owl:Class ;
     rdfs:label "Title"@en,
+        "Título"@es,
         "Titre"@fr ;
     dc:source "FIAF Cataloguing Manual 1.3.2, 2.3.2, 3.1.2"^^xsd:string .
 
@@ -7279,6 +7294,7 @@ fiaf:FrameRate a owl:Class ;
 
 fiaf:AlternativeTitle a owl:Class ;
     rdfs:label "Alternative Title"@en,
+        "Título Alternativo"@es,
         "Titre Alternatif"@fr ;
     dc:source "FIAF Cataloguing Manual A.2.4"^^xsd:string ;
     rdfs:subClassOf fiaf:Title .
