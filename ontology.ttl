@@ -1796,6 +1796,7 @@ fiaf:DVD a owl:Class ;
 
 fiaf:DVSI a owl:Class ;
     rdfs:label "DVSI"@en,
+        "DVSI"@es,
         "DVSI"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.20"^^xsd:string ;
     rdfs:subClassOf fiaf:SourceDevice .
@@ -2751,6 +2752,7 @@ fiaf:HDCAMSR a owl:Class ;
 
 fiaf:HDCAMSRW55002 a owl:Class ;
     rdfs:label "HDCAM SRW5500/2"@en,
+        "HDCAM SRW5500/2"@es,
         "HDCAM SRW5500/2"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.20"^^xsd:string ;
     rdfs:subClassOf fiaf:SourceDevice .
@@ -6352,6 +6354,7 @@ fiaf:VIAFIdentifier a owl:Class ;
 
 fiaf:VT20 a owl:Class ;
     rdfs:label "VT20"@en,
+        "VT20"@es,
         "VT20"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.20"^^xsd:string ;
     rdfs:subClassOf fiaf:SourceDevice .
