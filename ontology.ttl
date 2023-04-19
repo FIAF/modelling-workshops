@@ -55,7 +55,7 @@ fiaf:16mmFilm a owl:Class ;
 
 fiaf:16mmMagneticTrack a owl:Class ;
     rdfs:label "16mm magnetic track"@en,
-        "16mm, pista magnética"@en,
+        "16mm, pista magnética"@es,
         "bande magnétique 16mm"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Audio .
