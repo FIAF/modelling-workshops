@@ -31,12 +31,14 @@ fiaf:1080 a owl:Class ;
 
 fiaf:10bit a owl:Class ;
     rdfs:label "10bit"@en,
+        "10bit"@es,
         "10bit"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.17"^^xsd:string ;
     rdfs:subClassOf fiaf:BitDepth .
 
 fiaf:16bit a owl:Class ;
     rdfs:label "16bit"@en,
+        "16bit"@es,
         "16bit"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.17"^^xsd:string ;
     rdfs:subClassOf fiaf:BitDepth .
@@ -120,6 +122,7 @@ fiaf:23.98fps a owl:Class ;
 
 fiaf:24bit a owl:Class ;
     rdfs:label "24bit"@en,
+        "24bit"@es,
         "24bit"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.17"^^xsd:string ;
     rdfs:subClassOf fiaf:BitDepth .
@@ -161,6 +164,7 @@ fiaf:30fps a owl:Class ;
 
 fiaf:32bit a owl:Class ;
     rdfs:label "32bit"@en,
+        "32bit"@es,
         "32bit"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.17"^^xsd:string ;
     rdfs:subClassOf fiaf:BitDepth .
@@ -279,12 +283,14 @@ fiaf:9.5mmFilm a owl:Class ;
 
 fiaf:AIFF a owl:Class ;
     rdfs:label "AIFF"@en,
+        "AIFF"@es,
         "AIFF"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.10"^^xsd:string ;
     rdfs:subClassOf fiaf:Codec .
 
 fiaf:AVC a owl:Class ;
     rdfs:label "AVC"@en,
+        "AVC"@es,
         "AVC"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.10"^^xsd:string ;
     rdfs:subClassOf fiaf:Codec .
@@ -338,6 +344,7 @@ fiaf:Accessioned a owl:Class ;
 
 fiaf:Acetate a owl:Class ;
     rdfs:label "Acetate"@en,
+        "Acetato"@es,
         "Acétate"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
     rdfs:subClassOf fiaf:Base .
@@ -351,6 +358,7 @@ fiaf:AcquisitionTitle a owl:Class ;
 
 fiaf:Acrylic a owl:Class ;
     rdfs:label "Acrylic"@en,
+        "Acrílico"@es,
         "Acrylique"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
     rdfs:subClassOf fiaf:Base .
@@ -973,6 +981,7 @@ fiaf:Bislama a owl:Class ;
 
 fiaf:BlackAndWhite a owl:Class ;
     rdfs:label "Black and White"@en,
+        "Blanco y negro"@es,
         "Noir et blanc"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.11"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourCharacteristic .
@@ -986,18 +995,21 @@ fiaf:BlackAndWhiteCopyOfWorkOriginallyIssuedInColour a owl:Class ;
 
 fiaf:BlackAndWhiteTinted a owl:Class ;
     rdfs:label "Black and White (Tinted)"@en,
+        "Blanco y negro (teñido)"@es,
         "Noir et blanc (teinté)"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.11"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourCharacteristic .
 
 fiaf:BlackAndWhiteTintedAndToned a owl:Class ;
     rdfs:label "Black and White (Tinted and Toned)"@en,
+        "Blanco y negro (teñido y atonado)"@es,
         "Noir et blanc (teinté et viré)"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.11"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourCharacteristic .
 
 fiaf:BlackAndWhiteToned a owl:Class ;
     rdfs:label "Black and White (Toned)"@en,
+        "Blanco y negro (atonado)"@es,
         "Noir et blanc (viré)"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.11"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourCharacteristic .
@@ -1519,12 +1531,14 @@ fiaf:Colorist a owl:Class ;
 
 fiaf:Colour a owl:Class ;
     rdfs:label "Colour"@en,
+        "Color"@es,
         "Couleur"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.11"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourCharacteristic .
 
 fiaf:ColourBlackAndWhite a owl:Class ;
     rdfs:label "Colour + Black And White"@en,
+        "Color + Blanco y negro"@es,
         "Couleur + Noir et blanc"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.11"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourCharacteristic .
@@ -1762,6 +1776,7 @@ fiaf:Croatian a owl:Class ;
 
 fiaf:Cta a owl:Class ;
     rdfs:label "CTA"@en,
+        "CTA"@es,
         "CTA"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
     rdfs:subClassOf fiaf:Base .
@@ -1824,6 +1839,7 @@ fiaf:D1 a owl:Class ;
 
 fiaf:D10 a owl:Class ;
     rdfs:label "D10"@en,
+        "D10"@es,
         "D10"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.10"^^xsd:string ;
     rdfs:subClassOf fiaf:Codec .
@@ -1903,6 +1919,7 @@ fiaf:DffDeutschesFilminstitutFilmmuseum a owl:NamedIndividual,
 
 fiaf:Diacetate a owl:Class ;
     rdfs:label "Diacetate"@en,
+        "Diacetato"@es,
         "Diacétate"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
     rdfs:subClassOf fiaf:Base .
@@ -2335,6 +2352,7 @@ fiaf:FalklandIslands\(Malvinas\) a owl:Class ;
 
 fiaf:Family a owl:Class ;
     rdfs:label "Family"@en,
+        "Familia"@es,
         "Famille"@fr ;
     dc:source "FIAF Cataloguing Manual 1.4.1"^^xsd:string ;
     rdfs:subClassOf fiaf:Agent .
@@ -3255,6 +3273,7 @@ fiaf:Italy a owl:Class ;
 
 fiaf:JPEG2000 a owl:Class ;
     rdfs:label "JPEG2000"@en,
+        "JPEG2000"@es,
         "JPEG2000"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.10"^^xsd:string ;
     rdfs:subClassOf fiaf:Codec .
@@ -3762,6 +3781,7 @@ fiaf:MPEG4 a owl:Class ;
 
 fiaf:MPEG4H264AVCMainProfile a owl:Class ;
     rdfs:label "MPEG-4 H264/AVC Main Profile"@en,
+        "MPEG-4 H264/AVC Main Profile"@es,
         "MPEG-4 H264/AVC Main Profile"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.10"^^xsd:string ;
     rdfs:subClassOf fiaf:Codec .
@@ -3810,12 +3830,14 @@ fiaf:MagneticSound a owl:Class ;
 
 fiaf:MainlyNitrate a owl:Class ;
     rdfs:label "Mainly nitrate"@en,
+        "Nitrato (principalmente)"@es,
         "En majeure partie nitrate"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
     rdfs:subClassOf fiaf:Base .
 
 fiaf:MainlySafety a owl:Class ;
     rdfs:label "Mainly safety"@en,
+        "Seguridad (principalmente)"@es,
         "En majeure partie safety"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
     rdfs:subClassOf fiaf:Base .
@@ -4052,7 +4074,8 @@ fiaf:Missing a owl:Class ;
 
 fiaf:Mixed a owl:Class ;
     rdfs:label "Mixed"@en,
-        "Acetate"@fr ;
+        "Mezclado"@es,
+        "Mixte"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
     rdfs:subClassOf fiaf:Base .
 
@@ -4210,12 +4233,14 @@ fiaf:Myanmar a owl:Class ;
 
 fiaf:Mylar a owl:Class ;
     rdfs:label "Mylar"@en,
+        "Mylar"@es,
         "Mylar"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
     rdfs:subClassOf fiaf:Base .
 
 fiaf:NTSC a owl:Class ;
     rdfs:label "NTSC"@en,
+        "NTSC"@es,
         "NTSC"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.10"^^xsd:string ;
     rdfs:subClassOf fiaf:BroadcastStandard .
@@ -4388,6 +4413,7 @@ fiaf:Nigeria a owl:Class ;
 
 fiaf:Nitrate a owl:Class ;
     rdfs:label "Nitrate"@en,
+        "Nitrato"@es,
         "Nitrate"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
     rdfs:subClassOf fiaf:Base .
@@ -4661,6 +4687,7 @@ fiaf:Outtake a owl:Class ;
 
 fiaf:PAL a owl:Class ;
     rdfs:label "PAL"@en,
+        "PAL"@es,
         "PAL"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.10"^^xsd:string ;
     rdfs:subClassOf fiaf:BroadcastStandard .
@@ -4751,12 +4778,14 @@ fiaf:Persian a owl:Class ;
 
 fiaf:Person a owl:Class ;
     rdfs:label "Person"@en,
+        "Persona"@es,
         "Personne"@fr ;
     dc:source "FIAF Cataloguing Manual 1.4.1"^^xsd:string ;
     rdfs:subClassOf fiaf:Agent .
 
 fiaf:PersonGroup a owl:Class ;
     rdfs:label "Person Group"@en,
+        "Grupo de personas"@es,
         "Groupe de Personnes"@fr ;
     dc:source "FIAF Cataloguing Manual 1.4.1"^^xsd:string ;
     rdfs:subClassOf fiaf:Agent .
@@ -4812,6 +4841,7 @@ fiaf:Polish a owl:Class ;
 
 fiaf:Polyester a owl:Class ;
     rdfs:label "Polyester"@en,
+        "Poliester"@es,
         "Polyester"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
     rdfs:subClassOf fiaf:Base .
@@ -4923,6 +4953,7 @@ fiaf:PrintThroughInMould a owl:Class ;
 
 fiaf:ProRes422HQ a owl:Class ;
     rdfs:label "ProRes 422 (HQ)"@en,
+        "ProRes 422 (HQ)"@es,
         "ProRes 422 (HQ)"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.10"^^xsd:string ;
     rdfs:subClassOf fiaf:Codec .
@@ -5040,6 +5071,7 @@ fiaf:PurchaseEvent a owl:Class ;
 
 fiaf:Pvc a owl:Class ;
     rdfs:label "PVC"@en,
+        "PVC"@es,
         "PVC"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
     rdfs:subClassOf fiaf:Base .
@@ -5235,12 +5267,14 @@ fiaf:Réunion a owl:Class ;
 
 fiaf:S10 a owl:Class ;
     rdfs:label "S10"@en,
+        "S10"@es,
         "S10"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.10"^^xsd:string ;
     rdfs:subClassOf fiaf:Codec .
 
 fiaf:SECAM a owl:Class ;
     rdfs:label "SECAM"@en,
+        "SECAM"@es,
         "SECAM"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.10"^^xsd:string ;
     rdfs:subClassOf fiaf:BroadcastStandard .
@@ -5254,6 +5288,7 @@ fiaf:SVCD a owl:Class ;
 
 fiaf:Safety a owl:Class ;
     rdfs:label "Safety"@en,
+        "Seguridad"@es,
         "Safety"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
     rdfs:subClassOf fiaf:Base .
@@ -5442,6 +5477,7 @@ fiaf:Senegal a owl:Class ;
 
 fiaf:Sepia a owl:Class ;
     rdfs:label "Sepia"@en,
+        "Sepia"@es,
         "Sépia"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.11"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourCharacteristic .
@@ -6235,6 +6271,7 @@ fiaf:Timor-Leste a owl:Class ;
 
 fiaf:Tinted a owl:Class ;
     rdfs:label "Tinted"@en,
+        "Teñido"@es,
         "Teinté"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.11"^^xsd:string ;
     rdfs:subClassOf fiaf:ColourCharacteristic .
@@ -6661,6 +6698,7 @@ fiaf:Viewing a owl:Class ;
 
 fiaf:Vinyl a owl:Class ;
     rdfs:label "Vinyl"@en,
+        "Vinilo"@es,
         "Vinyle"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.7"^^xsd:string ;
     rdfs:subClassOf fiaf:Base .
@@ -6702,6 +6740,7 @@ fiaf:Volapük a owl:Class ;
 
 fiaf:WAV a owl:Class ;
     rdfs:label "WAV"@en,
+        "WAV"@es,
         "WAV"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.10"^^xsd:string ;
     rdfs:subClassOf fiaf:Codec .
@@ -7296,6 +7335,7 @@ fiaf:PuppetActivity a owl:Class ;
 
 fiaf:Carrier a owl:Class ;
     rdfs:label "Carrier"@en,
+        "Portador"@es,
         "Conteneur"@fr .
 
 fiaf:EditingActivity a owl:Class ;
@@ -7346,6 +7386,7 @@ fiaf:WrittenLanguages a owl:Class ;
 
 fiaf:BroadcastStandard a owl:Class ;
     rdfs:label "Broadcast Standard"@en,
+        "Norma de transmisión de video"@es,
         "Standard de télédiffusion"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.10"^^xsd:string .
 
@@ -7405,11 +7446,13 @@ fiaf:AcquisitionEvent a owl:Class ;
 
 fiaf:Agent a owl:Class ;
     rdfs:label "Agent"@en,
+        "Agente"@es,
         "Agent"@fr ;
     dc:source "FIAF Cataloguing Manual 1.4.1"^^xsd:string .
 
 fiaf:BitDepth a owl:Class ;
     rdfs:label "Bit Depth"@en,
+        "Cantidad de Bits"@es,
         "Profondeur de bit"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.20"^^xsd:string .
 
@@ -7579,6 +7622,7 @@ fiaf:Video a owl:Class ;
 
 fiaf:Codec a owl:Class ;
     rdfs:label "Codec"@en,
+        "Códec"@es,
         "Codec"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.16, 3.1.5.17"^^xsd:string .
 
@@ -7597,6 +7641,7 @@ fiaf:AlternativeTitle a owl:Class ;
 
 fiaf:ColourCharacteristic a owl:Class ;
     rdfs:label "Colour Characteristic"@en,
+        "Características de color"@es,
         "Caractéristiques de couleur"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.4.4"^^xsd:string .
 
@@ -7681,6 +7726,7 @@ fiaf:SoundActivity a owl:Class ;
 
 fiaf:Base a owl:Class ;
     rdfs:label "Base"@en,
+        "Base"@es,
         "Base"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.13"^^xsd:string .
 
@@ -7755,6 +7801,7 @@ fiaf:Stock a owl:Class ;
 
 fiaf:CorporateBody a owl:Class ;
     rdfs:label "Corporate Body"@en,
+        "Entidad Corporativa"@es,
         "Personne Morale"@fr ;
     dc:source "FIAF Cataloguing Manual 1.4.1"^^xsd:string ;
     rdfs:subClassOf fiaf:Agent .
