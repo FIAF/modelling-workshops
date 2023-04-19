@@ -191,7 +191,7 @@
 
 <https://fiafcore.org/ontology/16mmMagneticTrack> a owl:Class ;
     rdfs:label "16mm magnetic track"@en ;
-    rdfs:label "16mm, pista magnética"@en ;
+    rdfs:label "16mm, pista magnética"@es ;
     rdfs:label "bande magnétique 16mm"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Audio .
