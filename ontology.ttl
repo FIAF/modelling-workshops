@@ -7533,6 +7533,7 @@ fiaf:ProductionDesignActivity a owl:Class ;
 
 fiaf:Item a owl:Class ;
     rdfs:label "Item"@en,
+        "Ítem"@es,
         "Item"@fr ;
     dc:source "FIAF Cataloguing Manual 3.0"^^xsd:string .
 
