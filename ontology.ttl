@@ -2223,6 +2223,7 @@ fiaf:EyeFilmmuseum a owl:NamedIndividual,
 
 fiaf:FFmpeg a owl:Class ;
     rdfs:label "FFmpeg"@en,
+        "FFmpeg"@es,
         "FFmpeg"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.22"^^xsd:string ;
     rdfs:subClassOf fiaf:SourceSoftware .
