@@ -45,71 +45,81 @@
 # Object Properties
 
 <https://fiafcore.org/ontology/hasCountry> a owl:ObjectProperty ;
-    rdfs:label "Has Country"@en ,
-        "A un Pays"@fr ;
+    rdfs:label "Has Country"@en ;
+    rdfs:label "Tiene un País"@es ;
+    rdfs:label "A un Pays"@fr ;
     dc:source "FIAF Cataloguing Manual 1.3.3"^^xsd:string ;
     rdfs:domain fiaf:WorkVariant ;
     rdfs:range fiaf:Country .
 
 <https://fiafcore.org/ontology/hasEvent> a owl:ObjectProperty ;
-    rdfs:label "Has Event"@en ,
-        "A un Évènement"@fr ;
+    rdfs:label "Has Event"@en ;
+    rdfs:label "Tiene un Evento"@es ;
+    rdfs:label "A un Évènement"@fr ;
     dc:source "FIAF Cataloguing Manual 1.4.2"^^xsd:string ;
     rdfs:domain fiaf:WorkVariant ;
     rdfs:range fiaf:Event .
 
 <https://fiafcore.org/ontology/hasGenre> a owl:ObjectProperty ;
-    rdfs:label "Has Genre"@en ,
-        "A un Genre"@fr ;
+    rdfs:label "Has Genre"@en ;
+    rdfs:label "Tiene un Género"@es ;
+    rdfs:label "A un Genre"@fr ;
     dc:source "FIAF Cataloguing Manual 1.4.3"^^xsd:string ;
     rdfs:domain fiaf:WorkVariant ;
     rdfs:range fiaf:Genre .
 
 <https://fiafcore.org/ontology/hasForm> a owl:ObjectProperty ;
-    rdfs:label "Has Form"@en ,
-        "A une Forme"@fr ;
+    rdfs:label "Has Form"@en ;
+    rdfs:label "Tiene una Forma"@es ;
+    rdfs:label "A une Forme"@fr ;
     dc:source "FIAF Cataloguing Manual 1.4.3"^^xsd:string ;
     rdfs:domain fiaf:WorkVariant ;
     rdfs:range fiaf:Form .
 
 <https://fiafcore.org/ontology/hasIdentifier> a owl:ObjectProperty ;
-    rdfs:label "Has Identifier"@en ,        
-        "A un Identifiant"@fr ;
+    rdfs:label "Has Identifier"@en ;     
+    rdfs:label "Tiene un Identificador"@es ;
+    rdfs:label "A un Identifiant"@fr ;
     dc:source "FIAF Cataloguing Manual 1.3.1"^^xsd:string ;
     rdfs:domain fiaf:WorkVariant ;
     rdfs:range fiaf:Identifier .
 
 <https://fiafcore.org/ontology/hasManifestation> a owl:ObjectProperty ;
-    rdfs:label "Has Manifestation"@en ,
-        "A une Manifestation"@fr ;
+    rdfs:label "Has Manifestation"@en ;
+    rdfs:label "Tiene una Manifestación"@es ;
+    rdfs:label "A une Manifestation"@fr ;
     dc:source "FIAF Cataloguing Manual 1.4.6"^^xsd:string ;
     rdfs:domain fiaf:WorkVariant ;
     rdfs:range fiaf:Manifestation .
 
 <https://fiafcore.org/ontology/hasSubject> a owl:ObjectProperty ;
-    rdfs:label "Has Subject"@en ,
-        "A un Sujet"@fr ;
+    rdfs:label "Has Subject"@en ;
+    rdfs:label "Tiene una Materia"@es ;
+    rdfs:label "A un Sujet"@fr ;
     dc:source "FIAF Cataloguing Manual 1.4.3"^^xsd:string ;
     rdfs:domain fiaf:WorkVariant ;
     rdfs:range fiaf:Subject .
 
 <https://fiafcore.org/ontology/hasTitle> a owl:ObjectProperty ;
-    rdfs:label "Has Title"@en ,
-        "A un Titre"@fr ;
+    rdfs:label "Has Title"@en ;
+    rdfs:label "Tiene un Título"@es ;
+    rdfs:label "A un Titre"@fr ;
     dc:source "FIAF Cataloguing Manual 1.3.2"^^xsd:string ;
     rdfs:domain fiaf:WorkVariant ;
     rdfs:range fiaf:Title .
 
 <https://fiafcore.org/ontology/hasVariantType> a owl:ObjectProperty ;
-    rdfs:label "Has Variant Type"@en ,
-        "A un Type de Variante"@fr ;
+    rdfs:label "Has Variant Type"@en ;
+    rdfs:label "Tiene un Tipo de Variante"@es ;
+    rdfs:label "A un Type de Variante"@fr ;
     dc:source "FIAF Cataloguing Manual 1.2.2"^^xsd:string ;
     rdfs:domain fiaf:WorkVariant ;
     rdfs:range fiaf:VariantType .
 
 <https://fiafcore.org/ontology/hasWorkVariant> a owl:ObjectProperty ;
-    rdfs:label "Has Work/Variant"@en ,
-        "A une Œuvre/Variante"@fr ;
+    rdfs:label "Has Work/Variant"@en ;
+    rdfs:label "Tiene una Obra/Variante"@es ;
+    rdfs:label "A une Œuvre/Variante"@fr ;
     dc:source "FIAF Cataloguing Manual 1.4.5"^^xsd:string ;
     rdfs:domain fiaf:WorkVariant ;
     rdfs:range fiaf:WorkVariant .
