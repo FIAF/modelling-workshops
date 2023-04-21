@@ -7240,6 +7240,7 @@ fiaf:hasStock a owl:ObjectProperty ;
 
 fiaf:hasStockValue a owl:DatatypeProperty ;
     rdfs:label "Has Stock Value"@en,
+        "Tiene valor de stock"@es,
         "A une Valeur de Support"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.15"^^xsd:string ;
     rdfs:domain fiaf:Stock ;
