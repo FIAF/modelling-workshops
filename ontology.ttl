@@ -7158,6 +7158,7 @@ fiaf:hasItem a owl:ObjectProperty ;
 
 fiaf:hasLanguage a owl:ObjectProperty ;
     rdfs:label "Has Language"@en,
+        "Tiene lengua"@es,
         "A une Langue"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.3"^^xsd:string ;
     rdfs:domain fiaf:LanguageUsage ;
