@@ -74,6 +74,7 @@
 
 <https://fiafcore.org/ontology/hasSoundFixation> a owl:ObjectProperty ;
     rdfs:label "Has Sound Fixation"@en ;
+    rdfs:label "Tiene fijación de sonido"@es ;
     rdfs:label "A une Fixation du Son"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.4.3.2, 3.1.5.4"^^xsd:string ;
     rdfs:domain fiaf:SoundCharacteristic ;
@@ -81,6 +82,7 @@
 
 <https://fiafcore.org/ontology/hasSoundSystem> a owl:ObjectProperty ;
     rdfs:label "Has Sound System"@en ;
+    rdfs:label "Tiene sistema de sonido"@es ;
     rdfs:label "A un Procédé Sonore"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.4.3.1, 3.1.5.5"^^xsd:string ;
     rdfs:domain fiaf:SoundCharacteristic ;
