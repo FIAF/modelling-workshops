@@ -6969,6 +6969,7 @@ fiaf:hasBase a owl:ObjectProperty ;
 
 fiaf:hasBitDepth a owl:ObjectProperty ;
     rdfs:label "Has Bit Depth"@en,
+        "Tiene profundidad de bits"@es,
         "A une Profondeur de bit"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.20"^^xsd:string ;
     rdfs:domain fiaf:Stream ;
@@ -6989,6 +6990,7 @@ fiaf:hasCarrier a owl:ObjectProperty ;
 
 fiaf:hasCodec a owl:ObjectProperty ;
     rdfs:label "Has Codec"@en,
+        "Tiene códec"@es,
         "A un Codec"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.16, 3.1.5.17"^^xsd:string ;
     rdfs:domain fiaf:Stream ;
