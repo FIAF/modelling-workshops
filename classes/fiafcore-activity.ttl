@@ -1177,73 +1177,85 @@
     rdfs:subClassOf <https://fiafcore.org/ontology/Activity> .
 
 <https://fiafcore.org/ontology/ManifestationActivity> a owl:Class ;
-    rdfs:label "Manifestation Activity"@en ,
-        "Activité de manifestation"@fr ;
+    rdfs:label "Manifestation Activity"@en ;
+    rdfs:label "Manifestación Actividad"@es ;
+    rdfs:label "Activité de manifestation"@fr ;
     dc:source "FIAF Cataloguing Manual 2.4.1.1"^^xsd:string ;
     rdfs:subClassOf fiaf:Activity .
 
 <https://fiafcore.org/ontology/DistributorTheatrical> a owl:Class ;
     rdfs:label "Distributor (theatrical)"@en ,
+        "Distribuidor (en cines)"@es ,
         "Distributeur (cinéma)"@fr ;
     dc:source "FIAF Cataloguing Manual D.8.1"^^xsd:string ;
     rdfs:subClassOf fiaf:ManifestationActivity .
 
 <https://fiafcore.org/ontology/DistributorNonTheatrical> a owl:Class ;
     rdfs:label "Distributor (non-theatrical)"@en ,
+        "Distribuidor (no comercial)"@es ,
         "Distributeur (non commercial)"@fr ;
     dc:source "FIAF Cataloguing Manual D.8.2"^^xsd:string ;
     rdfs:subClassOf fiaf:ManifestationActivity .
     
 <https://fiafcore.org/ontology/Broadcaster> a owl:Class ;
     rdfs:label "Broadcaster"@en ,
+        "Emisor"@es ,
         "Télédiffuseur"@fr ;
     dc:source "FIAF Cataloguing Manual D.8.3"^^xsd:string ;
     rdfs:subClassOf fiaf:ManifestationActivity .
     
 <https://fiafcore.org/ontology/Publisher> a owl:Class ;
     rdfs:label "Publisher"@en ,
+        "Editor"@es ,
         "Éditeur"@fr ;
     dc:source "FIAF Cataloguing Manual D.8.4"^^xsd:string ;
     rdfs:subClassOf fiaf:ManifestationActivity .
     
 <https://fiafcore.org/ontology/Manufacturer> a owl:Class ;
     rdfs:label "Manufacturer"@en ,
+        "Fabricante"@es ,
         "Fabricant"@fr ;
     dc:source "FIAF Cataloguing Manual D.8.5"^^xsd:string ;
     rdfs:subClassOf fiaf:ManifestationActivity .
     
 <https://fiafcore.org/ontology/AgentResponsibleForPreservation> a owl:Class ;
     rdfs:label "Agent responsible for preservation"@en ,
+        "Agente responsable de la preservación"@es ,
         "Agent responsable de la conservation"@fr ;
     dc:source "FIAF Cataloguing Manual D.8.6"^^xsd:string ;
     rdfs:subClassOf fiaf:ManifestationActivity .
     
 <https://fiafcore.org/ontology/AgentResponsibleForReproductionOrTransfer> a owl:Class ;
     rdfs:label "Agent responsible for reproduction or transfer"@en ,
+        "Agente responsable de la reproducción o transferencia"@es ,
         "Agent responsable de la reproduction ou du transfert"@fr ;
     dc:source "FIAF Cataloguing Manual D.8.7"^^xsd:string ;
     rdfs:subClassOf fiaf:ManifestationActivity .
     
 <https://fiafcore.org/ontology/AgentResponsibleForTheArchivalAvailability> a owl:Class ;
     rdfs:label "Agent responsible for the archival availability"@en ,
+        "Agente responsable de la disponibilidad (Archivo)"@es ,
         "Agent responsable de la mise à disposition publique"@fr ;
     dc:source "FIAF Cataloguing Manual D.8.8"^^xsd:string ;
     rdfs:subClassOf fiaf:ManifestationActivity .
 
 <https://fiafcore.org/ontology/AgentResponsibleForTheMereAvailability> a owl:Class ;
     rdfs:label "Agent responsible for the mere availability"@en ,
+        "Agente responsable de la disponibilidad simple"@es ,
         "Agent responsable de la mise à disposition privée"@fr ;
     dc:source "FIAF Cataloguing Manual D.8.9"^^xsd:string ;
     rdfs:subClassOf fiaf:ManifestationActivity .
 
 <https://fiafcore.org/ontology/AgentUnclearOrUndetermined> a owl:Class ;
     rdfs:label "Agent unclear or undetermined"@en ,
+        "Agente incierto o indeterminado"@es ,
         "Agent non défini avec certitude ou indéterminé"@fr ;
     dc:source "FIAF Cataloguing Manual D.8.10"^^xsd:string ;
     rdfs:subClassOf fiaf:ManifestationActivity .
 
 <https://fiafcore.org/ontology/AgentNotIdentified> a owl:Class ;
     rdfs:label "Agent not identified"@en ,
+        "Agente no identificado"@es ,
         "Agent non identifié"@fr ;
     dc:source "FIAF Cataloguing Manual D.8.11"^^xsd:string ;
     rdfs:subClassOf fiaf:ManifestationActivity .
