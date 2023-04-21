@@ -36,6 +36,7 @@
 
 <https://fiafcore.org/ontology/hasBitDepth> a owl:ObjectProperty ;
     rdfs:label "Has Bit Depth"@en ;
+    rdfs:label "Tiene profundidad de bits"@es ;
     rdfs:label "A une Profondeur de bit"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.20"^^xsd:string ;
     rdfs:domain fiaf:Stream ;
@@ -43,6 +44,7 @@
 
 <https://fiafcore.org/ontology/hasCodec> a owl:ObjectProperty ;
     rdfs:label "Has Codec"@en ;
+    rdfs:label "Tiene códec"@es ;
     rdfs:label "A un Codec"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.16, 3.1.5.17"^^xsd:string ;
     rdfs:domain fiaf:Stream ;
