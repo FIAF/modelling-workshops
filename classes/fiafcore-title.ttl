@@ -123,6 +123,7 @@
 
 <https://fiafcore.org/ontology/hasTitleValue> a owl:DatatypeProperty ;
   rdfs:label "Has Title Value"@en ;
+  rdfs:label "Tiene valor de título"@es ;
   rdfs:label "A une Valeur de Titre"@fr ;
   dc:source "FIAF Cataloguing Manual 1.3.2, 2.3.2, 3.1.2"^^xsd:string ;
   rdfs:domain fiaf:Title ;
