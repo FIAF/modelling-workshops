@@ -145,8 +145,16 @@ jobs:
           
           for x in entities:
             uri = str(x).replace('https://fiafcore.org/ontology/','')
-            if len(uri) < 5 or len(uri) > 50:
+            if len(uri) > 15:
               print(uri, len(uri))
+              
+            for a in ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']:
+              uri = uri.replace(a, '').replace(a.upper(), '')
+              if len(uri):
+                print(x, uri)
+              
+              
+
 
 # legacy readme generator
 
