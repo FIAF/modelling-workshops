@@ -7014,6 +7014,7 @@ fiaf:hasColourCharacteristic a owl:ObjectProperty ;
 
 fiaf:hasColourStandard a owl:ObjectProperty ;
     rdfs:label "Has Colour Standard"@en,
+        "Tiene un Estándar de Color"@es,
         "A un Procédé couleur"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.4.4"^^xsd:string ;
     rdfs:domain fiaf:ColourCharacteristic ;
