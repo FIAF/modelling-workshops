@@ -39,7 +39,7 @@
 
 <https://fiafcore.org/ontology/hasColourCharacteristic> a owl:ObjectProperty ;
     rdfs:label "Has Colour Characteristic"@en ;
-    rdfs:label "Tiene la Característica del Color"@es ;
+    rdfs:label "Tiene una característica de color"@es ;
     rdfs:label "A une Caractéristique de couleur"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.6"^^xsd:string ;
     rdfs:domain fiaf:Item ;
@@ -55,7 +55,7 @@
 
 <https://fiafcore.org/ontology/hasEvent> a owl:ObjectProperty ;
     rdfs:label "Has Event"@en ;
-    rdfs:label "Tiene Evento"@es ;
+    rdfs:label "Tiene un Evento"@es ;
     rdfs:label "A un Évènement"@fr ;
     dc:source "FIAF Cataloguing Manual 3.3.2"^^xsd:string ;
     rdfs:domain fiaf:Item ;
@@ -63,7 +63,7 @@
     
 <https://fiafcore.org/ontology/hasExtent> a owl:ObjectProperty ;
     rdfs:label "Has Extent"@en ;
-    rdfs:label "Tiene Extensión"@es ;
+    rdfs:label "Tiene una Extensión"@es ;
     rdfs:label "A une Étendue"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.8"^^xsd:string ;
     rdfs:domain fiaf:Item ;
@@ -71,7 +71,7 @@
     
 <https://fiafcore.org/ontology/hasFormat> a owl:ObjectProperty ;
     rdfs:label "Has Format"@en ;
-    rdfs:label "Tiene Format"@es ;
+    rdfs:label "Tiene un Formato"@es ;
     rdfs:label "A un Format"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5"^^xsd:string ;
     rdfs:domain fiaf:Item ;
@@ -95,7 +95,7 @@
 
 <https://fiafcore.org/ontology/hasIdentifier> a owl:ObjectProperty ;
     rdfs:label "Has Identifier"@en ;
-    rdfs:label "Tiene Identificador"@es ;
+    rdfs:label "Tiene un Identificador"@es ;
     rdfs:label "A un Identifiant"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.1"^^xsd:string ;
     rdfs:domain fiaf:Item ;
@@ -103,7 +103,7 @@
     
 <https://fiafcore.org/ontology/hasImageCharacteristic> a owl:ObjectProperty ;
     rdfs:label "Has Image Characteristic"@en ;
-    rdfs:label "Tiene característica de imagen"@es ;
+    rdfs:label "Tiene una característica de imagen"@es ;
     rdfs:label "A une Caractéristique d'image"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.9"^^xsd:string ;
     rdfs:domain fiaf:Item ;
@@ -127,7 +127,7 @@
     
 <https://fiafcore.org/ontology/hasSoundCharacteristic> a owl:ObjectProperty ;
     rdfs:label "Has Sound Characteristic"@en ;
-    rdfs:label "Tiene Características de sonido"@es ;
+    rdfs:label "Tiene características de sonido"@es ;
     rdfs:label "A une Caractéristique de son"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.3"^^xsd:string ;
     rdfs:domain fiaf:Item ;
