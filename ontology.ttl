@@ -7147,6 +7147,7 @@ fiaf:hasIdentifier a owl:ObjectProperty ;
 
 fiaf:hasIdentifierValue a owl:DatatypeProperty ;
     rdfs:label "Has Identifier Value"@en,
+        "Tiene valor de identificador"@es,
         "A une Valeur de Identifiant"@fr ;
     dc:source "FIAF Cataloguing Manual 1.3.1, 2.3.1, 3.1.1"^^xsd:string ;
     rdfs:domain fiaf:Identifier ;
