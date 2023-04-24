@@ -116,6 +116,35 @@ jobs:
             tr = [label_langauge(x, l) for x in entities]
             tr = len([x for x in tr if x != None])
             print(f'{tr} of {len(entities)} entities with {l} translated label: {round((tr/len(entities))*100, 2)}%')
+            
+            # if you are feeling bold about this you could raise an exception when 100% coverage is not found.
+
+    - name: multilingual coverage
+      uses: jannekem/run-python-script-action@v1
+      if: github.event_name == 'push' 
+      with:
+        script: |
+          
+          # import libraries
+          
+          import pathlib
+          import rdflib
+          
+          # load ontology    
+       
+          graph = rdflib.Graph()
+          graph.parse(pathlib.Path.cwd() / 'ontology.ttl')
+          
+          # collect all entities
+          
+          entities = [s for s,p,o in graph.triples((None, rdflib.RDF.type, rdflib.OWL.Class))]
+          entities += [s for s,p,o in graph.triples((None, rdflib.RDF.type, rdflib.OWL.ObjectProperty))]
+          entities += [s for s,p,o in graph.triples((None, rdflib.RDF.type, rdflib.OWL.DatatypeProperty))]
+
+          # length of entity name
+          
+          for x in entities:
+            print(x, len(x))
 
 # legacy readme generator
 
