@@ -138,6 +138,7 @@
 
 <https://fiafcore.org/ontology/hasExtentValue> a owl:DatatypeProperty ;
   rdfs:label "Has Extent Value"@en ;
+  rdfs:label "Tiene valor de extensión"@es ;
   rdfs:label "A une Valeur de Étendue"@fr ;
   dc:source "FIAF Cataloguing Manual 2.3.5, 3.1.5.8"^^xsd:string ;
   rdfs:domain fiaf:Extent ;
