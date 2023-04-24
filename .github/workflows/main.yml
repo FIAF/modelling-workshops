@@ -119,7 +119,7 @@ jobs:
             
             # if you are feeling bold about this you could raise an exception when 100% coverage is not found.
 
-    - name: multilingual coverage
+    - name: uri checking
       uses: jannekem/run-python-script-action@v1
       if: github.event_name == 'push' 
       with:
@@ -144,7 +144,9 @@ jobs:
           # length of entity name
           
           for x in entities:
-            print(x, len(x))
+            uri = str(x).replace('https://fiafcore.org/ontology/','')
+            if len(uri) < 5 or len(uri) > 50:
+              print(uri, len(uri))
 
 # legacy readme generator
 
