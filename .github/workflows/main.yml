@@ -145,13 +145,19 @@ jobs:
           
           for x in entities:
             uri = str(x).replace('https://fiafcore.org/ontology/','')
-            if len(uri) > 15:
-              print(uri, len(uri))
-              
+            if len(uri) > 20:
+              print('long URI', uri, len(uri))
+          
+          # unusual characters
+          
+          for x in entities:
+            uri = str(x).replace('https://fiafcore.org/ontology/','')
             for a in ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']:
               uri = uri.replace(a, '').replace(a.upper(), '')
+            for n in ['1','2','3','4','5','6','7','8','9','0']:
+              uri = uri.replace(n, '')
             if len(uri):
-              print(x, uri)
+              print('unusual URI', x, list(uri))
               
               
 
