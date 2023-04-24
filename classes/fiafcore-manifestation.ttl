@@ -112,7 +112,7 @@
 
 <https://fiafcore.org/ontology/hasFormat> a owl:ObjectProperty ;
     rdfs:label "Has Format"@en ;
-    rdfs:label "Tiene un formato"@es ;
+    rdfs:label "Tiene un Formato"@es ;
     rdfs:label "A un Format"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.4"^^xsd:string ;
     rdfs:domain fiaf:Manifestation ;
