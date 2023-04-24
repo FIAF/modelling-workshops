@@ -7004,7 +7004,6 @@ fiaf:hasCodec a owl:ObjectProperty ;
 
 fiaf:hasColourCharacteristic a owl:ObjectProperty ;
     rdfs:label "Has Colour Characteristic"@en,
-        "Tiene la Característica del Color"@es,
         "Tiene una característica de color"@es,
         "A une Caractéristique de couleur"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.5"^^xsd:string,
@@ -7046,7 +7045,6 @@ fiaf:hasDecisionID a owl:DatatypeProperty ;
 
 fiaf:hasEvent a owl:ObjectProperty ;
     rdfs:label "Has Event"@en,
-        "Tiene Evento"@es,
         "Tiene un Evento"@es,
         "A un Évènement"@fr ;
     dc:source "FIAF Cataloguing Manual 1.4.2"^^xsd:string,
@@ -7076,7 +7074,6 @@ fiaf:hasEventLocation a owl:ObjectProperty ;
 
 fiaf:hasExtent a owl:ObjectProperty ;
     rdfs:label "Has Extent"@en,
-        "Tiene Extensión"@es,
         "Tiene una Extensión"@es,
         "A une Étendue"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.5"^^xsd:string,
@@ -7102,7 +7099,7 @@ fiaf:hasForm a owl:ObjectProperty ;
 
 fiaf:hasFormat a owl:ObjectProperty ;
     rdfs:label "Has Format"@en,
-        "Tiene Format"@es,
+        "Tiene un Formato"@es,
         "Tiene un formato"@es,
         "A un Format"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.4"^^xsd:string,
@@ -7137,7 +7134,6 @@ fiaf:hasHoldingInstitution a owl:ObjectProperty ;
 
 fiaf:hasIdentifier a owl:ObjectProperty ;
     rdfs:label "Has Identifier"@en,
-        "Tiene Identificador"@es,
         "Tiene un Identificador"@es,
         "A un Identifiant"@fr ;
     dc:source "FIAF Cataloguing Manual 1.3.1"^^xsd:string,
@@ -7157,7 +7153,6 @@ fiaf:hasIdentifierValue a owl:DatatypeProperty ;
 
 fiaf:hasImageCharacteristic a owl:ObjectProperty ;
     rdfs:label "Has Image Characteristic"@en,
-        "Tiene característica de imagen"@es,
         "Tiene una característica de imagen"@es,
         "A une Caractéristique d'image"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.5"^^xsd:string,
@@ -7216,7 +7211,6 @@ fiaf:hasResolution a owl:ObjectProperty ;
 
 fiaf:hasSoundCharacteristic a owl:ObjectProperty ;
     rdfs:label "Has Sound Characteristic"@en,
-        "Tiene Características de sonido"@es,
         "Tiene características de sonido"@es,
         "A une Caractéristique de son"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.5"^^xsd:string,
