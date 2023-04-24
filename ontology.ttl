@@ -7101,7 +7101,6 @@ fiaf:hasForm a owl:ObjectProperty ;
 fiaf:hasFormat a owl:ObjectProperty ;
     rdfs:label "Has Format"@en,
         "Tiene un Formato"@es,
-        "Tiene un formato"@es,
         "A un Format"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.4"^^xsd:string,
         "FIAF Cataloguing Manual 3.1.5"^^xsd:string ;
