@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oai:OAI-PMH xmlns:oai="http://www.openarchives.org/OAI/2.0/"
+    xmlns:efg="https://www.europeanfilmgateway.eu/">
+    <oai:responseDate>2023-04-19T18:40:52Z</oai:responseDate>
+    <oai:request verb="ListRecords" metadataPrefix="efg" set="bnfa">
+https://dnet-prod.efg.d4science.org/efg/mvc/oai/oai.do
+    </oai:request>
+    <oai:ListRecords>
+        <oai:record>
+            <oai:header>
+                <oai:identifier>oai:edm:bnfa::fb42eaac771f7e597ff27a7aa5d9835f</oai:identifier>
+                <oai:datestamp>2020-10-16T13:23:28Z</oai:datestamp>
+                <oai:setSpec>BNFA</oai:setSpec>
+                <oai:setSpec>bnfa</oai:setSpec>
+            </oai:header>
+            <oai:metadata>
+                <efg:efgEntity>
+                    <efg:avcreation>
+                        <efg:avManifestation>
+                            <efg:identifier scheme="CP_CATEGORY_ID">BNFA_avManifestation_MFN2747</efg:identifier>
+                            <efg:recordSource>
+                                <efg:sourceID>MFN2747</efg:sourceID>
+                                <efg:provider schemeID="Institution acronym" id="BNFA">Bulgarian National Film Archive</efg:provider>
+                            </efg:recordSource>
+                            <efg:title lang="bg">
+                                <efg:geographicScope/>
+                                <efg:text>О, ДОБРУДЖАНСКИ КРАЙ</efg:text>
+                                <efg:relation>Original title</efg:relation>
+                            </efg:title>
+                            <efg:thumbnail>https://i.vimeocdn.com/video/974636590.jpg</efg:thumbnail>
+                            <efg:format>
+                                <efg:gauge>35 mm</efg:gauge>
+                                <efg:colour hasColor="false">Black &amp; White</efg:colour>
+                                <efg:sound hasSound="true">With sound</efg:sound>
+                            </efg:format>
+                            <efg:rightsHolder URL="www.bnf.bg">Bulgarian National Film Archive</efg:rightsHolder>
+                            <efg:rightsStatus>In Copyright - Educational Use Permitted</efg:rightsStatus>
+                            <efg:duration>00:08:36</efg:duration>
+                            <efg:item>
+                                <efg:identifier scheme="CP_CATEGORY_ID">BNFA_item_z91ZjIrEqsNfqkF95pwCWg</efg:identifier>
+                                <efg:provider>Bulgarian National Film Archive</efg:provider>
+                                <efg:type>Video</efg:type>
+                            </efg:item>
+                        </efg:avManifestation>
+                        <efg:identifier scheme="CP_CATEGORY_ID">BNFA_avCreation_MFN2747</efg:identifier>
+                        <efg:recordSource>
+                            <efg:sourceID>MFN2747</efg:sourceID>
+                            <efg:provider schemeID="Institution acronym" id="BNFA">Bulgarian National Film Archive</efg:provider>
+                        </efg:recordSource>
+                        <efg:countryOfReference>BG</efg:countryOfReference>
+                        <efg:title lang="bg">
+                            <efg:geographicScope/>
+                            <efg:text>О, ДОБРУДЖАНСКИ КРАЙ</efg:text>
+                            <efg:relation>Original title</efg:relation>
+                        </efg:title>
+                        <efg:title lang="EN">
+                            <efg:geographicScope/>
+                            <efg:text>THE REGION OF DOBRUDZHA</efg:text>
+                            <efg:relation>Translated title</efg:relation>
+                        </efg:title>
+                        <efg:description type="Synopsis" lang="bg">
+Кавалерийски части преминават през добруджанско село, хора с цветя, поздравяват войниците, даряват ги, ученически строй, арка покрита с цветя,портрети на цар Борис III, Симеон и Мария-Луиза.; моторизирани части. Войници сред хората. Военни кораби в морето, оръдие, матроси с пушки, крайбрежна ивица, ПНР на Балчик. Хора с лодки пресрещат корабите; военен оркестър, моряци с цветя; спусканена котва; контраадмирал Асен Тошев слиза на брега, ръкува се с посрещачите. Влизанена кавалерийски части в града, хора по улиците хвърлят цветя към войниците,поздравяват генерал Георги Попов – губернатор на Добруджа. Кметството на Балчик. Генералът държи реч. Военен оркестър. Бойно знаме.
+                        </efg:description>
+                        <efg:description type="Synopsis" lang="EN">
+Cavalry units pass through Dobrudzha village, people carrying flowers greet the soldiers. Portraits of Tsar Boris III, Simeon, and Maria-Louisa. Soldiers among people. Battleships at sea, cannon, sailors with rifles, coastline, view of Balchik. People in boats intercept the ships; military band, sailors with flowers; lowering of anchor; Rear admiral Asen Toshev steps on the shore, shakes hands with the people gathered on the shore. Cavalry units enter the city, people in the streets throw flowers at the soldiers, they greet Gen. Georgi Popov - Governer of Dobrudzha. Town hall of Balchik. The General speaks. Miilitary band. Battle flag.
+                        </efg:description>
+                        <efg:keywords type="Subject" lang="bg">
+                            <efg:term>България, войници</efg:term>
+                        </efg:keywords>
+                        <efg:keywords type="Subject" lang="bg">
+                            <efg:term>армия</efg:term>
+                        </efg:keywords>
+                        <efg:keywords type="Subject" lang="bg">
+                            <efg:term>Добруджа</efg:term>
+                        </efg:keywords>
+                        <efg:keywords type="Subject" lang="bg">
+                            <efg:term>Балчик</efg:term>
+                        </efg:keywords>
+                        <efg:keywords type="Place" lang="EN">
+                            <efg:term>Bulgaria</efg:term>
+                        </efg:keywords>
+                        <efg:keywords type="Subject" lang="EN">
+                            <efg:term>soldiers</efg:term>
+                        </efg:keywords>
+                        <efg:keywords type="Subject" lang="EN">
+                            <efg:term>army</efg:term>
+                        </efg:keywords>
+                        <efg:keywords type="Subject" lang="EN">
+                            <efg:term>navy</efg:term>
+                        </efg:keywords>
+                        <efg:keywords type="Subject" lang="EN">
+                            <efg:term>Dobrudzha</efg:term>
+                        </efg:keywords>
+                        <efg:keywords type="Subject" lang="EN">
+                            <efg:term>Balchik</efg:term>
+                        </efg:keywords>
+                        <efg:keywords type="Form" lang="EN">
+                            <efg:term>Documentary film</efg:term>
+                        </efg:keywords>
+                        <efg:productionYear>1940</efg:productionYear>
+                        <efg:relPerson>
+                            <efg:identifier scheme="CP_CATEGORY_ID">BNFA_person_8d4920f9acc3673afed6c2fa34495a90</efg:identifier>
+                            <efg:name>Bakardzhiev, Vasil</efg:name>
+                            <efg:type>Director</efg:type>
+                        </efg:relPerson>
+                        <efg:relCollection>
+                            <efg:identifier scheme="CP_CATEGORY_ID">BNFA_collection_331b3c2fd0aee7d5eaa099234f827848</efg:identifier>
+                            <efg:title>Pre-Socialist Cinema</efg:title>
+                            <efg:type>is part of</efg:type>
+                        </efg:relCollection>
+                    </efg:avcreation>
+                </efg:efgEntity>
+            </oai:metadata>
+        </oai:record>
+        <oai:record>
+            <oai:header>
+                <oai:identifier>oai:edm:bnfa::39bc1687683a6d21103b407a4ae78314</oai:identifier>
+                <oai:datestamp>2020-10-16T13:23:28Z</oai:datestamp>
+                <oai:setSpec>BNFA</oai:setSpec>
+                <oai:setSpec>bnfa</oai:setSpec>
+            </oai:header>
+            <oai:metadata>
+                <efg:efgEntity>
+                    <efg:avcreation>
+                        <efg:avManifestation>
+                            <efg:identifier scheme="CP_CATEGORY_ID">BNFA_avManifestation_MFN2753</efg:identifier>
+                            <efg:recordSource>
+                                <efg:sourceID>MFN2753</efg:sourceID>
+                                <efg:provider schemeID="Institution acronym" id="BNFA">Bulgarian National Film Archive</efg:provider>
+                            </efg:recordSource>
+                            <efg:title lang="bg">
+                                <efg:geographicScope/>
+                                <efg:text>ИЗБОР НА ЦАРИЦА НА ЛЪЖЕНСКИЯ ПЛАЖ</efg:text>
+                                <efg:relation>Original title</efg:relation>
+                            </efg:title>
+                            <efg:thumbnail>https://i.vimeocdn.com/video/974586012.jpg</efg:thumbnail>
+                            <efg:format>
+                                <efg:gauge>35 mm</efg:gauge>
+                                <efg:colour hasColor="false">Black &amp; White</efg:colour>
+                                <efg:sound hasSound="true">With sound</efg:sound>
+                            </efg:format>
+                            <efg:dimension unit="m">177</efg:dimension>
+                            <efg:rightsHolder URL="www.bnf.bg">Bulgarian National Film Archive</efg:rightsHolder>
+                            <efg:rightsStatus>In Copyright - Educational Use Permitted</efg:rightsStatus>
+                            <efg:duration>00:06:10</efg:duration>
+                            <efg:item>
+                                <efg:identifier scheme="CP_CATEGORY_ID">BNFA_item_s37ITPuSPwnwsGVkOnjowg</efg:identifier>
+                                <efg:provider>Bulgarian National Film Archive</efg:provider>
+                                <efg:type>Video</efg:type>
+                            </efg:item>
+                        </efg:avManifestation>
+                        <efg:identifier scheme="CP_CATEGORY_ID">BNFA_avCreation_MFN2753</efg:identifier>
+                        <efg:recordSource>
+                            <efg:sourceID>MFN2753</efg:sourceID>
+                            <efg:provider schemeID="Institution acronym" id="BNFA">Bulgarian National Film Archive</efg:provider>
+                        </efg:recordSource>
+                        <efg:countryOfReference>BG</efg:countryOfReference>
+                        <efg:title lang="bg">
+                            <efg:geographicScope/>
+                            <efg:text>ИЗБОР НА ЦАРИЦА НА ЛЪЖЕНСКИЯ ПЛАЖ</efg:text>
+                            <efg:relation>Original title</efg:relation>
+                        </efg:title>
+                        <efg:title lang="EN">
+                            <efg:geographicScope/>
+                            <efg:text>QUEEN OF THE BEACH CONTEST AT THE LUJENE BEACH</efg:text>
+                            <efg:relation>Translated title</efg:relation>
+                        </efg:title>
+                        <efg:description type="Synopsis" lang="bg">
+Снимки от Лъдженския плаж (днес Велинград). Музикално оформление с немски шлагери- Преминаване на кандидатките. Скокове от кула. За царица е избрана Мария Русева от Пловдив. За най-красиво дете е избрана Светла Пешева от София.
+                        </efg:description>
+                        <efg:description type="Synopsis" lang="EN">
+The beach at Ladzhene (Velingrad). Reviewing the contestors. High diving. The winner in the ,,Queen of the Beach'' contest is Maria Rousseva from Plovdiv.
+                        </efg:description>
+                        <efg:keywords type="Subject" lang="bg">
+                            <efg:term>България</efg:term>
+                        </efg:keywords>
+                        <efg:keywords type="Subject" lang="bg">
+                            <efg:term>плаж, басейн</efg:term>
+                        </efg:keywords>
+                        <efg:keywords type="Subject" lang="bg">
+                            <efg:term>конкурс за красота</efg:term>
+                        </efg:keywords>
+                        <efg:keywords type="Place" lang="EN">
+                            <efg:term>Bulgaria</efg:term>
+                        </efg:keywords>
+                        <efg:keywords type="Subject" lang="EN">
+                            <efg:term>beach</efg:term>
+                        </efg:keywords>
+                        <efg:keywords type="Subject" lang="EN">
+                            <efg:term>pool</efg:term>
+                        </efg:keywords>
+                        <efg:keywords type="Subject" lang="EN">
+                            <efg:term>beauty padgent</efg:term>
+                        </efg:keywords>
+                        <efg:keywords type="Form" lang="EN">
+                            <efg:term>Documentary film</efg:term>
+                        </efg:keywords>
+                        <efg:productionYear>1940</efg:productionYear>
+                        <efg:relPerson>
+                            <efg:identifier scheme="CP_CATEGORY_ID">BNFA_person_16fd19ae42bb22f73eef6129f7537804</efg:identifier>
+                            <efg:name>Totev, Spas</efg:name>
+                            <efg:type>Director of photography</efg:type>
+                        </efg:relPerson>
+                        <efg:relCollection>
+                            <efg:identifier scheme="CP_CATEGORY_ID">BNFA_collection_331b3c2fd0aee7d5eaa099234f827848</efg:identifier>
+                            <efg:title>Pre-Socialist Cinema</efg:title>
+                            <efg:type>is part of</efg:type>
+                        </efg:relCollection>
+                    </efg:avcreation>
+                </efg:efgEntity>
+            </oai:metadata>
+        </oai:record>
+</oai:ListRecords>
+</oai:OAI-PMH>
