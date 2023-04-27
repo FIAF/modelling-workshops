@@ -1,0 +1,138 @@
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix oai: <http://www.openarchives.org/OAI/2.0/>.
+@prefix efg: <http://www.europeanfilmgateway.eu/efg/> .
+@prefix fiaf: <https://fiafcore.org/ontology/> .
+@prefix : <http://example.org/rules/> .
+
+
+#Work
+:works a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "xxx/BNFA.xml";
+    rml:referenceFormulation ql:XPath;
+    rml:iterator "/oai:OAI-PMH/oai:ListRecords/oai:record/oai:metadata/efg:efgEntity"
+  ].
+
+:works rr:subjectMap [
+  rr:template "http://example.org/BNFA/{efg:avcreation/efg:identifier}"
+].
+
+:works rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [ rr:constant fiaf:WorkVariant ]],
+  [
+  rr:predicate rdfs:label;
+  rr:objectMap [ rml:reference "efg:avcreation/efg:title/efg:text" ]],
+  [
+  rr:predicate fiaf:hasIdentifier;
+  rr:objectMap [ rr:parentTriplesMap :WorkIdentifier ]],
+  [
+  rr:predicate fiaf:hasTitle;
+  rr:objectMap [ rr:termType rr:BlankNode; rr:parentTriplesMap :WorkTitle ]],
+  [
+  rr:predicate fiaf:hasEvent;
+  rr:objectMap [ rr:termType rr:BlankNode; rr:parentTriplesMap :WorkEvent ]],
+  [
+  rr:predicate fiaf:hasCountry;
+  rr:objectMap [ rr:template "https://example.org/EFG/Country/{efg:avcreation/efg:countryOfReference}" ]], #conditional Mapping needed to reference to Geonames etc.
+  [
+  rr:predicate fiaf:hasManifestation;
+  rr:objectMap [ rr:template "http://example.org/BNFA/{efg:avcreation/efg:avManifestation/efg:identifier}" ]
+].
+
+#WorkTitle
+:WorkTitle a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "xxx/BNFA.xml";
+    rml:referenceFormulation ql:XPath;
+    rml:iterator "/oai:OAI-PMH/oai:ListRecords/oai:record/oai:metadata/efg:efgEntity/efg:avcreation/efg:title"
+  ].
+
+  :WorkTitle rr:subjectMap [ 
+    rr:termType rr:BlankNode; 
+    rr:class fiaf:Title; #conditional Mapping needed to make the class dependent on the value in title/type
+    ].
+  
+  :WorkTitle rr:predicateObjectMap [
+    rr:predicate <https://fiafcore.org/ontology/hasTitleValue> ;
+    rr:objectMap [ rml:reference "./efg:text"; rml:languageMap [rml:reference "lower-case(./@lang)"] ]
+].
+
+#WorkIdentifier
+:WorkIdentifier a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "xxx/EFG/BNFA.xml";
+    rml:referenceFormulation ql:XPath;
+    rml:iterator "/oai:OAI-PMH/oai:ListRecords/oai:record/oai:metadata/efg:efgEntity/efg:avcreation"
+  ].
+
+  :WorkIdentifier rr:subjectMap [ 
+    rr:termType rr:BlankNode; 
+    rr:class fiaf:Identifier; 
+    ].
+  
+  :WorkIdentifier rr:predicateObjectMap [
+    rr:predicate <https://fiafcore.org/ontology/hasIdentifierValue> ;
+    rr:objectMap [ rml:reference "efg:recordSource/efg:sourceID" ]
+].
+
+#WorkProductionEvent
+:WorkEvent a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source "xxx/BNFA.xml";
+    rml:referenceFormulation ql:XPath;
+    rml:iterator "/oai:OAI-PMH/oai:ListRecords/oai:record/oai:metadata/efg:efgEntity/efg:avcreation"
+  ].
+
+  :WorkEvent rr:subjectMap [ 
+    rr:termType rr:BlankNode; 
+    rr:class fiaf:ProductionEvent; 
+    ].
+  
+  :WorkEvent rr:predicateObjectMap [
+    rr:predicate <https://fiafcore.org/ontology/hasEventDate> ;
+    rr:objectMap [ rml:reference "efg:productionYear" ]
+],
+ #[
+   # rr:predicate <https://fiafcore.org/ontology/hasActivity> ;
+   # rr:objectMap [ rr:termType rr:BlankNode; rr:parentTriplesMap :WorkActivity ]
+#].
+[
+    rr:predicate <https://fiafcore.org/ontology/hasActivity> ;
+    rr:objectMap [ rr:termType rr:BlankNode; ]
+].
+
+#WorkActivity
+#:WorkActivity a rr:TriplesMap;
+  #rml:logicalSource [
+    #rml:source "xxx/BNFA.xml";
+    #rml:referenceFormulation ql:XPath;
+    #rml:iterator "/oai:OAI-PMH/oai:ListRecords/oai:record/oai:metadata/efg:efgEntity"
+  #].
+
+ #:WorkActivity rr:subjectMap [ 
+  #  rml:template "http://example.org/BNFA/activity/{efg:avcreation/efg:relPerson/efg:type}"; #function to collapse whitspaces needed; actually, this would need to be a blank node
+   # rr:class fiaf:Activity; #conditional Mapping needed to make the class dependent on the value in relPerson/type
+    #].
+  
+ #:WorkActivity rr:predicateObjectMap [
+  #  rr:predicate <https://fiafcore.org/ontology/hasAgent> ;
+   # rr:objectMap [ rml:template "http://example.org/BNFA/{efg:avcreation/efg:relPerson/efg:identifier}" ]
+#].
+
+#Agents
+#:Agent a rr:TriplesMap;
+ # rml:logicalSource [
+  #  rml:source "xxx/BNFA.xml";
+   # rml:referenceFormulation ql:XPath;
+    #rml:iterator "/oai:OAI-PMH/oai:ListRecords/oai:record/oai:metadata/efg:efgEntity/efg:avcreation/efg:relPerson"
+#].
+
+#:Agent rr:subjectMap [ 
+ #   rml:template "http://example.org/BNFA/{efg:identifier}"; 
+  #  rr:class fiaf:Person
+#].
