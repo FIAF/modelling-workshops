@@ -1,0 +1,22 @@
+@prefix fiaf: <https://fiafcore.org/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.org/BNFA/BNFA_avCreation_MFN2747> a fiaf:WorkVariant ;
+    rdfs:label "О, ДОБРУДЖАНСКИ КРАЙ"@bg ;
+    fiaf:hasCountry <fiaf:Bulgaria> ;
+    fiaf:hasIdentifier [ a fiaf:Identifier ;
+            fiaf:hasIdentifierValue "MFN2747" ] ;
+    fiaf:hasTitle [ a fiaf:PreferredTitle ;
+            fiaf:hasTitleValue "О, ДОБРУДЖАНСКИ КРАЙ"@bg ],
+        [ a fiaf:TranslatedTitle ;
+            fiaf:hasTitleValue "THE REGION OF DOBRUDZHA"@en ] .
+
+<http://example.org/BNFA/BNFA_avCreation_MFN2753> a fiaf:WorkVariant ;
+    rdfs:label "ИЗБОР НА ЦАРИЦА НА ЛЪЖЕНСКИЯ ПЛАЖ"@bg ;
+    fiaf:hasCountry <fiaf:Bulgaria> ;
+    fiaf:hasIdentifier [ a fiaf:Identifier ;
+            fiaf:hasIdentifierValue "MFN2753" ] ;
+    fiaf:hasTitle [ a fiaf:PreferredTitle ;
+            fiaf:hasTitleValue "ИЗБОР НА ЦАРИЦА НА ЛЪЖЕНСКИЯ ПЛАЖ"@bg ],
+        [ a fiaf:TranslatedTitle ;
+            fiaf:hasTitleValue "QUEEN OF THE BEACH CONTEST AT THE LUJENE BEACH"@en ] .
