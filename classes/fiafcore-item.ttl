@@ -33,7 +33,7 @@
 <https://fiafcore.org/ontology/hasCarrier> a owl:ObjectProperty ;
     rdfs:label "Has Carrier"@en ;
     rdfs:label "Tiene Portador"@es ;
-    rdfs:label "A un Conteneur"@fr ;
+    rdfs:label "A un Article"@fr ;
     rdfs:domain fiaf:Item ;
     rdfs:range fiaf:Carrier .
 
