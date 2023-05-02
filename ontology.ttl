@@ -6990,7 +6990,7 @@ fiaf:hasBroadcastStandard a owl:ObjectProperty ;
 fiaf:hasCarrier a owl:ObjectProperty ;
     rdfs:label "Has Carrier"@en,
         "Tiene Portador"@es,
-        "A un Conteneur"@fr ;
+        "A un Article"@fr ;
     rdfs:domain fiaf:Item ;
     rdfs:range fiaf:Carrier .
 
