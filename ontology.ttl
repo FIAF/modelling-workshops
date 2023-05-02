@@ -7387,6 +7387,12 @@ fiaf:InspectionEvent a owl:Class ;
     dc:source "FIAF Cataloguing Manual D.4.8"^^xsd:string ;
     rdfs:subClassOf fiaf:Event .
 
+fiaf:Location a owl:Class ;
+    rdfs:label "Location"@en,
+        "Ubicación"@es,
+        "Location"@fr ;
+    dc:source "FIAF Cataloguing Manual D.4.1"^^xsd:string .
+
 fiaf:PuppetActivity a owl:Class ;
     rdfs:label "Puppet Activity"@en,
         "Actividad de marionetas"@es,
