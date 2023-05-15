@@ -1,0 +1,77 @@
+@prefix fiaf: <https://fiafcore.org/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.org/EFG/BNFA_avCreation_MFN2747> a fiaf:WorkVariant ;
+    rdfs:label "О, ДОБРУДЖАНСКИ КРАЙ"@bg ;
+    fiaf:hasCountry <http://example.org/EFG/country/BG> ;
+    fiaf:hasEvent [ a fiaf:ProductionEvent ;
+            fiaf:hasActivity [ a fiaf:ProductionCompany ;
+                    fiaf:hasAgent <http://example.org/EFG/BNFA_corporate_d7eb00dd7e80fe205ad9259852f9d4b8> ],
+                [ a fiaf:Director ;
+                    fiaf:hasAgent <http://example.org/EFG/BNFA_person_8d4920f9acc3673afed6c2fa34495a90> ] ;
+            fiaf:hasEventDate "1940" ] ;
+    fiaf:hasIdentifier [ a fiaf:Identifier ;
+            fiaf:hasIdentifierValue "MFN2747" ] ;
+    fiaf:hasManifestation <http://example.org/EFG/BNFA_avManifestation_MFN2747> ;
+    fiaf:hasTitle [ a fiaf:PreferredTitle ;
+            fiaf:hasTitleValue "О, ДОБРУДЖАНСКИ КРАЙ"@bg ],
+        [ a fiaf:TranslatedTitle ;
+            fiaf:hasTitleValue "THE REGION OF DOBRUDZHA"@en ] ;
+    fiaf:hasform <http://example.org/EFG/form/Documentaryfilm> .
+
+<http://example.org/EFG/BNFA_avCreation_MFN2753> a fiaf:WorkVariant ;
+    rdfs:label "ИЗБОР НА ЦАРИЦА НА ЛЪЖЕНСКИЯ ПЛАЖ"@bg ;
+    fiaf:hasCountry <http://example.org/EFG/country/BG> ;
+    fiaf:hasEvent [ a fiaf:ProductionEvent ;
+            fiaf:hasActivity [ a fiaf:CinematographyActivity ;
+                    fiaf:hasAgent <http://example.org/EFG/BNFA_person_16fd19ae42bb22f73eef6129f7537804> ] ;
+            fiaf:hasEventDate "1940" ] ;
+    fiaf:hasIdentifier [ a fiaf:Identifier ;
+            fiaf:hasIdentifierValue "MFN2753" ] ;
+    fiaf:hasManifestation <http://example.org/EFG/BNFA_avManifestation_MFN2753> ;
+    fiaf:hasTitle [ a fiaf:PreferredTitle ;
+            fiaf:hasTitleValue "ИЗБОР НА ЦАРИЦА НА ЛЪЖЕНСКИЯ ПЛАЖ"@bg ],
+        [ a fiaf:TranslatedTitle ;
+            fiaf:hasTitleValue "QUEEN OF THE BEACH CONTEST AT THE LUJENE BEACH"@en ] ;
+    fiaf:hasform <http://example.org/EFG/form/Documentaryfilm> .
+
+<http://example.org/EFG/BNFA_avManifestation_MFN2747> a fiaf:Manifestation ;
+    fiaf:hasColourCharacteristic fiaf:BlackAndWhite ;
+    fiaf:hasExtent [ a fiaf:Minutes ;
+            fiaf:hasExtentValue "00:08:36" ] ;
+    fiaf:hasFormat fiaf:35mmFilm ;
+    fiaf:hasIdentifier [ a fiaf:Identifier ;
+            fiaf:hasIdentifierValue "MFN2747" ] ;
+    fiaf:hasItem <http://example.org/EFG/BNFA_item_z91ZjIrEqsNfqkF95pwCWg> ;
+    fiaf:hasLanguageUsage [ a fiaf:DialogueLanguages ;
+            fiaf:hasLanguage <http://example.org/EFG/language/bg> ],
+        [ a fiaf:Intertitles ;
+            fiaf:hasLanguage <http://example.org/EFG/language/bg> ] ;
+    fiaf:hasSoundCharacteristic fiaf:Sound ;
+    fiaf:hasTitle [ a fiaf:PreferredTitle ;
+            fiaf:hasTitleValue "О, ДОБРУДЖАНСКИ КРАЙ"@bg ] .
+
+<http://example.org/EFG/BNFA_avManifestation_MFN2753> a fiaf:Manifestation ;
+    fiaf:hasColourCharacteristic fiaf:BlackAndWhite ;
+    fiaf:hasExtent [ a fiaf:Minutes ;
+            fiaf:hasExtentValue "00:06:10" ] ;
+    fiaf:hasFormat fiaf:35mmFilm ;
+    fiaf:hasIdentifier [ a fiaf:Identifier ;
+            fiaf:hasIdentifierValue "MFN2753" ] ;
+    fiaf:hasItem <http://example.org/EFG/BNFA_item_s37ITPuSPwnwsGVkOnjowg> ;
+    fiaf:hasSoundCharacteristic fiaf:Sound ;
+    fiaf:hasTitle [ a fiaf:PreferredTitle ;
+            fiaf:hasTitleValue "ИЗБОР НА ЦАРИЦА НА ЛЪЖЕНСКИЯ ПЛАЖ"@bg ] .
+
+<http://example.org/EFG/BNFA_corporate_d7eb00dd7e80fe205ad9259852f9d4b8> a fiaf:CorporateBody ;
+    rdfs:label "Gendov Film" .
+
+<http://example.org/EFG/BNFA_item_s37ITPuSPwnwsGVkOnjowg> a fiaf:Item .
+
+<http://example.org/EFG/BNFA_item_z91ZjIrEqsNfqkF95pwCWg> a fiaf:Item .
+
+<http://example.org/EFG/BNFA_person_16fd19ae42bb22f73eef6129f7537804> a fiaf:Person ;
+    rdfs:label "Totev, Spas" .
+
+<http://example.org/EFG/BNFA_person_8d4920f9acc3673afed6c2fa34495a90> a fiaf:Person ;
+    rdfs:label "Bakardzhiev, Vasil" .
