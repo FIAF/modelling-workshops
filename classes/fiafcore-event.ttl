@@ -12,14 +12,45 @@
     rdfs:label "Événement"@fr ;
     dc:source "FIAF Cataloguing Manual 1.4.2, 2.4.2, 3.3.2"^^xsd:string .
 
+# Parent relations
+
+<https://fiafcore.org/ontology/hasEvent> a owl:ObjectProperty ;
+    rdfs:label "Has Event"@en ;
+    rdfs:label "Tiene un Evento"@es ;
+    rdfs:label "A un Évènement"@fr ;
+    dc:source "FIAF Cataloguing Manual 1.4.2, 2.4.2, 3.3.2"^^xsd:string ;
+    rdfs:domain [
+        owl:unionOf (fiaf:Carrier fiaf:Item fiaf:Manifestation fiaf:WorkVariant)
+    ] ;
+    rdfs:range fiaf:Event .
+
+_:isEventOf owl:inverseOf fiaf:hasEvent .
+
 # Subclasses
+
+<https://fiafcore.org/ontology/ItemEvent> a owl:Restriction ;
+    dc:source "FIAF Cataloguing Manual 3.3.2"^^xsd:string ;
+    owl:onProperty _:isEventOf ;
+    owl:someValuesFrom fiaf:Item .
+
+<https://fiafcore.org/ontology/ManifestationEvent> a owl:Restriction ;
+    dc:source "FIAF Cataloguing Manual 2.4.2"^^xsd:string ;
+    owl:onProperty _:isEventOf ;
+    owl:someValuesFrom fiaf:Manifestation .
+
+<https://fiafcore.org/ontology/WorkVariantEvent> a owl:Restriction ;
+    dc:source "FIAF Cataloguing Manual 1.4.2"^^xsd:string ;
+    owl:onProperty _:isEventOf ;
+    owl:someValuesFrom fiaf:WorkVariant .
 
 <https://fiafcore.org/ontology/PublicationEvent> a owl:Class ;
     rdfs:label "Publication Event"@en ;
     rdfs:label "Publicación Evento"@es ;
     rdfs:label "Publication Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.1"^^xsd:string ;
-    rdfs:subClassOf fiaf:Event .
+    rdfs:subClassOf [
+        owl:unionOf (fiaf:ManifestationEvent fiaf:WorkVariantEvent)
+    ] .
 
 <https://fiafcore.org/ontology/ReleaseEvent> a owl:Class ;
     rdfs:label "Release Event"@en ;
@@ -96,14 +127,18 @@
     rdfs:label "Premio(s) o Nominación(es) Evento"@es ;
     rdfs:label "Récompense(s) ou nomination(s)"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.2"^^xsd:string ;
-    rdfs:subClassOf fiaf:Event .
+    rdfs:subClassOf [
+        owl:unionOf (fiaf:ManifestationEvent fiaf:WorkVariantEvent)
+    ] .
 
 <https://fiafcore.org/ontology/ProductionEvent> a owl:Class ;
     rdfs:label "Production Event"@en ;
     rdfs:label "Producción Evento"@es ;
     rdfs:label "Production Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.3"^^xsd:string ;
-    rdfs:subClassOf fiaf:Event .
+    rdfs:subClassOf [
+        owl:unionOf (fiaf:ManifestationEvent fiaf:WorkVariantEvent)
+    ] .
 
 <https://fiafcore.org/ontology/CastingEvent> a owl:Class ;
     rdfs:label "Casting Event"@en ;
@@ -138,7 +173,7 @@
     rdfs:label "Derechos/Copyright/Registro de Propiedad Intelectual Evento"@es ;
     rdfs:label "Droits/Copyright/Déclaration DPI Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.4"^^xsd:string ;
-    rdfs:subClassOf fiaf:Event .
+    rdfs:subClassOf fiaf:WorkVariantEvent .
 
 <https://fiafcore.org/ontology/PreservationEvent> a owl:Class ;
     rdfs:label "Preservation Event"@en ;
@@ -180,7 +215,7 @@
     rdfs:label "Decisión Evento"@es ;
     rdfs:label "Décision Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.6"^^xsd:string ;
-    rdfs:subClassOf fiaf:Event .
+    rdfs:subClassOf fiaf:ManifestationEvent .
 
 <https://fiafcore.org/ontology/CensorshipEvent> a owl:Class ;
     rdfs:label "Censorship Event"@en ;
@@ -208,7 +243,7 @@
     rdfs:label "Manufactura Evento"@es ;
     rdfs:label "Fabrication Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.7"^^xsd:string ;
-    rdfs:subClassOf fiaf:Event .
+    rdfs:subClassOf fiaf:ManifestationEvent .
     
 <https://fiafcore.org/ontology/FilmPrintingEvent> a owl:Class ;
     rdfs:label "Film Printing Event"@en ;
@@ -257,14 +292,14 @@
     rdfs:label "Inspección Evento"@es ;
     rdfs:label "Contrôle Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.8"^^xsd:string ;
-    rdfs:subClassOf fiaf:Event .
+    rdfs:subClassOf fiaf:ItemEvent .
 
 <https://fiafcore.org/ontology/AcquisitionEvent> a owl:Class ;
     rdfs:label "Acquisition Event"@en ;
     rdfs:label "Adquisición Evento"@es ;
     rdfs:label "Acquisition Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.9"^^xsd:string ;
-    rdfs:subClassOf fiaf:Event .
+    rdfs:subClassOf fiaf:ItemEvent .
 
 <https://fiafcore.org/ontology/DonationEvent> a owl:Class ;
     rdfs:label "Donation Event"@en ;
