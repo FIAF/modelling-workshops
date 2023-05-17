@@ -178,7 +178,7 @@ jobs:
           print(class_ttl)
           
           for c in class_ttl:
-            graph = rdflib.Graph(parse=c)
+            graph = rdflib.Graph(data=c)
             print(c, len(graph))
 
 # legacy readme generator
