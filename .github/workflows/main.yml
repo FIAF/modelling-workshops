@@ -178,28 +178,21 @@ jobs:
           class_path = pathlib.Path.cwd() / 'classes'
           class_ttl = [x for x in class_path.iterdir() if x.suffix == '.ttl']
           
-          print(class_ttl)
-          
-          entity_dict = dict()
-          
+          # compile dictionary of entities
+
+          entity_dict = dict()          
           for c in class_ttl:
             graph = rdflib.Graph().parse(c)
-            
-            
             entities = pydash.uniq([s for s,p,o in graph.triples((None, None, None))])
             entity_dict[c.stem] = pydash.uniq([s for s,p,o in graph.triples((None, None, None))])
           
+          # find overlapping definitions
+          
           all_entities = pydash.uniq(pydash.flatten([v for v in entity_dict.values()]))
           for x in all_entities:
-            print(x)
-            
-            test = [y for y in entity_dict.keys() if x in entity_dict[y]]
-            print(x, test)
-            
-            #represented = [x for x in entity_dict if e in x.values()]
-            #print(represented)
-            print('\n')
-
+            r = [y for y in entity_dict.keys() if x in entity_dict[y]]
+            if len(r) > 1:
+              print(x, r)
 
 # legacy readme generator
 
