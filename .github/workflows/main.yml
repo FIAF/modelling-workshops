@@ -193,11 +193,9 @@ jobs:
           for x in all_entities:
             print(x)
             
-            for y in entity_dict.keys():
-              print(y)
-              if x in entity_dict[y]:
-                print('HALLO')
-              
+            test = [y for y in entity_dict.keys() if x in entity_dict[y]]
+            print(x, test)
+            
             #represented = [x for x in entity_dict if e in x.values()]
             #print(represented)
             print('\n')
