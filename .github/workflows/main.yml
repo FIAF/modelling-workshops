@@ -159,8 +159,20 @@ jobs:
             if len(uri):
               print('unusual URI', x, list(uri))
               
-              
-
+    - name: entity overlap
+      uses: jannekem/run-python-script-action@v1
+#       if: github.event_name == 'push' 
+      with:
+        script: |
+          
+          # import libraries
+          
+          import pathlib
+          import rdflib
+          
+          # ontology fragments
+          
+          print(pathlib.Path.cwd())
 
 # legacy readme generator
 
