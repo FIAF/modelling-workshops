@@ -176,6 +176,10 @@ jobs:
           class_ttl = [x for x in class_path.iterdir() if x.suffix == '.ttl']
           
           print(class_ttl)
+          
+          for c in class_ttl:
+            graph = rdflib.Graph(parse=c)
+            print(c, len(graph))
 
 # legacy readme generator
 
