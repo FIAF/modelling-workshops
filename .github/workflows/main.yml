@@ -192,8 +192,8 @@ jobs:
           all_entities = pydash.uniq(pydash.flatten([v for v in entity_dict.values()]))
           for e in all_entities:
             print(e)
-            represented = [x for x in entity_dict if e in x.values()]
-            print(represented)
+            #represented = [x for x in entity_dict if e in x.values()]
+            #print(represented)
             print('\n')
 
 
