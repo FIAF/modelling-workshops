@@ -190,8 +190,11 @@ jobs:
             entity_dict[c.stem] = pydash.uniq([s for s,p,o in graph.triples((None, None, None))])
           
           all_entities = pydash.uniq(pydash.flatten([v for v in entity_dict.values()]))
-          for e in all_entities:
-            print(e)
+          for x in all_entities:
+            print(x)
+            
+            for y in entity_dict.keys():
+              print(y)
             #represented = [x for x in entity_dict if e in x.values()]
             #print(represented)
             print('\n')
