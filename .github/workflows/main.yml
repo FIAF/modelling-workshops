@@ -172,7 +172,10 @@ jobs:
           
           # ontology fragments
           
-          print(pathlib.Path.cwd())
+          class_path = pathlib.Path.cwd() / 'classes'
+          class_ttl = [x for x in class_path.iterdir() if x.suffix == '.ttl']
+          
+          print(class_ttl)
 
 # legacy readme generator
 
