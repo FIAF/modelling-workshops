@@ -168,6 +168,7 @@ jobs:
           # import libraries
           
           import pathlib
+          import pydash
           import rdflib
           
           # ontology fragments
@@ -179,7 +180,11 @@ jobs:
           
           for c in class_ttl:
             graph = rdflib.Graph().parse(c)
-            print(c, len(graph))
+            
+            
+            entities = pydash.uniq([s for s,p,o in graph.triples((None, None, None))])
+            
+            print(c, len(graph), len(entities))
 
 # legacy readme generator
 
