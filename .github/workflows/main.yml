@@ -180,13 +180,18 @@ jobs:
           
           print(class_ttl)
           
+          entity_dict = dict()
+          
           for c in class_ttl:
             graph = rdflib.Graph().parse(c)
             
             
             entities = pydash.uniq([s for s,p,o in graph.triples((None, None, None))])
-            
-            print(c, len(graph), len(entities))
+            entity_dict[c.stem] = pydash.uniq([s for s,p,o in graph.triples((None, None, None))])
+            all_entities = pydash.uniq([v for v in entity_dict.values()])
+            for e in all_entities:
+              print(e)
+
 
 # legacy readme generator
 
