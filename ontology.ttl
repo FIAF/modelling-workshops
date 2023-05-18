@@ -7047,8 +7047,7 @@ fiaf:hasEvent a owl:ObjectProperty ;
     rdfs:label "Has Event"@en,
         "Tiene un Evento"@es,
         "A un Évènement"@fr ;
-    dc:source "FIAF Cataloguing Manual 1.4.2, 2.4.2, 3.3.2"^^xsd:string,
-        "FIAF Cataloguing Manual 2.4.2"^^xsd:string ;
+    dc:source "FIAF Cataloguing Manual 1.4.2, 2.4.2, 3.3.2"^^xsd:string ;
     rdfs:domain fiaf:Carrier,
         fiaf:Item,
         fiaf:Manifestation,
@@ -7133,8 +7132,7 @@ fiaf:hasIdentifier a owl:ObjectProperty ;
     rdfs:label "Has Identifier"@en,
         "Tiene un Identificador"@es,
         "A un Identifiant"@fr ;
-    dc:source "FIAF Cataloguing Manual 1.3.1, 2.3.1, 3.1.1"^^xsd:string,
-        "FIAF Cataloguing Manual 2.3.1"^^xsd:string ;
+    dc:source "FIAF Cataloguing Manual 1.3.1, 2.3.1, 3.1.1"^^xsd:string ;
     rdfs:domain fiaf:Item,
         fiaf:Manifestation,
         fiaf:WorkVariant ;
@@ -7290,8 +7288,7 @@ fiaf:hasTitle a owl:ObjectProperty ;
     rdfs:label "Has Title"@en,
         "Tiene un Título"@es,
         "A un Titre"@fr ;
-    dc:source "FIAF Cataloguing Manual 1.3.2, 2.3.2.1, 3.1.2"^^xsd:string,
-        "FIAF Cataloguing Manual 2.3.2.1"^^xsd:string ;
+    dc:source "FIAF Cataloguing Manual 1.3.2, 2.3.2.1, 3.1.2"^^xsd:string ;
     rdfs:domain fiaf:Item,
         fiaf:Manifestation,
         fiaf:WorkVariant ;
