@@ -65,16 +65,16 @@
     rdfs:label "Has Extent"@en ;
     rdfs:label "Tiene una Extensión"@es ;
     rdfs:label "A une Étendue"@fr ;
-    dc:source "FIAF Cataloguing Manual 3.1.5.8"^^xsd:string ;
-    rdfs:domain fiaf:Item ;
+    dc:source "FIAF Cataloguing Manual 2.3.5, 3.1.5.8"^^xsd:string ;
+    rdfs:domain fiaf:Item, fiaf:Manifestation ;
     rdfs:range fiaf:Extent .
     
 <https://fiafcore.org/ontology/hasFormat> a owl:ObjectProperty ;
     rdfs:label "Has Format"@en ;
     rdfs:label "Tiene un Formato"@es ;
     rdfs:label "A un Format"@fr ;
-    dc:source "FIAF Cataloguing Manual 3.1.5"^^xsd:string ;
-    rdfs:domain fiaf:Item ;
+    dc:source "FIAF Cataloguing Manual 2.3.4, 3.1.5"^^xsd:string ;
+    rdfs:domain fiaf:Item, fiaf:Manifestation ;
     rdfs:range fiaf:Format .
     
 <https://fiafcore.org/ontology/hasFrameRate> a owl:ObjectProperty ;
