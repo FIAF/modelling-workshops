@@ -86,22 +86,6 @@
 
 # Object Properties
 
-<https://fiafcore.org/ontology/hasEvent> a owl:ObjectProperty ;
-    rdfs:label "Has Event"@en ;
-    rdfs:label "Tiene un Evento"@es ;
-    rdfs:label "A un Évènement"@fr ;
-    dc:source "FIAF Cataloguing Manual 2.4.2"^^xsd:string ;
-    rdfs:domain fiaf:Manifestation ;
-    rdfs:range fiaf:Event .
-
-<https://fiafcore.org/ontology/hasIdentifier> a owl:ObjectProperty ;
-    rdfs:label "Has Identifier"@en ;
-    rdfs:label "Tiene un Identificador"@es ;
-    rdfs:label "A un Identifiant"@fr ;
-    dc:source "FIAF Cataloguing Manual 2.3.1"^^xsd:string ;
-    rdfs:domain fiaf:Manifestation ;
-    rdfs:range fiaf:Identifier .
-
 <https://fiafcore.org/ontology/hasItem> a owl:ObjectProperty ;
     rdfs:label "Has Item"@en ;
     rdfs:label "Tiene un Item"@es ;
@@ -117,11 +101,3 @@
     dc:source "FIAF Cataloguing Manual 2.3.3.2"^^xsd:string ;
     rdfs:domain fiaf:Manifestation ;
     rdfs:range fiaf:LanguageUsage .
-
-<https://fiafcore.org/ontology/hasTitle> a owl:ObjectProperty ;
-    rdfs:label "Has Title"@en ;
-    rdfs:label "Tiene un Título"@es ;
-    rdfs:label "A un Titre"@fr ;
-    dc:source "FIAF Cataloguing Manual 2.3.2.1"^^xsd:string ;
-    rdfs:domain fiaf:Manifestation ;
-    rdfs:range fiaf:Title .
