@@ -7076,8 +7076,7 @@ fiaf:hasExtent a owl:ObjectProperty ;
     rdfs:label "Has Extent"@en,
         "Tiene una Extensión"@es,
         "A une Étendue"@fr ;
-    dc:source "FIAF Cataloguing Manual 2.3.5"^^xsd:string,
-        "FIAF Cataloguing Manual 2.3.5, 3.1.5.8"^^xsd:string ;
+    dc:source "FIAF Cataloguing Manual 2.3.5, 3.1.5.8"^^xsd:string ;
     rdfs:domain fiaf:Item,
         fiaf:Manifestation ;
     rdfs:range fiaf:Extent .
@@ -7102,8 +7101,7 @@ fiaf:hasFormat a owl:ObjectProperty ;
     rdfs:label "Has Format"@en,
         "Tiene un Formato"@es,
         "A un Format"@fr ;
-    dc:source "FIAF Cataloguing Manual 2.3.4"^^xsd:string,
-        "FIAF Cataloguing Manual 2.3.4, 3.1.5"^^xsd:string ;
+    dc:source "FIAF Cataloguing Manual 2.3.4, 3.1.5"^^xsd:string ;
     rdfs:domain fiaf:Item,
         fiaf:Manifestation ;
     rdfs:range fiaf:Format .
