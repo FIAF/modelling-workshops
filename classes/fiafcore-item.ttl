@@ -41,8 +41,8 @@
     rdfs:label "Has Colour Characteristic"@en ;
     rdfs:label "Tiene una característica de color"@es ;
     rdfs:label "A une Caractéristique de couleur"@fr ;
-    dc:source "FIAF Cataloguing Manual 3.1.5.6"^^xsd:string ;
-    rdfs:domain fiaf:Item ;
+    dc:source "FIAF Cataloguing Manual 2.3.4.4, 3.1.5.6"^^xsd:string ;
+    rdfs:domain fiaf:Item, fiaf:Manifestation ;
     rdfs:range fiaf:ColourCharacteristic .
 
 <https://fiafcore.org/ontology/isElement> a owl:ObjectProperty ;
@@ -105,8 +105,8 @@
     rdfs:label "Has Image Characteristic"@en ;
     rdfs:label "Tiene una característica de imagen"@es ;
     rdfs:label "A une Caractéristique d'image"@fr ;
-    dc:source "FIAF Cataloguing Manual 3.1.5.9"^^xsd:string ;
-    rdfs:domain fiaf:Item ;
+    dc:source "FIAF Cataloguing Manual 2.3.4.2, 3.1.5.9"^^xsd:string ;
+    rdfs:domain fiaf:Item, fiaf:Manifestation ;
     rdfs:range fiaf:ImageCharacteristic .
     
 <https://fiafcore.org/ontology/hasLineStandard> a owl:ObjectProperty ;
@@ -129,8 +129,8 @@
     rdfs:label "Has Sound Characteristic"@en ;
     rdfs:label "Tiene características de sonido"@es ;
     rdfs:label "A une Caractéristique de son"@fr ;
-    dc:source "FIAF Cataloguing Manual 3.1.5.3"^^xsd:string ;
-    rdfs:domain fiaf:Item ;
+    dc:source "FIAF Cataloguing Manual 2.3.4.3, 3.1.5.3"^^xsd:string ;
+    rdfs:domain fiaf:Item, fiaf:Manifestation ;
     rdfs:range fiaf:SoundCharacteristic .
 
 <https://fiafcore.org/ontology/hasSourceDevice> a owl:ObjectProperty ;
