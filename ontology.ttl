@@ -7008,8 +7008,7 @@ fiaf:hasColourCharacteristic a owl:ObjectProperty ;
         "Tiene una característica de color"@es,
         "A une Caractéristique de couleur"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.4.4, 3.1.5.6"^^xsd:string ;
-    rdfs:domain fiaf:Item,
-        fiaf:Manifestation ;
+    rdfs:domain [ owl:unionOf ( fiaf:Manifestation fiaf:Item ) ] ;
     rdfs:range fiaf:ColourCharacteristic .
 
 fiaf:hasColourStandard a owl:ObjectProperty ;
@@ -7073,8 +7072,7 @@ fiaf:hasExtent a owl:ObjectProperty ;
         "Tiene una Extensión"@es,
         "A une Étendue"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.5, 3.1.5.8"^^xsd:string ;
-    rdfs:domain fiaf:Item,
-        fiaf:Manifestation ;
+    rdfs:domain [ owl:unionOf ( fiaf:Manifestation fiaf:Item ) ] ;
     rdfs:range fiaf:Extent .
 
 fiaf:hasExtentValue a owl:DatatypeProperty ;
@@ -7098,8 +7096,7 @@ fiaf:hasFormat a owl:ObjectProperty ;
         "Tiene un Formato"@es,
         "A un Format"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.4, 3.1.5"^^xsd:string ;
-    rdfs:domain fiaf:Item,
-        fiaf:Manifestation ;
+    rdfs:domain [ owl:unionOf ( fiaf:Manifestation fiaf:Item ) ] ;
     rdfs:range fiaf:Format .
 
 fiaf:hasFrameRate a owl:ObjectProperty ;
@@ -7147,8 +7144,7 @@ fiaf:hasImageCharacteristic a owl:ObjectProperty ;
         "Tiene una característica de imagen"@es,
         "A une Caractéristique d'image"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.4.2, 3.1.5.9"^^xsd:string ;
-    rdfs:domain fiaf:Item,
-        fiaf:Manifestation ;
+    rdfs:domain [ owl:unionOf ( fiaf:Manifestation fiaf:Item ) ] ;
     rdfs:range fiaf:ImageCharacteristic .
 
 fiaf:hasItem a owl:ObjectProperty ;
@@ -7204,8 +7200,7 @@ fiaf:hasSoundCharacteristic a owl:ObjectProperty ;
         "Tiene características de sonido"@es,
         "A une Caractéristique de son"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.4.3, 3.1.5.3"^^xsd:string ;
-    rdfs:domain fiaf:Item,
-        fiaf:Manifestation ;
+    rdfs:domain [ owl:unionOf ( fiaf:Manifestation fiaf:Item ) ] ;
     rdfs:range fiaf:SoundCharacteristic .
 
 fiaf:hasSoundFixation a owl:ObjectProperty ;
