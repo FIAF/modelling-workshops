@@ -56,8 +56,8 @@
     rdfs:label "Has Event"@en ;
     rdfs:label "Tiene un Evento"@es ;
     rdfs:label "A un Évènement"@fr ;
-    dc:source "FIAF Cataloguing Manual 1.4.2"^^xsd:string ;
-    rdfs:domain fiaf:WorkVariant ;
+    dc:source "FIAF Cataloguing Manual 1.4.2, 2.4.2, 3.3.2"^^xsd:string ;
+    rdfs:domain fiaf:WorkVariant, fiaf:Manifestation, fiaf:Item, fiaf:Carrier ;
     rdfs:range fiaf:Event .
 
 <https://fiafcore.org/ontology/hasGenre> a owl:ObjectProperty ;
@@ -80,8 +80,8 @@
     rdfs:label "Has Identifier"@en ;     
     rdfs:label "Tiene un Identificador"@es ;
     rdfs:label "A un Identifiant"@fr ;
-    dc:source "FIAF Cataloguing Manual 1.3.1"^^xsd:string ;
-    rdfs:domain fiaf:WorkVariant ;
+    dc:source "FIAF Cataloguing Manual 1.3.1, 2.3.1, 3.1.1"^^xsd:string ;
+    rdfs:domain fiaf:WorkVariant, fiaf:Manifestation, fiaf:Item ;
     rdfs:range fiaf:Identifier .
 
 <https://fiafcore.org/ontology/hasManifestation> a owl:ObjectProperty ;
@@ -104,8 +104,8 @@
     rdfs:label "Has Title"@en ;
     rdfs:label "Tiene un Título"@es ;
     rdfs:label "A un Titre"@fr ;
-    dc:source "FIAF Cataloguing Manual 1.3.2"^^xsd:string ;
-    rdfs:domain fiaf:WorkVariant ;
+    dc:source "FIAF Cataloguing Manual 1.3.2, 2.3.2.1, 3.1.2"^^xsd:string ;
+    rdfs:domain fiaf:WorkVariant, fiaf:Manifestation, fiaf:Item ;
     rdfs:range fiaf:Title .
 
 <https://fiafcore.org/ontology/hasVariantType> a owl:ObjectProperty ;
