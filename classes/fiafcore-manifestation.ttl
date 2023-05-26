@@ -10,7 +10,8 @@
     rdfs:label "Manifestation"@en ;
     rdfs:label "Manifestación"@es ;
     rdfs:label "Manifestation"@fr ;
-    dc:source "FIAF Cataloguing Manual 2.0"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual 2.0"^^xsd:string ;
+    owl:disjointWith fiaf:WorkVariant .
 
 # Subclasses
 
