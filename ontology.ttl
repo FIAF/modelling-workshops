@@ -2028,7 +2028,8 @@ fiaf:Distributor a owl:Class ;
         "Distribuidor"@es,
         "Distributeur"@fr ;
     dc:source "FIAF Glossary of Filmographic Terms C.2.3"^^xsd:string ;
-    rdfs:subClassOf fiaf:CopyrightandDistributionActivity .
+    rdfs:subClassOf fiaf:CopyrightandDistributionActivity,
+        fiaf:ManifestationActivity .
 
 fiaf:DistributorNonTheatrical a owl:Class ;
     rdfs:label "Distributor (non-theatrical)"@en,
@@ -3281,6 +3282,11 @@ fiaf:Italy a owl:Class ;
     dc:source "ISO 3166-1"^^xsd:string ;
     rdfs:subClassOf fiaf:Country .
 
+fiaf:ItemActivity a owl:Restriction ;
+    dc:source "FIAF Cataloguing Manual 3.3.1.1"^^xsd:string ;
+    owl:allValuesFrom fiaf:ItemEvent ;
+    owl:onProperty _:n3cbc6fd3e9d549a8a3a063fdfef340f8b1 .
+
 fiaf:JPEG2000 a owl:Class ;
     rdfs:label "JPEG2000"@en,
         "JPEG2000"@es,
@@ -4282,7 +4288,8 @@ fiaf:NationalDistributor a owl:Class ;
         "Distribuidor nacional"@es,
         "Distributeur national"@fr ;
     dc:source "FIAF Glossary of Filmographic Terms C.2.6"^^xsd:string ;
-    rdfs:subClassOf fiaf:CopyrightandDistributionActivity .
+    rdfs:subClassOf fiaf:CopyrightandDistributionActivity,
+        fiaf:ManifestationActivity .
 
 fiaf:NationalFilmAndSoundArchive a owl:NamedIndividual,
         fiaf:CorporateBody ;
@@ -4638,14 +4645,16 @@ fiaf:OriginalCopyrightOwner a owl:Class ;
         "Propietario original del derecho de autor"@es,
         "Ayant droit d'origine"@fr ;
     dc:source "FIAF Glossary of Filmographic Terms C.2.1"^^xsd:string ;
-    rdfs:subClassOf fiaf:CopyrightandDistributionActivity .
+    rdfs:subClassOf fiaf:CopyrightandDistributionActivity,
+        fiaf:WorkVariantActivity .
 
 fiaf:OriginalDistributor a owl:Class ;
     rdfs:label "Original Distributor"@en,
         "Distribuidor original"@es,
         "Distributeur initial"@fr ;
     dc:source "FIAF Glossary of Filmographic Terms C.2.4"^^xsd:string ;
-    rdfs:subClassOf fiaf:CopyrightandDistributionActivity .
+    rdfs:subClassOf fiaf:CopyrightandDistributionActivity,
+        fiaf:ManifestationActivity .
 
 fiaf:OriginalNegative a owl:Class ;
     rdfs:label "Original negative"@en,
@@ -4932,7 +4941,8 @@ fiaf:PresentCopyrightOwner a owl:Class ;
         "Propietario actual del derecho de autor"@es,
         "Ayant droit actuel"@fr ;
     dc:source "FIAF Glossary of Filmographic Terms C.2.2"^^xsd:string ;
-    rdfs:subClassOf fiaf:CopyrightandDistributionActivity .
+    rdfs:subClassOf fiaf:CopyrightandDistributionActivity,
+        fiaf:WorkVariantActivity .
 
 fiaf:Presenter a owl:Class ;
     rdfs:label "Presenter"@en,
@@ -5198,7 +5208,7 @@ fiaf:RightsCopyrightRegistrationEvent a owl:Class ;
         "Derechos/Copyright/Registro de Propiedad Intelectual Evento"@es,
         "Droits/Copyright/Déclaration DPI Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.4"^^xsd:string ;
-    rdfs:subClassOf fiaf:Event .
+    rdfs:subClassOf fiaf:WorkVariantEvent .
 
 fiaf:Roll a owl:Class ;
     rdfs:label "Roll"@en,
@@ -6940,14 +6950,6 @@ fiaf:hasAchievement a owl:DatatypeProperty ;
     rdfs:domain fiaf:AwardsOrNominationsEvent ;
     rdfs:range xsd:string .
 
-fiaf:hasActivity a owl:ObjectProperty ;
-    rdfs:label "Has Activity"@en,
-        "Tiene Actividad"@es,
-        "A une Activité"@fr ;
-    dc:source "FIAF Cataloguing Manual 1.4.1.1, 2.4.1.1, 3.3.1.1"^^xsd:string ;
-    rdfs:domain fiaf:Event ;
-    rdfs:range fiaf:Activity .
-
 fiaf:hasAgent a owl:ObjectProperty ;
     rdfs:label "Has Agent"@en,
         "Tiene un Agente"@es,
@@ -7042,14 +7044,6 @@ fiaf:hasDecisionID a owl:DatatypeProperty ;
     dc:source "FIAF Cataloguing Manual D.4.6"^^xsd:string ;
     rdfs:domain fiaf:DecisionEvent ;
     rdfs:range xsd:string .
-
-fiaf:hasEvent a owl:ObjectProperty ;
-    rdfs:label "Has Event"@en,
-        "Tiene un Evento"@es,
-        "A un Évènement"@fr ;
-    dc:source "FIAF Cataloguing Manual 1.4.2, 2.4.2, 3.3.2"^^xsd:string ;
-    rdfs:domain [ owl:unionOf ( fiaf:WorkVariant fiaf:Manifestation fiaf:Item fiaf:Carrier ) ] ;
-    rdfs:range fiaf:Event .
 
 fiaf:hasEventDate a owl:DatatypeProperty ;
     rdfs:label "Has Event Date"@en,
@@ -7356,14 +7350,14 @@ fiaf:CensorshipActivity a owl:Class ;
         "Actividad de censura y calificación"@es,
         "Activité de censure "@fr ;
     dc:source "FIAF Glossary of Filmographic Terms C.1"^^xsd:string ;
-    rdfs:subClassOf fiaf:Activity .
+    rdfs:subClassOf fiaf:WorkVariantActivity .
 
 fiaf:InspectionEvent a owl:Class ;
     rdfs:label "Inspection Event"@en,
         "Inspección Evento"@es,
         "Contrôle Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.8"^^xsd:string ;
-    rdfs:subClassOf fiaf:Event .
+    rdfs:subClassOf fiaf:ItemEvent .
 
 fiaf:Location a owl:Class ;
     rdfs:label "Location"@en,
@@ -7376,7 +7370,29 @@ fiaf:PuppetActivity a owl:Class ;
         "Actividad de marionetas"@es,
         "Activité de marionnettes"@fr ;
     dc:source "FIAF Glossary of Filmographic Terms B.14"^^xsd:string ;
-    rdfs:subClassOf fiaf:Activity .
+    rdfs:subClassOf fiaf:WorkVariantActivity .
+
+fiaf:hasActivity a owl:ObjectProperty ;
+    rdfs:label "Has Activity"@en,
+        "Tiene Actividad"@es,
+        "A une Activité"@fr ;
+    dc:source "FIAF Cataloguing Manual 1.4.1.1, 2.4.1.1, 3.3.1.1"^^xsd:string ;
+    rdfs:domain fiaf:Event ;
+    rdfs:range fiaf:Activity .
+
+fiaf:hasEvent a owl:ObjectProperty ;
+    rdfs:label "Has Event"@en,
+        "Tiene un Evento"@es,
+        "A un Évènement"@fr ;
+    dc:source "FIAF Cataloguing Manual 1.4.2, 2.4.2, 3.3.2"^^xsd:string ;
+    rdfs:domain [ owl:unionOf ( fiaf:Carrier fiaf:Item fiaf:Manifestation fiaf:WorkVariant ) ] ;
+    rdfs:range fiaf:Event .
+
+fiaf:Activity a owl:Class ;
+    rdfs:label "Activity"@en,
+        "Actividad"@es,
+        "Activité"@fr ;
+    dc:source "FIAF Cataloguing Manual 1.4.1.1"^^xsd:string .
 
 fiaf:Carrier a owl:Class ;
     rdfs:label "Carrier"@en,
@@ -7388,7 +7404,7 @@ fiaf:EditingActivity a owl:Class ;
         "Actividad de montaje"@es,
         "Activité de montage"@fr ;
     dc:source "FIAF Glossary of Filmographic Terms B.10"^^xsd:string ;
-    rdfs:subClassOf fiaf:Activity .
+    rdfs:subClassOf fiaf:WorkVariantActivity .
 
 fiaf:SourceSoftware a owl:Class ;
     rdfs:label "Source Software"@en,
@@ -7401,7 +7417,7 @@ fiaf:AwardsOrNominationsEvent a owl:Class ;
         "Premio(s) o Nominación(es) Evento"@es,
         "Récompense(s) ou nomination(s)"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.2"^^xsd:string ;
-    rdfs:subClassOf fiaf:Event .
+    rdfs:subClassOf [ owl:unionOf ( fiaf:ManifestationEvent fiaf:WorkVariantEvent ) ] .
 
 fiaf:Decomposition a owl:Class ;
     rdfs:label "Decomposition"@en,
@@ -7415,6 +7431,11 @@ fiaf:ImageCharacteristic a owl:Class ;
         "Características de la imagen"@es,
         "Caractéristiques d'image"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.4.2, 3.1.5.9"^^xsd:string .
+
+fiaf:ItemEvent a owl:Restriction ;
+    dc:source "FIAF Cataloguing Manual 3.3.2"^^xsd:string ;
+    owl:allValuesFrom fiaf:Item ;
+    owl:onProperty _:ncb7db3dfe977453493348a0d95b3cb7cb6 .
 
 fiaf:Shrinkage a owl:Class ;
     rdfs:label "Shrinkage"@en,
@@ -7448,7 +7469,7 @@ fiaf:LaboratoryActivity a owl:Class ;
         "Actividad de laboratorio"@es,
         "Activité de laboratoire"@fr ;
     dc:source "FIAF Glossary of Filmographic Terms B.12"^^xsd:string ;
-    rdfs:subClassOf fiaf:Activity .
+    rdfs:subClassOf fiaf:WorkVariantActivity .
 
 fiaf:Optical a owl:Class ;
     rdfs:label "Optical"@en,
@@ -7476,7 +7497,7 @@ fiaf:ProductionEvent a owl:Class ;
         "Producción Evento"@es,
         "Production Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.3"^^xsd:string ;
-    rdfs:subClassOf fiaf:Event .
+    rdfs:subClassOf [ owl:unionOf ( fiaf:ManifestationEvent fiaf:WorkVariantEvent ) ] .
 
 fiaf:SourceDevice a owl:Class ;
     rdfs:label "Source Device"@en,
@@ -7489,7 +7510,7 @@ fiaf:AcquisitionEvent a owl:Class ;
         "Adquisición Evento"@es,
         "Acquisition Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.9"^^xsd:string ;
-    rdfs:subClassOf fiaf:Event .
+    rdfs:subClassOf fiaf:ItemEvent .
 
 fiaf:Agent a owl:Class ;
     rdfs:label "Agent"@en,
@@ -7508,7 +7529,7 @@ fiaf:DecisionEvent a owl:Class ;
         "Decisión Evento"@es,
         "Décision Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.6"^^xsd:string ;
-    rdfs:subClassOf fiaf:Event .
+    rdfs:subClassOf fiaf:ManifestationEvent .
 
 fiaf:DigitalFile a owl:Class ;
     rdfs:label "Digital File"@en,
@@ -7516,6 +7537,12 @@ fiaf:DigitalFile a owl:Class ;
         "Fichier numérique"@fr ;
     dc:source "FIAF Cataloguing Manual D.7.2"^^xsd:string ;
     rdfs:subClassOf fiaf:Format .
+
+fiaf:Event a owl:Class ;
+    rdfs:label "Event"@en,
+        "Evento"@es,
+        "Événement"@fr ;
+    dc:source "FIAF Cataloguing Manual 1.4.2, 2.4.2, 3.3.2"^^xsd:string .
 
 fiaf:ImageCondition a owl:Class ;
     rdfs:label "Image Condition"@en,
@@ -7537,6 +7564,11 @@ fiaf:SurfaceDeposit a owl:Class ;
         "Dépôt en surface"@fr ;
     dc:source "FIAF Cataloguing Manual D.16.3"^^xsd:string ;
     rdfs:subClassOf fiaf:Condition .
+
+fiaf:WorkVariantEvent a owl:Restriction ;
+    dc:source "FIAF Cataloguing Manual 1.4.2"^^xsd:string ;
+    owl:allValuesFrom fiaf:WorkVariant ;
+    owl:onProperty _:ncb7db3dfe977453493348a0d95b3cb7cb6 .
 
 fiaf:DigitalFileEncoding a owl:Class ;
     rdfs:label "Digital File Encoding"@en,
@@ -7563,12 +7595,17 @@ fiaf:LineStandard a owl:Class ;
         "Lignes de balayage"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.5.19"^^xsd:string .
 
+fiaf:ManifestationEvent a owl:Restriction ;
+    dc:source "FIAF Cataloguing Manual 2.4.2"^^xsd:string ;
+    owl:allValuesFrom fiaf:Manifestation ;
+    owl:onProperty _:ncb7db3dfe977453493348a0d95b3cb7cb6 .
+
 fiaf:ManufactureEvent a owl:Class ;
     rdfs:label "Manufacture Event"@en,
         "Manufactura Evento"@es,
         "Fabrication Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.7"^^xsd:string ;
-    rdfs:subClassOf fiaf:Event .
+    rdfs:subClassOf fiaf:ManifestationEvent .
 
 fiaf:SoundFixation a owl:Class ;
     rdfs:label "Sound Fixation"@en,
@@ -7613,14 +7650,14 @@ fiaf:CopyrightandDistributionActivity a owl:Class ;
         "Actividad de derecho de autor y distribución"@es,
         "Activité de copyright et distribution"@fr ;
     dc:source "FIAF Glossary of Filmographic Terms C.2"^^xsd:string ;
-    rdfs:subClassOf fiaf:Activity .
+    rdfs:subClassOf [ owl:unionOf ( fiaf:ManifestationActivity fiaf:WorkVariantActivity ) ] .
 
 fiaf:DirectingActivity a owl:Class ;
     rdfs:label "Directing Activity"@en,
         "Actividad de dirección"@es,
         "Activité de réalisation"@fr ;
     dc:source "FIAF Glossary of Filmographic Terms B.3"^^xsd:string ;
-    rdfs:subClassOf fiaf:Activity .
+    rdfs:subClassOf fiaf:WorkVariantActivity .
 
 fiaf:Format a owl:Class ;
     rdfs:label "Format"@en,
@@ -7651,7 +7688,7 @@ fiaf:AnimationActivity a owl:Class ;
         "Actividad de Animación"@es,
         "Activité d'animation"@fr ;
     dc:source "FIAF Glossary of Filmographic Terms B.13"^^xsd:string ;
-    rdfs:subClassOf fiaf:Activity .
+    rdfs:subClassOf fiaf:WorkVariantActivity .
 
 fiaf:Film a owl:Class ;
     rdfs:label "Film"@en,
@@ -7704,14 +7741,14 @@ fiaf:PublicationEvent a owl:Class ;
         "Publicación Evento"@es,
         "Publication Événement"@fr ;
     dc:source "FIAF Cataloguing Manual D.4.1"^^xsd:string ;
-    rdfs:subClassOf fiaf:Event .
+    rdfs:subClassOf [ owl:unionOf ( fiaf:ManifestationEvent fiaf:WorkVariantEvent ) ] .
 
 fiaf:WritingActivity a owl:Class ;
     rdfs:label "Writing Activity"@en,
         "Actividad de texto"@es,
         "Activité d'écriture"@fr ;
     dc:source "FIAF Glossary of Filmographic Terms B.4"^^xsd:string ;
-    rdfs:subClassOf fiaf:Activity .
+    rdfs:subClassOf fiaf:WorkVariantActivity .
 
 fiaf:ColourStandard a owl:Class ;
     rdfs:label "Colour Standard"@en,
@@ -7719,19 +7756,12 @@ fiaf:ColourStandard a owl:Class ;
         "Procédé couleur"@fr ;
     dc:source "FIAF Cataloguing Manual 2.3.4.4"^^xsd:string .
 
-fiaf:ManifestationActivity a owl:Class ;
-    rdfs:label "Manifestation Activity"@en,
-        "Manifestación Actividad"@es,
-        "Activité de manifestation"@fr ;
-    dc:source "FIAF Cataloguing Manual 2.4.1.1"^^xsd:string ;
-    rdfs:subClassOf fiaf:Activity .
-
 fiaf:MusicActivity a owl:Class ;
     rdfs:label "Music Activity"@en,
         "Actividad de música"@es,
         "Activité de musique"@fr ;
     dc:source "FIAF Glossary of Filmographic Terms B.11"^^xsd:string ;
-    rdfs:subClassOf fiaf:Activity .
+    rdfs:subClassOf fiaf:WorkVariantActivity .
 
 fiaf:SoundCharacteristic a owl:Class ;
     rdfs:label "Sound Characteristic"@en,
@@ -7750,27 +7780,21 @@ fiaf:SpecialEffectsActivity a owl:Class ;
         "Actividad de trucajes"@es,
         "Activité de trucages"@fr ;
     dc:source "FIAF Glossary of Filmographic Terms B.8"^^xsd:string ;
-    rdfs:subClassOf fiaf:Activity .
+    rdfs:subClassOf fiaf:WorkVariantActivity .
 
 fiaf:CastActivity a owl:Class ;
     rdfs:label "Cast Activity"@en,
         "Actividad de reparto"@es,
         "Activité d’interprétation"@fr ;
     dc:source "FIAF Glossary of Filmographic Terms B.7"^^xsd:string ;
-    rdfs:subClassOf fiaf:Activity .
-
-fiaf:Event a owl:Class ;
-    rdfs:label "Event"@en,
-        "Evento"@es,
-        "Événement"@fr ;
-    dc:source "FIAF Cataloguing Manual 1.4.2, 2.4.2, 3.3.2"^^xsd:string .
+    rdfs:subClassOf fiaf:WorkVariantActivity .
 
 fiaf:SoundActivity a owl:Class ;
     rdfs:label "Sound Activity"@en,
         "Actividad de sonido"@es,
         "Activité de son"@fr ;
     dc:source "FIAF Glossary of Filmographic Terms B.9"^^xsd:string ;
-    rdfs:subClassOf fiaf:Activity .
+    rdfs:subClassOf fiaf:WorkVariantActivity .
 
 fiaf:Base a owl:Class ;
     rdfs:label "Base"@en,
@@ -7790,17 +7814,24 @@ fiaf:Element a owl:Class ;
         "Nature"@fr ;
     dc:source "FIAF Cataloguing Manual 3.1.4"^^xsd:string .
 
+fiaf:ManifestationActivity a owl:Restriction ;
+    rdfs:label "Manifestation Activity"@en,
+        "Manifestación Actividad"@es,
+        "Activité de manifestation"@fr ;
+    dc:source "FIAF Cataloguing Manual 2.4.1.1"^^xsd:string ;
+    owl:allValuesFrom fiaf:ManifestationEvent ;
+    owl:onProperty _:n3cbc6fd3e9d549a8a3a063fdfef340f8b1 .
+
+fiaf:WorkVariantActivity a owl:Restriction ;
+    dc:source "FIAF Cataloguing Manual 1.4.1.1"^^xsd:string ;
+    owl:allValuesFrom fiaf:WorkVariantEvent ;
+    owl:onProperty _:n3cbc6fd3e9d549a8a3a063fdfef340f8b1 .
+
 fiaf:WorkVariant a owl:Class ;
     rdfs:label "Work/Variant"@en,
         "Obra/Variante"@es,
         "l'Œuvre/la Variante"@fr ;
     dc:source "FIAF Cataloguing Manual 1.0"^^xsd:string .
-
-fiaf:Activity a owl:Class ;
-    rdfs:label "Activity"@en,
-        "Actividad"@es,
-        "Activité"@fr ;
-    dc:source "FIAF Cataloguing Manual 1.4.1.1"^^xsd:string .
 
 fiaf:Extent a owl:Class ;
     rdfs:label "Extent"@en,
@@ -7813,33 +7844,36 @@ fiaf:CinematographyActivity a owl:Class ;
         "Actividad de fotografía"@es,
         "Activité de photographie"@fr ;
     dc:source "FIAF Glossary of Filmographic Terms B.5"^^xsd:string ;
-    rdfs:subClassOf fiaf:Activity .
-
-fiaf:Manifestation a owl:Class ;
-    rdfs:label "Manifestation"@en,
-        "Manifestación"@es,
-        "Manifestation"@fr ;
-    dc:source "FIAF Cataloguing Manual 2.0"^^xsd:string .
+    rdfs:subClassOf fiaf:WorkVariantActivity .
 
 fiaf:ProducingActivity a owl:Class ;
     rdfs:label "Producing Activity"@en,
         "Actividad de producción"@es,
         "Activité de production"@fr ;
     dc:source "FIAF Glossary of Filmographic Terms B.2"^^xsd:string ;
-    rdfs:subClassOf fiaf:Activity .
+    rdfs:subClassOf fiaf:WorkVariantActivity .
 
 fiaf:ProductionDesignActivity a owl:Class ;
     rdfs:label "Production Design Activity"@en,
         "Actividad de diseño de producción"@es,
         "Activité de supervision artistique"@fr ;
     dc:source "FIAF Glossary of Filmographic Terms B.6"^^xsd:string ;
-    rdfs:subClassOf fiaf:Activity .
+    rdfs:subClassOf fiaf:WorkVariantActivity .
+
+fiaf:Manifestation a owl:Class ;
+    rdfs:label "Manifestation"@en,
+        "Manifestación"@es,
+        "Manifestation"@fr ;
+    dc:source "FIAF Cataloguing Manual 2.0"^^xsd:string ;
+    owl:disjointWith fiaf:WorkVariant .
 
 fiaf:Item a owl:Class ;
     rdfs:label "Item"@en,
         "Ítem"@es,
         "Item"@fr ;
-    dc:source "FIAF Cataloguing Manual 3.0"^^xsd:string .
+    dc:source "FIAF Cataloguing Manual 3.0"^^xsd:string ;
+    owl:disjointWith fiaf:Manifestation,
+        fiaf:WorkVariant .
 
 fiaf:Stock a owl:Class ;
     rdfs:label "Stock"@en,
@@ -7865,4 +7899,8 @@ fiaf:Country a owl:Class ;
         "País"@es,
         "Pays"@fr ;
     dc:source "FIAF Cataloguing Manual 1.3.3"^^xsd:string .
+
+_:n3cbc6fd3e9d549a8a3a063fdfef340f8b1 owl:inverseOf fiaf:hasActivity .
+
+_:ncb7db3dfe977453493348a0d95b3cb7cb6 owl:inverseOf fiaf:hasEvent .
 
