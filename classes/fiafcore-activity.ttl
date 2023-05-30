@@ -22,27 +22,34 @@
     rdfs:domain fiaf:Event ;
     rdfs:range fiaf:Activity .
 
-_:isActivityOf owl:inverseOf fiaf:hasActivity .
-
 # Subclasses
 
-<https://fiafcore.org/ontology/ItemActivity> a owl:Restriction ;
+<https://fiafcore.org/ontology/ItemActivity> a owl:Class ;
     dc:source "FIAF Cataloguing Manual 3.3.1.1"^^xsd:string ;
-    owl:onProperty _:isActivityOf ;
-    owl:allValuesFrom fiaf:ItemEvent .
+    rdfs:subClassOf fiaf:Activity, [
+        a owl:Restriction ;
+        owl:onProperty [ owl:inverseOf fiaf:hasActivity ] ;
+        owl:allValuesFrom fiaf:ItemEvent
+    ] .
 
-<https://fiafcore.org/ontology/ManifestationActivity> a owl:Restriction ;
+<https://fiafcore.org/ontology/ManifestationActivity> a owl:Class ;
     rdfs:label "Manifestation Activity"@en ;
     rdfs:label "Manifestación Actividad"@es ;
     rdfs:label "Activité de manifestation"@fr ;
     dc:source "FIAF Cataloguing Manual 2.4.1.1"^^xsd:string ;
-    owl:onProperty _:isActivityOf ;
-    owl:allValuesFrom fiaf:ManifestationEvent .
+    rdfs:subClassOf fiaf:Activity, [
+        a owl:Restriction ;
+        owl:onProperty [ owl:inverseOf fiaf:hasActivity ] ;
+        owl:allValuesFrom fiaf:ManifestationEvent
+    ] .
 
-<https://fiafcore.org/ontology/WorkVariantActivity> a owl:Restriction ;
+<https://fiafcore.org/ontology/WorkVariantActivity> a owl:Class ;
     dc:source "FIAF Cataloguing Manual 1.4.1.1"^^xsd:string ;
-    owl:onProperty _:isActivityOf ;
-    owl:allValuesFrom fiaf:WorkVariantEvent .
+    rdfs:subClassOf fiaf:Activity, [
+        a owl:Restriction ;
+        owl:onProperty [ owl:inverseOf fiaf:hasActivity ] ;
+        owl:allValuesFrom fiaf:WorkVariantEvent
+    ] .
 
 <https://fiafcore.org/ontology/Adaptation> a owl:Class ;
     rdfs:label "Adaptation"@en,

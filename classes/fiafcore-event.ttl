@@ -24,24 +24,31 @@
     ] ;
     rdfs:range fiaf:Event .
 
-_:isEventOf owl:inverseOf fiaf:hasEvent .
-
 # Subclasses
 
-<https://fiafcore.org/ontology/ItemEvent> a owl:Restriction ;
+<https://fiafcore.org/ontology/ItemEvent> a owl:Class ;
     dc:source "FIAF Cataloguing Manual 3.3.2"^^xsd:string ;
-    owl:onProperty _:isEventOf ;
-    owl:allValuesFrom fiaf:Item .
+    rdfs:subClassOf fiaf:Event, [
+        a owl:Restriction ;
+        owl:onProperty [ owl:inverseOf fiaf:hasEvent ] ;
+        owl:allValuesFrom fiaf:Item
+    ] .
 
-<https://fiafcore.org/ontology/ManifestationEvent> a owl:Restriction ;
+<https://fiafcore.org/ontology/ManifestationEvent> a owl:Class ;
     dc:source "FIAF Cataloguing Manual 2.4.2"^^xsd:string ;
-    owl:onProperty _:isEventOf ;
-    owl:allValuesFrom fiaf:Manifestation .
+    rdfs:subClassOf fiaf:Event, [
+        a owl:Restriction ;
+        owl:onProperty [ owl:inverseOf fiaf:hasEvent ] ;
+        owl:allValuesFrom fiaf:Manifestation
+    ] .
 
-<https://fiafcore.org/ontology/WorkVariantEvent> a owl:Restriction ;
+<https://fiafcore.org/ontology/WorkVariantEvent> a owl:Class ;
     dc:source "FIAF Cataloguing Manual 1.4.2"^^xsd:string ;
-    owl:onProperty _:isEventOf ;
-    owl:allValuesFrom fiaf:WorkVariant .
+    rdfs:subClassOf fiaf:Event, [
+        a owl:Restriction ;
+        owl:onProperty [ owl:inverseOf fiaf:hasEvent ] ;
+        owl:allValuesFrom fiaf:WorkVariant
+    ] .
 
 <https://fiafcore.org/ontology/PublicationEvent> a owl:Class ;
     rdfs:label "Publication Event"@en ;
